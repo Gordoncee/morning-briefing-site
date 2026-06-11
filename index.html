@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>晨间科技财经简报</title>
+    <meta name="description" content="每日更新的全球科技与财经晨间简报。">
+    <meta property="og:title" content="晨间科技财经简报">
+    <meta property="og:description" content="每天筛选全球科技与财经重点新闻，沉淀为可分享的简报卡片。">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="回到首页">
+        <span class="brand-mark">MB</span>
+        <span>晨间科技财经简报</span>
+      </a>
+      <nav class="nav" aria-label="页面导航">
+        <a href="#archive">存档</a>
+        <a href="#method">方法</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">Morning Briefing</p>
+        <h1 id="hero-title">全球科技与财经，如实筛选</h1>
+        <p class="hero-copy">不追求炸裂标题，不堆砌噪声。每天从全球新闻里挑出最值得关注的五件事，先看摘要卡，点进去再读完整判断。</p>
+        <div class="hero-meta">
+          <span id="latest-status">每日工作日更新</span>
+          <span>科技 · 财经 · 市场 · 产业</span>
+        </div>
+      </section>
+
+      <section class="archive-section" id="archive" aria-labelledby="archive-title">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Archive</p>
+            <h2 id="archive-title">每日简报卡片</h2>
+          </div>
+          <p>每一天沉淀为一张简略卡片，按日期累积。</p>
+        </div>
+        <div class="digest-grid" id="digest-grid"></div>
+      </section>
+
+      <section class="method" id="method" aria-labelledby="method-title">
+        <p class="eyebrow">Method</p>
+        <h2 id="method-title">筛选方法</h2>
+        <p>优先看科技与财经领域，同时保留会影响全球市场、产业链和政策预期的重大突发事件。每条简报都尽量交叉核验来源，并把“发生了什么”和“为什么值得关注”分开写。</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>自动检索全球新闻，科技与财经优先。</span>
+      <span>卡片式存档，点击进入详情。</span>
+    </footer>
+
+    <script src="data/briefings.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
