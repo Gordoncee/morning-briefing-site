@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>访问统计后台｜晨间科技财经简报</title>
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="admin.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./">
+        <span class="brand-mark">MB</span>
+        <span>访问统计后台</span>
+      </a>
+      <nav class="nav" aria-label="页面导航">
+        <a href="./">返回网站</a>
+        <button class="nav-button" id="refresh" type="button">刷新</button>
+      </nav>
+    </header>
+
+    <main class="admin-main">
+      <section class="admin-hero">
+        <p class="eyebrow">Analytics</p>
+        <h1>网站访问监测</h1>
+        <p class="hero-copy">查看实时访问、独立访客、热门页面、来源渠道和地区分布。后台数据来自 Cloudflare Worker + D1。</p>
+      </section>
+
+      <section class="admin-setup" id="setup">
+        <label>
+          统计 API 地址
+          <input id="api-base" type="url" placeholder="https://your-worker.workers.dev">
+        </label>
+        <label>
+          后台 Token
+          <input id="admin-token" type="password" placeholder="部署 Worker 时设置的 ADMIN_TOKEN">
+        </label>
+        <button class="primary-button" id="save-config" type="button">保存并加载</button>
+        <p id="setup-note">这些信息只保存在当前浏览器的 sessionStorage，不会提交到 GitHub。</p>
+      </section>
+
+      <section class="metric-grid" id="metrics" aria-live="polite">
+        <article class="metric"><span>今日访问</span><strong id="views-today">-</strong></article>
+        <article class="metric"><span>今日访客</span><strong id="visitors-today">-</strong></article>
+        <article class="metric"><span>最近24小时</span><strong id="views-24h">-</strong></article>
+        <article class="metric"><span>最近7天</span><strong id="views-7d">-</strong></article>
+      </section>
+
+      <section class="admin-grid">
+        <article class="admin-panel">
+          <h2>最近 30 天</h2>
+          <div class="bar-chart" id="daily-chart"></div>
+        </article>
+        <article class="admin-panel">
+          <h2>热门页面</h2>
+          <div class="table-list" id="top-pages"></div>
+        </article>
+        <article class="admin-panel">
+          <h2>来源渠道</h2>
+          <div class="table-list" id="top-referrers"></div>
+        </article>
+        <article class="admin-panel">
+          <h2>地区分布</h2>
+          <div class="table-list" id="top-countries"></div>
+        </article>
+        <article class="admin-panel wide">
+          <h2>实时访问</h2>
+          <div class="table-list recent-list" id="recent"></div>
+        </article>
+      </section>
+    </main>
+
+    <script src="analytics-config.js?v=20260612-analytics"></script>
+    <script src="admin.js?v=20260612-analytics"></script>
+  </body>
+</html>
