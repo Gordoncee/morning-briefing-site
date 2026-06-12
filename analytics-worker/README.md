@@ -42,5 +42,6 @@ This Cloudflare Worker receives pageview events from `analytics.js`, stores them
 ## Endpoints
 
 - `POST /api/collect`: receives page events.
+- `GET /api/public-stats?siteId=morning-briefing-site`: returns public aggregate counters for the website footer.
 - `GET /api/stats?siteId=morning-briefing-site&days=30`: requires `Authorization: Bearer <ADMIN_TOKEN>`.
 - `GET /health`: health check.

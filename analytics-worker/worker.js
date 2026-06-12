@@ -17,6 +17,10 @@ export default {
       return collect(request, env);
     }
 
+    if (url.pathname === "/api/public-stats" && request.method === "GET") {
+      return publicStats(request, env);
+    }
+
     if (url.pathname === "/api/stats" && request.method === "GET") {
       return stats(request, env);
     }
@@ -129,6 +133,33 @@ async function stats(request, env) {
   ]);
 
   return json({ totals, daily, topPages, topReferrers, topCountries, recent });
+}
+
+async function publicStats(request, env) {
+  const url = new URL(request.url);
+  const siteId = url.searchParams.get("siteId") || env.SITE_ID;
+  if (siteId !== env.SITE_ID) {
+    return json({ error: "Unknown site" }, 404);
+  }
+
+  const row = await env.DB.prepare(`
+    SELECT
+      COUNT(CASE WHEN event = 'pageview' THEN 1 END) AS totalViews,
+      COUNT(DISTINCT CASE WHEN event = 'pageview' THEN visitor_id END) AS totalVisitors,
+      SUM(CASE WHEN event = 'pageview' AND substr(created_at, 1, 10) = substr(datetime('now'), 1, 10) THEN 1 ELSE 0 END) AS todayViews,
+      COUNT(DISTINCT CASE WHEN created_at >= datetime('now', '-15 minutes') THEN visitor_id END) AS activeVisitors
+    FROM visits
+    WHERE site_id = ?
+  `).bind(siteId).first();
+
+  return json({
+    totalViews: row?.totalViews || 0,
+    totalVisitors: row?.totalVisitors || 0,
+    todayViews: row?.todayViews || 0,
+    activeVisitors: row?.activeVisitors || 0,
+    activeWindowMinutes: 15,
+    updatedAt: new Date().toISOString(),
+  });
 }
 
 async function getTotals(db, siteId) {

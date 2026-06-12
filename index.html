@@ -7,7 +7,7 @@
     <meta name="description" content="每日更新的全球科技与财经晨间简报。">
     <meta property="og:title" content="晨间科技财经简报">
     <meta property="og:description" content="每天筛选全球科技与财经重点新闻，沉淀为可分享的简报卡片。">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20260612-public-stats">
   </head>
   <body>
     <header class="site-header">
@@ -49,6 +49,27 @@
         <h2 id="method-title">筛选方法</h2>
         <p>优先看科技与财经领域，同时保留会影响全球市场、产业链和政策预期的重大突发事件。每条简报都尽量交叉核验来源，并把“发生了什么”和“为什么值得关注”分开写。</p>
       </section>
+
+      <section class="public-stats" aria-labelledby="public-stats-title">
+        <div>
+          <p class="eyebrow">Live Stats</p>
+          <h2 id="public-stats-title">访问数据</h2>
+        </div>
+        <div class="public-stats-grid" aria-live="polite">
+          <div class="public-stat">
+            <span>累计访问</span>
+            <strong id="stats-total-views">--</strong>
+          </div>
+          <div class="public-stat">
+            <span>今日访问</span>
+            <strong id="stats-today-views">--</strong>
+          </div>
+          <div class="public-stat">
+            <span>近 15 分钟在线</span>
+            <strong id="stats-active-visitors">--</strong>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
@@ -59,6 +80,6 @@
     <script src="data/briefings.js?v=20260612-dedup"></script>
     <script src="app.js?v=20260612-dedup"></script>
     <script src="analytics-config.js?v=20260612-analytics"></script>
-    <script src="analytics.js?v=20260612-analytics"></script>
+    <script src="analytics.js?v=20260612-public-stats"></script>
   </body>
 </html>
