@@ -1,5 +1,69 @@
 window.MORNING_BRIEFINGS = [
   {
+    date: "2026-06-12",
+    displayDate: "2026年6月12日",
+    scope: "全球新闻｜科技与财经优先",
+    image: "assets/morning-briefing-2026-06-12.png",
+    summary: "今日主线是中东局势带动油价与风险偏好剧烈摆动，美国批发通胀继续抬头，AI 交易从狂热切回资本开支和兑现能力审查。",
+    focus: [
+      "中东局势若继续反复，油价和全球风险资产都会维持高波动。",
+      "美国通胀压力尚未脱离能源冲击，利率预期仍可能重新偏鹰。",
+      "AI 产业的估值逻辑正在分化：芯片链短线修复，但云基建的现金流压力被更严格定价。"
+    ],
+    items: [
+      {
+        title: "中东缓和信号推动市场反弹，但油运与油价风险仍未解除",
+        region: "美国、伊朗、中东能源市场",
+        sources: ["The Guardian", "Times of India", "AP"],
+        summary: "特朗普声称美伊接近和平安排并取消进一步打击威胁，带动美股反弹；但霍尔木兹海峡运输风险仍在，原油盘中继续剧烈波动。",
+        why: "这仍是全球资产定价的第一变量，直接牵动通胀、航运、航空和新兴市场风险偏好。",
+        watch: "霍尔木兹海峡通行恢复程度、油价是否再次逼近100美元、后续谈判是否落地。"
+      },
+      {
+        title: "美国5月批发通胀升至近三年高位，能源冲击继续外溢",
+        region: "美国、Fed、全球债券与汇率市场",
+        sources: ["AP", "Axios", "WSJ"],
+        summary: "美国5月PPI同比升至6.5%，环比上涨1.1%，创2022年底以来最快增速，能源价格大涨继续向供应链上游传导。",
+        why: "这意味着市场不能轻易假设下半年宽松，利率、美元和成长股估值都会继续受数据牵制。",
+        watch: "核心通胀是否继续抬头、联储官员口径是否转鹰、美债收益率能否维持回落。"
+      },
+      {
+        title: "Oracle 业绩不差，但AI数据中心烧钱速度吓退投资者",
+        region: "Oracle、云计算、AI基础设施",
+        sources: ["Axios", "WSJ"],
+        summary: "Oracle 云业务增长强劲，但季度自由现金流转负，过去一年现金消耗与大规模数据中心投入引发市场对融资和回报周期的担忧。",
+        why: "AI 基建需求依旧强，但市场开始更严格区分“有订单”和“能赚钱”之间的差距。",
+        watch: "后续融资安排、客户预付款覆盖程度、AI 云收入能否持续转化为现金流。"
+      },
+      {
+        title: "美股强劲反弹，芯片与AI链先修复情绪再谈基本面",
+        region: "美国股市、半导体、全球科技板块",
+        sources: ["AP"],
+        summary: "在中东紧张局势阶段性降温后，标普500上涨1.8%，纳指上涨2.5%，芯片股明显回升，短线压过了Oracle的单点利空。",
+        why: "这说明当前市场仍把AI链当作高弹性主线，但对地缘和利率的敏感度明显高于此前单边上涨阶段。",
+        watch: "芯片龙头能否延续修复、科技股反弹是趋势重启还是事件驱动的技术性回升。"
+      },
+      {
+        title: "比亚迪加码欧洲，押注快充网络与本地组装抢全球份额",
+        region: "中国、欧洲汽车市场、BYD",
+        sources: ["The Guardian", "Reuters"],
+        summary: "比亚迪提出五年内冲击全球最大车企，并计划在欧洲投入约18亿英镑建设闪充网络，同时推进匈牙利本地组装以绕开关税压力。",
+        why: "中国新能源车竞争已从出口整车升级到“制造+补能+本地化”体系输出，影响欧洲汽车业格局。",
+        watch: "欧洲建厂进度、关税与监管阻力、快充网络能否真正转化为销量优势。"
+      }
+    ],
+    sourceLinks: [
+      "https://www.theguardian.com/world/2026/jun/11/trump-seize-control-iran-oil-gas-ceasefire",
+      "https://timesofindia.indiatimes.com/business/international-business/crude-on-boil-crude-price-on-june-11-2026-oil-prices-jump-over-2-as-iran-closes-strait-of-hormuz-to-all-vessels/articleshow/131647028.cms",
+      "https://apnews.com/article/f89a3d0e7e096199f393cf2d55da5e0e",
+      "https://apnews.com/article/137b9d3e10be5244547b3d94a9d6d940",
+      "https://www.axios.com/2026/06/11/energy-inflation-producer-price",
+      "https://www.axios.com/2026/06/11/ai-oracle-data-center-earnings",
+      "https://www.wsj.com/business/earnings/oracle-reports-higher-profit-on-surging-cloud-revenue-5f7d25eb",
+      "https://www.theguardian.com/business/2026/jun/10/china-byd-car-firm-ev-maker-toyota"
+    ]
+  },
+  {
     date: "2026-06-11",
     displayDate: "2026年6月11日",
     scope: "全球新闻｜科技与财经优先",
