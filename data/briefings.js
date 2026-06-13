@@ -1,5 +1,53 @@
 window.MORNING_BRIEFINGS = [
   {
+    date: "2026-06-13",
+    displayDate: "2026年6月13日",
+    scope: "全球新闻｜科技与财经优先",
+    image: "assets/morning-briefing-2026-06-13.png",
+    summary: "本期只纳入3条，原因是周末高关注、可核验且不与前两日重复的科技财经新闻有限；重点转向AI资本市场集中度、Adobe软件估值压力和中国AI芯片/基础设施投入。",
+    focus: [
+      "AI不再只是产品叙事，正在重塑股权、债券和指数配置逻辑。",
+      "软件公司承压、芯片与AI基础设施受追捧，科技板块内部正在重新定价。",
+      "中国AI投资继续向芯片、算力和基础模型倾斜，国产供应链能力是后续关键。"
+    ],
+    items: [
+      {
+        title: "AI投资热潮正在改写股票与债券市场结构",
+        region: "全球资本市场、美国科技巨头、AI基础设施",
+        sources: ["FT", "WSJ"],
+        summary: "FT今日分析称，AI已从行业主题变成资产配置核心变量，大型科技公司加大数据中心和AI资本开支，股权融资、债券发行和指数权重都受到牵引。WSJ同日市场综述也提到，美国科技公司，尤其是Amazon和Alphabet，正积极发行欧元债券，互联网板块成为新发行的重要力量。",
+        why: "这说明AI交易已不只是个股行情，而是在改变资金流向、企业融资方式和被动指数投资的风险集中度。",
+        watch: "大型科技公司自由现金流、债务融资成本、AI相关IPO供给，以及被动基金对AI权重集中的承受能力。"
+      },
+      {
+        title: "Adobe股价跌至多年低位，CFO转投Marvell凸显软件与芯片分化",
+        region: "Adobe、Marvell、软件与半导体板块",
+        sources: ["Barron's", "MarketWatch", "Investopedia"],
+        summary: "Adobe公布强于预期的季度业绩并上调全年展望，但市场更关注其AI竞争压力、freemium策略和高管流失。CFO Dan Durn将离职加入Marvell，Adobe股价跌至多年低位，而Marvell等AI芯片链公司获得更高估值溢价。",
+        why: "这是AI时代科技板块内部轮动的缩影：投资者愿意为算力、芯片和网络基础设施付溢价，却对传统软件公司的定价权更谨慎。",
+        watch: "Adobe能否证明AI功能带来付费转化，软件板块是否继续被芯片链挤压估值。"
+      },
+      {
+        title: "百度继续押注AI与芯片，昆仑芯上市预期强化中国算力主线",
+        region: "百度、昆仑芯、中国AI基础设施",
+        sources: ["WSJ", "Tom's Hardware"],
+        summary: "WSJ报道，百度预计未来几个季度收入增长将由AI和芯片业务推动，并计划推进昆仑芯在香港上市，后续也筹备科创板路径。与此同时，中国正在推进大规模AI数据中心和国产芯片替代计划，但本土先进芯片产能与HBM供应仍是约束。",
+        why: "中国AI竞争正从模型发布转向算力、芯片和数据中心体系建设，百度等平台公司的AI投入会直接影响国产AI供应链估值。",
+        watch: "昆仑芯上市进度、国产AI芯片供给、百度AI云收入，以及政策资金是否推动算力扩张过快。"
+      }
+    ],
+    sourceLinks: [
+      "https://www.ft.com/content/b9273a66-f05d-4b28-bf34-be8ab93b89d1",
+      "https://www.ft.com/content/b31f1e09-5aae-4cad-af15-97adb15dba70",
+      "https://www.wsj.com/tech/tech-media-telecom-roundup-market-talk-f7d28098",
+      "https://www.barrons.com/articles/adobe-earnings-stock-price-f259c4e5",
+      "https://www.marketwatch.com/story/adobes-cfo-is-departing-for-marvell-and-its-one-more-reason-for-investors-to-choose-chips-over-software-336b9e16",
+      "https://www.investopedia.com/why-adobe-stock-just-hit-its-lowest-point-in-8-years-adbe-11996518",
+      "https://www.wsj.com/tech/baidu-sees-healthy-ai-driven-revenue-growth-in-next-few-quarters-217fe57a",
+      "https://www.tomshardware.com/tech-industry/china-drafts-295-billion-plan-to-build-a-national-ai-data-center-grid-running-on-80-percent-domestic-chips"
+    ]
+  },
+  {
     date: "2026-06-12",
     displayDate: "2026年6月12日",
     scope: "全球新闻｜科技与财经优先",
