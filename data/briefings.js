@@ -1,5 +1,60 @@
 window.MORNING_BRIEFINGS = [
   {
+    date: "2026-06-14",
+    displayDate: "2026年6月14日",
+    scope: "全球新闻｜科技与财经优先",
+    image: "assets/morning-briefing-2026-06-14.png",
+    summary: "本期只纳入4条，原因是周末高关注、可交叉核验且不与近三日重复的科技财经新进展有限；排除了SpaceX IPO后续、Oracle/OpenAI云采购、AI资本市场同一轮估值讨论和中国算力旧主线。",
+    focus: [
+      "AI监管正在从芯片出口管制外溢到模型访问权限，跨境服务和国际化团队都会受影响。",
+      "大模型竞争正从参数和跑分转向企业级执行环境、采购路径与长期运行代理的基础设施。",
+      "平台级AI助手与地缘政治仍是市场外部变量，既会影响产品落地，也会影响油价、通胀和风险偏好。"
+    ],
+    items: [
+      {
+        title: "美国限制外国人访问Anthropic新模型，前沿AI开始出现“模型出口管制”",
+        region: "美国监管、Anthropic、全球AI服务市场",
+        sources: ["AP", "MarketWatch"],
+        summary: "Anthropic表示，为遵守美国针对外国人访问限制的新指令，已下线最新的Fable 5和Mythos 5模型；限制对象不仅包括海外客户，也波及在美外国员工。MarketWatch认为，这标志着美国AI管制正在从芯片出口进一步推进到模型本身的跨境可得性。",
+        why: "这不是单一公司事故，而是AI监管边界的一次上移。如果前沿模型被按国家安全资产管理，全球企业采购、海外研发协作和美国AI公司的国际化增长都会被重估。",
+        watch: "限制是否扩展到更多模型提供商，许可机制是否明确，以及海外企业是否加速转向本土或开源替代。"
+      },
+      {
+        title: "OpenAI拟收购Ona，把Codex推向可持续数小时到数天的企业代理工作流",
+        region: "OpenAI、Ona、企业级AI代理基础设施",
+        sources: ["OpenAI"],
+        summary: "OpenAI 6月11日宣布拟收购云端执行与编排公司Ona，称其将把安全、客户可控的持久化云执行能力接入Codex。OpenAI同时披露，Codex周活已超过500万人，较年初增长400%，并强调未来最有价值的代理工作将持续数小时甚至数天。",
+        why: "这说明大模型竞争焦点正在从“会不会回答”转到“能不能长期稳定地替企业干活”。持久化执行环境、权限边界和日志治理，正在成为企业级代理落地的核心护城河。",
+        watch: "交易审批进度、OpenAI何时把Ona能力产品化，以及企业是否愿意把更多生产流程交给长时运行代理。"
+      },
+      {
+        title: "Apple推出Siri AI，但欧盟iPhone与iPad首发缺席，平台级AI助手先撞上监管边界",
+        region: "Apple、欧盟、移动操作系统与AI助手",
+        sources: ["The Verge"],
+        summary: "Apple在WWDC 2026推出新版Siri AI，并将其作为Apple Intelligence核心入口，但The Verge报道，因与欧盟《数字市场法》互操作要求存在冲突，iPhone和iPad版Siri AI初期不会在欧盟上线。争议焦点在于，Apple认为DMA要求向外部系统开放过深访问权限，可能损害隐私与安全。",
+        why: "苹果一旦把AI助手推到系统级入口，监管不再只是抽象风险，而是会直接决定哪些市场能否首发、哪些能力能否开放。这会影响开发者生态、设备换机周期和平台议价权。",
+        watch: "Apple与欧盟委员会能否形成折中方案，Mac或Vision设备是否先行放量，以及Siri AI的开发者测试反馈能否改善市场预期。"
+      },
+      {
+        title: "美伊接近签署停火框架，霍尔木兹重开预期成为周末市场新变量",
+        region: "美国、伊朗、中东航运与全球能源市场",
+        sources: ["AP", "The Guardian"],
+        summary: "AP和The Guardian均报道，美伊接近通过电子方式签署结束冲突的框架协议，核心内容包括启动新的核谈判周期并推动霍尔木兹海峡重新开放。不过伊朗方面仍提示协议未最终落定，实际执行与停火范围仍有不确定性。",
+        why: "这与6月11日的“冲突升级推高油价”已经不是同一阶段，而是影响油价、航运保险、通胀预期和全球风险偏好的实质性新进展。若海峡真正恢复通航，过去数周的能源风险溢价会被重新定价。",
+        watch: "协议是否如期签署、油轮和保险商是否恢复实际通行，以及美国与伊朗在制裁、核设施和黎巴嫩问题上的执行分歧。"
+      }
+    ],
+    sourceLinks: [
+      "https://apnews.com/article/d9cc7df5c02e93837d0f0bfb24d5cfd2",
+      "https://www.marketwatch.com/story/u-s-restrictions-on-new-anthropic-models-could-trigger-a-global-ai-arms-race-7752afb4",
+      "https://openai.com/index/openai-to-acquire-ona/",
+      "https://www.theverge.com/tech/942416/apple-siri-ai-update-wwdc",
+      "https://www.theverge.com/ai-artificial-intelligence/947051/apple-europe-dma-siri-ai",
+      "https://apnews.com/article/949710df39e3f1033cbb6beda3955814",
+      "https://www.theguardian.com/world/2026/jun/13/preliminary-peace-deal-could-be-signed-within-days-says-us-iran-and-mediators"
+    ]
+  },
+  {
     date: "2026-06-13",
     displayDate: "2026年6月13日",
     scope: "全球新闻｜科技与财经优先",
