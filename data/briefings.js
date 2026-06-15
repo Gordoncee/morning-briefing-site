@@ -1,5 +1,49 @@
 window.MORNING_BRIEFINGS = [
   {
+    date: "2026-06-15",
+    displayDate: "2026年6月15日",
+    scope: "全球新闻｜科技与财经优先",
+    image: "assets/morning-briefing-2026-06-15.png",
+    summary: "本期只纳入3条，原因是周末到周一之间真正具备新增信息、可交叉核验且不与近几日重复的科技财经事件有限；排除了Apple欧盟落地后续、Anthropic模型访问限制延伸、AI基建资本开支同一主线，以及中东停火与油价的跟进噪声。",
+    focus: [
+      "反垄断和互操作监管正从浏览器、应用商店延伸到AI分发入口，平台控制权会更直接影响模型商业化。",
+      "中国平台经济监管重心正在从单纯促消费转向限制低价内卷，电商利润率与商家生态可能被重新平衡。",
+      "AI带来的电力需求开始改写汽车与电池公司的资本开支方向，储能和电网灵活性成为新的产业交叉点。"
+    ],
+    items: [
+      {
+        title: "欧盟要求Meta重新向竞争对手开放WhatsApp接口，AI分发入口首次被紧急反垄断措施直接约束",
+        region: "欧盟、Meta、WhatsApp、AI聊天机器人平台",
+        sources: ["AP"],
+        summary: "欧盟委员会依据反垄断调查采取临时措施，要求Meta在五天内恢复竞争对手对WhatsApp Business API的接入，并在调查完成前持续维持。AP报道称，这是欧盟多年少见地动用紧急干预，目标直指Meta把WhatsApp流量入口优先留给自家Meta AI的做法。",
+        why: "这意味着AI竞争不再只比模型能力，谁掌握消息入口、分发渠道和默认触点，也会被监管当作市场力量审查。对所有依赖超级App流量的AI公司来说，这都是定价权和获客成本的前瞻信号。",
+        watch: "Meta是否上诉或调整接口政策，OpenAI等竞争对手能否真正恢复接入，以及欧盟会否把类似逻辑扩展到更多平台级AI入口。"
+      },
+      {
+        title: "北京在618前警示平台“价格战内卷”，中国电商重新面对监管式利润约束",
+        region: "中国、北京监管部门、阿里巴巴、京东、拼多多等电商平台",
+        sources: ["SCMP"],
+        summary: "在618大促进入冲刺阶段前，北京监管部门约谈主要电商平台，要求停止以极端低价、补贴对冲和算法引导制造恶性竞争。SCMP报道，此举反映出监管希望在刺激消费之外，压制平台与商家之间的价格战内卷，避免对中小商户和供应链利润造成持续挤压。",
+        why: "这不是普通节日促销管理，而是中国平台经济政策从“做大GMV”向“稳商家、稳利润、稳秩序”微调的信号。若执行趋严，头部平台的补贴强度、佣金策略和广告变现都会受影响。",
+        watch: "平台是否下调补贴和流量倾斜力度，品牌商与白牌商的成交结构是否变化，以及后续是否出现更明确的全国性治理口径。"
+      },
+      {
+        title: "GM联手Peak Energy押注钠离子储能，AI数据中心电力缺口开始把车厂推向能源公司",
+        region: "美国、GM、Peak Energy、数据中心与电网储能",
+        sources: ["The Verge", "Car and Driver"],
+        summary: "GM宣布与Peak Energy合作开发面向固定式储能系统的钠离子电池，并同步推进车网互动能力，核心目标是服务数据中心和电网在AI推动下上升的用电压力。The Verge与Car and Driver都指出，GM并非把钠离子首先用于电动车，而是优先放在更看重寿命、成本和热稳定性的储能场景。",
+        why: "这说明AI基础设施的外溢效应已不只是芯片和服务器，连汽车厂商的电池路线和资本配置都在被改写。谁能把车、电池、储能和电网联成一体，谁就可能拿到AI时代新的能源收益。",
+        watch: "GM与Peak的量产时间表、钠离子相对LFP的成本曲线，以及更多车厂和公用事业公司是否跟进固定式储能合作。"
+      }
+    ],
+    sourceLinks: [
+      "https://apnews.com/article/meta-whatsapp-european-union-antitrust-ai-2f25b0be4c7d6f0734ef1304e8221cbc",
+      "https://www.msn.com/en-xl/news/other/as-618-shopping-frenzy-grows-beijing-warns-e-commerce-giants-over-price-war-tactics/ar-AA25nlDB?ocid=BingNewsVerp",
+      "https://www.theverge.com/transportation/946820/gm-energy-ev-v2g-storage-sodium-ion",
+      "https://www.caranddriver.com/news/a71538744/gm-sodium-ion-battery-cells-plans/"
+    ]
+  },
+  {
     date: "2026-06-14",
     displayDate: "2026年6月14日",
     scope: "全球新闻｜科技与财经优先",
