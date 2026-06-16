@@ -1,5 +1,51 @@
 window.MORNING_BRIEFINGS = [
   {
+    date: "2026-06-16",
+    displayDate: "2026年6月16日",
+    scope: "全球新闻｜科技与财经优先",
+    image: "assets/morning-briefing-2026-06-16.png",
+    summary: "本期只纳入3条，原因是6月16日可交叉核验、且与近7日不重复的高关注科技财经新增事件有限；排除了Anthropic访问限制后续、OpenAI渠道扩张延伸、AI融资/发债同一主线，以及中东停火与大盘反弹的跟进噪声。",
+    focus: [
+      "平台开始把公开用户内容直接转成AI搜索答案，分发权与数据使用边界正在重写。",
+      "未成年人上网治理继续前移到平台入口层，年龄验证、推荐算法和产品增长模型会一起承压。",
+      "媒体与流媒体竞争焦点继续从“谁有内容”转向“谁控制终端入口、广告数据和用户关系”。"
+    ],
+    items: [
+      {
+        title: "Meta把Facebook搜索改成AI问答入口，公开帖文开始直接供陌生人检索与生成答案",
+        region: "美国、Meta、Facebook、Instagram、Threads",
+        sources: ["The Verge", "Meta"],
+        summary: "Meta 6月15日发布新的 Facebook AI 功能，其中搜索页新增“AI Mode”，可直接基于 Facebook、Instagram 和 Threads 上的公开内容生成答案，而不再只是返回链接列表。The Verge指出，这意味着用户过去面向关注者或熟人的公开帖文，正被重新放进面向陌生搜索者的AI回答场景里。",
+        why: "这不是普通搜索改版，而是平台把社交内容库存直接接入AI分发层。谁能控制公开内容、默认入口和答案呈现方式，谁就更接近下一轮内容发现和广告定价权。",
+        watch: "Meta是否补充更明确的引用与退出机制，创作者和普通用户会否对公开内容被AI二次利用提出反弹，以及欧盟等地区是否要求更强的信息来源披露。"
+      },
+      {
+        title: "英国宣布将禁止16岁以下使用TikTok、YouTube和Instagram等平台，社交媒体监管再上一个台阶",
+        region: "英国、TikTok、YouTube、Meta、Snap 等社交平台",
+        sources: ["The Guardian", "The Verge"],
+        summary: "英国政府宣布将推动新规，原则上禁止16岁以下青少年使用 TikTok、YouTube、Instagram、Facebook、X 和 Snapchat，并要求 Ofcom 制定更强的年龄验证方案；部分面向未成年人的直播、陌生人联系和暧昧型AI聊天功能也会被进一步收紧。",
+        why: "这不只是儿童保护口号，而是会直接影响平台的未成年用户增长、推荐产品设计和实名/人脸验证成本。若英国先行落地，其他市场复制的概率会明显上升。",
+        watch: "法案提交和生效时间表、年龄验证最终采用的人脸或证件方案、YouTube等平台的游说结果，以及欧盟和英联邦国家是否跟进类似门槛。"
+      },
+      {
+        title: "Fox以220亿美元收购Roku，传统媒体开始直接争夺电视操作系统和广告入口",
+        region: "美国、Fox、Roku、流媒体广告市场",
+        sources: ["Axios", "Business Insider"],
+        summary: "Fox 宣布以约220亿美元的现金加股票交易收购 Roku，交易对价约为每股160美元，预计在2027年上半年完成。Axios和Business Insider都指出，Fox希望把Tubi与Roku Channel、Roku电视操作系统和家庭广告数据能力整合，借此把自己从内容提供方进一步推向终端分发平台。",
+        why: "对流媒体行业来说，最稀缺的已不只是片库，而是电视首页入口、广告库存和用户行为数据。Fox买下Roku，等于押注“平台控制权”比单纯内容版权更值钱。",
+        watch: "监管审批是否顺利，Fox能否把 Tubi 与 Roku Channel 做出规模协同，以及广告主是否愿意为更完整的客厅流量闭环支付更高价格。"
+      }
+    ],
+    sourceLinks: [
+      "https://www.theverge.com/tech/950264/meta-ai-mode-search-facebook",
+      "https://about.fb.com/news/",
+      "https://www.theguardian.com/media/2026/jun/15/social-media-ban-uk-under-16-starmer",
+      "https://www.theverge.com/policy/949679/uk-under-16-social-media-ban-announcement",
+      "https://www.axios.com/2026/06/15/fox-roku-22-billion",
+      "https://www.businessinsider.com/fox-acquire-roku-streaming-deal-2026-6"
+    ]
+  },
+  {
     date: "2026-06-15",
     displayDate: "2026年6月15日",
     scope: "全球新闻｜科技与财经优先",
