@@ -1,5 +1,69 @@
 window.MORNING_BRIEFINGS = [
   {
+    date: "2026-06-17",
+    displayDate: "2026年6月17日",
+    scope: "全球新闻｜科技与财经优先",
+    image: "assets/morning-briefing-2026-06-17.png",
+    summary: "今日主线是AI从产业叙事进一步进入外交、资本市场、竞选资金和超级平台并购：G7讨论AI主权，英伟达债券融资放大AI基建杠杆，SpaceX用高估值继续并购AI工具。",
+    focus: [
+      "AI竞争正在从公司产品竞争升级为国家间基础设施、监管与主权能力竞争。",
+      "AI资本开支开始更明显依赖债券和股权市场，现金流、杠杆和回报周期会成为估值核心。",
+      "美国利率路径仍会决定AI和科技股反弹能否持续，尤其是在通胀仍高于目标的背景下。"
+    ],
+    items: [
+      {
+        title: "G7把AI放到峰会最后一天核心议程，欧洲要求降低对美国AI依赖",
+        region: "G7、OpenAI、Google DeepMind、Anthropic、欧洲AI产业",
+        sources: ["AP"],
+        summary: "G7峰会最后一天安排全球AI部署与治理议题，OpenAI、Google DeepMind、Anthropic以及Mistral、Cohere、Synthesia等公司负责人参会。AP报道称，欧洲在美国前沿模型访问限制之后，更强调技术主权和本土AI基础设施。",
+        why: "这说明AI不再只是企业竞争，而是进入盟友关系、产业政策和国家安全层面的基础设施议题。美国模型、云和芯片的可获得性，正在被欧洲当作战略依赖重新评估。",
+        watch: "G7是否形成后续AI安全与主权投资机制，欧盟技术主权计划如何落地，以及美国是否放松或扩大前沿模型访问限制。"
+      },
+      {
+        title: "英伟达启动约200亿美元债券融资，AI基建热潮继续推高科技公司杠杆",
+        region: "英伟达、美国债券市场、AI数据中心",
+        sources: ["Axios", "Investor's Business Daily"],
+        summary: "Axios报道，英伟达启动约200亿美元公司债发行，加入大型科技公司通过资本市场支持AI基础设施扩张的行列。高盛估计，2026年超大云厂商资本开支可能达到7700亿美元，接近其经营现金流总额。",
+        why: "AI建设正在从“现金流足够覆盖投资”的阶段，进入更多依赖债券、股权和资本市场再融资的阶段。投资者会更关注自由现金流、回购收缩和数据中心回报周期。",
+        watch: "英伟达最终发债规模与利率、其他AI链公司是否跟进融资，以及评级机构是否开始更严格审视AI资本开支。"
+      },
+      {
+        title: "SpaceX市值超过亚马逊，并以600亿美元收购Cursor背后的Anysphere",
+        region: "SpaceX、Anysphere、Cursor、xAI、全球科技资本市场",
+        sources: ["The Guardian", "Business Insider", "Times of India"],
+        summary: "The Guardian报道，SpaceX上市后市值升至约2.66万亿美元，超过亚马逊成为全球第五大上市公司，并同意以约600亿美元全股票交易收购AI编程工具Cursor背后的Anysphere，以强化xAI在代码生成领域的能力。",
+        why: "这是AI开发工具、商业航天、卫星网络和资本市场估值叙事的一次合流。高估值股票正在成为超级科技公司并购AI资产的“硬通货”。",
+        watch: "交易是否按计划在三季度完成，Cursor能否接入更强算力并维持企业客户增长，以及SpaceX股价波动会否影响全股票交易吸引力。"
+      },
+      {
+        title: "美股等待Warsh首次Fed会议，AI硬件股反弹但利率不确定性仍压着估值",
+        region: "美国股市、Fed、AI硬件与半导体板块",
+        sources: ["AP", "Barron's", "Business Insider"],
+        summary: "AP报道，美股在Fed议息决定前窄幅波动，Jabil因AI基础设施需求强劲而上涨，Broadcom、Applied Materials等AI相关股票反弹；市场同时关注新任Fed主席Kevin Warsh首次发布会会否释放更鹰派信号。",
+        why: "AI股票仍有很强的风险偏好弹性，但只要通胀和利率路径不清晰，高估值科技股就会对Fed沟通高度敏感。",
+        watch: "Warsh是否维持利率不变、点阵图或前瞻指引是否调整，以及AI硬件股反弹能否扩散到软件和云服务。"
+      },
+      {
+        title: "纽约国会初选变成AI监管代理战，OpenAI与Anthropic阵营资金正面交锋",
+        region: "美国、纽约、OpenAI投资人、Anthropic阵营、AI监管",
+        sources: ["AP"],
+        summary: "AP报道，纽约第12选区民主党初选围绕AI监管立场出现高额政治支出。支持放松监管的科技资金投入超过700万美元反对曾推动纽约RAISE Act的Alex Bores，Anthropic相关阵营则投入超过1000万美元支持其竞选。",
+        why: "AI公司和投资人正在把监管路线之争推进到地方和国会选举层面。未来AI安全、州级监管和联邦统一规则，可能越来越受政治资金影响。",
+        watch: "6月23日初选结果、纽约RAISE Act命运，以及更多州议员是否因科技资金压力调整AI监管立场。"
+      }
+    ],
+    sourceLinks: [
+      "https://apnews.com/article/7d783c6de4356962e338b8b8563d48ea",
+      "https://apnews.com/article/a7ab28d9b34edfaa2061a67616f610bc",
+      "https://www.axios.com/2026/06/16/ai-nvidia-bonds-debt",
+      "https://www.investors.com/news/technology/ai-data-centers-suppliers-nvidia-debt/",
+      "https://www.theguardian.com/science/2026/jun/16/spacex-ai-coding-anysphere-cursor-amazon-market-valuation-xai",
+      "https://www.businessinsider.com/spacex-cursor-spcx-stock-bill-ackman-elon-musk-ai-stocks-2026-6",
+      "https://apnews.com/article/stocks-markets-rates-oil-us-iran-02e500f15edc505cedd8a8428197744c",
+      "https://apnews.com/article/5753274efbf9c3839fafa78f14e19fdc"
+    ]
+  },
+  {
     date: "2026-06-16",
     displayDate: "2026年6月16日",
     scope: "全球新闻｜科技与财经优先",
