@@ -1,5 +1,64 @@
 window.MORNING_BRIEFINGS = [
   {
+    date: "2026-06-18",
+    displayDate: "2026年6月18日",
+    scope: "全球新闻｜科技与财经优先",
+    image: "assets/morning-briefing-2026-06-18.png",
+    summary: "本期只纳入4条，原因是避免重复昨日的G7 AI治理、AI发债、SpaceX/Cursor并购和Fed会前交易主线；今日保留Fed实际决议、Intel先进制程节点、Frontier碳移除资金和Snap AR眼镜商业化四个可核验新进展。",
+    focus: [
+      "美联储从降息预期转向可能加息，科技股估值和长期资本开支折现率会重新承压。",
+      "先进制程竞争进入客户验证阶段，Intel能否拿到外部客户将影响AI芯片供应链格局。",
+      "AI与硬件、气候科技、企业安全的交叉场景开始接受真实市场检验，价格、需求和治理会比概念更重要。"
+    ],
+    items: [
+      {
+        title: "美联储维持利率不变但暗示年内可能加息，Warsh首秀结束降息叙事",
+        region: "美国、Fed、全球股债市场、科技股",
+        sources: ["Axios", "The Guardian", "Barron's"],
+        summary: "Kevin Warsh首次主持FOMC会议，美联储一致决定把联邦基金目标利率维持在3.5%至3.75%，同时最新预测显示多名官员预计年内仍可能加息。会后美股走弱，市场从此前的降息交易切换到更谨慎的通胀与利率路径定价。",
+        why: "这不是昨天“等待Fed会议”的延续，而是实际政策结果发生了变化：Warsh用更短声明和弱化前瞻指引开启新沟通风格，也把AI和科技股的高估值重新放回利率约束下。",
+        watch: "后续通胀数据是否支持年内加息，Fed是否维持更少前瞻指引的沟通方式，以及纳指和AI硬件股能否消化更高贴现率。"
+      },
+      {
+        title: "Intel 18A-P进入风险生产，先进制程反攻从路线图走向客户验证",
+        region: "Intel、TSMC、Apple、Nvidia、先进半导体制造",
+        sources: ["Barron's", "Tom's Hardware", "MarketWatch"],
+        summary: "Intel披露18A-P制程已进入风险生产阶段，相比18A可在同功耗下提升约9%性能，或在同速度下降低约18%功耗。Barron's和MarketWatch称，这一节点将帮助Intel Foundry争取外部客户，但真正关键仍是良率、产能稳定性和能否获得Apple、Nvidia等大客户订单。",
+        why: "AI芯片供应链高度依赖TSMC，Intel如果能把18A-P从试产推进到可靠量产，可能改变先进制程议价格局；如果良率跟不上，Foundry亏损压力会继续拖累估值。",
+        watch: "Apple或Nvidia是否确认试产，18A-P良率和热设计数据是否继续改善，以及Intel Foundry下一季亏损是否收窄。"
+      },
+      {
+        title: "Frontier新增9.15亿美元碳移除承诺，Anthropic加入科技巨头气候采购联盟",
+        region: "Frontier、Anthropic、Google、Stripe、Salesforce、气候科技",
+        sources: ["Frontier", "WSJ"],
+        summary: "Frontier宣布新增9.15亿美元碳移除采购承诺，参与买家包括Stripe、Google、Shopify、Salesforce、H&M Group以及新加入的Anthropic，使总承诺规模达到18亿美元。Frontier表示，新资金将更集中投向具备吉吨级潜力且有长期需求路径的技术组合。",
+        why: "这说明大型科技公司在AI算力扩张带来能源和排放压力的同时，也在用长期采购合同扶持碳移除供应链。对气候科技创业公司来说，确定性需求比短期补贴更能支撑融资和商业化。",
+        watch: "资金实际流向哪些碳移除路径，Anthropic等AI公司是否把碳采购纳入算力扩张披露，以及政府采购或合规市场能否接上企业自愿需求。"
+      },
+      {
+        title: "Snap推出2195美元消费级AR眼镜，投资者质疑高价硬件能否撑起下一代计算入口",
+        region: "Snap、Meta、Apple、Google、AR智能眼镜市场",
+        sources: ["The Verge", "MarketWatch", "Axios"],
+        summary: "Snap在AWE 2026推出消费级AR眼镜Specs，预售价2195美元，计划今年秋季在美国、英国和法国发货。设备主打独立AR体验、约4小时续航和51度视场角，但MarketWatch报道称，Snap股价在发布后连续下跌，投资者担心高价格、重量和持续AR投入会拖累核心广告业务。",
+        why: "智能眼镜从AI音频眼镜走向真正AR显示仍面临价格、重量、续航和应用生态四重门槛。Snap选择先做高价早期用户产品，等于把“手机之后的入口”叙事提前交给市场检验。",
+        watch: "秋季发货后的退货率和开发者应用数量，Meta与Google是否推出更低价竞品，以及Snap是否继续为AR业务单独融资或缩减投入。"
+      }
+    ],
+    sourceLinks: [
+      "https://www.axios.com/2026/06/17/fed-warsh-interest-rates",
+      "https://www.theguardian.com/business/2026/jun/17/federal-reserve-interest-rates",
+      "https://www.barrons.com/livecoverage/fed-meeting-june-rates-warsh-news/card/read-the-full-fomc-statement-zwigT0BzD319fBDqH9h2",
+      "https://www.barrons.com/articles/intel-stock-price-foundry-18ap-chips-2cd104d5",
+      "https://www.tomshardware.com/tech-industry/semiconductors/intels-performance-enhanced-18a-p-process-enters-risk-production-enhanced-node-promises-9-percent-performance-improvement-at-iso-power",
+      "https://www.marketwatch.com/story/intel-takes-a-major-step-toward-turning-around-a-business-thats-bleeding-cash-ab68cc94",
+      "https://frontierclimate.com/writing/growth-amc",
+      "https://www.wsj.com/tech/tech-media-telecom-roundup-market-talk-c2c29be4",
+      "https://www.theverge.com/tech/950492/snap-specs-ar-glasses-launch-date-preorder",
+      "https://www.marketwatch.com/story/snap-breaks-from-the-pack-with-heavy-2-195-smart-glasses-wall-street-is-panning-the-move-99e77ae6",
+      "https://www.axios.com/2026/06/16/snaps-ar-glasses-specs"
+    ]
+  },
+  {
     date: "2026-06-17",
     displayDate: "2026年6月17日",
     scope: "全球新闻｜科技与财经优先",
