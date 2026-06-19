@@ -1,5 +1,74 @@
 window.MORNING_BRIEFINGS = [
   {
+    date: "2026-06-19",
+    displayDate: "2026年6月19日",
+    scope: "全球新闻｜科技与财经优先",
+    image: "assets/morning-briefing-2026-06-19.png",
+    summary: "今日纳入5条，均为近24小时内出现的可核验新进展；为避免重复，未继续追踪Fed会后交易、SpaceX上市后波动、中东和平协议后续、Anthropic模型解禁谈判和Intel 18A-P试产同一主线。",
+    focus: [
+      "AI算力需求正在从数据中心成本外溢到消费电子价格、半导体供应链和亚洲股市权重。",
+      "企业AI落地开始接受利润表检验，咨询、软件与网络安全公司的估值逻辑正在分化。",
+      "金融市场基础设施的创新边界继续前移，预测市场和加密衍生品监管会影响传统交易所护城河。"
+    ],
+    items: [
+      {
+        title: "特朗普称Apple将与Intel合作在美国设计制造芯片，Intel股价单日大涨约11%",
+        region: "美国、Apple、Intel、先进半导体制造",
+        sources: ["MarketWatch", "Axios"],
+        summary: "特朗普在社交平台称，Apple已同意与Intel合作，在美国设计并制造芯片。MarketWatch和Axios均报道，Intel股价周四上涨约11%，市场把这视为Intel Foundry争取外部大客户的更正式信号；但报道也提示，Apple和Intel尚未披露具体芯片、产量和时间表，分析师认为初期项目可能规模较小。",
+        why: "这不同于昨日18A-P进入风险生产的技术节点，而是潜在客户侧的新信号。若Apple真的把部分芯片订单交给Intel，美国本土先进制造叙事会从政策支持进入商业订单验证；若只是低量组件，市场对Intel的重估可能过快。",
+        watch: "Apple或Intel是否正式确认合作细节，首批芯片是否采用18A/18A-P节点，以及TSMC、Samsung在美国本土产能竞争中的响应。"
+      },
+      {
+        title: "Tim Cook称Apple产品涨价“不可避免”，AI内存短缺开始传导到消费电子",
+        region: "Apple、Micron、Samsung、SK Hynix、全球消费电子",
+        sources: ["WSJ", "MarketWatch", "The Verge"],
+        summary: "Tim Cook接受WSJ采访时表示，因DRAM和NAND等内存、存储芯片成本暴涨，Apple将不得不提高产品价格。MarketWatch报道称，Micron、Western Digital、Sandisk等存储链公司股价随之走强；The Verge也指出，AI数据中心需求正在挤压手机、电脑和游戏设备的存储供给。",
+        why: "AI资本开支不再只是云厂商和芯片股的故事，它正在通过内存价格进入普通消费者账单。Apple这样的采购巨头都无法完全吸收成本，说明AI服务器需求已足以改写消费电子利润率和定价。",
+        watch: "9月iPhone 18定价、Mac和iPad是否先涨价，DRAM/NAND供需缺口能否在2027年前缓解，以及Micron下周财报对内存周期的确认程度。"
+      },
+      {
+        title: "Accenture下调全年增长预期并创纪录大跌，AI咨询热潮首次遭遇需求与估值双重压力",
+        region: "Accenture、全球IT服务、企业AI落地、工业网络安全",
+        sources: ["FT", "MarketWatch", "WSJ"],
+        summary: "Accenture公布季度业绩后把全年收入增长预期收窄至3%至4%，新订单降至193亿美元，并称中东冲突造成约1亿美元收入影响。公司股价周四下跌约18%，FT称其跌至2017年以来低位。与此同时，Accenture宣布以约42亿美元收购Dragos多数股权并买下runZero、NetRise，押注工业网络安全。",
+        why: "这说明企业AI咨询和传统IT服务不一定同步受益于AI浪潮：客户可能减少人工密集型外包，同时要求更具体的安全和运营结果。资本市场开始区分“讲AI转型故事”和“实际获得可见订单”。",
+        watch: "Accenture能否把工业网络安全并购转化为经常性收入，AI工具是否继续压低咨询人力单价，以及Infosys、Capgemini、IBM等同行是否跟随下调展望。"
+      },
+      {
+        title: "CME起诉CFTC阻止Kalshi永续合约，预测市场与传统衍生品交易所正面冲突",
+        region: "美国、CME、CFTC、Kalshi、预测市场与加密衍生品",
+        sources: ["FT", "WSJ"],
+        summary: "CME起诉美国商品期货交易委员会，试图阻止Kalshi上线无到期日的永续合约。FT和WSJ报道称，CME认为CFTC把该类产品归为期货、而非更严格监管的掉期，绕过了Dodd-Frank框架和公开审查；Kalshi和CFTC则把争议描述为竞争与创新问题。",
+        why: "预测市场正在从事件合约扩张到更接近主流交易的衍生品结构，直接触碰传统交易所的监管护城河。如果Kalshi胜出，零售化、全天候、低门槛的金融合约可能更快进入主流市场。",
+        watch: "法院是否暂停Kalshi产品上线，CFTC是否补充规则制定程序，以及Coinbase、Polymarket等平台是否借此推进更多受监管合约。"
+      },
+      {
+        title: "Noam Shazeer离开Google加入OpenAI，AI顶级人才争夺继续压缩巨头护城河",
+        region: "OpenAI、Google DeepMind、Character.AI、AI基础模型竞争",
+        sources: ["Axios", "Barron's", "Business Insider"],
+        summary: "Axios、Barron's和Business Insider均报道，Gemini关键研究员、Character.AI联合创始人Noam Shazeer将离开Google加入OpenAI。Shazeer曾参与Transformer奠基论文和Gemini项目，Google 2024年曾以约27亿美元交易取得Character.AI技术授权并让其回归。",
+        why: "前沿AI竞争的稀缺资源仍是少数核心研究员和工程组织能力。Google用巨额交易换回的人才不到两年后转投OpenAI，说明大公司通过授权或“反向收购式招聘”锁定人才的效果并不稳固。",
+        watch: "Shazeer在OpenAI负责模型研究还是产品化，Google是否调整Gemini团队结构，以及OpenAI、Anthropic、Meta是否继续用高额薪酬和股权争夺核心研究员。"
+      }
+    ],
+    sourceLinks: [
+      "https://www.marketwatch.com/story/intel-shares-rally-as-trump-says-company-will-build-chips-for-apple-in-the-u-s-c72d8c88",
+      "https://www.axios.com/2026/06/18/intel-stock-apple-trump",
+      "https://www.wsj.com/tech/apple-price-increases-memory-supply-199845b1",
+      "https://www.marketwatch.com/story/microns-stock-is-on-the-rise-even-apple-isnt-safe-from-ballooning-memory-chip-costs-ddd04d74",
+      "https://www.theverge.com/tech/951948/apple-tim-cook-price-increases-ram",
+      "https://www.ft.com/content/9f063b07-da39-4feb-92ab-ee0f91385c62",
+      "https://www.marketwatch.com/story/two-big-reasons-accentures-stock-is-sliding-in-the-wake-of-earnings-9353b184",
+      "https://www.wsj.com/pro/cybersecurity/accenture-takes-majority-stake-in-cyber-company-dragos-bb536634",
+      "https://www.ft.com/content/5e90353f-cefd-4f3d-aaf9-830244bd5b20",
+      "https://www.wsj.com/finance/regulation/cme-sues-u-s-regulator-to-stop-kalshi-from-offering-popular-perp-futures-f96e97fe",
+      "https://www.axios.com/2026/06/18/noam-shazeer-google-openai-characterai",
+      "https://www.barrons.com/articles/openai-ai-alphabet-stock-shazeer-6f5a9950",
+      "https://www.businessinsider.com/google-veteran-founded-characterai-is-jumping-to-openai-talent-war-2026-6"
+    ]
+  },
+  {
     date: "2026-06-18",
     displayDate: "2026年6月18日",
     scope: "全球新闻｜科技与财经优先",
