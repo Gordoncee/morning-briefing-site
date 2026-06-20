@@ -1,5 +1,51 @@
 window.MORNING_BRIEFINGS = [
   {
+    date: "2026-06-20",
+    displayDate: "2026年6月20日",
+    scope: "全球新闻｜科技与财经优先",
+    image: "assets/morning-briefing-2026-06-20.png",
+    summary: "本期只纳入3条，原因是周末可交叉核验且与近7日不重复的高关注科技财经新事件有限；为避免重复，未继续追踪Fed会后解读、SpaceX/MANGOS估值叙事、Anthropic模型限制后续、内存涨价和Accenture下跌同一主线。",
+    focus: [
+      "AI算力竞争正在从买GPU扩张到自研芯片、金融担保、数据中心债务和外部资本组织能力。",
+      "科技巨头的AI资本开支越来越像基础设施融资项目，资产负债表、能源接入和客户锁定会一起决定胜负。",
+      "亚洲数字平台资产重新打开大型IPO窗口，印度电信、AI和消费互联网基础设施可能成为全球资金的新定价标的。"
+    ],
+    items: [
+      {
+        title: "Google用32亿美元担保推进TPU数据中心，正按Nvidia打法争夺AI芯片客户",
+        region: "美国、Google、Nvidia、Anthropic、AI芯片与数据中心融资",
+        sources: ["WSJ", "Barron's"],
+        summary: "WSJ披露，Google为纽约Lake Mariner AI数据中心项目提供约32亿美元财务担保，项目将部署大量TPU并向Anthropic出租算力。报道还称，Google正在用担保、云合作和直接销售等方式扩大TPU商业化，试图复制Nvidia用资金安排带动芯片需求的打法；Barron's本周也指出，Google和Amazon等大客户自研芯片正成为Nvidia更现实的竞争压力。",
+        why: "这不是单纯的芯片发布，而是AI算力市场从硬件性能竞争进入融资结构竞争。Google如果能把TPU从自用资源变成外部客户可采购的完整生态，Nvidia超过90%份额的护城河会第一次面对真正有资本和客户基础的挑战者。",
+        watch: "Anthropic后续是否扩大TPU训练或推理占比，Google直接销售TPU能否拿到金融、云服务以外客户，以及Nvidia是否用更强供货或融资条件守住核心客户。"
+      },
+      {
+        title: "Meta让华尔街老将为6000亿美元AI扩张找钱，科技资本开支走向结构化融资",
+        region: "美国、Meta、AI数据中心、私募资本、主权财富基金",
+        sources: ["FT", "Axios"],
+        summary: "FT报道，Meta总裁Dina Powell McCormick正在为公司到2028年在美国投入约6000亿美元的AI基础设施计划对接华尔街和主权资本，讨论债券、表外结构和私募资本合作等方案。Axios此前也报道，她强调美国需要在两年内形成新的AI基础设施劳动力，包括大量电工，以支撑数据中心建设。",
+        why: "Meta过去主要靠广告现金流自我融资，但AI数据中心、电力和芯片成本已经大到需要外部资本设计。科技公司正在把AI竞赛变成类似能源、通信和地产的基础设施融资竞赛，投资者需要重新评估自由现金流、债务和未来算力需求之间的关系。",
+        watch: "Meta是否发行新股或更多项目债，Blue Owl等私募资本是否复制Louisiana数据中心交易，以及Meta是否真的把过剩算力商业化为云服务。"
+      },
+      {
+        title: "Reliance Jio递交印度史上最大IPO草案，5亿用户平台把5G与AI故事推向公开市场",
+        region: "印度、Reliance Jio、Meta、Google、亚洲IPO市场",
+        sources: ["FT", "Times of India"],
+        summary: "FT报道，Mukesh Ambani已启动Jio Platforms上市流程，Jio计划发行最多2.7亿股新股，知情人士称可能以约2.5%流通股融资至多40亿美元，有望成为印度史上最大IPO。Times of India称，Jio估值目标约1370亿美元，并强调其背后有Meta、Google等既有股东以及AI、卫星宽带和数字服务扩张计划。",
+        why: "Jio不是普通电信IPO，而是印度数字基础设施、移动互联网入口和AI本土化能力的集中定价。若发行顺利，它会为亚洲大型科技平台重新打开上市窗口，也会给Meta、Google在印度生态里的早期投资提供市场锚点。",
+        watch: "正式招股书披露的收入、ARPU和资本开支，印度市场能否吸收40亿美元级发行，以及Jio的AI与卫星宽带计划是否转化为高于传统电信的估值倍数。"
+      }
+    ],
+    sourceLinks: [
+      "https://www.wsj.com/tech/ai/google-is-using-nvidias-playbook-to-build-a-rival-ai-chip-business-1eac86f9",
+      "https://www.barrons.com/articles/nvidia-stock-price-ai-chips-5af3e659",
+      "https://www.ft.com/content/c9523494-db86-4e9d-858a-d7f39d5bde45",
+      "https://www.axios.com/2026/03/25/meta-president-ai-infrastructure-workforce",
+      "https://www.ft.com/content/7cdb0f6d-7176-4454-9010-2daba4d0b8b0",
+      "https://timesofindia.indiatimes.com/business/india-business/reliances-jio-platforms-ipo-from-meta-google-backing-to-ai-ambitions-10-takeaways-from-what-could-be-indias-biggest-public-issue/articleshow/131861707.cms"
+    ]
+  },
+  {
     date: "2026-06-19",
     displayDate: "2026年6月19日",
     scope: "全球新闻｜科技与财经优先",
