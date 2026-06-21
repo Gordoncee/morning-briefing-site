@@ -1,5 +1,68 @@
 window.MORNING_BRIEFINGS = [
   {
+    date: "2026-06-21",
+    displayDate: "2026年6月21日",
+    scope: "全球新闻｜科技与财经优先",
+    image: "assets/morning-briefing-2026-06-21.png",
+    summary: "周末真正新增的可核验科技财经事件集中在下周市场前瞻：Micron财报将检验AI内存景气度，美伊谈判与霍尔木兹通行影响油价，AI监管和AI代理安全也进入更具体的政策与工程阶段。",
+    focus: [
+      "Micron财报会成为AI内存、HBM和整个半导体链估值的重要短期验证。",
+      "美伊谈判与霍尔木兹通行会继续影响油价、通胀预期和Fed后续政策压力。",
+      "AI竞争正在同时向硬件入口、政策灰区和代理安全工程推进，监管与产品落地会彼此牵制。"
+    ],
+    items: [
+      {
+        title: "Micron本周财报成AI内存行情关键测试，利润增长预期接近1000%",
+        region: "Micron、Nvidia、HBM、全球半导体市场",
+        sources: ["MarketWatch", "Investor's Business Daily", "Investopedia"],
+        summary: "MarketWatch称，Micron周三盘后财报已成为本周最受关注的市场事件之一，FactSet预计其调整后每股收益同比增长接近1000%。AI推动的高带宽内存和DRAM价格上涨，让Micron与Nvidia一起成为标普500二季度利润增长的重要贡献者。",
+        why: "这不是普通芯片公司财报，而是AI资本开支能否继续传导到真实利润的直接检验。若Micron确认供给紧张和定价强势，AI链会从GPU进一步扩散到内存、封装和设备。",
+        watch: "HBM出货与毛利率指引、DRAM/NAND价格能否延续上涨，以及Samsung、SK Hynix和设备材料股的跟随反应。"
+      },
+      {
+        title: "美伊永久和平谈判启动，周日晚美股期货将同时交易油价、芯片和SpaceX风险",
+        region: "美国、伊朗、霍尔木兹海峡、全球股债油市场",
+        sources: ["Investor's Business Daily"],
+        summary: "Investor's Business Daily报道，美国和伊朗周日开始永久和平协议谈判，霍尔木兹海峡状态仍存在分歧；美股期货将在周日晚开盘，市场同时关注上周AI芯片股反弹、SpaceX回落、Micron财报和FedEx业绩。",
+        why: "油价和AI股现在同时牵动通胀与风险偏好：若谈判改善航运预期，能源价格可能继续降温；若霍尔木兹风险反复，Fed的鹰派压力会重新压住高估值科技股。",
+        watch: "周日晚原油和纳指期货反应、霍尔木兹实际船舶通行数据，以及FedEx对实体经济和燃油成本的指引。"
+      },
+      {
+        title: "Google DeepMind发布AI控制路线图，把未来自主代理当作网络安全威胁管理",
+        region: "Google DeepMind、AI代理、安全工程",
+        sources: ["Axios"],
+        summary: "Axios报道，Google DeepMind发布AI Control Roadmap，主张用类似网络安全的分层防御方法管理越来越自主的AI代理，包括监督模型、权限控制和对代理推理/行为的持续监测。DeepMind称目前尚未出现真正失控代理，但需要提前建设控制体系。",
+        why: "AI代理从演示走向企业流程后，风险不只是回答错误，而是拥有权限后错误执行、越权访问或规避任务边界。把代理安全工程化，会影响企业采购和监管标准。",
+        watch: "DeepMind路线图是否变成行业基准，OpenAI、Anthropic和企业软件厂商是否发布类似控制框架，以及客户是否要求可审计代理权限。"
+      },
+      {
+        title: "Axios称特朗普政府形成“影子AI政策”，不叫监管但正在重塑行业边界",
+        region: "美国政府、AI监管、OpenAI、Anthropic、联邦采购与出口控制",
+        sources: ["Axios"],
+        summary: "Axios分析称，特朗普政府一边反对正式AI监管，一边通过撤销旧规则、压制州级规则、联邦采购、安全审查、模型出口限制和个案干预塑造行业行为。Anthropic前沿模型限制与政府审查框架，显示政策影响正在绕开传统立法路径。",
+        why: "AI公司不能只看是否出台正式法律。采购资格、出口许可、州法优先权和安全审查，都会直接影响模型发布、国际收入和企业客户选择。",
+        watch: "国会是否推进统一AI立法，州级AI规则是否被压制，以及前沿模型出口限制会否扩展到更多公司。"
+      },
+      {
+        title: "Apple被曝测试带摄像头AirPods，AI硬件入口从眼镜扩展到耳机",
+        region: "Apple、Siri AI、Meta智能眼镜、可穿戴设备",
+        sources: ["The Verge", "Bloomberg", "Tom's Guide"],
+        summary: "The Verge援引Bloomberg报道称，Apple正在测试带摄像头的AirPods，计划在2027年底前后推出，使Siri获得环境视觉上下文；这可能成为Apple进入AI可穿戴硬件的第一步，并为后续智能眼镜铺路。",
+        why: "AI入口竞争不再局限于手机应用。耳机、眼镜和摄像头传感器会决定AI助手能否理解现实场景，也会带来隐私提示、云端上传和硬件成本的新问题。",
+        watch: "Apple是否在iOS 28中开放相关API，摄像头AirPods是否采用本地处理或云端处理，以及Meta、Google和Snap是否调整智能眼镜定价。"
+      }
+    ],
+    sourceLinks: [
+      "https://www.marketwatch.com/story/microns-earnings-are-a-must-watch-market-event-with-profit-growth-approaching-1-000-78ec4549",
+      "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-us-iran-talks-hormuz-nvidia-spacex-micron/",
+      "https://www.investopedia.com/what-to-expect-in-markets-this-week-a-post-fed-inflation-reading-and-earnings-from-a-hot-memory-maker-stock-12001591",
+      "https://www.axios.com/2026/06/18/google-deepmind-prepares-for-rogue-ai-agents",
+      "https://www.axios.com/2026/06/18/trump-shadow-ai-policy",
+      "https://www.theverge.com/tech/950826/apple-airpod-camera-ai-foldable-iphone-rumor",
+      "https://www.tomsguide.com/audio/airpods/gurman-ai-airpods-with-cameras-just-tipped-for-2027-launch-in-flurry-of-new-releases"
+    ]
+  },
+  {
     date: "2026-06-20",
     displayDate: "2026年6月20日",
     scope: "全球新闻｜科技与财经优先",
