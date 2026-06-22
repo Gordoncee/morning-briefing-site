@@ -1,5 +1,71 @@
 window.MORNING_BRIEFINGS = [
   {
+    date: "2026-06-22",
+    displayDate: "2026年6月22日",
+    scope: "全球新闻｜科技与财经优先",
+    image: "assets/morning-briefing-2026-06-22.png",
+    summary: "今天的主线是AI行情进入“利润验证、资本化与权力再平衡”阶段：Micron财报检验AI内存景气，中国具身智能公司准备赴港上市，Nadella公开提醒不能让少数AI巨头吞下经济。",
+    focus: [
+      "Micron财报与本周PCE数据会共同决定AI股和利率交易能否继续共振。",
+      "机器人、AI基础设施和AI人才争夺正在把资本市场、产业政策和公司护城河重新连在一起。",
+      "美伊谈判与霍尔木兹通行仍是本周油价、通胀预期和风险偏好的外部变量。"
+    ],
+    items: [
+      {
+        title: "Micron财报成为AI行情压力测试，市场盯紧近1000%利润增速能否兑现",
+        region: "Micron、Nvidia、HBM、美国半导体与AI股",
+        sources: ["MarketWatch", "Economic Times", "Barron's"],
+        summary: "MarketWatch称，Micron本周三盘后财报已成为本周最重要市场事件之一，FactSet预计其调整后每股收益同比增长接近1000%。Economic Times也将Micron视为AI推动美股反弹能否延续的关键验证，Barron's则把Micron、PCE通胀和FedEx业绩列为本周核心观察。",
+        why: "AI行情过去主要看Nvidia和云资本开支，现在轮到内存公司用利润表证明需求强度。如果Micron指引强，AI链条会继续向HBM、DRAM、封装、设备和材料扩散；如果指引弱，市场会重新质疑AI资本开支是否过热。",
+        watch: "HBM出货与价格、DRAM/NAND供需缺口、Micron对2027年需求的说法，以及Samsung、SK Hynix和半导体设备股的联动。"
+      },
+      {
+        title: "软银支持的中国机器人公司Coowa准备香港IPO，具身智能进入公开市场定价窗口",
+        region: "中国、香港IPO、SoftBank、具身智能机器人",
+        sources: ["WSJ"],
+        summary: "WSJ报道，软银支持的中国机器人公司Coowa正准备在香港上市，计划未来两到三个月提交申请。公司最新估值超过30亿美元，上一轮融资超过6亿美元，业务覆盖制造、共享出行、物业服务等城市机器人场景，并已在50多个城市和地区部署超过1万台机器人。",
+        why: "这说明机器人和具身智能不再只是实验室或概念股叙事，正在进入收入、部署数量和二级市场估值检验阶段。香港若重新打开AI机器人IPO窗口，会影响Unitree、车企机器人业务和亚洲科技股风险偏好。",
+        watch: "Coowa招股书披露的收入质量和毛利率，香港市场是否接受30亿美元以上估值，以及SoftBank是否继续把机器人资产推向资本市场。"
+      },
+      {
+        title: "Nadella警告不能让少数AI巨头“吞下经济”，微软AI战略转向更开放模型选择",
+        region: "Microsoft、OpenAI、Anthropic、Google、企业AI市场",
+        sources: ["WSJ"],
+        summary: "WSJ采访中，Microsoft CEO Satya Nadella警告，AI不能被少数前沿模型公司过度集中控制，否则会削弱经济多样性和公共信任。微软正通过Copilot Cowork等产品提供模型选择，并拥抱更低成本模型供应商，以降低企业AI使用门槛。",
+        why: "这代表微软从单纯重押OpenAI，转向强调多模型、低成本和用户控制权。企业AI竞争会从“谁有最强模型”进一步变成“谁能用更低成本把AI嵌入工作流，并让客户保留议价权”。",
+        watch: "微软是否继续扩大非OpenAI模型接入，Copilot Cowork的企业采用率，以及OpenAI、Anthropic、Google是否被迫调整价格和渠道策略。"
+      },
+      {
+        title: "美伊谈判后股指期货走低，霍尔木兹和油价继续牵动通胀交易",
+        region: "美国、伊朗、霍尔木兹海峡、全球股市与油市",
+        sources: ["Investor's Business Daily", "Barron's"],
+        summary: "Investor's Business Daily报道，美伊周日在瑞士就永久和平协议举行谈判后，美股期货小幅走低；Barron's称，伊朗再次关闭霍尔木兹海峡的消息推高油价，WTI一度涨至约78美元，股指期货同步承压。",
+        why: "能源风险仍是AI和科技股以外最重要的宏观变量。若油价反复上冲，PCE通胀和Fed加息压力会重新压制高估值成长股；若通行恢复，风险偏好和航空、物流等成本敏感行业会受益。",
+        watch: "霍尔木兹实际船舶通行、WTI/Brent是否重新突破80美元、周四PCE数据是否体现能源冲击，以及Fed官员是否调整措辞。"
+      },
+      {
+        title: "Google AI核心人才继续流向OpenAI和Anthropic，人力资本成前沿模型最稀缺资源",
+        region: "Google DeepMind、OpenAI、Anthropic、AI人才竞争",
+        sources: ["MarketWatch", "Axios", "Times of India"],
+        summary: "MarketWatch报道称，Google近期失去两位重量级AI人才：Gemini共同负责人Noam Shazeer转投OpenAI，AlphaFold核心人物、诺奖得主John Jumper转投Anthropic。Axios和Business Insider此前也指出，Shazeer离职凸显Google用大额授权和回流交易锁定人才的效果有限。",
+        why: "AI竞争不只看GPU和数据中心，最顶级的少数研究员会直接影响模型路线、产品速度和资本市场信心。Google资源雄厚，但如果关键人才持续外流，Gemini和DeepMind的组织稳定性会被重新定价。",
+        watch: "Google是否调整AI团队激励，OpenAI和Anthropic是否继续高薪挖角，以及人才流动是否影响Gemini和Claude下一代模型节奏。"
+      }
+    ],
+    sourceLinks: [
+      "https://www.marketwatch.com/story/microns-earnings-are-a-must-watch-market-event-with-profit-growth-approaching-1-000-78ec4549",
+      "https://m.economictimes.com/markets/us-stocks/news/us-stock-market-micron-earnings-to-test-strength-of-ai-fuelled-wall-street-rally/articleshow/131900960.cms",
+      "https://www.barrons.com/articles/inflation-fedex-micron-kb-home-darden-e9a08cdc",
+      "https://www.wsj.com/tech/ai/softbank-backed-robot-maker-gears-up-for-hong-kong-ipo-sources-say-ef2c78a2",
+      "https://www.wsj.com/tech/ai/microsofts-satya-nadella-we-cant-let-ai-giants-eat-the-economy-b9d33b9f",
+      "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-us-iran-talks-hormuz-nvidia-spacex-micron/",
+      "https://www.barrons.com/articles/stock-futures-oil-trading-sunday-a0a615fa",
+      "https://www.marketwatch.com/story/google-shake-up-highlights-how-human-brains-may-be-the-scarcest-ai-resource-of-all-1ea41ac7",
+      "https://www.axios.com/2026/06/18/noam-shazeer-google-openai-characterai",
+      "https://timesofindia.indiatimes.com/technology/tech-news/as-nobel-prize-winning-ai-researcher-john-jumper-announces-he-is-leaving-google-deepmind-for-anthropic-google-ai-ceo-demis-hassabis-shares-thanks-note/articleshow/131869587.cms"
+    ]
+  },
+  {
     date: "2026-06-21",
     displayDate: "2026年6月21日",
     scope: "全球新闻｜科技与财经优先",
