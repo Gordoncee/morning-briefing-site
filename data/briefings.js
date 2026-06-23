@@ -1,5 +1,61 @@
 window.MORNING_BRIEFINGS = [
   {
+    date: "2026-06-23",
+    displayDate: "2026年6月23日",
+    scope: "全球新闻｜科技与财经优先",
+    image: "assets/morning-briefing-2026-06-23.png",
+    summary: "本期只纳入4条，原因是避免重复近几期已经覆盖的Micron财报前瞻、Google AI人才外流、SpaceX/AI市场波动和Fed会后同一利率主线；今日保留AI安全产品化、国防科技融资、软件私募估值重置和欧洲科学AI算力四个新事实面。",
+    focus: [
+      "AI正在从模型能力竞争扩展到安全修复、国防装备、科学计算和私募资产重估。",
+      "资本市场对AI的容忍度开始分化：防务和基础设施仍获资金，存量软件资产则面临AI替代与高杠杆双重压力。",
+      "今天应重点观察这些新进展能否从公告或融资热度，转化为真实订单、补丁落地和可持续现金流。"
+    ],
+    items: [
+      {
+        title: "OpenAI推出Daybreak和GPT-5.5-Cyber，把AI安全能力从“发现漏洞”推向自动补丁",
+        region: "OpenAI、开源软件、网络安全、关键基础设施",
+        sources: ["OpenAI", "Trail of Bits"],
+        summary: "OpenAI 6月22日发布Daybreak扩展计划，推出Codex Security更新、GPT-5.5-Cyber完整版本和Patch the Planet开源维护者支持项目。OpenAI称Codex Security预览期已扫描超过3万个代码库和3000万次提交，自动判定超过50万个发现项已修复；Patch the Planet首批参与项目包括cURL、Go、Python、Sigstore、pyca/cryptography等，Trail of Bits也同步确认这是双方联合项目。",
+        why: "这不是普通安全工具更新，而是前沿模型开始进入漏洞验证、补丁生成、测试和披露协作的完整闭环。如果可控落地，AI安全行业会从“更多告警”转向“更快修复”，也会改变企业安全预算在扫描器、SAST、代码审计和托管服务之间的分配。",
+        watch: "GPT-5.5-Cyber的可信访问门槛、Patch the Planet实际合并补丁数量、企业是否把Codex Security接入CI/CD，以及各国政府是否接受这类更开放的防御型AI能力。"
+      },
+      {
+        title: "战争推动国防科技融资年内达123亿美元，战场AI和无人系统成为VC热门资产",
+        region: "美国、欧洲、国防科技、无人机、战场AI",
+        sources: ["Financial Times", "PitchBook"],
+        summary: "FT援引PitchBook数据称，2026年至今国防科技初创公司已获得123亿美元风险投资，几乎是去年同期两倍，也超过2025年全年99.5亿美元总额。资金主要流向无人机、自主舰艇、战场AI和低成本快速制造武器系统，美国公司吸收约114亿美元，Anduril、Helsing、Stark等公司成为代表性标的。",
+        why: "国防科技正在从少数政府承包商的长周期采购，变成风险资本愿意高估值下注的技术赛道。AI、机器人和传感器能力会更快进入军工供应链，但估值过热和政府采购兑现节奏也会决定这轮融资能否持续。",
+        watch: "乌克兰和海湾冲突是否继续拉动采购，欧洲政府是否扩大本土防务预算，Anduril等高估值公司能否把融资转化为长期合同。"
+      },
+      {
+        title: "Thoma Bravo放弃Medallia并损失约50亿美元，AI冲击下软件私募估值进入清算期",
+        region: "Thoma Bravo、Medallia、Blackstone、Apollo、KKR、私募信贷",
+        sources: ["Financial Times", "Barron's"],
+        summary: "FT报道，Thoma Bravo将2021年以64亿美元收购的客户体验软件公司Medallia移交给Blackstone牵头、Apollo和KKR参与的贷款方，约51亿美元股本投资被抹去，成为私募股权史上第二大损失之一。Barron's此前也将Medallia列为私募信贷风险案例，指出贷款估值已被下调，AI对客服与横向软件服务的替代压力正在放大高杠杆收购问题。",
+        why: "这把“AI会冲击软件商业模式”的二级市场担忧，推进到了私募股权和私募信贷的真实损失层面。过去靠高续费率和成本削减支撑的软件LBO，现在同时面对增长放缓、利率上升、债务滚动和AI替代。",
+        watch: "Blackstone等贷款方是否能重组Medallia，Vista、Thoma Bravo其他软件资产是否继续减记，以及私募信贷基金是否提高对AI敏感软件公司的风险折价。"
+      },
+      {
+        title: "欧洲JUPITER超算在ISC展示科学AI成果，Grace Hopper平台支撑脑图谱、气候和量子模拟",
+        region: "德国、欧洲、Nvidia、Jülich、科学AI与超级计算",
+        sources: ["Nvidia", "Jülich Supercomputing Centre"],
+        summary: "Nvidia在ISC期间披露，欧洲首台百亿亿次级超算JUPITER已运行多项科学AI项目：用4096个Grace Hopper超芯片和6.5PB脑成像数据训练CytoNet脑微结构模型，用20480个Grace Hopper超芯片运行1公里分辨率地球系统模拟，并完成通用50量子位量子计算机模拟。JUPITER由德国Jülich Supercomputing Centre运行，采用Nvidia Grace Hopper和Quantum-X800 InfiniBand。",
+        why: "AI算力竞争不只发生在云厂商和商业大模型之间。欧洲用主权超算把气候、脑科学、6G和量子模拟放到同一个AI基础设施上，说明国家级科学计算平台正在成为AI产业政策的一部分。",
+        watch: "JUPITER是否产出可复用的欧洲语言大模型和科学基础模型，Grace Hopper科学计算案例能否带动更多主权AI采购，以及欧洲是否继续扩大本土高性能计算预算。"
+      }
+    ],
+    sourceLinks: [
+      "https://openai.com/index/daybreak-securing-the-world/",
+      "https://openai.com/index/patch-the-planet/",
+      "https://blog.trailofbits.com/",
+      "https://www.ft.com/content/cb535f43-d2b7-4d14-82fe-abdd14765dfe",
+      "https://www.ft.com/content/ae4b6c77-9b3d-46fb-a7fc-59f072e7291b",
+      "https://www.barrons.com/articles/medallia-private-credit-blackstone-thoma-bravo-have-exposure-395f32ee",
+      "https://blogs.nvidia.com/blog/jupiter-exascale-supercomputing-science/",
+      "https://blogs.nvidia.com/blog/jupiter-exascale-supercomputer-live/"
+    ]
+  },
+  {
     date: "2026-06-22",
     displayDate: "2026年6月22日",
     scope: "全球新闻｜科技与财经优先",
