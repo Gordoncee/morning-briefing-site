@@ -2,12 +2,15 @@ name: Morning briefing
 
 on:
   schedule:
-    # 07:30, 07:55, and 08:20 Asia/Shanghai. GitHub scheduled
-    # workflows can be delayed or occasionally dropped, so backups are
-    # intentionally idempotent and skip when today's briefing already exists.
+    # 07:30, 07:45, 08:05, 08:20, and 08:35 Asia/Shanghai.
+    # GitHub scheduled workflows can be delayed or occasionally dropped,
+    # so backups are intentionally idempotent and skip when today's
+    # briefing already exists.
     - cron: "30 23 * * *"
-    - cron: "55 23 * * *"
+    - cron: "45 23 * * *"
+    - cron: "5 0 * * *"
     - cron: "20 0 * * *"
+    - cron: "35 0 * * *"
   workflow_dispatch:
     inputs:
       date:
