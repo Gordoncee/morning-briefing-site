@@ -59,7 +59,7 @@ class BriefingError(RuntimeError):
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", default=os.environ.get("BRIEFING_DATE", ""))
-    parser.add_argument("--max-candidates", type=int, default=int(os.environ.get("MAX_NEWS_CANDIDATES", "90")))
+    parser.add_argument("--max-candidates", type=int, default=int(os.environ.get("MAX_NEWS_CANDIDATES", "50")))
     args = parser.parse_args()
 
     today = parse_date(args.date)
@@ -182,7 +182,7 @@ def make_candidate(title: str, url: str, summary: str, source: str, published: s
         "title": clean_space(title),
         "url": clean_space(url),
         "source": clean_space(source or hostname(url)),
-        "summary": clean_space(summary),
+        "summary": truncate(clean_space(summary), 320),
         "published": normalize_date(published),
     }
 
@@ -218,6 +218,10 @@ def clean_html(value: str) -> str:
 
 def clean_space(value: str) -> str:
     return re.sub(r"\s+", " ", value or "").strip()
+
+
+def truncate(value: str, limit: int) -> str:
+    return value if len(value) <= limit else value[: limit - 1].rstrip() + "…"
 
 
 def hostname(url: str) -> str:
@@ -307,7 +311,7 @@ def post_json(url: str, api_key: str, payload: dict[str, Any]) -> dict[str, Any]
         method="POST",
     )
     try:
-        with urllib.request.urlopen(req, timeout=120) as response:  # noqa: S310
+        with urllib.request.urlopen(req, timeout=300) as response:  # noqa: S310
             return json.loads(response.read().decode("utf-8"))
     except urllib.error.HTTPError as exc:
         detail = exc.read().decode("utf-8", errors="replace")
