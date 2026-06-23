@@ -2,8 +2,12 @@ name: Morning briefing
 
 on:
   schedule:
-    # 07:30 Asia/Shanghai
+    # 07:30, 07:55, and 08:20 Asia/Shanghai. GitHub scheduled
+    # workflows can be delayed or occasionally dropped, so backups are
+    # intentionally idempotent and skip when today's briefing already exists.
     - cron: "30 23 * * *"
+    - cron: "55 23 * * *"
+    - cron: "20 0 * * *"
   workflow_dispatch:
     inputs:
       date:
@@ -68,11 +72,30 @@ jobs:
           sudo apt-get install -y fonts-noto-cjk
           python -m pip install --upgrade pip pillow
 
+      - name: Resolve briefing date
+        id: briefing-date
+        run: |
+          DATE="${BRIEFING_DATE:-$(TZ=Asia/Shanghai date +%F)}"
+          echo "date=${DATE}" >> "$GITHUB_OUTPUT"
+
+      - name: Check existing scheduled briefing
+        id: existing-briefing
+        run: |
+          DATE="${{ steps.briefing-date.outputs.date }}"
+          if [ "${{ github.event_name }}" = "schedule" ] && grep -Eq "(date:|\"date\":)[[:space:]]*\"${DATE}\"" data/briefings.js; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Scheduled briefing ${DATE} already exists; skipping backup run."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Generate briefing
+        if: steps.existing-briefing.outputs.skip != 'true'
         timeout-minutes: 12
         run: python scripts/generate_morning_briefing.py
 
       - name: Validate generated files
+        if: steps.existing-briefing.outputs.skip != 'true'
         run: |
           node --check app.js
           node --check data/briefings.js
@@ -97,8 +120,9 @@ jobs:
           PY
 
       - name: Commit and push
+        if: steps.existing-briefing.outputs.skip != 'true'
         run: |
-          DATE="${BRIEFING_DATE:-$(TZ=Asia/Shanghai date +%F)}"
+          DATE="${{ steps.briefing-date.outputs.date }}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add index.html data/briefings.js assets
