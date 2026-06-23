@@ -458,7 +458,6 @@ def render_share_image(briefing: dict[str, Any], out: Path) -> None:
             "/System/Library/Fonts/Hiragino Sans GB.ttc",
             "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
             "/usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc",
-            "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
         ]
     )
     bold = first_existing_font(
@@ -466,7 +465,6 @@ def render_share_image(briefing: dict[str, Any], out: Path) -> None:
             "/System/Library/Fonts/STHeiti Medium.ttc",
             "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
             "/usr/share/fonts/truetype/noto/NotoSansCJK-Bold.ttc",
-            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
         ]
     )
 
