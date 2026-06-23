@@ -59,7 +59,7 @@ class BriefingError(RuntimeError):
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", default=os.environ.get("BRIEFING_DATE", ""))
-    parser.add_argument("--max-candidates", type=int, default=int(os.environ.get("MAX_NEWS_CANDIDATES", "50")))
+    parser.add_argument("--max-candidates", type=int, default=int(os.environ.get("MAX_NEWS_CANDIDATES", "30")))
     args = parser.parse_args()
 
     today = parse_date(args.date)
@@ -125,7 +125,7 @@ def collect_candidates(limit: int) -> list[dict[str, str]]:
 
     seen: set[str] = set()
     candidates: list[dict[str, str]] = []
-    per_feed_limit = max(8, min(14, limit // 4))
+    per_feed_limit = max(5, min(10, limit // 4))
     for feed in feeds:
         added_from_feed = 0
         for item in fetch_feed(feed):
@@ -182,7 +182,7 @@ def make_candidate(title: str, url: str, summary: str, source: str, published: s
         "title": clean_space(title),
         "url": clean_space(url),
         "source": clean_space(source or hostname(url)),
-        "summary": truncate(clean_space(summary), 320),
+        "summary": truncate(clean_space(summary), 220),
         "published": normalize_date(published),
     }
 
@@ -272,6 +272,7 @@ def synthesize_briefing(today: dt.date, candidates: list[dict[str, str]], previo
             "选5条；只有在候选新闻明显不足时才少于5条，并在summary解释原因。",
             "每条新闻必须基于候选列表中的来源；sourceLinks只能使用候选列表中的真实URL。",
             "避免重复近期标题和主线。不要编造来源、日期、人物、金额。",
+            "快速决策，不要输出推理过程，只输出最终JSON。",
             "输出必须是纯JSON，不要Markdown。字段必须为 date, displayDate, scope, image, summary, focus, items, sourceLinks。",
             "items每条字段必须为 title, region, sources, summary, why, watch。",
         ],
@@ -356,8 +357,18 @@ def validate_briefing(briefing: dict[str, Any], today: dt.date) -> None:
                 raise BriefingError(f"Invalid item missing {key}: {item}")
         if isinstance(item["sources"], str):
             item["sources"] = [item["sources"]]
-    if not isinstance(briefing["focus"], list) or len(briefing["focus"]) != 3:
-        raise BriefingError("Briefing focus must contain exactly 3 bullets.")
+    if isinstance(briefing["focus"], str):
+        briefing["focus"] = [briefing["focus"]]
+    if not isinstance(briefing["focus"], list):
+        briefing["focus"] = []
+    briefing["focus"] = [str(item).strip() for item in briefing["focus"] if str(item).strip()]
+    for item in briefing["items"]:
+        if len(briefing["focus"]) >= 3:
+            break
+        briefing["focus"].append(item["why"])
+    if len(briefing["focus"]) < 3:
+        briefing["focus"].append(briefing["summary"])
+    briefing["focus"] = briefing["focus"][:3]
     if not isinstance(briefing["sourceLinks"], list) or len(briefing["sourceLinks"]) < 3:
         raise BriefingError("Briefing must contain sourceLinks.")
 

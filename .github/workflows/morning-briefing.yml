@@ -48,7 +48,7 @@ jobs:
       KIMI_MODEL: ${{ vars.KIMI_MODEL || 'kimi-k2.6' }}
       OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.1' }}
       QWEN_MODEL: ${{ vars.QWEN_MODEL || 'qwen-plus' }}
-      MAX_NEWS_CANDIDATES: ${{ vars.MAX_NEWS_CANDIDATES || '50' }}
+      MAX_NEWS_CANDIDATES: ${{ vars.MAX_NEWS_CANDIDATES || '30' }}
 
     steps:
       - name: Checkout
