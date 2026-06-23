@@ -1,0 +1,104 @@
+name: Morning briefing
+
+on:
+  schedule:
+    # 07:30 Asia/Shanghai
+    - cron: "30 23 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "YYYY-MM-DD, empty means today in Asia/Shanghai"
+        required: false
+        type: string
+      provider:
+        description: "kimi, openai, qwen, or custom"
+        required: false
+        default: "kimi"
+        type: choice
+        options:
+          - kimi
+          - openai
+          - qwen
+          - custom
+      model:
+        description: "Optional model override, e.g. kimi-k2.6"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: morning-briefing
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+      MODEL_PROVIDER: ${{ github.event.inputs.provider || vars.MODEL_PROVIDER || 'kimi' }}
+      MODEL_NAME: ${{ github.event.inputs.model || vars.MODEL_NAME || '' }}
+      BRIEFING_DATE: ${{ github.event.inputs.date || '' }}
+      MOONSHOT_API_KEY: ${{ secrets.MOONSHOT_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+      LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+      LLM_BASE_URL: ${{ vars.LLM_BASE_URL || '' }}
+      KIMI_MODEL: ${{ vars.KIMI_MODEL || 'kimi-k2.6' }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.1' }}
+      QWEN_MODEL: ${{ vars.QWEN_MODEL || 'qwen-plus' }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip pillow
+
+      - name: Generate briefing
+        run: python scripts/generate_morning_briefing.py
+
+      - name: Validate generated files
+        run: |
+          node --check app.js
+          node --check data/briefings.js
+          python - <<'PY'
+          import json
+          import subprocess
+          import sys
+          script = """
+          global.window = {};
+          require('./data/briefings.js');
+          const first = window.MORNING_BRIEFINGS[0];
+          console.log(JSON.stringify({date:first.date, image:first.image, items:first.items.length}));
+          """
+          result = subprocess.run(["node", "-e", script], check=True, capture_output=True, text=True)
+          info = json.loads(result.stdout)
+          if info["items"] < 3:
+              raise SystemExit("latest briefing has too few items")
+          from pathlib import Path
+          if not Path(info["image"]).exists():
+              raise SystemExit(f"missing image: {info['image']}")
+          print(info)
+          PY
+
+      - name: Commit and push
+        run: |
+          DATE="${BRIEFING_DATE:-$(TZ=Asia/Shanghai date +%F)}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html data/briefings.js assets
+          if git diff --cached --quiet; then
+            echo "No briefing changes to commit."
+            exit 0
+          fi
+          git commit -m "Update morning briefing ${DATE}"
+          git push origin main

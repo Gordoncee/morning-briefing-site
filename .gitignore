@@ -1,2 +1,5 @@
 morning-briefing-site.zip
+*.zip
 .DS_Store
+__pycache__/
+*.pyc

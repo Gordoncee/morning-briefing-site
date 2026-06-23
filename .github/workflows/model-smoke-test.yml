@@ -1,0 +1,46 @@
+name: Model smoke test
+
+on:
+  workflow_dispatch:
+    inputs:
+      provider:
+        description: "kimi, openai, qwen, or custom"
+        required: false
+        default: "kimi"
+        type: choice
+        options:
+          - kimi
+          - openai
+          - qwen
+          - custom
+      model:
+        description: "Optional model override"
+        required: false
+        type: string
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    env:
+      MODEL_PROVIDER: ${{ github.event.inputs.provider || vars.MODEL_PROVIDER || 'kimi' }}
+      MODEL_NAME: ${{ github.event.inputs.model || vars.MODEL_NAME || '' }}
+      MOONSHOT_API_KEY: ${{ secrets.MOONSHOT_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+      LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+      LLM_BASE_URL: ${{ vars.LLM_BASE_URL || '' }}
+      KIMI_MODEL: ${{ vars.KIMI_MODEL || 'kimi-k2.6' }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.1' }}
+      QWEN_MODEL: ${{ vars.QWEN_MODEL || 'qwen-plus' }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check provider
+        run: python scripts/check_llm_provider.py
