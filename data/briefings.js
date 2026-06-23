@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-06-24",
+    "displayDate": "2026年6月24日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-06-24.png",
+    "summary": "本期简报聚焦全球科技股抛售的溢出效应与AI基建的资本重构。韩国股市受华尔街AI交易降温波及暴跌10%，凸显AI估值压力向亚洲供应链传导；Alphabet即将加入道琼斯指数，标志着传统工业指数向科技与云基础设施的全面倾斜。同时，SpaceX与开源AI初创公司签署63亿美元算力协议，英伟达探索非芯片数据中心技术，显示AI基建正从单一芯片采购向系统级算力与生态整合演进。Cerebras首份财报未能提振股价，进一步印证AI硬件赛道进入业绩与估值的双重验证期。",
+    "focus": [
+      "AI基建资本开支",
+      "全球科技股抛售",
+      "指数成分股调整"
+    ],
+    "items": [
+      {
+        "title": "Alphabet将加入道琼斯指数，推动传统工业指数向科技与云基建转型",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "Alphabet股票即将被纳入道琼斯工业平均指数，替换掉部分传统工业成分股。随着Alphabet大规模扩建数据中心并增加借贷，其业务属性正逐渐向重资产工业与云基础设施倾斜，这一调整标志着美股核心指数对科技巨头资本开支模式的重新定价。",
+        "why": "道琼斯成分股调整是资本市场重大事件，反映了科技巨头从轻资产软件向重资产AI基建转型的宏观趋势。",
+        "watch": "关注被替换出的公司名单，以及被动资金流入对Alphabet及同类重资产科技股估值的短期提振效应。"
+      },
+      {
+        "title": "SpaceX与开源AI初创公司Reflection签署高达63亿美元算力协议",
+        "region": "美国",
+        "sources": [
+          "CNBC"
+        ],
+        "summary": "SpaceX与开源AI初创公司Reflection达成一项价值高达63亿美元的算力供应协议。此举显示SpaceX正利用其星链网络与基础设施优势，深度切入AI算力租赁与数据中心运营市场，成为AI基建领域不可忽视的新兴力量。",
+        "why": "63亿美元的算力订单是近期AI基建领域最大的单笔非芯片类交易之一，凸显算力供给端正向跨界基础设施巨头集中。",
+        "watch": "跟踪Reflection的模型训练进度及SpaceX算力中心的实际交付时间表，评估其对现有云厂商算力定价的冲击。"
+      },
+      {
+        "title": "韩国股市受华尔街AI抛售波及暴跌10%，全球科技股降温溢出效应显现",
+        "region": "韩国",
+        "sources": [
+          "CNN"
+        ],
+        "summary": "受华尔街AI交易降温及科技股连续抛售影响，韩国股市单日暴跌10%。作为全球半导体与AI硬件供应链的核心节点，韩国市场的剧烈反应表明，投资者对AI资本开支回报周期的担忧正从美国科技巨头迅速传导至亚洲上游制造商。",
+        "why": "韩国股市的极端跌幅是AI硬件估值压力测试的关键宏观信号，反映了全球资金对AI供应链盈利确定性的重新评估。",
+        "watch": "关注韩国央行是否出台市场稳定措施，以及三星、SK海力士等存储芯片巨头在后续财报中对AI需求指引的调整。"
+      },
+      {
+        "title": "Cerebras发布上市后首份财报，营收增长未能提振AI芯片股估值",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "AI芯片初创公司Cerebras发布了其上市后的首份财报，尽管营收数据表现乐观，但股价在盘后交易中依然下跌。市场对其高企的研发成本、客户集中度以及英伟达生态壁垒的担忧，压过了短期的营收增长。",
+        "why": "作为挑战英伟达垄断地位的代表性企业，Cerebras的财报表现是检验AI芯片赛道“非英伟达”资产估值逻辑的重要试金石。",
+        "watch": "关注Cerebras后续在主权AI和特定大模型客户中的订单转化率，以及其晶圆级芯片的良率与量产成本控制进展。"
+      },
+      {
+        "title": "英伟达最新AI突破或聚焦非芯片技术，有望推动下一波数据中心繁荣",
+        "region": "美国",
+        "sources": [
+          "24/7 Wall St."
+        ],
+        "summary": "分析指出，英伟达最新的AI突破可能并非来自新一代GPU，而是涉及网络互连、冷却系统或软件调度等非芯片技术。随着数据中心规模逼近物理与电力极限，系统级优化正成为突破算力瓶颈、推动下一波基建繁荣的关键。",
+        "why": "揭示了AI基建竞争焦点的转移，从单纯的芯片算力堆叠转向数据中心整体能效与系统架构的优化。",
+        "watch": "关注英伟达在即将举行的技术大会上关于NVLink、液冷方案及AI网络交换机的具体产品路线图与商业化进展。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/alphabets-stock-is-set-to-join-the-dow-heres-which-company-is-getting-the-boot-73453ca7",
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxPT2FVMF80cFI5TGlUYVRnRFZwQldZTnlRVkJYSVdHek1WUmFRODhLRUFFaHhGQzBkeGNmUWxPdEd0QnNOU21URUd4OFN6aHhhQUtPT3FVcDdBMWNiSDdaWmJzNFJCWDh3XzE0MFdyMjVwNUNGblh4Qm5JaU84bjVBZUtEMjlMN0VtaHfSAYoBQVVfeXFMT09hVTBfNHBSOUxpVGFUZ0RWcEJXWU55UVZCWElXR3pNVlJhUTg4S0VBRWh4RkMwZHhjZlFsT3RHdEJzTlNtVEVHeDhTemh4YUFLT09xVXA3QTFjYkg3WlpiczRSQlg4d18xNDBXcjI1cDVDRm5YeEJuSWlPOG41QWVLRDI5TDdFbWh3",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE8xWi1vbVJfRVl3SlVIX0xzRGpoS3pzMFBNYUJreWZsTVpRaUhwY0NFQlVvbGFzRWJRRnlNTWNYaHlTeFF4TUVBaTlkVmxSZ1h3T2tzTk5iRmpnNVZLZURiSkpoaGN0blFvVzMteEJxWFZTT0tOUXRrZlh3VWY",
+      "https://www.marketwatch.com/story/cerebras-delivers-its-first-earnings-report-but-its-not-enough-to-lift-the-stock-8e80cb6d",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQkR5RVNmczVfcGpIa2RzNGdqVFJrOENQcTg1b1BYS0doUF9NdElnSTk4eDFnRkFZTTVHYXpNUUFhblVLUWFka0tZMzN2VXdTRHlGQU5PUk85MlAwRU5uMnhBbGNLaE1tSWRWbUFBZnVfUENRUnNTeUFxa3F1Zm9zSTZBaDlzRHd6NGh3U1FhQ09RTWxBQVUxU3VqbDE2VEpmcDYzajVHVDduNHhPZklzOEFpNTVVeEx4X1Z1ZXd1UmlQdHVhUjREcGx3a3RqdzEzTkE"
+    ]
+  },
+  {
     date: "2026-06-23",
     displayDate: "2026年6月23日",
     scope: "全球新闻｜科技与财经优先",
