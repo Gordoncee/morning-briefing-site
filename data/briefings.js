@@ -1,5 +1,86 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-06-25",
+    "displayDate": "2026年6月25日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-06-25.png",
+    "summary": "今日简报聚焦AI算力格局重塑与资本开支反噬：Qualcomm联手Meta进军数据中心芯片，OpenAI携手Broadcom推定制芯片，双双挑战英伟达；但2.7万亿美元的AI基建账单引发科技股抛售。此外，SK Hynix酝酿300亿美元赴美上市，微软量子计算突破遭《自然》质疑。",
+    "focus": [
+      "AI芯片竞争白热化与科技资本开支的估值压力",
+      "移动端芯片巨头向AI算力核心腹地发起冲击，Meta的背书验证了多元化算力供应链的需求，中国特供版则凸显地缘合规下的市场博弈。",
+      "前沿AI公司从“买算力”向“造算力”延伸，定制ASIC芯片将成为降低大模型推理成本、突破算力瓶颈的关键路径。"
+    ],
+    "items": [
+      {
+        "title": "Qualcomm发布AI数据中心CPU，Meta成首个大客户并预计2029年创收150亿美元",
+        "region": "全球",
+        "sources": [
+          "Reuters",
+          "Yahoo Finance",
+          "Nikkei Asia",
+          "MarketWatch"
+        ],
+        "summary": "Qualcomm正式推出AI数据中心芯片及系统，直接挑战Nvidia。Meta成为其首个主要客户。公司预测该业务到2029年将带来150亿美元销售额，推动股价大涨。同时，Qualcomm计划设计符合美国出口管制的中国特供数据中心芯片。",
+        "why": "移动端芯片巨头向AI算力核心腹地发起冲击，Meta的背书验证了多元化算力供应链的需求，中国特供版则凸显地缘合规下的市场博弈。",
+        "watch": "Qualcomm数据中心芯片的实际能效表现及Nvidia的防御性定价策略。"
+      },
+      {
+        "title": "OpenAI与Broadcom联合公布定制AI芯片设计，加速摆脱单一算力依赖",
+        "region": "美国",
+        "sources": [
+          "The New York Times"
+        ],
+        "summary": "OpenAI与芯片设计巨头Broadcom合作发布定制AI芯片设计。此举标志着顶级AI模型公司开始深入底层硬件，以优化推理成本并降低对Nvidia通用GPU的绝对依赖。",
+        "why": "前沿AI公司从“买算力”向“造算力”延伸，定制ASIC芯片将成为降低大模型推理成本、突破算力瓶颈的关键路径。",
+        "watch": "该定制芯片的流片时间表及在OpenAI内部工作负载中的实际替换比例。"
+      },
+      {
+        "title": "Big Tech 2.7万亿美元AI账单引发市场担忧，科技股遭遇大幅抛售",
+        "region": "全球",
+        "sources": [
+          "The Times",
+          "BBC",
+          "Yahoo Finance"
+        ],
+        "summary": "随着科技巨头AI基础设施资本开支持续攀升，累计账单逼近2.7万亿美元，市场开始质疑巨额投入的短期回报率。对AI支出过热和变现周期的担忧导致全球科技股遭遇显著回调。",
+        "why": "AI行情从“无条件看多基建”进入“审视ROI”的残酷阶段，资本开支的边际效用递减正在重塑科技股的估值逻辑。",
+        "watch": "即将发布的财报季中各大厂对AI资本开支指引的微调，以及AI应用端收入的实际增速。"
+      },
+      {
+        "title": "SK Hynix酝酿300亿美元赴美上市，AI内存芯片赛道迎来新定价基准",
+        "region": "韩国/美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "韩国存储芯片巨头SK Hynix正考虑在美国进行规模达300亿美元的上市。此举不仅为投资者提供了Micron之外的高带宽内存（HBM）投资标的，也将进一步凸显AI数据中心对先进内存的强劲需求。",
+        "why": "HBM已成为AI算力木桶的最短板之一，SK Hynix赴美上市将为AI内存赛道提供更清晰的公开市场定价和流动性。",
+        "watch": "赴美上市的具体时间表、估值定价，以及其对Micron等现有内存巨头的估值溢出效应。"
+      },
+      {
+        "title": "微软Majorana 1量子芯片突破遭《自然》论文质疑，商业化预期受挫",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "《自然》杂志发表批评文章，对微软一年前发布的Majorana 1量子计算芯片的基础技术声明提出质疑，认为其可能夸大了拓扑量子计算的实质性进展，引发业界对量子计算商业化时间表的重新评估。",
+        "why": "量子计算是下一代算力底座，但技术验证的严谨性直接决定资本投入的持续性。顶级学术期刊的质疑将促使市场更理性看待量子突破。",
+        "watch": "微软对《自然》论文的技术回应，以及拓扑量子比特在纠错率上的后续实测数据。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYnR1NDI4aWZHU3RPUlpodXhUMGlKSXFMU3k0QWZOY2hYSVdsVDlDdnhuSF9BaHh3UlV2WURZeFZQVGVKSFluTlJ4WmVHTEJVQy04clNMR3VONzUycVVUNm5zcHhOVW9EcmdGVXFtR2V6bEVMeE4zOVVNUnAyYUpnRklIWWh3eTZyR0lnUzBkeGNiWXhMRFN4ME9IZm9WMlFwM2I0eC1mY2lwY1B3T21RYUhqNjhNbXhGcHB5UHQxOTlQcXJfN2VV",
+      "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPODFGMmIwMnhuZ3A5dmxKV0pYRi1KTXdpdUxGcGFELVV5R0NkbHJsTUgtYjh4c0p4LVlpYU5GOEh2Tjc0TmtlWm4tYzIzdTJnUGdnaDVQeUxTVV9LMUhFSzdYQ1JObWhkTkNyZXk0Wmsya2RfQWZTU2ZPWkNxdkhuQlowaV9SekNrMVRYZzlyNzZtY2k4QXNlVzNkTzdJT0xaSlNoLU5JMG0yb3VXRXJOQzlWbXp5N2FnWVlSdVZ6Y1owYjlhMXZrN0g3aWZWRU03eDg4QlNodlE1WXc4TFpfaWxNTTlNQQ",
+      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdzJBaXk5SkFTRmczVDN6cVVDX1ZYRzR3MTAtSE5yWi04V3RyTHRzWDVFOE9yX2ZORkNTRzZ6THZxM3BLeVFkdnFOWEZQSTdJajRYUERYNmVpbk56RTJwclh6UEJWanBEd1pjLXNNcmdyWGxhX2xhSDRBa0NhNXRNckR6VU5qektNcjlDRzhXel9tMERHdDNvcElyd3RmTEhudzZEa3BLZ3VndzY2RWdscFAzamNYOEdzNUFiYmVEY2ItZEVaM0VUcF8wY3g4dDN2T3E0eklVSl9LclV0ZW00NkY4dWNoQ1k",
+      "https://www.marketwatch.com/story/qualcomms-stock-is-soaring-as-these-big-numbers-excite-wall-street-316d41f4?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeERob2VfOXFNZFNqbnZRM3AyTWgtdFlfWjl0amlQYWNlNmVnX0VOcHpYb3RNV2ZJNGttNW1TRkNGUmh5ODJ2VVNoTkxGbWRaS3IxVzZ0blRVdUQwSmp4bGRqNjl1VXRlWmFLeUxSRDFGcmZzOEJYdlRzTXlnUzdTbnlMbjI5VkE",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTjZGMzA5NklMN0l6UE5naWpYUTUyazhiYkpwa2ljelNpVjZDc1pPSFI1VTA2Z1N1TEV5RHhJbVplRlRldV9yM194VE5BLVh5TXRzcHhTbWhUMmxYUThPbzA4YmRwanVTLVl0a1M2TVhqZEJ4ZVpwU3ZiZGwzWGFpQnR3b1lPV0ZWU21FalZ0OEp5c0xvQmV0eGt3NGd1SHdoWGZxcXQ3SFByay1LU1FvTVdrQQ",
+      "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aSUkwTktpakV3LVBEcmNLRTg4RFRjWDBtQnZaNGhIM2M4UGx6WW5jRGJBWUl6TzNYUFBLVG92WGhoVFlJRzdqMUk2Q2JlMlhwY3pXQUZ3akp1UQ",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNjZucVZtZElfVUhnc096T21JMzJTZnQtM2l0SUVJZlYwQ1g4NHJ4ZEFBTy1ueGsybnRHRDNDQXFIcEJxR011Q2QzTU1HY3ZiV1M0S1ZRNmJjVnFDYlhLZll6SnpFNlFNVWIxbWZkTE81cGNuZnlxRG8weTJ1Wjc0YVo1YXVMaUVZaXNRZDNZZ1JfVWZvNUUxTV9QYXNmVVFZUHdkWDJuOGFscVVmZW52RW9VMA",
+      "https://www.marketwatch.com/story/why-sk-hynixs-30-billion-u-s-listing-could-be-a-double-edged-sword-for-microns-stock-f4483b0d?mod=mw_rss_topstories",
+      "https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims"
+    ]
+  },
+  {
     "date": "2026-06-24",
     "displayDate": "2026年6月24日",
     "scope": "全球新闻｜科技与财经优先",
