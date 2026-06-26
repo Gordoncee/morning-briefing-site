@@ -1,5 +1,77 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-06-26",
+    "displayDate": "2026年6月26日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-06-26.png",
+    "summary": "今日简报聚焦AI资本开支的市场反馈与基建回报验证。微软因巨额AI支出遭遇历史性抛售，而高通进军数据中心与Bloomberg报告则显示AI销售正逐步证明基建投资的合理性。宏观方面，伊拉克退出OPEC的预期引发油价跌破50美元的担忧，日本股市则创下1989年以来的强劲涨势。",
+    "focus": [
+      "AI资本开支分化、数据中心回报验证、OPEC产量博弈、日本股市",
+      "反映资本市场对AI基建无底洞式投入的耐心正在触及临界点，科技巨头估值逻辑面临重构。",
+      "AI算力芯片竞争从云端训练向推理和边缘数据中心蔓延，ARM架构在数据中心的渗透率加速提升。"
+    ],
+    "items": [
+      {
+        "title": "微软遭遇历史性6月抛售，投资者对AI巨额资本支出产生抵触",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "微软股票在6月遭遇罕见抛售，分析师指出，习惯于其强劲自由现金流的投资者，目前正被迫为科技巨头沉重的AI资本支出周期买单，市场对其短期回报率产生担忧。",
+        "why": "反映资本市场对AI基建无底洞式投入的耐心正在触及临界点，科技巨头估值逻辑面临重构。",
+        "watch": "微软及其他云巨头下一季度的资本开支指引与自由现金流转化率。"
+      },
+      {
+        "title": "高通大举进军AI数据中心市场，150亿美元销售预期推动股价大涨",
+        "region": "美国",
+        "sources": [
+          "The Mercury News",
+          "Investor's Business Daily"
+        ],
+        "summary": "高通宣布进军AI数据中心市场，并给出高达150亿美元的数据中心销售预期，打破英伟达与AMD的双头垄断格局，推动其股价大幅上涨。",
+        "why": "AI算力芯片竞争从云端训练向推理和边缘数据中心蔓延，ARM架构在数据中心的渗透率加速提升。",
+        "watch": "高通定制AI芯片的客户验证进度及与云厂商的实际订单落地情况。"
+      },
+      {
+        "title": "报告称AI销售收入已开始证明全球数据中心建设热潮的合理性",
+        "region": "全球",
+        "sources": [
+          "Bloomberg"
+        ],
+        "summary": "最新报告显示，随着企业级AI应用的大规模部署，AI相关的实际销售收入正在快速增长，开始从财务回报层面证明前期庞大的数据中心基础设施建设支出的合理性。",
+        "why": "缓解了市场对AI基建“只投入不产出”的泡沫担忧，为下一阶段的云基础设施投资提供基本面支撑。",
+        "watch": "头部云服务商的AI业务营收增速与企业端AI API调用量的商业化转化数据。"
+      },
+      {
+        "title": "伊拉克暗示可能退出OPEC，打破产量控制预期，油价面临跌破50美元风险",
+        "region": "中东/全球",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "伊拉克暗示可能退出OPEC，这一举动可能引发全球石油市场的剧烈动荡。若OPEC产量控制机制瓦解，全球原油供应过剩预期将加剧，油价面临跌破每桶50美元的风险。",
+        "why": "能源价格是全球通胀和宏观利率的核心变量，油价大幅下挫将直接冲击传统能源股并重塑通胀交易逻辑。",
+        "watch": "OPEC+紧急会议动向及伊拉克实际产量变化对全球原油库存的影响。"
+      },
+      {
+        "title": "日本股市持续火热，创下1989年以来罕见的强劲上涨势头",
+        "region": "日本",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "日本股市持续创下历史新高，其上涨节奏和幅度为1989年泡沫经济时期以来所罕见，公司治理改革与外资持续流入成为核心驱动力。",
+        "why": "在全球资本市场寻找非美资产避风港的背景下，日本股市的结构性牛市为跨国资本配置提供了重要参考。",
+        "watch": "日本央行货币政策正常化步伐及日元汇率波动对出口型企业盈利的后续影响。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/microsofts-stock-is-suffering-a-historic-june-rout-as-investors-balk-at-heavy-spending-9afaef1b?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxPQS1NdHZuamJyVERhRjcxSVhuRmtXWUE5SWRUU29Fd253blp2elVEaXFlN2pEVXhTdFRfT1U3eHJMVnNvMG9ZUkNIem9TSDlmSnlCZk9BSHowSzE0R0x6VGRVaDlycDY3QnlwSVJKZVlBQVp1U1Q1LVdNaDZDVlBYTGVpb0QyUGFhMkFvaGRQMmZJMUh3LVJ6T2ExSm9EUdIBowFBVV95cUxPSW1ZMUNtVUxZbWstbGRvSUprVVdPSTdFbjcyRDhXUjU5bVprWkRSSzB0Z3FKNWJzSDhHRXdHTGozS193QzVZTlB2TG1GOXNuZGU4X1BXbXkxNkZfS2xNdElzanNIOTdIZnZhalNiSkx3TXZoRVd3RzhoYkJGVUFWd3dwc21idnB3M1l1SDJwbGN3U1l5SnlIWVdxV0lvRms3NHZr?oc=5",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMThQb3E4NDRjVzBwLWk1Y0ZyS3czYTdMS05pclpaNm9JYzdiS0FDSjMwcndkVlpia0c3Q0pFS1RaTWFYNnFtTnlBVGFrM0hZZFI5djlPN1JqRHJYUXNXeTlOQnlXclhubzBSbUFZVW4tdGFVMHF0M1NSeHREal9TSzhpXzdIUUZZVm93ZmUxYXNpSmhhNm04dXViNzZnX21YdUctREVDU3ZLaXk3MktGZ3g1QTdwQQ?oc=5",
+      "https://www.marketwatch.com/story/a-world-rejecting-opec-controls-could-usher-in-oil-below-50-a-barrel-3d7eda1b?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/japanese-stocks-are-on-fire-heres-whats-driving-the-hot-streak-526a6914?mod=mw_rss_topstories"
+    ]
+  },
+  {
     "date": "2026-06-25",
     "displayDate": "2026年6月25日",
     "scope": "全球新闻｜科技与财经优先",
