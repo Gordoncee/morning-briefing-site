@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-06-27",
+    "displayDate": "2026年6月27日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-06-27.png",
+    "summary": "本周科技股遭遇年内最差表现，华尔街开始实质性审视AI资本开支的回报率；传统SaaS软件股因OpenAI替代威胁减弱而强劲反弹；Anthropic在与政府博弈后恢复部分模型开放；Uber斥巨资锁定Robotaxi运力凸显平台入口价值；亚马逊自研芯片业务借AI基建跻身全球前三，重塑半导体格局。",
+    "focus": [
+      "AI资本开支回报",
+      "SaaS估值重估",
+      "AI监管博弈"
+    ],
+    "items": [
+      {
+        "title": "科技股遭遇年内最差一周，华尔街质疑AI支出回报",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "科技板块经历年内表现最差的一周，华尔街开始直面并质疑巨额AI资本开支的实际回报率，导致AI相关股票上涨动能脱轨。",
+        "why": "标志着市场对AI基建投资的盲目乐观情绪出现实质性降温，资本开支的ROI成为下一阶段科技股估值的核心锚点。",
+        "watch": "关注下周大型科技股是否会调整资本开支指引，以及AI应用层能否拿出证明商业化的营收数据。"
+      },
+      {
+        "title": "传统SaaS软件股强劲反弹，市场重新评估OpenAI等前沿模型的替代威胁",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "ServiceNow、Salesforce等传统企业软件股价大幅反弹，市场认为OpenAI等前沿模型对现有SaaS护城河的短期威胁正在减弱，但深度绑定AI基建的Oracle未能跟涨。",
+        "why": "反映出投资者在AI浪潮中开始区分“被颠覆者”与“赋能者”，企业级软件的粘性和数据壁垒重新获得市场定价。",
+        "watch": "观察SaaS巨头后续财报中AI附加模块的转化率，以及云基础设施厂商的利润挤压情况。"
+      },
+      {
+        "title": "Anthropic与特朗普政府达成妥协，Mythos 5模型恢复对部分机构开放",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "经过长达两周的谈判，Anthropic的前沿模型Mythos 5在满足特朗普政府的特定条件后，重新向部分选定组织开放使用。",
+        "why": "凸显了前沿AI模型与政府监管之间的深度博弈，AI能力的释放已开始受到国家安全和政策合规的直接约束。",
+        "watch": "关注其他AI巨头是否会面临类似的“准入审查”，以及政府干预对模型迭代方向和商业化节奏的长期影响。"
+      },
+      {
+        "title": "Uber斥资5亿美元锁定Robotaxi运力，自动驾驶商业化进入平台与车企的资本博弈",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "在Waymo威胁脱离其平台的背景下，Uber悄然开出5亿美元支票以锁定Robotaxi运力，成为自动驾驶赛道中投入最大但不造车的玩家。",
+        "why": "揭示了Robotaxi商业化落地阶段的渠道价值，出行平台正通过资本手段抢占自动驾驶时代的流量与调度入口。",
+        "watch": "关注Waymo等自动驾驶技术方与Uber等分发平台的利润分成模式，以及特斯拉Robotaxi计划的实际推进进度。"
+      },
+      {
+        "title": "亚马逊自研芯片业务随AI基建扩张跻身全球前三，云巨头算力自主化重塑半导体格局",
+        "region": "美国",
+        "sources": [
+          "Foreign Policy Journal"
+        ],
+        "summary": "随着AI基础设施的大规模扩建，亚马逊隐藏的自研芯片业务已悄然崛起为全球前三大芯片业务，深刻改变了算力供应链格局。",
+        "why": "证明了云巨头通过自研芯片摆脱对英伟达单一依赖的战略已取得实质性规模效应，半导体市场的权力正在向云厂商转移。",
+        "watch": "关注亚马逊自研芯片在外部客户中的采用率，以及英伟达等独立芯片厂商应对云巨头“自研替代”的防御策略。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/tech-stocks-just-had-one-of-their-worst-weeks-in-a-year-heres-how-ai-momentum-went-off-the-rails-d4596bae?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/servicenow-salesforce-and-other-software-stocks-surge-as-the-openai-threat-weakens-bb1eacfb?mod=mw_rss_topstories",
+      "https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations",
+      "https://www.marketwatch.com/story/tesla-and-waymo-are-chasing-the-robotaxi-dream-but-the-company-spending-the-most-to-win-builds-no-cars-at-all-0d8682b9?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNU29UdEl6am92M2d1YkxWWGJtVWFYaV95ZUR5QnhwQkNJQTh6YkVnRV9PZ00zRFZUN1JHQ0lHN1BKX00yN0lLdEkxUkM4cGJGTUhLcGd3N0ZOTld5RjFHbERzVm5MT1BVWl80eTJrTklDallYRFFrLUxoY1hUTmxZWFFENUdXa2VNVlZ4RXNTNTdGV2R0Y182UEVtcHFKNVNOcGNocm9LNUdRamdpVHlrR0VyZHoyeWVjZThWWFRXY1A0RngxMFJaTHQ4QVJtYmZ3V1BSV2lwams?oc=5"
+    ]
+  },
+  {
     "date": "2026-06-26",
     "displayDate": "2026年6月26日",
     "scope": "全球新闻｜科技与财经优先",
