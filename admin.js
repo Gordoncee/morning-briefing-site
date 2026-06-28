@@ -4,6 +4,7 @@
   const tokenInput = document.getElementById("admin-token");
   const saveButton = document.getElementById("save-config");
   const refreshButton = document.getElementById("refresh");
+  const statusNode = document.getElementById("admin-status");
 
   apiInput.value = sessionStorage.getItem("mb_admin_api") || config.endpoint || "";
   tokenInput.value = sessionStorage.getItem("mb_admin_token") || "";
@@ -23,10 +24,14 @@
   async function loadStats() {
     const apiBase = getApiBase();
     const token = getToken();
-    if (!apiBase || !token) return;
+    if (!apiBase || !token) {
+      setStatus("请输入统计 API 地址和后台 Token。", true);
+      return;
+    }
 
     sessionStorage.setItem("mb_admin_api", apiBase);
     sessionStorage.setItem("mb_admin_token", token);
+    setStatus("正在加载统计数据...");
 
     const response = await fetch(`${apiBase}/api/stats?siteId=morning-briefing-site&days=30`, {
       headers: { "Authorization": `Bearer ${token}` },
@@ -36,6 +41,7 @@
     }
     const data = await response.json();
     render(data);
+    setStatus(`已加载，更新时间：${new Date().toLocaleString("zh-CN")}`);
   }
 
   function render(data) {
@@ -92,14 +98,23 @@
       .replaceAll("'", "&#039;");
   }
 
+  function setStatus(message, isError = false) {
+    statusNode.textContent = message;
+    statusNode.classList.toggle("error", isError);
+  }
+
+  function handleLoadError(error) {
+    setStatus(error.message || "统计数据加载失败。", true);
+  }
+
   saveButton.addEventListener("click", () => {
-    loadStats().catch((error) => alert(error.message));
+    loadStats().catch(handleLoadError);
   });
   refreshButton.addEventListener("click", () => {
-    loadStats().catch((error) => alert(error.message));
+    loadStats().catch(handleLoadError);
   });
 
   if (apiInput.value && tokenInput.value) {
-    loadStats().catch(() => {});
+    loadStats().catch(handleLoadError);
   }
 })();

@@ -37,7 +37,8 @@
           <input id="admin-token" type="password" placeholder="部署 Worker 时设置的 ADMIN_TOKEN">
         </label>
         <button class="primary-button" id="save-config" type="button">保存并加载</button>
-        <p id="setup-note">这些信息只保存在当前浏览器的 sessionStorage，不会提交到 GitHub。</p>
+        <p id="setup-note">这些信息只保存在当前浏览器的 sessionStorage，不会提交到 GitHub。此页面不在公开首页展示；真正的数据访问由后台 Token 控制。</p>
+        <p class="admin-status" id="admin-status" role="status" aria-live="polite"></p>
       </section>
 
       <section class="metric-grid" id="metrics" aria-live="polite">

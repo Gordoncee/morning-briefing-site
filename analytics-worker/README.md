@@ -2,6 +2,9 @@
 
 This Cloudflare Worker receives pageview events from `analytics.js`, stores them in D1, and exposes an authenticated stats API used by `admin.html`.
 
+`admin.html` is a static convenience page. Do not link it from the public site.
+The actual data boundary is the authenticated Worker API.
+
 ## Deploy
 
 1. Install or run Wrangler:
@@ -42,6 +45,5 @@ This Cloudflare Worker receives pageview events from `analytics.js`, stores them
 ## Endpoints
 
 - `POST /api/collect`: receives page events.
-- `GET /api/public-stats?siteId=morning-briefing-site`: returns public aggregate counters for the website footer.
 - `GET /api/stats?siteId=morning-briefing-site&days=30`: requires `Authorization: Bearer <ADMIN_TOKEN>`.
 - `GET /health`: health check.
