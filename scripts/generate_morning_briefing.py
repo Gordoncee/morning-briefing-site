@@ -444,16 +444,15 @@ def render_share_image(briefing: dict[str, Any], out: Path) -> None:
     card_width = width - margin * 2
     content_width = card_width - 64 * 2
     colors = {
-        "bg": "#f7f4ec",
-        "paper": "#fffdf8",
-        "ink": "#1f2529",
-        "muted": "#687078",
-        "teal": "#16484e",
-        "teal2": "#0f7480",
-        "red": "#b8503e",
-        "gold": "#dcae55",
-        "line": "#d8d2c5",
-        "soft": "#e8e1d2",
+        "bg": "#f5f5f7",
+        "paper": "#ffffff",
+        "ink": "#1d1d1f",
+        "muted": "#6e6e73",
+        "blue": "#0071e3",
+        "blue_soft": "#eaf3ff",
+        "line": "#d2d2d7",
+        "soft": "#ececf1",
+        "panel": "#f8f8fb",
     }
 
     regular = first_existing_font(
@@ -529,12 +528,12 @@ def render_share_image(briefing: dict[str, Any], out: Path) -> None:
     draw.rounded_rectangle((card_x0, card_y0, card_x1, card_y1), radius=34, fill=colors["paper"], outline=colors["line"], width=2)
     x = card_x0 + 64
     y = card_y0 + 52
-    draw.rounded_rectangle((x, y, x + 220, y + 46), radius=10, fill=colors["teal"])
+    draw.rounded_rectangle((x, y, x + 270, y + 46), radius=10, fill=colors["blue"])
     draw.text((x + 18, y + 9), "MORNING BRIEFING", font=sub_bold, fill=colors["paper"])
     y += 74
     draw.text((x, y), briefing["displayDate"], font=hero_font, fill=colors["ink"])
     y += 86
-    draw.text((x, y), briefing["scope"], font=body_bold, fill=colors["teal2"])
+    draw.text((x, y), briefing["scope"], font=body_bold, fill=colors["blue"])
     y += 52
     lines, lh, _ = paragraph(draw, briefing["summary"], body, content_width)
     for line in lines:
@@ -547,8 +546,8 @@ def render_share_image(briefing: dict[str, Any], out: Path) -> None:
     for index, item in enumerate(briefing["items"], start=1):
         draw.rounded_rectangle((x, y, card_x1 - 64, y + 10), radius=5, fill=colors["bg"])
         y += 24
-        draw.rounded_rectangle((x, y, x + 56, y + 56), radius=14, fill=colors["red"])
-        draw.text((x + 14, y + 11), f"{index:02d}", font=num_font, fill=colors["paper"])
+        draw.rounded_rectangle((x, y, x + 56, y + 56), radius=14, fill=colors["blue_soft"])
+        draw.text((x + 14, y + 11), f"{index:02d}", font=num_font, fill=colors["blue"])
         tx = x + 82
         yy = y - 2
         lines, lh, _ = paragraph(draw, item["title"], title_font, content_width - 96)
@@ -574,28 +573,22 @@ def render_share_image(briefing: dict[str, Any], out: Path) -> None:
             y += 28
 
     focus_y = y + 18
-    draw.rounded_rectangle((x, focus_y, card_x1 - 64, focus_y + focus_height), radius=24, fill=colors["teal"], outline=colors["teal2"], width=2)
-    draw.text((x + 28, focus_y + 24), "今日重点关注", font=body_bold, fill=colors["paper"])
+    draw.rounded_rectangle((x, focus_y, card_x1 - 64, focus_y + focus_height), radius=24, fill=colors["panel"], outline=colors["soft"], width=2)
+    draw.text((x + 28, focus_y + 24), "今日重点关注", font=body_bold, fill=colors["ink"])
     fy = focus_y + 80
     for index, text in enumerate(briefing["focus"], start=1):
-        draw.text((x + 28, fy), f"{index}.", font=body_bold, fill=colors["gold"])
+        draw.text((x + 28, fy), f"{index}.", font=body_bold, fill=colors["blue"])
         lines, lh, _ = paragraph(draw, text, body, content_width - 110)
         for line in lines:
-            draw.text((x + 68, fy), line, font=body, fill=colors["paper"])
+            draw.text((x + 68, fy), line, font=body, fill=colors["ink"])
             fy += lh
         fy += 14
 
     footer_y = focus_y + focus_height + 36
     draw.text((x, footer_y), f"检索日期：{briefing['date']}｜覆盖范围：全球科技、财经与重大市场事件", font=sub, fill=colors["muted"])
     draw.text((x, footer_y + 40), "来源交叉核验：" + "｜".join(unique_sources(briefing)[:8]), font=sub, fill=colors["muted"])
-    tag = "制作人：果冻"
-    tag_bbox = draw.textbbox((0, 0), tag, font=sub_bold)
-    tag_w = tag_bbox[2] - tag_bbox[0] + 34
-    tag_h = tag_bbox[3] - tag_bbox[1] + 22
-    tag_x = card_x1 - 64 - tag_w
-    tag_y = footer_y + 86
-    draw.rounded_rectangle((tag_x, tag_y, tag_x + tag_w, tag_y + tag_h), radius=16, fill=colors["ink"])
-    draw.text((tag_x + 17, tag_y + 8), tag, font=sub_bold, fill=colors["paper"])
+    draw.text((x, footer_y + 86), "阅读全文与历史简报：", font=sub_bold, fill=colors["ink"])
+    draw.text((x + 214, footer_y + 86), f"https://gordoncee.github.io/morning-briefing-site/#{briefing['date']}", font=sub_bold, fill=colors["blue"])
     out.parent.mkdir(parents=True, exist_ok=True)
     image.save(out)
 
