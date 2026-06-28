@@ -521,7 +521,7 @@ def render_share_image(briefing: dict[str, Any], out: Path) -> None:
     for focus in briefing["focus"]:
         focus_inner += paragraph(dm, focus, body, content_width - 110)[2] + 14
     focus_height = focus_inner + 34
-    height += focus_height + 152
+    height += focus_height + 240
 
     image = Image.new("RGB", (width, height), colors["bg"])
     draw = ImageDraw.Draw(image)
@@ -588,6 +588,14 @@ def render_share_image(briefing: dict[str, Any], out: Path) -> None:
     footer_y = focus_y + focus_height + 36
     draw.text((x, footer_y), f"检索日期：{briefing['date']}｜覆盖范围：全球科技、财经与重大市场事件", font=sub, fill=colors["muted"])
     draw.text((x, footer_y + 40), "来源交叉核验：" + "｜".join(unique_sources(briefing)[:8]), font=sub, fill=colors["muted"])
+    tag = "制作人：果冻"
+    tag_bbox = draw.textbbox((0, 0), tag, font=sub_bold)
+    tag_w = tag_bbox[2] - tag_bbox[0] + 34
+    tag_h = tag_bbox[3] - tag_bbox[1] + 22
+    tag_x = card_x1 - 64 - tag_w
+    tag_y = footer_y + 86
+    draw.rounded_rectangle((tag_x, tag_y, tag_x + tag_w, tag_y + tag_h), radius=16, fill=colors["ink"])
+    draw.text((tag_x + 17, tag_y + 8), tag, font=sub_bold, fill=colors["paper"])
     out.parent.mkdir(parents=True, exist_ok=True)
     image.save(out)
 

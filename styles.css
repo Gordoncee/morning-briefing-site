@@ -389,7 +389,12 @@ h1 {
   padding: 20px;
 }
 
-.copy-button {
+.share-actions {
+  display: grid;
+  gap: 10px;
+}
+
+.share-button {
   width: 100%;
   min-height: 42px;
   border: 1px solid rgba(0, 124, 137, 0.24);
@@ -401,10 +406,27 @@ h1 {
   transition: background 160ms ease, border-color 160ms ease;
 }
 
-.copy-button:hover,
-.copy-button:focus-visible {
+.share-button.primary {
+  border-color: var(--teal);
+  background: var(--teal);
+  color: #fff;
+}
+
+.share-button:hover,
+.share-button:focus-visible {
   border-color: var(--teal-2);
   background: rgba(0, 124, 137, 0.06);
+}
+
+.share-button.primary:hover,
+.share-button.primary:focus-visible {
+  border-color: var(--teal-2);
+  background: var(--teal-2);
+}
+
+.share-button:disabled {
+  cursor: progress;
+  opacity: 0.72;
 }
 
 .method {
