@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-06-28",
+    "displayDate": "2026年6月28日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-06-28.png",
+    "summary": "本期简报聚焦AI基建与芯片供应链的宏观博弈：Apple寻求豁免以从被制裁的中国厂商采购内存，凸显供应链地缘风险；亚马逊自研芯片业务跻身全球前三，云巨头算力自主化加速；高通正式进军AI数据中心挑战传统巨头；同时，芯片股下挫拖累美股创十个月最长连跌，金融监管机构也开始加速部署AI工具以应对算法风险。",
+    "focus": [
+      "AI芯片供应链、云基础设施、科技股估值与金融监管",
+      "凸显了AI与消费电子内存短缺背景下，科技巨头在供应链效率与地缘政治合规之间的艰难平衡。",
+      "标志着云服务商（CSP）从单纯的芯片买家向核心芯片设计与供应商的身份转变，直接挑战英伟达的垄断地位。"
+    ],
+    "items": [
+      {
+        "title": "Apple向美国政府申请豁免，拟从被制裁的中国存储芯片厂商长鑫存储采购内存",
+        "region": "美国/中国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "为缓解供应链压力，Apple正寻求特朗普政府的例外许可，以便从被五角大楼列入黑名单的中国存储芯片制造商长鑫存储（CXMT）采购RAM芯片。",
+        "why": "凸显了AI与消费电子内存短缺背景下，科技巨头在供应链效率与地缘政治合规之间的艰难平衡。",
+        "watch": "美国商务部对科技巨头供应链豁免的审批尺度，以及长鑫存储等中国半导体企业的产能释放情况。"
+      },
+      {
+        "title": "亚马逊依托AI基建扩张，其自研芯片业务已悄然跻身全球前三",
+        "region": "美国",
+        "sources": [
+          "Foreign Policy Journal"
+        ],
+        "summary": "随着AI基础设施建设的狂飙，亚马逊凭借其自研的Trainium和Inferentia系列AI芯片，已在全球芯片业务规模上跻身前三，成为隐藏在云业务背后的芯片巨头。",
+        "why": "标志着云服务商（CSP）从单纯的芯片买家向核心芯片设计与供应商的身份转变，直接挑战英伟达的垄断地位。",
+        "watch": "AWS自研芯片在外部客户中的采用率，以及其对英伟达数据中心GPU定价权的实际削弱程度。"
+      },
+      {
+        "title": "全球金融监管机构加速部署AI监管工具，以应对算法交易和AI模型带来的系统性风险",
+        "region": "全球",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "面对AI在金融市场的快速渗透，全球金融监管机构正争相开发和部署自己的AI工具，以监控算法交易、识别市场操纵并防范AI模型引发的系统性风险。",
+        "why": "AI在金融领域的应用已从业务端延伸至监管端，‘用AI监管AI’成为维持资本市场稳定的新基础设施。",
+        "watch": "主要经济体监管机构AI工具的落地进度，以及针对高频算法交易和AI生成研报的新合规要求。"
+      },
+      {
+        "title": "芯片股持续下挫拖累标普500创十个月最长连跌，AI硬件板块估值面临重估",
+        "region": "美国",
+        "sources": [
+          "Financial Times"
+        ],
+        "summary": "受芯片制造商股价持续下滑拖累，标普500指数创下十个月以来的最长连跌纪录，市场对AI硬件资本开支的回报率及短期需求波动产生担忧。",
+        "why": "反映出资本市场对AI基建巨额投入的耐心正在接受考验，AI行情从‘卖铲人’的普涨阶段进入业绩验证与估值分化期。",
+        "watch": "半导体巨头 upcoming 的财报指引，以及云厂商资本开支（Capex）增速是否出现边际放缓的信号。"
+      },
+      {
+        "title": "高通战略转向，正式进军AI数据中心芯片市场以挑战英伟达与AMD",
+        "region": "美国",
+        "sources": [
+          "Jon Peddie Research"
+        ],
+        "summary": "高通正将其业务重心扩展至AI数据中心领域，试图利用其在ARM架构和能效比上的优势，在云端AI推理和训练市场分一杯羹。",
+        "why": "打破了数据中心芯片市场由x86和Nvidia GPU主导的格局，ARM阵营在AI算力中心的渗透率有望迎来拐点。",
+        "watch": "高通数据中心AI芯片的具体流片进度、能效表现，以及头部云厂商对其推理芯片的测试与采购意向。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt",
+      "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNU29UdEl6am92M2d1YkxWWGJtVWFYaV95ZUR5QnhwQkNJQTh6YkVnRV9PZ00zRFZUN1JHQ0lHN1BKX00yN0lLdEkxUkM4cGJGTUhLcGd3N0ZOTld5RjFHbERzVm5MT1BVWl80eTJrTklDallYRFFrLUxoY1hUTmxZWFFENUdXa2VNVlZ4RXNTNTdGV2R0Y182UEVtcHFKNVNOcGNocm9LNUdRamdpVHlrR0VyZHoyeWVjZThWWFRXY1A0RngxMFJaTHQ4QVJtYmZ3V1BSV2lwams?oc=5",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxPenFteWtWdVg0ZldTaXlPbzI5WlJjOTNrZXB0MDVBcDdRLWxGVVVKd2JNYzZpREhPaW5NblJCYXJSLU5WQWFzLVJlcnRVUWtSWjJ0Q0ZHTzlRdU1sMEJWSHFHd0QwMUhsa3A1X195dU9Nc0xCaE9IQkllc25DcnM5M2tMSDVlMVpiRE9PRVhzaWxTdklGdkVnUF9RRTFCdFNEbWREZnZPUk0yZUVGVU9DaXN3OA?oc=5",
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbjYyYUt3cTRPQUlqbG9jRGhaYmZPbUJTNGlpZWRNbmZXN3V2NXAya2Z3ZWxyV0NjcFVCM1NDY0lndmZlNVB4NkdyRHNHUW05YlJHS3JiNUQ0cjB4YTdWaGhIYlhQT19HLVlETktBdnIzXzgwdWlKQW8zd2J2WWZ4aWN5Z24?oc=5",
+      "https://news.google.com/rss/articles/CBMickFVX3lxTE9nN0hsNng0ZTc4QThjeE9DQWwyUnV4MjFXaUl4ckFuOVlHcC13d3ExVlBNS3cwNUw0V3NXRWw2RHRVdWMteWVHd3dWQ0VLZVFkcE9hV01PQmtPV2loY1ExVjh1NldiY2RYcEFaTDZha0JhZw?oc=5"
+    ]
+  },
+  {
     "date": "2026-06-27",
     "displayDate": "2026年6月27日",
     "scope": "全球新闻｜科技与财经优先",
