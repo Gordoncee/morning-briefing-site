@@ -429,9 +429,12 @@ def remove_existing_entry(content: str, date: str) -> str:
 
 def update_cache_bust(path: Path, today: dt.date) -> None:
     value = today.strftime("%Y%m%d")
+    image_url = f"https://gordoncee.github.io/morning-briefing-site/assets/morning-briefing-{today.isoformat()}.png"
     content = path.read_text(encoding="utf-8")
     content = re.sub(r'data/briefings\.js\?v=[^"]+', f"data/briefings.js?v={value}", content)
     content = re.sub(r'app\.js\?v=[^"]+', f"app.js?v={value}", content)
+    content = re.sub(r'property="og:image"\s+content="[^"]+"', f'property="og:image" content="{image_url}"', content)
+    content = re.sub(r'name="twitter:image"\s+content="[^"]+"', f'name="twitter:image" content="{image_url}"', content)
     path.write_text(content, encoding="utf-8")
 
 
