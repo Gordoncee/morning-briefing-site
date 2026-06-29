@@ -1,5 +1,79 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-06-29",
+    "displayDate": "2026年6月29日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-06-29.png",
+    "summary": "国际清算银行(BIS)罕见警告AI投资热潮可能引发长期萧条，宏观监管视角开始审视AI资本开支；算力基建方面，中国超算LineShine打破美国垄断登顶TOP500，OpenAI联手Broadcom推进Jalapeno定制芯片，Nvidia则携手Firmus在印尼扩建数据中心；资本市场端，中国AI与芯片企业正成为A股IPO回暖的核心引擎。",
+    "focus": [
+      "AI宏观风险",
+      "超算与算力基建",
+      "定制AI芯片"
+    ],
+    "items": [
+      {
+        "title": "国际清算银行警告AI投资繁荣或引发长期经济风险",
+        "region": "全球",
+        "sources": [
+          "Financial Times",
+          "marketscreener.com"
+        ],
+        "summary": "国际清算银行(BIS)发布报告警告，当前由AI驱动的投资热潮存在‘非理性繁荣’风险，若AI商业化落地不及预期，可能导致长期的投资萧条并对金融系统造成冲击。",
+        "why": "全球央行与宏观监管机构首次对AI资本开支泡沫发出系统性风险警告，标志着AI叙事从单纯的技术与增长逻辑，开始面临宏观金融稳定性的压力测试。",
+        "watch": "关注后续美联储及各国央行是否将AI资本开支纳入宏观审慎评估框架，以及科技巨头下半年资本支出指引的调整。"
+      },
+      {
+        "title": "中国超算LineShine登顶TOP500，打破美国El Capitan垄断",
+        "region": "中国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "在严格的出口管制下，中国超算LineShine成功将美国El Capitan挤出榜首，自2018年以来首次夺回全球最快超级计算机的称号，展现了本土算力供应链的突破。",
+        "why": "在美国持续收紧高端芯片出口的背景下，中国超算重返世界第一验证了其国产替代与系统级优化的能力，对全球算力地缘博弈产生深远影响。",
+        "watch": "关注LineShine的底层芯片架构与互联技术细节，以及美国商务部是否会针对超算系统级组件出台新的限制措施。"
+      },
+      {
+        "title": "中国AI与芯片企业成为A股IPO回暖核心引擎",
+        "region": "中国",
+        "sources": [
+          "Investing.com",
+          "Reuters"
+        ],
+        "summary": "受国产替代需求与政策扶持驱动，中国本土AI应用与半导体芯片企业正密集推进上市进程，成为带动A股市场IPO活动反弹的主力军。",
+        "why": "在港股与美股中概股IPO分化的背景下，A股科技板块的融资活跃度反映了国内资本市场对硬科技与AI基础设施的定价偏好与资金承接力。",
+        "watch": "跟踪下半年科创板与创业板AI、半导体企业的过会率及上市后的估值溢价表现。"
+      },
+      {
+        "title": "OpenAI联手Broadcom推进Jalapeno定制AI芯片研发",
+        "region": "美国",
+        "sources": [
+          "Intellectia AI"
+        ],
+        "summary": "OpenAI正与Broadcom合作开发代号为‘Jalapeno’的定制AI芯片，旨在降低对Nvidia的依赖并优化其大模型推理与训练的硬件成本。",
+        "why": "继Google TPU与Meta MTIA之后，OpenAI正式入局定制硅片，标志着前沿AI模型公司开始向底层硬件延伸，AI芯片市场的竞争格局正从通用GPU向定制化ASIC演变。",
+        "watch": "关注Jalapeno芯片的流片时间表、台积电代工产能分配，以及其对Nvidia数据中心GPU订单的潜在替代效应。"
+      },
+      {
+        "title": "AI初创公司Firmus携手Nvidia在印尼巴淡岛建设数据中心",
+        "region": "东南亚",
+        "sources": [
+          "straitstimes.com"
+        ],
+        "summary": "AI基础设施初创公司Firmus宣布与Nvidia合作，在印尼巴淡岛建设新的大型AI数据中心，以满足东南亚及全球日益增长的算力需求。",
+        "why": "随着欧美数据中心面临电力与土地瓶颈，AI算力基建正加速向东南亚等新兴市场外溢，Nvidia通过生态合作模式进一步巩固其全球云基础设施的底层控制力。",
+        "watch": "关注东南亚数据中心的电力供应保障、海底光缆带宽扩容进度，以及当地政府对AI数据主权的监管政策。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMjdqbVZkVWRMR1o0M2dBal9ENFoxSWRWVVdKZm9GeG5PRWIweVNZaTgtQkNJcVJTak1HOUhVai1uN180T0FJMlFhaXNtdVI4LVRXZ2dOMFZ0WGdnZm40aG5GcHF6Snc5SUFhWlJlQnJ6Qkl0dFBSZWV5b3oxMEg5SG5ld2w?oc=5",
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUDhyMTFMeTYzRG9zU3dnQnY2YVd1WlFPM2Q1cmhXOG5FT2FvWVVtMWZIdUViaFpiNWxlZERTSEhhMFFUWHo0R1lxYkVZbUZiRFV2NXFNdXQwWi1ONFVZZXJjWFpMUmN6OGlvOTlUd19vcUtIUUw2ekJCMU5oYXlBUlZBZmFCTVc0eXFRVDlqSmxGaUJ2bWpiZmZSdEZ4RHh5RTlwOHhLeXpnenFvNzVJemZrVU5NOWFDUGc?oc=5",
+      "https://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer",
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVVU1M3ltcnNhbTQ0SE1keWJDbTE3aF9TLU9VZXBHNkt6enh0bVRXU2tmVTNCZmJzZkxSaEp6ZUNxVUZEM2gxMm1MY3I0RnUyaUNPZFpuajVRRjlQRWRzakg4c1duNjdHR0EwNW13ZWtSb29vSVQzaHQ4ZkhGbkhDNVFZWnhIbzRBcUtid2FOOTVDaHNvdU51c2d4QVRyY1ZTOGRwQTJoT0gxdXQyOEdsaWhNdw?oc=5",
+      "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MdmNZb1VGY0hWVnptalZ1Z2lLa1VPY21mOFotVTVad0szLTloNFl0QjI1UkNDZUM5MlNJV1FLSld0MjY4Z2FhNWh2ekZrVFEzTWNGRXBxMVhubGY4NWNJNC0xZXo2d1dSR0xDZzBnUG0tOFU?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxOM0xLV3NOMHlQaEFaZkVkS1RzUGlGMWxJbmJzcDFZZzFwU0E1dEpUb19Gc0JKdGFvSlhqR1BuQjE1WU9JbDVseXFiUXRqZjFiMjByVUtzazRlNGY1SHg4LVpvNDlfenRYdVE0cEFHODY1NVl6WUJPTTJuZEFnTG51TG85UlVFNGFGM0tnYk43aFJuWXh2NU9ublFnbkFFWEdOeU1xQmVQbzE5RlJUcHRHNGRjUzR5Mkk?oc=5"
+    ]
+  },
+  {
     "date": "2026-06-28",
     "displayDate": "2026年6月28日",
     "scope": "全球新闻｜科技与财经优先",
