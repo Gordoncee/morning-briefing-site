@@ -1,5 +1,84 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-06-30",
+    "displayDate": "2026年6月30日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-06-30.png",
+    "summary": "本期简报聚焦全球AI资本开支的宏观与产业共振：韩国推出千亿美元级芯片与AI基建计划；国际清算银行警告AI泡沫或引发系统性金融风险；Rocket Lab 80亿美元收购Iridium挑战Starlink；银行业为消化AI债务创新融资；OpenAI预告Codex专属硬件，加速软硬一体化。",
+    "focus": [
+      "AI宏观风险、半导体国家级投资、商业航天并购、AI债务融资、AI硬件终端",
+      "国家级产业资本开支直接回应全球AI算力短缺，对全球存储与代工市场格局产生深远影响。",
+      "监管与宏观审慎机构首次将AI泡沫列为系统性金融风险，标志着AI叙事从产业狂欢进入宏观压力测试阶段。"
+    ],
+    "items": [
+      {
+        "title": "韩国公布超大规模芯片与AI数据中心投资计划",
+        "region": "Asia",
+        "sources": [
+          "BBC",
+          "PBS",
+          "Taipei Times"
+        ],
+        "summary": "韩国政府与科技巨头联合公布规模达数千亿美元（不同口径报道在8800亿至1.2万亿美元之间）的半导体与AI数据中心投资计划，旨在巩固其在全球AI算力供应链中的核心地位。",
+        "why": "国家级产业资本开支直接回应全球AI算力短缺，对全球存储与代工市场格局产生深远影响。",
+        "watch": "关注三星、SK海力士等巨头的具体产能落地节奏及对美国《芯片法案》补贴的博弈。"
+      },
+      {
+        "title": "国际清算银行及多国央行警告AI狂热或引发股市崩盘",
+        "region": "Global",
+        "sources": [
+          "MarketWatch",
+          "Euronews",
+          "thestreet.com"
+        ],
+        "summary": "被称为“央行中的央行”的国际清算银行（BIS）及多国央行发出警告，指出当前由AI热潮驱动的股市估值过高，若AI商业化变现不及预期，可能触发严重的市场回调并危及宏观经济。",
+        "why": "监管与宏观审慎机构首次将AI泡沫列为系统性金融风险，标志着AI叙事从产业狂欢进入宏观压力测试阶段。",
+        "watch": "留意后续美联储及欧洲央行是否将AI资本开支纳入金融稳定性压力测试模型。"
+      },
+      {
+        "title": "Rocket Lab斥资80亿美元收购Iridium挑战SpaceX Starlink",
+        "region": "North America",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "商业航天公司Rocket Lab宣布以80亿美元收购卫星通信巨头Iridium，将其作为扩展太空基础设施的“捷径”，直接挑战SpaceX的Starlink在低轨卫星互联网市场的垄断地位。",
+        "why": "商业航天领域迎来重磅并购，低轨卫星通信市场的竞争格局从SpaceX一家独大转向多极化资本对抗。",
+        "watch": "关注该收购的监管审批进度及Iridium现有企业客户向新架构迁移的留存率。"
+      },
+      {
+        "title": "银行为应对AI基建债务飙升而创新融资手段",
+        "region": "Global",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "随着科技巨头为AI数据中心和算力基础设施投入巨资，相关债务规模急剧飙升。全球银行业正被迫创新融资结构，并向更广泛的投资者群体寻找资金以消化这些庞大的信贷敞口。",
+        "why": "AI资本开支的金融化程度加深，科技公司的资产负债表扩张正在重塑传统企业信贷市场的结构与流动性。",
+        "watch": "观察AI项目融资是否会出现类似当年电信泡沫时期的资产证券化（ABS）产品及其违约风险定价。"
+      },
+      {
+        "title": "OpenAI预告推出Codex专属硬件，AI巨头加速软硬一体化",
+        "region": "North America",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "OpenAI预告将于7月15日发布一款与其AI编程工具Codex深度绑定的新型硬件设备，标志着这家大模型领军企业正从纯软件服务向“软硬一体”的终端入口延伸。",
+        "why": "AI公司直接下场做硬件，打破了以往依赖第三方终端的商业模式，可能重塑开发者工具与AI PC/边缘计算市场的竞争逻辑。",
+        "watch": "关注该硬件的具体形态、定价策略以及是否会对现有的AI PC和开发者工作站生态造成降维打击。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GN0EtSXZQQkI5UC1zMmR2SXdBTnNzMlV2YjV4UnBPa2I0aGZHbS1SM2Mxb3pWZEg5eGpseTFxS0lsMkdjb3Y1N05GNjRNSmFWQWdxaS1rVUF0Zw",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMkxEUkZrcy16cDdLUW5RaW5GTDYxX1p6TjRBNWl1Wm1aQmFzY3hKTDlfdklVUkszMmdZWUlwTHUyMk51MEoxM2VaaUs5akV5MkxpbkZYc3p1X2pQbm9la0sya0ZZYjZ6TXlsQnRicHRGbjgwTkltUmxZVkN3c0dscWltT3BCSkp5Z3dNYVBmdnR1T1lmLXVxQ2U0Z3VVbHZ5Z1E3ZkZyeU14dVloZWs3enlsRkRDckt0ckMtZGJvVHpMdXQ5VXNn",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE43cThJNF9fVmlWTzNXZG1naVdEYXpJclJRUkZJSlZrd2VzaUhDODhZNEdrTkNEcnB2UHByMmVxcXM4TGZYdmRwem01ZTg3TmVSZEJUeEdMaDhoODBrbGFKQzJ4ekJqRExlUVphTXRkc1U5WldBMXc",
+      "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPN1JjRk5kamVRbE8yX1pzdVFibllJYUxxRWgyckx1Z1JscjVoT3hKSFFDd2syY3J1Nk1pYU9sYUJoY3RpZzJiTm9QeUNfTnVER2RveTlmRmZxdUZGSW5OTm9LbTBrRXExRlBfSF9xZ2RoZ05CalVZYUZ5ZUs4QkRVcVp4em9YemVZQW1iYVZRODM2bnRkdzJXcTFSWUJHemNBY2ZLbkRZYmp5ay1kODcxTGZfLUtibEprdV9vaGl1QkM4V2hfVHZneDFpU0hjTHA4VTZ0aEU4ZkJJLUloQURPRlRn",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3FmWlh4aGRZTUpFbzhua20yNHNfNTE5cWtfaXg3cS1MRDJSZFlpSG50Rk9ERWdTMmVyTEVNM3BCYVpTOFl2aFhjVGZYWExJUUMyckxfZmppVjVGSnQwZnAzdFhCRkxqTlo0R3BiQXFqc2xObVlFU3ZpQlFxbjZxRE5jVE5UYzE2RUtBN1VnOVVDbklKTFNlNUM2TFhVXzh6X0xZMXp2SGhHNmdRM0Zhd3JPNVNodDMxbE42Ry1fMjBHUQ",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWlNPcjJscFhrVEVNeTRBRFkwbURtVl9Hd3MzSXBkZm9GeDdSQVd4TFhsRXRvSnBKbk5yXzZnT0J2OEwtQ0dJLVJpSzBwRHR0VllWeUI0UjhINS1ONVY0djBVbV9tQjRCRThrSjlTWXJJWWc4TTB0R1J0c3Q1UFFUVW9pNkhVWlpPX1ljTTBR",
+      "https://www.marketwatch.com/story/rocket-lab-to-take-on-spacexs-starlink-with-8-billion-acquisition-bf7ef649?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdDBiVE50bXZsYUc3enlSS2I5WjlqVkJtRHF0S0Mtbms4cmR6bnRSNGpDRHczSDQ0VkpyY3JLSXpka2NBYU11amM2akJROFVaZzFOMmppaHJpd0ZjVjFqWnRrRmplV2hFaHZ3N0otLWtpUm1MTkVTMDJSNFBwMnRad1k3ekN5UmVNOGI0Y05fSGNCemhUaUhkbVhCcFhNaWdxbklhRVJ5RkE5eHV0b2FJVkxn",
+      "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder"
+    ]
+  },
+  {
     "date": "2026-06-29",
     "displayDate": "2026年6月29日",
     "scope": "全球新闻｜科技与财经优先",
