@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-01",
+    "displayDate": "2026年7月1日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-01.png",
+    "summary": "今日简报聚焦AI对宏观金融与监管的深远影响：BIS警告AI投资热潮或推高通胀并面临逆转风险；英国央行提议为AI交易设置“熔断机制”；韩国砸1.2万亿美元押注芯片与AI基建。同时，科技股抛售引发美股泡沫担忧，而Meta则开始在AI硬件端试水订阅制变现。",
+    "focus": [
+      "AI宏观通胀风险、AI金融交易监管、半导体与AI基建国家级投资、科技股估值重估、AI硬件商业化",
+      "首次有核心国际金融机构将AI基建开支与宏观通胀及周期逆转风险直接挂钩，为当前狂热的AI资本支出提供了宏观层面的压力测试视角。",
+      "标志着金融监管从“算法交易”正式向“自主AI代理交易”升级，AI在核心金融基础设施中的安全边界开始被实质性定义。"
+    ],
+    "items": [
+      {
+        "title": "BIS警告AI投资热潮或成央行通胀新挑战，并提示繁荣逆转风险",
+        "region": "全球",
+        "sources": [
+          "TradingView"
+        ],
+        "summary": "国际清算银行（BIS）发布报告指出，当前由AI驱动的大规模资本支出和投资热潮正在成为各国央行控制通胀的新挑战，并警告若AI商业化落地不及预期，投资繁荣可能面临逆转风险。",
+        "why": "首次有核心国际金融机构将AI基建开支与宏观通胀及周期逆转风险直接挂钩，为当前狂热的AI资本支出提供了宏观层面的压力测试视角。",
+        "watch": "各国央行对科技巨头资本开支的宏观审慎态度，以及AI基建对能源和供应链价格的长期推升效应。"
+      },
+      {
+        "title": "英国央行官员提议为AI驱动的高频交易设置“Kill switches”熔断机制",
+        "region": "欧洲",
+        "sources": [
+          "Financial Times"
+        ],
+        "summary": "英国央行（BoE）副行长Sarah Breeden在演讲中表示，随着AI代理在金融交易中的自主性增强，监管机构可能需要引入“Kill switches”（紧急停止开关），以防止AI引发的市场闪崩和系统性风险。",
+        "why": "标志着金融监管从“算法交易”正式向“自主AI代理交易”升级，AI在核心金融基础设施中的安全边界开始被实质性定义。",
+        "watch": "英美金融监管机构对AI交易代理的合规要求落地，以及量化基金对AI交易模型的风控架构调整。"
+      },
+      {
+        "title": "韩国宣布近1.2万亿美元国家级投资计划，全面押注芯片与AI数据中心",
+        "region": "亚洲",
+        "sources": [
+          "Taipei Times"
+        ],
+        "summary": "韩国政府公布一项规模近1.2万亿美元的长期投资计划，旨在巩固其在全球半导体供应链中的领导地位，并大规模扩建本土AI数据中心基础设施，以应对全球算力竞争。",
+        "why": "继美欧之后，亚洲核心半导体强国以国家主权级别资金下场干预算力与芯片基建，全球AI硬件军备竞赛进入国家级财政博弈阶段。",
+        "watch": "三星与SK海力士等本土巨头对该政策的资本开支响应，以及该计划对全球HBM和先进制程产能分配的长期影响。"
+      },
+      {
+        "title": "科技股抛售引发美股市场泡沫担忧，AI估值面临阶段性压力测试",
+        "region": "北美",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "近期美股科技板块的持续抛售引发了市场对AI泡沫的广泛担忧。分析指出，在利率维持高位且AI应用端收入尚未完全兑现的背景下，高估值的科技巨头正面临资金流出和估值重估的双重压力。",
+        "why": "资本市场对AI主线交易的叙事开始从“无条件看多”转向“审视盈利兑现”，科技股的回调可能预示着AI投资周期进入去伪存真的分化阶段。",
+        "watch": "纳斯达克核心科技股的支撑位表现，以及即将到来的二季度财报季中AI软件与云服务的实际营收增速。"
+      },
+      {
+        "title": "Meta为智能眼镜引入速率限制与软付费墙，试水AI硬件订阅制变现",
+        "region": "北美",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "Meta宣布将对其Ray-Ban智能眼镜的“Conversation Focus”等高级AI功能实施速率限制，并推出每月20美元的订阅选项。此举标志着Meta开始在已售出的AI硬件上探索软件与服务层的持续变现。",
+        "why": "AI硬件的商业模式正从“一次性卖硬件”向“硬件+AI服务订阅”演进，Meta的试水将为整个消费级AI穿戴设备的LTV（生命周期价值）定价提供关键参考。",
+        "watch": "消费者对AI硬件功能付费墙的接受度，以及苹果和Snap等竞争对手在AR/AI眼镜产品线上的商业化策略跟进。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOaGJ6OHRZSzA4Qk1FdHphSzFiOVJ0R0JwZW9DWFFaaW50aDd6V2RYRXRGeUFXVGtZbThsQ0RMSE1uTmM0Ukd2ZUpLemNSRkRYV25LOVBacGxSNm5UY2o5U01JeUlERVJ0ZFlzTDJzU25qbjVrOU5VOE5aTzBzX2FzeEVmSzJCWkIzckdwLVBpd09XdzBQX0M4QThHUmZoVV81bm5ucDZHVkxtR2lCd3BHdk03VmZQR0tTTWJVRUhyc1A1dDRXLXZkT24za2hBMlU4WGZTRGs3czZJOFJpWW1ORTlnMFpVY0t3c2prY2RYNk1nS0k?oc=5",
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNkdMR0g3LXNkVklyWk84V014QlQzU2Jvc3RmQ2RCWko2SlpyQk1teGxveE1qaHl1b3pFbnZ6S1VrTTVaYnNXVDFLMGd0Mm5SRW5LQ2RSU0V0eEowNWJRbWx5bXBzbzV6a1luc0lTLTZOYk81TDRMd1dJaUNFNUw4N1pOSVE?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE43cThJNF9fVmlWTzNXZG1naVdEYXpJclJRUkZJSlZrd2VzaUhDODhZNEdrTkNEcnB2UHByMmVxcXM4TGZYdmRwem01ZTg3TmVSZEJUeEdMaDhoODBrbGFKQzJ4ekJqRExlUVphTXRkc1U5WldBMXc?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFlQXU0QUQ2d3NhY2hNU1llc2ZCOUdyZW5IRlhzYVdYcjZ0eTkxU25fa3A3WjlZTDRRQ0FoRVFxNXF5OC1oRHI1clNXazZic0liOGhxeGVBZDNzbUx4cHpuS2JoWEZSMzE2RVhJSlNWZXotWHZwSnh2UFVjN1EtYVpuaXF5RWlUd19jZjBYWHNUNHJMTDN1bHVENXE1bGRzZ203dTJR?oc=5",
+      "https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit"
+    ]
+  },
+  {
     "date": "2026-06-30",
     "displayDate": "2026年6月30日",
     "scope": "全球新闻｜科技与财经优先",
