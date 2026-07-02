@@ -1,5 +1,80 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-02",
+    "displayDate": "2026年7月2日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-02.png",
+    "summary": "Meta将过剩AI算力转化为云业务，直接冲击CoreWeave等新兴AI云公司并引发基建板块震荡；微软Xbox启动新一轮裁员与重组；AI信贷热潮推高银行股但未冲击债市；Nvidia将人形机器人视为数万亿美元级机会；部分企业开始反思以AI为由的裁员决策。",
+    "focus": [
+      "AI云市场格局重塑、科技巨头业务收缩、AI信贷宏观影响、具身智能资本化、AI就业替代现实检验",
+      "科技巨头从AI算力的‘净买家’转变为‘净卖家’，直接威胁依赖算力租赁的Neocloud商业模式，是AI基建投资逻辑的重大拐点。",
+      "微软在AI领域大举投资的同时，对传统游戏硬件和内容业务进行冷酷的财务清算，凸显了科技巨头在战略重心转移时的资源腾挪。"
+    ],
+    "items": [
+      {
+        "title": "Meta进军AI云市场出售过剩算力，CoreWeave等Neocloud股价大跌",
+        "region": "美国",
+        "sources": [
+          "MarketWatch",
+          "TechCrunch",
+          "Seeking Alpha"
+        ],
+        "summary": "Meta计划将其庞大的AI基础设施中过剩的算力转化为云服务对外出售。这一消息导致CoreWeave和Nebius等新兴AI云（Neocloud）公司股价大幅下挫，同时引发AI基础设施和芯片板块的整体承压，标志着科技巨头的AI资本开支开始寻求直接的商业化变现，并重塑云计算竞争格局。",
+        "why": "科技巨头从AI算力的‘净买家’转变为‘净卖家’，直接威胁依赖算力租赁的Neocloud商业模式，是AI基建投资逻辑的重大拐点。",
+        "watch": "关注AWS、Azure等老牌云厂商的应对策略，以及CoreWeave等独立算力提供商的长期合同锁定能力与估值重估。"
+      },
+      {
+        "title": "微软Xbox部门启动“重置”计划，面临新一轮裁员与工作室关闭",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "在Asha Sharma接任Xbox CEO后，微软游戏部门正式启动名为“Xbox reset”的重组计划。管理层向员工发送备忘录，警告将面临大规模裁员和工作室关闭，反映出微软在AI时代继续收缩非核心及亏损业务，以优化资本配置。",
+        "why": "微软在AI领域大举投资的同时，对传统游戏硬件和内容业务进行冷酷的财务清算，凸显了科技巨头在战略重心转移时的资源腾挪。",
+        "watch": "关注Xbox硬件业务的未来走向，以及微软是否会将更多游戏IP和云游戏能力整合进其AI与Azure生态。"
+      },
+      {
+        "title": "AI信贷热潮推高银行股但未冲击债市，华尔街AI融资结构显现",
+        "region": "美国",
+        "sources": [
+          "Forbes"
+        ],
+        "summary": "随着AI基础设施建设的资本开支激增，科技公司和数据中心开发商大量依赖信贷融资。分析指出，这股AI信贷热潮目前并未对整体债券市场造成挤出效应，反而显著提振了参与结构化融资和银团贷款的银行股表现。",
+        "why": "揭示了AI热潮从股权融资向债权融资蔓延的宏观金融特征，银行成为AI基建资本开支的隐性受益者。",
+        "watch": "关注高利率环境下AI信贷的违约风险，以及大型银行在科技资本开支周期中的净息差与中间业务收入变化。"
+      },
+      {
+        "title": "Nvidia押注万亿美元机器人市场，资本市场寻找具身智能隐藏标的",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "Nvidia CEO黄仁勋将人形机器人定义为“数万亿美元的经济机会”。随着AI从软件向物理世界延伸，华尔街分析师开始梳理机器人产业链中的隐藏投资标的，具身智能正成为继GPU和数据中心之后的下一个资本市场主线。",
+        "why": "Nvidia的战略定调加速了具身智能的资本化进程，机器人产业链的估值逻辑正从“概念炒作”转向“商业化落地预期”。",
+        "watch": "关注Nvidia Isaac平台的生态扩张，以及传感器、伺服电机和边缘计算芯片等机器人核心零部件供应商的业绩弹性。"
+      },
+      {
+        "title": "部分以AI为由裁员的企业开始后悔，AI就业替代遭遇现实阻力",
+        "region": "美国",
+        "sources": [
+          "CNBC"
+        ],
+        "summary": "CNBC报道指出，一些此前以“引入AI替代人工”为由进行裁员的雇主现在开始感到后悔。在实际业务落地中，当前AI模型在处理复杂逻辑、维持稳定性和应对边缘场景时的能力仍不足以完全替代熟练白领，导致企业运营效率下降或隐性成本增加。",
+        "why": "打破了“AI将迅速且无缝替代白领”的过度乐观叙事，揭示了前沿模型在企业级工作流中的真实能力边界与落地摩擦。",
+        "watch": "关注企业级AI Agent的迭代速度，以及劳动力市场在经历AI恐慌后，对具备AI协同能力的高级人才的重新定价。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/coreweave-nebius-shares-tumble-as-meta-stands-to-become-a-fresh-threat-in-the-cloud-a47c3616?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUUZfbVhkRXYzMGNzWC1Wc3FzeEpFLXNVMlhCcFFPTEdqSldHVWpySGJpYlh0TWRSdDRFeGZwejR5cTNqRXhfa3hHTW9tdkFHRU1HVlBqQ3F2WjZpR0VkZUdlNjdZUVZkOUpmQ0JtakVCbHNoV0RrVk54RmItbmhwQ0diT0ZnMUIwTTBYVmtqV3BHMmlHcEtLSg?oc=5",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMHlxMGZKM0V0NWdPQ29WMEQ2QXN5SEZ4ZF9Fb0ZONWtreHBkdW5XRi1uMEk0MkRWaDBWa2UzM0NWaXVGX19Td1VWNmk5emR0SUliTzJCUUIzX0dLSElhcFJqWmlhSU9Td2tXcDVwdy1vYkV5N3YwbzFrcmVCSmhFYnpxa0lfS1dpNGdOekZVZ2lWbDU5S1Zhdno3M2pZZlNJUU1QLTRiV0pOVExqTlVFdTc0QmFrNHJGeFRPQ2ZTNDgyWW05aHNheXl3RUl3N29pVnc?oc=5",
+      "https://www.theverge.com/games/959900/xbox-reset-layoffs-studio-closures",
+      "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMXRTRUhybnlqcm0yNFpDbWNhOFN1Zkdsa2U4T0tjVm5mSTdGWEdnbEhYYTJwUHhRS1Q0dWQzLXpvQVB0TnJOdlVJZkIzT1BYa3FmOXlvMUNScXZCcEU5cTBXM0hMb3F0NVJQU2lFZFViNFN0cFN1NlVfUUEyWENsYkd0Y1Z5OU9hakM4WVJZSkNsU3lKX0ZKWXZJUTNQeEpadGdlX3liejQ1SWhBOFJmQWQ4VE5NR2RHbS04bUZicHpaNXZnakQ1R2ZTRjdoa1pYOC1n?oc=5",
+      "https://www.marketwatch.com/story/nvidia-is-betting-on-a-trillion-dollar-robotics-boom-here-is-the-hidden-way-to-trade-it-c5b10c4e?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMVFRZTh6TC1hUFh6OVhVLVZJYk1YTDdYR05KNU5rd3lXZTRNRWxYQjlvSWJidHZMcWt2UUo4eEtpTTAwakphdVhaVG5OdkxVX0luOUhMM01sSDlaYUw4WDJMcFBaNDU4V3R2U3RQUUJiRnFoaHFySXdqSFpid2pJY2c1MlZIUHBFd1B5VWVDRW1LZU9LM21WMU9mQ21wRG9GRDh2MWhhc9IBrAFBVV95cUxQQmNqWjlZTVNjM25PRXVpX0NOTF9VNVFLY1NsOE9hbEZWVGdYdTI2Q2h2RFJMU1NOTGJJNFZHMVdYdWRwc0tuNkpRbXRMa2hnNDBPVFpHbDdmRjVDQjlaZWJqMUhmZjBJQUFMaVo3ajZ3YlprQmxLSzFocWYyaGFWM01FcHgySV9tcmZRRWhrQ204aDJFYXlqTklQYzQ1Y3lzbmc5NC1VV0V2Qlk1?oc=5"
+    ]
+  },
+  {
     "date": "2026-07-01",
     "displayDate": "2026年7月1日",
     "scope": "全球新闻｜科技与财经优先",
