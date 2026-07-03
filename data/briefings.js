@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-03",
+    "displayDate": "2026年7月3日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-03.png",
+    "summary": "今日简报聚焦宏观与科技监管的激烈碰撞：特朗普罕见炮轰美联储并威胁解雇理事，向Warsh施压利率决策；英国央行针对AI自动交易提出“市场熔断开关”监管框架；资本市场方面，道指创历史新高但AI股回调拖累大盘，韩国Kospi因芯片股抛售大跌近8%；此外，软银宣布将在美国推出AI定制云服务，加速云基础设施布局。",
+    "focus": [
+      "宏观政策、AI金融监管、芯片与资本市场、云基础设施",
+      "行政权力对央行独立性的直接干预升级，可能引发美债收益率曲线和美元汇率的剧烈波动，是下半年最大的宏观不确定性之一。",
+      "AI在金融核心交易环节的渗透率已达临界点，监管层首次提出针对AI代理的系统级熔断机制，标志着AI金融监管从“合规审查”走向“实时物理阻断”。"
+    ],
+    "items": [
+      {
+        "title": "特朗普炮轰“敌对”美联储并威胁解雇理事，向Warsh施压利率决策",
+        "region": "美国",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "特朗普在接受采访时猛烈抨击美联储“充满敌意”，强调美联储主席Warsh“必须做他该做的事”来调整利率，并重申计划解雇美联储理事Lisa Cook，进一步挑战央行独立性。",
+        "why": "行政权力对央行独立性的直接干预升级，可能引发美债收益率曲线和美元汇率的剧烈波动，是下半年最大的宏观不确定性之一。",
+        "watch": "关注Lisa Cook去留的法律博弈、美债市场反应以及Warsh在下次FOMC会议前的公开表态。"
+      },
+      {
+        "title": "英国央行提议为AI自动交易设置“市场熔断开关”，半数金融机构已部署AI交易员",
+        "region": "英国/全球",
+        "sources": [
+          "Tech Times"
+        ],
+        "summary": "调查显示半数金融机构已运行自主AI交易员，英国央行随之提出监管框架，建议为AI驱动的高频和自主交易设置“市场杀死开关（Kill Switch）”，以防范系统性闪崩风险。",
+        "why": "AI在金融核心交易环节的渗透率已达临界点，监管层首次提出针对AI代理的系统级熔断机制，标志着AI金融监管从“合规审查”走向“实时物理阻断”。",
+        "watch": "关注该提案是否会被SEC或欧洲ESMA等全球主要监管机构跟进，以及量化基金对AI交易策略的合规性调整。"
+      },
+      {
+        "title": "韩国Kospi因芯片股抛售大跌近8%，全球半导体板块与科技股承压",
+        "region": "韩国/全球",
+        "sources": [
+          "Audacy"
+        ],
+        "summary": "受全球科技股回调及半导体周期担忧影响，韩国KOSPI指数单日暴跌近8%，其中芯片制造和半导体设备股遭遇集中抛售，领跌亚洲市场。",
+        "why": "韩国股市是全球半导体周期的“金丝雀”，Kospi的剧烈调整反映出资金对AI硬件资本开支见顶及存储芯片价格拐点的深度担忧。",
+        "watch": "紧盯三星、SK海力士的后续资金流向，以及美国非农数据公布后科技股能否企稳以确认这是否为短期情绪宣泄。"
+      },
+      {
+        "title": "软银计划下一财年起在美国推出AI定制云服务，加速云基础设施布局",
+        "region": "日本/美国",
+        "sources": [
+          "The Japan Times"
+        ],
+        "summary": "软银宣布计划从下一财年开始在美国市场提供专为AI工作负载定制的云服务，进一步将其庞大的算力投资转化为商业化的云基础设施产品。",
+        "why": "软银正从单纯的“AI投资者”向“AI基础设施运营商”转型，此举将直接切入AWS、Azure和GCP主导的美国云市场，改变AI算力分发格局。",
+        "watch": "关注软银美国云服务的定价策略、首批企业客户名单，以及其与Arm和Nvidia在底层架构上的深度绑定程度。"
+      },
+      {
+        "title": "道指创历史新高但AI股回调拖累大盘，美股市场风格切换迹象显现",
+        "region": "美国",
+        "sources": [
+          "The Washington Post"
+        ],
+        "summary": "尽管美国多数股市上涨且道琼斯工业平均指数创下历史新高，但AI和大型科技股的持续回调拖累了标普500和纳斯达克，市场呈现明显的板块轮动特征。",
+        "why": "资金正从高估值的AI科技巨头向传统工业、金融和防御性板块转移，表明市场在消化高利率和AI变现预期差，美股进入结构性分化期。",
+        "watch": "观察即将公布的非农就业数据对降息预期的影响，以及传统板块的盈利指引能否支撑道指的进一步上攻。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/trump-blasts-hostile-fed-and-says-warsh-has-to-do-what-he-has-to-do-on-interest-rates-60b5d16b?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxON0NPMkJDRW81dzR3T1NZUkZac21kSHN6YV9VelZKOW8tTHVpRC0za0R2ek11ZlAtZzVSM0FFOFVrMHZqaVhoYnExVEJVZHpONUI4eElaRkxnUE4ycVB2SlhwRlQ2bXlrak9RTDVGR3FOXzNVcnFVeFFMd1RGdzNTWWhyTnJ5alhXb25jWnYwRXBhWnF2bEsyRDhPeE5TcHZndUZQVmF3UlBvbkw5RFFvdUVnUEVUcC14Q0ZoRkRzRC1lRmZMcDZUZUw0MGhNMXNvWVB1NmF3UQ?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQWt4SWFMeHV6eE9pbGdVd245MXJhRWl1eVVfUG9QbWtFMl9pWjduWEMySlprUlNBdG5CeVJFR090ZWtvY1Q5U19Fb25oNWxEaDRJN1FSaWM4UkowWERTRGROT3ZFc1F3WHhhclZYOFdESkdkUkxpbmktTEY5SjlvZG83bm5jWW5lOVlXVnI3WGlsT0dpOG40Ml8ydmdVTW5JNkJBOEpXMA?oc=5",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxPczlFMFdRc0g3dGEtZk9VU20wbEF3M2pkZFFQaHB1bi0tb2ZVRmR0UWdVaERpTXVpNVUyNmY3ZjNzb2JTZkxWZDR5Vkwtcmk1X2U2YVQzU0xFOHdTWFhpbi1pdl9nTHExQllZRjBPYWE1OVFvTUo3dzM2V25YZ0pHMA?oc=5",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTzJSRGh2N1hPMmtLaTBxZVBlc2g4eEpWX2dSN05WbU1fSjl3MkRUbXQxNDhuSkgtLVdWaEhfZ2JBdHE2SFkwZVo4Qi1TWUJZd3llemxFSk9hYUg3TWF3Vk5fdUhoNVI1VjhpR0FrcF9DUlVRZVFkSE9zQ2dpTHVOcF8yLWY4aEFMaEdpbFJjSnRoQlg1ODMzVGlNdW9XVG54NEt4Vy13ZE1DY3VmTnBqWDFEdmk2VF9hM3g2WUZ2WWszQQ?oc=5"
+    ]
+  },
+  {
     "date": "2026-07-02",
     "displayDate": "2026年7月2日",
     "scope": "全球新闻｜科技与财经优先",
