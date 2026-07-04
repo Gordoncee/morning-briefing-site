@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-04",
+    "displayDate": "2026年7月4日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-04.png",
+    "summary": "本期简报聚焦AI算力供应链的重新分配与跨界扩张，Meta向三星下达65亿美元AI芯片大单，SpaceX亦被曝进军计算机芯片业务；同时，AI应用正向基础科学延伸，Anthropic发布药物研发工作台；监管与宏观层面，欧洲金融监管层警告AI发展超越现有规则，而刚果（金）借AI矿物繁荣筹备首个证券交易所，凸显上游资源国的金融化进程。",
+    "focus": [
+      "AI芯片供应链重塑、AI for Science商业化、欧洲金融AI监管、新兴市场资源金融化",
+      "反映AI算力需求外溢及晶圆代工与先进封装产能的重新分配，直接影响半导体板块估值与全球供应链格局。",
+      "AI在科学发现（AI for Science）中的商业化落地加速，可能重塑制药行业的研发周期与资本开支结构。"
+    ],
+    "items": [
+      {
+        "title": "Meta向三星下达65亿美元AI芯片大单，定制硅片争夺战升级",
+        "region": "全球/美国/韩国",
+        "sources": [
+          "TradingView"
+        ],
+        "summary": "消息称Meta正与三星洽谈一笔价值65亿美元的AI芯片订单，这将是三星迄今获得的最大AI芯片订单，标志着科技巨头在定制硅片和供应链多元化上的竞争进一步加剧。",
+        "why": "反映AI算力需求外溢及晶圆代工与先进封装产能的重新分配，直接影响半导体板块估值与全球供应链格局。",
+        "watch": "三星先进制程良率进展及Meta自研芯片（MTIA）的量产节奏与资本开支转化。"
+      },
+      {
+        "title": "Anthropic发布Claude Science进军药物研发，AI工作流从代码向基础科学延伸",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "Anthropic推出专为科学家设计的“AI工作台”Claude Science，整合碎片化工具与数据集，并宣布将利用AI自主开发药物，标志着前沿大模型的应用场景从软件工程向生物医药等基础科学领域深度拓展。",
+        "why": "AI在科学发现（AI for Science）中的商业化落地加速，可能重塑制药行业的研发周期与资本开支结构。",
+        "watch": "传统药企与AI原生公司的合作或并购动向，以及FDA对AI生成药物数据的监管态度。"
+      },
+      {
+        "title": "欧洲顶级银行家与监管层警告AI发展正超越现有规则，金融系统性风险受关注",
+        "region": "欧洲",
+        "sources": [
+          "CNBC"
+        ],
+        "summary": "欧洲高级银行家和监管机构发出警告，称人工智能的发展速度已超越现有监管框架，呼吁在金融等关键领域建立更敏捷的规则，以防范算法同质化和自动化决策带来的系统性风险。",
+        "why": "凸显AI在金融等强监管行业的应用瓶颈，欧洲监管态度可能成为全球AI合规标准的先行指标。",
+        "watch": "欧盟AI法案在金融领域的具体执行细则，以及跨国银行在AI合规上的资本支出。"
+      },
+      {
+        "title": "SpaceX被曝将计算机芯片作为下一个核心业务，商业航天巨头跨界算力基础设施",
+        "region": "美国",
+        "sources": [
+          "The Globe and Mail"
+        ],
+        "summary": "报道指出SpaceX的下一个重大业务不仅是火箭，而是计算机芯片。随着星链和AI需求的爆发，SpaceX正利用其庞大的硬件规模和资金优势，向定制芯片和算力基础设施领域扩张。",
+        "why": "科技巨头跨界造芯趋势蔓延至商业航天领域，可能打破现有AI芯片和边缘计算市场的竞争格局。",
+        "watch": "SpaceX芯片的具体应用场景（如星载AI计算或地面数据中心）及其对现有芯片供应商的潜在替代效应。"
+      },
+      {
+        "title": "刚果（金）计划建立首个证券交易所，AI矿物繁荣吸引全球资本关注",
+        "region": "非洲/全球",
+        "sources": [
+          "Bloomberg.com"
+        ],
+        "summary": "随着AI和电动车产业对钴、铜等关键矿物的需求激增，刚果（金）正计划建立该国历史上首个证券交易所，旨在将资源红利转化为本土资本市场的发展动力，吸引全球投资者。",
+        "why": "AI硬件热潮正在深刻重塑全球上游供应链和新兴市场宏观基本面，资源国的金融化进程将影响关键矿物的定价权。",
+        "watch": "刚果股市的设立时间表、外资准入政策，以及全球科技巨头对非洲矿产供应链的直接投资动向。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTDlBYjZxMmpVWUNiOVEtSTBIcE5FOTRoWlpCMF9qbFAtUGF6dlNJM09nV2E2ekR6cVIzTkFXOHl6Z3VDTWdZUXQ1X0lSNF9TQlI4UlVJNU96ZEc4aWdPdTlvNVRXeHFBbFQwTGJJYl84eElqM3l0M1Z6elFFXy1pRk4xdGtXZzJqMlVvcnQ1My1hdWM2eGkwUjZFaVhvaVRhUXZyN1RHMzFZdVphWEIxbWIxbHlGakt2aFR2dDBGNHBmZHVxbDdHQ0ZVOE81QQ?oc=5",
+      "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUEhweVd0dWNyYnFWdDNQZGx1Z2JmNjFlNlZMdl8xRTlhV3RTYVdGUk0xR05WMm42N1dVbkVVUmk4YW5iNnc2VWhNZ3ZLbXpSaU15Q1huRndBZWUyeFFtUTg5MHBIaHBmdFpuZFhSa3lDa2JLQ0puMWpzc01rM3VqUmZDQ0pFcl9zSnJWSGJzcVNRVEky0gGaAUFVX3lxTFBKLWQ5bm9HRzIzMndnYmpFM2lSSUV0RlFxVW5WcDJHNXViNjVzZFM5dVUzVDFqdlUxcmw0cEI0SE5ZcDBocW1Cc29PbW5STXZRRXYwZDRsV0lYLXg1b1JJVDVPOWY5MVlHYzdjb2Q2WW5NMF8zZUI2UTRuYk53dVlORVFKMTluSl9KbWdKV3doTnVQVnhmZE1RRmc?oc=5",
+      "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUTk5blhZRTFzQ3F0YkpZVHI3R0d2MHNMRkFJZTJRSTFkUEJDcDZjV3NRVHFVSWdIYlFzbTR0ZWtuSmQ3NzEtdWhzZE80STdES1pWSExWdUNraHVDUkVoQVZHenRfM2pGb01iRk5xM3RtUGUyWWQxeEtZYnNIbkM1LUMwX1NGOWNpVUpPSGNnMlZvN2NSYWJrcVpyNWIwclVHbFU5cllYMUw5WG5EYnNmUW9sZVMtNm9lazhhTkRRc3JyM0NZMWVoN25STzdoQzV4eEpWcVhR?oc=5",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeW4yRXB2dlQ4MzY5Z09GWUl1TTdkLXcyelZqNXZfQmpueEZSX1kyRHBEQ0lZRV9SWm1fX1VZeFpHNlBNWWhZc0FuaUFNcmNRSXNKNnVaNVFxd256TEM0NHdzZlVTb2dJOFpzTmpSTmFJSWtac25MeE13aUJVZElncUp2cERLa3o0WGhsTVg0LUVuYkNleXQ2d19hZ1BjTTZzNzdXRHJhTFZ0cXJBUW91YUgxRDJUdw?oc=5"
+    ]
+  },
+  {
     "date": "2026-07-03",
     "displayDate": "2026年7月3日",
     "scope": "全球新闻｜科技与财经优先",
