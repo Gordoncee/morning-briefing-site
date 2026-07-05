@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-05",
+    "displayDate": "2026年7月5日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-05.png",
+    "summary": "今日简报聚焦AI基建与存储芯片的资本狂飙：Micron斥资93亿美元扩建日本内存工厂，Meta拟向三星下达65亿美元AI芯片大单，Kioxia同步推进AI数据中心闪存样品；宏观层面，6月疲软就业数据引发美股分化，道指创新高而科技股承压；监管端，欧洲金融监管机构警告AI发展已超越现行规则。",
+    "focus": [
+      "AI芯片供应链",
+      "存储芯片扩产",
+      "宏观就业与美股分化"
+    ],
+    "items": [
+      {
+        "title": "Micron宣布93亿美元日本扩产计划，AI内存芯片产能竞赛加速",
+        "region": "日本/美国",
+        "sources": [
+          "MEXC"
+        ],
+        "summary": "Micron确认将在日本投资93亿美元扩建内存芯片工厂，以满足生成式AI对高带宽内存（HBM）和数据中心DRAM的激增需求。此举标志着存储巨头在AI基建周期的资本开支继续加码。",
+        "why": "继近期财报利润暴增后，Micron的巨额扩产印证了AI内存短缺的长期性，存储芯片成为AI算力瓶颈的核心变量。",
+        "watch": "关注日本政府对半导体补贴的后续落地，以及HBM产能释放对SK Hynix和三星市场份额的挤压效应。"
+      },
+      {
+        "title": "Meta拟向三星下达65亿美元AI芯片大单，科技巨头算力供应链走向多元化",
+        "region": "美国/韩国",
+        "sources": [
+          "TradingView"
+        ],
+        "summary": "报道称Meta正与三星洽谈一笔价值约65亿美元的AI芯片订单，可能涉及定制ASIC或先进封装代工。这是Meta在依赖英伟达之外，寻求算力供应链多元化的重大举措。",
+        "why": "65亿美元大单若落地，将极大提振三星晶圆代工与先进封装业务，同时反映科技巨头在AI军备竞赛中对单一供应商风险的深度焦虑。",
+        "watch": "观察三星先进制程良率能否满足Meta的严苛要求，以及此举对台积电AI芯片代工垄断地位的实质性冲击。"
+      },
+      {
+        "title": "欧洲央行与监管机构警告AI发展超越现行规则，金融系统AI风险纳入宏观审慎视野",
+        "region": "欧洲",
+        "sources": [
+          "CNBC"
+        ],
+        "summary": "欧洲顶级银行家和监管机构发出警告，称AI在金融系统的应用速度已超越现有监管规则，呼吁将AI模型风险、算法同质化和数据隐私纳入宏观审慎监管框架。",
+        "why": "这是欧洲金融监管层首次系统性地将AI技术风险与金融稳定性直接挂钩，预示着针对金融AI的专项合规审查和压力测试即将出台。",
+        "watch": "关注欧洲银行业管理局（EBA）是否会出台针对AI信贷审批和量化交易模型的强制性审计标准。"
+      },
+      {
+        "title": "6月就业数据疲软引发市场分化，道指创新高而科技股拖累纳指与标普",
+        "region": "美国",
+        "sources": [
+          "eciks.org"
+        ],
+        "summary": "美国6月就业报告表现疲软，引发市场对经济降温的担忧。资金涌入传统防御性板块推动道指创下历史新高，而高估值的科技股和AI概念股则拖累纳斯达克和标普500指数走低。",
+        "why": "就业数据降温改变了美联储降息预期，导致市场风格发生剧烈切换，AI硬件与软件股面临估值重估的宏观压力。",
+        "watch": "紧盯下周通胀数据及美联储官员讲话，观察科技股能否在盈利预期支撑下抵御宏观流动性收紧的逆风。"
+      },
+      {
+        "title": "Kioxia向客户发送AI数据中心新型闪存样品，存储芯片厂商全面押注AI基建需求",
+        "region": "日本",
+        "sources": [
+          "The Japan Times"
+        ],
+        "summary": "日本存储巨头Kioxia开始向核心客户发送专为AI数据中心优化的新型NAND闪存样品，旨在提升大规模语言模型训练和推理过程中的数据吞吐效率。",
+        "why": "与Micron的扩产相呼应，Kioxia的新品推进表明整个存储行业正从“周期复苏”全面转向“AI定制化”，企业级SSD成为AI基建的新增长极。",
+        "watch": "关注超大规模云厂商对该款闪存的验证进度，以及AI服务器中存储容量与算力配比的演变趋势。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9fYUxqNlRPNlpMV1JJd2xrN0tVQXkzNG96R3lxVnN2X0Jyc3JNdFdwXzVEQ3BnR3BKUjN3cEdRTmhFYlB3ckNr?oc=5",
+      "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTDlBYjZxMmpVWUNiOVEtSTBIcE5FOTRoWlpCMF9qbFAtUGF6dlNJM09nV2E2ekR6cVIzTkFXOHl6Z3VDTWdZUXQ1X0lSNF9TQlI4UlVJNU96ZEc4aWdPdTlvNVRXeHFBbFQwTGJJYl84eElqM3l0M1Z6elFFXy1pRk4xdGtXZzJqMlVvcnQ1My1hdWM2eGkwUjZFaVhvaVRhUXZyN1RHMzFZdVphWEIxbWIxbHlGakt2aFR2dDBGNHBmZHVxbDdHQ0ZVOE81QQ?oc=5",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUEhweVd0dWNyYnFWdDNQZGx1Z2JmNjFlNlZMdl8xRTlhV3RTYVdGUk0xR05WMm42N1dVbkVVUmk4YW5iNnc2VWhNZ3ZLbXpSaU15Q1huRndBZWUyeFFtUTg5MHBIaHBmdFpuZFhSa3lDa2JLQ0puMWpzc01rM3VqUmZDQ0pFcl9zSnJWSGJzcVNRVEky0gGaAUFVX3lxTFBKLWQ5bm9HRzIzMndnYmpFM2lSSUV0RlFxVW5WcDJHNXViNjVzZFM5dVUzVDFqdlUxcmw0cEI0SE5ZcDBocW1Cc29PbW5STXZRRXYwZDRsV0lYLXg1b1JJVDVPOWY5MVlHYzdjb2Q2WW5NMF8zZUI2UTRuYk53dVlORVFKMTluSl9KbWdKV3doTnVQVnhmZE1RRmc?oc=5",
+      "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMdmduSXYyQVRqZHlDWjFPTjN2SUd4Y25Mc2ljWEZvRVV2SDNkbnFZZEhiOTkyQXZUVmZfMlF0ZktRbEdBUy1Cc3puUGN6bGVkWWVEUXRxdGgtZ0poZTgzVFF4b0dkQ0JxYXpGY0lzU04?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUWtzSHVDNzVVeGJ1THlfOWZnckhRVTdKLTNQaVpobnVXWFZRMXA0VS1xRmVZWHN0Qy1jVlJiTzdWNWV3anY4N2Z5LW5wenRnSVdDV2xGSW9ma2o5T05ySXdJNWZLcWRyVlpILVQzUDJ0NjI4TkFDODEzY1U5bXBseWNpTmtjX0ZvcVVQMnJyZlJKeWZWQjg0?oc=5"
+    ]
+  },
+  {
     "date": "2026-07-04",
     "displayDate": "2026年7月4日",
     "scope": "全球新闻｜科技与财经优先",
