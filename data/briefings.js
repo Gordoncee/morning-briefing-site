@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-06",
+    "displayDate": "2026年7月6日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-06.png",
+    "summary": "本期简报聚焦AI基建的资本与监管博弈、全球宏观变量及芯片巨头的战略扩张。全球监管机构开始关注AI热潮背后的债务风险并拟加限制；OPEC+在油价下跌背景下继续增产；SK Telecom抛出15GW AI数据中心庞大规划；美国6月就业数据降温缓解加息担忧；高通则被曝谋划进军数据中心芯片市场。",
+    "focus": [
+      "AI债务监管",
+      "OPEC+增产",
+      "AI数据中心基建"
+    ],
+    "items": [
+      {
+        "title": "全球监管机构拟限制AI债务融资，AI基建杠杆风险引关注",
+        "region": "全球",
+        "sources": [
+          "24/7 Wall St."
+        ],
+        "summary": "随着AI热潮推动科技公司大举借债进行基础设施建设，全球监管机构正密切关注这一趋势，并考虑采取措施限制AI领域的债务融资，以防范系统性金融风险。",
+        "why": "AI资本开支正从股权融资向结构化债务转移，监管介入将直接影响科技巨头的杠杆率和基建扩张速度。",
+        "watch": "关注各国金融监管机构对科技巨头发债和银团贷款的具体限制措施及落地时间表。"
+      },
+      {
+        "title": "OPEC+无视油价下跌再次宣布增产，原油市场博弈加剧",
+        "region": "全球",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "尽管近期原油价格持续下跌，OPEC+主要产油国仍于周日达成协议，同意再次适度提高原油产量。此举被视为在美伊和平协议落实及霍尔木兹海峡局势明朗前的象征性动作。",
+        "why": "OPEC+在需求疲软和地缘政治双重压力下坚持增产，反映出其对市场份额的争夺，将进一步压制油价并影响全球通胀预期。",
+        "watch": "关注美伊谈判最终结果对霍尔木兹海峡通航的实际影响，以及油价跌破关键支撑位后的产油国财政反应。"
+      },
+      {
+        "title": "SK Telecom计划到2035年实现15GW AI数据中心容量",
+        "region": "亚洲",
+        "sources": [
+          "The Korea Herald"
+        ],
+        "summary": "韩国电信巨头SK Telecom公布了一项雄心勃勃的AI基础设施计划，目标是在2035年前将其AI数据中心容量扩展至15GW，以应对生成式AI带来的算力需求激增。",
+        "why": "15GW的容量目标远超当前常规科技公司的规划，凸显了亚洲电信运营商在AI算力基建中的激进角色及电力需求的指数级增长。",
+        "watch": "关注该庞大计划背后的资本开支来源、电力供应保障以及与全球芯片供应商的长期绑定协议。"
+      },
+      {
+        "title": "美国6月就业数据降温缓解加息担忧，美股走势分化",
+        "region": "北美",
+        "sources": [
+          "WSJ"
+        ],
+        "summary": "美国6月非农就业数据显现降温迹象，有效缓解了市场对美联储可能重启加息的担忧。受此宏观变量影响，美股各板块表现分化，科技股与利率敏感型资产获得喘息空间。",
+        "why": "就业市场的边际降温为美联储维持当前利率路径提供了数据支撑，降低了极端紧缩政策对科技股估值的压制风险。",
+        "watch": "关注后续CPI及PCE通胀数据是否能与就业降温形成共振，以及美联储官员对劳动力市场放缓的定性评价。"
+      },
+      {
+        "title": "高通据报瞄准数据中心芯片技术，谋划手机与汽车之外的新增长极",
+        "region": "北美",
+        "sources": [
+          "Stocktwits"
+        ],
+        "summary": "消息称高通正在评估将数据中心芯片技术应用于智能手机和汽车领域的可能性，同时也在探索直接进军数据中心市场。尽管战略扩张意图明显，但QCOM股价近期表现疲软。",
+        "why": "高通试图打破对手机和汽车芯片的路径依赖，向数据中心和AI边缘计算渗透，这将直接挑战英伟达、AMD及英特尔的腹地。",
+        "watch": "关注高通在数据中心定制芯片（ASIC）或Arm架构服务器CPU方面的具体产品路线图及头部云厂商的验证进展。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaTBmQ1pfbTFYQlo5Y1pBVWhpSG9ZWUI3U1dPMW5FaWVIUGFXTjhlWm1vWVRUdE45dnJzTUR6cGJaTzZXbmZMQ2J1V2ZoQzVFS3pOeGVMRWp3aGZWNVdXWHdVdU9NZVdBMGVmVGpDMU83QUhoa1B2bldXS1BHUlVTeldkTzNLaDQxQ3B1TmlHNmVfTlRmazVUOWRBZUVROXA4UU9zQXVtcVcxb0xDcXVwSg?oc=5",
+      "https://www.marketwatch.com/story/opec-raises-output-levels-again-despite-tumbling-crude-prices-534791c8?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA2YnRqcmpScE1hSmpxY3pZalFwdmdCMjNMUW5mdUdsSUl1VzJBakVMXzJJM1lRa0hJcEFLdlNVU29nTWZGQkF3WXBiS3Jhend4SmJ2ZDk2Yw?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbGgzdmJlQS1wMTlSbG41TVRDTzdHT21ZVjYwMUh3U21PakJWQ19zRzM2LWE4bThDMlg5TTMtTWtfbFk2bXB1LWxpbm9vSkNPRnZtWjVZQ1hmWlB6Tk5ZMWp5ZWc3WmR1cW8yWldZc0dheUtFc2I2THFuT3NtSFRxSXpUSU1aTy1yblMxR3VsZExXN3BTWGhUR0pRaWk2b1JHS2RBYmVB?oc=5",
+      "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOa01YMzVLYW5sM2VGdW0xcGMyc3BZNUdUOTNrR2l4ZWVBdFJVTENweW56MkY2ZFRxaDRWSmdVTTR3UHBQM0xUSzVxZk9YTHlQU3JVT3Z2STZ4ckVJTkZvVVpyWFJtZWF1aHo5TkJib21heWpkV1N4RjFwMDNaVGY2ZzZDbE5vZnpxa2NYM0N1UU9JVUx0ZXh5Nzk0dWI0a0ZPOGJ1T090WHRmeTktYmluTmhDeWxHeEh3Q1dFQlZidk5jWlBnLWphcGYyWEZRV2tfeldzMEFyY3lLdngxd2IyM3dOUkNEZlk?oc=5"
+    ]
+  },
+  {
     "date": "2026-07-05",
     "displayDate": "2026年7月5日",
     "scope": "全球新闻｜科技与财经优先",
