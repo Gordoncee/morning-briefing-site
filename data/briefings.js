@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-07",
+    "displayDate": "2026年7月7日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-07.png",
+    "summary": "今日简报聚焦SpaceX纳入纳斯达克100指数对科技股波动率的影响、微软Xbox游戏工作室的重组拆分、特朗普对沃尔玛降价的关税态度转变、AI数据资产收益分配的平台监管争议，以及国会休会期监管真空对股市的宏观提振效应。",
+    "focus": [
+      "SpaceX纳入纳指100",
+      "微软Xbox工作室重组",
+      "特朗普关税与零售定价"
+    ],
+    "items": [
+      {
+        "title": "SpaceX即将纳入纳斯达克100指数，科技股波动率溢价面临重估",
+        "region": "美国",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "SpaceX预计于周二正式加入纳斯达克100指数，但短期内不会纳入标普500指数。这一指数调整将显著扩大纳斯达克100与标普500之间的波动率差异，重塑科技板块的被动资金配置格局。",
+        "why": "SpaceX作为超级科技巨头，其纳入核心科技指数将直接改变指数基金的持仓结构，对科技股流动性和波动率产生深远影响，是资本市场结构变化的重要信号。",
+        "watch": "关注SpaceX纳入后纳斯达克100ETF的资金流入情况，以及其对其他高估值科技股权重的挤压效应和指数再平衡成本。"
+      },
+      {
+        "title": "微软重组Xbox游戏工作室，Double Fine等四家工作室拆分独立",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "微软宣布对Xbox游戏工作室进行重大重组，将Compulsion Games、Double Fine Productions、Ninja Theory和Undead Labs四家工作室拆分。其中部分工作室在独立后将继续保留其现有游戏IP的开发权。",
+        "why": "在AI和云基础设施开支激增的背景下，微软继续优化非核心或长周期娱乐资产的资本效率，反映出科技巨头在核心AI战略与边缘业务之间的资源重新平衡。",
+        "watch": "观察这四家工作室独立后的融资动向及IP归属，以及微软游戏部门是否会进一步收缩以支持AI和云业务的资本开支。"
+      },
+      {
+        "title": "特朗普称赞沃尔玛降价为“爱国”，关税政策与零售定价博弈出现微妙转向",
+        "region": "美国",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "特朗普公开赞扬沃尔玛削减牛肉价格的举措，称其为“爱国”行为。这与其去年批评该连锁店应对关税的态度形成鲜明对比，暗示白宫在通胀压力与关税政策之间正寻求新的政治平衡。",
+        "why": "零售巨头的定价策略与白宫关税叙事直接挂钩。特朗普态度的转变可能意味着政府在面临实际通胀反弹时，对大型零售商的价格干预或关税豁免将采取更务实的妥协。",
+        "watch": "关注沃尔玛及其他大型零售商在关税落地后的实际毛利率变化，以及白宫是否会针对特定民生商品出台关税豁免清单。"
+      },
+      {
+        "title": "AI数据资产收益分配争议升温，舆论呼吁打破科技巨头的数据垄断红利",
+        "region": "全球",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "市场观点指出，公众数据构建了当前的AI繁荣，但科技巨头却独占了绝大部分股权收益。文章呼吁建立数据产权与分红机制，将AI财富的分配从“施舍”转变为法定权利。",
+        "why": "随着前沿模型对高质量数据的依赖加深，数据版权和收益分配正从法律纠纷演变为系统性的平台监管议题，可能催生新的“数据税”或强制分红立法。",
+        "watch": "关注欧美监管机构对AI训练数据补偿机制的立法进展，以及科技巨头是否会主动推出数据创作者分润计划以规避反垄断审查。"
+      },
+      {
+        "title": "国会夏季休会期开启，监管真空效应提振股市并降低政策波动率",
+        "region": "美国",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "历史数据显示，股市在国会夏季休会期间往往表现强劲。其核心逻辑在于立法者休会大幅降低了监管和政策不确定性，为市场提供了短暂的风险偏好修复窗口。",
+        "why": "在AI监管、反垄断和关税政策密集出台的年份，国会休会带来的“监管真空”成为短期内影响资本市场定价的重要宏观变量，降低了科技股的政策风险溢价。",
+        "watch": "关注休会期间SEC和FTC等独立监管机构的执法动作，以及市场是否会利用这一窗口期加速推进科技巨头的并购与资本运作。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/the-nasdaq-100-has-been-far-more-volatile-than-the-s-p-500-now-add-spacex-to-the-mix-cd397c36?mod=mw_rss_topstories",
+      "https://www.theverge.com/games/961749/xbox-layoffs-compulsion-double-fine-indie",
+      "https://www.marketwatch.com/story/trump-calls-walmart-patriotic-for-cutting-beef-prices-in-a-stark-change-of-tune-96c32712?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/stocks-rally-when-congress-goes-on-summer-break-here-is-the-hidden-reason-e70a6be3?mod=mw_rss_topstories"
+    ]
+  },
+  {
     "date": "2026-07-06",
     "displayDate": "2026年7月6日",
     "scope": "全球新闻｜科技与财经优先",
