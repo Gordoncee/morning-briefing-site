@@ -1,5 +1,78 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-08",
+    "displayDate": "2026年7月8日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-08.png",
+    "summary": "今日简报聚焦AI资本开支对债市的冲击、存储芯片周期的多空分歧、地缘冲突推升油价、英国央行对AI金融风险的警告，以及SpaceX纳入纳指100后的市场反应。",
+    "focus": [
+      "AI基建融资、半导体周期、地缘宏观、AI金融监管、资本市场指数调整",
+      "AI资本开支正从股权融资向结构化债务转移，巨额发债开始实质性测试债市对AI叙事的承接能力与风险定价。",
+      "财报数据验证了AI对HBM等高端存储的强劲需求，但股价反应显示资金开始警惕产能扩张后的供需反转风险。"
+    ],
+    "items": [
+      {
+        "title": "Amazon 250亿美元AI债券发行引发债市抛售",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "亚马逊计划再发行250亿美元债券以支持其庞大的AI基础设施建设，导致AI相关债务在二级市场遭遇大幅抛售，投资者对科技巨头高杠杆扩张的担忧加剧。",
+        "why": "AI资本开支正从股权融资向结构化债务转移，巨额发债开始实质性测试债市对AI叙事的承接能力与风险定价。",
+        "watch": "关注后续科技巨头发债的信用利差变化，以及高利率环境下AI基建债务的违约风险溢价。"
+      },
+      {
+        "title": "三星利润暴增1800%与Micron股价下挫形成存储芯片多空分歧",
+        "region": "全球",
+        "sources": [
+          "BBC",
+          "MarketWatch"
+        ],
+        "summary": "三星电子受AI芯片销售飙升推动，利润同比暴增1800%；但与此同时，Micron股价下跌，投资者担忧AI存储市场可能已接近周期顶部，市场出现明显分歧。",
+        "why": "财报数据验证了AI对HBM等高端存储的强劲需求，但股价反应显示资金开始警惕产能扩张后的供需反转风险。",
+        "watch": "紧盯下半年DRAM与NAND的现货价格走势，以及云厂商对下一代AI服务器内存的采购节奏。"
+      },
+      {
+        "title": "美国打击伊朗并取消石油许可，原油价格跳涨",
+        "region": "中东/美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "美国财政部取消了此前授予的伊朗石油出口许可，并对伊朗发动打击，导致原油期货价格大幅上涨，地缘政治风险再次成为市场核心变量。",
+        "why": "霍尔木兹海峡及中东原油供应的潜在中断风险，将直接推升全球通胀预期，进而对美联储利率路径和科技股估值形成压制。",
+        "watch": "关注伊朗的报复性回应、OPEC+的产量调节动作，以及油价突破关键阻力位后的通胀交易回归。"
+      },
+      {
+        "title": "英国央行警告AI对金融稳定构成日益增长的风险",
+        "region": "英国",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "英国央行发布报告指出，人工智能在金融系统中的快速应用正在带来新的系统性风险，包括模型同质化导致的羊群效应和算法交易引发的市场闪崩。",
+        "why": "主要经济体央行首次将AI风险提升至金融稳定高度，预示着针对金融领域AI应用的专项监管和压力测试即将出台。",
+        "watch": "关注英美监管机构是否会对使用AI进行高频交易和信贷审批的金融机构提出新的资本充足率或算法审计要求。"
+      },
+      {
+        "title": "SpaceX纳入纳斯达克100指数，股价出现回调",
+        "region": "美国",
+        "sources": [
+          "Al Jazeera"
+        ],
+        "summary": "SpaceX正式被纳入科技股权重极高的纳斯达克100指数，但消息落地后股价出现下滑，部分资金选择获利了结，反映出市场对超高估值航天资产的重新定价。",
+        "why": "纳入核心指数通常带来被动资金流入，但股价回调表明在前期市值暴涨后，主动资金对商业航天当前估值与现金流匹配度存在疑虑。",
+        "watch": "观察指数基金调仓完成后的流动性变化，以及SpaceX星舰后续发射任务对其商业估值逻辑的支撑力度。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/ai-related-debt-sells-off-sharply-as-amazon-borrows-another-25-billion-46928353?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RSlZNMzN0UWtYc1BKa0lLeVB2M01ENGJTOUtaMDBDSEc4b1YzYnJQN1lwTzNCNFdqMEp6cVgzSklad2x1bVZTT1E2TmI3SFhydXBQLWJVVUNUdw",
+      "https://www.marketwatch.com/story/microns-stock-falls-as-investors-wonder-if-the-memory-market-is-near-the-top-ab2d2feb?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/oil-prices-rise-as-the-u-s-cancels-irans-license-to-sell-oil-030635fc?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObUdISUlkdHhqQXoyVHdfNzNTaUp5bmtFYzNxMGQyREZVaWMwdG5Ha2tZSUdBcGo4VGRiX2VzbWxON3ZsZk5nMmJfYi1MdHp3SjRhZWVmSmhVN2JaWE9QRUZQaGV4dzRnN0hiaEVhWk55dURTNTZjdVdlLUlqc3A4SW55RnRFSVdYdm9TNDU0NHBheG91N0VKTUw4TWVObnNrdGN6V3phYUVtNkk?oc=5",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMlVVM3VzVC10SHVJOVN2a1Jzdkl6cnEwNlBPTG53VzNaVVZBaXNILUtlaFVycEtVajN5MFNlY1BSUVhCM1h5WkpXTVhDOU5HQzJTN1EzbGM5N28wXzNuX0MyUld4RHFaS3Z5ZnloRmNFbkNIMXRrR0lLUGY1alhIR3dUc3h3OXVCTVNaMWw0cVRpdDBPWHMzZzlZOUhNTzZrWWfSAacBQVVfeXFMT3BpRkU5YUZBMGdIdno2a1hLS21ZTUdRbVFQZUFKMjdYS0FXWDhnTkI3cVVtTFZUSjNCd2UxNlNwVk1ZWS13bmlsZnR3RHVzRDB3WEhOQ2dnRDhGZkVLNzlPUTE4UUFDb29GaGg0OWRROVFlVEk2YkdiTk9HUWgxYklzT3hKemU3eGxGVE53Z2VQX3RSRnNkQ3MzeWdZZFdYUnpoNk13WHc?oc=5"
+    ]
+  },
+  {
     "date": "2026-07-07",
     "displayDate": "2026年7月7日",
     "scope": "全球新闻｜科技与财经优先",
