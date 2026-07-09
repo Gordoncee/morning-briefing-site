@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-09",
+    "displayDate": "2026年7月9日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-09.png",
+    "summary": "本期简报聚焦美伊停火破裂引发的全球宏观震荡、AI资本市场的利润验证与信贷扩张，以及AI硬件入口和底层算力架构的最新演变。",
+    "focus": [
+      "地缘政治与通胀",
+      "AI资本开支与信贷",
+      "AI硬件与隐私"
+    ],
+    "items": [
+      {
+        "title": "特朗普宣布美伊停火结束且美军再次打击伊朗，油价飙升引发全球股市震荡",
+        "region": "全球",
+        "sources": [
+          "The Washington Post"
+        ],
+        "summary": "特朗普表示与伊朗的停火协议已经结束，随后美军对伊朗发动新一轮打击。受地缘政治风险急剧升温影响，国际油价大幅上涨并创下两周新高，全球股市随之承压，通胀预期与美联储政策路径再次面临不确定性。",
+        "why": "美伊局势从停火预期突转为实质性军事冲突，直接冲击全球能源供应链与通胀交易，是当前资本市场最核心的宏观风险变量。",
+        "watch": "霍尔木兹海峡通航状态、原油期货溢价以及美联储对输入性通胀的表态。"
+      },
+      {
+        "title": "Apollo警告AI利润在科技行业外尚未显现，AI主题ETF面临估值回调风险",
+        "region": "美国",
+        "sources": [
+          "24/7 Wall St."
+        ],
+        "summary": "阿波罗全球管理公司（Apollo）指出，尽管科技巨头在AI基础设施上投入巨大，但AI带来的实际利润增长在非科技行业仍未兑现。这一“利润断层”可能导致过度依赖科技股权重的AI主题ETF面临估值修正压力。",
+        "why": "顶级资管机构对AI商业化落地进度的警告，标志着市场对AI投资的审视正从“算力资本开支”转向“全行业ROI验证”。",
+        "watch": "传统行业企业的AI资本开支转化率、AI ETF的资金流出情况以及科技巨头接下来的财报指引。"
+      },
+      {
+        "title": "AI借款人涌入3.5万亿美元隐藏信贷市场，AI基建融资向私募与杠杆贷款扩张",
+        "region": "美国",
+        "sources": [
+          "The Information"
+        ],
+        "summary": "随着AI数据中心和基础设施的资本需求呈指数级增长，AI公司及相关基础设施基金正大规模转向规模达3.5万亿美元的私募信贷和银团贷款市场，以获取传统公开市场难以满足的巨额融资。",
+        "why": "揭示了AI热潮背后的资本结构演变，AI基建的资金来源正从股权和公开债券向更深度的私募信贷市场渗透，增加了金融系统的隐性杠杆。",
+        "watch": "私募信贷市场的利差变化、AI基础设施项目的违约风险以及监管对非银金融机构AI敞口的审查。"
+      },
+      {
+        "title": "CPU重新成为AI竞赛核心，AI推理与自主代理推高对传统算力的需求",
+        "region": "全球",
+        "sources": [
+          "Nikkei Asia"
+        ],
+        "summary": "随着AI应用从模型训练转向复杂的推理任务和自主代理（Agentic AI）工作流，CPU在数据处理、任务调度和系统控制中的核心地位重新凸显。芯片厂商正调整战略，CPU与GPU的协同成为下一代AI数据中心的关键。",
+        "why": "打破了“AI仅依赖GPU”的单一叙事，揭示了AI工作负载演变对半导体架构和数据中心硬件配置的深远影响。",
+        "watch": "Intel和AMD在AI服务器CPU市场的份额争夺、Arm架构在AI推理端的渗透率以及云厂商的自研芯片架构调整。"
+      },
+      {
+        "title": "Meta被曝开发“超级感知”全天候记录智能眼镜，AI可穿戴设备隐私与入口之争加剧",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "Meta正在测试一款具备“超级感知”能力的智能眼镜原型，该设备能够持续记录音频并每隔几秒自动拍摄照片。这一“Always-on”设计旨在打造终极AI上下文感知入口，但也引发了严重的隐私与监管担忧。",
+        "why": "继Apple和Snap之后，Meta在AI硬件入口的激进布局标志着AI可穿戴设备正从“辅助工具”向“全天候个人数据终端”演进，将直接触发新一轮隐私监管博弈。",
+        "watch": "隐私保护组织的反应、各国数据监管机构对“持续记录”设备的合规审查以及Meta在Ray-Ban合作系列中的功能迭代。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYk84SFhobnFWUDV0WmxjSE5NaWRFakZFUG0zS0tHTG1xWWZydnlSdEtTc293XzF1Y1ZFU2g0TVJHS0dLa0pMZkV6NFo4Y0hPand0eWZRMDVud1R4cDNPM0VzQThyS1hRTkppRVBDMjNvaTAyN2pUeHdkYVgxRmJ5LVkxT21xU1F5ODViTDJ6bXNHZXJIQlBZRUtXeGhQUkxfTkxUZE95UWV5ZDYtbVRCV0JaRG43c2FwSVNhQUJQQ3o?oc=5",
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZGF3LXV0dXBQUWpwcXBlOHlQRGt3aWdNZ2hvM29kXy1DUGkwdS1BaUpneDdJa1hweTF0UU84SC1RaEMtdWotUFEwbVVRZUEta2Q5amUweTFvUE9FR3VyY3RIYzJoYlZwTUF6WW5VaVlxZk5vTDVfM3dtWUhFRFVkZndraUQzckdKbEI2Ujk2VHRhYWVWLUpFTG5Sd1hMcEplNGJGTlFPdEFwSm4tRWE4UlhlNzRidUJQU1R3Skt6ZV8xYmlfSFR4YWRUYXdzQ09JSElBeDlUdDN3Ync?oc=5",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYlFMem5yTlU1ZE9BSzMzUnRLcTRGNXAyMTlXRjFKaTNucTVOMUNCeXVQRkNvWlJKVGtyWmp3Wk5KRFVxeXEyLXlxbTY5ejNKOHo1YTNobllQeld6Z2lhQ3pURUpfV1FUdzdmT3VQOURIamRqMnB3R2Z0cU5yZjhoU3ppd3h3SF9BX0h6bDVhRlFGV1I5dTZGVUd4VVZTY0VsNjRyLUk4b25vT2t4NTRjYThfV2dBbWxYTEtjMWUzcGRPUGY2NEpMUA?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVX3lxTFAxWDBENjR0azJqSWpMS2lYLU10amtlNTNBMk14YmxtT3ptQWxWdHREbWJQb1hYTzVESVZVNmRWNjRDUnowcG1aR3JHdmJkR3IzcmFkUUxmZTU5ckRiLTlqRDl2Q0dvUUk?oc=5",
+      "https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai"
+    ]
+  },
+  {
     "date": "2026-07-08",
     "displayDate": "2026年7月8日",
     "scope": "全球新闻｜科技与财经优先",
