@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-10",
+    "displayDate": "2026年7月10日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-10.png",
+    "summary": "今日简报聚焦AI基建与资本市场的深度博弈：Meta加速自研AI芯片量产以摆脱外部依赖；微软最新报告显示AI算力扩张导致碳排放激增25%，凸显能源与ESG压力；Apollo警告AI投资回报放缓可能引发宏观衰退风险；同时，科技七巨头估值回落至十年低位，而私募资本却在一级市场大举扫货AI芯片资产，显示公私市场对AI硬件的定价分歧。",
+    "focus": [
+      "AI芯片量产, 云基础设施碳排放, 宏观衰退风险, 科技股估值, 私募AI投资",
+      "科技巨头自研芯片进入实质性量产阶段，标志着AI算力军备竞赛从单纯采购转向底层硬件自主化，将直接影响英伟达等供应商的长期定价权。",
+      "AI算力爆发带来的能源消耗和碳排放问题正成为科技巨头不可忽视的合规与ESG风险，可能引发更严格的环保监管和能源配额限制。"
+    ],
+    "items": [
+      {
+        "title": "Meta计划9月量产自研AI芯片，算力翻倍战略加速",
+        "region": "美国",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "据备忘录显示，Meta计划于今年9月将其自研AI芯片投入生产，旨在将其计算能力翻倍，以减少对外部芯片供应商的依赖并优化AI基础设施成本。",
+        "why": "科技巨头自研芯片进入实质性量产阶段，标志着AI算力军备竞赛从单纯采购转向底层硬件自主化，将直接影响英伟达等供应商的长期定价权。",
+        "watch": "关注9月量产良率及实际部署规模，以及Meta后续资本开支中自研芯片与外部采购的比例变化。"
+      },
+      {
+        "title": "微软年度碳排放激增25%，AI数据中心扩张凸显ESG压力",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "微软2026年可持续发展报告显示，受AI数据中心和云基础设施大规模扩张影响，公司去年碳排放量增加了25%，使其实现气候目标的难度进一步加大。",
+        "why": "AI算力爆发带来的能源消耗和碳排放问题正成为科技巨头不可忽视的合规与ESG风险，可能引发更严格的环保监管和能源配额限制。",
+        "watch": "关注科技巨头在核能、地热等清洁能源采购上的后续动作，以及监管机构是否会对AI数据中心的能耗设定硬性上限。"
+      },
+      {
+        "title": "Apollo警告：AI投资回报放缓或成引发经济衰退的潜在风险",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "Apollo Global Management指出，如果人工智能的商业化变现和生产力提升不及预期，前期庞大的资本支出回落可能会将宏观经济拖入衰退。",
+        "why": "顶级资管机构首次将AI投资回报周期与宏观衰退风险直接挂钩，反映出华尔街对AI“高投入、慢变现”模式的深层担忧，可能影响后续科技股估值逻辑。",
+        "watch": "紧盯下半年科技巨头财报中的AI业务实际收入转化率，以及企业级AI应用采购预算的边际变化。"
+      },
+      {
+        "title": "科技“七巨头”估值回落至十多年最低，AI狂热遭遇现实定价",
+        "region": "美国",
+        "sources": [
+          "Yahoo Finance"
+        ],
+        "summary": "数据显示，美股“七巨头”（Magnificent 7）目前的交易估值已降至十多年来的最低水平，反映出市场对AI资本开支回报率及高利率环境的重新定价。",
+        "why": "科技巨头估值中枢下移，表明市场已从“AI概念溢价”转向“盈利兑现折价”，资金在科技板块的配置正变得更加挑剔和注重现金流。",
+        "watch": "观察估值触底后是否有长线资金重新建仓，以及 upcoming 财报季中各家公司对AI资本开支指引的调整。"
+      },
+      {
+        "title": "私募资本大举扫货AI芯片资产，一级市场与二级市场定价现分歧",
+        "region": "全球",
+        "sources": [
+          "Morningstar"
+        ],
+        "summary": "晨星报告指出，私募股权和私人资本正在加速将AI芯片公司私有化或进行大额投资，将其从公开市场“买断”，显示出公私市场对AI硬件资产的价值判断存在显著差异。",
+        "why": "在二级市场AI股票遭遇抛售的同时，一级市场长线资金却在逆势吸纳核心芯片资产，凸显了AI产业链底层硬件的长期稀缺性与战略价值。",
+        "watch": "关注被私募收购的AI芯片初创公司后续的技术突破与流片进度，以及传统半导体巨头是否会发起防御性并购。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQmJUcmlIQzJ4M0Vmd1QxQno5ajZPWnFqRHMtQkNMSzVRMHlnOXBqZDN4cjVuRU1XR3IyajdHekZJRkNpeXA2UjRBaXdiaDlnbkxVa1VXb1hwY3BDMUE1am9uX0o3OUxYTWVkeUMyemFUQ0JkMlVpX1RWSTBLVzI3bC1uaTVGelVXd1pSdEY4RHpreUQySmhOUjZMemVGQ3k4YTREY3VxN3k5alhELVdJa1hGeGYxbUltMV9mVUtHZWM4SmQ1eGNqRkk0RUk?oc=5",
+      "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdTk0TlJKWDJfT2w0U3JSbExtZHdDV25iRm4xVVJ2aEtxVjkybGdETWVQVkZTZk1fUjVyQjBNaC03QkNyTnRqbHF2THF0eDV2WFFPQWFHSklkaVJoeEktcWxxb1NLekFyWGt5bXltNHlLWDdSRGNFRWVsLVpsQVBBT2RCOUR5R28tR3pSU2xJR2dhYjBjZEx1QUViX0hXc3lkS000ZVdoZE1ndWhMaVVickxqWC1ndjUxMGZPc204bmpHR3E5UzZHY3VVSUhXTjlXaGc?oc=5",
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaGVlRl9xZkZReXJMRzVCaC1wbkw3YVVXS3JkdUluNGxFRjRKNFFYU0d0U3k1TGNTMUlWcXNnblI0WjUxR2Z3bk9yNVRxN3FpaUQxamhDY01xMnVJdjlyS0E1ZGgyTm9FeUttVzgtdkNNS2pablB1dnZyal9ycXBlTWxPZjRHUlFaR0pKSlRndkpRNUlkcGFvbVBZRlNsMnNHUnJiTkEwU2lwVmJJZGtjRFBYRm0zaHZOTlVTSjJnazhhVG9EZTdXRG51V0JsaUhEcjlTRlBDSGdMWDA?oc=5",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxPU3c4T3g3ZzhTc1JlVV9ESjYyLVhiV3lEaktkdGQ4b3FIbjVodDBpYjc3VG5IWWtMVi1sLVVBdm5ZemlPRkRYeTVROC1wWVN0bkQ2dHVBRmtzVnplaF9kY1EtaHlTV1NQVF9CUEtnU0NhOTNrU1J6Z1BTcGp4Sng0WTRQQlNfUQ?oc=5"
+    ]
+  },
+  {
     "date": "2026-07-09",
     "displayDate": "2026年7月9日",
     "scope": "全球新闻｜科技与财经优先",
