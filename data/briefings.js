@@ -1,5 +1,100 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-11",
+    "displayDate": "2026年7月11日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-11.png",
+    "summary": "今日简报聚焦AI产业链的资本与法律博弈：苹果起诉OpenAI窃取硬件机密，凸显AI终端硬件竞争白热化；SK海力士登陆美股市场，AI内存需求持续推高芯片板块估值；Meta加速自研AI芯片量产以扩充算力；监管层面，FCC严查大疆规避无人机禁令，Meta则因舆论压力紧急关闭Instagram的AI深度伪造功能。",
+    "focus": [
+      "AI硬件竞争、芯片资本市场、科技巨头自研算力、无人机与AI内容监管",
+      "揭示了AI公司从软件向硬件扩张时与现有消费电子巨头的核心利益冲突，预示AI终端设备赛道的竞争将伴随更多知识产权纠纷。",
+      "SK海力士的美股 debut 是AI硬件供应链资本化的重要里程碑，直接反映了市场对AI算力底层存储组件的长期乐观预期。"
+    ],
+    "items": [
+      {
+        "title": "苹果起诉OpenAI窃取硬件商业机密，AI终端入口争夺引发法律战",
+        "region": "美国",
+        "sources": [
+          "theverge.com",
+          "marketwatch.com"
+        ],
+        "summary": "苹果正式对OpenAI提起诉讼，指控其工程师窃取苹果的硬件商业机密以推进该AI初创公司的硬件计划。苹果在诉状中称，OpenAI内部存在‘常态化’的不当行为，这标志着两大科技巨头在AI硬件入口领域的竞争已从技术层面延伸至激烈的法律博弈。",
+        "why": "揭示了AI公司从软件向硬件扩张时与现有消费电子巨头的核心利益冲突，预示AI终端设备赛道的竞争将伴随更多知识产权纠纷。",
+        "watch": "关注诉讼进展对OpenAI硬件产品发布节奏的影响，以及苹果在AI硬件防御战略上的后续动作。",
+        "sourceLinks": [
+          "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+          "https://www.marketwatch.com/story/apple-sues-openai-for-institutional-misconduct-and-alleges-thats-just-the-tip-of-the-iceberg-6e803c4d?mod=mw_rss_topstories"
+        ]
+      },
+      {
+        "title": "SK海力士登陆美股市场，AI内存需求推动其市值突破万亿美元",
+        "region": "全球/美国",
+        "sources": [
+          "theverge.com",
+          "marketwatch.com",
+          "ABC News"
+        ],
+        "summary": "英伟达最大的内存芯片供应商SK海力士周五正式在纳斯达克挂牌交易，开盘价170美元，募资265亿美元，股价首日大涨近13%。受AI热潮对高带宽内存（HBM）的强劲需求驱动，这家韩国芯片巨头的美国存托凭证（ADR）上市即获得华尔街热捧。",
+        "why": "SK海力士的美股 debut 是AI硬件供应链资本化的重要里程碑，直接反映了市场对AI算力底层存储组件的长期乐观预期。",
+        "watch": "观察其上市后的流动性表现，以及美光等竞争对手在AI内存市场的估值重估和产能跟进情况。",
+        "sourceLinks": [
+          "https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut",
+          "https://www.marketwatch.com/story/sk-hynixs-stock-looks-primed-for-a-pop-in-its-nasdaq-debut-38054370?mod=mw_rss_topstories",
+          "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdmpaRDNzcWd1WTdUN3lpUmVGSFhvc05sd3A2MDUtUVpnT0pfdTFDUlR3ZlFqemtpUHlITnZjT2Fqa25Za0U5QjY4OGNISXk1ZVY3OHBLOFFQMWZtdDhiWktkZF93TG5VM1Fmcm1nX1k4N1VpYjcwb0tXc2RVWktGamdSRC1MQnJETjF4WjJFcE5PUGN0bDRGekVn0gGfAUFVX3lxTE5VRlJLUHZXdkFKTjVaaThzbHloODFsY3NXbnRvTEZ3UVNHRjlVWjZUN2I1YnJaTER1NUJBdEZFU1JfdmxJTERxYXAtaW9JaEEwUXp1Q3JGWnBkNUt3d3FEYkwxUVZncUlFNlpUWkd4NVg2RFBQQ2dMbXBzbHlBdm1ZMjhxWjV0NlZfUFNGQXM4ZzBGY0JvNVlhdVZQSXJKdw?oc=5"
+        ]
+      },
+      {
+        "title": "Meta计划9月量产自研AI芯片，旨在使计算能力翻倍并降低外部依赖",
+        "region": "美国",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "据路透社独家披露的内部备忘录显示，Meta计划于今年9月将其自研AI芯片投入生产，目标是使其计算能力翻倍。此举是Meta加速构建自有AI基础设施、减少对英伟达等外部供应商依赖的关键一步，同时该公司也在评估租赁外部AI算力的混合策略。",
+        "why": "科技巨头自研芯片进入实质性量产阶段，标志着AI算力供应链正在发生结构性重塑，云厂商与芯片设计公司的边界进一步模糊。",
+        "watch": "关注Meta自研芯片的实际良率与性能表现，以及此举对英伟达等GPU巨头长期订单预期的潜在冲击。",
+        "sourceLinks": [
+          "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQmJUcmlIQzJ4M0Vmd1QxQno5ajZPWnFqRHMtQkNMSzVRMHlnOXBqZDN4cjVuRU1XR3IyajdHekZJRkNpeXA2UjRBaXdiaDlnbkxVa1VXb1hwY3BDMUE1am9uX0o3OUxYTWVkeUMyemFUQ0JkMlVpX1RWSTBLVzI3bC1uaTVGelVXd1pSdEY4RHpreUQySmhOUjZMemVGQ3k4YTREY3VxN3k5alhELVdJa1hGeGYxbUltMV9mVUtHZWM4SmQ1eGNqRkk0RUk?oc=5"
+        ]
+      },
+      {
+        "title": "FCC严查大疆通过前台公司规避外国无人机禁令，科技硬件监管收紧",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "美国联邦通信委员会（FCC）正在对大疆（DJI）涉嫌利用Xtra、Skyrover等前台公司或白标品牌将其摄像头和无人机技术伪装后引入美国市场的行为展开严厉打击。此举旨在堵住外国无人机禁令的漏洞，防止受限制的技术产品继续流入美国。",
+        "why": "反映了美国在科技硬件和无人机领域对华供应链脱钩的监管执行力度正在从政策制定转向实质性执法，影响相关出海企业的合规成本。",
+        "watch": "关注FCC后续的具体处罚措施，以及大疆和其他中国硬件厂商在美国市场的合规调整与供应链重组策略。",
+        "sourceLinks": [
+          "https://www.theverge.com/policy/964342/fcc-crack-down-dji-front-companies-xtra-skyrover-sgs-lab"
+        ]
+      },
+      {
+        "title": "Meta紧急关闭Instagram AI深度伪造功能，平台AI生成内容监管面临压力",
+        "region": "全球",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "在遭遇强烈反对后，Meta宣布关闭本周刚推出的一项Instagram功能，该功能原本允许用户通过标记公众账号来生成基于其内容的AI深度伪造图像。这一迅速回撤凸显了科技平台在推进生成式AI商业化时，在版权、肖像权和虚假信息风险上面临的巨大监管与舆论压力。",
+        "why": "生成式AI在C端社交平台的落地正遭遇伦理与合规的硬约束，平台必须在AI功能创新与内容安全之间寻找新的平衡点。",
+        "watch": "观察Meta及其他社交平台后续如何调整AI图像生成工具的授权机制，以及全球监管机构对AI深度伪造内容的立法跟进。",
+        "sourceLinks": [
+          "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
+        ]
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+      "https://www.marketwatch.com/story/apple-sues-openai-for-institutional-misconduct-and-alleges-thats-just-the-tip-of-the-iceberg-6e803c4d?mod=mw_rss_topstories",
+      "https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut",
+      "https://www.marketwatch.com/story/sk-hynixs-stock-looks-primed-for-a-pop-in-its-nasdaq-debut-38054370?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdmpaRDNzcWd1WTdUN3lpUmVGSFhvc05sd3A2MDUtUVpnT0pfdTFDUlR3ZlFqemtpUHlITnZjT2Fqa25Za0U5QjY4OGNISXk1ZVY3OHBLOFFQMWZtdDhiWktkZF93TG5VM1Fmcm1nX1k4N1VpYjcwb0tXc2RVWktGamdSRC1MQnJETjF4WjJFcE5PUGN0bDRGekVn0gGfAUFVX3lxTE5VRlJLUHZXdkFKTjVaaThzbHloODFsY3NXbnRvTEZ3UVNHRjlVWjZUN2I1YnJaTER1NUJBdEZFU1JfdmxJTERxYXAtaW9JaEEwUXp1Q3JGWnBkNUt3d3FEYkwxUVZncUlFNlpUWkd4NVg2RFBQQ2dMbXBzbHlBdm1ZMjhxWjV0NlZfUFNGQXM4ZzBGY0JvNVlhdVZQSXJKdw?oc=5",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQmJUcmlIQzJ4M0Vmd1QxQno5ajZPWnFqRHMtQkNMSzVRMHlnOXBqZDN4cjVuRU1XR3IyajdHekZJRkNpeXA2UjRBaXdiaDlnbkxVa1VXb1hwY3BDMUE1am9uX0o3OUxYTWVkeUMyemFUQ0JkMlVpX1RWSTBLVzI3bC1uaTVGelVXd1pSdEY4RHpreUQySmhOUjZMemVGQ3k4YTREY3VxN3k5alhELVdJa1hGeGYxbUltMV9mVUtHZWM4SmQ1eGNqRkk0RUk?oc=5",
+      "https://www.theverge.com/policy/964342/fcc-crack-down-dji-front-companies-xtra-skyrover-sgs-lab",
+      "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes"
+    ]
+  },
+  {
     "date": "2026-07-10",
     "displayDate": "2026年7月10日",
     "scope": "全球新闻｜科技与财经优先",
