@@ -520,7 +520,9 @@ def render_share_image(briefing: dict[str, Any], out: Path) -> None:
     for focus in briefing["focus"]:
         focus_inner += paragraph(dm, focus, body, content_width - 110)[2] + 14
     focus_height = focus_inner + 34
-    height += focus_height + 240
+    source_summary = "来源交叉核验：" + "｜".join(unique_sources(briefing)[:8])
+    source_lines, source_lh, source_block_height = paragraph(dm, source_summary, sub, content_width)
+    height += focus_height + 210 + source_block_height
 
     image = Image.new("RGB", (width, height), colors["bg"])
     draw = ImageDraw.Draw(image)
@@ -586,9 +588,13 @@ def render_share_image(briefing: dict[str, Any], out: Path) -> None:
 
     footer_y = focus_y + focus_height + 36
     draw.text((x, footer_y), f"检索日期：{briefing['date']}｜覆盖范围：全球科技、财经与重大市场事件", font=sub, fill=colors["muted"])
-    draw.text((x, footer_y + 40), "来源交叉核验：" + "｜".join(unique_sources(briefing)[:8]), font=sub, fill=colors["muted"])
-    draw.text((x, footer_y + 86), "阅读全文与历史简报：", font=sub_bold, fill=colors["ink"])
-    draw.text((x + 214, footer_y + 86), f"https://gordoncee.github.io/morning-briefing-site/#{briefing['date']}", font=sub_bold, fill=colors["blue"])
+    source_y = footer_y + 40
+    for line in source_lines:
+        draw.text((x, source_y), line, font=sub, fill=colors["muted"])
+        source_y += source_lh
+    link_y = source_y + 10
+    draw.text((x, link_y), "阅读全文与历史简报：", font=sub_bold, fill=colors["ink"])
+    draw.text((x + 214, link_y), f"https://gordoncee.github.io/morning-briefing-site/#{briefing['date']}", font=sub_bold, fill=colors["blue"])
     out.parent.mkdir(parents=True, exist_ok=True)
     image.save(out)
 
