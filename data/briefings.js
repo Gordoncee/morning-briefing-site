@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-12",
+    "displayDate": "2026年7月12日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-12.png",
+    "summary": "本期简报聚焦AI基建的宏观外溢效应与资本市场定价。SK Hynix美股首秀验证AI存储芯片需求；数据中心资本开支超越交通支出并引发地方电力税监管；Meta转向租赁算力暴露自建产能瓶颈；高盛警示美股估值脱离基本面；派拉蒙与华纳兄弟合并获州级监管放行，折射传统媒体整合加速。",
+    "focus": [
+      "AI基建宏观外溢",
+      "存储芯片资本化",
+      "云算力租赁"
+    ],
+    "items": [
+      {
+        "title": "SK Hynix美股首秀大涨，AI存储芯片需求持续推高韩国科技股估值",
+        "region": "全球/美国/韩国",
+        "sources": [
+          "Audacy"
+        ],
+        "summary": "韩国AI存储芯片巨头SK Hynix在华尔街完成首秀并大幅上涨，反映出投资者对AI硬件和HBM（高带宽内存）需求的持续热情，带动美股整体走高。",
+        "why": "SK Hynix的美股上市或ADR交易是AI芯片供应链资本化的重要里程碑，直接验证了AI算力扩张对存储芯片的强劲拉动。",
+        "watch": "关注SK Hynix美股流动性及其与Micron等竞争对手在HBM市场的份额争夺，以及美股对AI硬件估值的容忍度。"
+      },
+      {
+        "title": "AI数据中心资本开支超越美国交通支出，多州开始征收专项电力税",
+        "region": "美国",
+        "sources": [
+          "Tech Times"
+        ],
+        "summary": "AI数据中心的建设繁荣已经使相关资本支出超越美国传统交通基础设施支出，同时多个州政府开始对高耗能的数据中心征收专项电力税以应对电网压力。",
+        "why": "标志着AI基建从企业微观行为上升为宏观经济和地方政府财政变量，电力和土地等物理瓶颈正在重塑AI算力的地理分布和成本结构。",
+        "watch": "关注各州电力税政策对科技巨头数据中心选址的影响，以及公用事业公司在此轮AI电力需求中的定价权。"
+      },
+      {
+        "title": "Meta考虑租赁外部AI算力，云业务战略成型以应对内部算力瓶颈",
+        "region": "美国",
+        "sources": [
+          "TradingView"
+        ],
+        "summary": "随着AI模型训练和推理需求激增，Meta正在评估租赁外部AI算力的选项，这标志着其云业务战略的进一步成型，以弥补自建数据中心的短期产能缺口。",
+        "why": "科技巨头从纯自建转向自建加租赁混合模式，反映出AI算力需求的爆发速度已超出单一企业的资本开支和供应链交付极限。",
+        "watch": "关注Meta与AWS、Azure或CoreWeave等云及算力提供商的潜在合作，以及此举对AI算力租赁市场定价和毛利率的影响。"
+      },
+      {
+        "title": "高盛发布报告质疑美股估值：AI繁荣是否已脱离基本面？",
+        "region": "美国",
+        "sources": [
+          "Goldman Sachs"
+        ],
+        "summary": "高盛最新报告探讨了美国股市估值是否已经超越基本面，指出在AI热潮推动下，市场集中度极高，投资者需警惕宏观经济增长与企业盈利增速之间的潜在背离。",
+        "why": "作为华尔街头部投行，高盛的警告反映了机构资金对AI驱动的美股长牛开始进行压力测试，宏观流动性与AI资本开支的转化率成为核心分歧。",
+        "watch": "关注下半年美股科技巨头的盈利指引、AI应用端的商业化变现数据，以及美联储利率路径对高估值成长股的压制效应。"
+      },
+      {
+        "title": "俄勒冈州撤回对派拉蒙与华纳兄弟合并的延迟请求，媒体并购监管阻力减轻",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "俄勒冈州总检察长撤回了要求延迟派拉蒙收购华纳兄弟探索的交易请求，不再寻求法院下令将交易推迟60天，为这笔大型传统媒体并购扫除了一个关键的州级监管障碍。",
+        "why": "传统媒体在流媒体和AI冲击下面临巨大的整合压力，州级监管的退让反映出反垄断机构在评估媒体并购时，更看重企业生存规模而非单纯的市场份额。",
+        "watch": "关注该合并案的最终交割时间表、联邦层面的反垄断审查进度，以及合并后新实体在流媒体和AI内容分发上的战略重组。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQzZYTndBQy1fNWhQQjhpZ0JMNGhIeVo4bmd3QXdfUzVkRGtkUW9HeXFIMEk4VGUwZ2N4ZWxzanAyM0JQYll4Y29LNVg5aHNwWTdhYnRnMGFOelZiZHpXTm5zbVAyU0xod0hHVWtDSUx5cXhWTUVZNWRpZzczRHBnbTlmWHJTTEEtTGtFSUx2eTlsZ3hKaGdjbjR4NU54dGRjTTdnS3QwWQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeUhRU1daeV8yY3NNOV9LWEYtMXhPdEtOeXZBNGNxY3pVNXdKY29FOFQtbEFPTHZ1R3JFUHJpa3RlQ3ppMFlaQWt5MGRFcWRzOE5pZ3NvUzloaTlhZWZWSGVTTVRlSlZ3NEMzcy1RMDhiT0tFcGx3RE1xakJVYnNTTm11cTlHSHROai1vUnlYbDFPeEJ3Nmd4azdlV21tc01XZFdXejdoeExuQnBtNGRmbTRIc0Y4b3RjY2VkcG5DbDd6NjdSOW5VVU5qTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQnhSZWZDVmo3S2JJdTlMazlTNjdOQnd1dEhQd3A4QzlDN0REZk80dWRFNS1mR0dUWDNLUWFRUlJ3RmJsMkNqbndzY3Y4SVp1SDczTUNpUGZJdnNPTzFPWWlnWE5wY0JKV2syMnkwSkwxalFNTXEwYkRVQkZlLUc4Tl82RUNxblV3YnpCc0I5Mkx0ZDVzU3NGb0ZOc2lBZDU5U3lXQ1FyRHJ3Vkw3bjVncGtRemU3Tk5nVXl1NQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVm1LUGF1eHpVcVlORmRMWHlrS0x4My1FQ2lldWdQUHlxMXFTMkRSQlJUVzA5UDROeDdfNkpIVENuUUxGeFVSdlhnMHFBOVU4T0YzUnNNeC1HQ1lWaFdGZzJsemRMREdRR1Uzc0RrUnFTbWo1SnE1RDhGdVZnX0RZdG50XzVadGhZVkhZOTBCcWtURVpmNGpWV3VrSk96NnIyYkE?oc=5",
+      "https://www.theverge.com/policy/964493/oregons-ag-delay-paramount-warner-bros-merger"
+    ]
+  },
+  {
     "date": "2026-07-11",
     "displayDate": "2026年7月11日",
     "scope": "全球新闻｜科技与财经优先",
