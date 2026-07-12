@@ -4,70 +4,90 @@ window.MORNING_BRIEFINGS = [
     "displayDate": "2026年7月12日",
     "scope": "全球新闻｜科技与财经优先",
     "image": "assets/morning-briefing-2026-07-12.png",
-    "summary": "本期简报聚焦AI基建的宏观外溢效应与资本市场定价。SK Hynix美股首秀验证AI存储芯片需求；数据中心资本开支超越交通支出并引发地方电力税监管；Meta转向租赁算力暴露自建产能瓶颈；高盛警示美股估值脱离基本面；派拉蒙与华纳兄弟合并获州级监管放行，折射传统媒体整合加速。",
+    "summary": "本期更新为5条，并替换掉来源偏弱、与前几日AI算力主线过近的条目：美国与伊朗围绕霍尔木兹海峡再度交火，直接抬升能源与通胀尾部风险；Circle获准设立美国全国信托银行，稳定币进入更正式的联邦监管通道；Meta以Muse Spark 1.1和低价API切入AI模型商业化；OpenAI、Google被曝通过新加坡子公司向美国黑名单中国企业提供模型；Palantir则把企业客户对AI实验室高价格、数据边界和价值分配的不满推到台前。",
     "focus": [
-      "AI基建宏观外溢",
-      "存储芯片资本化",
-      "云算力租赁"
+      "本期重点从单纯AI基建投资，转向能源冲击、稳定币监管和AI模型商业化三条更具体的新进展。",
+      "霍尔木兹海峡若持续受阻，将影响油价、通胀预期和央行政策路径，是科技股估值之外的关键宏观变量。",
+      "AI模型行业正在同时面对低价竞争、企业数据主权争议和出口管制漏洞，商业模式验证压力上升。"
     ],
     "items": [
       {
-        "title": "SK Hynix美股首秀大涨，AI存储芯片需求持续推高韩国科技股估值",
-        "region": "全球/美国/韩国",
+        "title": "美国与伊朗围绕霍尔木兹海峡再度交火，伊朗称海峡关闭至另行通知",
+        "region": "美国/伊朗/全球能源市场",
         "sources": [
-          "Audacy"
+          "AP",
+          "The Guardian",
+          "The Wall Street Journal"
         ],
-        "summary": "韩国AI存储芯片巨头SK Hynix在华尔街完成首秀并大幅上涨，反映出投资者对AI硬件和HBM（高带宽内存）需求的持续热情，带动美股整体走高。",
-        "why": "SK Hynix的美股上市或ADR交易是AI芯片供应链资本化的重要里程碑，直接验证了AI算力扩张对存储芯片的强劲拉动。",
-        "watch": "关注SK Hynix美股流动性及其与Micron等竞争对手在HBM市场的份额争夺，以及美股对AI硬件估值的容忍度。"
+        "summary": "AP、Guardian和WSJ报道称，伊朗袭击一艘塞浦路斯旗集装箱船并宣布霍尔木兹海峡关闭，美国随后对伊朗军事目标发动新一轮打击；该海峡承担约五分之一全球石油运输，市场需重新计入能源供应中断风险。",
+        "why": "这属于7月9日美伊紧张主线的实质性新升级：从停火破裂和油价波动，推进到商船受袭、海峡关闭声明和美国大规模反击，直接影响油价、通胀和风险资产。",
+        "watch": "关注实际船运通行量、布伦特油价风险溢价、海湾盟友是否遭进一步袭击，以及美国和伊朗是否恢复第三方调停。"
       },
       {
-        "title": "AI数据中心资本开支超越美国交通支出，多州开始征收专项电力税",
-        "region": "美国",
+        "title": "Circle获准设立美国全国信托银行，USDC储备进入联邦监管框架",
+        "region": "美国/加密金融",
         "sources": [
-          "Tech Times"
+          "Financial Times",
+          "The Wall Street Journal",
+          "Barron's"
         ],
-        "summary": "AI数据中心的建设繁荣已经使相关资本支出超越美国传统交通基础设施支出，同时多个州政府开始对高耗能的数据中心征收专项电力税以应对电网压力。",
-        "why": "标志着AI基建从企业微观行为上升为宏观经济和地方政府财政变量，电力和土地等物理瓶颈正在重塑AI算力的地理分布和成本结构。",
-        "watch": "关注各州电力税政策对科技巨头数据中心选址的影响，以及公用事业公司在此轮AI电力需求中的定价权。"
+        "summary": "FT、WSJ和Barron's报道，OCC批准Circle成立Circle National Trust，使其可作为受联邦监管的信托银行管理USDC相关储备并提供数字资产托管服务；该许可不等同于传统商业银行牌照，暂不允许吸收存款或放贷。",
+        "why": "稳定币从交易工具进一步进入美国银行监管体系，关系到USDC透明度、机构采用和传统金融基础设施的代币化进程，也会影响银行与非银稳定币发行人的竞争边界。",
+        "watch": "关注OCC对其他稳定币发行人牌照的审批节奏、Circle储备管理披露，以及银行业是否推动更严格的资本和流动性要求。"
       },
       {
-        "title": "Meta考虑租赁外部AI算力，云业务战略成型以应对内部算力瓶颈",
-        "region": "美国",
+        "title": "Meta推出Muse Spark 1.1与公开预览API，以低价策略切入AI模型收费市场",
+        "region": "美国/全球AI开发者市场",
         "sources": [
-          "TradingView"
+          "The Verge",
+          "Axios",
+          "Business Insider"
         ],
-        "summary": "随着AI模型训练和推理需求激增，Meta正在评估租赁外部AI算力的选项，这标志着其云业务战略的进一步成型，以弥补自建数据中心的短期产能缺口。",
-        "why": "科技巨头从纯自建转向自建加租赁混合模式，反映出AI算力需求的爆发速度已超出单一企业的资本开支和供应链交付极限。",
-        "watch": "关注Meta与AWS、Azure或CoreWeave等云及算力提供商的潜在合作，以及此举对AI算力租赁市场定价和毛利率的影响。"
+        "summary": "The Verge、Axios和Business Insider报道称，Meta发布Muse Spark 1.1，并开放Meta Model API公开预览；该模型主攻编码和多智能体场景，Meta以较低token价格吸引开发者，标志其AI投入开始更直接地寻求外部收入。",
+        "why": "这与前几日Meta自研芯片和算力租赁不同，是应用层和商业化层面的新动作：AI模型价格战可能压低OpenAI、Anthropic和Google的企业API利润率。",
+        "watch": "关注Muse Spark在真实编码工作流中的留存率、Meta是否扩大到企业级SLA，以及低价API会否迫使头部模型厂商重新定价。"
       },
       {
-        "title": "高盛发布报告质疑美股估值：AI繁荣是否已脱离基本面？",
-        "region": "美国",
+        "title": "FT称OpenAI和Google通过新加坡子公司向美国黑名单中国企业提供AI模型，引发出口管制漏洞争议",
+        "region": "美国/中国/新加坡",
         "sources": [
-          "Goldman Sachs"
+          "Financial Times",
+          "Times of India",
+          "Omni"
         ],
-        "summary": "高盛最新报告探讨了美国股市估值是否已经超越基本面，指出在AI热潮推动下，市场集中度极高，投资者需警惕宏观经济增长与企业盈利增速之间的潜在背离。",
-        "why": "作为华尔街头部投行，高盛的警告反映了机构资金对AI驱动的美股长牛开始进行压力测试，宏观流动性与AI资本开支的转化率成为核心分歧。",
-        "watch": "关注下半年美股科技巨头的盈利指引、AI应用端的商业化变现数据，以及美联储利率路径对高估值成长股的压制效应。"
+        "summary": "FT报道被多家媒体转述称，OpenAI和Google向阿里、百度、腾讯等中国企业的新加坡子公司提供先进AI模型访问，相关母公司被美国国防部列入涉军名单；两家公司表示交易合规并有监测机制。",
+        "why": "该事件把美国AI出口管制的焦点从芯片扩展到模型服务和第三地子公司，显示软件能力、API访问和企业实体结构正在成为中美AI竞争的新灰区。",
+        "watch": "关注美国商务部、国防部是否调整实体名单和模型访问规则，以及新加坡等第三地云与AI服务是否面临更严格尽调。"
       },
       {
-        "title": "俄勒冈州撤回对派拉蒙与华纳兄弟合并的延迟请求，媒体并购监管阻力减轻",
-        "region": "美国",
+        "title": "Palantir公开反击前沿AI实验室商业模式，企业客户对高价token与数据边界不满升温",
+        "region": "美国/企业AI",
         "sources": [
-          "The Verge"
+          "The Wall Street Journal",
+          "Business Insider",
+          "Axios"
         ],
-        "summary": "俄勒冈州总检察长撤回了要求延迟派拉蒙收购华纳兄弟探索的交易请求，不再寻求法院下令将交易推迟60天，为这笔大型传统媒体并购扫除了一个关键的州级监管障碍。",
-        "why": "传统媒体在流媒体和AI冲击下面临巨大的整合压力，州级监管的退让反映出反垄断机构在评估媒体并购时，更看重企业生存规模而非单纯的市场份额。",
-        "watch": "关注该合并案的最终交割时间表、联邦层面的反垄断审查进度，以及合并后新实体在流媒体和AI内容分发上的战略重组。"
+        "summary": "WSJ报道称，Palantir CEO Alex Karp公开批评OpenAI、Anthropic等AI实验室收费高、交付价值不足，并称企业担心自身数据和行业知识被模型厂商吸收；Palantir发布白皮书提出保护企业数据与决策权的建议。",
+        "why": "AI行业的核心矛盾正在从‘谁有最强模型’转向‘谁捕获企业价值’。如果大客户开始抵制token计费和数据不透明，模型厂商的收入增长与估值假设会受到压力测试。",
+        "watch": "关注大型企业是否转向本地部署、开源或低价模型组合，以及AI实验室是否推出更清晰的数据隔离、审计和价值分成机制。"
       }
     ],
     "sourceLinks": [
-      "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQzZYTndBQy1fNWhQQjhpZ0JMNGhIeVo4bmd3QXdfUzVkRGtkUW9HeXFIMEk4VGUwZ2N4ZWxzanAyM0JQYll4Y29LNVg5aHNwWTdhYnRnMGFOelZiZHpXTm5zbVAyU0xod0hHVWtDSUx5cXhWTUVZNWRpZzczRHBnbTlmWHJTTEEtTGtFSUx2eTlsZ3hKaGdjbjR4NU54dGRjTTdnS3QwWQ?oc=5",
-      "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeUhRU1daeV8yY3NNOV9LWEYtMXhPdEtOeXZBNGNxY3pVNXdKY29FOFQtbEFPTHZ1R3JFUHJpa3RlQ3ppMFlaQWt5MGRFcWRzOE5pZ3NvUzloaTlhZWZWSGVTTVRlSlZ3NEMzcy1RMDhiT0tFcGx3RE1xakJVYnNTTm11cTlHSHROai1vUnlYbDFPeEJ3Nmd4azdlV21tc01XZFdXejdoeExuQnBtNGRmbTRIc0Y4b3RjY2VkcG5DbDd6NjdSOW5VVU5qTQ?oc=5",
-      "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQnhSZWZDVmo3S2JJdTlMazlTNjdOQnd1dEhQd3A4QzlDN0REZk80dWRFNS1mR0dUWDNLUWFRUlJ3RmJsMkNqbndzY3Y4SVp1SDczTUNpUGZJdnNPTzFPWWlnWE5wY0JKV2syMnkwSkwxalFNTXEwYkRVQkZlLUc4Tl82RUNxblV3YnpCc0I5Mkx0ZDVzU3NGb0ZOc2lBZDU5U3lXQ1FyRHJ3Vkw3bjVncGtRemU3Tk5nVXl1NQ?oc=5",
-      "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVm1LUGF1eHpVcVlORmRMWHlrS0x4My1FQ2lldWdQUHlxMXFTMkRSQlJUVzA5UDROeDdfNkpIVENuUUxGeFVSdlhnMHFBOVU4T0YzUnNNeC1HQ1lWaFdGZzJsemRMREdRR1Uzc0RrUnFTbWo1SnE1RDhGdVZnX0RZdG50XzVadGhZVkhZOTBCcWtURVpmNGpWV3VrSk96NnIyYkE?oc=5",
-      "https://www.theverge.com/policy/964493/oregons-ag-delay-paramount-warner-bros-merger"
+      "https://apnews.com/article/0764d17c09370a8c5cf1e8197a8878ab",
+      "https://www.theguardian.com/world/2026/jul/12/us-and-iran-exchange-strikes-as-tehran-again-says-strait-of-hormuz-is-closed",
+      "https://www.wsj.com/world/middle-east/u-s-launches-new-strikes-on-iran-after-hormuz-tensions-escalate-d6903c7f",
+      "https://www.ft.com/content/21ea4940-52a5-4cf9-8d14-f809a47ca38b",
+      "https://www.wsj.com/finance/currencies/circle-receives-approval-to-launch-crypto-focused-bank-df3a401f",
+      "https://www.barrons.com/articles/circle-stock-price-crypto-bank-approval-ark-cathie-wood-f195bca3",
+      "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
+      "https://www.axios.com/newsletters/axios-closer-41148026-0f2b-4191-b48f-84cd7859c9d0",
+      "https://www.businessinsider.com/meta-launches-muse-spark-1-1-cost-effective-ai-2026-7",
+      "https://www.ft.com/content/687335f7-23c5-4e7f-9133-2692d5f1e877",
+      "https://timesofindia.indiatimes.com/technology/tech-news/as-openai-and-google-found-selling-ai-models-to-blacklisted-chinese-companies-tech-giants-respond/articleshow/132314685.cms",
+      "https://omni.se/open-ai-och-google-salde-ai-till-svartlistade-bolag/a/L4kkMJ",
+      "https://www.wsj.com/tech/ai/alex-karp-is-saying-what-every-angry-ceo-is-thinking-about-ai-7f5f7c0c",
+      "https://www.businessinsider.com/alexander-karp-criticizes-ai-companies-token-costs-2026-7",
+      "https://www.axios.com/2026/07/02/karp-palintir-openai-anthropic-amodei"
     ]
   },
   {
