@@ -4,70 +4,56 @@ window.MORNING_BRIEFINGS = [
     "displayDate": "2026年7月13日",
     "scope": "全球新闻｜科技与财经优先",
     "image": "assets/morning-briefing-2026-07-13.png",
-    "summary": "本期简报聚焦美伊停火预期破裂引发的宏观震荡，以及AI基建进入深水区后的产业与政策博弈。Meta加速自研AI芯片量产以摆脱外部依赖，AI数据中心资本开支规模超越美国交通支出并引发地方电力税收监管。同时，财报季前夕华尔街大行继续力挺AI芯片三巨头，而大空头Michael Burry则对AI发展路径发出风险警告，市场在算力狂热与宏观地缘风险中寻找新平衡。",
+    "summary": "本期只纳入3条，原因是避免重复7月12日已覆盖的霍尔木兹/美伊冲突、Meta模型商业化和AI算力供应链主线，也剔除了来源偏弱或与近期AI资本开支讨论过近的单一聚合新闻。今日重点转向AI基建债券融资压力、OpenAI高层调整，以及英国金融业AI技能与采用计划。",
     "focus": [
-      "AI芯片自研量产、数据中心电力税收监管、美伊地缘冲突重燃",
-      "科技巨头算力军备竞赛进入硬件自研交付期，自研芯片量产将直接改变AI算力供应链格局和资本开支结构。",
-      "地缘政治风险重燃直接冲击全球通胀交易和宏观风险偏好，霍尔木兹海峡的航运安全再次成为能源市场的核心变量。"
+      "AI基建融资从股权叙事进入债券市场承压阶段，信用利差和发行节奏开始影响科技巨头资本成本。",
+      "OpenAI产品与商业高层调整发生在企业AI和代理式工作流竞争加速阶段，组织分工本身成为行业信号。",
+      "AI进入金融业主流程后，监管、技能再培训和模型责任边界正在成为资本市场之外的关键落地变量。"
     ],
     "items": [
       {
-        "title": "Meta计划9月量产自研AI芯片，旨在将计算能力翻倍",
-        "region": "美国",
+        "title": "WSJ称AI巨头今年已发行2440亿美元债券，基建融资开始测试投资者承受力",
+        "region": "美国/全球信用市场",
         "sources": [
-          "The Economic Times"
+          "The Wall Street Journal",
+          "Financial Times"
         ],
-        "summary": "Meta正准备在9月份将其自研AI芯片投入生产，以支持其计算能力翻倍的战略目标，进一步减少对英伟达等外部供应商的依赖。",
-        "why": "科技巨头算力军备竞赛进入硬件自研交付期，自研芯片量产将直接改变AI算力供应链格局和资本开支结构。",
-        "watch": "关注Meta自研芯片的良率、实际部署规模及其对英伟达数据中心GPU订单的潜在替代效应。"
+        "summary": "WSJ报道，Nvidia、Amazon、SpaceX、Alphabet、Meta、Oracle等AI基础设施相关公司今年已发行约2440亿美元债券，显著高于去年的1080亿美元；FT此前也指出，AI hyperscaler正从现金流充裕的软件公司转向重资本基础设施建设者。",
+        "why": "这把AI基建风险从股票估值扩展到信用市场：如果债券投资者要求更高利差，数据中心、芯片和电力合同的融资成本会反过来压缩科技巨头自由现金流。",
+        "watch": "关注后续Amazon、Alphabet、Meta、Oracle等是否继续加大发债，以及投资级科技债利差是否持续走阔。"
       },
       {
-        "title": "美伊空袭冲突再次升级，油价上涨且美股期货下跌",
-        "region": "全球/中东",
+        "title": "OpenAI二号人物Fidji Simo转任顾问，产品与商业职责重新分配",
+        "region": "美国/AI公司治理",
         "sources": [
-          "MarketWatch"
+          "The Wall Street Journal",
+          "Wired",
+          "The Verge"
         ],
-        "summary": "周末美伊在霍尔木兹海峡周边再次爆发空袭冲突，打破了此前的停火预期，导致周日晚油价上涨、美股股指期货下跌。",
-        "why": "地缘政治风险重燃直接冲击全球通胀交易和宏观风险偏好，霍尔木兹海峡的航运安全再次成为能源市场的核心变量。",
-        "watch": "盯紧周日晚美股期货开盘的油价与科技股联动反应，以及美伊双方后续是否有进一步军事升级或外交斡旋。"
+        "summary": "WSJ、Wired和The Verge报道，OpenAI负责产品和商业化的高层Fidji Simo因健康原因退出全职岗位并转任顾问，其职责将由Greg Brockman、Sarah Friar、Jason Kwon等高管分担。",
+        "why": "OpenAI正处于企业AI、编码代理、潜在IPO和商业化压力交汇点，高层分工变化会影响ChatGPT、Codex和企业产品的优先级。",
+        "watch": "关注OpenAI是否进一步集中资源到代理式工作流和企业编码工具，以及高层变动是否影响大型客户销售节奏。"
       },
       {
-        "title": "AI数据中心建设繁荣超越美国交通支出，各州开始征收电力税",
-        "region": "美国",
+        "title": "英国拟在Mansion House窗口推出金融业AI采用与技能计划",
+        "region": "英国/金融服务业",
         "sources": [
-          "Tech Times"
+          "Financial Times",
+          "The Guardian"
         ],
-        "summary": "AI数据中心的资本开支规模已超越美国传统交通基础设施支出，庞大的电力消耗促使多个州政府开始对数据中心征收专项电力税。",
-        "why": "AI基建的溢出效应已从企业资本开支演变为国家级宏观经济变量，并正式进入地方政府的税收与能源监管博弈阶段。",
-        "watch": "关注各州电力税政策对AI数据中心选址、运营成本的影响，以及科技巨头是否会因此加速向核能或离网供电转型。"
-      },
-      {
-        "title": "大空头Michael Burry对AI发展路径发出强烈警告",
-        "region": "美国",
-        "sources": [
-          "TheStreet"
-        ],
-        "summary": "知名做空投资者Michael Burry对当前AI的发展路径和资本狂热发出强烈警告，提示市场可能忽视了潜在的结构性风险。",
-        "why": "在科技巨头财报季前夕，顶级逆向投资者的警告为市场情绪提供了重要的反向参考，凸显AI估值与商业化落地之间的分歧。",
-        "watch": "观察Burry的具体做空标的或警告逻辑，以及本周科技巨头财报是否能用实际盈利增长回应泡沫质疑。"
-      },
-      {
-        "title": "摩根大通在AI芯片财报季前夕维持对英伟达、博通和Marvell的看好",
-        "region": "美国",
-        "sources": [
-          "finance.biggo.com"
-        ],
-        "summary": "在即将到来的半导体财报季前夕，摩根大通重申对英伟达、博通和Marvell的超配评级，认为AI芯片需求依然强劲。",
-        "why": "华尔街大行在关键财报窗口前定调AI芯片基本面，确认算力基础设施的资本开支周期尚未见顶，为半导体板块提供机构基准预期。",
-        "watch": "重点关注这三家芯片巨头即将发布的财报中，关于AI收入增速、库存水平以及对下半年数据中心需求的指引。"
+        "summary": "FT的本周展望称，英国政府将在Mansion House相关窗口推出金融服务AI采用计划；Guardian此前报道，Barclays、Lloyds、London Stock Exchange等近20家机构将加入金融业AI技能compact，为员工制定滚动三年培训计划。",
+        "why": "AI在金融业的重点正在从试点工具转向组织能力建设和监管可接受的规模化采用，直接影响银行、交易所、资管和合规岗位。",
+        "watch": "关注计划是否包含模型风险、客户责任、数据治理和员工再培训的硬性指标，以及FCA后续监管口径。"
       }
     ],
     "sourceLinks": [
-      "https://news.google.com/rss/articles/CBMihwJBVV95cUxQTFFyUzA0MC1qY0FTX181bEZKNjhXQ3FXallJd3M4UGlCSkhLd3NUaWlDZUVrTThWcEM2REV2TlFCeEtwUEJHbTM5bDQ1MWRwQk45anFkNkF4b1hzcUhJNlBCOS01YnFZQk1SQ3FvQnhPRE5DOXdtMEs3ekk4Y3VZeDJPZS1ZaV9UbmNmSkxvMHlIZENKbGRGN2FaNjF1OFdQRzZpS1B6UkY3Y0oyTUxFQ1Ewd1RicVE1NURkc2JZblZYRlJuTGRZNmJkY2ZGTm5DMXpMZVR4OVNWclFFR0xGdFR6OHRselRra005WVZZSk1uSmZ3S054SXZiYm1qeUozYVcyUjdRWdIBhwJBVV95cUxQTFFyUzA0MC1qY0FTX181bEZKNjhXQ3FXallJd3M4UGlCSkhLd3NUaWlDZUVrTThWcEM2REV2TlFCeEtwUEJHbTM5bDQ1MWRwQk45anFkNkF4b1hzcUhJNlBCOS01YnFZQk1SQ3FvQnhPRE5DOXdtMEs3ekk4Y3VZeDJPZS1ZaV9UbmNmSkxvMHlIZENKbGRGN2FaNjF1OFdQRzZpS1B6UkY3Y0oyTUxFQ1Ewd1RicVE1NURkc2JZblZYRlJuTGRZNmJkY2ZGTm5DMXpMZVR4OVNWclFFR0xGdFR6OHRselRra005WVZZSk1uSmZ3S054SXZiYm1qeUozYVcyUjdRWQ?oc=5",
-      "https://www.marketwatch.com/story/oil-prices-rise-stock-futures-dip-after-latest-flare-up-of-strikes-between-u-s-and-iran-fef7f856?mod=mw_rss_topstories",
-      "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeUhRU1daeV8yY3NNOV9LWEYtMXhPdEtOeXZBNGNxY3pVNXdKY29FOFQtbEFPTHZ1R3JFUHJpa3RlQ3ppMFlaQWt5MGRFcWRzOE5pZ3NvUzloaTlhZWZWSGVTTVRlSlZ3NEMzcy1RMDhiT0tFcGx3RE1xakJVYnNTTm11cTlHSHROai1vUnlYbDFPeEJ3Nmd4azdlV21tc01XZFdXejdoeExuQnBtNGRmbTRIc0Y4b3RjY2VkcG5DbDd6NjdSOW5VVU5qTQ?oc=5",
-      "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWF9mUFZwQ3llZTNhSURlUmZmdmRvX01mczgybkF3eHpFQWhQRnIwbHVKU1VjUzI2Tk5ZWkxjaFBkWHBxdlp6aHdacGFvMGZtRGpCcFZxZFBLbWkzVlJuVHRpWmNQRkxVODlNWEZubW82VEZlQUdoUjcwS0tGT1VzMUFJb3dBczdURXZOTTMzZ3E2cE5rSjEyV2VB?oc=5",
-      "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HYWZSaV92NzdybXNkb3dVWmFtVnN3RnI3a0JtU19VdVNlWXR6SkhXOUpyYkNRYzRhYThjRmNXSHR4ODRMYnJMdElTcXc3YTM2dVFXcGpJSEExUnMwQU1KS3V4Wjk5b013SVJIUGhDcU5kUFZIQ2c?oc=5"
+      "https://www.wsj.com/finance/investing/the-quarter-trillion-dollar-onslaught-of-ai-bonds-is-testing-investors-limits-e4cd2bda",
+      "https://www.ft.com/content/f625cb73-d432-4b54-9753-0dc7554048ab",
+      "https://www.wsj.com/tech/openai-top-executive-fidji-simo-to-step-down-c3daca47",
+      "https://www.wired.com/story/fidji-simo-ceo-agi-deployment-openai",
+      "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
+      "https://www.ft.com/content/4b291727-6914-4f61-b1a9-9396c610117c",
+      "https://www.theguardian.com/business/2026/jul/10/rachel-reeves-city-skills-compact-ai-training"
     ]
   },
   {
