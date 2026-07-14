@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-14",
+    "displayDate": "2026年7月14日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-14.png",
+    "summary": "今日简报聚焦宏观与资本市场异动：美国战略石油储备见底叠加特朗普对霍尔木兹海峡的强硬表态加剧能源地缘风险；SpaceX二级市场股价面临跌破IPO发行价危机，市值大幅回调；投资者保证金债务激增引发股市杠杆警告；存储芯片板块分化，SanDisk股价重挫但获分析师逆势看涨；此外，OnePlus与Oppo据报计划退出欧美市场，中国手机厂商出海战略面临重构。",
+    "focus": [
+      "宏观地缘与能源储备",
+      "SpaceX估值回调",
+      "股市杠杆风险"
+    ],
+    "items": [
+      {
+        "title": "美国战略石油储备见底，特朗普誓言控制霍尔木兹海峡加剧能源地缘风险",
+        "region": "美国/中东",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "美国政府报告显示，战略石油储备（SPR）库存处于危险低位，且面临设备故障和泄漏问题。与此同时，特朗普誓言要控制霍尔木兹海峡，进一步加剧了全球能源供应链的地缘政治不确定性。",
+        "why": "SPR见底削弱了美国平抑油价的能力，叠加中东地缘博弈，原油市场的风险溢价和通胀预期可能重新定价。",
+        "watch": "关注美国能源部是否启动SPR补充计划，以及中东局势对布伦特原油价格的即时冲击。"
+      },
+      {
+        "title": "SpaceX二级市场股价面临跌破IPO发行价风险，市值从峰值蒸发逾8000亿美元",
+        "region": "美国",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "SpaceX在二级市场的股价正面临跌破其IPO发行价的威胁。该公司市值在不到一个月内从2.67万亿美元的峰值暴跌超过8000亿美元，引发投资者对商业航天估值泡沫破裂及潜在流动性危机的担忧。",
+        "why": "作为商业航天和AI基建的标杆，SpaceX估值的大幅回调不仅影响一级市场定价，也可能引发科技成长股和独角兽估值体系的连锁重估。",
+        "watch": "紧盯SpaceX是否跌破发行价引发的早期投资者抛售潮，以及马斯克是否会采取干预措施稳定估值。"
+      },
+      {
+        "title": "投资者保证金借款激增引发华尔街警告，股市杠杆风险攀升",
+        "region": "美国",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "数据显示，投资者正越来越多地通过借入保证金（margin debt）来购买股票以放大收益。这种保证金债务的激增被华尔街视为市场贪婪和潜在回调风险的明确警告信号。",
+        "why": "高杠杆环境在股市上涨时放大收益，但在宏观不确定性增加或利率维持高位时，极易引发强制平仓和踩踏式下跌。",
+        "watch": "关注FINRA后续公布的保证金债务绝对值数据，以及VIX指数和看跌/看涨期权比率的变化。"
+      },
+      {
+        "title": "SanDisk股价重挫但获分析师逆势看涨，存储芯片板块出现分化",
+        "region": "美国",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "在SanDisk股价大幅下跌之际，部分分析师却变得更加乐观，给出了暗示较当前水平有近85%上涨空间的新目标价。这与近期AI驱动的存储芯片热潮形成鲜明对比，凸显板块内部分化。",
+        "why": "在Micron等AI内存概念股高歌猛进时，传统存储或消费级存储标的的估值逻辑正在被市场重新审视，错杀与基本面修复的博弈加剧。",
+        "watch": "关注SanDisk upcoming earnings及NAND闪存现货价格走势，验证分析师逆势看涨的逻辑是否成立。"
+      },
+      {
+        "title": "OnePlus与Oppo据报计划退出美国和欧洲市场，中国手机厂商出海战略面临重构",
+        "region": "中国/欧美",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "据WinFuture报道，OnePlus及其母公司Oppo计划在近期宣布OnePlus品牌将退出美国和欧洲市场。若该决定落实，将标志着中国智能手机厂商在欧美高端市场的战略大撤退。",
+        "why": "退出欧美市场不仅意味着放弃高利润区，也反映出在地缘政治、专利诉讼及本土化运营压力下，中国硬件出海的阻力正在达到临界点。",
+        "watch": "关注Oppo/OnePlus的官方声明，以及其资源是否会全面转向印度、东南亚或拉美等新兴市场。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/the-u-s-is-maxing-out-its-strategic-oil-reserves-as-trump-vows-to-control-the-strait-of-hormuz-b71f88a9?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/spacexs-stock-threatens-to-fall-below-the-ipo-price-do-investors-face-a-crisis-if-it-does-2f330b09?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/why-a-borrowing-binge-by-investors-is-a-warning-sign-for-the-stock-market-996ee446?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/sandisks-stock-is-plunging-but-some-analysts-are-getting-even-more-bullish-cba3472f?mod=mw_rss_topstories",
+      "https://www.theverge.com/tech/965084/oneplus-oppo-exit-us-europe"
+    ]
+  },
+  {
     "date": "2026-07-13",
     "displayDate": "2026年7月13日",
     "scope": "全球新闻｜科技与财经优先",
