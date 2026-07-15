@@ -4,70 +4,94 @@ window.MORNING_BRIEFINGS = [
     "displayDate": "2026年7月15日",
     "scope": "全球新闻｜科技与财经优先",
     "image": "assets/morning-briefing-2026-07-15.png",
-    "summary": "今日简报聚焦AI硬件入口扩张与资本开支的宏观溢出效应。OpenAI计划推出首款ChatGPT智能音箱，AI交互入口从软件向实体硬件延伸；IBM利润预警揭示AI内存等硬件开支正在挤压传统IT软件预算；Meta面临前员工关于使用AI进行偏见裁员的诉讼，AI伦理与劳工监管压力加剧；Intel宣布在爱尔兰投资57亿美元扩建芯片产能，继续推进全球化代工布局；高盛CEO将近期AI市场波动定义为“减速带”，其创纪录的季度业绩推动股价创下历史新高，显示华尔街对AI长期资本周期的信心依然稳固。",
+    "summary": "本期纳入5条，刻意避开近一周已经反复覆盖的Meta自研芯片、AI债务融资、霍尔木兹油价冲击和泛AI算力估值主线。今日重点转向更具体的新进展：Nvidia收紧亚洲AI芯片买家白名单，Apple以商业秘密诉讼正面阻击OpenAI硬件计划，IBM因企业IT预算转向AI服务器和存储而发布业绩预警，美国CPI降温叠加大行强劲财报推动科技股反弹，以及Google DeepMind提出由美国主导的前沿AI监管机构方案。",
     "focus": [
-      "AI硬件入口、IT预算挤压、AI劳工监管、芯片资本开支、宏观资本市场",
-      "继苹果测试带摄像头AirPods后，OpenAI入局智能音箱标志着前沿AI公司正加速将大模型能力固化为家庭与个人计算入口，AI硬件军备竞赛全面升级。",
-      "这一预警印证了AI基建热潮对传统企业软件市场的“虹吸效应”，硬件与芯片厂商在产业链中的议价权正达到历史高点，软件巨头面临增长逻辑重构。"
+      "AI竞争从模型和算力叙事继续外溢到出口合规、硬件商业秘密、企业IT预算重排和全球监管架构。",
+      "Nvidia亚洲白名单和Apple诉OpenAI都显示，AI供应链与硬件入口正在进入更强的法律、合规和地缘约束阶段。",
+      "IBM业绩预警与美国CPI降温共同提示，市场正在同时重估传统软件支出、AI基建需求和利率路径。"
     ],
     "items": [
       {
-        "title": "OpenAI计划年内推出首款ChatGPT智能音箱，AI交互入口向实体硬件延伸",
-        "region": "美国",
+        "title": "Nvidia收紧亚洲AI芯片买家白名单，以堵截经第三地流向中国的转售通道",
+        "region": "美国/中国/新加坡/马来西亚/日本",
         "sources": [
-          "The Verge"
+          "Financial Times",
+          "Tom's Hardware"
         ],
-        "summary": "据彭博社报道，OpenAI正准备推出其首款硬件设备——一款不带屏幕但配备摄像头和传感器的ChatGPT智能音箱，旨在通过多模态感知理解用户环境。",
-        "why": "继苹果测试带摄像头AirPods后，OpenAI入局智能音箱标志着前沿AI公司正加速将大模型能力固化为家庭与个人计算入口，AI硬件军备竞赛全面升级。",
-        "watch": "关注该设备的定价策略、隐私数据处理方式，以及其是否能有效抵御亚马逊和谷歌在智能音箱市场的既有生态壁垒。"
+        "summary": "FT报道称，Nvidia在美国监管压力下大幅缩减亚洲高端AI芯片授权买家名单，新增数据中心检查、合同核验和终端用户访谈等尽调步骤，重点覆盖新加坡、马来西亚和日本等可能被用于转运的市场。",
+        "why": "这不是简单的出口管制口号，而是芯片厂商把合规审查前移到渠道和客户层面。若执行严格，中国客户获取高端GPU的灰色通道将更窄，亚洲云厂商和中间商也会面临更高合规成本。",
+        "watch": "关注美国商务部是否把Nvidia做法扩展为行业标准，以及中国AI公司是否进一步转向华为、寒武纪等国产芯片和模型效率优化。"
       },
       {
-        "title": "IBM发布利润预警：AI硬件开支正在“吃掉”传统IT软件与基础设施预算",
-        "region": "美国",
+        "title": "Apple起诉OpenAI窃取硬件商业秘密，OpenAI的AI设备计划和IPO窗口承压",
+        "region": "美国/AI硬件",
         "sources": [
-          "MarketWatch"
+          "The Verge",
+          "Axios",
+          "The Wall Street Journal"
         ],
-        "summary": "IBM表示其软件和基础设施业务出现缺口，原因是企业客户在内存等AI硬件价格上涨前大量囤积硬件，导致传统IT预算被严重挤压。",
-        "why": "这一预警印证了AI基建热潮对传统企业软件市场的“虹吸效应”，硬件与芯片厂商在产业链中的议价权正达到历史高点，软件巨头面临增长逻辑重构。",
-        "watch": "紧盯后续微软、Oracle等软件巨头的财报指引，观察AI资本开支从硬件向软件应用层传导的拐点何时到来。"
+        "summary": "Apple在加州联邦法院起诉OpenAI、io Products及两名前Apple员工，指控其为OpenAI消费硬件项目不当获取Apple设计、制造和供应链资料；WSJ称该诉讼叠加管理层变动和竞争压力，正在收窄OpenAI潜在IPO窗口。",
+        "why": "OpenAI收购Jony Ive相关硬件公司后，硬件入口被视为其摆脱纯软件和API商业模式的关键。Apple诉讼把AI设备竞争推入商业秘密战场，可能延迟产品发布时间表并影响资本市场定价。",
+        "watch": "关注法院是否发出临时禁令、OpenAI是否披露更多硬件路线，以及Apple与OpenAI在iPhone上ChatGPT合作是否被重新谈判。"
       },
       {
-        "title": "Meta遭前员工集体诉讼：指控公司使用AI工具进行偏见性大规模裁员",
-        "region": "美国",
+        "title": "IBM发布二季度业绩预警并创数十年最大跌幅，企业预算正从软件转向AI服务器与存储",
+        "region": "美国/企业软件与硬件",
         "sources": [
-          "The Verge"
+          "AP",
+          "Financial Times",
+          "MarketWatch",
+          "Business Insider"
         ],
-        "summary": "26名前Meta员工提起诉讼，指控Meta在裁员过程中使用AI工具不公平地针对休假员工，引发对算法偏见和自动化决策剥夺劳工权益的严重指控。",
-        "why": "这是AI工具在企业内部管理中引发的首批重大劳工法律纠纷之一，可能为未来AI辅助人力资源决策的合规边界和平台监管确立重要判例。",
-        "watch": "关注美国劳工部及EEOC（平等就业机会委员会）是否介入调查，以及该案对科技巨头内部AI治理框架的倒逼效应。"
+        "summary": "IBM预告二季度收入约172亿美元、调整后每股收益2.93美元，低于市场预期，股价一度下跌约25%。公司将短缺归因于客户把预算前置到AI服务器、存储和内存等硬件，同时大型软件与基础设施交易未能按期落地。",
+        "why": "这是AI基建热潮对传统企业IT预算的直接冲击样本：客户不是单纯增加总支出，而是在软件、咨询、主机和AI硬件之间重新排序，传统软件公司的收入可见度因此受到压力测试。",
+        "watch": "关注Salesforce、ServiceNow、Accenture等软件和咨询公司财报是否出现类似预算迁移迹象，以及内存涨价是否继续挤压企业软件采购。"
       },
       {
-        "title": "Intel宣布在爱尔兰投资57亿美元扩建芯片产能，推进全球化代工布局",
-        "region": "欧洲",
+        "title": "美国6月CPI降至3.5%，科技股反弹与大行强劲财报共同支撑风险偏好",
+        "region": "美国/全球市场",
         "sources": [
-          "Manufacturing Dive"
+          "MarketWatch",
+          "The Wall Street Journal",
+          "AP",
+          "The Guardian"
         ],
-        "summary": "Intel计划向其爱尔兰莱克斯利普工厂追加57亿美元投资，以扩大先进制程芯片的生产能力，进一步巩固其在欧洲的半导体制造布局。",
-        "why": "在赴美建厂与本土补贴之外，Intel继续加码欧洲产能，显示其“全球代工”战略并未因短期财务压力而收缩，同时呼应了欧洲降低对美国芯片依赖的战略诉求。",
-        "watch": "关注该工厂未来承接的客户订单类型，以及欧盟《芯片法案》后续资金对该项目的配套支持落地情况。"
+        "summary": "美国6月CPI同比降至3.5%，低于市场预期，汽油和能源价格回落带动月度CPI下降；美债收益率走低，纳指和标普500上涨。与此同时，JPMorgan、Goldman Sachs等大行交出强劲二季度业绩，交易和投行业务受益于AI融资、IPO和风险偏好回升。",
+        "why": "这条宏观线与科技财经直接相连：较温和的通胀缓解了加息压力，为高估值科技股提供喘息空间；银行利润则显示AI融资和资本市场活动已从叙事转化为华尔街手续费收入。",
+        "watch": "关注7月29日美联储会议前能源价格是否因中东局势再度推高通胀预期，以及后续科技公司财报能否支撑本轮反弹。"
       },
       {
-        "title": "高盛CEO将AI市场波动定义为“减速带”，创纪录业绩推动股价创历史新高",
-        "region": "美国",
+        "title": "Google DeepMind CEO呼吁建立美国主导的全球前沿AI监管机构",
+        "region": "美国/英国/全球AI治理",
         "sources": [
-          "TradingView"
+          "Financial Times",
+          "Axios",
+          "The Verge",
+          "Business Insider"
         ],
-        "summary": "高盛CEO苏德巍表示美国经济能够承受AI市场的短期“减速带”，在录得创纪录季度利润后，高盛股价突破历史新高。",
-        "why": "在AI股票经历降温与估值重估的背景下，华尔街头部投行以实际业绩和高管定调稳住了市场情绪，表明金融资本对AI“超级周期”的长期融资与并购需求依然乐观。",
-        "watch": "观察高盛等投行在下半年AI基础设施结构化融资、科技巨头债务发行及AI初创公司IPO承销方面的业务增量。"
+        "summary": "Demis Hassabis提出建立一个类似FINRA的、由美国主导并由行业资助的前沿AI监管机构，对开放和闭源模型进行发布前测试，并在网络、生物或国家安全风险过高时要求放缓或停止发布。",
+        "why": "这是头部AI实验室主动提出准监管架构的又一重要信号。它既可能回应美国近期对高能力模型和出口访问的安全担忧，也可能重塑OpenAI、Anthropic、Google、Meta等公司的发布节奏和合规成本。",
+        "watch": "关注白宫、欧盟和英国是否支持该方案，以及行业自律机构会否演变为强制许可制度，尤其是对开源模型和海外用户访问的影响。"
       }
     ],
     "sourceLinks": [
-      "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
-      "https://www.marketwatch.com/story/what-ibms-profit-warning-means-hardware-is-eating-everyones-lunch-c6878824?mod=mw_rss_topstories",
-      "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
-      "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZDBha3RKNG5ZX0tTYWxHXzU3SDZjcU8tYXE1b2V1ZHR1X2NFaGhwR0dsU0ZVNWkxOVJLRUxfVV81Zl9wZUtVajhha1Y3RThlYmhpcGY1OHQ3XzRXa2VOSkloLW5sVUlKaDF6NXBqeWFBQlBUQ3VLV013OWVnUVBURzkxckVmOWNMWHZiem5MVnItWTF6TU5LWm12c0lVa0JhLUJBakJDSmk5Tk5O?oc=5",
-      "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQdXBQWERHbkY4TzVWNU9yeWYzaXlGbkEwMHQ1MGlkajFhV1MzdjNQOGlTX1BqcC1rOEJxaWU1MTJMaTljZ0s1SmptWkJjMTNBZ2NxU1pmRUprVjFwVk4ybklKaTNxMDZuY2w0S1A1enRVS2l1RlNBQjJjQnR3LTVfX2VqTHo0X2ZWMmZlQmpLNnlRVE9PVjhud0hIclZVS0J2RnJ5bTBsN0dXYmdUTzNhbGNYNmUxcW1KVUU3VW5Dd0c1R1ptb1ZIUlRsMWNHUnBxTlZ4T01UYnBBc1RRYjVLbHpldDdpS2FvUkpLOVB0YVJ3bkhaVHdSV0dXZDRQeVdJaXBfcWludXo?oc=5"
+      "https://www.ft.com/content/7c146c56-cc7a-40ec-93cb-58106a012421",
+      "https://www.tomshardware.com/tech-industry/us-senators-want-to-suspend-nvidia-ai-chip-export-licenses-to-china-and-its-intermediaries-bipartisan-letter-to-commerce-dept-says-that-huangs-claims-of-no-chip-diversion-were-contradicted-by-reporting-available",
+      "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
+      "https://www.axios.com/2026/07/14/litigation-openai-device-apple",
+      "https://www.wsj.com/tech/ai/openais-growing-challenges-narrow-its-ipo-window-8ad8f734",
+      "https://apnews.com/article/2f28030dd13c572ad21a512da77d96cd",
+      "https://www.ft.com/content/cfec51c1-0435-457f-a140-f302ca6a4e0b",
+      "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-oil-prices-us-iran-tension-bank-earnings-cpi-june/card/ibm-profit-warning-knocks-330-points-off-dow-mS0xNQWH2tbbZZPxJ8N9",
+      "https://www.businessinsider.com/ibm-stock-price-fall-q2-results-ai-infrastructure-2026-7",
+      "https://www.marketwatch.com/story/consumer-prices-fall-for-first-time-since-2020-pandemic-but-fight-vs-high-inflation-isnt-over-1544566d",
+      "https://www.wsj.com/finance/stocks/strong-bank-earnings-cool-inflation-data-lift-u-s-stocks-7f0e85fe",
+      "https://apnews.com/article/53d221aa918c466172af494ba7debc00",
+      "https://www.theguardian.com/business/2026/jul/14/june-cpi-report-inflation-cools-iran-deal",
+      "https://www.ft.com/content/463add71-a59b-4ec3-aa65-c96d57a09b10",
+      "https://www.axios.com/2026/07/14/demis-hassabis-ai-regulation-google-deepmind",
+      "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
+      "https://www.businessinsider.com/google-deepmind-ceo-demis-hassabis-agi-safety-standards-body-gemini-2026-7"
     ]
   },
   {
