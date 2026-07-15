@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-15",
+    "displayDate": "2026年7月15日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-15.png",
+    "summary": "今日简报聚焦AI硬件入口扩张与资本开支的宏观溢出效应。OpenAI计划推出首款ChatGPT智能音箱，AI交互入口从软件向实体硬件延伸；IBM利润预警揭示AI内存等硬件开支正在挤压传统IT软件预算；Meta面临前员工关于使用AI进行偏见裁员的诉讼，AI伦理与劳工监管压力加剧；Intel宣布在爱尔兰投资57亿美元扩建芯片产能，继续推进全球化代工布局；高盛CEO将近期AI市场波动定义为“减速带”，其创纪录的季度业绩推动股价创下历史新高，显示华尔街对AI长期资本周期的信心依然稳固。",
+    "focus": [
+      "AI硬件入口、IT预算挤压、AI劳工监管、芯片资本开支、宏观资本市场",
+      "继苹果测试带摄像头AirPods后，OpenAI入局智能音箱标志着前沿AI公司正加速将大模型能力固化为家庭与个人计算入口，AI硬件军备竞赛全面升级。",
+      "这一预警印证了AI基建热潮对传统企业软件市场的“虹吸效应”，硬件与芯片厂商在产业链中的议价权正达到历史高点，软件巨头面临增长逻辑重构。"
+    ],
+    "items": [
+      {
+        "title": "OpenAI计划年内推出首款ChatGPT智能音箱，AI交互入口向实体硬件延伸",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "据彭博社报道，OpenAI正准备推出其首款硬件设备——一款不带屏幕但配备摄像头和传感器的ChatGPT智能音箱，旨在通过多模态感知理解用户环境。",
+        "why": "继苹果测试带摄像头AirPods后，OpenAI入局智能音箱标志着前沿AI公司正加速将大模型能力固化为家庭与个人计算入口，AI硬件军备竞赛全面升级。",
+        "watch": "关注该设备的定价策略、隐私数据处理方式，以及其是否能有效抵御亚马逊和谷歌在智能音箱市场的既有生态壁垒。"
+      },
+      {
+        "title": "IBM发布利润预警：AI硬件开支正在“吃掉”传统IT软件与基础设施预算",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "IBM表示其软件和基础设施业务出现缺口，原因是企业客户在内存等AI硬件价格上涨前大量囤积硬件，导致传统IT预算被严重挤压。",
+        "why": "这一预警印证了AI基建热潮对传统企业软件市场的“虹吸效应”，硬件与芯片厂商在产业链中的议价权正达到历史高点，软件巨头面临增长逻辑重构。",
+        "watch": "紧盯后续微软、Oracle等软件巨头的财报指引，观察AI资本开支从硬件向软件应用层传导的拐点何时到来。"
+      },
+      {
+        "title": "Meta遭前员工集体诉讼：指控公司使用AI工具进行偏见性大规模裁员",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "26名前Meta员工提起诉讼，指控Meta在裁员过程中使用AI工具不公平地针对休假员工，引发对算法偏见和自动化决策剥夺劳工权益的严重指控。",
+        "why": "这是AI工具在企业内部管理中引发的首批重大劳工法律纠纷之一，可能为未来AI辅助人力资源决策的合规边界和平台监管确立重要判例。",
+        "watch": "关注美国劳工部及EEOC（平等就业机会委员会）是否介入调查，以及该案对科技巨头内部AI治理框架的倒逼效应。"
+      },
+      {
+        "title": "Intel宣布在爱尔兰投资57亿美元扩建芯片产能，推进全球化代工布局",
+        "region": "欧洲",
+        "sources": [
+          "Manufacturing Dive"
+        ],
+        "summary": "Intel计划向其爱尔兰莱克斯利普工厂追加57亿美元投资，以扩大先进制程芯片的生产能力，进一步巩固其在欧洲的半导体制造布局。",
+        "why": "在赴美建厂与本土补贴之外，Intel继续加码欧洲产能，显示其“全球代工”战略并未因短期财务压力而收缩，同时呼应了欧洲降低对美国芯片依赖的战略诉求。",
+        "watch": "关注该工厂未来承接的客户订单类型，以及欧盟《芯片法案》后续资金对该项目的配套支持落地情况。"
+      },
+      {
+        "title": "高盛CEO将AI市场波动定义为“减速带”，创纪录业绩推动股价创历史新高",
+        "region": "美国",
+        "sources": [
+          "TradingView"
+        ],
+        "summary": "高盛CEO苏德巍表示美国经济能够承受AI市场的短期“减速带”，在录得创纪录季度利润后，高盛股价突破历史新高。",
+        "why": "在AI股票经历降温与估值重估的背景下，华尔街头部投行以实际业绩和高管定调稳住了市场情绪，表明金融资本对AI“超级周期”的长期融资与并购需求依然乐观。",
+        "watch": "观察高盛等投行在下半年AI基础设施结构化融资、科技巨头债务发行及AI初创公司IPO承销方面的业务增量。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
+      "https://www.marketwatch.com/story/what-ibms-profit-warning-means-hardware-is-eating-everyones-lunch-c6878824?mod=mw_rss_topstories",
+      "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZDBha3RKNG5ZX0tTYWxHXzU3SDZjcU8tYXE1b2V1ZHR1X2NFaGhwR0dsU0ZVNWkxOVJLRUxfVV81Zl9wZUtVajhha1Y3RThlYmhpcGY1OHQ3XzRXa2VOSkloLW5sVUlKaDF6NXBqeWFBQlBUQ3VLV013OWVnUVBURzkxckVmOWNMWHZiem5MVnItWTF6TU5LWm12c0lVa0JhLUJBakJDSmk5Tk5O?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQdXBQWERHbkY4TzVWNU9yeWYzaXlGbkEwMHQ1MGlkajFhV1MzdjNQOGlTX1BqcC1rOEJxaWU1MTJMaTljZ0s1SmptWkJjMTNBZ2NxU1pmRUprVjFwVk4ybklKaTNxMDZuY2w0S1A1enRVS2l1RlNBQjJjQnR3LTVfX2VqTHo0X2ZWMmZlQmpLNnlRVE9PVjhud0hIclZVS0J2RnJ5bTBsN0dXYmdUTzNhbGNYNmUxcW1KVUU3VW5Dd0c1R1ptb1ZIUlRsMWNHUnBxTlZ4T01UYnBBc1RRYjVLbHpldDdpS2FvUkpLOVB0YVJ3bkhaVHdSV0dXZDRQeVdJaXBfcWludXo?oc=5"
+    ]
+  },
+  {
     "date": "2026-07-14",
     "displayDate": "2026年7月14日",
     "scope": "全球新闻｜科技与财经优先",
