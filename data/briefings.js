@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-16",
+    "displayDate": "2026年7月16日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-16.png",
+    "summary": "今日简报聚焦AI基建资本开支的可持续性、算力瓶颈与全球数据中心扩张。摩根士丹利质疑科技巨头巨额AI基建负担能力；英伟达内部因AI芯片稀缺引发分配争端；中国芯片龙头加速融资冲刺AI算力；东南亚成为云基础设施出海新战场；华尔街投行则看好AI超级周期对并购与融资的长期拉动。",
+    "focus": [
+      "AI基建资本开支、算力供应链、半导体融资、云基础设施出海、资本市场AI周期",
+      "触及AI热潮的核心财务风险，资本开支从盲目扩张转向对投资回报率和资产负债表压力的实质性拷问。",
+      "直接反映了当前全球AI算力供应链的极端瓶颈，以及算力分配权对科技巨头和初创公司竞争格局的决定性影响。"
+    ],
+    "items": [
+      {
+        "title": "摩根士丹利发出500亿美元警告：科技巨头能否继续负担未来AI工厂建设？",
+        "region": "美国",
+        "sources": [
+          "24/7 Wall St."
+        ],
+        "summary": "摩根士丹利发布报告指出，随着AI数据中心建设成本飙升，科技巨头未来可能面临高达500亿美元的资本开支压力，市场开始重新审视AI基建的财务可持续性与现金流负担。",
+        "why": "触及AI热潮的核心财务风险，资本开支从盲目扩张转向对投资回报率和资产负债表压力的实质性拷问。",
+        "watch": "关注大型科技股下一季度财报中的资本开支指引及自由现金流变化。"
+      },
+      {
+        "title": "英伟达AI芯片极度稀缺，黄仁勋亲自介入内部客户分配争端",
+        "region": "美国",
+        "sources": [
+          "Business Insider"
+        ],
+        "summary": "据知情人士透露，由于高端AI芯片供应持续紧张，英伟达内部在决定哪些客户优先获得芯片时产生分歧，CEO黄仁勋不得不亲自介入调解稀缺算力的分配问题。",
+        "why": "直接反映了当前全球AI算力供应链的极端瓶颈，以及算力分配权对科技巨头和初创公司竞争格局的决定性影响。",
+        "watch": "观察英伟达下一代芯片产能爬坡进度及云厂商自研芯片的替代效应。"
+      },
+      {
+        "title": "中国芯片龙头企业拟融资数十亿美元，加速争夺AI算力控制权",
+        "region": "中国",
+        "sources": [
+          "The New York Times"
+        ],
+        "summary": "在AI算力需求爆发与地缘科技博弈加剧的背景下，中国头部芯片企业正计划通过大规模融资筹集数十亿美元资金，以加速先进制程和AI芯片的研发与产能扩张。",
+        "why": "凸显中国半导体产业在外部限制下通过资本市场输血实现国产替代的战略决心，是观察中国AI算力底座建设的重要窗口。",
+        "watch": "关注具体融资规模、资金投向及政策补贴的协同效应。"
+      },
+      {
+        "title": "AI需求驱动东南亚转型为全球云基础设施与数据中心争夺战主场",
+        "region": "东南亚",
+        "sources": [
+          "Indiatimes"
+        ],
+        "summary": "受AI训练与推理算力需求激增推动，东南亚正凭借相对充裕的电力、土地及政策支持，吸引全球科技巨头和云服务商大规模落地数据中心，成为新的基建投资热土。",
+        "why": "揭示了AI算力基础设施正在向具备能源和成本优势的新兴市场外溢，重塑全球云服务的地理分布格局。",
+        "watch": "关注东南亚各国的电力基础设施升级进度及针对外资数据中心的监管政策变化。"
+      },
+      {
+        "title": "华尔街投行看好AI“超级周期”，预计将大幅提振科技并购与结构化融资",
+        "region": "美国",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "华尔街主要投行认为，AI引发的技术变革并非短期热潮，而是一个将持续多年的“超级周期”，这将为企业并购、私募股权融资及AI相关资产证券化提供强劲动力。",
+        "why": "从资本市场宏观视角确认了AI对金融服务业的长期拉动作用，表明资金端对AI资产的定价逻辑正从概念炒作转向产业整合。",
+        "watch": "关注下半年科技行业大型并购交易的落地情况及AI初创企业的估值溢价变化。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNTzlTZU9xWklRTzdGQU5GcXBKazlLNjdOYTN6NlZ2VG9VTFdYQVpFR2dQWXE4UHRrV2NIOVVtMUZIZFh0ZDAzeVZoWFhINDNaX3NKSFJ3eU5tMm1Mdmg0aFJJYk5vX1JoNzd3UTl2TlFYMXUyemFFSmNpblUzWDJDVTNjVWZ5QlVnR1dJUDFTelgzclJLdjFycmlMMFFPbEQ0Sk9ua1Y2Y1FETHN1Rk1CR1NmTjBxanVSUkV1b1BtOEFfaVVCbWkwc2w4MVdkYW1fV1lvTkJPRloyeWVfV01ibEsyUFQ4cVZY?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ1E3M2xtTmt0NlUyZUFzdFZ5TVpSUnBSWC1oQnFQX1QxMUplT3d6T0hxcnNTNTktLUV6eUMxM3V0WjV5SDJydVV3eUpnZ3FBVWZYODNXdnNpSnRvUW11N01yOEdFVmNzMHJna2d0VTRXRUtzNFJLMXNtcjk2RWVYSjJkRDNSMjZiM2VlaFFRUVdCSHhIOGxiNjVqckZwcmtU?oc=5",
+      "https://news.google.com/rss/articles/CBMieEFVX3lxTE5TOFlKM21SbUg3MzJFQzRTZnNVVU1HOE9SVWs1SnJCWlVaOHlDY1RKd1BZMFYxREZvTVVaNUdXbm9PWE9NeE9BcnFiUFZRSkQzVnlGVlR5emRtR3RFZGdiRTZYQnU5X21HdFhFaDg3U25PVDg1Rk1HVQ?oc=5",
+      "https://news.google.com/rss/articles/CBMinAJBVV95cUxNTzJQcHNnVG1uazN1Nzg1OWxsMDI1TGVpX1NwVHFPSFQyWWhCNW8xVGRPOTdXTGdfTU1wckxkaW1zN3NYeUllS193YkMtb3hDYnI4dW1xYmE0MmpMUG42Q09lYUZMZWJKamt4S0ZPUERYWUV3V05hMG5nWUZqaTlNWXc1NkVKWVd2R21wRDdReWl5ZjQ3eDZiMWotcGNDUFhzWHl4XzFNM1RzMVJzWmlTUTc4VU9Nb2JFRVprMVBHNUFHdWtRWjRWSXZZUUxtcnVtakJqYnhKUkpMdi1EX2M3UEptM3NrWEVMYU16bm1ENG51dWYyVVBHZmdQbHo5ZjRwUkkxNFZORmFORFEwVU1lVVc0dUNjdU5IdjJPcw?oc=5",
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYld0cVo3UHJlTFNoc1dUTGthdnhwZjZLazByUHNveDcwV3JEelU4NFFEemppS1NBNmpMeDlSdWk0ZC0yQjFOTVdXYm9NWWM1THg4QkFYTjJPczc1R25vdDBjVGRPaFh4SjBoNlRXU2VIMzVOSnNmYlExMm5hdW1rTUM1MXo4cU5YZHB1a19hblJkRHQ0UkhyTEV6MzdTNjJDUElOdXFXSUtjazhlcUhzLWhWZnJsQ1A5aVE?oc=5"
+    ]
+  },
+  {
     "date": "2026-07-15",
     "displayDate": "2026年7月15日",
     "scope": "全球新闻｜科技与财经优先",
