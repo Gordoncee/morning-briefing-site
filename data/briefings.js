@@ -1,5 +1,78 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-17",
+    "displayDate": "2026年7月17日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-17.png",
+    "summary": "今日简报聚焦AI资本开支回报验证、流媒体平台数据披露策略调整、东南亚算力基建扩张、汽车AI芯片结盟以及地方AI基础设施监管动向。",
+    "focus": [
+      "AI资本开支",
+      "平台监管",
+      "云基础设施"
+    ],
+    "items": [
+      {
+        "title": "Netflix削减观看数据披露引发华尔街不满，并确认300部作品使用生成式AI",
+        "region": "美国",
+        "sources": [
+          "MarketWatch",
+          "The Verge"
+        ],
+        "summary": "Netflix在Q2财报后宣布将减少公布‘What We Watched’观看数据报告，导致股价下跌；同时透露平台约有300部作品在后期制作等环节使用了生成式AI。",
+        "why": "流媒体巨头改变数据披露策略反映了平台在增长放缓期对核心数据资产的重新控制，而AI在内容制作中的规模化应用正成为行业常态。",
+        "watch": "华尔街对平台数据透明度的容忍底线，以及生成式AI在影视后期制作中的成本替代效应。"
+      },
+      {
+        "title": "科技巨头7250亿美元AI资本开支开始显现回报",
+        "region": "全球",
+        "sources": [
+          "Los Angeles Times"
+        ],
+        "summary": "最新报告指出，全球大型科技公司累计约7250亿美元的AI基础设施投资热潮已开始产生实质性回报，缓解了市场对AI资本支出ROI的担忧。",
+        "why": "AI基建的巨额投入一直是压制科技股估值的核心变量，回报的初步验证将直接影响下半年云厂商的资本开支指引与市场定价。",
+        "watch": "头部云厂商下一季度的AI相关收入增速，以及资本开支是否会出现结构性分化。"
+      },
+      {
+        "title": "AI算力需求将东南亚推向全球数据中心基建新战场",
+        "region": "东南亚",
+        "sources": [
+          "Indiatimes"
+        ],
+        "summary": "受AI训练与推理算力需求激增驱动，东南亚正迅速成为全球数据中心建设的核心竞争区域，吸引大量跨国科技与能源资本涌入。",
+        "why": "随着欧美核心节点电力与土地瓶颈加剧，AI算力基建正加速向具备能源与地缘优势的东南亚溢出，重塑全球云基础设施版图。",
+        "watch": "东南亚各国针对数据中心能耗的监管政策，以及液冷与微电网等配套技术的落地进度。"
+      },
+      {
+        "title": "Micron与高通等巨头结盟布局AI汽车芯片组件",
+        "region": "全球",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "存储芯片巨头Micron宣布与高通等公司签署合作协议，共同开发用于AI驱动汽车的芯片组件，加速边缘AI在智能驾驶领域的落地。",
+        "why": "汽车正成为继手机和数据中心之后最大的AI边缘计算终端，存储与计算芯片巨头的深度绑定将提高智能汽车供应链的壁垒。",
+        "watch": "车规级AI内存的产能分配情况，以及高阶智驾系统对单车存储容量的实际需求增速。"
+      },
+      {
+        "title": "纽约州长宣布利用AI审查全州法规，并签署AI数据中心建设暂停令",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "纽约州长Kathy Hochul表示正使用AI分析全州每一项法规，但同时签署了对新建AI数据中心的暂停令，以评估其对当地电网和环境的影响。",
+        "why": "地方政府在拥抱AI政务应用的同时，对AI物理基础设施的能源消耗踩下刹车，凸显了AI发展与地方公共资源之间的现实冲突。",
+        "watch": "暂停令的持续时间及后续出台的能耗标准，这将为其他面临电网压力的州提供监管模板。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/netflix-is-getting-stingier-about-its-viewing-data-and-wall-street-isnt-happy-15033db1?mod=mw_rss_topstories",
+      "https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSnFEeXdZUWxlNTV0X04taXF1RU1MYjROUlJmVDA0U00tUURVTmgyMnIxLVhLN0xJeEpoZmlCMHRnS09naVB0Q1R4Z0FSejNyR2s3RkJYalNaeWpXVXpvVFR6ak1SVHdSMGJKeUNPQWhxSVdRNFdQZ1FzYkNHT3ZOdHRMVmYtTFVOQmRYQ3BTa21OZ3c2OVQ3WnJUbFV6MXF2dm1wSjhfTzQwLVlic05LUzlQbjZ4QQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRkZ0U2FhVlZoQ2I0d0xHcEFXVFFCUkR1VlZQVm9aV3p3dVVBOEVuXzg0WDhqYno2ckhuS0ZSQnBybEFDQnh3NFpRYXhMX2NBZy1PZWJYSVVsVGE1alU0TEVhTnJ5dkFNcVpRR2c1NHc5UjFiYlZjNXFlR0tiaVMtRWZRNzB0MDEzRGE5ZFZTbmFzaVd1cEEyeEE4Zm5kd3VhS0pEMnJVVnZwQlRFRGVETHk4aFcybVVOdGM4MUh5cUxLYWlnVHdiaDB4cG1Jb281bUFzcElMMzlOTTNhOUxiTDJnTW4zQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRktEa3YxM192SGU2U05HS204TWMtWGtXbG1sOUdyU2U0SDBjVkl1enBVeER0c1lnYTVqaGEtUjdkR0x0Q2hoZVFlVlRaaGN2NlVPWVA0aE41VXBmUkh0c1dNTDdCcVdFdllfa3ZKTkIxbmlzcTVpcTNMT2tOdUQzcWJtd1FBb3hZVzhjRU1URUNBUjNOYkllVUI3MzFWR2hsMnhpNk01RVlEYzZyeUhxbFpISXphRWwxZFZXNGxXVQ?oc=5",
+      "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies"
+    ]
+  },
+  {
     "date": "2026-07-16",
     "displayDate": "2026年7月16日",
     "scope": "全球新闻｜科技与财经优先",
