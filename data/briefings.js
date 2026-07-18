@@ -1,5 +1,78 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-18",
+    "displayDate": "2026年7月18日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-18.png",
+    "summary": "今日简报聚焦AI竞争格局与资本结构变化：中国大模型Kimi K3发布引发美股科技股震荡；纽约时报警告AI基建过度依赖债务融资；亚马逊自研芯片获2250亿美元承诺；阿里巴巴上线万卡国产芯片数据中心；SpaceX推迟发射导致股价跌破IPO定价。",
+    "focus": [
+      "AI大模型竞争、科技资本开支债务化、云算力自主化、商业航天估值",
+      "中国AI大模型能力突破直接冲击美股科技股估值逻辑，显示前沿AI竞争进入新阶段，开源模型正在压缩闭源巨头的护城河。",
+      "触及AI热潮的核心宏观变量，从股权融资转向债务融资可能改变科技公司的资本结构，并在高利率环境下放大科技股的财务风险。"
+    ],
+    "items": [
+      {
+        "title": "中国AI模型Kimi K3发布引发硅谷震动，美股科技板块承压",
+        "region": "全球/中美",
+        "sources": [
+          "marketwatch.com",
+          "CNN"
+        ],
+        "summary": "Moonshot AI发布开源模型Kimi K3，性能追赶Anthropic与OpenAI，引发市场对AI竞争格局的重新评估，导致纳斯达克和标普500指数下跌约1%。",
+        "why": "中国AI大模型能力突破直接冲击美股科技股估值逻辑，显示前沿AI竞争进入新阶段，开源模型正在压缩闭源巨头的护城河。",
+        "watch": "关注Kimi K3在企业级API市场的实际调用量，以及美股AI硬件股是否因竞争加剧而进一步回调。"
+      },
+      {
+        "title": "纽约时报警告AI热潮依赖借贷，科技资本开支走向债务驱动",
+        "region": "美国",
+        "sources": [
+          "The New York Times"
+        ],
+        "summary": "NYT报道指出，当前AI基础设施的巨额投资正越来越多地依赖借贷资金，引发对AI资本支出可持续性和潜在债务风险的担忧。",
+        "why": "触及AI热潮的核心宏观变量，从股权融资转向债务融资可能改变科技公司的资本结构，并在高利率环境下放大科技股的财务风险。",
+        "watch": "盯紧科技巨头未来的利息支出占比，以及债券市场对超大规模AI资本开支的信用利差定价。"
+      },
+      {
+        "title": "亚马逊自研芯片业务获2250亿美元承诺，云基础设施算力自主化加速",
+        "region": "美国",
+        "sources": [
+          "The Motley Fool"
+        ],
+        "summary": "亚马逊CEO Andy Jassy透露，其自研芯片业务已获得高达2250亿美元的客户承诺，显示云巨头在AI算力底层硬件上的自主化战略正获得巨大商业验证。",
+        "why": "印证了云厂商自研芯片替代Nvidia的趋势，2250亿美元的规模凸显AI算力需求的确定性与云基础设施的护城河，削弱了单一芯片巨头的定价权。",
+        "watch": "观察AWS自研芯片在推理和训练场景的实际部署比例，以及对Nvidia数据中心业务增速的潜在挤压效应。"
+      },
+      {
+        "title": "阿里巴巴启用万卡国产芯片AI数据中心，中国算力自主可控迈出关键一步",
+        "region": "中国",
+        "sources": [
+          "TechRepublic"
+        ],
+        "summary": "阿里巴巴推出由10,000颗国产芯片驱动的AI数据中心，标志着中国科技巨头在应对芯片出口管制、构建本土AI算力集群方面取得实质性进展。",
+        "why": "直接回应美国芯片限制，展示中国AI基础设施在国产替代上的规模化落地能力，证明国产芯片已具备支撑大模型训练的集群化能力。",
+        "watch": "关注该数据中心的算力利用率、能耗表现，以及后续国产芯片在更大规模万卡集群中的良率与互联瓶颈突破。"
+      },
+      {
+        "title": "SpaceX推迟关键发射，股价连续两日跌破IPO定价区间",
+        "region": "美国",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "SpaceX因故推迟一项关键发射任务，导致其股票在盘前下跌约4%，并连续第二个交易日收于此前传闻的IPO定价之下。",
+        "why": "商业航天龙头的发射挫折与估值回调，为近期过热的SpaceX IPO预期和太空经济估值提供了压力测试，提醒市场注意航天工程的高风险属性。",
+        "watch": "追踪发射推迟的具体技术原因及重新排期时间，观察二级市场资金对商业航天高估值容忍度的变化。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/meet-kimi-k3-the-newest-chinese-ai-model-haunting-silicon-valley-755ed738?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nb1lYUUpVRVRtTkNqYzk2aGgxS1pQMWlqMFdGUUtieEstM1EyaE1uYjhObFU1Wm4yWWhuTDRkcUI5TnVfWVRsTklqX1BPbGJiTmlFVWY4bXpUQWNralJqbFBpOXZYQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxPckFkRlhlWjFRTTRweHNMZjc0d2RWR01wcWF5dUVEMmc4aDNuSHdRWTBmclhmRTJlSTdCNEJxc3VtVWlWNUhwN1VORWFUYnBfZXZacklFWHJLUmFQX3FMX1VJUmtoTGNMRzdFZjhWNDdwcVYxWUlXMFlzU0dmYlh5V3g5YlctOW8?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxNa25MNmNNVjZMU0VFQVg0SEtqbndIM25IWlBIaGlydERQYkVza1c1dnRwTFBCdmhucFdvUzBCOS1pZGhXdktKNUNLTFVoM0JVcDJ3b2pPdkFaT0FBX1NiZ3JQZlppLTEyY0dYSy0xcFgwWVJUb0M5OHROQUhNMG5QSjE2dFh3anZEM1hPT0Jfdy1SWGNCQ2xv?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLVFjZmpYRTdRVnZFSXdVdkZuY2FnVHllbmtOcEZIQUx1OE1xOXhYQjlFb2FsV1VfZjBrOWFkSkxvNU5qSlJvMU1JQzdnYmZDR0EtQnZQeEFlWDJWVnB5aFk1QlA5QkYxTUlXY0NZeC1FRlVBbU1lVVg0U1dnUDJfSEphV1d0U0hjS0p1cXp3?oc=5",
+      "https://www.marketwatch.com/story/spacex-postponed-a-crucial-launch-now-its-stock-is-set-to-slide-even-further-below-the-ipo-price-143adfe0?mod=mw_rss_topstories"
+    ]
+  },
+  {
     "date": "2026-07-17",
     "displayDate": "2026年7月17日",
     "scope": "全球新闻｜科技与财经优先",
