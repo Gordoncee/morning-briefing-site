@@ -1,5 +1,78 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-19",
+    "displayDate": "2026年7月19日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-19.png",
+    "summary": "今日简报聚焦AI基础设施与算力博弈：中国AI模型新突破引发美股科技股震荡；Meta计划9月量产自研Iris芯片并推进14GW算力蓝图；Anthropic向Meta寻求算力支持；阿里上线万卡国产芯片数据中心；SpaceX切入五角大楼AI算力市场。",
+    "focus": [
+      "AI算力军备竞赛、中美AI竞争格局、科技巨头自研芯片与国防AI融合",
+      "中国开源或低成本AI模型正在实质性冲击美国AI巨头的估值逻辑，资本市场开始重新定价中美AI竞争格局与商业化落地速度。",
+      "科技巨头自研芯片进入实质性量产阶段，14GW的算力目标凸显AI基础设施军备竞赛的能源与硬件双重瓶颈，自研芯片成为控制成本的关键。"
+    ],
+    "items": [
+      {
+        "title": "中国AI模型新突破引发美股科技股震荡，纳指与标普500双双下挫",
+        "region": "全球/美国",
+        "sources": [
+          "WSJ",
+          "CNN"
+        ],
+        "summary": "中国最新AI模型突破引发市场对美国科技巨头护城河的担忧，导致纳斯达克与标普500指数下跌约1%，AI明星股遭遇持续抛售，同时油价上涨加剧宏观压力。",
+        "why": "中国开源或低成本AI模型正在实质性冲击美国AI巨头的估值逻辑，资本市场开始重新定价中美AI竞争格局与商业化落地速度。",
+        "watch": "关注后续美国科技巨头是否会加速开源策略或调整资本开支预期，以应对中国模型带来的“价格战”与效率挑战。"
+      },
+      {
+        "title": "Meta计划9月量产自研Iris AI芯片，并推进14吉瓦算力扩张蓝图",
+        "region": "美国",
+        "sources": [
+          "The Globe and Mail"
+        ],
+        "summary": "扎克伯格宣布Meta将于9月将自研Iris AI芯片投入生产，作为其将计算能力翻倍至14吉瓦的庞大计划的一部分，进一步减少对英伟达的依赖。",
+        "why": "科技巨头自研芯片进入实质性量产阶段，14GW的算力目标凸显AI基础设施军备竞赛的能源与硬件双重瓶颈，自研芯片成为控制成本的关键。",
+        "watch": "观察Iris芯片的实际良率与性能表现，以及14GW电力获取进度对Meta资本开支、现金流及整体AI战略的影响。"
+      },
+      {
+        "title": "Anthropic正与Meta初步洽谈获取算力，前沿AI公司面临算力瓶颈",
+        "region": "美国",
+        "sources": [
+          "CNBC"
+        ],
+        "summary": "据CNBC报道，Anthropic正处于与Meta洽谈获取计算能力的早期阶段，以支持其不断扩大的模型训练和推理需求。",
+        "why": "头部AI初创公司开始向拥有庞大基础设施的科技巨头“租借”或购买算力，凸显前沿模型训练对算力的极度渴求及独立获取算力的极高门槛。",
+        "watch": "关注双方合作的具体模式（如算力置换、股权绑定或长期采购协议），以及这是否会改变AI初创公司的独立估值逻辑与竞争壁垒。"
+      },
+      {
+        "title": "阿里巴巴上线由1万颗国产芯片驱动的AI数据中心，强化自主算力底座",
+        "region": "中国",
+        "sources": [
+          "TechRepublic"
+        ],
+        "summary": "阿里巴巴正式推出由10000颗中国本土研发芯片驱动的AI数据中心，旨在应对美国芯片出口管制，提升国内AI基础设施的自主可控能力。",
+        "why": "中国科技巨头在国产AI芯片规模化应用上迈出关键一步，万卡集群的落地标志着国产算力从“可用”向“规模化商用”过渡。",
+        "watch": "跟踪该数据中心在实际大模型训练中的效能、稳定性，以及后续国产芯片产能能否支撑更大规模的集群扩建与生态适配。"
+      },
+      {
+        "title": "SpaceX正洽谈为五角大楼AI计划提供算力，商业航天与国防AI深度融合",
+        "region": "美国",
+        "sources": [
+          "WSJ"
+        ],
+        "summary": "据华尔街日报独家报道，SpaceX正在与美国国防部进行谈判，计划为其AI推进项目提供计算能力，将其业务版图从通信和发射扩展至国防算力。",
+        "why": "SpaceX利用其星链和基础设施优势切入国防AI算力市场，标志着商业航天巨头在国家安全领域的战略价值进一步重估，国防AI供应链正在重塑。",
+        "watch": "关注五角大楼最终合同规模，以及SpaceX如何平衡其商业算力需求与国防安全合规要求，这或将为其他科技巨头提供军民融合新范式。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxNX0JEZ2x1UUF4UHEzUVJYS1loOFM2RzVjazlLdDd4OVdpV3pEdmxyV2ZrZGFKcWJnTU5XNnBJQ1Z4OW43dF96T0pGR3p1bHppdlhGaGd5dVM3RTA1MmllQ1BDMlEydlJBMW1aTG5Ja01EY0J3NzQ1Xy1HekkzZnNELWluVVpUcnZEM0RDWHhjS3paUWtJV0dDMl94TV9ydw?oc=5",
+      "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nb1lYUUpVRVRtTkNqYzk2aGgxS1pQMWlqMFdGUUtieEstM1EyaE1uYjhObFU1Wm4yWWhuTDRkcUI5TnVfWVRsTklqX1BPbGJiTmlFVWY4bXpUQWNralJqbFBpOXZYQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQZ2l5aWRUOXNqR2dWb0UxQzNmczZGNWpiMTFUcDBDNkRta0xsWWFBMEs0cnRaU1VRMDBJVy1vWTZHUGMwMUE5V04wdUc1eGRWYksxWGpvdnIyYlgzeXk0ak5QSlpiYXpUX0h4UWx6MkNYSjNmLURIRTdFdTNLNTYxODhWRHpJajNGWUdhcXR1cG14a25kZmljUVhnT3NSX3NtaXA5WnUwVmZwaTFmejV1VUR3enl4Qk93QVJkUkVOSG01c19pM3FVQlBKTDhxb2k3MC1lTmFlZ1JydmFwR3Jwc195UFluWHp6VW10b1FXa2xWTmxtVFlkVTN0dTltSkhHUG41ZnpQTWtlbkUtQ1h5MUNGZEhUM1JqbjVDZWpOQVRLQ3dMc0RtT2twSjhhdzlyV2x1YnBIbE51TXdLeGx1dGwtWTlkZVlJNmdVR2dPSVVQendDVmE2cDQ5Zw?oc=5",
+      "https://news.google.com/rss/articles/CBMib0FVX3lxTE1tZWtxWDkycmdUVlYtM3RpUUdqTVd5cWloOWVnYVZPWUxpc1pBZDFtNkN2NTM5anJXdmRlYnJubDhTV2pyWEp1cnRWQ1pWUnZ3U21OQ0ZhUHAwcGlUN2h4ajNaZVhWWmc0ZTRad0NNNNIBdEFVX3lxTE03WExldWF5Ukd0VGxHRjluWlBNVEZPbW9KWk5LQjZJbk55T3ZjQWozel9NMDZVWkZsYUFKNE9kUmVTN2xSNFI5MFZMOGVqYjVsenFjdmlPYzFvVl85WnhXLTBBOGt4eER0ZW1KS3E5ZE5XNHZJ?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLVFjZmpYRTdRVnZFSXdVdkZuY2FnVHllbmtOcEZIQUx1OE1xOXhYQjlFb2FsV1VfZjBrOWFkSkxvNU5qSlJvMU1JQzdnYmZDR0EtQnZQeEFlWDJWVnB5aFk1QlA5QkYxTUlXY0NZeC1FRlVBbU1lVVg0U1dnUDJfSEphV1d0U0hjS0p1cXp3?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxORjd5MTJmSFZmLU5FUmR1dDM1SUdRNVkzeFlZYXhIUXZLZHdMWDA3NFFjWDBfcXIwZnVpNllpbzd3VjE3T1ZBRHI3cHItM2tId0FNcE9mN3BkNTBCT3ZCNFFuNVFNX2lXTS1rcko0VHZwbmk0N2VRODZEMFpVanBkUC1GNFBtOTh4SGNEdTVqMUlmSmc1YkRnVkEtTG9DOE9hUUNB?oc=5"
+    ]
+  },
+  {
     "date": "2026-07-18",
     "displayDate": "2026年7月18日",
     "scope": "全球新闻｜科技与财经优先",
