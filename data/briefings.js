@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-20",
+    "displayDate": "2026年7月20日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-20.png",
+    "summary": "本期简报聚焦AI基建与算力的深度重构：Meta与Anthropic洽谈百亿美元算力交易，阿里巴巴落地万卡国产芯片数据中心；资本市场方面，对冲基金开始削减拥挤的AI头寸，DRAM价格高企凸显结构性分化，同时市场将迎来Alphabet、特斯拉等巨头的财报大考。",
+    "focus": [
+      "AI算力交易",
+      "国产芯片数据中心",
+      "对冲基金AI头寸"
+    ],
+    "items": [
+      {
+        "title": "Meta与Anthropic洽谈100亿美元AI算力交易",
+        "region": "全球",
+        "sources": [
+          "Pulse 2.0"
+        ],
+        "summary": "据报道，Meta正与Anthropic就一项潜在价值100亿美元的AI算力交易进行谈判，旨在为后者的前沿模型训练和推理提供大规模基础设施支持。",
+        "why": "科技巨头与头部AI初创公司的算力结盟标志着AI基建投资从“单打独斗”走向“结构化共享”，将深刻影响云基础设施和算力定价格局。",
+        "watch": "交易的具体算力交付形式（如定制芯片或GPU集群）及反垄断监管审查。"
+      },
+      {
+        "title": "阿里巴巴上线由1万枚国产芯片驱动的AI数据中心",
+        "region": "中国",
+        "sources": [
+          "TechRepublic"
+        ],
+        "summary": "阿里巴巴宣布推出由10,000枚国产AI芯片驱动的全新数据中心，进一步提升其在大模型训练和推理方面的自主算力底座能力。",
+        "why": "在美国芯片出口管制背景下，中国科技巨头加速国产算力替代，万卡集群的落地是检验国产AI芯片生态成熟度和实际性能的关键里程碑。",
+        "watch": "国产芯片在实际大模型训练中的良率、互联带宽表现及后续扩产计划。"
+      },
+      {
+        "title": "对冲基金在拥挤交易反转后削减AI头寸",
+        "region": "全球",
+        "sources": [
+          "Yahoo Finance UK"
+        ],
+        "summary": "随着前期过度拥挤的AI主题交易出现反转迹象，多家对冲基金开始战略性撤退，削减对部分高估值AI硬件和软件公司的多头头寸。",
+        "why": "资本市场对AI概念的定价正从“盲目狂热”转向“基本面验证”，资金流向的调整预示着AI板块内部将迎来剧烈的估值分化。",
+        "watch": "机构资金从AI硬件向AI应用层或传统价值股轮动的具体路径和规模。"
+      },
+      {
+        "title": "科技巨头财报周来袭：Alphabet、特斯拉与Intel成市场焦点",
+        "region": "美国",
+        "sources": [
+          "Investopedia"
+        ],
+        "summary": "本周美股将迎来重磅科技财报季，Alphabet、特斯拉和Intel等巨头将陆续公布业绩，市场将借此检验AI资本开支的回报率和宏观消费韧性。",
+        "why": "在AI基建开支引发市场担忧的背景下，巨头的财报不仅是业绩大考，更是验证AI商业化变现能力和指引下半年科技股估值的核心变量。",
+        "watch": "Alphabet的云业务增速与AI搜索变现、特斯拉的毛利率与Robotaxi进展、Intel的代工业务亏损收窄情况。"
+      },
+      {
+        "title": "AI需求支撑DRAM价格高企，内存市场供需拐点受关注",
+        "region": "全球",
+        "sources": [
+          "24/7 Wall St."
+        ],
+        "summary": "受AI服务器对HBM和高容量DDR5的强劲需求拉动，DRAM价格持续保持高位，但分析师警告消费级需求疲软可能导致市场在未来几个季度出现松动。",
+        "why": "内存芯片是AI行情的“晴雨表”，HBM的结构性短缺与普通DRAM的潜在过剩并存，凸显了AI热潮对传统半导体周期的扭曲效应。",
+        "watch": "三星、SK海力士和美光在HBM产能分配上的调整，以及消费电子终端对高价内存的接受度。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa1E1TDRMOHFyT1BRM25SNk9WRGVYMWxzRHFuTzV3YjJLM0Iyd0dHQ2FMM2dYQngtQUxNdmZuYnRIRzFXS2RvUnd0eTZ6eWdHYTJIWDVxdUtnV1p6dl9ReDRHOWUtdDZsZlc3RkxSZlN6cnRrRXJaZi1GVmd3Z200azY0enc4TXBqRkF3bklObWVvRm5LdjJ3UEJ3UFdsbjBh0gGmAUFVX3lxTFBEanNSRU9KWXItc2dXQ2lWNHpLSTRHZEhzYy1JSEtoTm5IbDRDNnpSOFRlc1dlaFZGSzh3VFpVUFVadjZDMHpNUHhWT0cwMS1KRzd1QmNPTHhSTlU3T1JEUFdOR0dTVy12c1FFZDcwV2ZvLVVjNmZrdllQZzdNM1BaSFFLOWo0cFdRaFF2azRVQ1NzWVdMN1hmVmU0SXg3ODlBRWRFNlE?oc=5",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLVFjZmpYRTdRVnZFSXdVdkZuY2FnVHllbmtOcEZIQUx1OE1xOXhYQjlFb2FsV1VfZjBrOWFkSkxvNU5qSlJvMU1JQzdnYmZDR0EtQnZQeEFlWDJWVnB5aFk1QlA5QkYxTUlXY0NZeC1FRlVBbU1lVVg0U1dnUDJfSEphV1d0U0hjS0p1cXp3?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOW5SVDJIYzlaOUpFVWgyWnllMjN1MnlfSWdtV1B6TUJCd1Y3bEE2a0phTUZuSXJBN3dJOUpFUjVfYXJwNHJCZkFseENUc0otVkRkVDRpbEtlc2hmbWxULXV5aFJiejRRTkVocGxPZzIxSEh2ai1lRU5rUWI0UkdYVHBYZ2FQZUZB?oc=5",
+      "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSGswUG1qY1NfN2lyWk5uMGVEVnFhRElhTjlNc3Z1ZldGMmw2bE5ya3l0WlVNZ3hjSUFObi1xb3QzQ1JIbG1FVnFfQXhFWWhUV2Nmal9BenRHWnRaLW9rS3pKZ3pNYWZkd1NjdE9IWU1reUZUcXlBOGVQR2Riellac0x5R3FKVDRkeDFLc0RTMVczUllvUGNvRjN4SlB0d0cwSHdQN093QVVBYTJGMjNwYTVvYTVCWU51dVhvbXlFTHgwb2NZcFJKSGZIUWxkQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa3hzUHhMZ0JfVldPTUpOTlVWc2RpVFliVzJ1eVg1MWFDTjNtam5PTUI2TjRQYXVkZVZBdmt1bFhwdFNVMzhXaUFLX3JPUFdDRHRtQmY2ZThTU3c0cHdHYXhPbTJUZnRwZ0YzNURLc29vdDBqYzdtU05MMW1HTUozWUZLbUtNWjlHWllORmoxQ08taHhkbml1M3dBMVZoLXBWdDUxSWx1MzRoXzAxaGlnR2dIMFpzT2FYb2dncDhrdXY?oc=5"
+    ]
+  },
+  {
     "date": "2026-07-19",
     "displayDate": "2026年7月19日",
     "scope": "全球新闻｜科技与财经优先",
