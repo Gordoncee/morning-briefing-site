@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-21",
+    "displayDate": "2026年7月21日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-21.png",
+    "summary": "今日简报聚焦宏观贸易摩擦与AI产业链的深层博弈。美国对加拿大加征50%关税重燃北美贸易战火；AI基建方面，中国Z.AI建成纯国产芯片1吉瓦数据中心，Meta与Anthropic洽谈百亿美元算力交易，凸显算力自主化与巨头结盟趋势；同时，廉价中国AI模型被华尔街视为芯片需求的新引擎，而索尼对Udio的3万首歌曲版权诉讼则标志着AI合规成本进入实质性清算期。",
+    "focus": [
+      "关税冲击、AI算力基建、国产芯片替代、AI版权诉讼",
+      "重大宏观变量，直接影响北美供应链、通胀预期及全球贸易格局，可能引发新一轮报复性关税战。",
+      "验证了中国AI芯片在超大规模数据中心中的实际部署与集群能力，对全球AI算力竞争格局及出口管制效果产生深远影响。"
+    ],
+    "items": [
+      {
+        "title": "美国对加拿大加征50%关税，北美贸易摩擦再度升级",
+        "region": "北美",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "特朗普政府宣布对部分加拿大进口商品征收50%的关税，以回应其认为的歧视性贸易行为，涉及汽车、乳制品等领域，进一步加剧全球贸易紧张局势。",
+        "why": "重大宏观变量，直接影响北美供应链、通胀预期及全球贸易格局，可能引发新一轮报复性关税战。",
+        "watch": "加拿大反制措施及汽车、农业板块的供应链冲击与成本传导。"
+      },
+      {
+        "title": "中国Z.AI建成1吉瓦纯国产芯片AI数据中心，算力自主化迎里程碑",
+        "region": "中国",
+        "sources": [
+          "TradingView"
+        ],
+        "summary": "中国企业Z.AI宣布完成一座1吉瓦规模的AI数据中心建设，且全部采用中国本土制造的AI芯片，标志着在算力基础设施和芯片国产替代方面取得重大突破。",
+        "why": "验证了中国AI芯片在超大规模数据中心中的实际部署与集群能力，对全球AI算力竞争格局及出口管制效果产生深远影响。",
+        "watch": "国产芯片的良率、能耗表现、集群线性加速比及后续大规模商业化订单。"
+      },
+      {
+        "title": "Meta与Anthropic洽谈100亿美元AI算力合作，科技巨头与初创公司结盟加速",
+        "region": "全球",
+        "sources": [
+          "Pulse 2.0"
+        ],
+        "summary": "报道称Meta正与AI初创公司Anthropic讨论一项价值高达100亿美元的AI计算资源交易，旨在为Anthropic的模型训练和推理提供庞大的算力支持。",
+        "why": "反映前沿AI模型公司对算力的极度渴求，以及科技巨头通过算力租赁或深度投资绑定头部AI公司的战略趋势，重塑云计算市场格局。",
+        "watch": "交易的具体结构（算力租赁、股权投资或联合研发）及对云计算市场定价和资本开支的影响。"
+      },
+      {
+        "title": "廉价中国AI模型引发“杰文斯悖论”，华尔街看好其对芯片需求的长期拉动",
+        "region": "全球",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "分析指出，以Moonshot AI的Kimi K3为代表的低成本中国AI模型将大幅降低企业使用AI的门槛，从而引发企业工作负载的激增，为Nvidia、Micron等芯片制造商提供长期的需求顺风。",
+        "why": "挑战了“低成本模型会减少算力需求”的直觉，从经济学角度重新评估AI应用普及对硬件基建的拉动作用，提振半导体板块估值逻辑。",
+        "watch": "企业级AI应用的实际部署增速及推理侧芯片（如ASIC和HBM）的订单变化。"
+      },
+      {
+        "title": "索尼就3万首歌曲版权起诉AI音乐生成器Udio，AI生成内容版权战全面升级",
+        "region": "全球",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "索尼音乐娱乐对AI音乐生成公司Udio提起新一轮诉讼，指控其侵犯包括猫王和碧昂丝等在内的超过3万首歌曲的版权，要求巨额赔偿。",
+        "why": "AI版权诉讼规模进一步扩大，可能为AI训练数据的合法使用确立关键法律先例，直接推高所有生成式AI公司的合规与数据采购成本。",
+        "watch": "法院对“合理使用”原则在AI训练中的最终裁定及AI音乐行业的商业模式重构。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/u-s-hits-canada-with-stiff-new-tariffs-escalating-trade-tensions-4a97065f?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa2oxSzJXeXFGX1RwTlhyRXJCdHE2LTI2OVRHZEtDcHZTMjRYUFVKMHFrT2NWQVRvSlNma2h0WkxlUG1CaDhCOUN1UkpJWWhENDMxMnpTbnhLMk11bzZqSjhmVm1Xb3JhbWFPVjdjUUlHT3BZV1J6UFVIbG1sNFhtbGgxcU9YSHlVaFlZLVdiUmRZOHczX0ZZNVFPNmRsYlRxYUhRQktxMlhqTTlDVHczNVg4MkE1dGw1X0QtdHJyV2dxLVFySTZBYzB0TDJERXctYTMtTw?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGpzUkVPSllyLXNnV0NpVjR6S0k0R2RIc2MtSUhLaE5uSGw0QzZ6UjhUZXNXZWhWRks4d1RaVVBVWnY2QzB6TVB4Vk9HMDEtSkc3dUJjT0x4Uk5VN09SRFBXTkdHU1ctdnNRRWQ3MFdmby1VYzZma3ZZUGc3TTNQWkhRSzlqNHBXUWhRdms0VUNTc1lXTDdYZlZlNEl4Nzg5QUVkRTZR0gGmAUFVX3lxTFBEanNSRU9KWXItc2dXQ2lWNHpLSTRHZEhzYy1JSEtoTm5IbDRDNnpSOFRlc1dlaFZGSzh3VFpVUFVadjZDMHpNUHhWT0cwMS1KRzd1QmNPTHhSTlU3T1JEUFdOR0dTVy12c1FFZDcwV2ZvLVVjNmZrdllQZzdNM1BaSFFLOWo0cFdRaFF2azRVQ1NzWVdMN1hmVmU0SXg3ODlBRWRFNlE?oc=5",
+      "https://www.marketwatch.com/story/why-cheap-chinese-ai-models-could-actually-be-a-boon-for-nvidia-micron-and-other-chip-stocks-8dd4baba?mod=mw_rss_topstories",
+      "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright"
+    ]
+  },
+  {
     "date": "2026-07-20",
     "displayDate": "2026年7月20日",
     "scope": "全球新闻｜科技与财经优先",
