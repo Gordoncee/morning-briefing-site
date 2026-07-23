@@ -4,71 +4,93 @@ window.MORNING_BRIEFINGS = [
     "displayDate": "2026年7月23日",
     "scope": "全球新闻｜科技与财经优先",
     "image": "assets/morning-briefing-2026-07-23.png",
-    "summary": "今日简报聚焦宏观与科技基建的激烈博弈：伊朗危机推升美联储加息预期，美债收益率逼近高位；AI算力自主化加速，Z.ai启用纯国产芯片的1GW数据中心；英伟达发布Vera CPU全面进军数据中心处理器市场；Intel通过裁员重组数据中心业务获市场认可；特斯拉Q2营收反弹但利润承压。",
+    "summary": "本期纳入5条，均为7月22日至23日出现正式公告、财报披露或监管进展的新科技财经事件：AMD与Anthropic达成最高50亿美元投资和2吉瓦MI450芯片部署协议，Alphabet二季度业绩强劲但把2026年AI资本开支指引上调至1950亿至2050亿美元，OpenAI推出企业级代理产品Presence，Tesla二季度利润不及预期且AI/机器人资本开支压低自由现金流，欧盟附条件批准Paramount Skydance收购Warner Bros. Discovery。为避免重复，未继续纳入伊朗/油价市场震荡、泛化AI泡沫评论、Hugging Face事件后续和Alphabet/Tesla财报前瞻。",
     "focus": [
-      "宏观利率、AI算力自主、芯片竞争、企业重组",
-      "地缘政治风险直接转化为通胀与货币政策压力，打破了此前的降息或按兵不动叙事，是近期资本市场最核心的宏观变量。",
-      "在高端AI芯片出口管制背景下，中国头部AI公司通过大规模国产替代验证了非Nvidia生态的可行性，对全球AI算力供应链格局产生深远影响。"
+      "AI产业链的竞争正在从模型能力转向资本绑定、芯片替代和企业工作流落地，AMD、Anthropic、Alphabet与OpenAI的动作都指向这一转变。",
+      "大型科技公司的AI支出正在进入财报可检验阶段：云收入、用户规模、自由现金流和股价反应会共同决定市场是否继续容忍超高资本开支。",
+      "监管层对平台和内容产业的重组仍保持高强度审查，欧盟批准Paramount/WBD交易但附加发行承诺，显示媒体并购需要同时回应流媒体与传统影院竞争问题。"
     ],
     "items": [
       {
-        "title": "美联储加息预期因伊朗危机加剧而上升",
-        "region": "美国/全球",
+        "title": "AMD与Anthropic签下2吉瓦AI芯片协议，最高50亿美元投资把Claude算力绑定到MI450平台",
+        "region": "美国/AI芯片与云基础设施",
         "sources": [
-          "MarketWatch"
-        ],
-        "summary": "随着伊朗危机加剧导致油价持续上涨，美国国债收益率逼近2月冲突爆发以来的最高水平，市场对美联储年内加息的预期显著升温，给牛市带来新的宏观压力。",
-        "why": "地缘政治风险直接转化为通胀与货币政策压力，打破了此前的降息或按兵不动叙事，是近期资本市场最核心的宏观变量。",
-        "watch": "关注后续原油价格走势及美联储官员对通胀反弹的紧急表态，评估科技股估值承压程度。"
-      },
-      {
-        "title": "Z.ai启用完全基于中国国产芯片的1GW AI数据中心",
-        "region": "中国",
-        "sources": [
-          "Tom's Hardware"
-        ],
-        "summary": "GLM开发商Z.ai（智谱）启动了多个万卡集群，其1GW级AI数据中心完全采用中国国产芯片，实现了零Nvidia硅片依赖，标志着中国AI算力自主化迈出实质性一步。",
-        "why": "在高端AI芯片出口管制背景下，中国头部AI公司通过大规模国产替代验证了非Nvidia生态的可行性，对全球AI算力供应链格局产生深远影响。",
-        "watch": "关注该数据中心的实际训练效率、能耗表现以及国产芯片良率爬坡情况，评估其对国内大模型迭代速度的支撑力。"
-      },
-      {
-        "title": "英伟达发布Vera AI CPU，全面进军数据中心处理器市场",
-        "region": "美国/全球",
-        "sources": [
-          "International Business Times"
-        ],
-        "summary": "英伟达正式推出Vera AI CPU，直接瞄准AMD和Intel在数据中心的主导地位，试图将其在GPU领域的垄断优势扩展到通用计算和服务器CPU领域。",
-        "why": "英伟达从AI加速卡向全栈数据中心芯片扩张，将直接冲击传统CPU巨头的核心腹地，可能重塑云计算和AI基础设施的硬件采购格局。",
-        "watch": "关注云服务商对Vera CPU的测试与采购意愿，以及AMD和Intel的防御性产品路线图更新。"
-      },
-      {
-        "title": "Intel确认进一步裁减数据中心部门员工，股价大涨8.6%",
-        "region": "美国",
-        "sources": [
-          "TradingView",
-          "Calcalistech"
-        ],
-        "summary": "Intel宣布在其快速增长的数据中心业务部门进行新一轮裁员，市场将其解读为管理层坚定推进降本增效和重组的信号，推动股价单日大幅上涨8.6%。",
-        "why": "在AI基建热潮中，传统芯片巨头面临巨大的资本开支压力，Intel通过激进裁员换取利润空间，反映了半导体行业在AI转型期的残酷洗牌与资本市场的现实偏好。",
-        "watch": "关注裁员对Intel数据中心产品交付周期的影响，以及其18A制程客户验证是否会因内部重组而受到干扰。"
-      },
-      {
-        "title": "特斯拉Q2财报：营收反弹但利润依然疲软",
-        "region": "美国/全球",
-        "sources": [
+          "Reuters",
+          "Wall Street Journal",
           "The Verge"
         ],
-        "summary": "特斯拉发布2026年Q2财报，在经历两年的需求疲软后营收出现反弹，但利润率依然承压。分析指出，马斯克的政治活动对品牌形象的损害仍在影响高端车型的销售与溢价能力。",
-        "why": "作为全球电动车和科技制造的风向标，特斯拉的“增收不增利”反映了行业价格战的余波以及创始人IP反噬对消费科技品牌的实质性财务影响。",
-        "watch": "关注特斯拉FSD订阅收入的增长能否弥补硬件利润率的下滑，以及下半年新车型的定价策略。"
+        "summary": "AMD宣布将向Anthropic投资最高50亿美元，并让Anthropic从2027年上半年开始部署最多2吉瓦的Instinct MI450 GPU，其中首批1吉瓦使用Helios机架级系统。Reuters称投资将与部署里程碑挂钩；WSJ称整套服务器采购价值可达数百亿美元。",
+        "why": "过去一周本站多次覆盖AI算力需求，但这次是正式交易落地，而不是传闻或泛化资本开支讨论。它显示前沿AI公司正在主动分散Nvidia依赖，AMD则用股权和工程合作换取Claude生态中的大规模客户验证。",
+        "watch": "关注MI450/Helios实际交付时间、Anthropic是否把训练和推理负载迁移到AMD软件栈，以及AMD是否继续用股权投资争取OpenAI、Meta、Microsoft之外的大客户。"
+      },
+      {
+        "title": "Alphabet二季度营收增至1198亿美元，却把全年AI资本开支指引上调至1950亿至2050亿美元",
+        "region": "美国/大型科技财报与AI支出",
+        "sources": [
+          "Alphabet IR",
+          "Wall Street Journal",
+          "MarketWatch"
+        ],
+        "summary": "Alphabet公布二季度营收1198亿美元，同比增长24%，Google Cloud收入增至248亿美元。管理层同时把2026年资本开支预期从1800亿至1900亿美元上调到1950亿至2050亿美元，市场盘后更关注AI基础设施支出和自由现金流压力，而非单季收入超预期。",
+        "why": "这不是财报预览，而是正式业绩和资本开支指引更新。Google的AI搜索、Gemini和云业务正在贡献增长，但投资者开始要求用云订单、用户留存和利润率证明超大规模AI支出的回报。",
+        "watch": "关注Google Cloud backlog、Gemini商业版付费渗透率、AI Overviews对搜索广告点击率的影响，以及2027年资本开支是否继续上修。"
+      },
+      {
+        "title": "OpenAI推出Presence，把企业代理从模型调用推进到受控部署和持续评测",
+        "region": "美国/企业软件与AI代理",
+        "sources": [
+          "OpenAI",
+          "Business Insider",
+          "Wall Street Journal"
+        ],
+        "summary": "OpenAI在7月22日发布Presence，定位为面向企业客户的AI代理部署产品，支持语音和聊天场景，可连接公司知识、系统权限、策略、评测和人工升级规则。OpenAI称该产品已用于自身英文电话支持，合格企业可通过有限开放项目由FDE和系统集成商部署。",
+        "why": "这条新闻与前几日模型、算力和安全事件不同，关键在商业形态：OpenAI正在把AI实验室能力包装成企业软件和实施服务，以降低单纯模型价格竞争的压力，并把Codex式评测改进引入生产代理运维。",
+        "watch": "关注Presence是否形成可复制收入、是否与ServiceNow、Salesforce、微软和咨询公司正面竞争，以及企业客户是否接受OpenAI深度接入内部系统。"
+      },
+      {
+        "title": "Tesla二季度利润不及预期，AI、Robotaxi与Optimus资本开支开始压低现金流",
+        "region": "美国/电动车、机器人与资本市场",
+        "sources": [
+          "Tesla IR",
+          "AP",
+          "The Verge",
+          "Business Insider"
+        ],
+        "summary": "Tesla二季度交付约48万辆汽车、收入约282亿美元，但利润低于市场预期。AP和The Verge称，公司研发和资本开支大幅上升，自由现金流转负，支出重点转向Robotaxi、Optimus、人形机器人和相关制造/AI基础设施，盘后股价下跌。",
+        "why": "Tesla正在被资本市场用AI公司逻辑重估，但其现金流仍高度依赖汽车和能源业务。这次财报把“从EV转向物理AI”的代价量化出来：销量恢复并不自动抵消机器人和自动驾驶扩张带来的利润压力。",
+        "watch": "关注Robotaxi城市扩张是否带来监管事故风险、Optimus产线能否按计划爬坡，以及资本开支是否迫使Tesla改变定价、融资或与SpaceX的协同叙事。"
+      },
+      {
+        "title": "欧盟附条件批准Paramount收购Warner Bros. Discovery，1100亿美元级媒体整合跨过关键关口",
+        "region": "欧盟/美国/媒体并购与平台竞争",
+        "sources": [
+          "Paramount",
+          "The Guardian",
+          "AP",
+          "Wall Street Journal"
+        ],
+        "summary": "Paramount Skydance宣布欧盟委员会已正式批准其收购Warner Bros. Discovery。为解决影院发行竞争担忧，Paramount同意在交易完成后退出其与Universal相关的欧洲发行合资安排，并在欧洲经济区内多年内避免与NBCUniversal共同发行电影。",
+        "why": "该交易关系到CNN、HBO Max、Warner Bros.、CBS、Paramount+等资产的重组，也是传统媒体面对科技平台和流媒体竞争的又一次大规模合并尝试。欧盟放行并不代表交易完成，美国多州诉讼和英国审查仍可能改变节奏。",
+        "watch": "关注8月初美国法院禁令听证、英国监管态度、Paramount履行欧洲发行承诺的细节，以及合并后内容授权和流媒体定价是否调整。"
       }
     ],
     "sourceLinks": [
-      "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
-      "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRDNCTFMwQzB6VjdfRHB1TUhneXF0dFROTkJvWXN4ei15ZW0xdFBQVHd1UnFiWHRvVzZEOEVBU3lCRE84UXVlamFmNFU2MXY1OGVPZFhXRU56V28tcUJjZERqVzA5SFlVMGdkZGlGeHJxLXZaVHY5aVh2TzRNOS1MMkFmS1diZ291cTlTajhPbmtNdmozYXB3NzZRR2Y0Ujl4OTA2Yk8wZnJiaDZHeU4xNFppQUlzUkxRWFZHX2lIRU5yY3B1S3kxVTBCSTg?oc=5",
-      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLTVfZGs2dl9uUU5KOTFsWG9KTlk3cWo5RldOdmdCNHFWaENaa0g0RDhSMnQ2U1NiNzlQSDh1R2k2ckY5NlgtR1FMVmd0N3hDVzlPZVpMbENleW9peTVINVF0bzRENTdBMnI5S3Yyc1hzcnpQSW9PNWxvSEFOOWhlcndYalBTM19HMHZBLTBjdFA1U2U1YUp1eWVOUk5ZaERs?oc=5",
-      "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWmwxZ2xfSkxBRzg3NlY4OTVwQXNpVi1rakJvakNpODBqaEJlM3A3SHN0SmJhcWtaSjUtQVRnUTJSM0l6dGNzREJqQjlmLXBLbFhnWHhqamp2dHo1VTZHUHl6VC10V1NtdEJFeW5aa0JjVHU5amFQd19ZWm1PWE5fR2FfSGFrSXF2QzhsYzBhaFJQLTZGWjVHTkZ5blI3bmc2ZkQ4QVE0MlVjY2xnb253alUzbF9vTVZIMlE?oc=5",
-      "https://www.theverge.com/transportation/969311/tesla-q2-2026-earnings-revenue-profit-sales"
+      "https://m.investing.com/news/stock-market-news/amd-to-invest-up-to-5-billion-in-anthropic-wsj-reports-4805909?ampMode=1",
+      "https://www.wsj.com/tech/ai/amd-and-anthropic-sign-major-chips-and-investment-deal-4adfdc45",
+      "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal",
+      "https://abc.xyz/investor/Earnings/default.aspx",
+      "https://www.wsj.com/tech/ai/alphabet-googl-q2-earnings-report-2026-stock-f6bdd223",
+      "https://www.marketwatch.com/livecoverage/alphabet-earnings-google-stock-results-q2/card/alphabet-s-stock-falls-with-ai-spending-set-to-move-even-higher-NgBHFXj0PHSB8lAuTbyu",
+      "https://openai.com/index/introducing-openai-presence/",
+      "https://www.businessinsider.com/openai-presence-corporate-software-customer-service-sales-2026-7",
+      "https://www.wsj.com/cio-journal/openais-high-stakes-high-touch-push-to-make-ai-work-for-business-7f08b7d4",
+      "https://ir.tesla.com/",
+      "https://apnews.com/article/976cc9e895bbdcbd3728e7ba178ffe40",
+      "https://www.theverge.com/transportation/969311/tesla-q2-2026-earnings-revenue-profit-sales",
+      "https://www.businessinsider.com/tesla-q2-earnings-updates-tsla-stock-elon-musk-spacex-2026-7",
+      "https://ir.paramount.com/news-releases/news-release-details/european-commission-approves-paramount-skydance-corporation",
+      "https://www.theguardian.com/media/2026/jul/22/paramount-skydance-takeover-warner-brothers-eu-approval",
+      "https://apnews.com/article/87281ccde5b411f87d253e41c43c776e"
     ]
   },
   {
