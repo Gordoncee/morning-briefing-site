@@ -1,5 +1,77 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-23",
+    "displayDate": "2026年7月23日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-23.png",
+    "summary": "今日简报聚焦宏观与科技基建的激烈博弈：伊朗危机推升美联储加息预期，美债收益率逼近高位；AI算力自主化加速，Z.ai启用纯国产芯片的1GW数据中心；英伟达发布Vera CPU全面进军数据中心处理器市场；Intel通过裁员重组数据中心业务获市场认可；特斯拉Q2营收反弹但利润承压。",
+    "focus": [
+      "宏观利率、AI算力自主、芯片竞争、企业重组",
+      "地缘政治风险直接转化为通胀与货币政策压力，打破了此前的降息或按兵不动叙事，是近期资本市场最核心的宏观变量。",
+      "在高端AI芯片出口管制背景下，中国头部AI公司通过大规模国产替代验证了非Nvidia生态的可行性，对全球AI算力供应链格局产生深远影响。"
+    ],
+    "items": [
+      {
+        "title": "美联储加息预期因伊朗危机加剧而上升",
+        "region": "美国/全球",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "随着伊朗危机加剧导致油价持续上涨，美国国债收益率逼近2月冲突爆发以来的最高水平，市场对美联储年内加息的预期显著升温，给牛市带来新的宏观压力。",
+        "why": "地缘政治风险直接转化为通胀与货币政策压力，打破了此前的降息或按兵不动叙事，是近期资本市场最核心的宏观变量。",
+        "watch": "关注后续原油价格走势及美联储官员对通胀反弹的紧急表态，评估科技股估值承压程度。"
+      },
+      {
+        "title": "Z.ai启用完全基于中国国产芯片的1GW AI数据中心",
+        "region": "中国",
+        "sources": [
+          "Tom's Hardware"
+        ],
+        "summary": "GLM开发商Z.ai（智谱）启动了多个万卡集群，其1GW级AI数据中心完全采用中国国产芯片，实现了零Nvidia硅片依赖，标志着中国AI算力自主化迈出实质性一步。",
+        "why": "在高端AI芯片出口管制背景下，中国头部AI公司通过大规模国产替代验证了非Nvidia生态的可行性，对全球AI算力供应链格局产生深远影响。",
+        "watch": "关注该数据中心的实际训练效率、能耗表现以及国产芯片良率爬坡情况，评估其对国内大模型迭代速度的支撑力。"
+      },
+      {
+        "title": "英伟达发布Vera AI CPU，全面进军数据中心处理器市场",
+        "region": "美国/全球",
+        "sources": [
+          "International Business Times"
+        ],
+        "summary": "英伟达正式推出Vera AI CPU，直接瞄准AMD和Intel在数据中心的主导地位，试图将其在GPU领域的垄断优势扩展到通用计算和服务器CPU领域。",
+        "why": "英伟达从AI加速卡向全栈数据中心芯片扩张，将直接冲击传统CPU巨头的核心腹地，可能重塑云计算和AI基础设施的硬件采购格局。",
+        "watch": "关注云服务商对Vera CPU的测试与采购意愿，以及AMD和Intel的防御性产品路线图更新。"
+      },
+      {
+        "title": "Intel确认进一步裁减数据中心部门员工，股价大涨8.6%",
+        "region": "美国",
+        "sources": [
+          "TradingView",
+          "Calcalistech"
+        ],
+        "summary": "Intel宣布在其快速增长的数据中心业务部门进行新一轮裁员，市场将其解读为管理层坚定推进降本增效和重组的信号，推动股价单日大幅上涨8.6%。",
+        "why": "在AI基建热潮中，传统芯片巨头面临巨大的资本开支压力，Intel通过激进裁员换取利润空间，反映了半导体行业在AI转型期的残酷洗牌与资本市场的现实偏好。",
+        "watch": "关注裁员对Intel数据中心产品交付周期的影响，以及其18A制程客户验证是否会因内部重组而受到干扰。"
+      },
+      {
+        "title": "特斯拉Q2财报：营收反弹但利润依然疲软",
+        "region": "美国/全球",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "特斯拉发布2026年Q2财报，在经历两年的需求疲软后营收出现反弹，但利润率依然承压。分析指出，马斯克的政治活动对品牌形象的损害仍在影响高端车型的销售与溢价能力。",
+        "why": "作为全球电动车和科技制造的风向标，特斯拉的“增收不增利”反映了行业价格战的余波以及创始人IP反噬对消费科技品牌的实质性财务影响。",
+        "watch": "关注特斯拉FSD订阅收入的增长能否弥补硬件利润率的下滑，以及下半年新车型的定价策略。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/the-bull-market-faces-higher-likelihood-of-a-fed-rate-hike-as-iran-crisis-intensifies-58f268e8?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRDNCTFMwQzB6VjdfRHB1TUhneXF0dFROTkJvWXN4ei15ZW0xdFBQVHd1UnFiWHRvVzZEOEVBU3lCRE84UXVlamFmNFU2MXY1OGVPZFhXRU56V28tcUJjZERqVzA5SFlVMGdkZGlGeHJxLXZaVHY5aVh2TzRNOS1MMkFmS1diZ291cTlTajhPbmtNdmozYXB3NzZRR2Y0Ujl4OTA2Yk8wZnJiaDZHeU4xNFppQUlzUkxRWFZHX2lIRU5yY3B1S3kxVTBCSTg?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLTVfZGs2dl9uUU5KOTFsWG9KTlk3cWo5RldOdmdCNHFWaENaa0g0RDhSMnQ2U1NiNzlQSDh1R2k2ckY5NlgtR1FMVmd0N3hDVzlPZVpMbENleW9peTVINVF0bzRENTdBMnI5S3Yyc1hzcnpQSW9PNWxvSEFOOWhlcndYalBTM19HMHZBLTBjdFA1U2U1YUp1eWVOUk5ZaERs?oc=5",
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWmwxZ2xfSkxBRzg3NlY4OTVwQXNpVi1rakJvakNpODBqaEJlM3A3SHN0SmJhcWtaSjUtQVRnUTJSM0l6dGNzREJqQjlmLXBLbFhnWHhqamp2dHo1VTZHUHl6VC10V1NtdEJFeW5aa0JjVHU5amFQd19ZWm1PWE5fR2FfSGFrSXF2QzhsYzBhaFJQLTZGWjVHTkZ5blI3bmc2ZkQ4QVE0MlVjY2xnb253alUzbF9vTVZIMlE?oc=5",
+      "https://www.theverge.com/transportation/969311/tesla-q2-2026-earnings-revenue-profit-sales"
+    ]
+  },
+  {
     "date": "2026-07-22",
     "displayDate": "2026年7月22日",
     "scope": "全球新闻｜科技与财经优先",
