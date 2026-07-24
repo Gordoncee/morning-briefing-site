@@ -4,85 +4,75 @@ window.MORNING_BRIEFINGS = [
     "displayDate": "2026年7月24日",
     "scope": "全球新闻｜科技与财经优先",
     "image": "assets/morning-briefing-2026-07-24.png",
-    "summary": "今日简报聚焦Intel财报超预期与AI芯片需求、美股科技股抛售与油价破百、高通斩获超大规模云厂商AI芯片订单、诺基亚受AI数据中心需求提振，以及科技巨头AI资本开支引发的现金流担忧。",
+    "summary": "本期只纳入4条，原因是避免把近7天已经覆盖的AI算力交易、Alphabet/Tesla财报开支、OpenAI企业代理和Hugging Face安全事件继续改写凑数。今日保留的新进展包括：Intel二季度收入创15年来最快增长并上调AI相关资本开支预期，欧盟依据DMA对Google处以8.9亿欧元罚款，Wistron在德州投产Nvidia GB300/Vera Rubin AI系统制造工厂，OpenAI把ChatGPT Health向美国成年用户全面开放。",
     "focus": [
-      "芯片财报",
-      "宏观与资本市场",
-      "AI基础设施"
+      "AI基础设施正在同时进入财报兑现和供应链本土化阶段，Intel收入反弹与Wistron德州工厂都把算力需求转化为更具体的产能、资本开支和制造节点。",
+      "平台监管从原则性调查进入罚款和整改期限，欧盟对Google的DMA处罚会影响搜索展示、应用商店抽佣和欧美数字贸易谈判。",
+      "消费级AI产品继续触碰高敏数据场景，ChatGPT Health的全面开放会把医疗记录、可穿戴数据、隐私承诺和医疗责任放到同一个竞争面上。"
     ],
     "items": [
       {
-        "title": "Intel财报大幅超预期，AI芯片需求推动股价跳涨",
-        "region": "美国",
+        "title": "Intel二季度收入增至161亿美元，AI服务器CPU需求推动15年来最快增长",
+        "region": "美国/半导体与AI数据中心",
         "sources": [
-          "Reuters"
+          "Intel",
+          "Wall Street Journal",
+          "MarketWatch"
         ],
-        "summary": "Intel发布最新财报，业绩指引大幅超越华尔街预期。AI热潮带来的芯片需求成为核心驱动力，推动公司股价在盘后大幅跳涨，显示其代工与数据中心业务正迎来实质性拐点。",
-        "why": "Intel此前因制程和AI落后承压，此次财报超预期是验证其AI芯片战略与代工业务复苏的关键信号。",
-        "watch": "关注Intel后续在AI数据中心市场的实际份额增长，以及先进制程产能的良率爬坡情况。",
-        "sourceLinks": [
-          "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY1JRa3lMd0xIRC1RRGxjWWFMTmZqYmtPMnV1ZXlURS1KX0dQOFRRMXNhbDMwV0NieEhCYkc0QjNlVGlCSnE3OGYwZ1lUR1ZuTndhR2RBNVBxNnFnN043Z2NZM1BiemNBSUNvT3RRc1hSM0o5WjB0MTNkampodGcwSVFndUJwLWdaRXRHZHFKbzdNZFNNT245SHczYjdTX2NBVC0xNS1HcHc0Y1V6ZTFmQzMwcG1FR1NIUHVldlZn?oc=5"
-        ]
+        "summary": "Intel公布二季度收入161亿美元，同比增长25%，非GAAP每股收益0.42美元，并预计三季度收入158亿至168亿美元。财经媒体称数据中心与AI业务收入增长59%至63亿美元，服务器CPU、ASIC、先进封装和代工网络被管理层列为AI需求受益方向。",
+        "why": "近一周本站多次覆盖AI算力开支，但这次是Intel正式财报给出的收入、业务线和指引验证。它说明AI基础设施扩张不只利好Nvidia GPU，也在推高服务器CPU、封装和美国本土代工叙事的市场预期。",
+        "watch": "关注Intel是否把收入反弹转化为稳定毛利率，2026年资本开支是否超过200亿美元，以及14A制程、先进封装和外部代工客户能否按期落地。"
       },
       {
-        "title": "美股因科技股抛售加深而下跌，油价触及100美元关口",
-        "region": "全球",
+        "title": "欧盟首次对Google开出DMA重罚，搜索自我优待和Play反导流合计罚8.9亿欧元",
+        "region": "欧盟/美国/平台监管",
         "sources": [
-          "WSJ"
+          "European Commission",
+          "The Guardian",
+          "AP"
         ],
-        "summary": "美国股市遭遇重挫，科技板块抛售潮进一步加深，市场对AI资本开支回报率的担忧加剧。同时，国际油价突破每桶100美元，宏观通胀压力与科技股估值回调形成双重夹击。",
-        "why": "科技股回调与油价破百同时发生，标志着市场主线从单纯的AI狂热转向对通胀反弹和盈利兑现的重新定价。",
-        "watch": "盯紧大型科技股接下来的财报指引，以及高油价对美联储降息路径的潜在干扰。",
-        "sourceLinks": [
-          "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMEYtMzJOZ2tzUEUxdUFZQVBVeHhjQS1uVzNWQ3ZPcTdud2RYUjJ2dFNpMnctYVUtTjRLLVU2VWxQeXkwemFKZFFHcXQ0N1hrdkx0S1pWWDYxNFRIVXFpWGpBSHRVUjY2dVRrNUttWTdGWkhwN0pJQTNGNGRGN1FYcU9qV0lKTkhjNVFrdFlCWjRYdUZYSnZF?oc=5"
-        ]
+        "summary": "欧盟委员会7月23日宣布两项DMA不合规决定：Google在搜索中优先展示购物、酒店、交通和体育等自有服务，并限制Google Play开发者引导用户前往更便宜的外部购买渠道。罚款由搜索相关4.6亿欧元和Play反导流4.3亿欧元组成，Google被要求停止违规并预计上诉。",
+        "why": "这是对大型平台商业模式的实质性现金处罚，而不是规则解释。它会直接影响Google搜索结果展示、应用商店费用结构和开发者外部支付路径，也可能加剧欧美围绕数字监管和关税谈判的摩擦。",
+        "watch": "关注Google在60天整改期内如何修改搜索垂直结果和Play计费规则，欧盟是否继续追罚Apple、Meta和其他守门人，以及美国贸易代表是否把DMA执法纳入谈判筹码。"
       },
       {
-        "title": "高通与三大超大规模云厂商签署AI芯片协议",
-        "region": "美国",
+        "title": "Wistron德州7亿美元工厂投产Nvidia GB300，AI超级芯片组装测试开始向美国本土迁移",
+        "region": "美国/台湾/AI硬件供应链",
         "sources": [
-          "The Motley Fool"
+          "Nvidia",
+          "Wistron",
+          "Wall Street Journal"
         ],
-        "summary": "高通宣布与三家主要超大规模云服务商达成AI芯片合作协议。此举标志着高通正加速摆脱对智能手机市场的单一依赖，将其AI算力版图扩展至云端和数据中心基础设施。",
-        "why": "云厂商多元化芯片供应链的趋势加速，高通入局将直接改变AI推理和训练芯片的市场竞争格局。",
-        "watch": "观察高通定制AI芯片在云厂商实际工作负载中的能效表现，以及对英伟达和AMD市场份额的侵蚀程度。",
-        "sourceLinks": [
-          "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM0I0X3AtVDFVMnRUVjJ6UzJBa245OG92aDQ5ci01ZHBZQy1HU1BPY1N3a2ExOUJJdnMtMjF5V1lNT2NmQm1Yc0wwN0RUS1dRV284VkpoZjh3Nm1Sdm10aEl6SjlKcVNCenVsUnpNekNzTlctOUpaTl9yZkwxUGNBZWVsVEV5TzJQMkhaUmdsVWF0b2Jsa2ktUQ?oc=5"
-        ]
+        "summary": "Wistron在德州Fort Worth启用首座美国智能制造工厂，面积32.4万平方英尺，投资约7亿美元，已生产Nvidia GB300 Grace Blackwell Ultra，并计划生产Vera Rubin Superchip。Nvidia称该厂今年将扩产至每月数万块板卡，Wistron称这是其全球AI基础设施制造网络的关键节点。",
+        "why": "这条不是泛化的AI数据中心需求，而是供应链地理位置和制造能力的实质变化。Nvidia的先进AI系统从设计、晶圆、封装到系统组装测试正在形成美国本土链条，台湾ODM也把AI服务器产能从亚洲延伸到美国。",
+        "watch": "关注GB300/Vera Rubin量产爬坡、德州电力与冷却配套、Foxconn等伙伴的美国节点进度，以及美国本土制造成本是否传导到AI服务器价格。"
       },
       {
-        "title": "诺基亚二季度利润超预期，AI数据中心需求推动股价大涨",
-        "region": "欧洲",
+        "title": "OpenAI向美国用户开放ChatGPT Health，医疗记录和Apple Health数据进入通用对话入口",
+        "region": "美国/AI医疗与消费者数据",
         "sources": [
-          "TradingView"
+          "OpenAI",
+          "The Verge",
+          "TechCrunch"
         ],
-        "summary": "诺基亚公布第二季度财报，利润表现超出市场预期，股价单日大涨6.9%。公司明确指出，AI数据中心建设带来的网络设备和光通信需求激增是业绩超预期的主要原因。",
-        "why": "AI基建红利正从核心算力芯片向网络传输和通信设备等外围基础设施蔓延，诺基亚成为这一趋势的直接受益者。",
-        "watch": "关注全球超大规模数据中心在高速光模块和800G/1.6T网络设备上的资本开支增速。",
-        "sourceLinks": [
-          "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQ3k5MElKaWlEd0tnN3Z5S2diTUVlMGVHbkFUSjRfRHVGaERNbVBJaFBUYjRyTTFmN3hRVlhxR2VIUFpkam5TUlNfX0tERGVUbWFNdHZnZTRwVERjd2dkUDFod1hNMUo3T1dqUmhoZ0pWazBTQUpHbXVKWTR2bHMwdTZFeE1WcEdwLTYzVUpZeS1NU0tOMHlXTlU5UnVHQXB1Q0hrRzEtSUhxS2Z6cUUwS2VlZ0JGc2xUNTZCYUh0M2FuUl9yX1dOQ2Y5YTg?oc=5"
-        ]
-      },
-      {
-        "title": "科技巨头AI支出热潮引发现金流担忧",
-        "region": "美国",
-        "sources": [
-          "The Economic Times"
-        ],
-        "summary": "尽管AI业务开始产生早期回报，但美国大型科技公司持续膨胀的AI资本开支正引发市场对其自由现金流的严重担忧。投资者开始审视巨额投入与短期商业变现之间的错配风险。",
-        "why": "华尔街对AI投资的评估标准正从“不惜代价建算力”转向“现金流与ROI考核”，这可能引发科技板块估值逻辑的重塑。",
-        "watch": "留意各大科技巨头在后续财报中对AI资本开支峰值的预测，以及AI应用端收入能否覆盖折旧成本。",
-        "sourceLinks": [
-          "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOVlUyTFJtRGFCZ0lVMkdHS3Y2bFhTNjlSQmZ2ZkZBcm9RTEdlVFVreHREcG1HS2h3aHhScWpNRGdQeU05U1Y0WnR6S0FDVVBvamdjN2xaTXQza3UzaTZEZTJxQ1FyNVJRYnR2OG1zNGRaMThzVUlsTTJrNkhsVmk4OXZieGlzWWJFZWxoUnp2WnY2MEZZZ3lqVEEzUVRKMkwxZy03eGtxUWprTjFNNHlvLUVrX0JmeXJIQnM0S0ZOOU1aZnlMdmRpNkc3c0hVMU1PS3BGdjFBMkRmdnl1enUyMjJYanFZS1cwM3ljNm5uZmtPRlFpdmRYamdOc9IBgAJBVV95cUxOX3FKbG9ZVzdIUVpVX0FnNkQ5OTdUamdCeTNZck13bkJkM1NVY1lIMnVfOHdJWGN0a0NVRjE3cV9acmhxTGZDOWM3STFTcEJKRWFiLXpEeTQ4OGF2WTZuaTRQU0VDOGM1ZEE3N2NtQmhiTlhnZ3h1cHhMdzlhWHlUMHBoWGRfM1ZGYVV1Zzg0RW5jNGpsWXE2dFBodHdBQmN6UU9YaC16dDB3SVpIdndoa3BaLVNaQlMzbVpuaVhZN2tDR3lJelJpbi1fRWZWWS1UclZUYndScDlBRlNtS3o1cjFGdi03LTg0MmJ3VzdxRU9wS24yM09NenBVQkxpRDRx?oc=5"
-        ]
+        "summary": "OpenAI宣布Health in ChatGPT面向美国18岁以上登录用户开放，支持连接Apple Health、医疗记录、One Medical和Function Health等信息，并可在普通ChatGPT对话中经用户授权调用。OpenAI称每周有超过3亿人向ChatGPT提出健康相关问题，连接的健康数据不会用于训练基础模型或定向广告。",
+        "why": "尽管OpenAI近两天已出现企业代理新闻，但这次是不同产品线的正式上线，涉及医疗记录、可穿戴数据和个人健康建议等高敏场景。它把AI助手竞争从办公流转向消费者健康入口，也会放大隐私、医疗责任和监管审查。",
+        "watch": "关注OpenAI如何处理误导性医疗建议诉讼、Health是否需要HIPAA或州级隐私合规调整，以及Apple、Google、Epic和传统医疗门户是否开放或限制数据接口。"
       }
     ],
     "sourceLinks": [
-      "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY1JRa3lMd0xIRC1RRGxjWWFMTmZqYmtPMnV1ZXlURS1KX0dQOFRRMXNhbDMwV0NieEhCYkc0QjNlVGlCSnE3OGYwZ1lUR1ZuTndhR2RBNVBxNnFnN043Z2NZM1BiemNBSUNvT3RRc1hSM0o5WjB0MTNkampodGcwSVFndUJwLWdaRXRHZHFKbzdNZFNNT245SHczYjdTX2NBVC0xNS1HcHc0Y1V6ZTFmQzMwcG1FR1NIUHVldlZn?oc=5",
-      "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMEYtMzJOZ2tzUEUxdUFZQVBVeHhjQS1uVzNWQ3ZPcTdud2RYUjJ2dFNpMnctYVUtTjRLLVU2VWxQeXkwemFKZFFHcXQ0N1hrdkx0S1pWWDYxNFRIVXFpWGpBSHRVUjY2dVRrNUttWTdGWkhwN0pJQTNGNGRGN1FYcU9qV0lKTkhjNVFrdFlCWjRYdUZYSnZF?oc=5",
-      "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM0I0X3AtVDFVMnRUVjJ6UzJBa245OG92aDQ5ci01ZHBZQy1HU1BPY1N3a2ExOUJJdnMtMjF5V1lNT2NmQm1Yc0wwN0RUS1dRV284VkpoZjh3Nm1Sdm10aEl6SjlKcVNCenVsUnpNekNzTlctOUpaTl9yZkwxUGNBZWVsVEV5TzJQMkhaUmdsVWF0b2Jsa2ktUQ?oc=5",
-      "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQ3k5MElKaWlEd0tnN3Z5S2diTUVlMGVHbkFUSjRfRHVGaERNbVBJaFBUYjRyTTFmN3hRVlhxR2VIUFpkam5TUlNfX0tERGVUbWFNdHZnZTRwVERjd2dkUDFod1hNMUo3T1dqUmhoZ0pWazBTQUpHbXVKWTR2bHMwdTZFeE1WcEdwLTYzVUpZeS1NU0tOMHlXTlU5UnVHQXB1Q0hrRzEtSUhxS2Z6cUUwS2VlZ0JGc2xUNTZCYUh0M2FuUl9yX1dOQ2Y5YTg?oc=5",
-      "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOVlUyTFJtRGFCZ0lVMkdHS3Y2bFhTNjlSQmZ2ZkZBcm9RTEdlVFVreHREcG1HS2h3aHhScWpNRGdQeU05U1Y0WnR6S0FDVVBvamdjN2xaTXQza3UzaTZEZTJxQ1FyNVJRYnR2OG1zNGRaMThzVUlsTTJrNkhsVmk4OXZieGlzWWJFZWxoUnp2WnY2MEZZZ3lqVEEzUVRKMkwxZy03eGtxUWprTjFNNHlvLUVrX0JmeXJIQnM0S0ZOOU1aZnlMdmRpNkc3c0hVMU1PS3BGdjFBMkRmdnl1enUyMjJYanFZS1cwM3ljNm5uZmtPRlFpdmRYamdOc9IBgAJBVV95cUxOX3FKbG9ZVzdIUVpVX0FnNkQ5OTdUamdCeTNZck13bkJkM1NVY1lIMnVfOHdJWGN0a0NVRjE3cV9acmhxTGZDOWM3STFTcEJKRWFiLXpEeTQ4OGF2WTZuaTRQU0VDOGM1ZEE3N2NtQmhiTlhnZ3h1cHhMdzlhWHlUMHBoWGRfM1ZGYVV1Zzg0RW5jNGpsWXE2dFBodHdBQmN6UU9YaC16dDB3SVpIdndoa3BaLVNaQlMzbVpuaVhZN2tDR3lJelJpbi1fRWZWWS1UclZUYndScDlBRlNtS3o1cjFGdi03LTg0MmJ3VzdxRU9wS24yM09NenBVQkxpRDRx?oc=5"
+      "https://www.publicnow.com/view/DFD786CAC6455060E4C33C013A3EE7AB4AB38AF6",
+      "https://www.wsj.com/tech/intel-intc-q2-earnings-report-2026-stock-147a7794",
+      "https://www.marketwatch.com/livecoverage/intel-earnings-stock-results-q2/card/intel-s-revenue-sees-its-strongest-growth-in-15-years-Z5rb0n1GFY8KrgJFTEEK",
+      "https://digital-strategy.ec.europa.eu/en/news/commission-fines-google-eu890-million-breaches-digital-markets-act",
+      "https://www.theguardian.com/technology/2026/jul/23/eu-fines-google-for-competition-breaches-over-search-and-apps",
+      "https://apnews.com/article/199c77e09d3829ebfc3d9e51281a369a",
+      "https://blogs.nvidia.com/blog/wistron-manufacturing-texas/",
+      "https://www.wistron.com/en/Newsroom/2026-07-22",
+      "https://www.wsj.com/tech/nvidia-supplier-wistron-opens-700-million-texas-site-producing-ai-superchips-cc8cfb49",
+      "https://openai.com/index/health-in-chatgpt/",
+      "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims",
+      "https://tech.yahoo.com/ai/chatgpt/articles/openai-makes-chatgpt-health-available-170000413.html"
     ]
   },
   {
