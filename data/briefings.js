@@ -1,5 +1,87 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-25",
+    "displayDate": "2026年7月25日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-25.png",
+    "summary": "本日简报聚焦AI资本开支引发的市场重估与供应链定价权转移。科技股因AI支出失控担忧大幅回调，债券市场同步发出警告；Intel借AI数据中心需求录得15年最快增长，三星与SK海力士赴美斩获内存大单，高通预警涨价；Oracle大规模裁员凸显云基建成本错配，Meta智能眼镜商业化试探则遭遇隐私与监管反噬。",
+    "focus": [
+      "AI资本开支ROI审视、半导体供应链定价权、AI硬件监管边界",
+      "AI投资逻辑从“盲目扩张”转向“ROI审视”，是资本市场重大主线切换，直接影响科技巨头估值模型。",
+      "打破Intel长期低迷预期，证明其在AI算力供应链中仍能占据关键生态位，代工业务拐点显现。"
+    ],
+    "items": [
+      {
+        "title": "科技股蒸发8900亿美元，市场焦点转向失控的AI资本支出与债券警告",
+        "region": "全球",
+        "sources": [
+          "WSJ",
+          "BBC",
+          "The Tech Buzz"
+        ],
+        "summary": "大型科技公司因AI支出狂潮引发市场担忧，导致科技股大幅回调，债券市场也对巨额资本开支发出警告，投资者开始严格审视AI投资的短期回报。",
+        "why": "AI投资逻辑从“盲目扩张”转向“ROI审视”，是资本市场重大主线切换，直接影响科技巨头估值模型。",
+        "watch": "关注后续科技巨头财报中对AI资本开支指引的调整，以及长期国债收益率对科技股估值的压制效应。"
+      },
+      {
+        "title": "Intel录得15年来最快营收增长，AI数据中心芯片需求成为转型关键引擎",
+        "region": "美国",
+        "sources": [
+          "Financial Times",
+          "Advisor Perspectives"
+        ],
+        "summary": "Intel最新财报显示其迎来15年来最快增长，主要受AI数据中心对定制芯片和代工需求的强劲拉动，先进制程与代工业务迎来实质性验证。",
+        "why": "打破Intel长期低迷预期，证明其在AI算力供应链中仍能占据关键生态位，代工业务拐点显现。",
+        "watch": "跟踪Intel 18A制程的客户导入进度，以及其在AI推理芯片市场的份额争夺情况。"
+      },
+      {
+        "title": "三星与SK海力士拟宣布与美国科技巨头签署重大内存芯片协议，高通同步预警涨价",
+        "region": "亚洲/美国",
+        "sources": [
+          "qz.com",
+          "The Verge"
+        ],
+        "summary": "韩国两大内存巨头即将与美国科技公司敲定大额HBM及内存订单；同时高通警告其芯片将实施两位数百分比涨价，供应链定价权正在重塑。",
+        "why": "AI算力需求继续向上游存储和基础芯片传导，核心零部件供应商的议价能力显著提升，可能推高终端硬件成本。",
+        "watch": "关注HBM产能分配对AI服务器交付周期的影响，以及高通涨价对智能手机和IoT终端利润率的挤压。"
+      },
+      {
+        "title": "Oracle宣布裁员2.1万人，AI云基础设施扩张赌注遭遇短期需求与成本错配",
+        "region": "美国",
+        "sources": [
+          "The Jerusalem Post",
+          "WSJ"
+        ],
+        "summary": "Oracle在激进扩张AI云基础设施后，宣布大规模裁员以重组业务，反映出传统IT巨头在AI转型中面临的成本压力与需求落地阵痛。",
+        "why": "凸显云厂商在AI基建投入与实际企业级AI需求落地之间的错配，AI云服务的商业化变现仍需时间。",
+        "watch": "观察企业级AI应用的实际采用率，以及云厂商是否会因此放缓后续数据中心的资本开支节奏。"
+      },
+      {
+        "title": "Meta暂停智能眼镜功能“限速”收费计划，硬件隐私与内容审核引发监管反噬",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "Meta在遭遇强烈公众反弹后，暂停了对智能眼镜本地音频增强功能收取订阅费的计划，同时该设备正面临严重的隐私与内容审核挑战。",
+        "why": "AI硬件入口的商业化试探触及用户底线，隐私与监管成为下一代计算平台普及的核心阻力。",
+        "watch": "关注各国监管机构对可穿戴AI设备数据采集的立法动向，以及Meta如何平衡硬件补贴与软件订阅的商业模式。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ0R3TXE1dGdJMWRCNkZQMFNPR2JnLUI5UVluSzlzeGE3SHhURVNiMWtvaDFvZ1ROTkd1U1NZRjNKbjZ0eWk1ajFSa2IyZHl6Q2ZVMU5WSVlDaXB4bXVjV3k0VGg4UjZ3VU11c190ZFUwR3VUU2tsOWN2YTR4bkZrdXlwS3hRMTRjVG1TUl96ZHVicEFhWXpaN19DLU9iYlBSSFB2aUplc3RkeFJoOEN3dQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QVzVZQlgwd2o3MkNkSlZlVkVmVmFJU21GTTJOR1g4V3Bwb19TVEZiRUNGc3d5T0g4WkljemsybW5ma3dndEVULTJFZHp4VXFEZUdVdmo4b29VQQ?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPblJmVlM5c1RYWjBLVUpoa0Ewc3AwQXlpTkd5MWlsWjN6NFVuMFpmWWNqNS1kZXZXSlRzNE5mLW9ZODc5bHloenloWHlza1lXRE54T001Vno5ZzRKVHF2eTA4aXlITEFYLUYyaklTTU1BalByZ2w4ekJLTVcxQzJwWGZ5eVQ2X3duaTZoV0JtM3J5TEtHOVE?oc=5",
+      "https://news.google.com/rss/articles/CBMihAFBVX3lxTE41SndhX29yOFVDenUyLWVLSUQ5bWNFZk5yYkhnelRSRVFsV1c3d2h3ZW1kVlNVa1VXbEhiWmZfNEJMbFpYc3lFREFJVTlnVmhGdWNfVmpCZXZ1NkpTaVc5UkFVSVQ3UHpFOFpPWDNmZTdjU004amxkcDBTNHlnSjFHRmlrRzI?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRXZGa3Y1TXlmS3RDODg4R3ZLR1FuUEYwMkl4UlBhMzdkZjVDVHFSRjMwV3diZHpTSnV2Qy1iN09MMHJrWDM2eVNFSHM5Zi1EU0l3OW5aV1llVW55YmUyMG1qMnFiLUpZUks3Zk5PeUFNZjB2N0R3MTQ5SVF5OWpOMW9JWElvQkdSVE81RU1VQnFjV3RwUWtCM09UMEY4Y2lIcWxHX3BPNl9FcWNZUmc?oc=5",
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTE04QnFaVFRfM3pLTFpZU1BFRGZfb3o4OGk4ZlBkWEtJci1WMWRoYkRjUDNFZW5jRUJ4Um9VY0JIdXNHSFcxdU0yalpBeE9FRUlFYUpEUXlhTW5EQVpJdDhBR0x2YlptX25xVnowQ21kdjJxc0Vtd3ZiaXEtcw?oc=5",
+      "https://www.theverge.com/gadgets/970910/qualcomm-raising-prices-bloomberg",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVnNxMjFJeHUyM3hUZWttY2xvMm0yeDc5bl9XLXU4T3ZmeGI1M2tMUDIwcC1SaUFlQ2lCMGdJbHBDUFo0VWREdlQwcDRXRDFob1pfdDNueFVKTEI0S09pTnZVY25oOTFXMXZkRkU3NzlZSktRZDl0UDlpNU4xc3B6dVJEY2xZZw?oc=5",
+      "https://news.google.com/rss/articles/CBMiiAFBVX3lxTE41SndhX29yOFVDenUyLWVLSUQ5bWNFZk5yYkhnelRSRVFsV1c3d2h3ZW1kVlNVa1VXbEhiWmZfNEJMbFpYc3lFREFJVTlnVmhGdWNfVmpCZXZ1NkpTaVc5UkFVSVQ3UHpFOFpPWDNmZTdjU004amxkcDBTNHlnSjFHRmlrRzI?oc=5",
+      "https://www.theverge.com/tech/970970/after-backlash-meta-pauses-plan-to-rate-limit-its-smart-glasses",
+      "https://www.theverge.com/report/970901/instagram-meta-glasses-prank-harassment-ban"
+    ]
+  },
+  {
     "date": "2026-07-24",
     "displayDate": "2026年7月24日",
     "scope": "全球新闻｜科技与财经优先",
