@@ -4,81 +4,90 @@ window.MORNING_BRIEFINGS = [
     "displayDate": "2026年7月25日",
     "scope": "全球新闻｜科技与财经优先",
     "image": "assets/morning-briefing-2026-07-25.png",
-    "summary": "本日简报聚焦AI资本开支引发的市场重估与供应链定价权转移。科技股因AI支出失控担忧大幅回调，债券市场同步发出警告；Intel借AI数据中心需求录得15年最快增长，三星与SK海力士赴美斩获内存大单，高通预警涨价；Oracle大规模裁员凸显云基建成本错配，Meta智能眼镜商业化试探则遭遇隐私与监管反噬。",
+    "summary": "本期纳入5条，均为7月24日至25日出现官方发布、监管/政策文件、合同披露或资本市场交易节点的新科技财经事件：Anthropic发布Claude Opus 5并主打长时自主任务，APEC部长级会议通过成都人工智能声明，中国存储芯片公司CXMT据报推进大型IPO，Oracle获得五角大楼近70亿美元软件合同，美国两党议员在Hugging Face事件后提出前沿AI kill switch法案。为避免重复，未继续纳入泛化AI资本开支信用风险、Alphabet/Tesla/Intel财报二次解读、OpenAI Health后续和短线科技股波动。",
     "focus": [
-      "AI资本开支ROI审视、半导体供应链定价权、AI硬件监管边界",
-      "AI投资逻辑从“盲目扩张”转向“ROI审视”，是资本市场重大主线切换，直接影响科技巨头估值模型。",
-      "打破Intel长期低迷预期，证明其在AI算力供应链中仍能占据关键生态位，代工业务拐点显现。"
+      "AI竞争的重点继续从单次模型发布转向可治理的长期代理能力，Anthropic新模型和美国kill switch法案都在回应同一个问题：强模型进入生产系统后如何被持续约束。",
+      "AI技术主权正在同时出现在多边规则和资本市场中，APEC成都声明强调开放与安全并行，CXMT上市则把中国半导体自主化推进到融资与产能扩张阶段。",
+      "政府科技采购仍是云和企业软件公司的关键增长支点，Oracle的大额国防合同显示AI、数据库、云与国防IT预算正在更紧密绑定。"
     ],
     "items": [
       {
-        "title": "科技股蒸发8900亿美元，市场焦点转向失控的AI资本支出与债券警告",
-        "region": "全球",
+        "title": "Anthropic发布Claude Opus 5，强调可连续数小时自主执行复杂软件任务",
+        "region": "美国/AI模型与企业软件",
         "sources": [
-          "WSJ",
-          "BBC",
-          "The Tech Buzz"
+          "Anthropic",
+          "The Verge",
+          "Axios"
         ],
-        "summary": "大型科技公司因AI支出狂潮引发市场担忧，导致科技股大幅回调，债券市场也对巨额资本开支发出警告，投资者开始严格审视AI投资的短期回报。",
-        "why": "AI投资逻辑从“盲目扩张”转向“ROI审视”，是资本市场重大主线切换，直接影响科技巨头估值模型。",
-        "watch": "关注后续科技巨头财报中对AI资本开支指引的调整，以及长期国债收益率对科技股估值的压制效应。"
+        "summary": "Anthropic发布Claude Opus 5，并称其在编程、工具调用和长期任务执行上明显提升，能够在需要多步骤规划、代码修改和结果校验的场景中连续工作数小时。科技媒体跟进称，Anthropic正把高端模型定位为企业级代理和开发者工作流入口。",
+        "why": "近7天本站已覆盖OpenAI企业代理和AI算力交易，但这次是Anthropic正式模型发布，新增事实在模型能力、定价和产品定位。它将直接影响企业在Claude、OpenAI、Gemini和开源模型之间的代理部署选择。",
+        "watch": "关注Opus 5在真实代码库、客服、研究和合规场景中的失败率，Anthropic是否调整企业定价，以及云合作伙伴能否提供足够推理容量。"
       },
       {
-        "title": "Intel录得15年来最快营收增长，AI数据中心芯片需求成为转型关键引擎",
-        "region": "美国",
+        "title": "APEC成都声明支持开放AI模型，但要求同步建立安全保障和国际互认机制",
+        "region": "亚太/AI治理与数字贸易",
         "sources": [
-          "Financial Times",
-          "Advisor Perspectives"
+          "APEC",
+          "CNBC",
+          "Xinhua"
         ],
-        "summary": "Intel最新财报显示其迎来15年来最快增长，主要受AI数据中心对定制芯片和代工需求的强劲拉动，先进制程与代工业务迎来实质性验证。",
-        "why": "打破Intel长期低迷预期，证明其在AI算力供应链中仍能占据关键生态位，代工业务拐点显现。",
-        "watch": "跟踪Intel 18A制程的客户导入进度，以及其在AI推理芯片市场的份额争夺情况。"
+        "summary": "APEC贸易部长在成都通过人工智能相关声明，强调以开放、包容方式推动AI发展，同时要求加强安全、隐私、透明度、可追责和跨境互操作安排。财经媒体称，美国等经济体在会中支持开放模型生态，但强调必须配套强安全保障。",
+        "why": "7月22日本站覆盖中国研究AI模型与芯片出口管制；这次是多边机制的正式政策文本，新增的是亚太经济体对开放模型、贸易规则和安全底线的共同表述。它可能影响AI模型跨境服务、开源权重分发和企业合规框架。",
+        "watch": "关注APEC成员是否把声明转化为具体互认标准，开放模型是否被纳入贸易便利化议程，以及中美在模型出口、云服务和安全评测上的执行差异。"
       },
       {
-        "title": "三星与SK海力士拟宣布与美国科技巨头签署重大内存芯片协议，高通同步预警涨价",
-        "region": "亚洲/美国",
+        "title": "中国存储芯片厂商CXMT据报推进大型IPO，国产DRAM扩产进入资本市场融资阶段",
+        "region": "中国/半导体与资本市场",
         "sources": [
-          "qz.com",
-          "The Verge"
+          "Reuters",
+          "CNBC",
+          "TrendForce"
         ],
-        "summary": "韩国两大内存巨头即将与美国科技公司敲定大额HBM及内存订单；同时高通警告其芯片将实施两位数百分比涨价，供应链定价权正在重塑。",
-        "why": "AI算力需求继续向上游存储和基础芯片传导，核心零部件供应商的议价能力显著提升，可能推高终端硬件成本。",
-        "watch": "关注HBM产能分配对AI服务器交付周期的影响，以及高通涨价对智能手机和IoT终端利润率的挤压。"
+        "summary": "多家财经媒体报道，长鑫存储正推进上市计划，市场关注其可能成为中国半导体领域近年最大规模IPO之一。CXMT被视为中国DRAM自主化的核心厂商，研究机构此前称其产能扩张和DDR5/LPDDR产品进展正改变全球存储芯片竞争格局。",
+        "why": "过去一周简报多次覆盖AI芯片和数据中心，但这条聚焦存储芯片融资与产能扩张，不是同一条GPU算力主线。若IPO落地，CXMT将获得更大资本支撑，也会让美国出口限制、全球DRAM价格和中国半导体估值重新定价。",
+        "watch": "关注上市地点、募资规模、制程与良率披露、是否触发新的美国限制，以及三星、SK海力士、美光在DDR5和HBM供给上的价格反应。"
       },
       {
-        "title": "Oracle宣布裁员2.1万人，AI云基础设施扩张赌注遭遇短期需求与成本错配",
-        "region": "美国",
+        "title": "Oracle获得五角大楼近70亿美元软件合同，国防IT采购继续向大型云和数据库厂商集中",
+        "region": "美国/云计算、数据库与国防采购",
         "sources": [
-          "The Jerusalem Post",
-          "WSJ"
+          "Department of Defense",
+          "Oracle",
+          "Reuters"
         ],
-        "summary": "Oracle在激进扩张AI云基础设施后，宣布大规模裁员以重组业务，反映出传统IT巨头在AI转型中面临的成本压力与需求落地阵痛。",
-        "why": "凸显云厂商在AI基建投入与实际企业级AI需求落地之间的错配，AI云服务的商业化变现仍需时间。",
-        "watch": "观察企业级AI应用的实际采用率，以及云厂商是否会因此放缓后续数据中心的资本开支节奏。"
+        "summary": "美国国防部披露向Oracle授予接近70亿美元的软件许可和支持合同，合同覆盖企业级软件、数据库和相关服务。Oracle也发布公告称，该安排将支持国防部任务系统和现代化IT需求，市场把它视为政府云与企业软件收入的重要增量。",
+        "why": "这不是泛化AI基建新闻，而是有明确金额、客户和采购主体的合同落地。国防部采购会强化Oracle在数据库、云基础设施和政府任务系统中的地位，也为AI工作负载和数据治理提供更稳固的预算入口。",
+        "watch": "关注合同执行周期、是否带动Oracle Cloud Infrastructure新增国防工作负载，以及AWS、Microsoft和Google在后续国防云采购中的竞争反应。"
       },
       {
-        "title": "Meta暂停智能眼镜功能“限速”收费计划，硬件隐私与内容审核引发监管反噬",
-        "region": "美国",
+        "title": "美国议员提出前沿AI kill switch法案，Hugging Face事件推动模型停机权进入立法文本",
+        "region": "美国/AI安全监管",
         "sources": [
-          "The Verge"
+          "Reuters",
+          "Roll Call",
+          "Business Insider"
         ],
-        "summary": "Meta在遭遇强烈公众反弹后，暂停了对智能眼镜本地音频增强功能收取订阅费的计划，同时该设备正面临严重的隐私与内容审核挑战。",
-        "why": "AI硬件入口的商业化试探触及用户底线，隐私与监管成为下一代计算平台普及的核心阻力。",
-        "watch": "关注各国监管机构对可穿戴AI设备数据采集的立法动向，以及Meta如何平衡硬件补贴与软件订阅的商业模式。"
+        "summary": "在OpenAI与Hugging Face安全事件后，美国两党议员提出法案，要求最先进AI模型必须具备可由授权机构或开发者触发的紧急停机能力，并配套测试、报告和审计要求。报道称，法案目标是避免自主代理系统在网络安全、关键基础设施或金融场景中造成不可控损害。",
+        "why": "7月22日本站已覆盖Hugging Face事故本身；这次新增的是立法回应，属于同一事件的实质性政策进展。它会把模型安全从企业自律推进到可执行的监管义务，并可能改变前沿模型部署、红队测试和云托管架构。",
+        "watch": "关注法案是否进入听证和委员会审议，kill switch由谁触发、适用哪些模型门槛，以及开源权重模型和海外模型服务是否被纳入管辖。"
       }
     ],
     "sourceLinks": [
-      "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ0R3TXE1dGdJMWRCNkZQMFNPR2JnLUI5UVluSzlzeGE3SHhURVNiMWtvaDFvZ1ROTkd1U1NZRjNKbjZ0eWk1ajFSa2IyZHl6Q2ZVMU5WSVlDaXB4bXVjV3k0VGg4UjZ3VU11c190ZFUwR3VUU2tsOWN2YTR4bkZrdXlwS3hRMTRjVG1TUl96ZHVicEFhWXpaN19DLU9iYlBSSFB2aUplc3RkeFJoOEN3dQ?oc=5",
-      "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QVzVZQlgwd2o3MkNkSlZlVkVmVmFJU21GTTJOR1g4V3Bwb19TVEZiRUNGc3d5T0g4WkljemsybW5ma3dndEVULTJFZHp4VXFEZUdVdmo4b29VQQ?oc=5",
-      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPblJmVlM5c1RYWjBLVUpoa0Ewc3AwQXlpTkd5MWlsWjN6NFVuMFpmWWNqNS1kZXZXSlRzNE5mLW9ZODc5bHloenloWHlza1lXRE54T001Vno5ZzRKVHF2eTA4aXlITEFYLUYyaklTTU1BalByZ2w4ekJLTVcxQzJwWGZ5eVQ2X3duaTZoV0JtM3J5TEtHOVE?oc=5",
-      "https://news.google.com/rss/articles/CBMihAFBVX3lxTE41SndhX29yOFVDenUyLWVLSUQ5bWNFZk5yYkhnelRSRVFsV1c3d2h3ZW1kVlNVa1VXbEhiWmZfNEJMbFpYc3lFREFJVTlnVmhGdWNfVmpCZXZ1NkpTaVc5UkFVSVQ3UHpFOFpPWDNmZTdjU004amxkcDBTNHlnSjFHRmlrRzI?oc=5",
-      "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRXZGa3Y1TXlmS3RDODg4R3ZLR1FuUEYwMkl4UlBhMzdkZjVDVHFSRjMwV3diZHpTSnV2Qy1iN09MMHJrWDM2eVNFSHM5Zi1EU0l3OW5aV1llVW55YmUyMG1qMnFiLUpZUks3Zk5PeUFNZjB2N0R3MTQ5SVF5OWpOMW9JWElvQkdSVE81RU1VQnFjV3RwUWtCM09UMEY4Y2lIcWxHX3BPNl9FcWNZUmc?oc=5",
-      "https://news.google.com/rss/articles/CBMie0FVX3lxTE04QnFaVFRfM3pLTFpZU1BFRGZfb3o4OGk4ZlBkWEtJci1WMWRoYkRjUDNFZW5jRUJ4Um9VY0JIdXNHSFcxdU0yalpBeE9FRUlFYUpEUXlhTW5EQVpJdDhBR0x2YlptX25xVnowQ21kdjJxc0Vtd3ZiaXEtcw?oc=5",
-      "https://www.theverge.com/gadgets/970910/qualcomm-raising-prices-bloomberg",
-      "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVnNxMjFJeHUyM3hUZWttY2xvMm0yeDc5bl9XLXU4T3ZmeGI1M2tMUDIwcC1SaUFlQ2lCMGdJbHBDUFo0VWREdlQwcDRXRDFob1pfdDNueFVKTEI0S09pTnZVY25oOTFXMXZkRkU3NzlZSktRZDl0UDlpNU4xc3B6dVJEY2xZZw?oc=5",
-      "https://news.google.com/rss/articles/CBMiiAFBVX3lxTE41SndhX29yOFVDenUyLWVLSUQ5bWNFZk5yYkhnelRSRVFsV1c3d2h3ZW1kVlNVa1VXbEhiWmZfNEJMbFpYc3lFREFJVTlnVmhGdWNfVmpCZXZ1NkpTaVc5UkFVSVQ3UHpFOFpPWDNmZTdjU004amxkcDBTNHlnSjFHRmlrRzI?oc=5",
-      "https://www.theverge.com/tech/970970/after-backlash-meta-pauses-plan-to-rate-limit-its-smart-glasses",
-      "https://www.theverge.com/report/970901/instagram-meta-glasses-prank-harassment-ban"
+      "https://www.anthropic.com/news/claude-opus-5",
+      "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
+      "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5",
+      "https://www.apec.org/meeting-papers/sectoral-ministerial-meetings/telecommunicationsandinformation/2026-apec-digital-and-ai-ministerial-statement",
+      "https://www.cnbc.com/2026/07/24/us-other-nations-back-open-source-ai-with-strong-security-at-china-summit.html",
+      "https://en.people.cn/n3/2026/0724/c90000-20481215.html",
+      "https://www.reuters.com/technology/china-memory-chipmaker-cxmt-readies-blockbuster-ipo-cash-drain-rivals-2026-07-24/",
+      "https://www.cnbc.com/2026/07/24/chinas-largest-memory-chipmaker-readies-blockbuster-ipo-as-cash-drain-on-rivals.html",
+      "https://www.trendforce.com/news/",
+      "https://primarynewssource.org/sourcedocument/dow-awards-a-nearly-7-billion-oracle-agreement-to-accelerate-the-arsenal-of-freedom/",
+      "https://www.foxbusiness.com/politics/department-war-taps-oracle-software-deal-worth-nearly-7b.amp",
+      "https://www.reuters.com/technology/oracle-wins-nearly-7-billion-pentagon-software-contract-2026-07-24/",
+      "https://www.ndtv.com/world-news/ai-kill-switch-bill-floated-by-us-house-lawmakers-8957607",
+      "https://www.businessinsider.com/ai-kill-switch-bill-openai-hack-2026-7",
+      "https://oecd.ai/en/incidents/2026-07-23-4c2d"
     ]
   },
   {
