@@ -1,5 +1,86 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-26",
+    "displayDate": "2026年7月26日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-26.png",
+    "summary": "本期只纳入4条，原因是周末可核验的新科技财经事件有限，且为避免重复最近7天已经覆盖的OpenAI/Hugging Face安全事件、AI资本开支波动、中国开源模型竞争和短线科技股回调。今日保留的新进展包括：美国科技公司扩大开放权重AI政策联署，白宫把AI数据中心电费保护承诺扩展到州长、公共事业公司和开发商，Samsung与Google把Gemini带入折叠屏、手表和智能眼镜产品线，Anthropic图书版权案15亿美元和解获法院批准。",
+    "focus": [
+      "AI治理的争论正在分化为两条线：一边是前沿模型停机权和安全事故追责，另一边是开放权重模型是否应被限制，产业公司正在公开站队。",
+      "AI基础设施的关键约束从芯片继续外溢到电网、电价和地方许可，美国联邦、州政府、公共事业公司和开发商开始重新划分谁为新增负荷买单。",
+      "AI商业化继续进入消费硬件和版权成本两端：Samsung/Google推动可穿戴入口，Anthropic和解则给训练数据合规成本提供了可量化参照。"
+    ],
+    "items": [
+      {
+        "title": "Microsoft、Meta、Nvidia、OpenAI等联署支持开放权重AI，反对华盛顿一刀切限制",
+        "region": "美国/AI政策与开源生态",
+        "sources": [
+          "Open Weights Letter",
+          "Bloomberg Law",
+          "Business Insider",
+          "Barron's"
+        ],
+        "summary": "题为《Open Weights and American AI Leadership》的公开信在7月24日发布后继续扩大签署阵容，Microsoft、Meta、Nvidia、Palantir、Hugging Face、Linux Foundation、Mozilla、Mistral、OpenAI等公司和机构支持美国继续发展可下载、可自托管的开放权重模型。报道将其置于美国是否限制中国开放模型、以及OpenAI/Hugging Face事件后AI安全监管升温的背景下。",
+        "why": "近几天本站已覆盖APEC开放AI声明和美国kill switch法案；这次新增的是美国AI产业链公开对监管方向表态，且签署者横跨芯片、云、模型、网络安全和开发者平台。它会影响美国对开放模型、蒸馏、出口限制和企业自托管AI的政策边界。",
+        "watch": "关注白宫、商务部和国会是否把开放权重模型与中国模型禁令区分处理，Anthropic和Google是否继续缺席，以及企业客户是否把开放模型作为对冲闭源模型风险的采购要求。"
+      },
+      {
+        "title": "白宫扩大AI数据中心电费保护承诺，称签署方覆盖美国80%供电与2.63亿人口",
+        "region": "美国/AI基础设施、电网与公共事业",
+        "sources": [
+          "White House",
+          "AP",
+          "Tom's Hardware"
+        ],
+        "summary": "白宫7月23日宣布扩大Ratepayer Protection Pledge，把州长、公共事业公司、合作电力机构和数据中心开发商纳入承诺，要求大型数据中心运营方为新增发电、输电和电网升级付费，而不是把成本转嫁给普通家庭和企业。AP称该议题已成为AI数据中心扩张引发的选前争议焦点，部分州和地方已经推进限建或成本转嫁规则。",
+        "why": "这不是单个数据中心项目，而是AI基础设施扩张的成本分摊机制进入联邦政治和州级监管。算力需求越大，电价、并网、备用电源和地方许可越会成为AI公司真实的经营约束。",
+        "watch": "关注该承诺是否从自愿安排转为州监管或联邦立法要求，PJM等电网运营商的并网规则如何调整，以及Google、Amazon、Microsoft、OpenAI、Oracle、xAI等签署方是否披露实际电力采购和电网升级成本。"
+      },
+      {
+        "title": "Samsung发布Z Fold8系列并展示Gemini智能眼镜，Google把AI代理入口推进可穿戴设备",
+        "region": "韩国/美国/消费电子与AI硬件",
+        "sources": [
+          "Samsung",
+          "Google",
+          "TechRadar",
+          "Android Central"
+        ],
+        "summary": "Samsung在伦敦Galaxy Unpacked发布Z Fold8 Ultra、Z Fold8、Z Flip8等折叠屏新品，并展示与Google、Gentle Monster、Warby Parker合作的智能眼镜。Google称Gemini将覆盖新折叠屏、Galaxy Watch 9和今年秋季推出的智能眼镜，支持跨应用任务、腕上调用和眼镜手势控制。",
+        "why": "这条与前几天OpenAI硬件诉讼和OpenAI Health不同，焦点是Android阵营把AI助手嵌入手机、手表、眼镜的消费硬件发布。Samsung与Google正在把Gemini从聊天应用推向系统级入口，直接对标Apple Siri AI和Meta Ray-Ban路线。",
+        "watch": "关注智能眼镜秋季上市价格、摄像头隐私规则、Gemini跨应用代理能力是否稳定，以及Samsung折叠屏新品能否带动高端Android换机周期。"
+      },
+      {
+        "title": "美国法院批准Anthropic 15亿美元图书版权和解，AI训练数据成本出现标尺",
+        "region": "美国/AI版权、出版与模型训练",
+        "sources": [
+          "AP",
+          "The Guardian",
+          "CourtListener"
+        ],
+        "summary": "美国旧金山联邦法院批准Anthropic就使用盗版图书训练Claude相关模型达成的15亿美元和解，AP称这是已知最大规模的版权赔偿之一，约48.2万部作品的作者和出版商可获得补偿。此前法院区分了AI训练的合理使用争议和盗版来源问题，认为非法获取作品本身构成侵权风险。",
+        "why": "这不是单纯诉讼传闻，而是法院批准的具体金额与赔付机制。它会被出版商、AI公司和投资人用作训练数据授权、盗版数据清理、模型合规储备和诉讼风险定价的参照。",
+        "watch": "关注其他作者是否退出和解继续起诉，Google、Meta、OpenAI等版权案是否参照该金额谈判，以及AI公司是否加速转向授权数据、合成数据或可审计训练集。"
+      }
+    ],
+    "sourceLinks": [
+      "https://boardbrief.alpha.ac/open-weights-and-american-ai-leadership/",
+      "https://news.bloomberglaw.com/ip-law/nvidia-microsoft-lead-call-for-open-weight-ai-models-after-kimi",
+      "https://www.businessinsider.com/microsoft-nvidia-meta-palantir-jensen-huang-open-source-ai-letter-2026-7",
+      "https://www.barrons.com/articles/nvidia-jensen-huang-china-ai-models-openai-anthropic-82fe7a80",
+      "https://www.whitehouse.gov/releases/2026/07/president-trumps-ratepayer-protection-pledge-secures-american-ai-dominance-protects-consumers/",
+      "https://www.whitehouse.gov/ratepayer-protection-pledge/",
+      "https://apnews.com/article/490ea7e4c7227d5e550b00a0056c33c9",
+      "https://www.tomshardware.com/tech-industry/policy/president-trump-expands-ai-data-center-ratepayer-protection-pledge-to-include-state-governors-and-utility-companies-white-house-claims-this-will-make-electricity-more-affordable",
+      "https://news.samsung.com/global/galaxy-unpacked-july-2026-a-first-look-at-galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8",
+      "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+      "https://www.techradar.com/news/live/samsung-galaxy-unpacked-2026-july",
+      "https://www.androidcentral.com/wearables/samsung-google-intelligent-eyewear-galaxy-unpacked-2026-hands-on",
+      "https://apnews.com/article/74b140444023898aeba8579b6e9f0d63",
+      "https://www.theguardian.com/technology/2026/jul/22/bloomsbury-book-publisher-anthropic-copyright-settlement",
+      "https://www.courtlistener.com/docket/68117049/bartz-v-anthropic-pbc/"
+    ]
+  },
+  {
     "date": "2026-07-25",
     "displayDate": "2026年7月25日",
     "scope": "全球新闻｜科技与财经优先",
