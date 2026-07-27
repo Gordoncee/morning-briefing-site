@@ -1,5 +1,80 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-27",
+    "displayDate": "2026年7月27日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-27.png",
+    "summary": "本期简报聚焦AI基础设施的资本化与地缘科技博弈。英伟达与OpenAI洽谈2500亿美元数据中心融资担保，凸显AI算力扩张的金融化趋势；韩国三星、SK集团与美国科技巨头达成9500亿美元AI合作，芯片供应链的地缘结盟进一步深化。同时，大型科技公司财报季遭遇市场对AI巨额资本支出的审视，而中国正探索将居民储蓄转化为科技融资的新路径。硬件方面，苹果智能眼镜将隐私作为核心差异化卖点。",
+    "focus": [
+      "AI基建融资、地缘芯片联盟、科技资本支出审视、中国科技融资、苹果硬件战略",
+      "AI算力基建的资本开支已触及单一企业资产负债表极限，芯片巨头通过金融担保介入，将重塑AI数据中心的融资模式与行业集中度。",
+      "9500亿美元的合作规模创下韩美科技结盟新高，不仅锁定了未来数年AI核心硬件的产能分配，也进一步加剧了全球半导体供应链的阵营化。"
+    ],
+    "items": [
+      {
+        "title": "英伟达与OpenAI洽谈2500亿美元数据中心融资担保",
+        "region": "美国",
+        "sources": [
+          "WSJ"
+        ],
+        "summary": "据华尔街日报独家报道，英伟达正与OpenAI洽谈为其数据中心提供高达2500亿美元的融资担保。此举标志着AI基础设施扩张正从单纯的硬件采购转向深度绑定的结构化金融合作，以应对算力建设带来的巨额资本压力。",
+        "why": "AI算力基建的资本开支已触及单一企业资产负债表极限，芯片巨头通过金融担保介入，将重塑AI数据中心的融资模式与行业集中度。",
+        "watch": "关注该融资结构的最终落地形式，以及是否会引起其他云厂商和AI初创公司的效仿，进而推高AI基建的杠杆率。"
+      },
+      {
+        "title": "韩国三星、SK集团与美国科技巨头达成9500亿美元AI与芯片合作",
+        "region": "韩国/美国",
+        "sources": [
+          "Reuters",
+          "The Korea Times",
+          "Nikkei Asia"
+        ],
+        "summary": "韩国三星电子、SK集团及现代汽车等财阀与美国科技巨头签署总额高达9500亿美元的AI与半导体合作协议。此次结盟涵盖先进制程、HBM内存及AI数据中心供应链，凸显美国在构建排他性AI硬件生态时的地缘战略。",
+        "why": "9500亿美元的合作规模创下韩美科技结盟新高，不仅锁定了未来数年AI核心硬件的产能分配，也进一步加剧了全球半导体供应链的阵营化。",
+        "watch": "关注SK海力士与三星在HBM产能上的具体分配，以及美国对韩国芯片企业在华工厂的豁免政策是否随之调整。"
+      },
+      {
+        "title": "大型科技公司财报季遭遇市场对AI巨额资本支出的审视与担忧",
+        "region": "美国",
+        "sources": [
+          "Bloomberg",
+          "Fortune",
+          "WSJ"
+        ],
+        "summary": "随着大型科技公司陆续发布财报，华尔街对AI资本支出（Capex）的担忧情绪升温。尽管AI收入保持增长，但市场开始质疑巨额基建投入的投资回报率（ROI），导致科技股估值面临重新定价的压力。",
+        "why": "AI投资逻辑正从“不惜代价抢占算力”的盲目期，过渡到要求“可见商业回报”的验证期，资本支出的边际效用成为决定科技股走势的核心变量。",
+        "watch": "紧盯微软、Meta和Alphabet在财报电话会中对下半年资本开支的指引，以及AI应用端收入能否有效对冲基建折旧压力。"
+      },
+      {
+        "title": "中国拟将居民储蓄转化为科技融资机器以支持技术发展",
+        "region": "中国",
+        "sources": [
+          "South China Morning Post"
+        ],
+        "summary": "南华早报评论指出，中国正探索通过金融创新与政策引导，将庞大的居民储蓄转化为支持硬科技和AI发展的融资机器。此举旨在缓解科技企业在外部制裁和国内信贷收紧背景下的资金瓶颈。",
+        "why": "在美元基金退潮和传统信贷受限的背景下，激活国内储蓄资金是维持中国科技产业链自主可控的关键宏观变量，可能催生新的科技金融工具。",
+        "watch": "关注央行与证监会后续是否出台针对科技主题基金、REITs或专项债券的结构性宽松政策，以及资金实际流入一级市场的效率。"
+      },
+      {
+        "title": "苹果计划推出智能眼镜，将隐私保护作为核心差异化卖点",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "据Mark Gurman透露，苹果计划在2027年底前推出首款智能眼镜，并将隐私保护作为区别于Meta等竞品的核心卖点。苹果正致力于在设备端处理敏感视觉数据，以规避云端AI带来的隐私争议。",
+        "why": "在AI硬件入口争夺战中，苹果试图用“端侧AI+极致隐私”建立护城河，这不仅考验其自研芯片的能效比，也将重塑AR/VR设备的行业合规标准。",
+        "watch": "关注苹果在明年WWDC上披露的端侧多模态模型能力，以及其如何平衡轻量化眼镜形态与高算力隐私计算之间的物理矛盾。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUHE0OEhmOHhqTDNLbU9NSXRleVFYNGZubkkyYjJKNVpTRGtYQmFPWGRYUjVQZDdnc0pQX3BZaldxeEE1MUYtSmZ3Q2JPdGo1MnAxT2VTSFVGUDdqdUJaVGJ1N0hvVVVsMkNIS2I3dXBlTVBfeGw0ZGxlRmtTVEZ5RE9Kc2JjTnFUbFhPakFHcTI1aXVzRTdHMHMwV2RwZ1gyZXJvUTlJODVXUXl1R19aMkh6T1cydw?oc=5",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSFdzRUhVaUx2OUhLeVplQ0o1eFJYV3JzcEdJUXBPblRrcy1UUzJrOXlXalRSRFctZUFEUEJqa3k0ZHdSN3JLelpRNGRpSVB3RUYwMk1lbW0tRmtnN1lOYU4yOG9GbDNaNDlVemZiX2UxVExUQzZuV2FGY1NwdE1WbHdWRmJsdzhCdUNQRXJrbloyNnpQanJ2R2pRTWRUc1YxcHNvc192Qnc5SEZqQTJ2WmlFTF9YQTgwYmFkOF9ZUjMyeWVyM05RcVJhcENXRkpU?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLTlyY0loRTZCSWVPcmtFSW0zWUF3Tmc3ekN1ajNfMkZYZThOTFJLaDNxdUNCaVNyb0ZHQTB4b01QREFXVXcwZkdRYUExUkdoOFRPMHdXelRNRTZ5ZV9XM0twdi1neDZvWmdEZjFHdmxiZXJHSWpiWDN5WWFmVFRWY0xDdmtLN25HSEloYXpjeUFqRjlZMmhQbWtzSnZ3amRjeEEtODlfa1BSS3Z6bnRUVE43TkE?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd2U2TklZckhla3NyY2Uxei1Kd0FydTR6Y1VaWTNhY3c1TzhGVUFyTVBhWkZMcHZUQ2N1OTlvU0Nrc0g4VTY0OTBBVVY0VVJCbmlQR0hYRF9jWVhSUHJmT2MtbjdnMFRvRTlLWjZvc3lqMWVlSFF0a2M4bTh5TnBRaERRYkprcEN3TFNDenpadldHUkY4NzdhNFhQcnlKZkNEQ0NMRTFPV2x5enBFQm9VU2t6dHdOQ2tBN2JjM0xR0gG-AUFVX3lxTE5sX2JjSDJDdG9EZjBGOFJzbTFDczdnR2NVa1dQa3l1TWFOYjFNT2w4bGI2U0tTZm9OUkRrYndud1BQZ1U3WFdJX1JrYzJXaU1qOG9TdXRWcXBvQXA1azRYelFaN0k0OUhyTUpzZjh0NDBKc2I3Sk1RWWpCZE5MUDFSVmF1SnpHYXNaU0NVMW91M3NzX3UtMlFIS1lQa1ZZSzFpVUNLMV9wWWJnWmhMVVB2MEpTV1l5a1gyZnlkeWc?oc=5",
+      "https://www.theverge.com/tech/971101/apple-smart-glasses-privacy"
+    ]
+  },
+  {
     "date": "2026-07-26",
     "displayDate": "2026年7月26日",
     "scope": "全球新闻｜科技与财经优先",
