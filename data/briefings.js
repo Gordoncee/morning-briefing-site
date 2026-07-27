@@ -4,74 +4,92 @@ window.MORNING_BRIEFINGS = [
     "displayDate": "2026年7月27日",
     "scope": "全球新闻｜科技与财经优先",
     "image": "assets/morning-briefing-2026-07-27.png",
-    "summary": "本期简报聚焦AI基础设施的资本化与地缘科技博弈。英伟达与OpenAI洽谈2500亿美元数据中心融资担保，凸显AI算力扩张的金融化趋势；韩国三星、SK集团与美国科技巨头达成9500亿美元AI合作，芯片供应链的地缘结盟进一步深化。同时，大型科技公司财报季遭遇市场对AI巨额资本支出的审视，而中国正探索将居民储蓄转化为科技融资的新路径。硬件方面，苹果智能眼镜将隐私作为核心差异化卖点。",
+    "summary": "本期纳入5条，重点选择7月24日至27日之间出现正式文件、监管决定、上市文件或具体融资安排的新科技财经事件：Nvidia据报讨论为OpenAI俄亥俄10吉瓦数据中心提供约2500亿美元融资担保，Shein香港IPO草拟文件披露一季度转亏并受美国小额包裹关税冲击，长鑫科技今日登陆科创板并完成亚洲今年最大IPO，国家市场监管总局对携程罚没51.79亿元，欧盟初步认定TikTok未按DSA保护未成年人账户安全。为避免重复，本期未继续纳入开放权重AI政策争论、OpenAI/Hugging Face安全事故后续、泛化AI资本开支市场焦虑，以及韩国SK/Samsung/Nvidia大额AI供应链协议。",
     "focus": [
-      "AI基建融资、地缘芯片联盟、科技资本支出审视、中国科技融资、苹果硬件战略",
-      "AI算力基建的资本开支已触及单一企业资产负债表极限，芯片巨头通过金融担保介入，将重塑AI数据中心的融资模式与行业集中度。",
-      "9500亿美元的合作规模创下韩美科技结盟新高，不仅锁定了未来数年AI核心硬件的产能分配，也进一步加剧了全球半导体供应链的阵营化。"
+      "AI基础设施正在从芯片采购进入信用担保、政府电力分配和超大型项目融资阶段，Nvidia与OpenAI的潜在安排会放大“供应商同时融资客户”的循环风险。",
+      "跨境电商和平台经济的估值逻辑同时受到贸易规则与反垄断执法挤压，Shein和携程分别代表全球低价零售与中国在线旅游平台的监管重定价。",
+      "中国硬科技资本市场出现新的标杆交易，长鑫科技上市把国产DRAM、AI服务器内存需求和A股流动性集中到一个可交易标的上。"
     ],
     "items": [
       {
-        "title": "英伟达与OpenAI洽谈2500亿美元数据中心融资担保",
-        "region": "美国",
-        "sources": [
-          "WSJ"
-        ],
-        "summary": "据华尔街日报独家报道，英伟达正与OpenAI洽谈为其数据中心提供高达2500亿美元的融资担保。此举标志着AI基础设施扩张正从单纯的硬件采购转向深度绑定的结构化金融合作，以应对算力建设带来的巨额资本压力。",
-        "why": "AI算力基建的资本开支已触及单一企业资产负债表极限，芯片巨头通过金融担保介入，将重塑AI数据中心的融资模式与行业集中度。",
-        "watch": "关注该融资结构的最终落地形式，以及是否会引起其他云厂商和AI初创公司的效仿，进而推高AI基建的杠杆率。"
-      },
-      {
-        "title": "韩国三星、SK集团与美国科技巨头达成9500亿美元AI与芯片合作",
-        "region": "韩国/美国",
+        "title": "Nvidia据报讨论为OpenAI俄亥俄10吉瓦数据中心提供约2500亿美元融资担保",
+        "region": "美国/AI基础设施与项目融资",
         "sources": [
           "Reuters",
-          "The Korea Times",
-          "Nikkei Asia"
+          "Wall Street Journal",
+          "Bloomberg"
         ],
-        "summary": "韩国三星电子、SK集团及现代汽车等财阀与美国科技巨头签署总额高达9500亿美元的AI与半导体合作协议。此次结盟涵盖先进制程、HBM内存及AI数据中心供应链，凸显美国在构建排他性AI硬件生态时的地缘战略。",
-        "why": "9500亿美元的合作规模创下韩美科技结盟新高，不仅锁定了未来数年AI核心硬件的产能分配，也进一步加剧了全球半导体供应链的阵营化。",
-        "watch": "关注SK海力士与三星在HBM产能上的具体分配，以及美国对韩国芯片企业在华工厂的豁免政策是否随之调整。"
+        "summary": "路透援引《华尔街日报》报道称，Nvidia正讨论为OpenAI租用SoftBank能源子公司在俄亥俄南部开发的10吉瓦数据中心项目提供约2500亿美元融资担保。报道还称项目总成本可能超过5000亿美元，第一阶段约800兆瓦容量目标在2028年完成；路透同时说明尚未能独立核实，相关公司未立即回应。",
+        "why": "过去一周简报已覆盖AI数据中心电价和资本开支压力，但这条新增的是供应商信用担保和政府控制电力资源进入同一笔超大型项目。若落地，AI算力扩张将不只是资本开支问题，而是芯片公司、AI实验室、SoftBank、银行和政府共同承担信用风险。",
+        "watch": "关注Nvidia是否正式确认担保条款，担保是否覆盖租赁和建设债务还是芯片采购，银行如何给OpenAI信用定价，以及美国商务部如何分配俄亥俄项目电力。"
       },
       {
-        "title": "大型科技公司财报季遭遇市场对AI巨额资本支出的审视与担忧",
-        "region": "美国",
+        "title": "Shein香港IPO文件披露一季度亏损9900万美元，美国小额包裹关税成为核心风险",
+        "region": "新加坡/中国香港/美国/跨境电商与IPO",
         "sources": [
-          "Bloomberg",
-          "Fortune",
-          "WSJ"
+          "Reuters",
+          "Hong Kong IPO filing",
+          "Investing.com"
         ],
-        "summary": "随着大型科技公司陆续发布财报，华尔街对AI资本支出（Capex）的担忧情绪升温。尽管AI收入保持增长，但市场开始质疑巨额基建投入的投资回报率（ROI），导致科技股估值面临重新定价的压力。",
-        "why": "AI投资逻辑正从“不惜代价抢占算力”的盲目期，过渡到要求“可见商业回报”的验证期，资本支出的边际效用成为决定科技股走势的核心变量。",
-        "watch": "紧盯微软、Meta和Alphabet在财报电话会中对下半年资本开支的指引，以及AI应用端收入能否有效对冲基建折旧压力。"
+        "summary": "Shein香港上市草拟文件披露，公司2026年一季度净亏损9900万美元，而去年同期净利润为3.95亿美元；收入仅增长1.1%至90.5亿美元。文件称，美国取消800美元以下小额包裹免税政策后，对美国销售、整体增长和费用造成不利影响，中国来源商品发往美国的税率区间升至10%至87.5%。",
+        "why": "这不是普通IPO传闻，而是首次把Shein关键财务、关税冲击和上市路径放到公开文件中。它会影响香港大型消费科技IPO定价，也会检验低价跨境电商在美国、欧盟同步收紧低值进口规则后的利润弹性。",
+        "watch": "关注Shein最终发行规模、估值是否落在400亿至500亿美元区间，美国价格上调能否抵消关税，欧盟低值包裹收费是否复制美国冲击，以及Donald Tang不在高管名单后治理结构如何调整。"
       },
       {
-        "title": "中国拟将居民储蓄转化为科技融资机器以支持技术发展",
-        "region": "中国",
+        "title": "长鑫科技今日登陆科创板，579亿元募资把国产DRAM推到A股核心资产前台",
+        "region": "中国/半导体、存储芯片与资本市场",
         "sources": [
-          "South China Morning Post"
+          "Reuters",
+          "SSE",
+          "Caixin"
         ],
-        "summary": "南华早报评论指出，中国正探索通过金融创新与政策引导，将庞大的居民储蓄转化为支持硬科技和AI发展的融资机器。此举旨在缓解科技企业在外部制裁和国内信贷收紧背景下的资金瓶颈。",
-        "why": "在美元基金退潮和传统信贷受限的背景下，激活国内储蓄资金是维持中国科技产业链自主可控的关键宏观变量，可能催生新的科技金融工具。",
-        "watch": "关注央行与证监会后续是否出台针对科技主题基金、REITs或专项债券的结构性宽松政策，以及资金实际流入一级市场的效率。"
+        "summary": "长鑫科技股票7月27日在上交所科创板上市，上市公告书显示发行价8.66元，发行后总市值约5791.88亿元。路透报道称，公司募资579.2亿元，若超额配售权全部行使，募资可升至666.1亿元；这是今年亚洲最大IPO，也使长鑫成为中国最大的上市半导体公司之一。",
+        "why": "7月25日简报提到CXMT推进IPO；今天的新增事实是正式挂牌、发行价、市值和募资规模已经落地。它把中国存储芯片自主化从产业叙事转成A股交易资产，也可能影响全球DRAM、HBM和AI服务器内存供应链预期。",
+        "watch": "关注上市首周价格波动、是否快速纳入沪港通，募资投向产能和技术升级的节奏，以及三星、SK海力士、美光在DDR5/HBM价格和中国客户供应策略上的反应。"
       },
       {
-        "title": "苹果计划推出智能眼镜，将隐私保护作为核心差异化卖点",
-        "region": "美国",
+        "title": "中国对携程罚没51.79亿元，在线旅游平台“独家合作+全网最低价”模式被重塑",
+        "region": "中国/平台经济、在线旅游与反垄断",
         "sources": [
-          "The Verge"
+          "SAMR",
+          "Trip.com",
+          "Reuters",
+          "AP"
         ],
-        "summary": "据Mark Gurman透露，苹果计划在2027年底前推出首款智能眼镜，并将隐私保护作为区别于Meta等竞品的核心卖点。苹果正致力于在设备端处理敏感视觉数据，以规避云端AI带来的隐私争议。",
-        "why": "在AI硬件入口争夺战中，苹果试图用“端侧AI+极致隐私”建立护城河，这不仅考验其自研芯片的能效比，也将重塑AR/VR设备的行业合规标准。",
-        "watch": "关注苹果在明年WWDC上披露的端侧多模态模型能力，以及其如何平衡轻量化眼镜形态与高算力隐私计算之间的物理矛盾。"
+        "summary": "国家市场监管总局7月25日宣布，对携程滥用在线酒店预订平台服务市场支配地位作出行政处罚，罚没款合计51.79亿元，其中没收违法所得16.58亿元、罚款35.21亿元，并要求退还被强制扣除的酒店订单储备金1.22亿元。携程公告称接受处罚并将按要求整改，管理层将在7月27日召开投资者电话会。",
+        "why": "这是中国平台经济反垄断从电商、外卖扩展到在线旅游的重要案例，且处罚依据具体指向流量分配、独家合作、全网最低价和技术监控。它会改变酒店商家与平台的议价结构，也会影响携程、同程、美团、飞猪等旅游服务平台的佣金与促销规则。",
+        "watch": "关注携程19项整改措施是否削弱佣金率和流量分配能力，酒店是否重新多平台定价，其他在线旅游平台是否被同步审查，以及罚没对携程港股和ADR估值的持续影响。"
+      },
+      {
+        "title": "欧盟初步认定TikTok未按DSA保护未成年人账户，最高可面临全球收入6%罚款",
+        "region": "欧盟/中国/平台监管与未成年人安全",
+        "sources": [
+          "European Commission",
+          "Reuters",
+          "Anadolu Agency"
+        ],
+        "summary": "欧盟委员会7月24日向TikTok发送DSA初步调查结果，认为其未成年人账户设置未达到《数字服务法》要求的高水平隐私、安全和保护标准。监管方指出，未成年人公开视频可能被陌生人看到或被推荐，私密账户也可能通过关注列表和头像被发现；TikTok称将审查结果并与监管方合作。",
+        "why": "7月24日本站已覆盖Google DMA罚款；这条是另一条平台监管线，重点从搜索和应用商店转向社交平台产品设计与儿童安全。若欧盟最终确认违规，DSA将从透明度义务进一步进入默认设置、推荐系统和未成年人账号架构。",
+        "watch": "关注TikTok是否修改16至17岁用户公开内容和推荐机制，欧盟是否在最终决定中开出罚款，Meta、Snap、YouTube等平台是否同步调整未成年人默认设置，以及成员国社交媒体年龄限制是否与DSA衔接。"
       }
     ],
     "sourceLinks": [
-      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUHE0OEhmOHhqTDNLbU9NSXRleVFYNGZubkkyYjJKNVpTRGtYQmFPWGRYUjVQZDdnc0pQX3BZaldxeEE1MUYtSmZ3Q2JPdGo1MnAxT2VTSFVGUDdqdUJaVGJ1N0hvVVVsMkNIS2I3dXBlTVBfeGw0ZGxlRmtTVEZ5RE9Kc2JjTnFUbFhPakFHcTI1aXVzRTdHMHMwV2RwZ1gyZXJvUTlJODVXUXl1R19aMkh6T1cydw?oc=5",
-      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSFdzRUhVaUx2OUhLeVplQ0o1eFJYV3JzcEdJUXBPblRrcy1UUzJrOXlXalRSRFctZUFEUEJqa3k0ZHdSN3JLelpRNGRpSVB3RUYwMk1lbW0tRmtnN1lOYU4yOG9GbDNaNDlVemZiX2UxVExUQzZuV2FGY1NwdE1WbHdWRmJsdzhCdUNQRXJrbloyNnpQanJ2R2pRTWRUc1YxcHNvc192Qnc5SEZqQTJ2WmlFTF9YQTgwYmFkOF9ZUjMyeWVyM05RcVJhcENXRkpU?oc=5",
-      "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLTlyY0loRTZCSWVPcmtFSW0zWUF3Tmc3ekN1ajNfMkZYZThOTFJLaDNxdUNCaVNyb0ZHQTB4b01QREFXVXcwZkdRYUExUkdoOFRPMHdXelRNRTZ5ZV9XM0twdi1neDZvWmdEZjFHdmxiZXJHSWpiWDN5WWFmVFRWY0xDdmtLN25HSEloYXpjeUFqRjlZMmhQbWtzSnZ3amRjeEEtODlfa1BSS3Z6bnRUVE43TkE?oc=5",
-      "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd2U2TklZckhla3NyY2Uxei1Kd0FydTR6Y1VaWTNhY3c1TzhGVUFyTVBhWkZMcHZUQ2N1OTlvU0Nrc0g4VTY0OTBBVVY0VVJCbmlQR0hYRF9jWVhSUHJmT2MtbjdnMFRvRTlLWjZvc3lqMWVlSFF0a2M4bTh5TnBRaERRYkprcEN3TFNDenpadldHUkY4NzdhNFhQcnlKZkNEQ0NMRTFPV2x5enBFQm9VU2t6dHdOQ2tBN2JjM0xR0gG-AUFVX3lxTE5sX2JjSDJDdG9EZjBGOFJzbTFDczdnR2NVa1dQa3l1TWFOYjFNT2w4bGI2U0tTZm9OUkRrYndud1BQZ1U3WFdJX1JrYzJXaU1qOG9TdXRWcXBvQXA1azRYelFaN0k0OUhyTUpzZjh0NDBKc2I3Sk1RWWpCZE5MUDFSVmF1SnpHYXNaU0NVMW91M3NzX3UtMlFIS1lQa1ZZSzFpVUNLMV9wWWJnWmhMVVB2MEpTV1l5a1gyZnlkeWc?oc=5",
-      "https://www.theverge.com/tech/971101/apple-smart-glasses-privacy"
+      "https://ca.marketscreener.com/news/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-wsj-reports-ce7f51dcd88df220",
+      "https://www.businesstimes.com.sg/startups-tech/technology/nvidia-talks-us250-billion-backing-openai-hub-wsj-says",
+      "https://au.investing.com/news/stock-market-news/nvidia-in-talks-to-provide-250-bln-guarantee-for-openai-data-center-project--wsj-4552785",
+      "https://www.streetinsider.com/Reuters/Shein%2Bflags%2Btariff%2Bhits%2Bafter%2Bposting%2Bquarterly%2Bloss%2Bahead%2Bof%2BHong%2BKong%2BIPO/26814821.html?classic=1",
+      "https://www.investing.com/news/stock-market-news/shein-files-for-hong-kong-ipo-after-profit-drops-despite-revenue-growth-4812897",
+      "https://www.freemalaysiatoday.com/category/business/2026/07/27/shein-flags-tariff-hits-after-quarterly-loss-ahead-of-hong-kong-ipo",
+      "https://www.streetinsider.com/Reuters/China%2Bmemory%2Bchipmaker%2BCXMT%2Bset%2Bfor%2BShanghai%2Bdebut%2Bafter%2BAsias%2Bbiggest%2BIPO/26814881.html",
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12460381&stockid=688825",
+      "https://www.caixinglobal.com/2026-07-24/the-week-ahead-july-27-aug-2-cxmt-set-for-star-market-debut-in-boards-largest-ipo-102467832.html",
+      "https://www.samr.gov.cn/xw/zj/art/2026/art_46d2c74cbd7249f189622dd030e3c3a7.html",
+      "https://investors.trip.com/news-releases/news-release-details/tripcom-group-sincerely-accepts-administrative-penalty-decision",
+      "https://www.streetinsider.com/Reuters/China%2Bfines%2BTrip.com%2B%24770%2Bmillion%2Bover%2Bonline%2Bhotel-booking%2Bmonopoly/26814586.html",
+      "https://apnews.com/article/310b24025e557fb116ab2097a533be64",
+      "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act",
+      "https://www.investing.com/news/stock-market-news/tiktok-charged-with-breaching-eu-tech-rules-on-online-safety-for-kids-eu-says-4810934",
+      "https://www.aa.com.tr/en/europe/eu-preliminarily-finds-tiktok-in-breach-of-digital-rules-over-minors-safety/4008127"
     ]
   },
   {
