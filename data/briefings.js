@@ -1,5 +1,103 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-28",
+    "displayDate": "2026年7月28日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-28.png",
+    "summary": "本期简报聚焦AI基建融资与财报季前夕的市场博弈：英伟达拟为OpenAI 2500亿美元数据中心融资提供担保，凸显AI算力扩张的资本杠杆化；Intel受AI数据中心需求提振录得15年来最快增长；中国开源模型Kimi K3以免费策略冲击美国AI商业化路径；同时，科技巨头庞大的AI资本支出引发债券市场裂痕与选民对电网成本转嫁的监管反弹；此外，亚马逊申请LEO卫星直连网络，加速布局下一代通信基础设施。",
+    "focus": [
+      "AI基建融资、芯片财报、开源模型竞争、AI债券定价、卫星通信",
+      "AI基建从单纯的芯片买卖演变为深度绑定的结构化融资，英伟达的资产负债表将直接暴露于AI应用的商业化风险中，这是评估AI行情可持续性的核心变量。",
+      "在英伟达垄断AI训练芯片的背景下，Intel在数据中心推理和定制化ASIC领域的份额回升，证明AI算力需求的外溢效应正在重塑传统芯片巨头的估值逻辑。"
+    ],
+    "items": [
+      {
+        "title": "英伟达拟为OpenAI 2500亿美元数据中心融资提供担保，AI基建杠杆化引发泡沫担忧",
+        "region": "美国",
+        "sources": [
+          "WSJ",
+          "MarketWatch",
+          "TradingView"
+        ],
+        "summary": "据WSJ独家报道，英伟达正与OpenAI谈判，为其高达2500亿美元的数据中心租赁提供财务担保。分析师警告，这种由芯片供应商为下游客户背书的重资产融资模式，正在复活科技泡沫时期的危险习惯，凸显AI算力扩张对极端资本杠杆的依赖。",
+        "why": "AI基建从单纯的芯片买卖演变为深度绑定的结构化融资，英伟达的资产负债表将直接暴露于AI应用的商业化风险中，这是评估AI行情可持续性的核心变量。",
+        "watch": "关注Meta和微软本周财报中对AI资本支出回报率的指引，以及评级机构对英伟达表外担保风险的重新定价。",
+        "sourceLinks": [
+          "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUHE0OEhmOHhqTDNLbU9NSXRleVFYNGZubkkyYjJKNVpTRGtYQmFPWGRYUjVQZDdnc0pQX3BZaldxeEE1MUYtSmZ3Q2JPdGo1MnAxT2VTSFVGUDdqdUJaVGJ1N0hvVVVsMkNIS2I3dXBlTVBfeGw0ZGxlRmtTVEZ5RE9Kc2JjTnFUbFhPakFHcTI1aXVzRTdHMHMwV2RwZ1gyZXJvUTlJODVXUXl1R19aMkh6T1cydw?oc=5",
+          "https://www.marketwatch.com/story/nvidias-potential-new-deal-with-openai-would-revive-a-spooky-tech-bubble-habit-analyst-warns-ae34ed64?mod=mw_rss_topstories",
+          "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVFdSanduTGR6WmZRSW80aVMzdHFLQWY3SkhZTElMbC1OWkhZRnlUVnNBR2NCeGkwcktUdWRidHl0MVA5RTV4NkU3X3BEdGtSY2Rlc0UwaE00Z19ISWFlZTZ4RzdCaXhhQWRiRENsQXQyVFNmbW1oNUZMdU9FZnNrZ0Rfb0xZUm51VkRpSWpjREF4V25BOXBqcTFKSnlCdkNCOHBFaS1MOVpER3E3TU5xNEVUMHk5cnh0YV9jVEREdDNoQTJ2dG1hUg?oc=5"
+        ]
+      },
+      {
+        "title": "Intel财报超预期，AI数据中心需求推动营收创15年来最快增长",
+        "region": "美国",
+        "sources": [
+          "TechRepublic",
+          "ETEnterpriseai.com"
+        ],
+        "summary": "Intel最新财报显示，受AI数据中心和先进制程代工需求的强劲拉动，公司营收录得15年来的最快增速，大幅超出华尔街预期。这标志着其转型战略在AI硬件周期中开始兑现业绩，缓解了市场对其在AI芯片竞争中掉队的担忧。",
+        "why": "在英伟达垄断AI训练芯片的背景下，Intel在数据中心推理和定制化ASIC领域的份额回升，证明AI算力需求的外溢效应正在重塑传统芯片巨头的估值逻辑。",
+        "watch": "追踪Intel 18A制程的客户导入进度，以及其在AI推理芯片市场对英伟达和AMD的实际份额蚕食情况。",
+        "sourceLinks": [
+          "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdTlVRU1TTEl2WUk2MlVSaFoyckR0dEFFbmUyY0Q5VUFxZVZ0YUdvQzJ0OWt4N3dpd2VsVWZPTnZHMUE1bG54Z19LNlllRWxiQTdOT1hQOXZVdTVwZkNkZ1EtVmNJZWV4OF8tNi1xNEd1LTJHanJXaUFmSHd0c0s0Xy03T0dNQTZtMUhZV0ppbWc0Zk1U?oc=5",
+          "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNUUozeW5mcmdJWVJwdFNHbUFhYTE4RlBrajZBWWVJM1FHdTNIVzNYNWtNSWFxaVBrNnA1MlJwWlhYMFB0UE1OTl9Od2U0cTlQVXlwUmhUTGdieGVFWDRXOXFmWm5iclAwbTgtb3gyTDVnS0JmSU5IR3hPc3dab2RSWU52MTVYQUljOE1PbFFEOEFpcmxCcDNyQTJaWXk2ZE9NREluNlpibl9BNUVOMGhZVE9qQmJmZEE3QmdZM3JDQV90UEZ1LUVLN0pBU2tiQWJ0SUJLRzM3Z1BobkMxaWp3S25HNHRfNVYxX01wQWtDMVbSAfYBQVVfeXFMTTR4Y21qUzhKMWhSaDBtalJWRkw3aFZCUmF6Qnlrb2NrejJRSUdNU2ZRSi1Wb1lVNXltV1ZFRDRrejJvM2Rqckxqb0RhNjNJeGlwWjV1V0ZpMzRYN3NTNkJub05BXzl2c2t6R1FZYTlwN0d4VkVFQldQWG5mZTFTdDFKREtFemktaTBIVEl4MWJZMFdQSkRRTXZLeTFFYnNyd1JyTHFuNng0NnNZM1pXRWNNejhmQ2I3Zmh0blVYcENWYmhZRlhqcy04cWIxRUQ3bWlHbDNNZU5xeGNWTzNsQVRZaGMtd01FY3F3dUktWXBrMVMxM01n?oc=5"
+        ]
+      },
+      {
+        "title": "中国开源AI模型Kimi K3以免费策略冲击市场，硅谷警惕商业化路径被颠覆",
+        "region": "中国/美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "Moonshot AI发布的Kimi K3模型在多项基准测试中击败美国顶尖闭源系统，且采用完全开源和免费策略。硅谷正紧急评估这种“降维打击”对美国AI公司依赖高昂API订阅和算力溢价的商业模式构成的系统性威胁。",
+        "why": "中国AI企业通过开源和极致成本优势争夺全球开发者生态，正在将AI模型从“高毛利软件”推向“基础设施级公共品”，这可能迫使美国巨头重新调整其AI变现预期。",
+        "watch": "观察美国头部AI公司是否会跟进开源策略，以及开源模型在边缘计算和企业私有化部署中的实际渗透率。",
+        "sourceLinks": [
+          "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies"
+        ]
+      },
+      {
+        "title": "AI相关债券市场出现裂痕，科技巨头资本支出激增引发投资者与监管双重反弹",
+        "region": "美国",
+        "sources": [
+          "MarketWatch",
+          "Yahoo Finance"
+        ],
+        "summary": "在Meta和微软财报发布前夕，AI相关债券收益率出现异常波动，市场对科技巨头无底洞般的AI资本支出能否产生匹配现金流产生严重疑虑。同时，多州监管机构开始拒绝让传统电网消费者为科技公司的AI数据中心电力扩建买单，政治与监管风险加剧。",
+        "why": "AI行情的压力测试正从股票市场蔓延至信用债市场，而电网成本转嫁引发的选民反弹，可能成为限制AI物理基础设施扩张速度的首个重大非技术性瓶颈。",
+        "watch": "紧盯本周Meta和微软财报中关于AI资本支出上限的表态，以及各州公用事业委员会对数据中心电价附加费的最终裁决。",
+        "sourceLinks": [
+          "https://www.marketwatch.com/story/more-cracks-emerge-in-ai-related-bonds-as-meta-microsoft-earnings-loom-04275db2?mod=mw_rss_topstories",
+          "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbXdzVmRjS1BDY25Fa3hTWVlXclVIQzkxblFXVWNqdTkxd1BfWHg3aHlUVFo3MDJVQ0pPWVZVR0ZYbUxtM3VkSlMtaTdpLWctR0xldEUyQ0hUd0Z4dXh1QTVIcEFPZjF3Qm1hOUxJcmQ4WnNFRUgyQWFwZE5MQU1lSms3cHY4M2t4VmpqbmQxbFd1N29scUxoVkRyZ200YXB0QTVvbnpEZHVBRnIySEt4bGFfM1lDenpCWjkyRA?oc=5"
+        ]
+      },
+      {
+        "title": "亚马逊向FCC申请LEO卫星直连手机网络，计划2028年挑战全球通信基础设施",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "亚马逊提交FCC申请，计划部署新的低轨（LEO）卫星星座，为全球智能手机提供直接的语音、短信、数据和紧急服务。若获批，该项目将于2028年上线，直接对标Starlink并深度整合AWS云基础设施。",
+        "why": "卫星直连手机（Direct-to-Device）正成为下一代通信基建的核心战场，亚马逊此举不仅意在通信市场，更可能将其与AWS边缘计算结合，构建天地一体化的AI与物联网数据闭环。",
+        "watch": "关注FCC的频谱分配审批进度，以及亚马逊与苹果、安卓阵营在卫星通信硬件底层的合作谈判。",
+        "sourceLinks": [
+          "https://www.theverge.com/tech/971437/amazon-leo-direct-to-device-satellite-network"
+        ]
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUHE0OEhmOHhqTDNLbU9NSXRleVFYNGZubkkyYjJKNVpTRGtYQmFPWGRYUjVQZDdnc0pQX3BZaldxeEE1MUYtSmZ3Q2JPdGo1MnAxT2VTSFVGUDdqdUJaVGJ1N0hvVVVsMkNIS2I3dXBlTVBfeGw0ZGxlRmtTVEZ5RE9Kc2JjTnFUbFhPakFHcTI1aXVzRTdHMHMwV2RwZ1gyZXJvUTlJODVXUXl1R19aMkh6T1cydw?oc=5",
+      "https://www.marketwatch.com/story/nvidias-potential-new-deal-with-openai-would-revive-a-spooky-tech-bubble-habit-analyst-warns-ae34ed64?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVFdSanduTGR6WmZRSW80aVMzdHFLQWY3SkhZTElMbC1OWkhZRnlUVnNBR2NCeGkwcktUdWRidHl0MVA5RTV4NkU3X3BEdGtSY2Rlc0UwaE00Z19ISWFlZTZ4RzdCaXhhQWRiRENsQXQyVFNmbW1oNUZMdU9FZnNrZ0Rfb0xZUm51VkRpSWpjREF4V25BOXBqcTFKSnlCdkNCOHBFaS1MOVpER3E3TU5xNEVUMHk5cnh0YV9jVEREdDNoQTJ2dG1hUg?oc=5",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdTlVRU1TTEl2WUk2MlVSaFoyckR0dEFFbmUyY0Q5VUFxZVZ0YUdvQzJ0OWt4N3dpd2VsVWZPTnZHMUE1bG54Z19LNlllRWxiQTdOT1hQOXZVdTVwZkNkZ1EtVmNJZWV4OF8tNi1xNEd1LTJHanJXaUFmSHd0c0s0Xy03T0dNQTZtMUhZV0ppbWc0Zk1U?oc=5",
+      "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNUUozeW5mcmdJWVJwdFNHbUFhYTE4RlBrajZBWWVJM1FHdTNIVzNYNWtNSWFxaVBrNnA1MlJwWlhYMFB0UE1OTl9Od2U0cTlQVXlwUmhUTGdieGVFWDRXOXFmWm5iclAwbTgtb3gyTDVnS0JmSU5IR3hPc3dab2RSWU52MTVYQUljOE1PbFFEOEFpcmxCcDNyQTJaWXk2ZE9NREluNlpibl9BNUVOMGhZVE9qQmJmZEE3QmdZM3JDQV90UEZ1LUVLN0pBU2tiQWJ0SUJLRzM3Z1BobkMxaWp3S25HNHRfNVYxX01wQWtDMVbSAfYBQVVfeXFMTTR4Y21qUzhKMWhSaDBtalJWRkw3aFZCUmF6Qnlrb2NrejJRSUdNU2ZRSi1Wb1lVNXltV1ZFRDRrejJvM2Rqckxqb0RhNjNJeGlwWjV1V0ZpMzRYN3NTNkJub05BXzl2c2t6R1FZYTlwN0d4VkVFQldQWG5mZTFTdDFKREtFemktaTBIVEl4MWJZMFdQSkRRTXZLeTFFYnNyd1JyTHFuNng0NnNZM1pXRWNNejhmQ2I3Zmh0blVYcENWYmhZRlhqcy04cWIxRUQ3bWlHbDNNZU5xeGNWTzNsQVRZaGMtd01FY3F3dUktWXBrMVMxM01n?oc=5",
+      "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+      "https://www.marketwatch.com/story/more-cracks-emerge-in-ai-related-bonds-as-meta-microsoft-earnings-loom-04275db2?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbXdzVmRjS1BDY25Fa3hTWVlXclVIQzkxblFXVWNqdTkxd1BfWHg3aHlUVFo3MDJVQ0pPWVZVR0ZYbUxtM3VkSlMtaTdpLWctR0xldEUyQ0hUd0Z4dXh1QTVIcEFPZjF3Qm1hOUxJcmQ4WnNFRUgyQWFwZE5MQU1lSms3cHY4M2t4VmpqbmQxbFd1N29scUxoVkRyZ200YXB0QTVvbnpEZHVBRnIySEt4bGFfM1lDenpCWjkyRA?oc=5",
+      "https://www.theverge.com/tech/971437/amazon-leo-direct-to-device-satellite-network"
+    ]
+  },
+  {
     "date": "2026-07-27",
     "displayDate": "2026年7月27日",
     "scope": "全球新闻｜科技与财经优先",
