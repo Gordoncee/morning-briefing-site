@@ -4,97 +4,83 @@ window.MORNING_BRIEFINGS = [
     "displayDate": "2026年7月28日",
     "scope": "全球新闻｜科技与财经优先",
     "image": "assets/morning-briefing-2026-07-28.png",
-    "summary": "本期简报聚焦AI基建融资与财报季前夕的市场博弈：英伟达拟为OpenAI 2500亿美元数据中心融资提供担保，凸显AI算力扩张的资本杠杆化；Intel受AI数据中心需求提振录得15年来最快增长；中国开源模型Kimi K3以免费策略冲击美国AI商业化路径；同时，科技巨头庞大的AI资本支出引发债券市场裂痕与选民对电网成本转嫁的监管反弹；此外，亚马逊申请LEO卫星直连网络，加速布局下一代通信基础设施。",
+    "summary": "本期只纳入4条，原因是今日可交叉核验的新科技财经事件中，较多结果仍是前几天已经覆盖的Nvidia/OpenAI俄亥俄数据中心融资、开放权重政策信、Hugging Face安全事故和泛化AI资本开支焦虑。今日保留的新进展包括：Nvidia与Ilya Sutskever的Safe Superintelligence建立长期战略合作并投资，Nvidia联合Microsoft、Linux Foundation等推出Open Secure AI Alliance，Amazon Leo向FCC申请5105颗卫星直连手机网络，美国6月核心资本品订单和出货显示AI硬件投资继续支撑制造业。",
     "focus": [
-      "AI基建融资、芯片财报、开源模型竞争、AI债券定价、卫星通信",
-      "AI基建从单纯的芯片买卖演变为深度绑定的结构化融资，英伟达的资产负债表将直接暴露于AI应用的商业化风险中，这是评估AI行情可持续性的核心变量。",
-      "在英伟达垄断AI训练芯片的背景下，Intel在数据中心推理和定制化ASIC领域的份额回升，证明AI算力需求的外溢效应正在重塑传统芯片巨头的估值逻辑。"
+      "Nvidia正在同时用股权投资、Vera Rubin供给和开放安全工具联盟巩固AI产业链核心位置，算力供应商已不只是卖芯片，而是在塑造前沿实验室和安全标准。",
+      "AI基础设施的影响继续外溢到宏观数据和通信网络：美国制造业订单因计算机和电子产品走强，Amazon则把低轨卫星从宽带扩展到手机直连。",
+      "本期刻意避开单纯市场情绪和重复政策争论，只保留有公告、监管申请或经济数据支撑的新事实。"
     ],
     "items": [
       {
-        "title": "英伟达拟为OpenAI 2500亿美元数据中心融资提供担保，AI基建杠杆化引发泡沫担忧",
-        "region": "美国",
+        "title": "Nvidia投资Safe Superintelligence，下一代芯片供给让SSI算力大增",
+        "region": "美国/AI实验室、芯片与战略投资",
         "sources": [
-          "WSJ",
-          "MarketWatch",
-          "TradingView"
+          "NVIDIA Newsroom",
+          "Reuters",
+          "Financial Times",
+          "Wall Street Journal"
         ],
-        "summary": "据WSJ独家报道，英伟达正与OpenAI谈判，为其高达2500亿美元的数据中心租赁提供财务担保。分析师警告，这种由芯片供应商为下游客户背书的重资产融资模式，正在复活科技泡沫时期的危险习惯，凸显AI算力扩张对极端资本杠杆的依赖。",
-        "why": "AI基建从单纯的芯片买卖演变为深度绑定的结构化融资，英伟达的资产负债表将直接暴露于AI应用的商业化风险中，这是评估AI行情可持续性的核心变量。",
-        "watch": "关注Meta和微软本周财报中对AI资本支出回报率的指引，以及评级机构对英伟达表外担保风险的重新定价。",
-        "sourceLinks": [
-          "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUHE0OEhmOHhqTDNLbU9NSXRleVFYNGZubkkyYjJKNVpTRGtYQmFPWGRYUjVQZDdnc0pQX3BZaldxeEE1MUYtSmZ3Q2JPdGo1MnAxT2VTSFVGUDdqdUJaVGJ1N0hvVVVsMkNIS2I3dXBlTVBfeGw0ZGxlRmtTVEZ5RE9Kc2JjTnFUbFhPakFHcTI1aXVzRTdHMHMwV2RwZ1gyZXJvUTlJODVXUXl1R19aMkh6T1cydw?oc=5",
-          "https://www.marketwatch.com/story/nvidias-potential-new-deal-with-openai-would-revive-a-spooky-tech-bubble-habit-analyst-warns-ae34ed64?mod=mw_rss_topstories",
-          "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVFdSanduTGR6WmZRSW80aVMzdHFLQWY3SkhZTElMbC1OWkhZRnlUVnNBR2NCeGkwcktUdWRidHl0MVA5RTV4NkU3X3BEdGtSY2Rlc0UwaE00Z19ISWFlZTZ4RzdCaXhhQWRiRENsQXQyVFNmbW1oNUZMdU9FZnNrZ0Rfb0xZUm51VkRpSWpjREF4V25BOXBqcTFKSnlCdkNCOHBFaS1MOVpER3E3TU5xNEVUMHk5cnh0YV9jVEREdDNoQTJ2dG1hUg?oc=5"
-        ]
+        "summary": "Nvidia与Ilya Sutskever创办的Safe Superintelligence宣布长期战略合作，Nvidia同时对SSI投资，并提供下一代Vera Rubin平台，使SSI算力增加一个数量级。路透和英国《金融时报》援引知情人士称投资规模约50亿美元；Nvidia官方公告未披露金额，但确认双方还将围绕当前和未来计算平台进行技术协作。",
+        "why": "这不是普通融资传闻，而是前沿AI实验室把下一代GPU供给、股权资金和芯片路线反馈绑定在一起。SSI至今没有公开产品，却获得稀缺Vera Rubin资源，显示市场仍愿意为少数顶级研究团队预付巨额算力期权。",
+        "watch": "关注SSI是否披露研究方向或模型里程碑，Vera Rubin交付时间是否影响其他客户排队，Nvidia是否继续以投资换取前沿实验室的硬件需求信号，以及监管方如何看待芯片商深度绑定客户。"
       },
       {
-        "title": "Intel财报超预期，AI数据中心需求推动营收创15年来最快增长",
-        "region": "美国",
+        "title": "Nvidia、Microsoft、Linux Foundation等成立Open Secure AI Alliance，开放AI安全工具成为新阵地",
+        "region": "美国/全球AI安全、开源与网络防御",
         "sources": [
-          "TechRepublic",
-          "ETEnterpriseai.com"
-        ],
-        "summary": "Intel最新财报显示，受AI数据中心和先进制程代工需求的强劲拉动，公司营收录得15年来的最快增速，大幅超出华尔街预期。这标志着其转型战略在AI硬件周期中开始兑现业绩，缓解了市场对其在AI芯片竞争中掉队的担忧。",
-        "why": "在英伟达垄断AI训练芯片的背景下，Intel在数据中心推理和定制化ASIC领域的份额回升，证明AI算力需求的外溢效应正在重塑传统芯片巨头的估值逻辑。",
-        "watch": "追踪Intel 18A制程的客户导入进度，以及其在AI推理芯片市场对英伟达和AMD的实际份额蚕食情况。",
-        "sourceLinks": [
-          "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdTlVRU1TTEl2WUk2MlVSaFoyckR0dEFFbmUyY0Q5VUFxZVZ0YUdvQzJ0OWt4N3dpd2VsVWZPTnZHMUE1bG54Z19LNlllRWxiQTdOT1hQOXZVdTVwZkNkZ1EtVmNJZWV4OF8tNi1xNEd1LTJHanJXaUFmSHd0c0s0Xy03T0dNQTZtMUhZV0ppbWc0Zk1U?oc=5",
-          "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNUUozeW5mcmdJWVJwdFNHbUFhYTE4RlBrajZBWWVJM1FHdTNIVzNYNWtNSWFxaVBrNnA1MlJwWlhYMFB0UE1OTl9Od2U0cTlQVXlwUmhUTGdieGVFWDRXOXFmWm5iclAwbTgtb3gyTDVnS0JmSU5IR3hPc3dab2RSWU52MTVYQUljOE1PbFFEOEFpcmxCcDNyQTJaWXk2ZE9NREluNlpibl9BNUVOMGhZVE9qQmJmZEE3QmdZM3JDQV90UEZ1LUVLN0pBU2tiQWJ0SUJLRzM3Z1BobkMxaWp3S25HNHRfNVYxX01wQWtDMVbSAfYBQVVfeXFMTTR4Y21qUzhKMWhSaDBtalJWRkw3aFZCUmF6Qnlrb2NrejJRSUdNU2ZRSi1Wb1lVNXltV1ZFRDRrejJvM2Rqckxqb0RhNjNJeGlwWjV1V0ZpMzRYN3NTNkJub05BXzl2c2t6R1FZYTlwN0d4VkVFQldQWG5mZTFTdDFKREtFemktaTBIVEl4MWJZMFdQSkRRTXZLeTFFYnNyd1JyTHFuNng0NnNZM1pXRWNNejhmQ2I3Zmh0blVYcENWYmhZRlhqcy04cWIxRUQ3bWlHbDNNZU5xeGNWTzNsQVRZaGMtd01FY3F3dUktWXBrMVMxM01n?oc=5"
-        ]
-      },
-      {
-        "title": "中国开源AI模型Kimi K3以免费策略冲击市场，硅谷警惕商业化路径被颠覆",
-        "region": "中国/美国",
-        "sources": [
+          "NVIDIA Blog",
+          "Linux Foundation",
+          "Wall Street Journal",
           "The Verge"
         ],
-        "summary": "Moonshot AI发布的Kimi K3模型在多项基准测试中击败美国顶尖闭源系统，且采用完全开源和免费策略。硅谷正紧急评估这种“降维打击”对美国AI公司依赖高昂API订阅和算力溢价的商业模式构成的系统性威胁。",
-        "why": "中国AI企业通过开源和极致成本优势争夺全球开发者生态，正在将AI模型从“高毛利软件”推向“基础设施级公共品”，这可能迫使美国巨头重新调整其AI变现预期。",
-        "watch": "观察美国头部AI公司是否会跟进开源策略，以及开源模型在边缘计算和企业私有化部署中的实际渗透率。",
-        "sourceLinks": [
-          "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies"
-        ]
+        "summary": "Nvidia宣布与Microsoft、IBM、Cisco、Cloudflare、CrowdStrike、Hugging Face、Linux Foundation、Palantir、Red Hat等数十家机构组成Open Secure AI Alliance，目标是共享用于AI代理和软件安全的开放模型、工具和方法。Nvidia同步开源NOOA代理框架，用于让AI代理行为更易测试、追踪、审计和治理。",
+        "why": "近几天已覆盖开放权重政策信和Hugging Face事故；这条新增事实是产业方把争论落到联盟和工具交付上。开放模型不再只是模型分发议题，而被包装成网络防御能力、漏洞披露流程和代理治理栈的一部分。",
+        "watch": "关注NOOA、Akrites和OpenSSF相关项目是否获得真实企业采用，OpenAI、Google、Anthropic缺席是否扩大开闭源阵营分歧，以及美国监管是否区分开放模型、开放工具和高风险自主代理。"
       },
       {
-        "title": "AI相关债券市场出现裂痕，科技巨头资本支出激增引发投资者与监管双重反弹",
-        "region": "美国",
+        "title": "Amazon Leo申请5105颗卫星直连手机网络，2028年起与Starlink争夺D2D通信",
+        "region": "美国/低轨卫星、通信与平台基础设施",
         "sources": [
-          "MarketWatch",
-          "Yahoo Finance"
-        ],
-        "summary": "在Meta和微软财报发布前夕，AI相关债券收益率出现异常波动，市场对科技巨头无底洞般的AI资本支出能否产生匹配现金流产生严重疑虑。同时，多州监管机构开始拒绝让传统电网消费者为科技公司的AI数据中心电力扩建买单，政治与监管风险加剧。",
-        "why": "AI行情的压力测试正从股票市场蔓延至信用债市场，而电网成本转嫁引发的选民反弹，可能成为限制AI物理基础设施扩张速度的首个重大非技术性瓶颈。",
-        "watch": "紧盯本周Meta和微软财报中关于AI资本支出上限的表态，以及各州公用事业委员会对数据中心电价附加费的最终裁决。",
-        "sourceLinks": [
-          "https://www.marketwatch.com/story/more-cracks-emerge-in-ai-related-bonds-as-meta-microsoft-earnings-loom-04275db2?mod=mw_rss_topstories",
-          "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbXdzVmRjS1BDY25Fa3hTWVlXclVIQzkxblFXVWNqdTkxd1BfWHg3aHlUVFo3MDJVQ0pPWVZVR0ZYbUxtM3VkSlMtaTdpLWctR0xldEUyQ0hUd0Z4dXh1QTVIcEFPZjF3Qm1hOUxJcmQ4WnNFRUgyQWFwZE5MQU1lSms3cHY4M2t4VmpqbmQxbFd1N29scUxoVkRyZ200YXB0QTVvbnpEZHVBRnIySEt4bGFfM1lDenpCWjkyRA?oc=5"
-        ]
-      },
-      {
-        "title": "亚马逊向FCC申请LEO卫星直连手机网络，计划2028年挑战全球通信基础设施",
-        "region": "美国",
-        "sources": [
+          "Reuters",
+          "FCC filing",
+          "Bloomberg Law",
           "The Verge"
         ],
-        "summary": "亚马逊提交FCC申请，计划部署新的低轨（LEO）卫星星座，为全球智能手机提供直接的语音、短信、数据和紧急服务。若获批，该项目将于2028年上线，直接对标Starlink并深度整合AWS云基础设施。",
-        "why": "卫星直连手机（Direct-to-Device）正成为下一代通信基建的核心战场，亚马逊此举不仅意在通信市场，更可能将其与AWS边缘计算结合，构建天地一体化的AI与物联网数据闭环。",
-        "watch": "关注FCC的频谱分配审批进度，以及亚马逊与苹果、安卓阵营在卫星通信硬件底层的合作谈判。",
-        "sourceLinks": [
-          "https://www.theverge.com/tech/971437/amazon-leo-direct-to-device-satellite-network"
-        ]
+        "summary": "路透报道，Amazon旗下Leo向美国FCC申请部署最多5105颗低轨卫星，为手机提供语音、短信、数据和紧急服务，计划2028年开始部署。该服务将与全球移动运营商合作，并使用Amazon今年同意收购的Globalstar移动卫星频谱；Amazon Leo当前已有约390颗宽带卫星在轨。",
+        "why": "这把Amazon的低轨卫星战略从固定宽带推进到手机直连，直接进入SpaceX Starlink、AST SpaceMobile、Lynk以及Apple-Globalstar生态所在的通信入口竞争。若获批，Amazon会把云、设备、频谱和太空基础设施连接成新的分发层。",
+        "watch": "关注FCC审批节奏、Globalstar交易能否顺利完成，Amazon如何解决发射能力瓶颈，以及Apple、运营商和SpaceX是否通过频谱、终端或监管意见反制。"
+      },
+      {
+        "title": "美国6月核心资本品订单增长0.9%，AI硬件需求继续托住制造业投资",
+        "region": "美国/宏观经济、制造业与AI资本开支",
+        "sources": [
+          "Reuters",
+          "U.S. Census Bureau",
+          "Wall Street Journal",
+          "MarketWatch"
+        ],
+        "summary": "美国商务部耐用品报告显示，6月非国防、剔除飞机的核心资本品订单增长0.9%，核心资本品出货创四年半最大增幅；整体耐用品订单增长0.3%至3348亿美元。路透和市场报道均指出，计算机、电子产品以及电气设备、家电和零部件需求走强，反映AI建设仍在拉动企业设备投资。",
+        "why": "这条不是科技股短线涨跌，而是AI投资进入美国宏观硬数据。即便市场担心AI债务和自由现金流，订单与出货仍显示数据中心、电子设备和计算基础设施正在给二季度经济增长提供支撑。",
+        "watch": "关注本周FOMC、PCE和二季度GDP是否把AI投资解释为增长支撑还是通胀压力，计算机电子产品订单能否持续，以及高利率是否开始压制AI相关设备和建筑投资。"
       }
     ],
     "sourceLinks": [
-      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUHE0OEhmOHhqTDNLbU9NSXRleVFYNGZubkkyYjJKNVpTRGtYQmFPWGRYUjVQZDdnc0pQX3BZaldxeEE1MUYtSmZ3Q2JPdGo1MnAxT2VTSFVGUDdqdUJaVGJ1N0hvVVVsMkNIS2I3dXBlTVBfeGw0ZGxlRmtTVEZ5RE9Kc2JjTnFUbFhPakFHcTI1aXVzRTdHMHMwV2RwZ1gyZXJvUTlJODVXUXl1R19aMkh6T1cydw?oc=5",
-      "https://www.marketwatch.com/story/nvidias-potential-new-deal-with-openai-would-revive-a-spooky-tech-bubble-habit-analyst-warns-ae34ed64?mod=mw_rss_topstories",
-      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVFdSanduTGR6WmZRSW80aVMzdHFLQWY3SkhZTElMbC1OWkhZRnlUVnNBR2NCeGkwcktUdWRidHl0MVA5RTV4NkU3X3BEdGtSY2Rlc0UwaE00Z19ISWFlZTZ4RzdCaXhhQWRiRENsQXQyVFNmbW1oNUZMdU9FZnNrZ0Rfb0xZUm51VkRpSWpjREF4V25BOXBqcTFKSnlCdkNCOHBFaS1MOVpER3E3TU5xNEVUMHk5cnh0YV9jVEREdDNoQTJ2dG1hUg?oc=5",
-      "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdTlVRU1TTEl2WUk2MlVSaFoyckR0dEFFbmUyY0Q5VUFxZVZ0YUdvQzJ0OWt4N3dpd2VsVWZPTnZHMUE1bG54Z19LNlllRWxiQTdOT1hQOXZVdTVwZkNkZ1EtVmNJZWV4OF8tNi1xNEd1LTJHanJXaUFmSHd0c0s0Xy03T0dNQTZtMUhZV0ppbWc0Zk1U?oc=5",
-      "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNUUozeW5mcmdJWVJwdFNHbUFhYTE4RlBrajZBWWVJM1FHdTNIVzNYNWtNSWFxaVBrNnA1MlJwWlhYMFB0UE1OTl9Od2U0cTlQVXlwUmhUTGdieGVFWDRXOXFmWm5iclAwbTgtb3gyTDVnS0JmSU5IR3hPc3dab2RSWU52MTVYQUljOE1PbFFEOEFpcmxCcDNyQTJaWXk2ZE9NREluNlpibl9BNUVOMGhZVE9qQmJmZEE3QmdZM3JDQV90UEZ1LUVLN0pBU2tiQWJ0SUJLRzM3Z1BobkMxaWp3S25HNHRfNVYxX01wQWtDMVbSAfYBQVVfeXFMTTR4Y21qUzhKMWhSaDBtalJWRkw3aFZCUmF6Qnlrb2NrejJRSUdNU2ZRSi1Wb1lVNXltV1ZFRDRrejJvM2Rqckxqb0RhNjNJeGlwWjV1V0ZpMzRYN3NTNkJub05BXzl2c2t6R1FZYTlwN0d4VkVFQldQWG5mZTFTdDFKREtFemktaTBIVEl4MWJZMFdQSkRRTXZLeTFFYnNyd1JyTHFuNng0NnNZM1pXRWNNejhmQ2I3Zmh0blVYcENWYmhZRlhqcy04cWIxRUQ3bWlHbDNNZU5xeGNWTzNsQVRZaGMtd01FY3F3dUktWXBrMVMxM01n?oc=5",
-      "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
-      "https://www.marketwatch.com/story/more-cracks-emerge-in-ai-related-bonds-as-meta-microsoft-earnings-loom-04275db2?mod=mw_rss_topstories",
-      "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbXdzVmRjS1BDY25Fa3hTWVlXclVIQzkxblFXVWNqdTkxd1BfWHg3aHlUVFo3MDJVQ0pPWVZVR0ZYbUxtM3VkSlMtaTdpLWctR0xldEUyQ0hUd0Z4dXh1QTVIcEFPZjF3Qm1hOUxJcmQ4WnNFRUgyQWFwZE5MQU1lSms3cHY4M2t4VmpqbmQxbFd1N29scUxoVkRyZ200YXB0QTVvbnpEZHVBRnIySEt4bGFfM1lDenpCWjkyRA?oc=5",
-      "https://www.theverge.com/tech/971437/amazon-leo-direct-to-device-satellite-network"
+      "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership",
+      "https://m.investing.com/news/stock-market-news/nvidia-to-invest-5-billion-in-ilya-sutskevers-ai-startup-source-says-4814862?ampMode=1",
+      "https://www.ft.com/content/5c78dec1-b6d6-415e-9456-f1ab5eed6146",
+      "https://www.wsj.com/tech/ai/nvidia-bets-on-ilya-sutskevers-new-ai-lab-to-expand-compute-reach-f95596e8",
+      "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
+      "https://www.linuxfoundation.org/blog/open-models-and-open-weights-are-foundational-to-secure-ai?hs_amp=true",
+      "https://www.wsj.com/tech/ai/nvidia-other-tech-giants-launch-ai-defense-alliance-following-openai-hacking-incident-a6e71198",
+      "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+      "https://au.investing.com/news/stock-market-news/amazons-leo-proposes-satellite-constellation-for-directtophone-service-4554671",
+      "https://licensing.fcc.gov/myibfs/",
+      "https://news.bloomberglaw.com/antitrust/amazon-seeks-fcc-nod-to-beam-satellite-coverage-to-mobile-phones",
+      "https://www.theverge.com/tech/971437/amazon-leo-direct-to-device-satellite-network",
+      "https://www.streetinsider.com/Reuters/US%2Bcore%2Bcapital%2Bgoods%2Borders%2Brise%2C%2Bshipments%2Bpost%2Blargest%2Bgain%2Bin%2B4-12%2Byears%2Bamid%2BAI%2Binvestment%2Bboom/26816770.html",
+      "https://www.census.gov/manufacturing/m3/adv/current/index.html",
+      "https://www.wsj.com/economy/u-s-durable-goods-orders-rose-less-than-expected-in-june-d226a9f6",
+      "https://www.marketwatch.com/story/the-ai-boom-shows-no-sign-of-slowing-and-the-u-s-economy-is-reaping-the-benefits-1728c4e5"
     ]
   },
   {
