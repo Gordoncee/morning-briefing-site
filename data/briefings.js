@@ -1,5 +1,84 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-29",
+    "displayDate": "2026年7月29日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-29.png",
+    "summary": "本日简报聚焦AI基础设施军备竞赛引发的资本市场震荡。Google单季资本支出飙升至449亿美元导致现金流首次转负，引发华尔街对科技巨头AI投资回报的担忧；惠誉警告AI市场回调正成为全球信用风险。同时，OpenAI在英伟达支持下推进5000亿美元数据中心项目。芯片板块遭遇重挫，Micron与SK Hynix因中国供应链担忧及AI抛售创多年跌幅。此外，美国拟出台针对中国先进机器人与逆变器的进口禁令，硬件脱钩加剧。",
+    "focus": [
+      "AI资本支出、芯片股抛售、数据中心基建、科技供应链监管",
+      "科技巨头AI资本开支从‘讲故事’进入‘看现金流’的残酷验证期，单季近450亿美元的支出规模直接测试市场容忍度。",
+      "AI硬件行情的压力测试从利润增速转向地缘政治与供需基本面，中国国产替代预期正在重塑全球存储芯片的定价逻辑。"
+    ],
+    "items": [
+      {
+        "title": "Google AI资本支出激增引发华尔街担忧",
+        "region": "美国",
+        "sources": [
+          "Tom's Hardware",
+          "The Verge",
+          "MarketWatch"
+        ],
+        "summary": "Google单季度资本支出飙升至449亿美元用于AI数据中心建设，导致公司现金流首次转负。CFO警告2027年支出将继续增加。这一创纪录的支出引发华尔街对科技巨头AI投资回报周期和自由现金流的严重担忧，Alphabet等科技股承压。",
+        "why": "科技巨头AI资本开支从‘讲故事’进入‘看现金流’的残酷验证期，单季近450亿美元的支出规模直接测试市场容忍度。",
+        "watch": "关注微软、Meta和亚马逊后续财报中的资本支出指引及自由现金流变化，评估AI基建对科技股估值的长期压制效应。"
+      },
+      {
+        "title": "内存与AI芯片股遭遇重挫，Micron创11年最大月度跌幅",
+        "region": "全球",
+        "sources": [
+          "MarketWatch",
+          "Yahoo Finance",
+          "The Guardian"
+        ],
+        "summary": "受中国本土芯片供应链崛起担忧及AI需求放缓预期影响，Micron和SK Hynix等内存与AI芯片股遭遇大幅抛售。Micron股价面临11年来最差单月表现，韩国股市也因AI抛售跌至三个月低点，相关杠杆ETF遭受重创。",
+        "why": "AI硬件行情的压力测试从利润增速转向地缘政治与供需基本面，中国国产替代预期正在重塑全球存储芯片的定价逻辑。",
+        "watch": "紧盯中国本土存储芯片产能释放进度，以及下半年云厂商对HBM和传统DRAM的采购订单调整。"
+      },
+      {
+        "title": "OpenAI在英伟达支持下推进5000亿美元数据中心项目",
+        "region": "美国",
+        "sources": [
+          "The New York Times"
+        ],
+        "summary": "OpenAI正接近敲定一项规模高达5000亿美元的数据中心建设计划，该项目获得了英伟达的支持。这标志着前沿AI模型公司对算力基础设施的争夺已从租赁转向超大规模的自建与深度绑定。",
+        "why": "5000亿美元量级的单一基建项目将深刻改变AI算力供应链格局，英伟达的深度参与意味着芯片巨头正通过资本与生态双重绑定锁定头部客户。",
+        "watch": "关注该项目的融资结构、电力供应解决方案及落地时间表，评估其对全球AI算力分配和能源市场的冲击。"
+      },
+      {
+        "title": "惠誉警告AI市场回调正成为全球主要信用风险",
+        "region": "全球",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "惠誉评级发布报告警告称，AI市场估值回调和科技巨头庞大的资本支出正演变为全球主要的信用风险。随着AI投资热潮推高企业杠杆，若AI商业化变现不及预期，相关债务违约风险将显著上升。",
+        "why": "国际评级机构首次将AI资本开支与宏观信用风险直接挂钩，表明AI投资热潮的副作用已开始引起传统金融监管与风控体系的警觉。",
+        "watch": "关注高杠杆AI基建项目（如Core Scientific等算力租赁商）的融资成本变化，以及债券市场对科技巨头信用利差的重新定价。"
+      },
+      {
+        "title": "美国拟禁止外国先进机器人与逆变器进口，科技硬件脱钩加剧",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "美国政府针对中国出台新规，拟禁止进口外国制造的“先进机器人设备”和电力逆变器。此举旨在保护本土关键基础设施和制造业供应链，标志着中美科技博弈从半导体和AI软件延伸至具身智能与能源硬件领域。",
+        "why": "美国对华科技限制范围再次扩大，机器人与逆变器禁令将直接冲击中国相关企业的出海逻辑，并加速全球硬件供应链的阵营化。",
+        "watch": "关注禁令的具体实施细节、豁免条款及中国相关企业的应对策略，评估其对全球工业自动化和新能源出海格局的影响。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQYkNWVjNqSzlaYnhITFdQNE5EX0d4Tk9NLThjWjZ2amx2THN2M2ZDS0xINDJUQnl0V0o2OUs2RnNVVzFTSWRnMXZCWWpMN1lvdkVkc0JkYVc3dG42c1FRX2tFMUJhYkE2R3pNRF9WVVRYdDlWdEpoUVhUblFUaU5FTEx4Ri1rOENXakFfR21vU1VwYVZvYXhneTRiUzRFa3U2bkpyNUtkYmNQX1VWVkZ0aWRRZXh2dU1WLTNQUHBveWJRVmpWWDBvX1ZJWGw1NEticUV2dWYtckEzTGRFQV9yNDVyNzdIZjdJWld3Q2dPcmo?oc=5",
+      "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
+      "https://www.marketwatch.com/story/alphabet-and-tesla-took-a-hit-from-soaring-ai-spending-will-microsoft-meta-and-amazon-be-next-80ecb30b?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/microns-stock-sinks-toward-worst-monthly-drop-in-11-years-as-china-fears-escalate-3c956a67?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMTlZTTExZWhfVm5UV3dMWWJTaEVEeTFNYnp4MTIxR1FXRzNhUTV2c2hXeUVlenVtY1ZndmJGekt2by14UklrRFozRF9mekE1dTFNak5qeGx3OEJrSGFtZVQ5QlgySHRZMGJ5UWNwRzZheWVMWFVfUFZsakVqempLUVJqT09hY0pVODdxTkZMT21qTDdkMTZYcGN6Q1dFalIwT2xfSkhfb3A1THltNVhYcUlB?oc=5",
+      "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcmVZT1owblRILUJnajMzUHdYa3Y3SmJwc0NrcFpJZXNTWkFSQlpjR191U1dkcHVha0lTUEpFa0stREtycWg5bmFMVTZERGN4R1ZSYkxKdzVWODBVcXFHX25TS3FpaVpZNlplaW9YTVh2Zm5jLVVrNy10RUNHcDJad05LU1FwNnV6ZVNweTJVUi1WWEU?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxObTNBSmE3VDNINUgxdnVXVjFIVGNGX3F5ckZSSzE5UHd1WjFpbW5ORzc5NVRwUTU1eWNIelBmODFtWFE3cW4xd29oZl9ucWJEeDZUUVo4LTVOWXFTSVZsQXhDWU8yVjRJemVCal8xZ2dkV2RWTzczUlk0Z2dhR2pLSExR?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVnVBTFdsSkpXUXYxYmFNSTF0dFRUWnBacGpRQnhBbnRiZ0dZR1ZfcHZ5QnlIY3NRMF95dUkzNTUzMDhBam9kak5LY3pFbHpMcXNUenhtOEtuQkRXT01xWU05TlZGNFc3d2ZXblZpSTcwNlNzUGQzYXN0UEJxbTRITURHQ1JROVhhRHM5TV9IV3U3QjRJdW5hMkY3ZkVMZUhuZTNsZDVPYTltcjFCd2s4VHJjMVo?oc=5",
+      "https://www.theverge.com/tech/972259/us-foreign-robots-power-inverter-ban"
+    ]
+  },
+  {
     "date": "2026-07-28",
     "displayDate": "2026年7月28日",
     "scope": "全球新闻｜科技与财经优先",
