@@ -1,5 +1,86 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-30",
+    "displayDate": "2026年7月30日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-30.png",
+    "summary": "本期简报聚焦AI产业链的估值分化与宏观震荡。Arm凭借AI芯片需求交出创纪录财报并上调营收目标，但英伟达庞大的AI投资网络正面临“循环泡沫”审查；韩国股市因AI热潮消退暴跌引发监管救市；宏观层面，伊朗冲突推高油价与AI科技股下挫共振，导致道指重挫逾1100点；此外，高通宣布芯片涨价但财报受内存成本拖累不及预期，凸显硬件供应链的利润挤压。",
+    "focus": [
+      "AI芯片业绩分化、科技股估值泡沫审查、地缘冲突与美股宏观共振",
+      "作为芯片设计的底层授权方，Arm的业绩是验证AI算力需求是否从云端向边缘和终端全面扩散的关键指标。",
+      "当AI基建的资本开支规模达到系统性级别时，资金闭环和交叉持股极易催生估值泡沫，这直接关系到整个AI硬件供应链的定价逻辑。"
+    ],
+    "items": [
+      {
+        "title": "Arm凭AI芯片需求交出创纪录财报，设定250亿美元营收目标",
+        "region": "全球",
+        "sources": [
+          "Reuters",
+          "Investing.com"
+        ],
+        "summary": "Arm发布FY27第一季度财报，受AI驱动的芯片需求推动，业绩创历史新高且季度营收指引超出市场预期。公司管理层在幻灯片中明确了250亿美元的长期营收目标，凸显其在AI边缘计算与数据中心架构中的核心地位。",
+        "why": "作为芯片设计的底层授权方，Arm的业绩是验证AI算力需求是否从云端向边缘和终端全面扩散的关键指标。",
+        "watch": "关注Arm在AI服务器CPU及定制芯片领域的授权费增速，以及手机市场复苏对整体营收的拖累是否见底。"
+      },
+      {
+        "title": "英伟达7500亿美元AI投资网络面临审查，引发“循环科技泡沫”担忧",
+        "region": "美国",
+        "sources": [
+          "Los Angeles Times",
+          "CarbonCredits.com"
+        ],
+        "summary": "媒体与研究机构开始深度审视英伟达及其生态系统高达7500亿美元的AI投资网络。市场担忧科技巨头间的交叉投资与算力采购可能形成“循环收入”，导致AI资本开支的实质性回报被高估，英伟达股价因此承受显著压力。",
+        "why": "当AI基建的资本开支规模达到系统性级别时，资金闭环和交叉持股极易催生估值泡沫，这直接关系到整个AI硬件供应链的定价逻辑。",
+        "watch": "监管机构或做空机构是否会针对科技巨头间的“循环AI投资”发起正式调查，以及英伟达后续财报中非关联方收入的占比变化。"
+      },
+      {
+        "title": "韩国股市因AI热潮消退暴跌，监管机构紧急干预防范泡沫破裂",
+        "region": "韩国",
+        "sources": [
+          "Al Jazeera",
+          "Futurism"
+        ],
+        "summary": "随着全球AI驱动的科技股繁荣出现降温迹象，高度依赖半导体和AI概念的科技重镇韩国股市遭遇重挫。韩国金融当局正紧急采取措施稳定市场，试图防止AI泡沫破裂引发系统性抛售。",
+        "why": "韩国KOSPI是全球AI内存和代工产业链的晴雨表，其剧烈波动和官方救市行为，标志着AI硬件周期的预期差正在引发新兴市场的流动性风险。",
+        "watch": "韩国央行及金融委员会的具体救市工具，以及SK海力士、三星等权重股的外资流出速度。"
+      },
+      {
+        "title": "道指重挫逾1100点，AI科技股下挫与伊朗冲突推高油价形成宏观共振",
+        "region": "美国/中东",
+        "sources": [
+          "Boston Herald",
+          "Orlando Sentinel"
+        ],
+        "summary": "受伊朗冲突升级导致油价大幅跳涨，以及AI科技股持续回调的双重打击，道琼斯工业平均指数单日暴跌超过1100点。通胀预期反弹与高估值科技股的盈利担忧交织，导致华尔街出现广泛的避险抛售。",
+        "why": "地缘政治引发的能源通胀与AI资本开支带来的估值压力同时爆发，打破了此前市场“AI对冲宏观风险”的叙事，迫使资金重新评估科技股的久期风险。",
+        "watch": "原油价格突破关键阻力位后的持续性，以及美联储官员对“油价推升通胀+科技股杀估值”组合拳的紧急表态。"
+      },
+      {
+        "title": "高通宣布9月起上调手机芯片价格，但受内存成本拖累财报不及预期",
+        "region": "美国",
+        "sources": [
+          "The Verge",
+          "MarketWatch"
+        ],
+        "summary": "高通CEO宣布将于9月1日起全面上调手机处理器价格，以应对成本压力。然而，公司最新季度财报因内存等供应链成本问题导致利润不及预期，股价在盘后下跌，凸显了芯片设计公司在AI与消费电子双重周期下的利润挤压。",
+        "why": "高通的涨价决定与财报miss形成鲜明对比，反映出上游晶圆与内存成本飙升正在侵蚀Fabless芯片厂的利润率，终端消费电子涨价压力进一步加剧。",
+        "watch": "9月涨价后安卓阵营旗舰机的定价策略与销量反馈，以及高通在汽车与XR等非手机业务上的利润率能否弥补手机端的成本冲击。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ3g5ZldnMEFjVU51UnJJbC0zTnp4Z2NUTUNabFFiUThXODhmRVpUSFpock9lTHRyc19EYUdEQXFxVjRpNGRVdHFmelJvOHhIbEdkVEhjUDRsY243ZUhDaWs3Ylc5YXMyMzZxcHNWX0lZdFBRRFA5SkkzTzI5b0ctRzluQlQ3M1AyT1kzZFI2aGs3MjA2eENmMUdiLVZtbzlWT0ZaZFJkNzRyaEU3aUllY2xrTlNWRS1PcHQtMDNBZlBLYzZwVmZzNUVn?oc=5",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZVVTQlprWVMyQ2RPQUFEVVBaWWNwajJGdXpnaFV3dzI2Mzh6ZEFGX2RyY0c0X3BzUFRhWF9CdzlaV2w1cjM1VllLRFBwa3RlODlBZFQxNjZVM1NEUHpZSVFZYnl0a1J0X0xHSHB5TkdlUWFnWGlXbmNJcHFPV0pLOXpfV2pZSUdEbXVNcGtQbUtIQmdZZDg1R3dXTzkxQjNzM3Uza29CM2xYUW5hUE9Bb0lWd3k5OWFHWmU5QXEwVEwtdTg?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRklmMV9LZFpNZmpSZk55VHhOQ1hoTXRrRDlfR0FxRmJob09oMHZjTmgxdUJJbmF2Rm0zT3ZsV0ZYQWRyQ3ZtTG9oeXFQdnRHdXFfellVZ0hNLVBxVFY0R1I5TkUydW84N2gwSEh1RXROc09pZ3ItRnBqV3lSWjVhSXhZQVBZeFpWMnFpb0tHMDZnVF85VUFmR0k0dmxtTlN0Y1oxckZBcUVQVGFlOWZSc2FvNDM?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWFVERDB3X3ZSNW03ckI2OWQ3eWk0aWlFd0lXcmV6YmRVZ1FnaVg3UHZqZUo2a0JEb1ZwVVRKbHU3MTB6ZHZpUWxmNmdLYVhqMjRlVHVRODFrczFsTUtGTHpuMHo3eU10VUNzYkNSVkVvdnZSNFhjeUxkSHREcWRza01B?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRmZNcEtQUnpRbHdtRWpiVng1dnhxVlJCM1VVdzZRQUpwMjh0cGJDLVRuWnZpSDdjc1Q5VkpYaUF3OWRZU0NPYjZzSUxvakwtMjBVLVdRSjdLOVI0QmpockFtQTIwamJHNW1TREJsZXBrN1ZQX001VHBfMldwUEQtTGVIMG5YTGN6aEdQeU9mOEsxTU51Y3NlRjI2UVFlbTZZTGVv0gGoAUFVX3lxTE8tVjBGU2Mtb3BsRTVwU3BZWmVua0ZBS3ZFT012R0JuTkgwQ0M3UlFTaEdRdURyYnM0X0lPTlBCQjFmVEpKYXBqOGhJR0RiRHRoZXpFdEk4eENJT0QtaXBTMXNHN3g5alF3T0FMU0U4RkJQTUlrWXJFODNkRVlVdUJOQTRyTFpScExfUHdYRjRUSUlWTERBNDNOazdneHlEZXhGTHVWUU1RVg?oc=5",
+      "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUzZvRFd6MnlrNFZNdGpiQjZLU1dwOUNrOVFOdmZ4MHZIUUdvUjlBQ3VZbjFJWUZtU1pLS3dRM2pEd2JOd21KUWtSVlBWenEzTFkxNjlQOHhzWjNzcldKaGQtVmwwVTJFSHpVV3I2UjNqc3U2VXF5TV9OVlZYUE91SXFhR2NnTmdPSXVUX0tVR3puUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2azJPQ3BPVnExdFpibFhaRjctaVJGN3l1SUxSZEFBSTJ0MXdheGM4S2c4dDFQTEpfSnFiYXFUeGhzS0ZBVHpuSU5sbmg1MnlvWmhFYVM2SUZGQmdtdVE0TzI3YVQ5ejVsdFdMSnZENzRCNzRCRHc?oc=5",
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTE05QmZaTE5EbXNJVTZ0bkt2MWhoc1JreDZzaG9OSWxBLWRhTTd0aExTNHExakRZRUhNTlVIb1k5dncwNUVvOFlDZkNzeHFqY01ScVJGWDBzajZ0S2ZxekhmbGtXQk0xUGhidnZpVk42dzhFcVZLS08tX25R?oc=5",
+      "https://www.theverge.com/tech/972894/qualcomm-price-hikes-q2-2026-earnings",
+      "https://www.marketwatch.com/story/qualcomms-stock-falls-as-memory-woes-weigh-on-earnings-fc2b6317?mod=mw_rss_topstories"
+    ]
+  },
+  {
     "date": "2026-07-29",
     "displayDate": "2026年7月29日",
     "scope": "全球新闻｜科技与财经优先",
