@@ -4,80 +4,81 @@ window.MORNING_BRIEFINGS = [
     "displayDate": "2026年7月30日",
     "scope": "全球新闻｜科技与财经优先",
     "image": "assets/morning-briefing-2026-07-30.png",
-    "summary": "本期简报聚焦AI产业链的估值分化与宏观震荡。Arm凭借AI芯片需求交出创纪录财报并上调营收目标，但英伟达庞大的AI投资网络正面临“循环泡沫”审查；韩国股市因AI热潮消退暴跌引发监管救市；宏观层面，伊朗冲突推高油价与AI科技股下挫共振，导致道指重挫逾1100点；此外，高通宣布芯片涨价但财报受内存成本拖累不及预期，凸显硬件供应链的利润挤压。",
+    "summary": "本期只纳入4条，原因是今日可交叉核验且与最近7天不重复的新科技财经事件集中在大型科技财报、央行利率决定和AI基础设施链条的业绩验证；Apple、Amazon等重要财报截至本次检索时尚未发布，Nvidia/OpenAI数据中心融资、Hugging Face安全事故、CXMT/中际旭创融资和泛化AI抛售已在近几期覆盖，不再用延伸解读凑数。今日保留的新进展包括：Microsoft Q4财报显示Azure全年收入首次超过1000亿美元并保持AI投入回报叙事，Meta Q2利润下滑且上调全年AI资本开支下限，美联储维持3.5%-3.75%利率但出现三名鹰派异议，Seagate财报和指引显示AI数据中心需求继续推高大容量存储景气度。",
     "focus": [
-      "AI芯片业绩分化、科技股估值泡沫审查、地缘冲突与美股宏观共振",
-      "作为芯片设计的底层授权方，Arm的业绩是验证AI算力需求是否从云端向边缘和终端全面扩散的关键指标。",
-      "当AI基建的资本开支规模达到系统性级别时，资金闭环和交叉持股极易催生估值泡沫，这直接关系到整个AI硬件供应链的定价逻辑。"
+      "大型科技财报开始把AI资本开支分出胜负：Microsoft用Azure和Copilot增长支撑投资回报，Meta则因法律、裁员和更高AI支出承受现金流压力。",
+      "美联储按兵不动但鹰派异议扩大，长端利率和油价会继续影响AI数据中心融资、科技股估值和企业资本开支折现率。",
+      "AI基础设施受益链条从GPU、HBM、光模块继续扩展到硬盘和存储系统，Seagate的订单和指引提供了不同于短线股价波动的实物需求证据。"
     ],
     "items": [
       {
-        "title": "Arm凭AI芯片需求交出创纪录财报，设定250亿美元营收目标",
-        "region": "全球",
+        "title": "Microsoft Q4收入900.0亿美元，Azure全年首次突破1000亿美元",
+        "region": "美国/云计算、企业AI与大型科技财报",
         "sources": [
-          "Reuters",
-          "Investing.com"
+          "Microsoft",
+          "AP",
+          "Wall Street Journal"
         ],
-        "summary": "Arm发布FY27第一季度财报，受AI驱动的芯片需求推动，业绩创历史新高且季度营收指引超出市场预期。公司管理层在幻灯片中明确了250亿美元的长期营收目标，凸显其在AI边缘计算与数据中心架构中的核心地位。",
-        "why": "作为芯片设计的底层授权方，Arm的业绩是验证AI算力需求是否从云端向边缘和终端全面扩散的关键指标。",
-        "watch": "关注Arm在AI服务器CPU及定制芯片领域的授权费增速，以及手机市场复苏对整体营收的拖累是否见底。"
+        "summary": "Microsoft公布截至6月30日的FY26第四财季收入900亿美元，同比增长18%；净利润358亿美元，同比增长31%。公司称Microsoft Cloud收入593亿美元，同比增长27%，Azure及其他云服务收入增长43%，Azure全年收入首次超过1000亿美元，Microsoft 365 Copilot付费席位超过3000万。AP报道补充称，本季度资本开支为410亿美元，投资人重点关注Azure和Copilot能否证明AI投入回报。",
+        "why": "过去几期一直在追踪AI资本开支焦虑；这条新增的是核心云厂商的已发布财报数据。Microsoft同时展示云基础设施和AI应用付费增长，使市场看到“烧钱建设算力”和“产品变现”之间可能形成闭环。",
+        "watch": "关注管理层电话会对2026年资本开支约1750亿至1900亿美元口径的解释，Azure是否继续供不应求，Copilot付费席位增长能否转化为ARPU，以及OpenAI/Anthropic投资收益波动是否影响可比利润。"
       },
       {
-        "title": "英伟达7500亿美元AI投资网络面临审查，引发“循环科技泡沫”担忧",
-        "region": "美国",
+        "title": "Meta Q2利润降14%，全年AI资本开支下限上调至1300亿美元",
+        "region": "美国/社交平台、AI基础设施与监管成本",
         "sources": [
-          "Los Angeles Times",
-          "CarbonCredits.com"
+          "Meta",
+          "AP",
+          "MarketWatch",
+          "The Verge"
         ],
-        "summary": "媒体与研究机构开始深度审视英伟达及其生态系统高达7500亿美元的AI投资网络。市场担忧科技巨头间的交叉投资与算力采购可能形成“循环收入”，导致AI资本开支的实质性回报被高估，英伟达股价因此承受显著压力。",
-        "why": "当AI基建的资本开支规模达到系统性级别时，资金闭环和交叉持股极易催生估值泡沫，这直接关系到整个AI硬件供应链的定价逻辑。",
-        "watch": "监管机构或做空机构是否会针对科技巨头间的“循环AI投资”发起正式调查，以及英伟达后续财报中非关联方收入的占比变化。"
+        "summary": "Meta第二季度收入608亿美元，同比增长28%，但净利润降至158.5亿美元，同比下降14%。公司称成本和费用同比增长55%至420.3亿美元，其中包括24亿美元法律相关费用和11.8亿美元裁员费用；资本开支为310.8亿美元，并把2026年资本开支预期从1250亿至1450亿美元收窄为1300亿至1450亿美元。Meta同时给出第三季度收入610亿至640亿美元指引，低于部分市场预期。",
+        "why": "这与Microsoft形成当天财报对照：同样押注AI基础设施，Meta的广告增长仍强，但法律、裁员和数据中心支出让自由现金流大幅承压。它会影响市场如何给消费级AI代理、个人超智能叙事和社交平台监管风险定价。",
+        "watch": "关注Meta是否进一步解释BlackRock 1吉瓦数据中心、AI人才重组和商业AI代理的收入路径，Threads与Instagram增长能否抵消监管和青少年安全诉讼压力，以及全年资本开支是否还会继续上调。"
       },
       {
-        "title": "韩国股市因AI热潮消退暴跌，监管机构紧急干预防范泡沫破裂",
-        "region": "韩国",
+        "title": "美联储维持3.5%-3.75%利率不变，三名委员主张加息",
+        "region": "美国/宏观政策、债券市场与风险资产",
         "sources": [
-          "Al Jazeera",
-          "Futurism"
-        ],
-        "summary": "随着全球AI驱动的科技股繁荣出现降温迹象，高度依赖半导体和AI概念的科技重镇韩国股市遭遇重挫。韩国金融当局正紧急采取措施稳定市场，试图防止AI泡沫破裂引发系统性抛售。",
-        "why": "韩国KOSPI是全球AI内存和代工产业链的晴雨表，其剧烈波动和官方救市行为，标志着AI硬件周期的预期差正在引发新兴市场的流动性风险。",
-        "watch": "韩国央行及金融委员会的具体救市工具，以及SK海力士、三星等权重股的外资流出速度。"
-      },
-      {
-        "title": "道指重挫逾1100点，AI科技股下挫与伊朗冲突推高油价形成宏观共振",
-        "region": "美国/中东",
-        "sources": [
-          "Boston Herald",
-          "Orlando Sentinel"
-        ],
-        "summary": "受伊朗冲突升级导致油价大幅跳涨，以及AI科技股持续回调的双重打击，道琼斯工业平均指数单日暴跌超过1100点。通胀预期反弹与高估值科技股的盈利担忧交织，导致华尔街出现广泛的避险抛售。",
-        "why": "地缘政治引发的能源通胀与AI资本开支带来的估值压力同时爆发，打破了此前市场“AI对冲宏观风险”的叙事，迫使资金重新评估科技股的久期风险。",
-        "watch": "原油价格突破关键阻力位后的持续性，以及美联储官员对“油价推升通胀+科技股杀估值”组合拳的紧急表态。"
-      },
-      {
-        "title": "高通宣布9月起上调手机芯片价格，但受内存成本拖累财报不及预期",
-        "region": "美国",
-        "sources": [
-          "The Verge",
+          "Federal Reserve",
+          "Barron's",
+          "Wall Street Journal",
           "MarketWatch"
         ],
-        "summary": "高通CEO宣布将于9月1日起全面上调手机处理器价格，以应对成本压力。然而，公司最新季度财报因内存等供应链成本问题导致利润不及预期，股价在盘后下跌，凸显了芯片设计公司在AI与消费电子双重周期下的利润挤压。",
-        "why": "高通的涨价决定与财报miss形成鲜明对比，反映出上游晶圆与内存成本飙升正在侵蚀Fabless芯片厂的利润率，终端消费电子涨价压力进一步加剧。",
-        "watch": "9月涨价后安卓阵营旗舰机的定价策略与销量反馈，以及高通在汽车与XR等非手机业务上的利润率能否弥补手机端的成本冲击。"
+        "summary": "7月FOMC以9比3决定维持联邦基金利率目标区间在3.5%至3.75%不变，并继续维持充足准备金政策。Barron's刊载的声明显示，委员会认为经济活动仍稳步扩张、生产率和资本投资强劲，但通胀仍高于2%目标；WSJ和MarketWatch报道指出，Beth Hammack、Neel Kashkari和Lorie Logan三名委员支持加息25个基点，这是同方向异议显著扩大的信号。",
+        "why": "这条不是普通利率新闻，而是直接影响AI交易的折现率和融资成本。近几天简报多次提到AI数据中心债务、租约和供应商担保；长端收益率上行会让这些项目的信用结构更快暴露压力。",
+        "watch": "关注8月通胀和PCE数据、9月会议是否转向加息，油价和中东冲突是否让能源通胀重新抬头，以及科技公司高额资本开支是否在更高利率下继续获得市场容忍。"
+      },
+      {
+        "title": "Seagate财报超预期并上调指引，AI数据中心把存储链条推到前台",
+        "region": "美国/数据存储、AI基础设施与半导体供应链",
+        "sources": [
+          "Seagate",
+          "MarketWatch",
+          "Barron's",
+          "Wall Street Journal"
+        ],
+        "summary": "Seagate公布FY26第四财季收入36.3亿美元，非GAAP摊薄每股收益5.71美元；公司给出FY27第一财季收入41亿美元、非GAAP摊薄每股收益7.30美元的指引。MarketWatch称其收入同比增长48%，超出FactSet预期；Barron's和WSJ均把业绩改善归因于AI相关数据存储需求、长期客户协议和大容量硬盘供给紧张。",
+        "why": "近几期已覆盖GPU、HBM、光模块和数据中心租约；Seagate提供的是同一AI基础设施周期在存储层的新增财报证据。生成式AI、日志、训练数据、推理缓存和企业数据湖都会消耗海量存储，这让硬盘重新成为AI供应链中的定价资产。",
+        "watch": "关注Western Digital、Micron和SK Hynix后续指引是否验证存储需求扩散，HAMR高密度硬盘产能是否足以满足云客户长期协议，以及中国存储设备和DRAM竞争是否压低远期利润率。"
       }
     ],
     "sourceLinks": [
-      "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ3g5ZldnMEFjVU51UnJJbC0zTnp4Z2NUTUNabFFiUThXODhmRVpUSFpock9lTHRyc19EYUdEQXFxVjRpNGRVdHFmelJvOHhIbEdkVEhjUDRsY243ZUhDaWs3Ylc5YXMyMzZxcHNWX0lZdFBRRFA5SkkzTzI5b0ctRzluQlQ3M1AyT1kzZFI2aGs3MjA2eENmMUdiLVZtbzlWT0ZaZFJkNzRyaEU3aUllY2xrTlNWRS1PcHQtMDNBZlBLYzZwVmZzNUVn?oc=5",
-      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZVVTQlprWVMyQ2RPQUFEVVBaWWNwajJGdXpnaFV3dzI2Mzh6ZEFGX2RyY0c0X3BzUFRhWF9CdzlaV2w1cjM1VllLRFBwa3RlODlBZFQxNjZVM1NEUHpZSVFZYnl0a1J0X0xHSHB5TkdlUWFnWGlXbmNJcHFPV0pLOXpfV2pZSUdEbXVNcGtQbUtIQmdZZDg1R3dXTzkxQjNzM3Uza29CM2xYUW5hUE9Bb0lWd3k5OWFHWmU5QXEwVEwtdTg?oc=5",
-      "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRklmMV9LZFpNZmpSZk55VHhOQ1hoTXRrRDlfR0FxRmJob09oMHZjTmgxdUJJbmF2Rm0zT3ZsV0ZYQWRyQ3ZtTG9oeXFQdnRHdXFfellVZ0hNLVBxVFY0R1I5TkUydW84N2gwSEh1RXROc09pZ3ItRnBqV3lSWjVhSXhZQVBZeFpWMnFpb0tHMDZnVF85VUFmR0k0dmxtTlN0Y1oxckZBcUVQVGFlOWZSc2FvNDM?oc=5",
-      "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWFVERDB3X3ZSNW03ckI2OWQ3eWk0aWlFd0lXcmV6YmRVZ1FnaVg3UHZqZUo2a0JEb1ZwVVRKbHU3MTB6ZHZpUWxmNmdLYVhqMjRlVHVRODFrczFsTUtGTHpuMHo3eU10VUNzYkNSVkVvdnZSNFhjeUxkSHREcWRza01B?oc=5",
-      "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRmZNcEtQUnpRbHdtRWpiVng1dnhxVlJCM1VVdzZRQUpwMjh0cGJDLVRuWnZpSDdjc1Q5VkpYaUF3OWRZU0NPYjZzSUxvakwtMjBVLVdRSjdLOVI0QmpockFtQTIwamJHNW1TREJsZXBrN1ZQX001VHBfMldwUEQtTGVIMG5YTGN6aEdQeU9mOEsxTU51Y3NlRjI2UVFlbTZZTGVv0gGoAUFVX3lxTE8tVjBGU2Mtb3BsRTVwU3BZWmVua0ZBS3ZFT012R0JuTkgwQ0M3UlFTaEdRdURyYnM0X0lPTlBCQjFmVEpKYXBqOGhJR0RiRHRoZXpFdEk4eENJT0QtaXBTMXNHN3g5alF3T0FMU0U4RkJQTUlrWXJFODNkRVlVdUJOQTRyTFpScExfUHdYRjRUSUlWTERBNDNOazdneHlEZXhGTHVWUU1RVg?oc=5",
-      "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUzZvRFd6MnlrNFZNdGpiQjZLU1dwOUNrOVFOdmZ4MHZIUUdvUjlBQ3VZbjFJWUZtU1pLS3dRM2pEd2JOd21KUWtSVlBWenEzTFkxNjlQOHhzWjNzcldKaGQtVmwwVTJFSHpVV3I2UjNqc3U2VXF5TV9OVlZYUE91SXFhR2NnTmdPSXVUX0tVR3puUQ?oc=5",
-      "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2azJPQ3BPVnExdFpibFhaRjctaVJGN3l1SUxSZEFBSTJ0MXdheGM4S2c4dDFQTEpfSnFiYXFUeGhzS0ZBVHpuSU5sbmg1MnlvWmhFYVM2SUZGQmdtdVE0TzI3YVQ5ejVsdFdMSnZENzRCNzRCRHc?oc=5",
-      "https://news.google.com/rss/articles/CBMiekFVX3lxTE05QmZaTE5EbXNJVTZ0bkt2MWhoc1JreDZzaG9OSWxBLWRhTTd0aExTNHExakRZRUhNTlVIb1k5dncwNUVvOFlDZkNzeHFqY01ScVJGWDBzajZ0S2ZxekhmbGtXQk0xUGhidnZpVk42dzhFcVZLS08tX25R?oc=5",
-      "https://www.theverge.com/tech/972894/qualcomm-price-hikes-q2-2026-earnings",
-      "https://www.marketwatch.com/story/qualcomms-stock-falls-as-memory-woes-weigh-on-earnings-fc2b6317?mod=mw_rss_topstories"
+      "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/press-release-webcast",
+      "https://apnews.com/article/microsoft-earnings-results-ai-f7dff4fb9d51a2bdec56a13e5da1053d",
+      "https://www.wsj.com/articles/microsoft-earnings-q4-fy26-msft-stock-dfd3843e",
+      "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
+      "https://apnews.com/article/meta-earnings-q2-facebook-profit-revenue-ai-bcbc62dde6d2cac724e3b3385fcabeab",
+      "https://www.marketwatch.com/livecoverage/meta-earnings-stock-results-guidance-a2/card/meta-bumps-up-capex-spending-guidance-40TesMzfWnQTPtjzPWtu",
+      "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
+      "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+      "https://www.barrons.com/livecoverage/fed-meeting-july-interest-rates-news/card/read-the-full-july-fomc-statement-nYKZiSRsX9JnsLyhjH6v",
+      "https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-07-29-2026/card/fed-dissents-show-growing-internal-pressure-to-raise-rates-I5Vv7kNlX9wGbpqWUq19",
+      "https://www.marketwatch.com/livecoverage/fed-meeting-today-warsh-second-meeting-interest-rates-live-updates/card/fed-leaves-key-interest-rate-unchanged-three-dissenters-favor-hike-Oo0R2YsFVSOl7ZSMiWtN",
+      "https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx",
+      "https://www.marketwatch.com/story/seagates-earnings-are-welcome-news-for-the-battered-ai-trade-92dfc30f",
+      "https://www.barrons.com/articles/seagate-earnings-stock-price-57669b63",
+      "https://www.wsj.com/business/earnings/seagate-profit-soars-as-ai-boom-drives-data-storage-demand-1829ec2b"
     ]
   },
   {
