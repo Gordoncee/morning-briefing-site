@@ -4,73 +4,81 @@ window.MORNING_BRIEFINGS = [
     "displayDate": "2026年7月31日",
     "scope": "全球新闻｜科技与财经优先",
     "image": "assets/morning-briefing-2026-07-31.png",
-    "summary": "本期简报聚焦AI资本开支与硬件供应链的最新验证。亚马逊将AI支出预期上调至2200亿美元，凸显云基础设施需求强劲；三星电子录得创纪录利润，确认AI芯片红利持续兑现。资本市场方面，微软创下2008年以来最大单日涨幅引领AI板块反弹，而明星AI对冲基金Situational Awareness爆仓并由Citadel接盘，释放出AI交易可能见底的复杂信号。此外，苹果在内存短缺下仍实现iPhone与Mac销售增长，并酝酿针对AI高级用户的iCloud Plus新订阅层级，标志着端侧AI商业化进入实质阶段。",
+    "summary": "本期只纳入4条，原因是今日可交叉核验且与最近7天不重复的新科技财经事件主要集中在Apple和Amazon盘后财报、美国PCE通胀/消费数据、以及Samsung正式财报对AI内存周期的验证。为避免重复，未继续纳入Microsoft/Meta/Fed昨日主线、Nvidia/OpenAI/Hut 8数据中心融资、Hugging Face/OpenAI安全事故、开放权重政策争论和中际旭创/CXMT融资后续；Spotify跑步模式、SpaceX单项发射合同、EU AI Act透明度准备等候选因影响面或新鲜度不足未纳入。今日保留的新进展包括：Apple Q3收入1094亿美元但AI与高端芯片供应约束压低预期，Amazon Q2收入2006亿美元且AWS增长加速但全年技术/AI资本开支上调至2200亿美元，美国6月PCE价格环比下降0.1%但储蓄率降至2.7%，Samsung Q2创纪录利润并警示AI内存短缺可能延续至2028年。",
     "focus": [
-      "AI资本开支",
-      "云基础设施",
-      "芯片供应链"
+      "大型科技财报的分化更清楚：Apple用较轻资本开支换来短期避险属性，但也暴露AI Siri和高端芯片供应瓶颈；Amazon则用AWS加速增长来承受更高AI资本开支。",
+      "美国PCE降温给风险资产短线缓冲，但核心通胀仍远高于2%且储蓄率下降，Fed昨日鹰派分歧后的9月政策路径仍取决于能源和工资数据。",
+      "AI基础设施链条继续从GPU扩散到存储和内存：Samsung、Seagate、Micron/SK Hynix相关信号共同显示，云客户的长期合约正在改变传统硬件周期。"
     ],
     "items": [
       {
-        "title": "亚马逊将AI资本开支上调至2200亿美元，AWS云销售激增验证基建需求",
-        "region": "美国",
+        "title": "Apple Q3收入1094亿美元创六月季纪录，但AI与高端芯片约束压低下季预期",
+        "region": "美国/消费电子、端侧AI与大型科技财报",
         "sources": [
-          "Ynetnews"
+          "Apple",
+          "Wall Street Journal",
+          "The Guardian",
+          "Axios"
         ],
-        "summary": "亚马逊宣布将AI相关支出提升至2200亿美元，主要受AWS云业务销售激增的推动。这一举措表明，尽管市场对科技巨头的高额资本开支存在担忧，但企业级AI基础设施的实际需求依然强劲，云厂商正继续加码算力储备。",
-        "why": "云基础设施与AI资本开支是衡量AI商业化落地进度的核心宏观变量，亚马逊的支出上调为行业需求提供了关键的数据支撑。",
-        "watch": "关注AWS后续企业级AI客户的留存率与ARPU增长，以及其他云巨头在下一季度的资本开支指引是否跟进。"
+        "summary": "Apple公布截至6月27日的FY26第三财季收入1094亿美元，同比增长16%；稀释每股收益2.02美元，同比增长29%，毛利率50.1%，其中约2个百分点来自关税退款。公司称iPhone、Mac和服务收入均创六月季纪录。WSJ报道指出，Apple对9月季收入增长的指引低于市场预期，投资人关注AI Siri上线、TSMC先进制程供应、内存价格和外汇压力对新一代设备毛利的影响。",
+        "why": "这条是7月30日盘后发布的正式财报，不能用7月29日Apple安全更新替代。它给AI交易提供了另一面样本：Apple没有像Meta、Alphabet那样大幅堆资本开支，但其AI功能和端侧芯片供应仍会直接影响硬件价格、换机周期和服务收入质量。",
+        "watch": "关注9月新品发布会是否把Siri AI转化为付费或iCloud+权益，先进逻辑芯片和内存涨价是否推高iPhone/Mac售价，中国区需求是否恢复，以及John Ternus接班叙事是否改变Apple的AI并购和模型合作策略。"
       },
       {
-        "title": "三星电子录得创纪录利润，全球AI繁荣持续兑现存储与芯片红利",
-        "region": "韩国",
+        "title": "Amazon Q2收入2006亿美元，AWS增速升至37%并把全年技术/AI开支计划提至2200亿美元",
+        "region": "美国/云计算、AI基础设施与电商平台",
         "sources": [
-          "abcnews.com"
+          "Amazon IR",
+          "AP",
+          "Wall Street Journal",
+          "Axios"
         ],
-        "summary": "受全球AI热潮推动，韩国芯片巨头三星电子报告了创纪录的利润。这表明AI数据中心对高带宽内存及先进制程芯片的需求仍在加速，存储芯片周期的上行趋势得到了财务数据的实质性确认。",
-        "why": "三星的业绩是验证AI硬件供应链景气度的关键指标，与近期Micron等厂商的财报形成交叉印证。",
-        "watch": "关注三星在HBM4等下一代AI内存产品上的良率进展，以及其在英伟达供应链中的份额变化。"
+        "summary": "多家财经媒体报道，Amazon第二季度收入2006亿美元，同比增长20%，超过市场预期；AWS收入422亿美元，同比增长37%，为18个季度以来最快增速。AP称公司把2026年技术和AI相关资本开支计划从2000亿美元提高到2200亿美元，CEO Andy Jassy表示即便增加投资仍面临容量约束。WSJ补充称，净利润受Anthropic等投资重估收益大幅抬升，但过去12个月自由现金流转为负76亿美元。",
+        "why": "昨日已覆盖Microsoft和Meta，今天Amazon提供第三个云巨头的新增实绩。与Meta不同，Amazon用AWS增速和广告/零售现金流解释AI投入；但资本开支和自由现金流转负也强化了市场对AI基础设施回收期的审查。",
+        "watch": "关注AWS容量紧张是否继续推高GPU、内存和网络采购，Anthropic投资收益波动是否让利润质量被重新折价，Bedrock和Trainium/Graviton业务是否真正形成规模收入，以及Amazon Leo卫星直连手机计划是否增加后续资本需求。"
       },
       {
-        "title": "微软创下2008年以来最大单日涨幅，引领美股与AI板块强劲反弹",
-        "region": "美国",
+        "title": "美国6月PCE价格环比降0.1%，但储蓄率跌至2.7%让Fed仍难转鸽",
+        "region": "美国/宏观数据、利率路径与风险资产",
         "sources": [
-          "The Washington Post"
-        ],
-        "summary": "微软股价录得自2008年以来的最佳单日表现，带动美国股市收复前一交易日的失地。在债券市场仍存通胀担忧的背景下，科技巨头与AI核心资产展现出极强的韧性，资金重新回流确定性较高的AI基础设施标的。",
-        "why": "微软的暴涨是AI板块情绪修复的风向标，反映了资本市场在经历短期抛售后，对AI核心资产长期价值的重新定价。",
-        "watch": "关注美债收益率走势对科技股估值的持续压制，以及微软Azure AI业务营收增速能否支撑当前的高估值。"
-      },
-      {
-        "title": "明星AI对冲基金Situational Awareness爆仓，Citadel接盘释放AI交易见底信号",
-        "region": "美国",
-        "sources": [
+          "Bureau of Economic Analysis",
           "MarketWatch",
-          "Reuters"
+          "Wall Street Journal"
         ],
-        "summary": "由年轻AI奇才管理的对冲基金Situational Awareness在遭遇AI股票抛售潮后爆仓，华尔街巨头Citadel已接手其大部分股票持仓。这一极端事件被部分市场人士视为AI交易情绪出清、板块可能见底的标志性信号。",
-        "why": "高杠杆AI主题基金的清算往往是市场情绪极值点的体现，Citadel的入场接盘为观察机构资金对AI资产底部的判断提供了独特视角。",
-        "watch": "关注Citadel接手后的持仓调整动作，以及后续是否有更多高杠杆科技主题基金面临流动性压力。"
+        "summary": "美国经济分析局公布，6月个人收入环比增加0.2%，个人消费支出增加0.3%，实际PCE增加0.4%。PCE价格指数环比下降0.1%，同比从5月的4.1%降至3.7%；剔除食品和能源的核心PCE环比增长0.1%，同比3.3%。个人储蓄率降至2.7%。MarketWatch和WSJ均把这组数据解读为对市场有短期缓冲，但通胀仍显著高于Fed 2%目标。",
+        "why": "这不是对昨日FOMC的重复，而是Fed按兵不动后第一组关键通胀/消费实数。AI数据中心融资、科技股估值和长债收益率都取决于市场是否相信通胀回落足以阻止9月加息。",
+        "watch": "关注7月CPI/PCE是否受油价和关税重新推高，工资与就业成本指数是否确认服务通胀缓和，低储蓄率是否压制消费股和广告预算，以及长端收益率是否继续挤压高资本开支科技公司的估值。"
       },
       {
-        "title": "苹果Q3财报超预期：硬件销售无视内存短缺逆势增长，酝酿AI专属iCloud Plus层级",
-        "region": "美国",
+        "title": "Samsung Q2利润创纪录并警示内存短缺延续，AI服务器长期合约重塑DRAM/HBM周期",
+        "region": "韩国/半导体、AI内存与全球供应链",
         "sources": [
-          "theverge.com"
+          "Samsung",
+          "AP",
+          "Wall Street Journal",
+          "MarketWatch"
         ],
-        "summary": "苹果第三财季iPhone和Mac销售强劲增长，成功抵御了全球内存短缺带来的供应链压力。同时，CEO Tim Cook暗示将推出针对AI高级用户的iCloud Plus新订阅层级，允许用户付费提升Apple Intelligence的使用限额，标志着端侧AI商业化迈出实质步伐。",
-        "why": "苹果在硬件供应链承压下的业绩韧性及其在软件服务端的AI变现尝试，为消费电子巨头如何平衡硬件成本与AI服务收入提供了重要参考。",
-        "watch": "关注iCloud Plus AI层级的具体定价与用户渗透率，以及Apple Intelligence在后续iOS版本中的实际日活表现。"
+        "summary": "Samsung Electronics公布第二季度财报后，AP报道称公司收入达到171.5万亿韩元、营业利润89.5万亿韩元，主要受AI高带宽内存和服务器DRAM需求推动；WSJ称Samsung认为芯片紧张可能延续至2028年，60%至70%的产能正被主要数据中心客户长期合约锁定。MarketWatch补充称，尽管业绩创纪录，Samsung股价反应仍受韩国科技股去杠杆和AI资本开支可持续性担忧压制。",
+        "why": "近几期覆盖了Seagate、CXMT和SK Hynix融资，但Samsung正式财报给出了全球最大存储厂之一的供需判断。AI基础设施瓶颈正在从单一GPU扩展到HBM、DRAM、NAND和硬盘，长期合约会改变传统存储周期的波动方式。",
+        "watch": "关注Samsung与AWS、Google、Microsoft等云客户的长期合约是否推高2027年价格，HBM4良率和Nvidia平台认证进展，韩国政府对杠杆ETF和半导体投资的监管，以及中国存储厂扩产是否在中期改变供需紧张。"
       }
     ],
     "sourceLinks": [
-      "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02eHVwVHZxLS1ycjMwSDg3MHVQMVVrZ0VvdEFfVV9udzV2S3FQXzlwV1dOSWdGUHZkWnROZGFNV2drRWlvYXRDM05OUE1FVnV1U2F5ZHVDR1Y0MzNkcGloa0l3?oc=5",
-      "https://news.google.com/rss/articles/CBMipgFBVV95cUxPLVlCazd3SFc0RjZ2d1F1VjM2b1NVMFItdHNYWFFBYkNEc3FkOGg1ZWo0R1c4VzB1eU1aSm43SmN2V2E5SXJOZ19LUjl6cmJsaFVUMmYzT1RXR0lnU3hoRmpYRXNvcGN2d2V2UkZuVkFxSVhDb2UxTUgtc1ZCU3RHVExsNUZ5bnJWVjI2d01zYkp4ajQ3OXl4MkJxaWFpb3QtY1FLU0tn0gGrAUFVX3lxTE1vc3JYNGhkS2QxbWxZVXRBSHFINzUxc3NkbU96cnA0ZGVUejhNQkZFeExhZjNpTzVkME1kTUFob3NoQUhUM2xHemtLUnRGRHlCVWRFX2IyTFBaWHhNUFk4ZW5JOHU3VWlaVjYzU2N4bHphMXRhb0haUmh3c2ZyT0NHZHYzSXNJb1dNWEZ4anpXVllha1RhbEhkSFpYazA2b2NlSDk4M3NwRTZfMA?oc=5",
-      "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcEM2YlExLXFyTzFNT0JBSlJBb0VjLVN0MHN2Rlk4dnNDYXgzYl92NTYwTGo1RGtOelB3Q0U3ZEVTX2pSUUxZQUhYTkN2WXpOMGg3OVpNcGJfSGE1OVBxRU9HRTdCZnZxMkdYV3A0clJEZVpGX2wwaVRlNlExUUx2NXYyZDJlcF9QU05QLUhKX1E0X05zVzJjVzRtMld0YjFEa2FjeDA0UzRHOXJadVRBM3VYZXhJb1RRVTNXeTJrX2dQUnR6b2pDUWVwcw?oc=5",
-      "https://www.marketwatch.com/story/implosion-of-situational-awareness-has-wall-street-betting-the-bottom-is-in-for-the-ai-trade-05d9f346?mod=mw_rss_topstories",
-      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcHJIU1otWHVrMEU0Y1FqRFhmazB2bklSYzhzSzRsQXNJZzFzbk9SM3ZEU2hBZ2ZiWVlTMnhwcWZzTXJhamcxREluUnZDbWNCZjlYbVBSLU5aaGoxbWhYN1BsYy1ZTDN1M2VZampoaGVvNmZWSEsydnptM05OWlQ0QWFmbGd4M1h4WjZzR0RpMUZQRWpaOVh3UGhMenFZMmk5djdxOURGb25qeDh5b01udEU2UFVDNWRNSkhnY2x5Rk8wZw?oc=5",
-      "https://www.theverge.com/tech/973430/apple-q3-2026-earnings",
-      "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai"
+      "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
+      "https://www.wsj.com/tech/apple-aapl-q3-earnings-report-2026-stock-a2eed24e",
+      "https://www.theguardian.com/technology/2026/jul/30/apple-amazon-second-quarter-revenues",
+      "https://www.axios.com/2026/07/30/tim-cook-apple-may-charge-for-ai-siri",
+      "https://ir.aboutamazon.com/events/event-details/default.aspx",
+      "https://apnews.com/article/b4ce02b4666a35b8975823c5c22072ee",
+      "https://www.wsj.com/tech/ai/amazon-earnings-q2-2026-amzn-stock-3daf95f7",
+      "https://www.axios.com/2026/07/30/amazon-earnings-revenue-ai",
+      "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
+      "https://www.marketwatch.com/story/fed-favored-pce-inflation-gauge-falls-for-first-time-since-pandemic-but-danger-far-from-over-57e382bf",
+      "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-30-2026/card/fed-s-preferred-inflation-gauge-cools-to-3-7--WbkY6skkk0SmJqu7SFh1",
+      "https://www.samsung.com/global/ir/financial-information/earnings-release/",
+      "https://apnews.com/article/10c2c548a392988862d8c7bd3f6fae05",
+      "https://www.wsj.com/tech/samsungs-chip-earnings-push-net-profit-to-record-cf8711bc",
+      "https://www.marketwatch.com/story/samsung-delivers-record-setting-profits-but-the-shares-still-cant-catch-a-break-from-investors-daefa19a"
     ]
   },
   {
