@@ -1,5 +1,79 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-07-31",
+    "displayDate": "2026年7月31日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-07-31.png",
+    "summary": "本期简报聚焦AI资本开支与硬件供应链的最新验证。亚马逊将AI支出预期上调至2200亿美元，凸显云基础设施需求强劲；三星电子录得创纪录利润，确认AI芯片红利持续兑现。资本市场方面，微软创下2008年以来最大单日涨幅引领AI板块反弹，而明星AI对冲基金Situational Awareness爆仓并由Citadel接盘，释放出AI交易可能见底的复杂信号。此外，苹果在内存短缺下仍实现iPhone与Mac销售增长，并酝酿针对AI高级用户的iCloud Plus新订阅层级，标志着端侧AI商业化进入实质阶段。",
+    "focus": [
+      "AI资本开支",
+      "云基础设施",
+      "芯片供应链"
+    ],
+    "items": [
+      {
+        "title": "亚马逊将AI资本开支上调至2200亿美元，AWS云销售激增验证基建需求",
+        "region": "美国",
+        "sources": [
+          "Ynetnews"
+        ],
+        "summary": "亚马逊宣布将AI相关支出提升至2200亿美元，主要受AWS云业务销售激增的推动。这一举措表明，尽管市场对科技巨头的高额资本开支存在担忧，但企业级AI基础设施的实际需求依然强劲，云厂商正继续加码算力储备。",
+        "why": "云基础设施与AI资本开支是衡量AI商业化落地进度的核心宏观变量，亚马逊的支出上调为行业需求提供了关键的数据支撑。",
+        "watch": "关注AWS后续企业级AI客户的留存率与ARPU增长，以及其他云巨头在下一季度的资本开支指引是否跟进。"
+      },
+      {
+        "title": "三星电子录得创纪录利润，全球AI繁荣持续兑现存储与芯片红利",
+        "region": "韩国",
+        "sources": [
+          "abcnews.com"
+        ],
+        "summary": "受全球AI热潮推动，韩国芯片巨头三星电子报告了创纪录的利润。这表明AI数据中心对高带宽内存及先进制程芯片的需求仍在加速，存储芯片周期的上行趋势得到了财务数据的实质性确认。",
+        "why": "三星的业绩是验证AI硬件供应链景气度的关键指标，与近期Micron等厂商的财报形成交叉印证。",
+        "watch": "关注三星在HBM4等下一代AI内存产品上的良率进展，以及其在英伟达供应链中的份额变化。"
+      },
+      {
+        "title": "微软创下2008年以来最大单日涨幅，引领美股与AI板块强劲反弹",
+        "region": "美国",
+        "sources": [
+          "The Washington Post"
+        ],
+        "summary": "微软股价录得自2008年以来的最佳单日表现，带动美国股市收复前一交易日的失地。在债券市场仍存通胀担忧的背景下，科技巨头与AI核心资产展现出极强的韧性，资金重新回流确定性较高的AI基础设施标的。",
+        "why": "微软的暴涨是AI板块情绪修复的风向标，反映了资本市场在经历短期抛售后，对AI核心资产长期价值的重新定价。",
+        "watch": "关注美债收益率走势对科技股估值的持续压制，以及微软Azure AI业务营收增速能否支撑当前的高估值。"
+      },
+      {
+        "title": "明星AI对冲基金Situational Awareness爆仓，Citadel接盘释放AI交易见底信号",
+        "region": "美国",
+        "sources": [
+          "MarketWatch",
+          "Reuters"
+        ],
+        "summary": "由年轻AI奇才管理的对冲基金Situational Awareness在遭遇AI股票抛售潮后爆仓，华尔街巨头Citadel已接手其大部分股票持仓。这一极端事件被部分市场人士视为AI交易情绪出清、板块可能见底的标志性信号。",
+        "why": "高杠杆AI主题基金的清算往往是市场情绪极值点的体现，Citadel的入场接盘为观察机构资金对AI资产底部的判断提供了独特视角。",
+        "watch": "关注Citadel接手后的持仓调整动作，以及后续是否有更多高杠杆科技主题基金面临流动性压力。"
+      },
+      {
+        "title": "苹果Q3财报超预期：硬件销售无视内存短缺逆势增长，酝酿AI专属iCloud Plus层级",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "苹果第三财季iPhone和Mac销售强劲增长，成功抵御了全球内存短缺带来的供应链压力。同时，CEO Tim Cook暗示将推出针对AI高级用户的iCloud Plus新订阅层级，允许用户付费提升Apple Intelligence的使用限额，标志着端侧AI商业化迈出实质步伐。",
+        "why": "苹果在硬件供应链承压下的业绩韧性及其在软件服务端的AI变现尝试，为消费电子巨头如何平衡硬件成本与AI服务收入提供了重要参考。",
+        "watch": "关注iCloud Plus AI层级的具体定价与用户渗透率，以及Apple Intelligence在后续iOS版本中的实际日活表现。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02eHVwVHZxLS1ycjMwSDg3MHVQMVVrZ0VvdEFfVV9udzV2S3FQXzlwV1dOSWdGUHZkWnROZGFNV2drRWlvYXRDM05OUE1FVnV1U2F5ZHVDR1Y0MzNkcGloa0l3?oc=5",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxPLVlCazd3SFc0RjZ2d1F1VjM2b1NVMFItdHNYWFFBYkNEc3FkOGg1ZWo0R1c4VzB1eU1aSm43SmN2V2E5SXJOZ19LUjl6cmJsaFVUMmYzT1RXR0lnU3hoRmpYRXNvcGN2d2V2UkZuVkFxSVhDb2UxTUgtc1ZCU3RHVExsNUZ5bnJWVjI2d01zYkp4ajQ3OXl4MkJxaWFpb3QtY1FLU0tn0gGrAUFVX3lxTE1vc3JYNGhkS2QxbWxZVXRBSHFINzUxc3NkbU96cnA0ZGVUejhNQkZFeExhZjNpTzVkME1kTUFob3NoQUhUM2xHemtLUnRGRHlCVWRFX2IyTFBaWHhNUFk4ZW5JOHU3VWlaVjYzU2N4bHphMXRhb0haUmh3c2ZyT0NHZHYzSXNJb1dNWEZ4anpXVllha1RhbEhkSFpYazA2b2NlSDk4M3NwRTZfMA?oc=5",
+      "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcEM2YlExLXFyTzFNT0JBSlJBb0VjLVN0MHN2Rlk4dnNDYXgzYl92NTYwTGo1RGtOelB3Q0U3ZEVTX2pSUUxZQUhYTkN2WXpOMGg3OVpNcGJfSGE1OVBxRU9HRTdCZnZxMkdYV3A0clJEZVpGX2wwaVRlNlExUUx2NXYyZDJlcF9QU05QLUhKX1E0X05zVzJjVzRtMld0YjFEa2FjeDA0UzRHOXJadVRBM3VYZXhJb1RRVTNXeTJrX2dQUnR6b2pDUWVwcw?oc=5",
+      "https://www.marketwatch.com/story/implosion-of-situational-awareness-has-wall-street-betting-the-bottom-is-in-for-the-ai-trade-05d9f346?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcHJIU1otWHVrMEU0Y1FqRFhmazB2bklSYzhzSzRsQXNJZzFzbk9SM3ZEU2hBZ2ZiWVlTMnhwcWZzTXJhamcxREluUnZDbWNCZjlYbVBSLU5aaGoxbWhYN1BsYy1ZTDN1M2VZampoaGVvNmZWSEsydnptM05OWlQ0QWFmbGd4M1h4WjZzR0RpMUZQRWpaOVh3UGhMenFZMmk5djdxOURGb25qeDh5b01udEU2UFVDNWRNSkhnY2x5Rk8wZw?oc=5",
+      "https://www.theverge.com/tech/973430/apple-q3-2026-earnings",
+      "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai"
+    ]
+  },
+  {
     "date": "2026-07-30",
     "displayDate": "2026年7月30日",
     "scope": "全球新闻｜科技与财经优先",
