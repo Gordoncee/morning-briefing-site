@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-01",
+    "displayDate": "2026年8月1日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-01.png",
+    "summary": "本期简报聚焦7月美股收官与芯片股重挫、联发科50亿美元AI芯片融资、中国AI模型算力来源争议、特斯拉面临大规模安全调查，以及Google AI工具因深伪风险闪退。",
+    "focus": [
+      "资本市场, AI芯片, 平台监管, 自动驾驶安全",
+      "科技股与芯片板块的回调是检验AI基建投资回报周期的关键市场信号。",
+      "传统移动芯片巨头大举加杠杆切入AI数据中心赛道，标志着AI算力竞争从云端巨头向边缘与定制芯片厂商全面扩散。"
+    ],
+    "items": [
+      {
+        "title": "标普500创十年来首次7月下跌，芯片股遭遇24年最差单月表现",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "标普500指数以2014年以来首次7月下跌收官，动量交易遭遇2000年以来最大清洗，其中芯片股板块录得24年来最差单月表现，凸显AI硬件估值在宏观与盈利预期双重压力下的脆弱性。",
+        "why": "科技股与芯片板块的回调是检验AI基建投资回报周期的关键市场信号。",
+        "watch": "8月科技巨头财报季对资本开支指引的修正，以及美联储后续利率路径对高估值成长股的压制。"
+      },
+      {
+        "title": "联发科计划融资50亿美元，全面押注AI数据中心芯片",
+        "region": "亚洲",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "据路透社报道，联发科正计划筹集50亿美元资金，用于加速研发和扩张AI数据中心芯片业务，试图在英伟达和AMD主导的AI算力市场中抢占更大份额，并应对移动端收入下滑的压力。",
+        "why": "传统移动芯片巨头大举加杠杆切入AI数据中心赛道，标志着AI算力竞争从云端巨头向边缘与定制芯片厂商全面扩散。",
+        "watch": "联发科定制ASIC芯片的客户导入进度，以及50亿美元融资对半导体行业整体资本开支的挤出效应。"
+      },
+      {
+        "title": "报告指中国顶级AI模型依赖英伟达H200，算力封锁有效性再受审视",
+        "region": "中国/美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "彭博社报道称，中国AI初创公司月之暗面（Moonshot）通过阿里巴巴获取了英伟达H200芯片以训练其顶级模型。尽管相关方予以否认，但该消息再次引发市场对美国高端AI芯片出口管制实际执行效果的讨论。",
+        "why": "前沿AI模型的算力来源直接关系到中美科技博弈的底层逻辑，芯片供应链的灰色地带可能引发更严格的合规审查。",
+        "watch": "美国商务部对云服务商和第三方算力租赁平台的进一步出口管制细则，以及中国本土算力替代的实质性进展。"
+      },
+      {
+        "title": "美国NHTSA对120万辆特斯拉展开悬挂系统故障调查",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "美国国家公路交通安全管理局（NHTSA）宣布对近120万辆特斯拉汽车展开调查，原因是收到大量关于悬挂系统故障的投诉，该缺陷可能导致车辆失去方向控制，对特斯拉的自动驾驶安全叙事构成直接挑战。",
+        "why": "大规模硬件安全调查不仅影响车企的召回成本与交付节奏，更可能成为监管机构收紧高阶自动驾驶准入的催化剂。",
+        "watch": "特斯拉后续的召回规模与财务计提，以及NHTSA调查结论对FSD（完全自动驾驶）全面推送时间表的潜在影响。"
+      },
+      {
+        "title": "Google Earth AI卫星图像编辑工具因“深伪”风险上线仅一天即被关停",
+        "region": "全球",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "Google紧急下线了Google Earth中允许用户通过文本提示编辑卫星图像的AI功能。该工具上线仅一天，因极易被用于生成真实世界的“深度伪造”图像并引发地理信息安全和误导风险，遭到迅速反噬。",
+        "why": "生成式AI在地理空间数据等敏感领域的应用边界正在快速试错中确立，平台自我审查与监管压力的博弈加剧。",
+        "watch": "全球监管机构对AI生成地理信息和地图数据的合规要求，以及科技巨头在AI功能发布前的内部安全红线调整。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/s-p-500-heads-for-the-first-july-decline-since-2014-here-are-the-stocks-that-led-the-selloff-5677f63b?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMHlyNnM2ZnRxc183Q0dmN2V4RC1yWDBYSjdxT2kwYVd1X0U0bXc2M3ctRmpRQkx4amdockRSX3dBa3FFZ2VCMXR6bnlWRnQ4UUFVZHdpSF80UVZWc0ZjV3lvV2xVdzNpVmJoSUFQd0tGSTg4b1Vjb0pQTEFmLW1iRkRWc2RoSVF4Q3huTDhNMkp4bzNHV1lsNjRrOGlzdFJGZDdmUTE4QnJoTUpndmxRT3Q1NWg?oc=5",
+      "https://www.marketwatch.com/story/did-china-build-a-top-tier-ai-model-by-itself-a-new-report-suggests-nvidia-chips-played-a-role-ad4644cd?mod=mw_rss_topstories",
+      "https://www.theverge.com/transportation/973887/nhtsa-tesla-investigation-suspension",
+      "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool"
+    ]
+  },
+  {
     "date": "2026-07-31",
     "displayDate": "2026年7月31日",
     "scope": "全球新闻｜科技与财经优先",
