@@ -1,5 +1,77 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-02",
+    "displayDate": "2026年8月2日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-02.png",
+    "summary": "本期简报聚焦AI基础设施与算力供应链的持续扩张。DeepSeek在内蒙古布局大型数据中心，联发科斥资50亿美元进军数据中心AI芯片，康宁光纤需求因AI基建加速；同时，亚马逊自研芯片战略凸显云巨头算力自主趋势。宏观层面，美股7月收官呈现科技巨头分化，通胀担忧仍是市场核心变量。",
+    "focus": [
+      "AI基建扩张、算力供应链与科技巨头分化",
+      "反映中国AI企业在算力受限背景下，通过国内西部能源优势地区加速自建智算中心，是观察中国AI基建与算力自主的重要窗口。",
+      "联发科从消费电子向数据中心AI芯片大举扩张，标志着AI芯片竞争从云端巨头自研向传统Fabless厂商蔓延，可能改变AI算力供应链格局。"
+    ],
+    "items": [
+      {
+        "title": "DeepSeek在内蒙古建设大型AI数据中心",
+        "region": "中国",
+        "sources": [
+          "The Japan Times"
+        ],
+        "summary": "中国AI初创公司DeepSeek正在内蒙古开发大规模AI数据中心，进一步扩大其算力基础设施布局，以支持其大模型训练与推理需求。",
+        "why": "反映中国AI企业在算力受限背景下，通过国内西部能源优势地区加速自建智算中心，是观察中国AI基建与算力自主的重要窗口。",
+        "watch": "关注该数据中心的算力规模、芯片来源（国产替代比例）以及后续对DeepSeek模型迭代速度的影响。"
+      },
+      {
+        "title": "联发科计划投入50亿美元推动AI芯片数据中心业务",
+        "region": "亚洲",
+        "sources": [
+          "Asia Business Outlook",
+          "Taipei Times"
+        ],
+        "summary": "联发科（MediaTek）宣布计划投入50亿美元，加速推进其AI芯片在数据中心市场的增长，试图在英伟达主导的AI算力市场中抢占更大份额。",
+        "why": "联发科从消费电子向数据中心AI芯片大举扩张，标志着AI芯片竞争从云端巨头自研向传统Fabless厂商蔓延，可能改变AI算力供应链格局。",
+        "watch": "关注其数据中心AI芯片的具体架构、流片进度以及能否获得头部云厂商的实质性订单验证。"
+      },
+      {
+        "title": "美股7月收官：亚马逊飙升、苹果下挫，通胀担忧加剧",
+        "region": "美国",
+        "sources": [
+          "Santa Maria Times"
+        ],
+        "summary": "美股在波动中结束7月交易，亚马逊凭借云与AI业务预期大涨，而苹果则表现疲软。同时，市场对通胀反弹的担忧继续压制整体估值。",
+        "why": "科技巨头走势分化凸显市场从“普涨”转向“基本面与AI变现能力”的精准定价，宏观通胀数据仍是悬在科技股估值上方的达摩克利斯之剑。",
+        "watch": "关注8月即将公布的CPI/PCE数据，以及苹果在AI硬件落地迟缓下的资金流出情况。"
+      },
+      {
+        "title": "康宁乘AI数据中心东风，光纤需求加速增长",
+        "region": "美国",
+        "sources": [
+          "TradingView"
+        ],
+        "summary": "受全球AI数据中心建设热潮推动，康宁（Corning）的光纤和光通信产品需求加速增长，成为AI基础设施扩张的直接受益者。",
+        "why": "AI算力不仅需要GPU，还需要庞大的光互连网络。康宁的业绩表现印证了AI基建正从核心芯片向光模块、光纤等底层物理网络层全面溢出。",
+        "watch": "关注康宁后续财报中光通信业务的营收增速，以及800G/1.6T光模块配套光纤的产能扩张计划。"
+      },
+      {
+        "title": "亚马逊如何在十年内跻身全球顶级芯片公司之列",
+        "region": "美国",
+        "sources": [
+          "About Amazon"
+        ],
+        "summary": "亚马逊详细回顾了其自研芯片（如Graviton和Trainium）的发展历程，展示了云巨头如何通过定制硅片降低对第三方芯片的依赖并优化AI工作负载。",
+        "why": "云厂商自研芯片已成为对抗英伟达算力垄断、控制AI基建成本的核心战略。亚马逊的成功验证了“云+自研芯片”闭环模式的商业可行性。",
+        "watch": "关注AWS自研AI芯片Trainium在外部客户中的采用率，以及其对英伟达数据中心营收的潜在替代效应。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYzlGQnlDZDlpa1B5UWZMaGRUWXRUcExkeC1PTzdnLW5DNnUxa256ZWZTaG5ONGd0a2g5TURISnpEWnoyQWpZUUwwdndsLUlCQW10bVZrUEdrZzBOMEZfdXBHeHk3ZXBpVGowRFlRVVU3SU9aUll2RzV3SzFRQnBNdkJ1NHZEb2VkSUdOQw?oc=5",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSkhNd2RkckVXdGx4VkRwLU12VGlDcHJyWVNXYXZKajlXbnkxc1lHdE5US1d0ZlJ5cTBCNnQ4aUs1VDVXQ0NWUklDUGhMcmZHVTgzVEo3S1FDRDZXMkFoQWRUQ0FSLU16bWE0TjZNdjdMOHpkbGJVNjN6VFlpdzNLcGpyanZoZzdTUVdydjFPODhSZkY5eU9oRVBXVk9fTGJPYmpCRkxaa3d0OTRDZFo2b1ZGMkdtdVhL?oc=5",
+      "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNY1ktdU0wZTczN0RqZDZibmpQSmM2WE1memI4VUJDVGdYSVdsSGkwVHJ4cUpPaDVUN2VDYWZRVXphUUtwYWo5LWluM0JyMkxFU21FYi1NMDJVUnNOZUZST3Y2VlVnTGlDYl9jc0JqZ3EzSjM1SzN6X3loZnlTZDAzYXN5UXF6dDBzR2swaHZrSnhjZUdOZ2ZvU2RETTlRYnVIM1Axc3k2czFseUc2Y1pmSE1YYlplbTBIRzRPLVg4M1hfMmEzRHZJOG9ianRmUUE2UXpBQ0tUbDlRYUoyMkwzTW5lUFVMcGdQZ1ZjY1hyMmpEcy1kT2dZZFRzZGQ?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeFBfQVI2NE9fQWFuX0dCTzZwblRHX1dZTFpTam02cTBOWURXb1Y1VEtIU05xNFRLLTVhR054QU1HNmwwbmppdEx4aXY0Z2NnTmNLX2thaC1sTGZlSFhldnR2T1h6VnNqSG9FUUhnbWhjX2FkX2hYUHBJMEhwRkkwQkp4QkY2Z21jLXd3N3luSFhtNTM0ZHdyS2FMaGFzNTJoOEEzYzZXb3UzM1lubVR0Z2JSS1hKT202UkNEQ0t3?oc=5",
+      "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oTTMtVXpHbmZ6ZnFKeWhnYUM3eVM2eGtpTmFrU293cGUtV09yNGNPU2RnczYyMXI1c1I4aktfU1pTRURWTGRNVk1CdUQ2RzhFT1NPN21QQWJ5b3lXamE1T09weF94ejAycXN0TzZyLWp2YUpDRUxiYQ?oc=5"
+    ]
+  },
+  {
     "date": "2026-08-01",
     "displayDate": "2026年8月1日",
     "scope": "全球新闻｜科技与财经优先",
