@@ -4,74 +4,84 @@ window.MORNING_BRIEFINGS = [
     "displayDate": "2026年8月2日",
     "scope": "全球新闻｜科技与财经优先",
     "image": "assets/morning-briefing-2026-08-02.png",
-    "summary": "本期简报聚焦AI基础设施与算力供应链的持续扩张。DeepSeek在内蒙古布局大型数据中心，联发科斥资50亿美元进军数据中心AI芯片，康宁光纤需求因AI基建加速；同时，亚马逊自研芯片战略凸显云巨头算力自主趋势。宏观层面，美股7月收官呈现科技巨头分化，通胀担忧仍是市场核心变量。",
+    "summary": "本期只纳入4条，原因是周日可交叉核验且与最近7天不重复的新科技财经事件偏少；EU AI Act透明度/GPAI规则今日进入执行节点但已在8月1日简报作为核心主题覆盖，Microsoft/Meta/Apple/Amazon/Samsung/Seagate等财报延伸、Nvidia/OpenAI/Hut 8数据中心融资、OpenAI/Hugging Face/Anthropic安全事故和AI主题基金去杠杆也不再重复。今日保留的新进展包括：Sony FY2026 Q1利润超预期并上调全年展望，Truth API在8月1日上线后把总统社媒信息速度差商品化，Minnesota首个AI“nudification”技术禁令正式生效且遭xAI起诉，美国暂停对伊朗新一轮打击让Hormuz与油价风险短线降温。",
     "focus": [
-      "AI基建扩张、算力供应链与科技巨头分化",
-      "反映中国AI企业在算力受限背景下，通过国内西部能源优势地区加速自建智算中心，是观察中国AI基建与算力自主的重要窗口。",
-      "联发科从消费电子向数据中心AI芯片大举扩张，标志着AI芯片竞争从云端巨头自研向传统Fabless厂商蔓延，可能改变AI算力供应链格局。"
+      "今天的市场主线不是新增AI算力项目，而是信息、监管和地缘风险如何重新定价：Truth API把政策信息速度差变成付费产品，Minnesota法案则把生成式AI滥用推向州级强监管。",
+      "Sony财报显示消费电子与娱乐平台仍能给科技股提供非云计算样本，但图像传感器、游戏硬件和内存成本仍与AI基础设施链条相互牵动。",
+      "伊朗打击暂停让油价和股指期货短线缓和，但Hormuz能否真正重开、Gulf能源基础设施是否安全，仍会影响通胀预期、Fed路径和科技估值折现率。"
     ],
     "items": [
       {
-        "title": "DeepSeek在内蒙古建设大型AI数据中心",
-        "region": "中国",
+        "title": "Sony Q1净利增32%并上调全年展望，影像传感器和娱乐业务抵消游戏硬件压力",
+        "region": "日本/消费电子、影像传感器、游戏与娱乐财报",
         "sources": [
-          "The Japan Times"
+          "Sony",
+          "Wall Street Journal",
+          "The Verge"
         ],
-        "summary": "中国AI初创公司DeepSeek正在内蒙古开发大规模AI数据中心，进一步扩大其算力基础设施布局，以支持其大模型训练与推理需求。",
-        "why": "反映中国AI企业在算力受限背景下，通过国内西部能源优势地区加速自建智算中心，是观察中国AI基建与算力自主的重要窗口。",
-        "watch": "关注该数据中心的算力规模、芯片来源（国产替代比例）以及后续对DeepSeek模型迭代速度的影响。"
+        "summary": "Sony在7月31日发布FY2026第一财季材料后，WSJ报道显示，公司季度净利润同比增长约32%至3422亿日元，销售额约2.84万亿日元，并上调全年收入与利润展望。增长主要来自音乐、影像传感器和游戏内容；与此同时，PS5硬件进入后周期、物理光盘退出计划引发用户反弹，Kumamoto地震对半导体工厂的影响仍待评估。",
+        "why": "近几期大型科技财报集中在云计算和AI资本开支，Sony提供了不同样本：影像传感器、游戏平台和音乐版权仍能驱动利润，但也受内存涨价、供应链地震和数字分发争议约束。对半导体链来说，Sony的传感器需求和TSMC合作会影响手机、相机和AI视觉硬件的中期供给。",
+        "watch": "关注Sony是否披露Kumamoto传感器产能恢复时间，PS5和下一代主机是否继续受内存价格影响，数字版PlayStation策略是否引发更多监管或用户抵制，以及与TSMC的下一代影像传感器合作是否进入正式投资阶段。"
       },
       {
-        "title": "联发科计划投入50亿美元推动AI芯片数据中心业务",
-        "region": "亚洲",
+        "title": "Truth API开始向机构客户开放，总统社媒信息速度差被推向华尔街交易产品",
+        "region": "美国/社交平台、市场数据、政治金融与交易公平性",
         "sources": [
-          "Asia Business Outlook",
-          "Taipei Times"
+          "Trump Media",
+          "AP",
+          "The Guardian",
+          "Reuters"
         ],
-        "summary": "联发科（MediaTek）宣布计划投入50亿美元，加速推进其AI芯片在数据中心市场的增长，试图在英伟达主导的AI算力市场中抢占更大份额。",
-        "why": "联发科从消费电子向数据中心AI芯片大举扩张，标志着AI芯片竞争从云端巨头自研向传统Fabless厂商蔓延，可能改变AI算力供应链格局。",
-        "watch": "关注其数据中心AI芯片的具体架构、流片进度以及能否获得头部云厂商的实质性订单验证。"
+        "summary": "Trump Media 7月16日宣布Truth API，并称该授权数据服务自8月1日起向机构客户开放，提供对Truth Social高影响力账号帖文的实时授权访问和历史档案。AP今日报道称，该服务面向高频交易和金融服务客户，价格可能高达每月10万美元；Guardian等报道强调，Trump本人帖子经常影响关税、战争、能源和个股预期，付费速度优势引发利益冲突与市场公平性争议。",
+        "why": "这条不是普通社交产品发布，而是把政策信号、总统个人商业利益和机器交易速度连接在一起。若交易机构能用API毫秒级读取市场敏感帖文，普通投资者和新闻机构即使看到同一公开内容，也可能在价格反应上处于明显劣势。",
+        "watch": "关注SEC、国会民主党和交易所是否要求披露客户名单、延迟机制或公平访问规则，DJT股价是否把API收入资本化，金融数据商是否转售该信号，以及类似模式是否扩散到其他政治人物或平台账号。"
       },
       {
-        "title": "美股7月收官：亚马逊飙升、苹果下挫，通胀担忧加剧",
-        "region": "美国",
+        "title": "Minnesota首个AI“nudification”禁令生效，xAI诉讼测试州级AI内容监管边界",
+        "region": "美国/Minnesota、xAI、生成式AI滥用与平台责任",
         "sources": [
-          "Santa Maria Times"
+          "Minnesota House",
+          "AP",
+          "The Verge",
+          "Ars Technica"
         ],
-        "summary": "美股在波动中结束7月交易，亚马逊凭借云与AI业务预期大涨，而苹果则表现疲软。同时，市场对通胀反弹的担忧继续压制整体估值。",
-        "why": "科技巨头走势分化凸显市场从“普涨”转向“基本面与AI变现能力”的精准定价，宏观通胀数据仍是悬在科技股估值上方的达摩克利斯之剑。",
-        "watch": "关注8月即将公布的CPI/PCE数据，以及苹果在AI硬件落地迟缓下的资金流出情况。"
+        "summary": "Minnesota House资料显示，全美首个针对“nudification”技术访问、下载、使用和推广的州法于8月1日生效，违规者每次可能面临最高50万美元民事罚款，并允许受害人提起民事诉讼。AP和The Verge报道称，xAI已在生效前起诉Minnesota，称该法过宽、可能限制受保护表达，并可能迫使Grok等图像产品在当地调整访问。",
+        "why": "这是AI生成内容监管从平台自律走向地方硬法的具体节点。它会影响Grok、App Store、Google Play、独立Web工具和开源图像模型的访问控制，也会测试美国州法能否直接要求AI服务商屏蔽某类生成能力。",
+        "watch": "关注联邦法院是否发布临时禁令，Minnesota AG是否对头部平台或开发者发出首批执法通知，Apple/Google是否进一步清理相关App，以及其他州是否复制以服务访问而非单纯分发为核心的监管写法。"
       },
       {
-        "title": "康宁乘AI数据中心东风，光纤需求加速增长",
-        "region": "美国",
+        "title": "美国暂停对伊朗新打击，Hormuz重开谈判让油价与风险资产短线缓和",
+        "region": "美国/中东、能源市场、通胀预期与风险资产",
         "sources": [
-          "TradingView"
+          "Financial Times",
+          "Axios",
+          "Wall Street Journal",
+          "Investors.com"
         ],
-        "summary": "受全球AI数据中心建设热潮推动，康宁（Corning）的光纤和光通信产品需求加速增长，成为AI基础设施扩张的直接受益者。",
-        "why": "AI算力不仅需要GPU，还需要庞大的光互连网络。康宁的业绩表现印证了AI基建正从核心芯片向光模块、光纤等底层物理网络层全面溢出。",
-        "watch": "关注康宁后续财报中光通信业务的营收增速，以及800G/1.6T光模块配套光纤的产能扩张计划。"
-      },
-      {
-        "title": "亚马逊如何在十年内跻身全球顶级芯片公司之列",
-        "region": "美国",
-        "sources": [
-          "About Amazon"
-        ],
-        "summary": "亚马逊详细回顾了其自研芯片（如Graviton和Trainium）的发展历程，展示了云巨头如何通过定制硅片降低对第三方芯片的依赖并优化AI工作负载。",
-        "why": "云厂商自研芯片已成为对抗英伟达算力垄断、控制AI基建成本的核心战略。亚马逊的成功验证了“云+自研芯片”闭环模式的商业可行性。",
-        "watch": "关注AWS自研AI芯片Trainium在外部客户中的采用率，以及其对英伟达数据中心营收的潜在替代效应。"
+        "summary": "FT、Axios和WSJ今日报道，Trump表示在中东盟友推动下取消或暂停对伊朗的新一轮军事打击，称各方已接近围绕重新开放Strait of Hormuz和核威胁降级的协议框架。Investors.com报道指出，消息推动道指期货小幅走高，市场同时关注AMD、SpaceX、Sandisk和Eli Lilly等本周财报。此前Hormuz相关冲突已推高油价并加剧通胀和利率路径不确定性。",
+        "why": "过去一周科技股估值反复受到AI资本开支、长端利率和能源价格共同影响。若Hormuz风险缓和，油价与通胀预期会给风险资产提供短线支撑；但如果谈判失败，能源冲击会重新压高债券收益率，并挤压高资本开支科技公司的估值。",
+        "watch": "关注Iran是否公开接受协议框架，Strait of Hormuz船运和保险费率是否恢复，Gulf能源设施是否继续遭无人机或代理人攻击，以及本周AMD、SpaceX和数据中心供应链财报是否把油价与利率风险纳入指引。"
       }
     ],
     "sourceLinks": [
-      "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYzlGQnlDZDlpa1B5UWZMaGRUWXRUcExkeC1PTzdnLW5DNnUxa256ZWZTaG5ONGd0a2g5TURISnpEWnoyQWpZUUwwdndsLUlCQW10bVZrUEdrZzBOMEZfdXBHeHk3ZXBpVGowRFlRVVU3SU9aUll2RzV3SzFRQnBNdkJ1NHZEb2VkSUdOQw?oc=5",
-      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSkhNd2RkckVXdGx4VkRwLU12VGlDcHJyWVNXYXZKajlXbnkxc1lHdE5US1d0ZlJ5cTBCNnQ4aUs1VDVXQ0NWUklDUGhMcmZHVTgzVEo3S1FDRDZXMkFoQWRUQ0FSLU16bWE0TjZNdjdMOHpkbGJVNjN6VFlpdzNLcGpyanZoZzdTUVdydjFPODhSZkY5eU9oRVBXVk9fTGJPYmpCRkxaa3d0OTRDZFo2b1ZGMkdtdVhL?oc=5",
-      "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNY1ktdU0wZTczN0RqZDZibmpQSmM2WE1memI4VUJDVGdYSVdsSGkwVHJ4cUpPaDVUN2VDYWZRVXphUUtwYWo5LWluM0JyMkxFU21FYi1NMDJVUnNOZUZST3Y2VlVnTGlDYl9jc0JqZ3EzSjM1SzN6X3loZnlTZDAzYXN5UXF6dDBzR2swaHZrSnhjZUdOZ2ZvU2RETTlRYnVIM1Axc3k2czFseUc2Y1pmSE1YYlplbTBIRzRPLVg4M1hfMmEzRHZJOG9ianRmUUE2UXpBQ0tUbDlRYUoyMkwzTW5lUFVMcGdQZ1ZjY1hyMmpEcy1kT2dZZFRzZGQ?oc=5",
-      "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeFBfQVI2NE9fQWFuX0dCTzZwblRHX1dZTFpTam02cTBOWURXb1Y1VEtIU05xNFRLLTVhR054QU1HNmwwbmppdEx4aXY0Z2NnTmNLX2thaC1sTGZlSFhldnR2T1h6VnNqSG9FUUhnbWhjX2FkX2hYUHBJMEhwRkkwQkp4QkY2Z21jLXd3N3luSFhtNTM0ZHdyS2FMaGFzNTJoOEEzYzZXb3UzM1lubVR0Z2JSS1hKT202UkNEQ0t3?oc=5",
-      "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oTTMtVXpHbmZ6ZnFKeWhnYUM3eVM2eGtpTmFrU293cGUtV09yNGNPU2RnczYyMXI1c1I4aktfU1pTRURWTGRNVk1CdUQ2RzhFT1NPN21QQWJ5b3lXamE1T09weF94ejAycXN0TzZyLWp2YUpDRUxiYQ?oc=5"
+      "https://www.sony.com/en/SonyInfo/IR/library/presen/er/",
+      "https://www.wsj.com/business/earnings/sony-profit-jumps-more-than-expected-raises-guidance-9133f34a",
+      "https://www.theverge.com/tech/973621/sony-playstation-ending-discs-pushing-forward",
+      "https://www.globenewswire.com/news-release/2026/07/16/3328489/0/en/trump-media-and-technology-group-launches-truth-api-a-new-licensed-data-service-for-financial-services-partners-that-provides-the-fastest-access-to-truth-social-s-most-influential-.html",
+      "https://apnews.com/article/25c2c5be926f2650d0610c84100cffb8",
+      "https://www.theguardian.com/us-news/2026/aug/01/trump-truth-social-early-access",
+      "https://www.channelnewsasia.com/business/trump-media-license-truth-social-data-financial-services-firms-6258871",
+      "https://www.house.mn.gov/NewLaws/story/2026/5741",
+      "https://apnews.com/article/131184be939d540de093b567b12c9e16",
+      "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit",
+      "https://arstechnica.com/tech-policy/2026/05/minnesota-set-to-be-first-state-to-ban-nudification-apps/",
+      "https://www.ft.com/content/9cb84920-075e-4fa4-b1cb-dfc55d5845f4",
+      "https://www.axios.com/2026/08/02/trump-iran-attack-cancelled",
+      "https://www.wsj.com/world/middle-east/iran-stokes-the-middle-east-war-with-drone-attacks-on-kuwait-f25530a0",
+      "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-spacex-amd-sandisk-eli-lilly-earnings-loom/"
     ]
   },
-  {
+    {
     "date": "2026-08-01",
     "displayDate": "2026年8月1日",
     "scope": "全球新闻｜科技与财经优先",
