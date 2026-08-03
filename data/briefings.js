@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-03",
+    "displayDate": "2026年8月3日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-03.png",
+    "summary": "本期简报聚焦全球宏观与科技资本市场的剧烈共振。韩国股市崩盘引发全球资产重新定价；Amazon财报中Anthropic投资的纸面收益大幅推高标普500利润增速，凸显AI资产对传统估值体系的扭曲；英伟达万亿美元芯片销售目标面临进度考验；同时，股市动荡与深度分析共同指向美国AI基建这一“最大赌注”的回报不透明与风险加剧。",
+    "focus": [
+      "AI资本开支回报验证、全球股市震荡与宏观风险",
+      "韩国作为全球半导体和科技硬件的重要风向标，其股市崩盘不仅是区域性事件，更直接冲击全球科技供应链的估值逻辑与资金流向。",
+      "科技巨头通过AI初创公司股权增值来粉饰财报，使得大盘盈利数据失真，增加了市场在剥离AI投资收益后对核心业务健康度的误判风险。"
+    ],
+    "items": [
+      {
+        "title": "韩国股市崩盘引发全球市场震荡，亚洲资产面临重新定价",
+        "region": "Asia/Global",
+        "sources": [
+          "ABC News"
+        ],
+        "summary": "韩国股市出现剧烈崩盘，引发全球市场连锁反应与震荡，投资者开始重新评估亚洲科技与出口导向型资产的估值风险。",
+        "why": "韩国作为全球半导体和科技硬件的重要风向标，其股市崩盘不仅是区域性事件，更直接冲击全球科技供应链的估值逻辑与资金流向。",
+        "watch": "关注外资流出速度、韩国央行干预措施，以及此举对台积电、SK海力士等全球半导体巨头的估值传导效应。"
+      },
+      {
+        "title": "Amazon财报及Anthropic投资推高标普500利润增速，AI纸面收益扭曲大盘估值",
+        "region": "US",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "Amazon最新财报显示，其对Anthropic的投资带来巨额纸面收益，导致标普500整体利润增速出现异常飙升，掩盖了部分传统业务的疲软。",
+        "why": "科技巨头通过AI初创公司股权增值来粉饰财报，使得大盘盈利数据失真，增加了市场在剥离AI投资收益后对核心业务健康度的误判风险。",
+        "watch": "关注后续财报季中其他巨头（如Google、Microsoft）的AI投资公允价值变动，以及市场对“核心运营利润”的重新定价。"
+      },
+      {
+        "title": "黄仁勋预测英伟达2027年芯片销售达1万亿美元的进度追踪与验证",
+        "region": "US/Global",
+        "sources": [
+          "The Globe and Mail"
+        ],
+        "summary": "市场开始审视黄仁勋此前提出的英伟达至2027年累计芯片销售达1万亿美元的预测，分析当前数据中心资本开支是否能支撑这一激进目标。",
+        "why": "英伟达的营收预期是整个AI硬件产业链的估值锚，对其万亿美元目标的进度核查，直接决定了AI基建热潮是处于加速期还是已见顶。",
+        "watch": "紧盯超大规模云厂商（Hyperscalers）下半年的资本开支指引，以及Blackwell架构芯片的实际出货与交付转化率。"
+      },
+      {
+        "title": "股市动荡揭示AI经济资本开支与回报的不透明性",
+        "region": "Global",
+        "sources": [
+          "The Guardian"
+        ],
+        "summary": "近期的股市动荡暴露出AI经济的核心痛点：巨额资本开支与模糊的商业回报之间存在严重的不透明性，投资者对AI变现路径产生疑虑。",
+        "why": "当市场从“算力囤积”阶段转向“应用变现”阶段时，缺乏清晰盈利模式的AI基建投资将面临严苛的ROI审查，引发估值逻辑切换。",
+        "watch": "关注企业级AI软件的实际ARR（年度经常性收入）增速，以及云厂商是否开始放缓GPU采购节奏以等待应用层爆发。"
+      },
+      {
+        "title": "美国经济最大赌注风险加剧，AI基建投资面临宏观与回报双重压力",
+        "region": "US",
+        "sources": [
+          "The Washington Post"
+        ],
+        "summary": "分析指出，美国当前将大量资源押注于AI基础设施建设的“最大赌注”正显得愈发危险，面临高利率环境与商业化不及预期的双重挤压。",
+        "why": "AI基建已成为美国经济增长和科技霸权的核心叙事，若该投资周期因宏观流动性收紧或需求证伪而中断，将对美国实体经济和科技股造成系统性冲击。",
+        "watch": "关注美联储后续利率决议对高杠杆科技融资的成本影响，以及电力、冷却等物理基础设施瓶颈对AI数据中心扩张的实际制约。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUldRMFhxeFhIZkZLWDRVVk1WT3BCdTZ0UnA1dThlWTFvV2g0YzYtVDFpdUJvbTI2Tk1qNENsUWVQWVMwRlhDWDFTMFI4SXJlM2szTjd0ZXJEblFYQTlQNldyamlaSVRjVEF4TjJacGpmLU9NM3JYOTNSSkFFY1lhdmFkdkRidWttZUNRa1RDaEtJZDBTNkE?oc=5",
+      "https://www.marketwatch.com/story/s-p-500-profit-growth-is-getting-even-wilder-as-amazon-makes-its-mark-5ddf2082?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMingJBVV95cUxNYmVRMkllM05odXVRZ29VZmUtSk9XYVZFWG10dUF2cWIxWVpKZm1DV1hYR2tiSThNSFp1ZVplWjljd0RIOF9iTlNRODNrbXMydmhNdnNSdzc4bWJ5SHFUckZIQ19aZjNHdE5IVUhfVzliZ2ZtbEhSSENEd2oxSGlaZ2hhVE9WcFBxMzBseWU2d1dYdjdkYUtwNm1DNkN2SXBNUHQ0NFFRVzllWUkwdDdfN1ZpaTJGS0hFd2NDTUV0OW1UdXNmNnA2bkthLTNtOEJJSWI4RHhsdFlHQnEzSm9LRmxEcW84UGlUdEc5NEFCYXJYYkZLRjVhREVaUFRPSUF5QVZNX0s1ZFhfQXRuaVVtN1ZJeEtOQTJQZEZuTHNn?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRDA2eEdWZUVjWFNkbGdwZVFhZ0FUODRfU2dGQy1OaHVENmgzcFBDak1na3JzY08yTWtWS3N4STF0VjV3R0w5bzFMYTJxMl9XajZFYVFNd2s0ckdKdThkTlZ5UzZyRlo3RnZnSHU0eFpZM0JrMDdPNUtBNzhQOFV2TnFqbGZpY2FXbmRTSUhVOGVOTGU5Yjh5ZFAxWWRhYnBYUXIw?oc=5",
+      "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVDFlR21zT1pPMi1JUFZnSHdpZTRnbGJneFp3eUI3LU5YdWVhVGtycXBUR0F5Q2ZkVlVzTFVZaThNZlBIdWd3Rms5QjdmN2wtRmJTbG5jQzloLUJobzlQVkdINlRTaWxNemdyUXhkem9ZdlIwMXk2WkN0dmdVOWRReTJyd05oUi1nUHJLc0F5eWNrN0tIcHk3Sl9oOUdtVWNSQVNaNzdGVC1rdVN6?oc=5"
+    ]
+  },
+  {
     "date": "2026-08-02",
     "displayDate": "2026年8月2日",
     "scope": "全球新闻｜科技与财经优先",
