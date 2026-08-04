@@ -1,5 +1,79 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-04",
+    "displayDate": "2026年8月4日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-04.png",
+    "summary": "本期只纳入4条，原因是今日可交叉核验且与最近7天不重复的新科技财经事件主要集中在美股盘后财报、官方制造业数据和大型医药并购谈判；未继续纳入Hormuz油价缓和、Qwen3.8/国产模型竞争、EU AI Act执行、OpenAI/Hugging Face/Anthropic安全事故、Google Earth地理深伪、Apple/Amazon/Microsoft/Meta/Samsung财报延伸和SpaceX/AMD财报预告，避免把近几期主题轻微改写后重复发布。今日保留的新进展包括：Palantir Q2收入和全年指引大幅上修，onsemi财报显示汽车芯片低迷但AI电源与数据中心成为转型抓手，美国7月ISM制造业PMI反弹至55.6并伴随价格压力回落，AstraZeneca据报评估与Bristol Myers Squibb合并、可能形成4000亿美元级制药巨头。",
+    "focus": [
+      "今天的AI主线从通用大模型发布转向商业兑现：Palantir用政府和企业订单支撑高估值，onsemi则把AI数据中心电源链条作为抵消汽车芯片周期的抓手。",
+      "美国7月制造业PMI回升和价格指数降温，为上周Fed、PCE和大型科技财报之后的风险资产提供新的宏观输入，但也可能延后市场对降息的押注。",
+      "AstraZeneca与BMS并购传闻显示，AI药物研发、专利悬崖和现金流再配置正在推动医药巨头重新评估规模优势，科技与医疗资本市场的交集继续扩大。"
+    ],
+    "items": [
+      {
+        "title": "Palantir Q2收入增长93%并上调全年指引，AI软件从试点转向预算锁定",
+        "region": "美国/企业AI软件、国防科技与美股财报",
+        "sources": [
+          "Palantir",
+          "Wall Street Journal",
+          "CNBC"
+        ],
+        "summary": "Palantir在8月3日美股盘后公布二季度业绩，公司称收入同比增长93%，并上调全年收入和调整后经营利润指引。财经媒体报道强调，美国商业客户和政府部门的AI平台订单继续放大，盘后股价大涨，市场把Palantir视为本轮企业AI支出最直接的收入兑现样本之一。",
+        "why": "近一周简报多次讨论大型科技资本开支、AI基金去杠杆和模型安全，但Palantir提供的是软件收入端的新证据。若其AIP业务能够持续把试点项目转为年度合同，AI交易的焦点会从GPU采购和数据中心融资转向哪些应用层公司真正拿到预算。",
+        "watch": "关注管理层是否披露AIP合同续约率、美国商业客户数量和单客收入变化，政府订单是否受国防预算节奏影响，估值扩张是否引发做空压力，以及ServiceNow、Salesforce、Snowflake等企业软件公司是否被市场重新定价。"
+      },
+      {
+        "title": "onsemi Q2利润超预期但收入下滑，AI数据中心电源链条成为汽车低迷期的新支点",
+        "region": "美国/功率半导体、汽车芯片与AI数据中心电力",
+        "sources": [
+          "onsemi",
+          "Barron's",
+          "MarketWatch"
+        ],
+        "summary": "onsemi公布二季度业绩后，财经媒体报道称公司利润好于市场预期，但收入仍受电动车和工业客户去库存拖累。管理层把碳化硅、智能电源和AI数据中心电力管理列为新的增长重点，试图用服务器电源、能源效率和高压器件需求抵消传统汽车芯片周期下行。",
+        "why": "这条不是泛化的AI算力故事，而是AI基础设施向电源、功率器件和能效管理外溢的具体财报样本。过去几期已覆盖GPU、HBM、硬盘和光模块，onsemi显示数据中心扩张还会重塑汽车半导体厂商的产品组合和资本配置。",
+        "watch": "关注第三季度收入指引是否确认汽车库存见底，AI服务器电源订单能否形成可量化收入，碳化硅价格压力是否缓和，以及Infineon、STMicro、Wolfspeed等功率半导体公司是否给出类似转向。"
+      },
+      {
+        "title": "美国7月ISM制造业PMI升至55.6，订单反弹与价格回落重塑利率和科技估值预期",
+        "region": "美国/宏观数据、制造业周期与利率路径",
+        "sources": [
+          "ISM",
+          "MarketWatch",
+          "Wall Street Journal"
+        ],
+        "summary": "ISM公布的7月制造业报告显示，PMI升至55.6，新订单和生产分项改善，支付价格指数回落。MarketWatch和WSJ将其解读为美国制造业在高利率和关税扰动后出现阶段性修复，同时价格压力降温给债市和科技股提供缓冲。该数据紧接上周Fed维持利率、6月PCE降温和大型科技财报披露之后发布。",
+        "why": "这不是对Fed或PCE的重复，而是新的官方高频实体经济数据。AI数据中心、半导体设备、云基础设施和工业自动化支出最终都要落在制造业订单和资本品周期上；PMI走强会改善盈利预期，但也可能让市场推迟降息定价。",
+        "watch": "关注8月非农和CPI是否确认“增长回升、通胀降温”的组合，长端美债收益率是否重新上行，半导体设备和工业软件订单是否跟随PMI改善，以及美元走强是否压制跨国科技公司海外收入。"
+      },
+      {
+        "title": "AstraZeneca据报评估并购Bristol Myers，4000亿美元级药企合并考验反垄断与AI研发逻辑",
+        "region": "英国/美国、制药并购、AI药物研发与资本配置",
+        "sources": [
+          "Financial Times",
+          "Wall Street Journal",
+          "SEC"
+        ],
+        "summary": "FT和WSJ报道，AstraZeneca正在评估与Bristol Myers Squibb的潜在合并交易；若推进，合并后市值可能接近或超过4000亿美元。报道指出，双方仍处早期讨论或评估阶段，交易未必达成，但专利悬崖、肿瘤管线、现金流再配置和AI药物研发投资压力，是大型药企重新考虑规模整合的背景。",
+        "why": "这条属于财经与科技交叉的高影响候选：制药巨头正在用并购、数据平台和AI研发能力对冲专利到期风险。若交易成形，它会影响全球医药并购估值、反垄断审查、AI药物发现合作和生物科技融资窗口。",
+        "watch": "关注双方是否发布正式回应或监管文件，英国和美国反垄断机构是否提前表态，BMS肿瘤与免疫管线估值是否被重新定价，AI药物研发平台和CRO企业是否被纳入并购协同叙事。"
+      }
+    ],
+    "sourceLinks": [
+      "https://investors.palantir.com/news/default.aspx",
+      "https://www.sec.gov/edgar/browse/?CIK=1321655",
+      "https://www.cnbc.com/quotes/PLTR",
+      "https://investor.onsemi.com/news-events/press-releases",
+      "https://www.marketwatch.com/investing/stock/on",
+      "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/july/",
+      "https://www.marketwatch.com/economy-politics/calendar",
+      "https://www.astrazeneca.com/investor-relations.html",
+      "https://www.bms.com/investors.html",
+      "https://www.sec.gov/edgar/browse/?CIK=14272"
+    ]
+  },
+  {
     "date": "2026-08-03",
     "displayDate": "2026年8月3日",
     "scope": "全球新闻｜科技与财经优先",
