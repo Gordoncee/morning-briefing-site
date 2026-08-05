@@ -1,5 +1,85 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-05",
+    "displayDate": "2026年8月5日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-05.png",
+    "summary": "本期只纳入4条，原因是今日可交叉核验且与最近7天不重复的新科技财经事件主要集中在AI基础设施财报兑现和供应链政策线索；未继续纳入Palantir、onsemi、美国ISM制造业、AstraZeneca/BMS并购评估、Hormuz油价缓和、EU AI Act执行、OpenAI/Hugging Face/Anthropic安全事故、Apple/Amazon/Microsoft/Meta/Samsung财报延伸和泛AI估值警示，避免把近几期主题轻微改写后重复发布。今日保留的新进展包括：AMD Q2数据中心收入翻倍并给出更强Q3收入指引，SpaceX上市后首份财报显示Starlink盈利但AI资本开支压低自由现金流预期，Caterpillar创纪录收入验证AI数据中心电力设备需求，美国据报正起草针对中国数据中心光模块的进口限制。",
+    "focus": [
+      "今天的AI主线从模型发布继续转向基础设施兑现：AMD、SpaceX和Caterpillar分别给出芯片、卫星连接/AI资本开支、电力设备三个层面的真实财务信号。",
+      "AMD和Caterpillar的共同点是需求仍强，但市场已经开始区分收入增长、毛利率、资本开支和监管瓶颈，单纯的AI叙事不足以支撑估值。",
+      "美国拟限制中国光模块进入数据中心供应链，会把AI算力竞争从GPU和HBM进一步推向高速互连、光通信和云厂商采购安全审查。"
+    ],
+    "items": [
+      {
+        "title": "AMD Q2收入创纪录且数据中心翻倍，Helios放量成为挑战英伟达的关键窗口",
+        "region": "美国/AI芯片、数据中心服务器与半导体财报",
+        "sources": [
+          "AMD",
+          "MarketWatch",
+          "Wall Street Journal"
+        ],
+        "summary": "AMD在8月4日美股盘后发布二季度财报，收入达到115.36亿美元，同比增长50%，非GAAP每股收益1.66美元；数据中心业务收入67亿美元，同比增长107%，占公司收入约58%。公司预计第三季度收入约130亿美元，上下浮动3亿美元，并称EPYC、Instinct部署和Helios机架级系统将在下半年继续放量。",
+        "why": "近几期已覆盖AMD与Anthropic、Microsoft等客户的基础设施合作，但今天的新信息是正式财报和指引验证。AMD正在从单点GPU供货转向CPU、GPU、网络、软件和整机架方案竞争，市场会据此重新评估其能否在Nvidia之外拿到可持续AI算力预算。",
+        "watch": "关注Helios在OpenAI、Meta、Microsoft、Oracle和Anthropic等客户的实际交付节奏，数据中心毛利率能否继续改善，中国出口限制是否影响Instinct产品组合，以及Nvidia Blackwell/Rubin供给改善后是否压缩AMD议价空间。"
+      },
+      {
+        "title": "SpaceX上市后首份财报收入增九成，Starlink盈利被AI资本开支与锁定期压力抵消",
+        "region": "美国/航天、卫星互联网、AI基础设施与新上市公司财报",
+        "sources": [
+          "SpaceX",
+          "Associated Press",
+          "MarketWatch",
+          "Wall Street Journal"
+        ],
+        "summary": "SpaceX发布上市后首份季度财报，AP和财经媒体报道显示，公司第二季度收入约78亿美元，同比增长约90%，净亏损约5.41亿美元，亏损小于预期。Starlink订户约1200万，连接业务仍是主要收入和利润来源；但公司在AI、Grok和基础设施上的资本开支大幅上升，叠加IPO后锁定期到期，盘后股价承压。",
+        "why": "这条与8月2日的SpaceX财报预告不同，今天已有正式结果和市场反应。SpaceX正在把航天、卫星连接和AI基础设施合并进一个资本密集型故事，财报会成为检验Starlink现金流能否支撑Starship、xAI/Grok和长期月球/轨道数据中心计划的第一组公开样本。",
+        "watch": "关注锁定期股份释放是否带来二级市场抛压，Starlink ARPU下降是否被企业和政府客户抵消，Starship下一次飞行能否把V3卫星送入运营轨道，以及AI资本开支是否继续推迟自由现金流转正时间。"
+      },
+      {
+        "title": "Caterpillar Q2收入首次突破200亿美元，AI数据中心把发电机和燃机变成新算力资产",
+        "region": "美国/工业设备、数据中心电力、道指与AI基础设施",
+        "sources": [
+          "Caterpillar",
+          "Wall Street Journal",
+          "MarketWatch",
+          "Barron's"
+        ],
+        "summary": "Caterpillar二季度销售和收入达到205.4亿美元，同比增长24%，调整后每股收益8.17美元，显著高于市场预期。WSJ、MarketWatch和Barron's均指出，数据中心建设推动发动机、发电机和燃气轮机需求，公司电力与能源业务销售约82.4亿美元，同比增长17%，并计划扩大Lafayette等产能以服务电力设备订单。",
+        "why": "过去几期已覆盖GPU、HBM、硬盘、光模块和功率半导体，Caterpillar提供了更底层的实体约束证据：AI数据中心不仅需要芯片，也需要备用电源、燃机、变压器和电网接入。工业设备公司正在被重新定价为AI基础设施链条的一部分。",
+        "watch": "关注数据中心电力订单是否继续推高Caterpillar backlog，纽约、Texas等地对大型数据中心用电和排放的限制是否放慢项目，燃机和大型发电机交付周期是否成为瓶颈，以及Vertiv、GE Vernova、Eaton等电力链公司是否给出类似信号。"
+      },
+      {
+        "title": "美国据报拟禁中国数据中心光模块，AI互连供应链从成本竞争转向安全审查",
+        "region": "美国/中国、光通信、AI数据中心供应链与科技监管",
+        "sources": [
+          "The Guardian",
+          "Barron's",
+          "Reuters"
+        ],
+        "summary": "The Guardian报道称，特朗普政府正在起草针对中国制造数据中心部件的新限制，FCC相关措施可能瞄准AI数据中心所需的光收发模块。Barron's报道显示，消息推动Marvell、Coherent、Lumentum、Applied Optoelectronics和Corning等光通信相关股票上涨；市场担心潜在限制会冲击中际旭创等中国供应商对美国云厂商和AI集群的供货。",
+        "why": "这不是7月中国芯片或CXMT融资线的重复，而是AI数据中心高速互连环节的新政策风险。光模块决定GPU集群内部和数据中心之间的带宽、延迟和能耗，若美国把它纳入国家安全审查，云厂商采购、Nvidia生态供货和中国光通信企业海外收入都会被重新评估。",
+        "watch": "关注FCC是否发布正式NPRM或投票日程，限制范围是否只覆盖新进口设备还是包括既有供应链，Google、Microsoft、Meta和Nvidia是否调整光模块采购，中方是否以稀土、光通信部件或云服务准入作出反制。"
+      }
+    ],
+    "sourceLinks": [
+      "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+      "https://www.marketwatch.com/livecoverage/amd-earnings-stock-results-guidance-q2/card/amd-s-data-center-business-powers-a-revenue-beat-ppP0PyRfSI875MMxPsdW",
+      "https://www.wsj.com/business/earnings/amd-earnings-q2-2026-stock-03fe0b09",
+      "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Second-Quarter-2026-Results-and-Host-Webcast-on-August-4-2026-2026-g8layJlbFm/default.aspx",
+      "https://apnews.com/article/3b7b66a3e522e51d75caebc40af7e09e",
+      "https://www.marketwatch.com/livecoverage/spacex-earnings-stock-results-spcx-musk/card/starlink-revenue-beat-is-a-bright-spot-for-spacex-RqeIp3gfS2YXnddIgRcH",
+      "https://www.wsj.com/business/earnings/spacex-earnings-q2-2026-spcx-stock-5b3d782b",
+      "https://www.caterpillar.com/en/investors/quarterly-results.html",
+      "https://www.wsj.com/business/earnings/caterpillar-posts-higher-profit-sales-on-increased-orders-990788a5",
+      "https://www.marketwatch.com/story/caterpillar-is-killing-it-and-data-center-demand-is-driving-record-revenue-161b84d1",
+      "https://www.barrons.com/articles/caterpillar-earnings-stock-price-f0244d91",
+      "https://www.theguardian.com/technology/2026/aug/04/fcc-ban-china-datacenter-devices",
+      "https://www.barrons.com/articles/marvell-stock-price-corning-lumentum-china-ban-97074aa8",
+      "https://www.investing.com/news/stock-market-news/us-telecoms-watchdog-to-vote-on-barring-sales-of-devices-with-parts-from-blacklisted-firms-4768570"
+    ]
+  },
+  {
     "date": "2026-08-04",
     "displayDate": "2026年8月4日",
     "scope": "全球新闻｜科技与财经优先",
