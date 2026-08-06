@@ -4,71 +4,85 @@ window.MORNING_BRIEFINGS = [
     "displayDate": "2026年8月6日",
     "scope": "全球新闻｜科技与财经优先",
     "image": "assets/morning-briefing-2026-08-06.png",
-    "summary": "今日简报聚焦AI基础设施与地缘监管的激烈碰撞：特朗普政府拟禁止美国数据中心使用中国设备，进一步收紧算力供应链；SpaceX披露640亿美元AI资本开支计划，不仅引发自身股价震荡，更对传统电信巨头形成降维打击。企业层面，Block通过40%的大规模裁员全面转向AI，财报验证了AI对研发效率的实质性重塑；AMD在财报后承压，CEO苏姿丰正面回应马斯克对英伟达的独家绑定；同时，Google对AI核心架构进行重大调整，Demis Hassabis升任Alphabet首席科学家，统筹全局AI战略。",
+    "summary": "本期只纳入4条，原因是今日可交叉核验且与最近7天不重复的新科技财经事件主要集中在AI网络设备、自动驾驶平台、流媒体/内容财报和AI数据中心债务再融资；未继续纳入AMD、SpaceX、Caterpillar、Palantir、onsemi、美国ISM、Hormuz、EU AI Act、OpenAI/Hugging Face/Anthropic安全事故、Apple/Amazon/Microsoft/Meta/Samsung财报延伸、美国拟限制中国光模块和泛AI基建估值警示，避免把近几期主题轻微改写后重复发布。今日保留的新进展包括：Arista Q2业绩和2026收入指引上修验证AI以太网需求，Uber财报显示订单仍强但自动驾驶投入和Waymo竞争压制估值，Disney Q3业绩中流媒体、TikTok短视频合作和IP变现重新定价，Google背书的Anthropic Texas数据中心150亿美元债务拟转向债券市场。",
     "focus": [
-      "AI基础设施资本开支",
-      "数据中心供应链脱钩",
-      "AI重塑企业人效"
+      "今天的AI基础设施主线从GPU、电力和光模块继续外延到以太网交换机与债务市场：Arista给出收入端证据，Google/Anthropic项目则暴露融资结构和施工风险。",
+      "自动驾驶进入资本开支和监管落地阶段，Uber的订单增长不足以抵消市场对Waymo、Tesla以及自身100亿美元级AV投入回报期的担忧。",
+      "Disney显示科技财经简报不能只看云和芯片：流媒体广告、短视频分发、IP票房和主题公园客流仍会影响大型内容平台的现金流与估值。"
     ],
     "items": [
       {
-        "title": "Google重大AI架构调整：Demis Hassabis升任Alphabet首席科学家并兼任DeepMind主席",
-        "region": "美国",
+        "title": "Arista Q2收入增38%并上调全年指引，AI以太网成为GPU集群之外的新算力约束",
+        "region": "美国/云网络设备、AI数据中心、以太网交换机与科技股财报",
         "sources": [
-          "theverge.com"
+          "Arista",
+          "Barron's",
+          "Investor's Business Daily",
+          "MarketWatch"
         ],
-        "summary": "Google宣布对其AI高层进行重大重组，Google DeepMind负责人Demis Hassabis将出任Alphabet首席科学家并继续担任DeepMind主席，CEO Sundar Pichai旨在通过此举进一步统筹和强化集团层面的AI战略协同。",
-        "why": "在AI人才频繁流动和竞争白热化的背景下，Google通过提升技术领袖的集团权限，试图稳固其在基础模型和科学AI领域的护城河。",
-        "watch": "关注Hassabis在新角色下如何平衡DeepMind的独立研究与Google核心产品（如搜索、云）的商业化落地。"
+        "summary": "Arista Networks公布二季度业绩后，财经媒体报道显示公司调整后每股收益约1.02美元、收入约30.3亿至30.4亿美元，均高于市场预期；公司把2026年收入增长预期从约28%上调至约40%，并称云客户和AI后端网络需求继续推动以太网交换机、路由和软件销售。股价在财报后大涨，Microsoft、Meta、Alphabet和Anthropic相关需求成为市场关注点。",
+        "why": "近几期已覆盖GPU、HBM、硬盘、电力设备和光模块，Arista提供的是AI集群内部网络层的正式财报验证。随着模型训练和推理集群规模扩大，网络带宽、延迟、互联软件和可运维性会直接影响GPU利用率，网络设备商可能成为AI资本开支链条中新的利润捕获点。",
+        "watch": "关注Arista第三季度收入和毛利率能否兑现，上游光模块和ASIC供给是否限制交付，Microsoft和Meta资本开支是否继续倾斜以太网后端网络，以及Nvidia InfiniBand、Broadcom定制交换芯片和白牌交换机是否压缩Arista议价空间。"
       },
       {
-        "title": "特朗普政府起草禁令，拟全面限制美国数据中心使用中国设备",
-        "region": "美国/中国",
+        "title": "Uber Q2订单增24%但股价下跌，100亿美元级自动驾驶投入进入回报验证期",
+        "region": "美国/出行平台、自动驾驶、机器人出租车与平台经济财报",
         "sources": [
-          "Reuters"
+          "Uber",
+          "Wall Street Journal",
+          "Financial Times",
+          "MarketWatch",
+          "Barron's"
         ],
-        "summary": "据路透社独家报道，特朗普政府正在起草一项新禁令，计划禁止美国数据中心使用中国制造的硬件设备，进一步将科技脱钩从先进芯片延伸至底层基础设施。",
-        "why": "此举标志着美国对华科技限制从“算力芯片”向“数据中心物理供应链”全面扩展，将直接冲击中国服务器、网络设备及散热组件出海企业。",
-        "watch": "关注禁令的具体豁免条款及实施时间表，以及美国本土数据中心建设成本是否因此面临通胀压力。"
+        "summary": "Uber二季度财报显示收入约141.9亿至142亿美元、总订单额约580亿美元，同比增长约24%，调整后每股收益约0.81美元；但第三季度订单和盈利指引未能激发市场信心，股价在财报后下跌。FT报道称Uber计划投入超过100亿美元扩张robotaxi网络，并希望到年底在至少15个市场部署自动驾驶服务；WSJ和Barron's指出，与Waymo、Tesla等竞争以及Wayve伦敦有安全员试运营，成为投资者重新评估Uber长期平台价值的焦点。",
+        "why": "这条不是普通财报波动，而是平台公司从轻资产撮合转向自动驾驶资本和监管竞争的节点。Uber拥有巨大需求入口和现金流，但如果Waymo、Tesla或地区监管把AV运营利润锁在车队和技术供应方，Uber的估值逻辑会从网络效应重新转向资本回报率。",
+        "watch": "关注Uber是否披露AV单车经济模型和城市扩张成本，Waymo合作关系是否发生实质变化，Wayve伦敦项目何时取消安全员，Zoox、Rivian和Lucid合作是否进入商业订单，以及AV补贴是否拖累自由现金流。"
       },
       {
-        "title": "SpaceX披露640亿美元AI资本开支计划，华尔街受惊且传统电信股承压",
-        "region": "美国",
+        "title": "Disney Q3业绩超预期并牵手TikTok，流媒体平台从订阅增长转向IP分发和广告变现",
+        "region": "美国/媒体科技、流媒体、短视频平台与文娱财报",
         "sources": [
-          "marketwatch.com"
+          "Disney",
+          "Wall Street Journal",
+          "Associated Press",
+          "MarketWatch",
+          "Barron's"
         ],
-        "summary": "摩根士丹利预计SpaceX今年AI相关资本开支将高达640亿美元，庞大的支出规模令投资者担忧其现金流；同时，SpaceX无需大规模传统网络投资即可构建无线能力的预期，导致AT&T、Verizon和T-Mobile股价集体下挫。",
-        "why": "SpaceX正利用星链和AI技术对传统电信基础设施形成“降维打击”，其激进的AI算力扩张也凸显了科技巨头在基建上的“军备竞赛”已外溢至通信行业。",
-        "watch": "关注SpaceX星链直连手机业务的推进速度，以及传统电信运营商是否会加速向AI和卫星通信领域进行防御性并购。"
+        "summary": "Disney发布2026财年第三季度业绩并举行投资者电话会，WSJ、AP和财经媒体报道称，公司季度收入约252亿美元，同比增长约7%，调整后每股收益约2.06美元，高于预期；美国主题公园、Toy Story 5票房和商品销售、ESPN收视以及Disney+/Hulu流媒体收入增长共同支撑业绩。公司还宣布与TikTok开展短视频内容合作，并出售A+E Global Media 50%权益以支持回购和资本配置。",
+        "why": "过去一周科技财报集中在AI云资本开支，Disney提供了另一条平台经济样本：内容IP、短视频分发、广告库存和主题公园客流共同决定现金流。TikTok合作说明长视频和线下娱乐公司正在把用户生成内容、片段传播和流媒体入口整合成新的获客链路。",
+        "watch": "关注TikTok合作是否转化为Disney+用户和广告收入，ESPN独立流媒体与体育版权成本是否压缩利润，主题公园国际客流是否继续受汇率和旅行政策影响，以及D'Amaro上任后的IP投资和回购节奏是否改善股东回报。"
       },
       {
-        "title": "Block裁员40%全面押注AI，最新财报验证AI驱动的人效重塑",
-        "region": "美国",
+        "title": "Google背书的Anthropic数据中心拟转售150亿美元债务，AI算力融资风险转向债券市场",
+        "region": "美国/AI数据中心、私募信贷、云计算融资与电力基础设施",
         "sources": [
-          "marketwatch.com"
+          "Financial Times",
+          "Google",
+          "Anthropic",
+          "Morgan Stanley"
         ],
-        "summary": "金融科技公司Block此前大幅裁员40%以重组AI研发团队，其最新超预期财报显示，这一激进策略正在奏效。高管表示，AI使公司能够“更快、更高质量地交付产品”。",
-        "why": "这是华尔街首批通过大规模裁员并用AI替代后，在财务指标上获得正向反馈的科技巨头案例，为“AI替代白领”提供了真实的商业验证。",
-        "watch": "关注其他SaaS和金融科技企业是否会效仿Block进行激进的组织架构“AI化”瘦身，以及随之而来的监管与劳工反弹。"
-      },
-      {
-        "title": "AMD财报后股价下挫，CEO苏姿丰正面回应马斯克“SpaceX只用英伟达”言论",
-        "region": "美国",
-        "sources": [
-          "cnbc.com"
-        ],
-        "summary": "AMD在发布财报后股价下跌，面对马斯克公开宣称“SpaceX将只使用英伟达芯片构建AI”的言论，AMD CEO苏姿丰予以淡化，强调AMD在定制化和开放生态上的长期竞争力。",
-        "why": "马斯克的背书加剧了市场对英伟达在AI训练和推理端“赢家通吃”的担忧，AMD的股价反应凸显了二线芯片巨头在巨头绑定效应下的估值压力。",
-        "watch": "关注AMD下一代MI400系列芯片的实际客户导入情况，以及云厂商自研芯片对英伟达和AMD市场份额的双重挤压。"
+        "summary": "FT报道称，以Morgan Stanley为首的银行准备将与Google背书的Anthropic数据中心项目相关的约150亿美元债务转售给债券投资者。该Texas Hubbard项目仍在建设中，计划容纳Google TPU芯片并配套天然气电厂；债务将按建设里程碑分批发行，Google担保主要在项目完工后生效，因此投资者仍需承担施工、电力并网和客户集中度风险。",
+        "why": "近几期已覆盖AI基础设施资本开支和Google/Anthropic关系，但今天的新进展是具体项目的债务出表和债券化安排。AI算力竞争正在把风险从科技公司利润表扩散到银行、私募信贷、保险资金和高收益债投资者，数据中心能否按期通电会成为金融市场而非单纯科技行业的问题。",
+        "watch": "关注该批债券定价和评级是否体现施工风险，Google担保条款是否被市场视为准信用增强，Anthropic租赁义务能否支撑TPU融资模式，Oracle相关数据中心债务出售是否形成对照，以及Texas电网和天然气电厂审批是否延误。"
       }
     ],
     "sourceLinks": [
-      "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
-      "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZEFjZDdmMzAxM2tTaHIwTWpFMHVCUldHdGs3Y3hTejI2ajRQeTVWUFU4RThDRGlIUmhXM0duczgySG5xUExONFhPMmtZR2liTVVJR19JcVhBYndwTjBURk1qM0lvOU1sTnlGYVd3VUxLQTJBQklmZjlsSmdUd0p1bVpGRElVSlp5NHl3YTBnSmhrMUpfSl9ld0NmLVhDdTF0MXg1enZIcXE0aEpFQTJDRWxYUUdRdw?oc=5",
-      "https://www.marketwatch.com/story/spacexs-stock-falls-as-wall-street-gets-spooked-by-the-extent-of-ai-spending-9ce9ddb8?mod=mw_rss_topstories",
-      "https://www.marketwatch.com/story/why-at-t-verizon-and-t-mobile-shares-are-down-after-spacexs-earnings-033a07ce?mod=mw_rss_topstories",
-      "https://www.marketwatch.com/story/block-slashed-40-of-its-workforce-for-ai-and-earnings-suggest-thats-paying-off-852b7c54?mod=mw_rss_topstories",
-      "https://news.google.com/rss/articles/CBMickFVX3lxTE9sSTl3aGxwYWRDZUtoUElIb1h3SkgwWEJwTFA1ZzVQY3RRaTVfdEU1eHAzTk9URTJQYmN5Q1hhd0I4OG4xVGhGVVRPRW00bzBGMzNESndXY0xyVlpkTEF6ekNyMzRibU8tYTA5ZW5QczJMd9IBd0FVX3lxTE5RNWlETDdZZWNZNVFrM3RrOFBXMlIzMHFzVzZXVlhqVUtQVGFmOUlaaE1uT1FKZDJYSWdKUWFLMGd2WGdieFlVb0NQYThkRkZIUkNPRkJSMFRDS1pZYkdYZ2lLNG0wSTBLU3p0T1N6SUFiNTB2cWZz?oc=5"
+      "https://investors.arista.com/Financial-Information/",
+      "https://www.barrons.com/articles/arista-networks-earnings-stock-price-e421b3c3",
+      "https://www.investors.com/news/technology/arista-stock-anet-arista-earnings-q22026/",
+      "https://www.marketwatch.com/livecoverage/stock-market-today-sp500-dow-fresh-records-nasdaq-up-spacex-amd-falkl-sandisk-earnings/card/arista-networks-stock-pops-after-earnings-and-other-early-market-movers-yeOX72K8wgJh22KGuoIt",
+      "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Date-of-Second-Quarter-2026-Results-Conference-Call/default.aspx",
+      "https://www.wsj.com/business/earnings/uber-technologies-revenue-climbs-on-delivery-growth-290b4aa0",
+      "https://www.ft.com/content/04d6fcb4-03e4-4ee5-9017-ccaa7808c934",
+      "https://www.marketwatch.com/story/uber-profit-narrowly-beat-forecasts-as-trips-across-its-platform-surge-4a22ce2d",
+      "https://www.barrons.com/articles/uber-earnings-stock-price-df4becae",
+      "https://investors.thewaltdisneycompany.com/events-and-presentations/event-details/2026/Disneys-Q3-FY26-Earnings-Results-Webcast-2026-PXZSBx9qZg/default.aspx",
+      "https://www.wsj.com/business/earnings/disney-earnings-q3-2026-dis-stock-bc2fa875",
+      "https://apnews.com/article/d9d5482d48307f7104c677fa4b059a01",
+      "https://www.marketwatch.com/story/walt-disneys-stock-climbs-as-company-cites-toy-story-5-for-earnings-growth-fe0c86c1",
+      "https://www.barrons.com/articles/disney-earnings-stock-price-dee97241",
+      "https://www.ft.com/content/c492ce6b-483b-4196-8f2a-9bd1afda92d3",
+      "https://www.ft.com/content/549f2e23-5aa2-49c7-9ea6-a9784ab7087c"
     ]
   },
   {
