@@ -1,5 +1,77 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-06",
+    "displayDate": "2026年8月6日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-06.png",
+    "summary": "今日简报聚焦AI基础设施与地缘监管的激烈碰撞：特朗普政府拟禁止美国数据中心使用中国设备，进一步收紧算力供应链；SpaceX披露640亿美元AI资本开支计划，不仅引发自身股价震荡，更对传统电信巨头形成降维打击。企业层面，Block通过40%的大规模裁员全面转向AI，财报验证了AI对研发效率的实质性重塑；AMD在财报后承压，CEO苏姿丰正面回应马斯克对英伟达的独家绑定；同时，Google对AI核心架构进行重大调整，Demis Hassabis升任Alphabet首席科学家，统筹全局AI战略。",
+    "focus": [
+      "AI基础设施资本开支",
+      "数据中心供应链脱钩",
+      "AI重塑企业人效"
+    ],
+    "items": [
+      {
+        "title": "Google重大AI架构调整：Demis Hassabis升任Alphabet首席科学家并兼任DeepMind主席",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "Google宣布对其AI高层进行重大重组，Google DeepMind负责人Demis Hassabis将出任Alphabet首席科学家并继续担任DeepMind主席，CEO Sundar Pichai旨在通过此举进一步统筹和强化集团层面的AI战略协同。",
+        "why": "在AI人才频繁流动和竞争白热化的背景下，Google通过提升技术领袖的集团权限，试图稳固其在基础模型和科学AI领域的护城河。",
+        "watch": "关注Hassabis在新角色下如何平衡DeepMind的独立研究与Google核心产品（如搜索、云）的商业化落地。"
+      },
+      {
+        "title": "特朗普政府起草禁令，拟全面限制美国数据中心使用中国设备",
+        "region": "美国/中国",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "据路透社独家报道，特朗普政府正在起草一项新禁令，计划禁止美国数据中心使用中国制造的硬件设备，进一步将科技脱钩从先进芯片延伸至底层基础设施。",
+        "why": "此举标志着美国对华科技限制从“算力芯片”向“数据中心物理供应链”全面扩展，将直接冲击中国服务器、网络设备及散热组件出海企业。",
+        "watch": "关注禁令的具体豁免条款及实施时间表，以及美国本土数据中心建设成本是否因此面临通胀压力。"
+      },
+      {
+        "title": "SpaceX披露640亿美元AI资本开支计划，华尔街受惊且传统电信股承压",
+        "region": "美国",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "摩根士丹利预计SpaceX今年AI相关资本开支将高达640亿美元，庞大的支出规模令投资者担忧其现金流；同时，SpaceX无需大规模传统网络投资即可构建无线能力的预期，导致AT&T、Verizon和T-Mobile股价集体下挫。",
+        "why": "SpaceX正利用星链和AI技术对传统电信基础设施形成“降维打击”，其激进的AI算力扩张也凸显了科技巨头在基建上的“军备竞赛”已外溢至通信行业。",
+        "watch": "关注SpaceX星链直连手机业务的推进速度，以及传统电信运营商是否会加速向AI和卫星通信领域进行防御性并购。"
+      },
+      {
+        "title": "Block裁员40%全面押注AI，最新财报验证AI驱动的人效重塑",
+        "region": "美国",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "金融科技公司Block此前大幅裁员40%以重组AI研发团队，其最新超预期财报显示，这一激进策略正在奏效。高管表示，AI使公司能够“更快、更高质量地交付产品”。",
+        "why": "这是华尔街首批通过大规模裁员并用AI替代后，在财务指标上获得正向反馈的科技巨头案例，为“AI替代白领”提供了真实的商业验证。",
+        "watch": "关注其他SaaS和金融科技企业是否会效仿Block进行激进的组织架构“AI化”瘦身，以及随之而来的监管与劳工反弹。"
+      },
+      {
+        "title": "AMD财报后股价下挫，CEO苏姿丰正面回应马斯克“SpaceX只用英伟达”言论",
+        "region": "美国",
+        "sources": [
+          "cnbc.com"
+        ],
+        "summary": "AMD在发布财报后股价下跌，面对马斯克公开宣称“SpaceX将只使用英伟达芯片构建AI”的言论，AMD CEO苏姿丰予以淡化，强调AMD在定制化和开放生态上的长期竞争力。",
+        "why": "马斯克的背书加剧了市场对英伟达在AI训练和推理端“赢家通吃”的担忧，AMD的股价反应凸显了二线芯片巨头在巨头绑定效应下的估值压力。",
+        "watch": "关注AMD下一代MI400系列芯片的实际客户导入情况，以及云厂商自研芯片对英伟达和AMD市场份额的双重挤压。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZEFjZDdmMzAxM2tTaHIwTWpFMHVCUldHdGs3Y3hTejI2ajRQeTVWUFU4RThDRGlIUmhXM0duczgySG5xUExONFhPMmtZR2liTVVJR19JcVhBYndwTjBURk1qM0lvOU1sTnlGYVd3VUxLQTJBQklmZjlsSmdUd0p1bVpGRElVSlp5NHl3YTBnSmhrMUpfSl9ld0NmLVhDdTF0MXg1enZIcXE0aEpFQTJDRWxYUUdRdw?oc=5",
+      "https://www.marketwatch.com/story/spacexs-stock-falls-as-wall-street-gets-spooked-by-the-extent-of-ai-spending-9ce9ddb8?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/why-at-t-verizon-and-t-mobile-shares-are-down-after-spacexs-earnings-033a07ce?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/block-slashed-40-of-its-workforce-for-ai-and-earnings-suggest-thats-paying-off-852b7c54?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMickFVX3lxTE9sSTl3aGxwYWRDZUtoUElIb1h3SkgwWEJwTFA1ZzVQY3RRaTVfdEU1eHAzTk9URTJQYmN5Q1hhd0I4OG4xVGhGVVRPRW00bzBGMzNESndXY0xyVlpkTEF6ekNyMzRibU8tYTA5ZW5QczJMd9IBd0FVX3lxTE5RNWlETDdZZWNZNVFrM3RrOFBXMlIzMHFzVzZXVlhqVUtQVGFmOUlaaE1uT1FKZDJYSWdKUWFLMGd2WGdieFlVb0NQYThkRkZIUkNPRkJSMFRDS1pZYkdYZ2lLNG0wSTBLU3p0T1N6SUFiNTB2cWZz?oc=5"
+    ]
+  },
+  {
     "date": "2026-08-05",
     "displayDate": "2026年8月5日",
     "scope": "全球新闻｜科技与财经优先",
