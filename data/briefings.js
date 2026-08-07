@@ -1,5 +1,103 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-07",
+    "displayDate": "2026年8月7日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-07.png",
+    "summary": "本期只纳入4条，原因是今日可交叉核验且与最近7天不重复的新科技财经事件主要集中在软件股AI变现分化、AI网络与企业协作平台财报、旅行平台AI产品化和mRNA疫苗监管落地；未继续纳入Arista、Uber、Disney、Anthropic/Google数据中心债务、AMD、SpaceX、Caterpillar、Palantir、onsemi、美国ISM、Hormuz油价、EU AI Act执行、Apple/Amazon/Microsoft/Meta/Samsung财报延伸、美国拟限制中国光模块和泛AI基建估值警示，避免把近几期主题轻微改写后重复发布。今日保留的新进展包括：Datadog、AppLovin和HubSpot显示AI客户用量与定价仍会冲击软件估值；Cloudflare、Atlassian和Twilio盘后财报显示AI-native软件仍能获得市场奖励；Airbnb上调全年指引并把AI嵌入旅行平台运营；Moderna首个mRNA流感疫苗获FDA批准。",
+    "focus": [
+      "今天最重要的信号是软件股开始被重新分层：同样讲AI，市场惩罚用量减速和免费试用拖累收入，也奖励真正带来客户增长、产品差异化和更高指引的公司。",
+      "AI基础设施主线没有消失，但今日边际信息从GPU、电力和数据中心融资转向应用层收入质量、机器流量治理、企业知识图谱和语音代理。",
+      "Moderna mRNA流感疫苗获批说明科技财经简报不能只看云和芯片：平台技术穿过监管审查后，商业化节奏、CDC推荐和联合疫苗管线会影响生物科技估值。"
+    ],
+    "items": [
+      {
+        "title": "Datadog、AppLovin、HubSpot同日重挫，AI软件从“叙事溢价”转向用量和定价验证",
+        "region": "美国/企业软件、广告技术、云监控与AI客户用量",
+        "sources": [
+          "Datadog",
+          "AppLovin",
+          "HubSpot",
+          "Wall Street Journal",
+          "MarketWatch",
+          "Investor's Business Daily"
+        ],
+        "summary": "8月6日美股交易中，Datadog在二季度收入和利润好于预期后仍下跌约19%，WSJ称公司披露一名大型AI客户减少用量并拖累全年销售展望；AppLovin因二季度收入和三季度指引偏软、广告AI模型升级延后而跌近20%；Investor's Business Daily同时指出HubSpot下调全年销售预期，软件板块围绕AI定价、免费试用和消费型收入模式出现集中抛售。",
+        "why": "近几期已经覆盖AI基础设施资本开支，本条提供应用层的反面证据：AI客户并不一定稳定贡献高增长用量，AI功能也不必然带来更高ARPU。投资者正在区分“被AI使用的基础设施软件”“被AI替代的传统SaaS”和“把AI免费送给客户换采用率”的不同商业模型。",
+        "watch": "关注Datadog是否披露该大型AI客户的用量恢复节奏，AppLovin下一版广告模型能否改善转化，HubSpot能否把AI试用转为付费席位，以及Snowflake、MongoDB、Salesforce、ServiceNow和Adobe后续财报是否出现类似估值压力。"
+      },
+      {
+        "title": "Cloudflare、Atlassian、Twilio盘后大涨，AI-native软件仍能用客户增长和上调指引证明价值",
+        "region": "美国/澳大利亚、网络安全、协作软件、通信API与AI代理流量",
+        "sources": [
+          "Cloudflare",
+          "Atlassian",
+          "Twilio",
+          "Barron's",
+          "Investor's Business Daily",
+          "The Australian"
+        ],
+        "summary": "同一交易日盘后，Cloudflare因二季度收入约6.96亿美元、全年收入和利润展望上调而上涨约16%；Atlassian发布强于预期的2026财年四季度业绩，股价盘后涨逾35%，Rovo等AI企业协作工具和大客户ARR增长成为核心叙事；Twilio二季度收入约15亿美元，并称语音AI工具获得牵引，盘后涨幅超过15%。",
+        "why": "这条与前一条构成今日软件股分化的正面样本。市场不是简单抛弃软件，而是在寻找AI是否真正带来机器流量治理、企业知识图谱、语音代理、客户增长和更高指引。Cloudflare还把AI爬虫、代理流量和内容计费变成新的互联网基础设施议题。",
+        "watch": "关注Cloudflare机器流量和AI爬虫治理是否变成可收费产品，Atlassian Rovo在Fortune 500客户中的付费渗透率和续约率，Twilio Voice AI能否降低人工客服成本并提升毛利率，以及这些公司是否在下一季继续上调全年指引。"
+      },
+      {
+        "title": "Airbnb上调全年收入增长预期，AI-native旅行平台开始把产品效率转化为预订和利润",
+        "region": "美国/全球旅行平台、消费互联网、AI产品化与平台经济财报",
+        "sources": [
+          "Airbnb",
+          "Wall Street Journal",
+          "Barron's",
+          "Investor's Business Daily"
+        ],
+        "summary": "Airbnb在8月6日盘后发布二季度财报并上调全年收入增长预期，WSJ和财经媒体报道显示，公司季度收入约36.1亿美元，同比增长17%，净利润约8.16亿美元，Gross Booking Value约272亿美元。管理层称AI正在改善推荐、注册、登录、结账、房东工具和客服自动化，带动核心市场和扩张市场的夜间预订增长，股价盘后上涨约10%。",
+        "why": "8月6日简报已覆盖Uber自动驾驶资本开支压力，Airbnb提供了平台经济的另一种样本：用AI提高产品开发速度和交易效率，而不是直接承担重资产车队或算力债务。若AI能降低摩擦、提升转化和客服效率，消费互联网平台的估值会重新看运营杠杆而不只是流量增长。",
+        "watch": "关注Airbnb三季度收入是否兑现15%-17%增长，AI推荐和客服自动化是否提升转化率与利润率，World Cup和FIFA合作能否带动城市需求，监管对短租供给的限制是否抵消平台效率提升，以及Booking、Expedia和Trip.com是否跟进类似AI工具。"
+      },
+      {
+        "title": "FDA批准Moderna首个mRNA流感疫苗，mRNA平台从新冠周期走向季节性大品类验证",
+        "region": "美国/生物科技、疫苗监管、mRNA平台与医药资本市场",
+        "sources": [
+          "FDA",
+          "Moderna",
+          "Associated Press",
+          "Wall Street Journal",
+          "Barron's"
+        ],
+        "summary": "AP、WSJ和Barron's报道，美国FDA批准Moderna的mRNA流感疫苗mFlusiva用于50岁及以上成年人，这是美国首个获批的mRNA季节性流感疫苗。报道称，50至64岁人群获得完全批准，65岁以上人群基于免疫反应数据获得加速批准；一项约4万人的研究显示其较标准流感疫苗降低流感风险约27%。此前FDA曾拒绝受理该申请，之后经修订、专家委员会一致支持并要求后续确认性研究。",
+        "why": "这不是普通医药审批，而是mRNA技术在新冠以外进入年度大品类的监管节点。若mRNA能用更短生产周期适配流感毒株，Moderna和同类平台公司的价值将从疫情一次性收入转向可重复的季节性疫苗、联合流感/新冠疫苗和更广泛传染病管线。",
+        "watch": "关注CDC是否给出强推荐、药房和医保渠道何时铺货，2026-2027流感季收入是否因采购周期滞后而有限，65岁以上确认性研究能否完成，组合流感/新冠疫苗申请进度，以及政治和监管环境是否继续影响mRNA合同与市场接受度。"
+      }
+    ],
+    "sourceLinks": [
+      "https://investors.datadoghq.com/",
+      "https://www.wsj.com/business/earnings/datadog-says-lower-usage-from-major-ai-customer-could-dent-growth-8b8904c9",
+      "https://www.marketwatch.com/story/datadogs-stock-slides-after-earnings-this-is-whats-nagging-at-investors-eeb6fa9a",
+      "https://investors.applovin.com/financials/quarterly-results/default.aspx",
+      "https://www.wsj.com/business/earnings/applovin-second-quarter-sales-gain-gives-soft-third-quarter-outlook-202082a6",
+      "https://www.marketwatch.com/story/applovins-ai-stumbles-send-the-stock-sliding-toward-its-worst-day-in-over-a-year-1fbc81dd",
+      "https://ir.hubspot.com/",
+      "https://www.investors.com/news/technology/software-stocks-fall-as-datadog-hubspot-earnings-raise-questions-over-ai-pricing/",
+      "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Date-of-Second-Quarter-2026-Financial-Results/default.aspx",
+      "https://www.barrons.com/articles/cloudflare-stock-price-earnings-56cdd8b5",
+      "https://www.investors.com/news/technology/cloudflare-stock-cloudflare-earnings-news-q22026/",
+      "https://investors.atlassian.com/events-and-presentations/events/default.aspx",
+      "https://www.barrons.com/articles/atlassian-earnings-stock-price-7f418d02",
+      "https://www.theaustralian.com.au/business/technology/mike-cannonbrookes-to-buy-us250m-in-stock-flags-slower-atlassian-growth/news-story/e2e386b1ea3dab9fce25cc4db01912d4",
+      "https://investors.twilio.com/",
+      "https://www.investors.com/news/technology/twilio-earnings-twilio-stock-news-q22026/",
+      "https://investors.airbnb.com/press-releases/news-details/2026/Airbnb-to-Announce-Second-Quarter-2026-Results/default.aspx",
+      "https://www.wsj.com/business/earnings/airbnb-boosts-forecast-on-strong-demand-across-regions-a380e010",
+      "https://www.barrons.com/articles/airbnb-earnings-stock-price-9ecdc210",
+      "https://www.investors.com/news/technology/airbnb-stock-q2-2026-earnings/",
+      "https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-june-18-2026-meeting-announcement",
+      "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000012/exhibit991-02102026.htm",
+      "https://apnews.com/article/59d991a6bf70c26e2f0c210cc8ca87f1",
+      "https://www.wsj.com/health/pharma/fda-approves-first-mrna-flu-vaccine-in-win-for-moderna-after-arduous-process-039156b6",
+      "https://www.barrons.com/articles/moderna-stock-flu-vaccine-fda-44750e37"
+    ]
+  },
+  {
     "date": "2026-08-06",
     "displayDate": "2026年8月6日",
     "scope": "全球新闻｜科技与财经优先",
