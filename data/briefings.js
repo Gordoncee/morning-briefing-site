@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-08",
+    "displayDate": "2026年8月8日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-08.png",
+    "summary": "本期简报聚焦宏观政治对美联储独立性的冲击、前沿AI模型的能力与安全博弈、科技巨头自研芯片的迭代压力，以及AI硬件龙头的资本市场重估与就业数据引发的宏观预期转向。",
+    "focus": [
+      "美联储独立性、AI模型安全阈值、自研AI芯片折旧、AI硬件估值、宏观就业与通胀预期",
+      "直接挑战美联储独立性，构成重大宏观政治风险，将深刻影响全球货币政策预期与资产定价逻辑。",
+      "标志着前沿AI模型能力首次实质性触及公司内部安全红线，凸显能力跃升与对齐和安全控制之间的核心矛盾。"
+    ],
+    "items": [
+      {
+        "title": "特朗普再次试图解雇美联储理事Lisa Cook，谋求重塑央行董事会",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "在最高法院阻止其首次尝试两个月后，特朗普总统重启解雇美联储理事Lisa Cook的行动，试图在央行董事会中安插更多盟友。",
+        "why": "直接挑战美联储独立性，构成重大宏观政治风险，将深刻影响全球货币政策预期与资产定价逻辑。",
+        "watch": "司法部与最高法院的后续法律博弈，以及美联储内部对政治干预的集体反应与利率决议走向。"
+      },
+      {
+        "title": "OpenAI因安全与能力阈值暂停Astra模型内部开发",
+        "region": "全球",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "OpenAI宣布暂停正在开发的AI模型Astra的内部活动，原因是该模型尚未满足公司新制定的安全标准，其网络与关键能力被认为过于强大。",
+        "why": "标志着前沿AI模型能力首次实质性触及公司内部安全红线，凸显能力跃升与对齐和安全控制之间的核心矛盾。",
+        "watch": "Astra模型后续的安全评估标准披露，以及此举是否会引发行业对能力暂停的跟进或监管机构的介入。"
+      },
+      {
+        "title": "亚马逊2200亿美元AI基建押注遇阻：Trainium 2芯片仅20个月即面临淘汰",
+        "region": "美国",
+        "sources": [
+          "Moneywise"
+        ],
+        "summary": "亚马逊在AI基础设施上的巨额投资面临技术迭代压力，其自研的Trainium 2芯片推出仅20个月便已显得过时，正被新一代产品取代。",
+        "why": "揭示了科技巨头自研AI芯片在算力需求狂飙下的极速折旧风险，考验云基础设施资本开支的长期回报率与可持续性。",
+        "watch": "亚马逊下一代Trainium芯片的流片与量产进度，以及AWS客户对自研芯片与英伟达GPU的采购比例变化。"
+      },
+      {
+        "title": "英伟达股价录得一年多来最大单周涨幅，市值增长创历史纪录",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "受AI需求持续强劲及市场情绪修复推动，英伟达股价单周大幅飙升，录得公司历史上最大规模的单周市值增长。",
+        "why": "反映资本市场对AI硬件底层需求的重新定价，打消了前期对AI资本开支见顶和硬件需求放缓的担忧。",
+        "watch": "即将到来的财报季中云巨头对英伟达Blackwell架构芯片的实际采购指引，以及出口管制政策对海外营收的边际影响。"
+      },
+      {
+        "title": "疲软就业报告触发“坏消息即好消息”效应，美股反弹等待CPI数据",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "美国弱于预期的就业报告引发市场风格切换，投资者押注经济降温将缓解通胀压力，推动股市上涨，市场焦点转向即将公布的CPI数据。",
+        "why": "宏观变量核心逻辑发生切换，就业市场的降温成为博弈货币政策宽松的关键筹码，直接影响科技股估值分母端。",
+        "watch": "即将公布的CPI核心通胀数据是否确认降温趋势，以及美联储官员对就业疲软与通胀粘性的最新表态。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
+      "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVXQ4ZFJRTFQxS2VVc3ZhYUxfa0E5S3ZnMVh4enpzNnVhNl9jbmdTTUtMd2tXZUh0emdCYXdNcG9rMWktSTZpSEFEbTdxTHp6eGhkWW5TeFRhTEhrbkg4clVwMWJRNkdEa0kzdWVEVGJrbDlucDhTdW1VSks0TkhhblBDNHYwZ3kzanJKTWNHeXNqZGh4eEdNZzN3?oc=5",
+      "https://www.marketwatch.com/story/two-reasons-why-nvidias-stock-saw-its-biggest-weekly-surge-in-more-than-a-year-644875c8?mod=mw_rss_topstories",
+      "https://www.investors.com/market-trend/the-big-picture/dow-jones-stock-market-nasdaq-weak-jobs-report-cpi-inflation-data/"
+    ]
+  },
+  {
     "date": "2026-08-07",
     "displayDate": "2026年8月7日",
     "scope": "全球新闻｜科技与财经优先",
