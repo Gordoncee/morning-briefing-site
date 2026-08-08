@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-09",
+    "displayDate": "2026年8月9日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-09.png",
+    "summary": "本期简报聚焦资本市场与AI基建的深层博弈：伯克希尔哈撒韦结束连续14个季度净抛售，释放长线资金对当前估值的重新定价信号；美银指出英伟达估值降至十年低点，AI硬件高增长与估值压缩形成反差；亚马逊数据中心能源需求引发极端污染争议，凸显AI算力扩张与ESG目标的硬性冲突；美国弱就业数据触发降息预期反弹，市场焦点转向CPI；X平台重构创作者经济模型，以“原创奖励”取代旧有分成机制。",
+    "focus": [
+      "AI基建能源瓶颈、芯片巨头估值重估、宏观就业与通胀博弈、平台创作者经济重构",
+      "作为全球价值投资的风向标，伯克希尔结束长达三年半的净减持，为当前处于高位震荡的科技与大盘股提供了重要的长线资金情绪支撑。",
+      "揭示了当前AI硬件行情的核心矛盾：基本面极度强劲与估值倍数持续收缩并存，标志着AI投资从“市梦率”向严苛的PEG定价阶段过渡。"
+    ],
+    "items": [
+      {
+        "title": "伯克希尔哈撒韦财报超预期，结束连续14个季度净抛售股票",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "伯克希尔哈撒韦最新季度盈利增长16%，超出市场预期。更重要的是，该公司结束了此前连续14个季度净抛售股票的趋势，现金储备与回购动作显示出巴菲特团队对当前市场估值底部的重新确认。",
+        "why": "作为全球价值投资的风向标，伯克希尔结束长达三年半的净减持，为当前处于高位震荡的科技与大盘股提供了重要的长线资金情绪支撑。",
+        "watch": "关注其后续在科技、能源或保险领域的具体加仓标的，以及巨额现金储备的资本配置方向。"
+      },
+      {
+        "title": "美银称英伟达估值降至十年低点，AI需求强劲难掩估值压缩",
+        "region": "美国",
+        "sources": [
+          "Investing.com"
+        ],
+        "summary": "美国银行分析师指出，尽管AI芯片需求依然呈现爆发式增长，但英伟达当前的估值水平已降至过去十年来的最低点。盈利增速的兑现速度正在被市场更高的宏观利率预期和竞争担忧所抵消。",
+        "why": "揭示了当前AI硬件行情的核心矛盾：基本面极度强劲与估值倍数持续收缩并存，标志着AI投资从“市梦率”向严苛的PEG定价阶段过渡。",
+        "watch": "紧盯英伟达下一财季的毛利率指引，以及AMD等竞争对手在数据中心GPU市场的实际份额蚕食情况。"
+      },
+      {
+        "title": "亚马逊新数据中心或依赖全美污染最重电厂，AI算力扩张撞上ESG红线",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "为支撑其在西德克萨斯州的新数据中心，亚马逊正投资新建一座可能成为美国最大单一温室气体排放源的发电厂。这一举措引发了对科技巨头AI基建狂潮与气候承诺严重背离的强烈批评。",
+        "why": "凸显了AI算力指数级增长背后的物理与能源瓶颈。当科技巨头的碳中和目标遭遇数据中心电力饥渴时，ESG合规成本和监管阻力将成为云基础设施扩张的隐性负债。",
+        "watch": "关注美国环保署及地方监管机构对该电厂项目的审批干预，以及科技巨头后续在核能或小型模块化反应堆上的替代性能源投资。"
+      },
+      {
+        "title": "美国弱就业报告触发市场反弹，CPI通胀数据成下周宏观焦点",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "美国最新就业数据疲软引发市场对美联储加速降息的预期，带动道指与纳指双双反弹，Palantir等AI应用股本周大涨39%。市场当前正等待即将公布的CPI数据以确认通胀是否彻底受控。",
+        "why": "就业市场的降温正在重塑宏观流动性预期，弱数据反而成为股市的“好消息”。但CPI数据若出现粘性，将直接击碎当前的降息交易逻辑。",
+        "watch": "核心CPI环比增速，以及美联储官员在数据公布后的鹰鸽表态，这将直接决定科技成长股的估值天花板。"
+      },
+      {
+        "title": "X平台废除旧有创作者分成机制，推出“原创内容奖励”重构平台生态",
+        "region": "全球",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "X宣布终止其备受争议的创作者收入分成计划，并于9月8日推出全新的“原创内容奖励”项目，旨在通过算法倾斜和直接补贴重新定义平台内容的变现逻辑。",
+        "why": "标志着X在马斯克主导下对平台创作者经济的又一次底层重构。从流量分成转向“原创奖励”，意在清洗低质AI生成内容和搬运账号，夺回高质量原生内容的定价权。",
+        "watch": "新政策对头部创作者留存率的实际影响，以及广告主对X平台品牌安全与流量质量重新评估后的预算分配变化。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.investors.com/news/berkshire-hathaway-earnings-buybacks-cash-hoard-warren-buffett/",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRWd5UGtPemdWS1NGcHFLak9KQ2cwV3JvU000NFJYbnB6UEE5LWJGdlVhVVRuYldocV9LRHBwcmtocDhCNFFsM2JsZUg3a3lVMURxWGUyQjJyQjNlRENiMUVIQlk0TEkyNXRRRTRsbm5CRjNSMHpES25QT3NoR2lwVVc1UTd5WGhxSmdlUmVKcTFBWVpuMm16SFU5RmRtZmFCcUJMcWhvVTZJd3F6Xy13bHRaMW80em5pamVmNUU4dVpxdWd0VUhJdF9Ua2thcXZM?oc=5",
+      "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+      "https://www.investors.com/market-trend/the-big-picture/dow-jones-stock-market-nasdaq-weak-jobs-report-cpi-inflation-data/",
+      "https://www.theverge.com/tech/977143/x-revenue-sharing-original-content-rewards"
+    ]
+  },
+  {
     "date": "2026-08-08",
     "displayDate": "2026年8月8日",
     "scope": "全球新闻｜科技与财经优先",
