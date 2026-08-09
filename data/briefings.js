@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-10",
+    "displayDate": "2026年8月10日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-10.png",
+    "summary": "本期简报聚焦伯克希尔哈撒韦结束连续14个季度净卖出股票、中国动用庞大资本市场支持AI发展、美股期货受通胀数据与伊朗局势双重压制、亚马逊AI数据中心配套高污染电厂引发ESG争议，以及X平台重构创作者收益分配机制。",
+    "focus": [
+      "资本市场动向、AI宏观博弈、云基建能源瓶颈与平台规则重塑",
+      "作为全球价值投资的风向标，伯克希尔结束长达三年半的净抛售并重启股票净买入，对美股整体流动性和投资者情绪具有极强的信号意义。",
+      "标志着中国AI战略从单纯的技术研发转向深度的资本市场赋能，国家级资本与公开市场的联动将重塑全球AI算力与应用的竞争格局。"
+    ],
+    "items": [
+      {
+        "title": "伯克希尔哈撒韦财报超预期，结束连续14个季度净卖出股票",
+        "region": "美国",
+        "sources": [
+          "investors.com"
+        ],
+        "summary": "伯克希尔哈撒韦最新季度盈利增长16%，超出市场预期。更重要的是，该公司结束了此前连续14个季度净卖出股票的策略，开始回购并增加权益配置，显示出巴菲特团队对当前市场估值和现金储备策略的重大转向。",
+        "why": "作为全球价值投资的风向标，伯克希尔结束长达三年半的净抛售并重启股票净买入，对美股整体流动性和投资者情绪具有极强的信号意义。",
+        "watch": "关注其后续现金储备的消耗速度，以及重仓股在科技与传统能源板块间的结构性调整。"
+      },
+      {
+        "title": "中国动用28万亿美元资本市场支持AI发展，全面挑战美国",
+        "region": "中国",
+        "sources": [
+          "Bloomberg.com"
+        ],
+        "summary": "彭博社报道指出，中国正全面动员其规模达28万亿美元的资本市场，通过政策引导和资金倾斜，为本国人工智能产业提供强力融资支持，旨在缩小与美国在AI基础设施和前沿模型领域的差距。",
+        "why": "标志着中国AI战略从单纯的技术研发转向深度的资本市场赋能，国家级资本与公开市场的联动将重塑全球AI算力与应用的竞争格局。",
+        "watch": "观察A股及港股AI相关板块的融资规模变化，以及国产算力芯片和数据中心企业的估值重估进程。"
+      },
+      {
+        "title": "美股期货下跌，投资者等待通胀数据并应对伊朗局势新变数",
+        "region": "全球",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "周日美股股指期货走低，市场正消化伊朗方面提出的新条件，这令霍尔木兹海峡短期内重新开放的预期再次受挫。同时，投资者在等待本周即将公布的关键CPI通胀数据，宏观不确定性持续压制风险偏好。",
+        "why": "地缘政治导致的能源供应链风险与通胀粘性预期形成共振，直接考验美联储后续的利率路径，是当前全球宏观交易的核心矛盾。",
+        "watch": "紧盯本周CPI数据是否超预期，以及原油价格在海峡通航僵局下的波动率。"
+      },
+      {
+        "title": "亚马逊新数据中心或配套全美污染最严重发电厂，AI基建能源争议加剧",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "据纽约时报披露，亚马逊为支持其在西德克萨斯州的新数据中心，正投资新建一座发电厂，该电厂可能成为美国最大的单一温室气体排放源之一，引发环保组织和监管机构的强烈关注。",
+        "why": "凸显了AI算力狂飙与ESG目标之间的尖锐冲突。云巨头在追求算力扩张时面临的能源瓶颈和环保合规压力，正成为制约AI基础设施建设的隐性成本。",
+        "watch": "关注美国环保署（EPA）对该项目的审批态度，以及科技巨头后续在核能或可再生能源采购上的战略调整。"
+      },
+      {
+        "title": "X平台取消创作者收入分成计划，推出“原创内容奖励”新规",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "X（原Twitter）宣布终止其备受争议的创作者收入分成计划，并将于9月8日推出全新的“原创内容奖励”（Original Content Rewards）项目，重新定义平台内容的变现逻辑。",
+        "why": "反映了社交媒体平台在AI生成内容泛滥和广告收入波动背景下，试图通过规则重塑来保护原创生态、控制内容分发成本的防御性策略。",
+        "watch": "观察新规对头部创作者留存率的影响，以及平台在应对AI合成内容冲刷时的具体审核与激励机制。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.investors.com/news/berkshire-hathaway-earnings-buybacks-cash-hoard-warren-buffett/",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdFdvZ2tPSDZZdVpMbUxQLXlSOGZTeHd3QlA1LXR5Y1M4d1ZlWnpIVkNRdjd2MTFmZmVGemFvYlJLUzVKeDBPUFdLUE9ENGY4RkhwaDBYY3U1V25DNHpTQUZFbVlUVXhUSnZ1TUJJbmlvNmhxZ3JOS1EyQlE5Yk9WSUhtUkd1U2ZqTzRBalVfOUlIa01ZRFZ3TVdJd09CVWRVckpaY2RxMlp5YjV6WTBMSXFZTjhLWFBLVWN5ekJ3?oc=5",
+      "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-investors-await-inflation-data-grapple-with-more-iran-uncertainty-133212d2?mod=mw_rss_topstories",
+      "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+      "https://www.theverge.com/tech/977143/x-revenue-sharing-original-content-rewards"
+    ]
+  },
+  {
     "date": "2026-08-09",
     "displayDate": "2026年8月9日",
     "scope": "全球新闻｜科技与财经优先",
