@@ -1,5 +1,78 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-11",
+    "displayDate": "2026年8月11日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-11.png",
+    "summary": "今日简报聚焦AI资本开支向基础设施资产化的跨越，以及中美在芯片与AI领域的资本动员博弈。贝莱德推出5000亿美元AI基建融资平台，标志着华尔街将AI算力底座纳入传统基建资产类别；Intel在股价暴涨后计划增发150亿美元押注先进封装；中国正系统性引导28万亿美元资本市场为AI与芯片国产替代输血。宏观层面，摩根大通上调标普500目标价，确认AI资本开支开始兑现盈利；而美伊谈判降温引发的油价飙升则再次提醒市场，地缘与能源通胀仍是压制科技股估值的核心变量。",
+    "focus": [
+      "AI基建融资结构化、中美芯片资本动员、AI资本开支盈利兑现、地缘油价对科技估值的压制",
+      "标志着华尔街顶级资管机构将AI基建从“科技资本开支”正式转化为“传统基础设施资产类别”，极大拓宽了AI热潮的融资边界与久期。",
+      "反映了Intel在代工业务和先进制程上的资本渴求，同时也测试市场对其高估值下大规模股权稀释的承受能力。"
+    ],
+    "items": [
+      {
+        "title": "贝莱德推出5000亿美元AI基础设施融资平台",
+        "region": "全球",
+        "sources": [
+          "simplywall.st"
+        ],
+        "summary": "贝莱德（BlackRock）宣布推出规模达5000亿美元的AI基础设施融资平台，旨在为数据中心、电力和冷却系统等AI底层基建提供结构化资本支持。",
+        "why": "标志着华尔街顶级资管机构将AI基建从“科技资本开支”正式转化为“传统基础设施资产类别”，极大拓宽了AI热潮的融资边界与久期。",
+        "watch": "关注该平台首批落地的数据中心项目及其对公用事业和私募信贷市场的资金虹吸效应。"
+      },
+      {
+        "title": "Intel计划增发150亿美元股票，押注物理AI与先进封装",
+        "region": "美国",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "在股价一年内暴涨400%后，Intel宣布计划增发150亿美元股票，资金将主要用于物理AI、定制芯片和先进封装领域的扩张。",
+        "why": "反映了Intel在代工业务和先进制程上的资本渴求，同时也测试市场对其高估值下大规模股权稀释的承受能力。",
+        "watch": "观察增发定价折让幅度，以及台积电等竞争对手在先进封装领域的产能应对策略。"
+      },
+      {
+        "title": "中国引导28万亿美元资本市场投入AI与芯片竞赛",
+        "region": "中国",
+        "sources": [
+          "qz.com",
+          "The American Bazaar"
+        ],
+        "summary": "报道指出，中国正系统性引导其规模达28万亿美元的资本市场，通过政策工具和融资渠道创新，为本土AI模型和半导体供应链提供长期资金弹药。",
+        "why": "凸显中美科技博弈进入资本动员阶段，中国正利用多层次资本市场对冲外部技术封锁，加速算力与芯片的国产替代进程。",
+        "watch": "关注科创板及港股对硬科技企业的IPO绿灯节奏，以及国家级大基金在先进制程设备上的最新投资动向。"
+      },
+      {
+        "title": "摩根大通上调标普500目标价，认为AI资本开支开始兑现盈利",
+        "region": "美国",
+        "sources": [
+          "Business Insider"
+        ],
+        "summary": "摩根大通上调标普500指数目标价，其核心逻辑是AI相关的巨额资本支出终于开始转化为企业的实际收入与利润增长，而非单纯的基建投入。",
+        "why": "华尔街主流投行对AI投资回报率的预期发生实质性转变，标志着市场叙事从“卖铲子”向“应用端变现”的宏观切换。",
+        "watch": "紧盯 upcoming 财报季中大型软件与云服务商的AI相关收入增速，验证资本开支转化为利润的斜率。"
+      },
+      {
+        "title": "美伊谈判乐观情绪消退引发油价飙升，拖累美股与科技股",
+        "region": "全球",
+        "sources": [
+          "investors.com"
+        ],
+        "summary": "由于美伊达成协议的乐观预期降温，国际油价大幅飙升，引发通胀担忧重燃，导致美股大盘承压，Nvidia等科技巨头股价随之下挫。",
+        "why": "地缘政治与能源价格再次成为压制科技股估值的核心宏观变量，油价波动直接干扰了市场对美联储降息路径的定价。",
+        "watch": "关注霍尔木兹海峡的航运保险费变化及原油期货曲线的陡峭程度，评估能源通胀对AI高估值板块的持续压制力。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN1JFeE43Ujc2anhWdGJidkd1eml6TWl1dHo5R1k3UWJ3eFV6YUhFcVlFVEFITEJicmRBVVdCZmhDNy1XOEZVaWJ3OUpHSVdBdE0tQmpmSTJYWGJVVEp6WUdpMFpTV2ZFejBJLVRTbHBFRm5fYVZZV0hMaDZKenVFV1NUV2RJMW52bkctRE5BdU5QTkNCRHVkVDU4QWlBY1FaUldjcnEtV2IzNjdtTnBfeEZzUDRMOHZGbE05aUJBckN3U0lxYy13Sk4xZ2ExNnBmZEs3M0pB0gHbAUFVX3lxTFBDQUs2bUE1WUNVWWV6TlhnZWYtRXdzN08yTmFqMmZGcno1VUJaejlBVzhWQTZvS2l2RlBMdjdaNUlBS2o1Z2l0NzFhMU1pSlR0cXZPTzh0V2FYUVpuSE5LTk1vTlNtSldqcEZUaGo4a1lQTzF4QUZONzVFUUNQdXpSYTFZVkxuRWlMSWRiYnBOOUJxb1BCenpLV1J5T3MxWHR5a20wOUJ0UF9iVWViam5HaGF3M1F6ZXFpWVh0OFBOeHZMXzhYa1NPUS1LdkdpVm9xS0ZqQzNnVl9Hdw?oc=5",
+      "https://www.marketwatch.com/story/intel-plans-to-sell-15-billion-worth-of-stock-after-it-has-risen-400-in-a-year-395effce?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yR3E0em85bk9vYTh2dVZYYWxLTVBLOThScU01NU5BTGZTTU1kQkgtdmlJVzZfTmhieEo0Mk1HUHBLWUxmUmlVVGRIQ3F0VGRMSFRiZG1lYnUyenRiS3Vyeld2Y0d3Y1JPVlpEOWUxNFlLdjA?oc=5",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV0dubmxVSDN3N09PYjhEWmNaZmdqTDN2UDdQSTRLYXhKdXNWd3l6RmxxbEdfQnRTSjhoc0thMXhfd3hCQlVBLWJPdzEwYk5VWHdVTnFlcU4ydXd6UWNPSWtpRERsbDRBREpWTHZyUWFFSFFqeDJfV3hneVlPWVh2aExua0lHeF9MT0ZxYzRoNTUzSktfYTltVmdETlkxS294Q3hJb0xEWlhDNzVwM0lZT2N0NEFYdw?oc=5",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxNb2pPUWdiZVh4WEVxZ3Fud1E3VUxNN3pGR2drMjN4Q1llb1VYaFExRmtjcE1uMlpBdGJZWUJaZjB2bTNmUEs2TkhOTk9WTUVxSExzRlBoVk5CcEl2bk1Wa0o4Y0ZhRW96TWk4RFlHcVBtQi0tVU01Zy1GMjdseHJUV1FSSTVtMkdQM3RRY2p6eDBDa2JtTUllTlVFdE40OXhS?oc=5",
+      "https://www.investors.com/market-trend/the-big-picture/dow-jones-sp500-nasdaq-inflation/"
+    ]
+  },
+  {
     "date": "2026-08-10",
     "displayDate": "2026年8月10日",
     "scope": "全球新闻｜科技与财经优先",
