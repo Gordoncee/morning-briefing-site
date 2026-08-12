@@ -1,5 +1,78 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-12",
+    "displayDate": "2026年8月12日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-12.png",
+    "summary": "今日科技财经焦点集中在AI基础设施资本开支与算力产业链财报爆发，华尔街与英伟达达成5000亿美元AI基建协议，CoreWeave等算力核心标的业绩超预期；同时，ChatGPT与Gemini月活双双突破10亿大关，标志AI应用进入全民普及阶段；OpenAI前COO离职凸显前沿AI实验室高管动荡；中国则加速利用资本市场为AI与芯片自主化融资。",
+    "focus": [
+      "AI基建资本开支、算力产业链财报、大模型用户里程碑、OpenAI高管变动、中国AI芯片融资",
+      "5000亿美元的融资规模创下AI基建纪录，表明传统金融资本正全面接管AI硬件扩张的杠杆风险，算力基础设施的金融化程度大幅加深。",
+      "双巨头同时跨越10亿用户门槛，确立了AI助手作为新一代互联网超级入口的地位，平台级AI的商业化变现与流量分发格局已初步定型。"
+    ],
+    "items": [
+      {
+        "title": "华尔街顶级机构与英伟达达成5000亿美元AI基础设施建设协议",
+        "region": "美国",
+        "sources": [
+          "Bisnow",
+          "Northeast Times"
+        ],
+        "summary": "华尔街顶级金融机构与英伟达达成规模高达5000亿美元的协议，旨在为下一代AI数据中心和算力基础设施提供大规模融资支持，标志着AI资本开支进入结构化与机构化深水区。",
+        "why": "5000亿美元的融资规模创下AI基建纪录，表明传统金融资本正全面接管AI硬件扩张的杠杆风险，算力基础设施的金融化程度大幅加深。",
+        "watch": "关注该融资结构对英伟达未来几个季度数据中心营收的锁定效应，以及高杠杆AI基建对宏观利率环境的敏感度。"
+      },
+      {
+        "title": "ChatGPT与Gemini月活跃用户双双突破10亿大关",
+        "region": "全球",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "OpenAI的ChatGPT与Google的Gemini月活跃用户均突破10亿，Gemini更成为Google历史上增长最快的产品。AI大模型正式从早期采用者阶段迈入全球国民级应用阶段。",
+        "why": "双巨头同时跨越10亿用户门槛，确立了AI助手作为新一代互联网超级入口的地位，平台级AI的商业化变现与流量分发格局已初步定型。",
+        "watch": "观察两大平台在达到10亿用户后，如何通过广告、企业订阅及Agent工作流实现ARPU（每用户平均收入）的实质性提升。"
+      },
+      {
+        "title": "AI算力产业链财报季爆发：CoreWeave、Super Micro与Lumentum业绩超预期",
+        "region": "美国",
+        "sources": [
+          "MarketWatch",
+          "Investor's Business Daily"
+        ],
+        "summary": "英伟达核心生态伙伴迎来财报利好：AI云提供商CoreWeave营收与利润超预期且利润率改善；AI服务器制造商Super Micro大幅击败盈利预期并上调指引；光通信巨头Lumentum受AI需求推动销售额翻倍。",
+        "why": "算力产业链上下游（云、服务器、光模块）同步交出强劲财报，交叉验证了AI资本开支并未放缓，硬件需求依然处于高景气周期。",
+        "watch": "关注即将公布的CPI通胀数据对科技股估值的压制，以及这些硬件厂商在产能扩张后的毛利率维持能力。"
+      },
+      {
+        "title": "OpenAI前COO Brad Lightcap宣布离职，高管动荡持续",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "OpenAI特别项目负责人、前首席运营官Brad Lightcap在任职八年后宣布离开公司。他在内部备忘录中表示将开启新的职业阶段，这是OpenAI近期又一位核心高管的流失。",
+        "why": "Lightcap曾主导OpenAI的商业化与企业级销售体系，其离职反映出前沿AI实验室在高速扩张与治理结构转型期面临的人才保留压力。",
+        "watch": "关注OpenAI企业级业务（如API与定制模型）的战略连贯性，以及其商业化团队是否会迎来新一轮重组。"
+      },
+      {
+        "title": "中国加速利用资本市场为AI与芯片自主化竞赛融资",
+        "region": "中国",
+        "sources": [
+          "Quartz"
+        ],
+        "summary": "面对美国的技术限制，中国正越来越多地利用国内资本市场和多元化金融工具，为本土AI大模型研发和半导体供应链的自主可控提供长期资金支持。",
+        "why": "在外部制裁压力下，中国将资本市场作为科技突围的核心杠杆，这不仅重塑了国内科技股的估值逻辑，也加速了国产算力生态的闭环。",
+        "watch": "关注科创板及港股对AI和半导体企业的融资政策倾斜，以及国产GPU和先进制程在资本注入后的实际量产进度。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZXV6b0hwemxuM3V4cXF4aDFQcm9TMmo2Y1J0ZkJVa1pGOWtwRjliWEhNYi1sMW1YQ2FxZWVreHB2djkxeHlOYTRoNFB5MlM1YTRwSDJKRUFLb19wRXlZT3VnWG9ndkJYQVFNWW0zOXM3VmJYUENYc0lKV2lTeEs0SmgtWFFKTi1aM3JiV25QWGxlWjVYTDdwaTg2WkRDMHhtamhnMDBzZzdPZktESklXcXpsVmV0aHJhX1ZIVFVHbnNnZFlLVTcydmFB",
+      "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
+      "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
+      "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure",
+      "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yR3E0em85bk9vYTh2dVZYYWxLTVBLOThScU01NU5BTGZTTU1kQkgtdmlJVzZfTmhieEo0Mk1HUHBLWUxmUmlVVGRIQ3F0VGRMSFRiZG1lYnUyenRiS3Vyeld2Y0d3Y1JPVlpEOWUxNFlLdjA"
+    ]
+  },
+  {
     "date": "2026-08-11",
     "displayDate": "2026年8月11日",
     "scope": "全球新闻｜科技与财经优先",
