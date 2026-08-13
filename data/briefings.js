@@ -1,5 +1,81 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-13",
+    "displayDate": "2026年8月13日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-13.png",
+    "summary": "今日简报聚焦AI基础设施与算力硬件的财报验证，CoreWeave等Neocloud公司业绩提振市场，Cerebras营收大增印证芯片需求；同时关注美国数据中心建设的物理瓶颈、传统科技巨头的战略调整以及平台AI数据版权的合规演进。",
+    "focus": [
+      "AI基建财报、算力硬件、数据中心瓶颈、科技巨头战略、数据版权",
+      "Neocloud作为AI算力租赁的核心力量，其业绩是验证AI资本开支是否转化为实际收入的关键指标。",
+      "在英伟达主导的市场中，Cerebras的业绩增长证明了AI推理与训练市场对多元化算力芯片的强劲需求。"
+    ],
+    "items": [
+      {
+        "title": "CoreWeave与Nebius财报强劲，Neocloud板块提振美股AI交易",
+        "region": "美国",
+        "sources": [
+          "Reuters",
+          "MarketWatch",
+          "WSJ"
+        ],
+        "summary": "CoreWeave和Nebius等新兴云计算（Neocloud）公司发布强劲财报，显示AI算力需求依然旺盛，推动S&P 500指数收高并提振整体AI基建交易情绪。",
+        "why": "Neocloud作为AI算力租赁的核心力量，其业绩是验证AI资本开支是否转化为实际收入的关键指标。",
+        "watch": "关注后续CoreWeave等公司的资本开支计划及大客户（如微软、Meta）的算力外包比例变化。"
+      },
+      {
+        "title": "AI芯片初创Cerebras二季度核心营收激增103%，全年指引超预期",
+        "region": "美国",
+        "sources": [
+          "Investors.com"
+        ],
+        "summary": "AI芯片制造商Cerebras Systems公布二季度财报，核心营收同比增长103%，超出华尔街预期，并上调全年营收指引，进一步验证AI算力硬件的高景气度。",
+        "why": "在英伟达主导的市场中，Cerebras的业绩增长证明了AI推理与训练市场对多元化算力芯片的强劲需求。",
+        "watch": "关注其晶圆代工产能保障情况及与英伟达在特定企业级市场的份额争夺。"
+      },
+      {
+        "title": "美国AI数据中心扩张遇阻，审批、电力与劳动力短缺拖延项目进度",
+        "region": "美国",
+        "sources": [
+          "Межа. Новини України."
+        ],
+        "summary": "受限于地方审批流程、电力供应紧张以及熟练劳动力短缺，美国AI数据中心的建设热潮正面临实质性放缓，基础设施瓶颈开始制约AI算力扩张。",
+        "why": "AI算力的物理扩张正从资金问题转向工程与资源约束，这可能拉长科技巨头AI基建的交付周期。",
+        "watch": "关注科技巨头对核能、小型模块化反应堆（SMR）及海外数据中心选址的战略倾斜。"
+      },
+      {
+        "title": "Cisco财报超预期但股价承压，Oracle结盟Quantinuum布局量子AI云",
+        "region": "美国",
+        "sources": [
+          "Investors.com"
+        ],
+        "summary": "Cisco公布超预期的季度财报与营收指引，但股价盘后下跌；同时，Oracle宣布与Quantinuum达成量子计算合作，并计划进一步裁员以重组AI投资。",
+        "why": "传统网络巨头面临AI时代的增长焦虑，而云厂商正通过量子计算与裁员等激进手段重塑成本结构与技术护城河。",
+        "watch": "关注Cisco在AI数据中心网络（如以太网与InfiniBand之争）中的实际订单转化率。"
+      },
+      {
+        "title": "Twitch允许主播选择退出亚马逊AI模型训练，平台数据版权边界再调整",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "亚马逊旗下Twitch推出新功能，允许主播选择退出（Opt-out）其直播、VOD和聊天内容被用于训练亚马逊的生成式AI模型，反映了AI数据版权合规的持续演进。",
+        "why": "随着生成式AI对高质量多模态数据的需求激增，平台在数据变现与创作者版权保护之间的博弈正成为监管焦点。",
+        "watch": "关注其他内容平台（如YouTube、Reddit）是否跟进Opt-out机制，以及这对大模型多模态训练数据池的影响。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYklxZWxQWEI4bU5nVHpWUVJkQWo4YmQ5ZWpfTXNWWHBjNlE0d09NNEdtbWMtQldtbndIMzNBU1Z3TldjNEF5YUoxMHJSdHlXak50XzBMYlh4dHh2OWxVckViSjVxYUFCVlBvcnQ4Vk9vLVF0MWhGR3BidXQzOGItYUVjbnNYSk1pdS1XeTZqUGtaVTZzcDRkR1N1V0xkN0o5STBZ?oc=5",
+      "https://www.marketwatch.com/story/nebius-adds-to-the-excitement-around-neocloud-stocks-with-upbeat-earnings-of-its-own-cd2aa36e?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRUlGNWY1eU92OU5GMGMtVXJMWFdZazh0Q05qdWd1dzRWM3NMT2s1Ym90bEFSTG8yY0xtVHNvVnpfaHpud0FvdHNHTlExSDJlU1ZuSUFJa0JpeFVMWjJGLTdzbzROcndLc3dmU2dXUEU1TnlmZUlyUGV1b3pSbW92N203Z3VkZU9fRWprYllPWEFzd2xvdFFZ?oc=5",
+      "https://www.investors.com/news/technology/cerebras-stock-cbrs-q2-2026-earnings/",
+      "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5KOFJGODFnaFY4TFJlb0JDRXlKem1ETTEwS1M0Y1ZUSDM4QzNGWUE3OXNiQ0NURHVCZWI1TU15RDZPY0hYRlZLbEN2dWJ6MjFHQ2FuUFFqSTRFVmhx?oc=5",
+      "https://www.investors.com/news/technology/cisco-stock-csco-cisco-earnings-q22026/",
+      "https://www.investors.com/news/technology/oracle-stock-orcl-quantum-quantinuum-cloud-ai/",
+      "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai"
+    ]
+  },
+  {
     "date": "2026-08-12",
     "displayDate": "2026年8月12日",
     "scope": "全球新闻｜科技与财经优先",
