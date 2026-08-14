@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-15",
+    "displayDate": "2026年8月15日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-15.png",
+    "summary": "本期简报聚焦AI资本开支的财务闭环风险与存储芯片重估。纽约时报深度剖析亚马逊与Alphabet利润的内部循环性质；长鑫存储受AI内存需求驱动估值超越腾讯；伯克希尔哈撒韦最新持仓暴露巴菲特对房地产与科技巨头的新配置；英伟达8月财报前瞻成为下半年科技股估值关键；特朗普无人机政策预期推高美国本土稀土与关键矿物股。",
+    "focus": [
+      "AI利润循环、中国存储芯片重估、巴菲特持仓、英伟达财报前瞻、国防供应链",
+      "直击AI基建投资的核心财务逻辑，为市场评估科技巨头资本开支回报率提供了关键的宏观视角。",
+      "标志着中国科技资产定价逻辑从互联网平台向底层硬科技与AI算力供应链的实质性转移。"
+    ],
+    "items": [
+      {
+        "title": "亚马逊与Alphabet利润揭示AI繁荣的“内部循环”性质",
+        "region": "美国",
+        "sources": [
+          "The New York Times"
+        ],
+        "summary": "纽约时报深度分析指出，亚马逊和Alphabet的AI利润增长部分源于云基础设施与AI芯片采购的内部循环，揭示了科技巨头AI资本开支的财务闭环特征及潜在的泡沫风险。",
+        "why": "直击AI基建投资的核心财务逻辑，为市场评估科技巨头资本开支回报率提供了关键的宏观视角。",
+        "watch": "关注云厂商内部关联交易占比及未来AI应用端实际外部收入转化能力。"
+      },
+      {
+        "title": "AI内存需求驱动芯片反弹，长鑫存储(CXMT)估值超越腾讯",
+        "region": "中国",
+        "sources": [
+          "TechRepublic"
+        ],
+        "summary": "受AI服务器对高带宽内存(HBM)及大容量存储的强劲需求驱动，中国存储芯片制造商长鑫存储(CXMT)迎来估值重估，其市值历史性超越腾讯，凸显本土算力硬件的资本溢价。",
+        "why": "标志着中国科技资产定价逻辑从互联网平台向底层硬科技与AI算力供应链的实质性转移。",
+        "watch": "长鑫存储的产能扩张进度、良率提升及美国出口管制对其全球市场份额的潜在影响。"
+      },
+      {
+        "title": "伯克希尔哈撒韦加仓美国房地产，并增持Alphabet与达美航空",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "伯克希尔哈撒韦最新13F文件显示，巴菲特继续押注美国房地产市场，同时增持了Alphabet和达美航空的股份，释放出对宏观经济韧性与科技巨头长期价值的配置信号。",
+        "why": "巴菲特的持仓调整是传统价值投资对当前高估值科技股与宏观利率环境的重要投票。",
+        "watch": "伯克希尔对Alphabet的增持比例，以及房地产板块在美联储利率政策下的后续表现。"
+      },
+      {
+        "title": "英伟达8月财报前瞻：AI芯片领袖的下一个估值催化剂",
+        "region": "美国",
+        "sources": [
+          "Intellectia AI"
+        ],
+        "summary": "市场焦点转向英伟达8月财报，投资者紧盯其AI芯片需求指引、Blackwell架构产能兑现情况以及数据中心业务的毛利率表现，这将直接决定下半年全球科技股的估值走向。",
+        "why": "作为AI行情的绝对风向标，英伟达的业绩与指引是验证AI资本开支能否持续转化为实际收入的核心测试。",
+        "watch": "Blackwell芯片的量产交付时间表、主权AI订单增速及管理层对明年需求的展望。"
+      },
+      {
+        "title": "特朗普无人机政策预期推高美国本土稀土与关键矿物股",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "受特朗普政府关于无人机与国防科技政策的新闻刺激，MP Materials和USA Rare Earth等美国本土稀土及关键矿物股大幅上涨，地缘博弈下国防供应链上游重获资本溢价。",
+        "why": "反映了资本市场对中美关键矿物脱钩及美国重建本土国防科技供应链的长期定价逻辑。",
+        "watch": "美国国防部对本土稀土采购的补贴政策落地，以及无人机蜂群技术对关键材料需求的实际拉动。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMickFVX3lxTFBTYjQyMEtqZ3drOEFXbFo0TS1hTFRUOEowR2w5Q29PTmJzbzduTkZ4a1VKNzkyRmR0RGN4a2M4NmdKT2huM0pVVXktTDVEZFJSLWVXV3FHdENjSFpTSkhkSnIyN3lMS204YTc5N29WQzVfUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNDg2ektNMTYwSHlmWXFnR2FYNmRnYzJOM2puZ3piQlpsYUN0b0IyZGZrSFJFa0Z0bHBCWlJhOXk3ZkVVbTVyclkwZHhXb1NSRnJkenVNMjVMRVZyOGV1ZkpzbEdTZDRrRzNEanl0Z2EwYWlmOHNNcnQ5bGlfbUp5NEpkU1JsSGc?oc=5",
+      "https://www.marketwatch.com/story/berkshire-hathaway-doubles-down-on-the-u-s-housing-market-with-a-fresh-bet-on-this-stock-e5c8484a?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE5CVUxqeTJFMkd0Znl1Q1l4WENyOUNhcEFpYkw5RXdUbi1TNjBvWnBRWU12UkZmeVV6TkZQQW1QSk5VTE5fQkJpQm1ISzFOT2lKcExUTGhYd1RQT1F4MjREZUZtcEFXT3dKSHhvTFJVNktTRmE1aTU1bjF5NEc?oc=5",
+      "https://www.investors.com/news/mp-materials-usa-rare-earth-stock-trump-drones-energy-fuels/"
+    ]
+  },
+  {
     "date": "2026-08-14",
     "displayDate": "2026年8月14日",
     "scope": "全球新闻｜科技与财经优先",
