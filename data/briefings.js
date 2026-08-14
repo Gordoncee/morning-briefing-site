@@ -1,5 +1,79 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-14",
+    "displayDate": "2026年8月14日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-14.png",
+    "summary": "今日简报聚焦资本市场与平台监管的交汇：Reddit正式纳入标普500指数，凸显AI数据资产在公开市场的定价权；法官下令Google简化第三方应用商店安装，科技巨头反垄断压力持续；OpenAI本周再失一位核心高管，商业化团队面临重组；Silver Lake洽购Workday引发SaaS板块异动；Applied Materials财报超预期却遭抛售，反映市场对AI硬件资本开支见顶的深层担忧。",
+    "focus": [
+      "平台监管、AI公司治理、SaaS并购与半导体资本开支",
+      "Reddit不仅是社交平台，更是AI巨头争夺的高质量语料库。纳入标普500将带来被动资金流入，并为其AI数据授权业务提供更高的估值锚点。",
+      "继苹果在欧盟和全球多地面临应用商店垄断指控后，Google在美国本土遭遇司法重锤。这将直接冲击Google Play的抽成模式，并为第三方应用分发渠道打开巨大商业空间。"
+    ],
+    "items": [
+      {
+        "title": "Reddit正式纳入标普500指数，AI数据资产获公开市场定价重估",
+        "region": "美国",
+        "sources": [
+          "marketwatch.com",
+          "investors.com"
+        ],
+        "summary": "在经历数月的猜测与落选后，社交媒体平台Reddit终于被正式纳入标普500指数。消息公布后其股价在盘后交易中大幅上涨。作为大语言模型训练的重要数据提供方，Reddit的入局标志着AI数据资产在传统资本市场获得进一步认可。",
+        "why": "Reddit不仅是社交平台，更是AI巨头争夺的高质量语料库。纳入标普500将带来被动资金流入，并为其AI数据授权业务提供更高的估值锚点。",
+        "watch": "关注被动基金调仓对Reddit流动性的影响，以及其后续与AI公司的数据授权协议是否能转化为实质性利润增长。"
+      },
+      {
+        "title": "法官下令Google简化第三方应用商店安装，平台反垄断监管再下一城",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "在Epic Games诉Google案的最新进展中，联邦法官James Donato裁定Google当前的第三方应用商店安装流程“不可接受”，并命令其必须降低用户侧载和安装 rival 应用商店的门槛。这标志着Android生态的封闭性正面临司法强制拆解。",
+        "why": "继苹果在欧盟和全球多地面临应用商店垄断指控后，Google在美国本土遭遇司法重锤。这将直接冲击Google Play的抽成模式，并为第三方应用分发渠道打开巨大商业空间。",
+        "watch": "观察Google将如何调整Android系统底层的安全提示与安装流程，以及Epic等第三方开发者能否借此实质性提升分发份额。"
+      },
+      {
+        "title": "OpenAI首席营收官Denise Dresser即将离职，本周内第二位高管出走",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "OpenAI首席营收官（CRO）Denise Dresser确认将在未来几周内离职以“追求其他机会”。她于去年12月从Slack CEO任上加入OpenAI。这是OpenAI本周内宣布离职的第二位高管，凸显公司在商业化扩张期面临的管理层动荡。",
+        "why": "CRO负责OpenAI至关重要的企业级销售与收入增长。在AI竞争白热化、企业级Agent产品急需落地的当下，核心商业化高管的连续流失可能延缓其ToB市场的拓展节奏。",
+        "watch": "关注OpenAI后续CRO的继任人选，以及其企业级产品（如Team和Enterprise版本）的营收增速是否会因管理层变动而放缓。"
+      },
+      {
+        "title": "私募巨头Silver Lake洽购Workday，推动企业级SaaS软件股大涨",
+        "region": "美国",
+        "sources": [
+          "investors.com"
+        ],
+        "summary": "据媒体报道，知名私募股权公司Silver Lake正在就收购人力资源与财务软件巨头Workday进行谈判。受此消息刺激，Workday股价周四大幅飙升，并带动相关企业级SaaS软件板块走强。",
+        "why": "在AI浪潮对传统SaaS估值造成冲击的背景下，大型PE对优质SaaS资产的并购意向，表明市场认为企业级软件的现金流和护城河依然稳固，可能引发软件行业的新一轮整合潮。",
+        "watch": "关注Silver Lake与Workday谈判的最终落地情况，以及此举是否会刺激其他大型PE对Salesforce、ServiceNow等SaaS巨头的私有化或并购动作。"
+      },
+      {
+        "title": "半导体设备龙头Applied Materials财报超预期但盘后下挫，AI资本开支担忧压制估值",
+        "region": "美国",
+        "sources": [
+          "investors.com"
+        ],
+        "summary": "半导体设备制造商Applied Materials（AMAT）公布了超预期的第三财季业绩及第四财季指引。然而，其股价在盘后交易中却出现下滑。市场在消化其业绩的同时，对AI驱动的半导体资本开支是否已见顶表达了深层担忧。",
+        "why": "作为芯片制造的“卖水人”，AMAT的业绩和指引是观测全球晶圆厂资本开支的最前瞻指标。财报超预期却遭抛售，反映出投资者对AI硬件投资周期可持续性的极度敏感与分歧。",
+        "watch": "紧盯后续台积电、Intel等晶圆厂的资本开支指引，以及先进封装和HBM相关设备的订单能见度，以确认AI基建投资是否进入平台期。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier",
+      "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
+      "https://www.marketwatch.com/story/reddit-is-joining-the-s-p-500-after-months-of-speculation-analysts-have-these-concerns-21f81f77?mod=mw_rss_topstories",
+      "https://www.investors.com/news/reddit-stock-jumps-on-sp-500-news/",
+      "https://www.investors.com/news/technology/workday-stock-wday-silver-lake-buyout-speculation/",
+      "https://www.investors.com/news/technology/applied-materials-amat-stock-fiscal-q3-2026-earnings/",
+      "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-high-workday-sandisk-oil-prices-applied-materials-earnings/"
+    ]
+  },
+  {
     "date": "2026-08-13",
     "displayDate": "2026年8月13日",
     "scope": "全球新闻｜科技与财经优先",
