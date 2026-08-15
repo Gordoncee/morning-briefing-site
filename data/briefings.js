@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-16",
+    "displayDate": "2026年8月16日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-16.png",
+    "summary": "本期简报聚焦AI资本开支的闭环效应与华尔街融资创新，亚马逊与Alphabet财报揭示AI繁荣的循环本质，英伟达5000亿美元AI融资重塑华尔街资产类别，同时其与SpaceX的210亿美元芯片大单凸显AI与商业航天的深度交叉。宏观与供应链方面，特朗普无人机政策提振稀土关键矿物板块，而美股在零售财报周前夕呈现分化，SanDisk与AI芯片双雄成为资金焦点。",
+    "focus": [
+      "AI资本循环、英伟达融资与航天芯片、稀土供应链、美股零售与半导体分化",
+      "直击当前AI资本开支狂潮的核心争议，帮助投资者理解科技巨头财报背后的资金闭环与估值风险。",
+      "标志着AI基建从单纯的股权融资和科技巨头资产负债表扩张，正式进入深度金融化与结构化债务市场阶段。"
+    ],
+    "items": [
+      {
+        "title": "亚马逊与Alphabet财报揭示AI繁荣的“循环本质”",
+        "region": "美国",
+        "sources": [
+          "The New York Times"
+        ],
+        "summary": "纽约时报分析指出，亚马逊与Alphabet的最新利润表现暴露出当前AI热潮的循环特征：科技巨头通过云服务和AI基础设施投入创造收入，而这些收入又高度依赖于其自身或生态内企业的资本开支，引发市场对AI投资长期可持续性与真实外部需求的审视。",
+        "why": "直击当前AI资本开支狂潮的核心争议，帮助投资者理解科技巨头财报背后的资金闭环与估值风险。",
+        "watch": "关注云业务利润率变化及企业级AI客户的实际ROI转化，警惕资本开支边际效益递减。"
+      },
+      {
+        "title": "英伟达5000亿美元AI融资：华尔街催生新资产类别革命",
+        "region": "美国",
+        "sources": [
+          "Intellectia AI"
+        ],
+        "summary": "围绕英伟达生态的5000亿美元规模AI融资正在重塑华尔街，金融机构通过将AI算力、芯片采购与数据中心资产证券化，创造出全新的结构化融资与资产类别，以满足科技巨头和初创企业庞大的基建资金需求。",
+        "why": "标志着AI基建从单纯的股权融资和科技巨头资产负债表扩张，正式进入深度金融化与结构化债务市场阶段。",
+        "watch": "跟踪AI算力资产的证券化产品评级、违约风险以及利率环境对这类新型资产类别定价的影响。"
+      },
+      {
+        "title": "英伟达与SpaceX达成210亿美元芯片大单，AI与商业航天深度交叉",
+        "region": "美国",
+        "sources": [
+          "24/7 Wall St."
+        ],
+        "summary": "英伟达通过与SpaceX的一项价值210亿美元的芯片与算力合作协议，将其在AI领域的统治力延伸至商业航天与太空基础设施，这笔交易不仅为英伟达带来巨额营收，也加速了SpaceX在星链和火箭回收中的AI自主化进程。",
+        "why": "打破了AI仅限于云端和软件应用的传统认知，展示了前沿算力在极端物理环境和国家级战略工程中的变现能力。",
+        "watch": "关注SpaceX后续IPO估值中AI算力资产的溢价，以及英伟达在航空航天及国防领域的订单增速。"
+      },
+      {
+        "title": "特朗普无人机政策提振稀土与关键矿物股，供应链博弈升温",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "受特朗普政府关于扩大无人机生产与应用的最新政策消息刺激，MP Materials、USA Rare Earth等西方稀土及关键矿物供应商股价大涨。Energy Fuels等磁性材料生产商也被看好，凸显地缘政治下关键供应链的本土化重构。",
+        "why": "无人机与国防科技的扩张直接拉动对稀土永磁材料的需求，关键矿物成为大国科技与军事博弈的底层筹码。",
+        "watch": "关注美国国防部对本土稀土供应链的补贴落地情况，以及中国稀土出口管制对全球定价的潜在冲击。"
+      },
+      {
+        "title": "美股期货分化：SanDisk大涨，英伟达进入买入区，零售巨头财报成宏观试金石",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "在沃尔玛和Target等零售巨头财报发布前夕，美股期货呈现结构性分化。存储芯片股SanDisk大幅飙升，英伟达等技术面进入买入区间，而市场整体在等待零售数据以验证通胀降温与消费韧性的宏观叙事。",
+        "why": "反映了当前资本市场在AI硬件反弹与宏观消费数据之间的拉扯，存储芯片与AI算力仍是资金避险与进攻的首选。",
+        "watch": "紧盯沃尔玛等零售巨头的指引对美联储降息预期的影响，以及存储芯片涨价周期能否在财报中兑现。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMickFVX3lxTFBTYjQyMEtqZ3drOEFXbFo0TS1hTFRUOEowR2w5Q29PTmJzbzduTkZ4a1VKNzkyRmR0RGN4a2M4NmdKT2huM0pVVXktTDVEZFJSLWVXV3FHdENjSFpTSkhkSnIyN3lMS204YTc5N29WQzVfUQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYXpmZUlPMVNYckdXOXhiNlhWVlJSQ2dMQWV5ZmdEU3ltNjNTVjk4U0NRRzFwTEdnVEZHcU91SS15ZVZNektEX0VKakpwV3M0RHc3NThwVXk1QVFSVDFsVVo3cExwM201c2stMHl4cko2cThiRlVtTGJuR0NaVnZLQ25B?oc=5",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUi0xcU1nekc1XzR5SGluWVU4c2ZrUklETUF0OHhLS2p3UHR4bFprYkpkTWEwZ2hBVld4a0VFRmgtYVN1Z1Q4XzhMTDJobnZHdzlVTVZiOV8tS3pmME44RE9HSUJTcUFMMFpnMTA1dTZ6VHZuRVc3cE5vLVZvOXFSdzJoYWotSDNBTndmTUYtaWYyRkxhdHlyWEt2bWltcy1XcFhfd1l4Z3dmZjVIajhrRzMxdF9iTGtaWHpPTl9xMHVRcmdTMTdTSXdfYjM?oc=5",
+      "https://www.investors.com/news/mp-materials-usa-rare-earth-stock-trump-drones-energy-fuels/",
+      "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-run-sandisk-soars-nvidia-buy-walmart-target/"
+    ]
+  },
+  {
     "date": "2026-08-15",
     "displayDate": "2026年8月15日",
     "scope": "全球新闻｜科技与财经优先",
