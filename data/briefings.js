@@ -1,5 +1,77 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-17",
+    "displayDate": "2026年8月17日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-17.png",
+    "summary": "本期简报聚焦AI治理与基建资本开支的微妙变化：OpenAI解散安全准备团队引发治理担忧，英伟达削减对OpenAI的数据中心担保凸显AI基建融资风险。同时，ChatGPT桌面端新增操作追踪功能触及隐私边界，亚马逊修改条款限制集体诉讼反映平台合规博弈。宏观层面，华尔街在AI热潮中重新定价美联储利率预期。",
+    "focus": [
+      "AI治理与基建融资、平台监管、宏观利率定价",
+      "安全团队解散直接冲击AI行业的‘负责任开发’叙事，可能引发监管机构对前沿模型发布流程的更严格审查。",
+      "AI基建从‘无上限投入’转向精细化风险定价，担保削减意味着硬件供应商对下游客户杠杆扩张的容忍度下降。"
+    ],
+    "items": [
+      {
+        "title": "OpenAI解散安全准备团队，AI前沿模型治理架构面临重构",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "据FT报道，OpenAI于上月底解散了负责评估模型严重风险并制定缓解措施的准备团队（preparedness team）。此举标志着公司在追求商业化与AGI目标时，内部安全制衡机制发生重大调整。",
+        "why": "安全团队解散直接冲击AI行业的‘负责任开发’叙事，可能引发监管机构对前沿模型发布流程的更严格审查。",
+        "watch": "关注OpenAI后续如何重组安全评估流程，以及欧美监管机构是否因此加速推进AI安全审计立法。"
+      },
+      {
+        "title": "英伟达削减对OpenAI的数据中心担保，AI基建融资杠杆承压",
+        "region": "美国",
+        "sources": [
+          "The American Bazaar"
+        ],
+        "summary": "英伟达缩减了为OpenAI数据中心建设提供的财务担保。随着AI资本开支规模急剧膨胀，芯片巨头与AI初创公司之间的基建融资风险分担机制正在重新谈判。",
+        "why": "AI基建从‘无上限投入’转向精细化风险定价，担保削减意味着硬件供应商对下游客户杠杆扩张的容忍度下降。",
+        "watch": "观察其他云厂商和AI独角兽的数据中心融资成本变化，以及AI基建REITs和结构化融资市场的利差走势。"
+      },
+      {
+        "title": "ChatGPT桌面端推出Computer History功能，AI代理数据收集触及隐私边界",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "ChatGPT macOS桌面应用新增Computer History功能，通过记录用户的点击和按键操作来学习工作流、建议自动化并接管未完成的任务。该功能将用户本地行为直接转化为训练和推理数据。",
+        "why": "AI从‘对话框’走向‘系统级代理’，底层数据抓取能力的提升将不可避免地触发企业IT合规与消费者隐私保护的新冲突。",
+        "watch": "关注企业级客户对该功能的部署限制，以及全球数据保护机构对AI代理本地数据收集行为的合规界定。"
+      },
+      {
+        "title": "华尔街在AI热潮中重新定价利率预期，宏观流动性成核心变量",
+        "region": "美国",
+        "sources": [
+          "Yahoo Finance",
+          "Bloomberg.com"
+        ],
+        "summary": "尽管AI驱动的科技股行情依然活跃，但华尔街投资者正将注意力转向美联储的利率路径。市场在享受AI资本开支红利的同时，开始警惕高利率环境对估值和融资成本的长期压制。",
+        "why": "AI行情的持续性不仅取决于技术突破，更受制于宏观流动性。利率预期的微调将直接影响高杠杆AI基建和长周期研发项目的贴现率。",
+        "watch": "紧盯美联储官员近期讲话及通胀数据，评估无风险利率中枢上移对AI硬件与软件板块估值的分化影响。"
+      },
+      {
+        "title": "亚马逊修改服务条款限制集体诉讼，平台监管与法律合规博弈升级",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "亚马逊向用户发送条款更新通知，强制要求通过仲裁解决争议，并试图在集体诉讼形成前通过新条款阻断用户的集体诉讼权利。此举旨在降低平台的法律与财务风险敞口。",
+        "why": "科技巨头利用格式条款规避系统性法律风险，凸显了消费者保护与平台霸权之间的监管盲区，可能引发反垄断和消费者权益机构的介入。",
+        "watch": "关注美国联邦贸易委员会（FTC）及州检察长是否对亚马逊的仲裁条款发起合规调查，以及其他电商平台的跟进动向。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMkN0NHg0OURKQnBjSkNYNGZ3OWJSS1lDMUwyTHUwMEwxemotZ05jUHV0T25NbzdiX3BRTVBGRXU0RzNCbEJaaG1aWmYxV0pkV0IzWnFEVjIzMHdOR2NnemxqdkpDbk5HRFNibWJXbm1RZ0tveFlSVVpQUlNIb1V2VVhtOTdPSWN3ZnNjdVJ2TmlQd0gxVG1J?oc=5",
+      "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSjJUbUFydGlZMWdFZlpwYkgtM3hVazB3emE1Mm9mQTI2eDcteG9VX2xPbUxFMGdTYkhNbVVnTEpkZVBGZnhncVh2VEpnemZtYWZIek9ZTVBsZ1ZHM0lhTGJNdVRlZzdTNW9Dc3lNbUtJZ1QwRUNEWm85NlBVRFpmV1BiYWk3RTV3WEtzMjkzbDVNaVpxUmhz?oc=5",
+      "https://www.theverge.com/tech/980752/amazon-class-action-arbitration-terms-and-conditions"
+    ]
+  },
+  {
     "date": "2026-08-16",
     "displayDate": "2026年8月16日",
     "scope": "全球新闻｜科技与财经优先",
