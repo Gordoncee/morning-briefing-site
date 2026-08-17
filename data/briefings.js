@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-18",
+    "displayDate": "2026年8月18日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-18.png",
+    "summary": "本期简报聚焦AI基建融资与宏观溢出效应：英伟达为OpenAI百亿美元级数据中心提供融资；挪威主权基金与欧洲央行相继警告AI驱动的科技股泡沫与回调风险；AI资本开支开始推高美国国债收益率；同时特朗普关联加密基金涉足受限中国AI公司引发监管关注。",
+    "focus": [
+      "AI基建融资、科技股估值预警、宏观利率溢出、AI地缘监管",
+      "AI基建资本开支进入结构化融资深水区，芯片巨头直接下场提供百亿美元级信贷，重塑行业杠杆率与供应链绑定关系。",
+      "全球顶级长线资金对AI估值发出系统性警告，标志着机构资金对科技股拥挤交易和估值溢价的警惕性正在上升。"
+    ],
+    "items": [
+      {
+        "title": "英伟达为OpenAI俄亥俄州超大型数据中心提供1050亿美元融资",
+        "region": "美国",
+        "sources": [
+          "New York Post"
+        ],
+        "summary": "英伟达正为其核心客户OpenAI在俄亥俄州建设的全球最大规模数据中心之一提供高达1050亿美元的融资支持，进一步深度绑定AI算力基础设施的扩张。",
+        "why": "AI基建资本开支进入结构化融资深水区，芯片巨头直接下场提供百亿美元级信贷，重塑行业杠杆率与供应链绑定关系。",
+        "watch": "关注英伟达资产负债表扩张及OpenAI后续数据中心落地进度与算力消化能力。"
+      },
+      {
+        "title": "挪威主权财富基金警告AI驱动的股票市场泡沫",
+        "region": "挪威/全球",
+        "sources": [
+          "DW.com"
+        ],
+        "summary": "全球最大主权财富基金挪威政府养老基金发出警告，指出当前由人工智能热潮驱动的股票市场估值可能存在泡沫风险，呼吁投资者保持警惕。",
+        "why": "全球顶级长线资金对AI估值发出系统性警告，标志着机构资金对科技股拥挤交易和估值溢价的警惕性正在上升。",
+        "watch": "留意主权基金及大型养老金在下半年是否实质性减持美股科技巨头头寸及调仓动作。"
+      },
+      {
+        "title": "AI正在推高美国国债收益率：‘它触及一切’",
+        "region": "美国",
+        "sources": [
+          "Yahoo Finance"
+        ],
+        "summary": "分析指出，人工智能热潮带来的庞大资本开支、电力需求和基础设施建设正在产生宏观溢出效应，直接推高了美国国债收益率，影响整体资产定价。",
+        "why": "AI算力扩张带来的电力与基建需求正产生宏观溢出效应，直接推高无风险利率，改变传统资产定价锚。",
+        "watch": "跟踪美国长端国债收益率走势及美联储对AI引发通胀或利率中枢上移的政策回应。"
+      },
+      {
+        "title": "特朗普关联加密公司支持提供受限中国公司AI服务的合资企业",
+        "region": "美国/中国",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "路透社报道，与特朗普相关的加密货币公司正在支持一项新 ventures，该 ventures 提供来自受美国出口管制限制的中国公司的AI模型和服务，引发合规与地缘政治争议。",
+        "why": "政治人物关联资本绕过出口管制涉足受限AI资产，凸显AI地缘监管的灰色地带与潜在的合规风险。",
+        "watch": "关注美国商务部及财政部对该加密与AI投资架构的合规审查与潜在制裁动作。"
+      },
+      {
+        "title": "欧洲央行经济学家警告美国科技股可能出现回调",
+        "region": "欧洲/美国",
+        "sources": [
+          "Financial Times"
+        ],
+        "summary": "欧洲央行经济学家在最新报告中警告，美国科技股在经历‘炽热’的反弹后，估值已处于高位，未来出现实质性回调的可能性正在增加。",
+        "why": "欧洲央行经济学家罕见对美股科技板块发出回调预警，宏观货币政策制定者开始将AI泡沫纳入金融稳定考量。",
+        "watch": "观察欧洲央行后续研报及美股科技股在盈利季后的估值消化与跨市场资金流向。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdXFNdWxhRFFFekdKU1FMRzFuVFRHMlNjdUxRb3FLU0xBNnRzTWRaTFhjaFRnZ2dZWTU2VlhLRldoQVhSREprcHZVTVBSVk5nSmtLLVB0OTl6ckNuUGhzcEFKb0dIVzJ2bndjTzBFTU9WSmhxenZvMDJvTFNCcm0xVjduZGhFUkxubS1EMnZpeGJaLTlqcGJYdHcwelJtQmhxd0ljX3ZveHFSRnI5UmdWVFQ5OA",
+      "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVTBscGNtd0pyUUUzRE1NelY4QkZXNjViemV6Uld0M3pXMWtjdk5zR1BoNXZtelMzb2NZdTVELTdBZi13ZlpUVmtOVUlfSjJXMXFnZlRTei1hZ3hvOG1JOEtKbE5ESFo4RWFOYmlGTEJaLVF0WGI4UVd5VHY3UDI5Q2VhdXl1Q1hpQzJLVWRFUjLSAZABQVVfeXFMTWR3a21fT3V3eUwtMktKWEpmckZjZmpPakttWjlRMVdwd1BSYWNLX042eHdVdzhSODVobmVwQUlDZ0dTbzhwaGtFenh1NTZWcWtyOVdvR0ZUaDdoSjVOUTV5aUJ5MzhHN2xDaGFCdWNYVGk1SFpjZ0Y2UC1kYVcxaXEtbGp0ZXF5UHBvcUVTUVZs",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMGJlR1hGTWh5S2c0d0FWSE5ra0k1YjNQaEw1TkxQRU03MTAzTTJJdGR1dEdnaFN1M2FLTWUyRUFXOW94czJhU01lT2h3bWhIMGYtWW9NWENCZU9WTkxsYXhoSkpOUV9CSnhBM2didDNhRTlwdVEweHg5bWw2eGFDdHdlb3NWTHdoRU45TXNmLUdxT0FxOE9HQ3ZzSlc",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTHhDcEM5cGN4V2duaGh3RmNtbVZndFdfWHBjSkF5ekRiN1JBVnRULTBUeTVld0I3czliYWZsckdXbVJfLTdJcldxY0V1VnV6NU1sME1uM3BWLUttZzR4RDVPSkJsTXlRQkRSTkFJc2pLelNEYXNBWHpUX1BGdzFBTGtmaFFwdE1DclphZDZncHMyTk5oNmFZSWhQRmVrUHdkaFpCb3ZBWWY4eExmcGZEMkJZekFPTEI3VG4zUQ",
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxOb2hOLXBiQXdKRW1pSDdBTWpjMnNCYlQ0WVpqczB6d05mUk03Z19lcG9rUDFPRFZUU0Z2YTFJTDYtd09kWkk1LVFIazhWQWFVdjRVeFJCMHNyTGlDbWJvbVZrcy0wdkVGQ3BSR1A0TWNNM0VmdHBTczJlRHlhaDM1bW9Cd1E"
+    ]
+  },
+  {
     "date": "2026-08-17",
     "displayDate": "2026年8月17日",
     "scope": "全球新闻｜科技与财经优先",
