@@ -1,5 +1,77 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-20",
+    "displayDate": "2026年8月20日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-20.png",
+    "summary": "今日全球科技与资本市场焦点集中在AI基础设施的金融化与供应链重构。美国市场筹备推出挂钩GPU价格的AI算力衍生品，标志着算力正式成为金融标的；Google与Marvell达成百亿美元级芯片协议，加速云巨头定制ASIC布局。宏观层面，欧洲央行罕见警告AI估值泡沫风险；中国方面，阿里巴巴上线万卡国产芯片数据中心，验证本土算力集群商用能力。此外，OpenAI在IPO前夕主动放缓产品节奏，凸显前沿AI公司在安全、竞争与资本化之间的战略博弈。",
+    "focus": [
+      "AI算力金融化、定制芯片供应链重构、宏观AI估值警告、国产算力集群验证、OpenAI战略调整",
+      "科技巨头在AI芯片供应链上加速多元化布局，定制ASIC芯片成为云基础设施博弈的新焦点，直接冲击传统GPU与网络芯片巨头的市场份额。",
+      "AI算力正式从物理基础设施转化为金融衍生品标的，标志着资本市场对AI硬件定价权的金融化延伸，可能改变科技公司的资本开支对冲方式。"
+    ],
+    "items": [
+      {
+        "title": "Marvell与Google达成定制芯片协议，Broadcom股价受挫",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "Google与Marvell达成定制AI芯片合作，并获权购买约120亿美元Marvell股票，消息推动Marvell股价大涨，而竞争对手Broadcom股价下跌。",
+        "why": "科技巨头在AI芯片供应链上加速多元化布局，定制ASIC芯片成为云基础设施博弈的新焦点，直接冲击传统GPU与网络芯片巨头的市场份额。",
+        "watch": "关注Google TPU与Marvell合作的实际量产进度，以及Broadcom在面临大客户流失风险后的应对策略与财报指引。"
+      },
+      {
+        "title": "美国市场准备推出挂钩TSMC与Nvidia GPU价格的AI算力衍生品",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "美国监管机构初步允许投资者交易基于Nvidia、TSMC和Broadcom等公司GPU价格计算的AI算力期货合约。",
+        "why": "AI算力正式从物理基础设施转化为金融衍生品标的，标志着资本市场对AI硬件定价权的金融化延伸，可能改变科技公司的资本开支对冲方式。",
+        "watch": "算力期货的流动性与定价模型，以及其对实体GPU采购成本和科技公司资产负债表管理的潜在反身性影响。"
+      },
+      {
+        "title": "欧洲央行经济学家警告AI估值过高，市场修正风险加剧",
+        "region": "欧洲",
+        "sources": [
+          "CNBC",
+          "RTE"
+        ],
+        "summary": "欧洲央行经济学家发布报告警告，当前AI相关股票的估值泡沫令人担忧，可能正在酝酿一场广泛的市场修正。",
+        "why": "官方宏观机构首次对AI科技股的估值泡沫发出系统性风险警告，可能影响全球资金对AI板块的风险偏好与资产配置权重。",
+        "watch": "美联储与欧洲央行在AI资产泡沫上的政策态度分歧，以及高利率环境下AI股票盈利兑现的压力测试。"
+      },
+      {
+        "title": "阿里巴巴推出由1万颗国产芯片驱动的AI数据中心",
+        "region": "中国",
+        "sources": [
+          "TechRepublic"
+        ],
+        "summary": "阿里巴巴正式上线基于1万颗中国国产AI芯片构建的数据中心，加速推进算力基础设施的本土化替代。",
+        "why": "中国科技巨头在AI算力受限背景下，大规模验证国产芯片的集群化商用能力，是中国AI基建自主可控的关键节点。",
+        "watch": "国产芯片在万卡集群中的实际训练效率、互联带宽表现，以及后续其他互联网大厂的采购跟进情况。"
+      },
+      {
+        "title": "OpenAI在IPO前夕主动放缓步伐，重新平衡安全与商业化",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "面对即将到来的IPO、Anthropic的激烈竞争以及开源模型的追赶，OpenAI选择主动放缓产品发布节奏，重新审视发展策略。",
+        "why": "前沿AI公司在资本化冲刺期罕见踩刹车，反映出技术瓶颈、安全合规与商业化预期之间的深层矛盾，可能重塑行业竞争格局。",
+        "watch": "OpenAI放缓是否会导致其在企业级市场份额被Anthropic或开源阵营侵蚀，以及IPO估值模型的重塑。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/marvells-stock-soars-on-news-of-google-chip-deal-and-broadcoms-falls-c2a7f559?mod=mw_rss_topstories",
+      "https://www.investors.com/news/ai-compute-derivatives-nvidia-meta-tsmc-broadcom-microsoft-amazon-google/",
+      "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xbVRBdlNrTkdsNEU3bWtMMWxmN3d0a0oyOWpBaFJtYV9TaXZvb2htSVdObVZ5eWs3YmxrWGVvbU9MclJBS0UyYjBlREpPQmhpNW5JbmhFMDZmUHpXbHI1bjhMejV3MkRabHRiRGVTeFJmYUxyZnBvVDFwc2nSAYIBQVVfeXFMUEp3Y0tlNzlTZ1RpYmVEUndHRkxPMklEZnBUNHBvWmdfZ2QyNC16b2pJZFp0MUhyVFhzUnhwMWVGX3ZwMXlrcGxjT0xSaW5RNG4waUoyWnRUVnhSS0d6dXlJaDZJcUZSdDNuTkxad1U1SW8zNG45Nm1uaDBGYUtxVUVWZw",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLVFjZmpYRTdRVnZFSXdVdkZuY2FnVHllbmtOcEZIQUx1OE1xOXhYQjlFb2FsV1VfZjBrOWFkSkxvNU5qSlJvMU1JQzdnYmZDR0EtQnZQeEFlWDJWVnB5aFk1QlA5QkYxTUlXY0NZeC1FRlVBbU1lVVg0U1dnUDJfSEphV1d0U0hjS0p1cXp3",
+      "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
+    ]
+  },
+  {
     "date": "2026-08-19",
     "displayDate": "2026年8月19日",
     "scope": "全球新闻｜科技与财经优先",
