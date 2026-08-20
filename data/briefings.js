@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-21",
+    "displayDate": "2026年8月21日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-21.png",
+    "summary": "本期简报聚焦AI基建热潮向传统机械与宏观债务领域的溢出效应。特朗普对伊朗的新威胁推高油价与美债收益率，重挫美股；约翰迪尔财报印证AI数据中心需求正重塑重型机械行业；同时，AI天量资本开支引发债务危机担忧，数据中心的物理扩张也遭遇社会与政治阻力。此外，摩根大通对特斯拉Optimus延期的预警，凸显具身智能商业化落地的现实挑战。",
+    "focus": [
+      "AI基建溢出效应",
+      "宏观债务与地缘风险",
+      "具身智能商业化"
+    ],
+    "items": [
+      {
+        "title": "特朗普对伊朗发出“经济D-Day”威胁，油价与美债收益率飙升重挫美股",
+        "region": "全球/美国",
+        "sources": [
+          "investors.com"
+        ],
+        "summary": "特朗普最新对伊朗发出“经济D-Day”威胁，导致地缘政治风险溢价急剧上升。原油价格与美债收益率同步跳涨，引发股市大幅回调，纳斯达克跌破关键支撑位。",
+        "why": "地缘冲突直接冲击能源与无风险利率两大核心定价锚，对科技股估值和全球通胀预期构成双重压力。",
+        "watch": "霍尔木兹海峡航运风险及美债收益率曲线是否进一步陡峭化。"
+      },
+      {
+        "title": "约翰迪尔财报因AI数据中心基建需求大增，传统机械股吃下AI红利",
+        "region": "美国",
+        "sources": [
+          "investors.com"
+        ],
+        "summary": "农机与工程机械巨头约翰迪尔(Deere)公布财报，受数据中心和能源基础设施建设强劲需求推动，其建筑业务大增，实现11个季度以来的首次盈利增长。",
+        "why": "AI算力基建热潮正从芯片和服务器向电力、冷却及土建等重型机械领域深度溢出，拓宽了AI投资的受益边界。",
+        "watch": "传统工业与基建板块在AI资本开支周期中的估值重估空间。"
+      },
+      {
+        "title": "美国AI与国防资本需求激增，Le Monde警告债务危机开端",
+        "region": "美国/全球",
+        "sources": [
+          "Le Monde.fr"
+        ],
+        "summary": "报道指出，美国科技巨头在AI基础设施上的天量资本开支，叠加国防领域的巨额投入，正在大幅推高整体借贷需求和利率水平，引发对系统性债务危机开端的担忧。",
+        "why": "AI基建的“资金黑洞”效应开始与宏观主权债务问题产生共振，可能限制未来科技公司的杠杆空间并推高全社会的资金成本。",
+        "watch": "科技巨头后续发债规模及高收益债市场的利差变化。"
+      },
+      {
+        "title": "AI数据中心扩张引发社会反弹，物理基建阻力演变为选举核心议题",
+        "region": "美国",
+        "sources": [
+          "CNBC"
+        ],
+        "summary": "随着AI数据中心在各地加速落地，其带来的高耗水、高噪音和电网挤占问题引发社区强烈抗议。这种“邻避效应”正从地方投诉升级为政治广告和选举中的核心攻防议题。",
+        "why": "AI算力的物理扩张正遭遇现实世界的社会与政治摩擦力，可能迫使科技巨头增加环保合规成本或改变数据中心选址策略。",
+        "watch": "地方区划法规的收紧及科技公司在液冷和微电网技术上的资本倾斜。"
+      },
+      {
+        "title": "摩根大通暗示特斯拉Optimus机器人发布再次延期，具身智能商业化遇冷",
+        "region": "美国",
+        "sources": [
+          "investors.com"
+        ],
+        "summary": "摩根大通最新分析师报告指出，特斯拉人形机器人Optimus的实际研发与测试进度不及预期，暗示其最终商业化发布时间表将再次推迟，导致特斯拉股价承压。",
+        "why": "华尔街大行开始对具身智能的预期进行管理，反映出人形机器人从实验室走向规模化量产仍面临严峻的硬件与算法工程挑战。",
+        "watch": "特斯拉后续AI Day的实物演示进展及供应链端的零部件验证节奏。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.investors.com/market-trend/the-big-picture/stock-market-trump-threats-oil-prices-treasury-yields-bitcoin-jump/",
+      "https://www.investors.com/news/deere-soars-data-centers-drive-first-earnings-gain-in-11-quarters/",
+      "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNzNQNExSNFRTZUw2cWRlX1lQeUViUmZsT3hFUGs1U3dNdk1XaUNzT1Vsc1ZhYkR3akhkT3ZlRFZuTjVvSmxJWExPclQyRzBNR0RuaDFnUUNaTzZ4N2N1eFVfd2RnY3Q4SHp5Smk1Y1BTbUNrLS1FbzNDXzJhWVN1V0JNSVg3dWFYeVpOVWNpZzh2cVNvdE1JWWc5STBvQ1VzNzV1b3dSMy1qTHltRldEQUNXblpFekx6TU5Uc3VsLWhKcUIzNHpOSi12dUhIaWRlRGhRR3ZFeHliT1lNa1ZHag?oc=5",
+      "https://news.google.com/rss/articles/CBMieEFVX3lxTE5NU1JTVElyd0VoUGxkbExGS0ZtTWQ0TktXaEZaUnN0V1N4bHByb1VCQmplbzEtalFNSTZtT1R4LTkxOXhmRExuZGdfUWtCR18xM1VDemJVaWVnWDU1VWxPS2hSUkw3cXVzOUg2QjJVYXRQT0VhNFYtN9IBfkFVX3lxTE1QWXBpQmVNVG1wYVdEakxudnJwZzAwaDluQ2dXakNreXE2aUx6RGpDclg5eVd6Zlc2Z0NIaWNwaXM1RUlSb3dCSXJNdnQyNl9WdEd4WHpyTmY2SHExd1RNV2NYS2hpWENMMkpMWFBzRVRGYzB5ZXJYTHE3SExsUQ?oc=5",
+      "https://www.investors.com/news/tesla-optimus-robots-elon-musk-tesla-stock/"
+    ]
+  },
+  {
     "date": "2026-08-20",
     "displayDate": "2026年8月20日",
     "scope": "全球新闻｜科技与财经优先",
