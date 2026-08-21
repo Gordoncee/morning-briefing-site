@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-22",
+    "displayDate": "2026年8月22日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-22.png",
+    "summary": "本期简报聚焦美国科技监管与宏观博弈：TikTok支付4亿美元和解儿童隐私诉讼，平台合规成本攀升；苹果裁减Vision Pro与Siri团队，重塑AI与空间计算资源分配；特斯拉Robotaxi获拉斯维加斯部署许可，自动驾驶商业化提速；美财政部干预债市与美联储产生政策摩擦，宏观定价逻辑生变；英国推进主权AI战略，扶持新兴芯片企业以打破算力垄断。",
+    "focus": [
+      "平台监管与合规",
+      "AI与硬件战略调整",
+      "自动驾驶商业化"
+    ],
+    "items": [
+      {
+        "title": "TikTok支付4亿美元与美国DOJ达成儿童隐私诉讼和解",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "美国司法部宣布TikTok将支付4亿美元和解2024年提起的违反《儿童在线隐私保护法》(COPPA)的诉讼。",
+        "why": "巨额罚款再次凸显美国对科技平台数据合规与未成年人保护的强监管态势，将显著增加平台合规成本并影响产品设计。",
+        "watch": "其他大型社交媒体平台是否会面临类似的COPPA合规审查及后续罚款，以及TikTok后续的产品合规调整。"
+      },
+      {
+        "title": "苹果裁减Vision Pro与Siri团队员工，调整AI与空间计算战略",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "据彭博社报道，苹果正在裁减Siri和Vision Pro团队员工，包括基本关闭Vision Pro游戏团队并缩减沉浸式内容团队规模。",
+        "why": "在AI竞争白热化及空间计算设备销量承压的背景下，此举反映苹果正重新评估资源分配，聚焦核心AI能力与高回报硬件。",
+        "watch": "苹果后续在Siri大模型升级及Vision Pro下一代产品上的研发重心转移与资源倾斜。"
+      },
+      {
+        "title": "特斯拉获准在拉斯维加斯部署Robotaxi，推动股价大涨",
+        "region": "美国",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "特斯拉计划很快在得州奥斯汀推出Cybercab，并获得在内华达州部署数千辆自动驾驶车辆的批准，消息推动其股价跳涨。",
+        "why": "监管放行是自动驾驶商业化落地的关键里程碑，直接验证了特斯拉Robotaxi业务的扩张潜力与估值逻辑。",
+        "watch": "特斯拉在奥斯汀和拉斯维加斯的实际运营数据，以及Waymo等竞争对手的监管应对与扩张节奏。"
+      },
+      {
+        "title": "美国财政部积极干预债市压低借贷成本，与美联储主席Warsh产生政策摩擦",
+        "region": "美国",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "财政部长Scott Bessent近期干预国债市场以降低政府债务成本，此举削弱了美联储主席Kevin Warsh制定利率政策的公信力。",
+        "why": "财政部与美联储在债务成本与利率路径上的博弈，打破了传统的政策独立性边界，成为影响美债收益率和全球资产定价的重大宏观变量。",
+        "watch": "美联储后续公开市场操作及财政部发债计划对长端美债收益率的实际影响与市场预期重塑。"
+      },
+      {
+        "title": "英国转向新兴芯片公司推进其“主权AI”战略",
+        "region": "英国",
+        "sources": [
+          "Bloomberg.com"
+        ],
+        "summary": "英国正在为其主权AI战略寻找蓬勃发展的芯片新贵，以降低对传统AI芯片巨头的依赖并构建本土算力基础设施。",
+        "why": "凸显全球主要经济体在AI算力基建上的供应链多元化与自主可控诉求，为AI芯片初创公司提供新的国家级订单机会。",
+        "watch": "英国具体采购的芯片架构及本土数据中心建设进度，以及欧洲其他国家的主权AI跟进动作。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/tech/983531/tiktok-settle-doj-lawsuit-coppa",
+      "https://www.theverge.com/tech/983451/apple-layoffs-vision-pro-siri",
+      "https://www.marketwatch.com/story/tesla-stocks-jumps-as-the-company-gets-ready-for-a-robotaxi-push-c680f87f?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbTJaRUhiSVhXZGpxd0lxTGhUdThiWFFfQ1BqRWJLeXl5Z3FmQXJTWURKTDFaQU5OM0N0M1ptcGpleU1KVnVvdFpOYUtjVFUzdV9DSWVnVHcwU0w2b3dBSktkNmhpVVlNS0hDY0hhUmRFRlZvN0phYzZMQ0tKN2tDaFNyN2dfQU81WTJldm9vN0ZvYUh2SXhZ?oc=5"
+    ]
+  },
+  {
     "date": "2026-08-21",
     "displayDate": "2026年8月21日",
     "scope": "全球新闻｜科技与财经优先",
