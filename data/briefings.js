@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-23",
+    "displayDate": "2026年8月23日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-23.png",
+    "summary": "本期简报聚焦平台监管与宏观贸易摩擦，TikTok以4亿美元和解美国DOJ儿童隐私诉讼，加拿大因贸易谈判破裂对美启动报复性关税。资本市场方面，AI支出推高创纪录科技债务引发杠杆担忧，Vertiv单日蒸发123亿美元测试AI基建估值底线；同时英国加速布局主权AI，转向新兴芯片供应商以重塑算力供应链。",
+    "focus": [
+      "平台监管、宏观关税、AI资本开支与债务、主权AI芯片战略",
+      "平台监管",
+      "宏观变量"
+    ],
+    "items": [
+      {
+        "title": "TikTok支付4亿美元和解美国DOJ儿童隐私诉讼",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "美国司法部宣布TikTok将支付4亿美元和解2024年提起的违反《儿童在线隐私保护法》（COPPA）诉讼。此举标志着美国对大型社交平台未成年人数据保护的监管执法进入实质性重罚阶段。",
+        "why": "平台监管",
+        "watch": "和解金额确立了COPPA违规的罚款基准，后续可能引发更多州级隐私诉讼与合规成本攀升，社交平台的数据采集模式将面临更严审查。"
+      },
+      {
+        "title": "贸易谈判破裂，加拿大宣布对美国商品征收报复性关税",
+        "region": "北美",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "加拿大总理Mark Carney宣布将对美国商品实施对等金额的报复性关税，以回应两国贸易谈判的最终破裂。此举标志着北美贸易摩擦再度升级，直接冲击跨境供应链与大宗商品定价。",
+        "why": "宏观变量",
+        "watch": "关税战重燃将推高北美制造业与消费品通胀预期，美国钢铁股等受保护板块或短期受益，但整体市场风险溢价与供应链重构成本将显著上升。"
+      },
+      {
+        "title": "AI支出推高创纪录科技债务，华尔街开始担忧杠杆失控",
+        "region": "全球",
+        "sources": [
+          "The Journal Record"
+        ],
+        "summary": "为支撑庞大的AI基础设施资本开支，科技行业债务规模创下历史新高。市场焦点正从AI营收增长转向资产负债表健康度，投资者开始重新评估高杠杆下的科技股风险溢价。",
+        "why": "资本市场",
+        "watch": "随着高利率环境持续，高负债AI基建公司的融资成本与再融资风险将成为下半年财报季的核心压力测试点，债务违约风险可能引发板块估值重估。"
+      },
+      {
+        "title": "英国转向新兴芯片公司构建主权AI战略",
+        "region": "欧洲",
+        "sources": [
+          "Bloomberg"
+        ],
+        "summary": "为降低对单一头部芯片巨头的依赖，英国政府正积极引入新兴芯片初创公司参与其主权AI算力网络建设，试图在算力地缘博弈中建立多元化供应链。",
+        "why": "芯片与地缘科技",
+        "watch": "主权AI竞赛正从单纯采购GPU转向扶持本土与替代芯片生态，这将为非英伟达体系的AI芯片初创公司提供国家级订单背书与估值溢价。"
+      },
+      {
+        "title": "Vertiv单日蒸发123亿美元，收益率逆风测试AI基建估值",
+        "region": "美国",
+        "sources": [
+          "TechStock²"
+        ],
+        "summary": "AI数据中心基础设施龙头Vertiv在收益率驱动的市场回调中单日市值缩水123亿美元。此次暴跌凸显了市场对AI资本开支回报周期拉长及高估值硬件股盈利兑现能力的担忧。",
+        "why": "AI基础设施",
+        "watch": "作为AI基建的“卖水人”，Vertiv的估值重估可能引发整个数据中心电力与冷却供应链的估值中枢下移，需紧盯后续科技巨头的资本开支指引变化。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/tech/983531/tiktok-settle-doj-lawsuit-coppa",
+      "https://www.marketwatch.com/story/canada-announces-retaliatory-tariffs-on-u-s-goods-after-trade-talks-break-down-45081c2f?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdDJSVXFvN0tFVzEyUTZuNWlTajkwbUN2THU5djFndnpoUV95WnJxWXA1eHdsbXIxODhscGpJOThYMktubnA4MzN3ZzVsQzNBazVkTHAzcXgyaTZDNTZfb0RDOUdRRzNLMmh2VUhYV1BObHQ2OUN4MUhKdXd4VFhiZE5pV2RRNHpIODUtc0JGY3gzMWdkWC1OTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbTJaRUhiSVhXZGpxd0lxTGhUdThiWFFfQ1BqRWJLeXl5Z3FmQXJTWURKTDFaQU5OM0N0M1ptcGpleU1KVnVvdFpOYUtjVFUzdV9DSWVnVHcwU0w2b3dBSktkNmhpVVlNS0hDY0hhUmRFRlZvN0phYzZMQ0tKN2tDaFNyN2dfQU81WTJldm9vN0ZvYUh2SXhZ?oc=5",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRnJwcHJDX1F6XzUyYXR2RGJ0cFpGSVM4Zllpa2Z2amMtMUg5Ti1neWhvU1p4Rk9NSUlQT2ZhOTFaWE96NWhjUFZmUzM0VTRQOUUzcEtmV0hHZnkySENiaHpDLXJUSEMweHktMlJ4OC03bGp2VzZYVnpMUEtHVkEzVE94eDZDRjc4RjJGLVQzZUlXLWlwOEExZlNB?oc=5"
+    ]
+  },
+  {
     "date": "2026-08-22",
     "displayDate": "2026年8月22日",
     "scope": "全球新闻｜科技与财经优先",
