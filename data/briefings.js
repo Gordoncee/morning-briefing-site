@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-24",
+    "displayDate": "2026年8月24日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-24.png",
+    "summary": "本期简报聚焦AI资本开支与供应链成本传导、中美科技巨头融资与扩产，以及美加贸易摩擦对宏观市场的冲击。",
+    "focus": [
+      "AI供应链成本、科技巨头资本开支、美加贸易摩擦",
+      "标志着中国头部互联网公司在AI算力底座上的战略投入进入新阶段，对评估中概股估值和国内AI产业链需求具有风向标意义。",
+      "先进封装已成为制约AI算力扩张的核心瓶颈，AMD的重资产投入显示芯片设计巨头正深度介入后端制造，以抗衡英伟达的供应链优势。"
+    ],
+    "items": [
+      {
+        "title": "阿里巴巴宣布102亿美元配股，中国科技巨头加速AI基础设施投资",
+        "region": "中国",
+        "sources": [
+          "Financial Times"
+        ],
+        "summary": "阿里巴巴宣布进行102亿美元的股份配售，筹集资金主要用于扩大人工智能和云计算基础设施投资，反映出中国科技巨头在AI竞赛中持续加码资本开支。",
+        "why": "标志着中国头部互联网公司在AI算力底座上的战略投入进入新阶段，对评估中概股估值和国内AI产业链需求具有风向标意义。",
+        "watch": "关注后续资金在自研芯片、大模型训练及云服务降价抢客方面的具体落地节奏。"
+      },
+      {
+        "title": "AMD斥资超100亿美元在台湾与台积电合建先进芯片封装厂",
+        "region": "全球",
+        "sources": [
+          "The Motley Fool"
+        ],
+        "summary": "AMD宣布投资超过100亿美元，与台积电合作在台湾建设先进芯片封装设施，旨在突破AI芯片产能瓶颈，提升CoWoS等先进封装技术的自主可控与供应弹性。",
+        "why": "先进封装已成为制约AI算力扩张的核心瓶颈，AMD的重资产投入显示芯片设计巨头正深度介入后端制造，以抗衡英伟达的供应链优势。",
+        "watch": "观察该封装厂的产能分配比例，以及能否有效缓解AMD MI系列AI加速器的交付延迟问题。"
+      },
+      {
+        "title": "报告称英伟达警告客户AI芯片价格将上涨超15%",
+        "region": "全球",
+        "sources": [
+          "New York Post"
+        ],
+        "summary": "据媒体报道，英伟达已向客户发出预警，受先进封装和HBM内存成本上升影响，其下一代AI芯片及相关组件的价格涨幅可能超过15%。",
+        "why": "AI算力硬件的持续涨价将直接推高科技公司的资本支出压力，并可能加速云厂商向自研芯片（ASIC）迁移的战略调整。",
+        "watch": "关注大型云服务商对涨价的接受度，以及这是否会引发AI应用层公司的成本转嫁与利润率挤压。"
+      },
+      {
+        "title": "美股期货持平，美加贸易谈判破裂引发全面贸易战担忧",
+        "region": "北美",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "周日美股股指期货表现平淡，市场情绪受压。美国与加拿大作为重要贸易伙伴，双方谈判似乎走向破裂，引发市场对两国爆发全面贸易战的担忧。",
+        "why": "美加贸易摩擦不仅影响汽车、钢铁和能源等传统供应链，还可能为即将到来的美国大选季增添更多宏观不确定性和通胀预期。",
+        "watch": "紧盯两国政府后续的关税威胁清单，以及美国钢铁和铝业股在贸易保护预期下的短期波动。"
+      },
+      {
+        "title": "华尔街精英聚会显露AI焦虑：资本支出逼近现金流极限引发泡沫担忧",
+        "region": "美国",
+        "sources": [
+          "WSJ"
+        ],
+        "summary": "在华尔街一场闭门聚会中，金融界高管对AI热潮表现出明显焦虑。研究指出，虽然AI技术本身并非泡沫，但科技巨头激进的资本支出架构正逼近现金流极限，投机情绪显现。",
+        "why": "反映了传统金融资本对AI“卖水人”商业模式可持续性的深度怀疑，若资本开支回报率迟迟无法兑现，可能触发科技股估值重估。",
+        "watch": "关注即将到来的财报季中，科技巨头对AI投资回报周期（ROI）的指引，以及华尔街是否开始收紧对AI基建项目的融资条件。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNEdNMFc2bXZIeDFtSUVHaURibi1oU1VRSFU0SzF0MlAxYUJheEt1U1d1djktaEtza1ZuVGJGS0U2LWZmQXlYYXJwR0V4WFJKWnRQMDJ0eVhseUlZNlA5Qzc2eFE1a3JzRGxaTEZvXzl2NTlWUS1BSFVCd1VsNzZBcTJ5ZnE?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeW1DSUlhZXc5NFNVbE04NG51VU51WnJZM2hhWnBNUG5GcVRSS3ZGTTFFTzVsOG0wcEVGY3E2dFhWcmEyWDBISHU0M2dKVFRncHlzYzVXQ29mcHBJVnZoSFQxSk5GdmZnQWJuaGFERld1enRIWTQ2T2JrSmJJaDJ1MHBFemhDSUhSMHZJSk9ZNW1aYzlwTno3dw?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeVh4WmVwcy11NkM2b04zVVBvOEpRLXE1Y19MMXluZG1ZazIxSmhtXy1iVmJUSk5aejhtc0xjb1JHRUM5LWxVNjJHTmhvMjJUZDF3WHc2N0UwR0Q1UFVwcVdCcDFzZ1M2Z3FucTJxZkRnaTdjMzMtdDlLNGdCWE9pVjRfZWdkOEduNXl3LS1ON3VvQkNjSWo2NmY1enVGcEJkZG1fU1Awb1Z2YVVSRExn?oc=5",
+      "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa2g4X3ZuOXMxNjRtb0tGX1lqM21UT2hCV3ZFUDlyU3JaZXhLdjdsWFZfMTFWcWxkQ3dXUFJRNnQ5OGdSWVdwWXhtVXpWZlNqRHcxUFEwcXZxZDdicnN2QVZNWjVOVUNlTTZKVEZkMTZSY1poMDNvbHVqRDdKMG85SllocFVWS1ZqaTNZNEV6WWV1NUFOc0szLXFQOHhCZEtHQWNXZm5YZzJwaXN0TlZOZ0Fwc05KMXExWkZMUUo2NnE?oc=5"
+    ]
+  },
+  {
     "date": "2026-08-23",
     "displayDate": "2026年8月23日",
     "scope": "全球新闻｜科技与财经优先",
