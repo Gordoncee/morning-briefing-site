@@ -1,5 +1,77 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-25",
+    "displayDate": "2026年8月25日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-25.png",
+    "summary": "本期简报聚焦SpaceX推进轨道AI数据中心建设、摩根大通对AI股票估值发出互联网泡沫警告、特朗普贸易战引发科技股震荡、美国债务突破40万亿美元宏观压力，以及自动驾驶出租车面临的监管反弹。",
+    "focus": [
+      "AI基建太空化、AI估值泡沫风险、贸易战与科技股、美债宏观变量、自动驾驶监管",
+      "AI算力需求正突破地面电力和物理空间限制，太空数据中心代表了算力基础设施的终极形态演进，将重塑商业航天与AI芯片的交叉估值逻辑。",
+      "华尔街头部机构首次将当前AI行情与互联网泡沫进行系统性类比，反映出传统金融资本对AI资本开支回报率（ROI）的担忧正在加剧。"
+    ],
+    "items": [
+      {
+        "title": "SpaceX计划明年发射搭载英伟达芯片的AI卫星，推进轨道数据中心建设",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "SpaceX计划于明年年底前发射搭载英伟达芯片的AI卫星，将数据中心和算力基础设施直接部署到地球轨道，标志着AI算力扩张从地面走向太空。",
+        "why": "AI算力需求正突破地面电力和物理空间限制，太空数据中心代表了算力基础设施的终极形态演进，将重塑商业航天与AI芯片的交叉估值逻辑。",
+        "watch": "关注轨道数据中心的散热、延迟及发射成本问题，以及英伟达在太空极端环境下的芯片可靠性验证。"
+      },
+      {
+        "title": "摩根大通对AI股票发出严厉警告，将其估值风险与互联网泡沫相提并论",
+        "region": "美国",
+        "sources": [
+          "TheStreet",
+          "WSJ"
+        ],
+        "summary": "摩根大通发布报告警告当前AI股票的估值过热，指出部分AI概念股的炒作特征与2000年互联网泡沫时期高度相似，提醒投资者警惕回调风险。",
+        "why": "华尔街头部机构首次将当前AI行情与互联网泡沫进行系统性类比，反映出传统金融资本对AI资本开支回报率（ROI）的担忧正在加剧。",
+        "watch": "紧盯即将发布的英伟达等核心AI硬件厂商财报，其业绩指引将直接决定AI估值叙事能否继续支撑当前的高市盈率。"
+      },
+      {
+        "title": "特朗普政府升级贸易战引发科技股抛售，英伟达在关键财报前承压下跌",
+        "region": "美国/加拿大",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "特朗普与财政部长Bessent的关税言论引发市场恐慌，科技股周一普遍下跌。福特等跨国企业受挫，英伟达在周三发布关键财报前也遭遇抛售压力。",
+        "why": "地缘政治与贸易保护主义再次成为压制科技股估值的核心宏观变量，关税政策不仅影响供应链成本，更直接冲击了市场对全球化科技巨头的盈利预期。",
+        "watch": "关注英伟达财报能否以超预期的数据中心收入对冲宏观贸易战带来的情绪杀跌，以及关税政策对半导体供应链的实际落地影响。"
+      },
+      {
+        "title": "美国国债总额突破40万亿美元，债券市场承压引发宏观交易策略调整",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "美国国家债务规模正式突破40万亿美元大关，长期国债收益率面临上行压力，债券价格持续走弱，促使机构投资者调整期权与宏观对冲策略。",
+        "why": "40万亿美债不仅是财政可持续性的警钟，更直接推高了无风险利率，对包括AI在内的所有长久期科技成长股的估值模型（DCF）构成底层压制。",
+        "watch": "观察美联储在巨额债务与通胀粘性之间的政策平衡，以及长端美债收益率突破关键阻力位后对科技股流动性的抽水效应。"
+      },
+      {
+        "title": "自动驾驶出租车扩张遭遇监管反弹，纽约州长撤回允许无人驾驶上路提案",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "随着Waymo、Zoox和特斯拉等Robotaxi加速扩张，监管阻力同步升级。纽约州长Kathy Hochul撤回了此前旨在允许无人驾驶出租车在纽约市以外地区运营的提案。",
+        "why": "自动驾驶技术的商业化落地正从“技术验证”进入“社会与监管博弈”阶段，地方政府的政策摇摆将直接决定Robotaxi企业的扩张速度与资本开支节奏。",
+        "watch": "关注NHTSA（美国国家公路交通安全管理局）的联邦层面监管动向，以及各州在平衡技术创新与公共安全、工会利益之间的立法博弈。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/spacex-plans-to-put-nvidia-powered-ai-satellites-in-orbit-next-year-ab57083c?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZlp5Q0YwTS15N0hYdzhxRjM5SzYwZmFwMWZ5MW9aam5zZjFJNDRVQWtZbThueHkybi1sMkRVdFhxdGY0ZUFpWWJZT3kzWVVuYnEwZG0xdll4ZDlPaVRSOTA3anlFMF9INldyRW1rWVp6dW1xZWxVV2J5ZDdHR1pNY1hn?oc=5",
+      "https://www.investors.com/market-trend/the-big-picture/dow-jones-sp500-nasdaq-nvidia-nvda-stock-earnings-inflation-jackson-hole-warsh/",
+      "https://www.investors.com/research/options/bond-market-weakness-yields-treasury-etf-tlt-40-trillion-options-trade-income-investing-markets/",
+      "https://www.theverge.com/transportation/983765/robotaxi-waymo-zoox-tesla-rules-pushback-nhtsa"
+    ]
+  },
+  {
     "date": "2026-08-24",
     "displayDate": "2026年8月24日",
     "scope": "全球新闻｜科技与财经优先",
