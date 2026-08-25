@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-26",
+    "displayDate": "2026年8月26日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-26.png",
+    "summary": "本期简报聚焦AI基建与资本市场的深度博弈：OpenAI数据中心负责人离职引发算力扩张战略担忧；特朗普政府大幅上调H-1B签证费用直击硅谷人才命脉；Anthropic抛出30万亿美元AI市场预测重塑估值叙事；NuScale核能技术突破凸显AI电力缺口溢出效应；Meta算力短缺或催生内部算力外售的新变现逻辑。",
+    "focus": [
+      "AI基建人事震荡、科技人才政策收紧、前沿模型估值叙事、AI能源溢出效应、科技巨头算力变现",
+      "AI基建是前沿模型竞争的核心壁垒，核心人事变动直接关乎OpenAI的资本开支效率与算力交付节奏。",
+      "人才是AI和科技行业的核心资产，签证政策的剧变将直接重塑硅谷的人力资本结构和运营成本。"
+    ],
+    "items": [
+      {
+        "title": "OpenAI数据中心负责人离职，AI算力扩张战略面临人事震荡",
+        "region": "美国",
+        "sources": [
+          "WSJ"
+        ],
+        "summary": "据华尔街日报独家报道，OpenAI负责数据中心业务的负责人已离开公司。在科技巨头疯狂争夺AI算力基础设施的当下，核心基建高管的流失可能对其长期算力扩张和供应链布局产生直接影响。",
+        "why": "AI基建是前沿模型竞争的核心壁垒，核心人事变动直接关乎OpenAI的资本开支效率与算力交付节奏。",
+        "watch": "关注OpenAI后续数据中心建设进度及是否会调整与微软、Oracle等云厂商的合作权重。"
+      },
+      {
+        "title": "特朗普政府将H-1B签证费用上调至逾10万美元，直击硅谷科技人才命脉",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "美国国土安全部宣布对H-1B签证实施超过10.3万美元的高额费用，同时国务院计划撤销部分签证。此举大幅提高了科技巨头获取海外顶尖技术人才的成本，可能迫使企业加速离岸外包或推高本土薪酬通胀。",
+        "why": "人才是AI和科技行业的核心资产，签证政策的剧变将直接重塑硅谷的人力资本结构和运营成本。",
+        "watch": "关注大型科技公司的应对策略，以及此举对全球AI人才流向和离岸研发中心布局的长期影响。"
+      },
+      {
+        "title": "Anthropic抛出30万亿美元AI市场规模预测，前沿模型估值叙事再升级",
+        "region": "美国",
+        "sources": [
+          "Yahoo Finance"
+        ],
+        "summary": "Anthropic提出AI潜在市场规模高达30万亿美元的宏大预测，这一数字几乎是当前整个科技板块总市值的12倍。该预测旨在为前沿AI公司的超高估值提供长期基本面支撑，进一步推高一级和二级市场的资本预期。",
+        "why": "在AI资本开支引发市场担忧之际，头部初创公司通过重塑TAM（总可达市场）叙事来维持高估值和融资能力。",
+        "watch": "关注华尔街对这一宏大叙事的接受度，以及后续AI初创公司融资轮次中的估值定价是否继续脱锚。"
+      },
+      {
+        "title": "NuScale核能AI技术大幅缩短搜索时间，股价单日飙升近10%",
+        "region": "美国",
+        "sources": [
+          "TechStock²"
+        ],
+        "summary": "NuScale Power宣布其核能AI技术将搜索时间缩短高达80%，推动股价单日大涨9.8%。这一突破凸显了AI数据中心对稳定、清洁基载电力的极度渴求，核能正成为解决AI算力能源瓶颈的关键变量。",
+        "why": "AI数据中心的电力缺口正在将科技资本开支的溢出效应传导至传统能源和核能板块，重塑能源资产估值。",
+        "watch": "关注科技巨头与核能或清洁能源公司的长期购电协议落地情况，以及小型模块化反应堆的商业化进程。"
+      },
+      {
+        "title": "Meta算力短缺或成AI外卡，分析师看好其通过出售算力溢价实现股价大涨",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "MarketWatch分析指出，持续的算力短缺可能为Meta提供一个被忽视的机会：将其庞大的内部AI算力容量以高溢价出售给外部客户。这一逻辑若兑现，将推动Meta从单纯的AI应用者向算力基础设施提供商转型。",
+        "why": "科技巨头的AI资本开支正面临变现压力，算力外售逻辑为庞大的资本支出提供了新的财务回报模型。",
+        "watch": "关注Meta是否会在财报中正式披露算力外售计划，以及AWS、Azure等传统云巨头对这种跨界竞争的反应。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMiigFBVV95cUxNR1RrUjMxSkNzODB0a3VTU0kyVTZBVktqYUxEdUFKZFBXRl9uUzhnUjlaX3FsWUNfcHozYS1Oa1VKeW43MDM2eFluZlpwMWltb0pXeDgyT2tST0l1WHg5Q0pxaVB5RG9NRmY2aW9rWmE4d3FmcmMwOEp1TVlFeUFETERXVENDVTR5MWc?oc=5",
+      "https://www.theverge.com/policy/984723/trump-h1b-fee-asylum-legal-immigration",
+      "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcVc3cHk1ZVduZk5Ncm1ObkRIQjVqQ3RLaVBBbUpuak5WM0hUWVlmbkZWcDdUa0E0eURFeVp5TnowUnZOX2diQVJNSjBOaGUyX19hVjZuQ1p6UHpwYThVWGpTRGU5N0hMbmtlNG41RkxlVFlQZndHMUx4eXNFQjhjWnhQZm0xQU5CTEVYLWxZbGpqVnlhNjVVWVRn?oc=5",
+      "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeWU5TEtWQmVVcXZiTlpzUlZ3OTZlR2lHdzhBNG5ObDFCVUJjdnpvdUZaR1U2UFREOF9zQUJSd2JnUHpoa1UzYjFLQTNfanBuRENYdUFDZmpZUVdIR2FsM0JZUXFjUTUzRXF0Tk9KT3A0dEpwUjNLalBmQ3VzUktCdnZrbkVjdXdRWXdDRWtzOUxscFB2NC1BcQ?oc=5",
+      "https://www.marketwatch.com/story/why-metas-stock-could-see-a-50-rally-thanks-to-an-overlooked-ai-wild-card-28cea54b?mod=mw_rss_topstories"
+    ]
+  },
+  {
     "date": "2026-08-25",
     "displayDate": "2026年8月25日",
     "scope": "全球新闻｜科技与财经优先",
