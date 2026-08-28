@@ -1,5 +1,78 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-28",
+    "displayDate": "2026年8月28日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-28.png",
+    "summary": "今日简报聚焦AI监管与资本市场分化：法院裁定特朗普政府对Anthropic的黑名单违宪；Salesforce财报大涨证明AI未摧毁传统SaaS估值；Marvell与Google的芯片交易增量遭华尔街审视；PayPal并购流产重挫支付板块；同时有策略师警告AI资本开支热潮与互联网泡沫存在相似风险。",
+    "focus": [
+      "AI监管、SaaS估值修复、定制芯片、并购与宏观泡沫预警",
+      "标志着AI前沿模型公司与政府监管及国防采购之间的法律边界首次得到明确司法界定，直接影响后续AI企业的政府合规与采购准入标准。",
+      "直接反驳了近期“AI冲击导致软件私募估值清算”的市场叙事，为传统企业级软件的AI商业化落地和估值修复提供了强有力的数据支撑。"
+    ],
+    "items": [
+      {
+        "title": "法院裁定特朗普政府对Anthropic的供应链黑名单违宪",
+        "region": "美国",
+        "sources": [
+          "The Verge",
+          "MarketWatch"
+        ],
+        "summary": "联邦法官裁定，特朗普政府今年早些时候将Anthropic列入五角大楼供应链黑名单的行为违反了第一修正案，AI实验室在长达数月的政策博弈中取得关键法律胜利。",
+        "why": "标志着AI前沿模型公司与政府监管及国防采购之间的法律边界首次得到明确司法界定，直接影响后续AI企业的政府合规与采购准入标准。",
+        "watch": "国防部是否提起上诉，以及其他被卷入地缘与供应链审查的AI企业是否会效仿发起类似诉讼。"
+      },
+      {
+        "title": "Salesforce财报后股价飙升20%，证明AI并未“杀死”传统软件",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "Salesforce强劲的财报及与Anthropic的合作关系推动股价大涨，带动整个软件板块反弹，向市场证明AI模型运营商愿意与传统SaaS巨头结盟，而非直接颠覆其商业模式。",
+        "why": "直接反驳了近期“AI冲击导致软件私募估值清算”的市场叙事，为传统企业级软件的AI商业化落地和估值修复提供了强有力的数据支撑。",
+        "watch": "其他传统SaaS巨头能否在后续财报中复制这种AI驱动的利润率与营收双重增长，以及企业客户对AI附加功能的实际付费意愿。"
+      },
+      {
+        "title": "Marvell上调业绩预期但股价承压，华尔街审视Google定制芯片交易真实增量",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "尽管Marvell提高了财务预测，但股价依然下滑。分析师正在重新评估其与Google达成的定制AI芯片协议，质疑该交易在扣除研发与流片成本后能带来的实际利润上行空间。",
+        "why": "揭示了云巨头自研芯片（ASIC）热潮中，代工与设计服务商面临的“增收不增利”隐患，定制芯片的商业模式正接受更严格的利润率测试。",
+        "watch": "Broadcom等其他ASIC设计巨头在类似大客户集中度过高时的毛利率表现，以及Google TPU后续迭代对Marvell的订单持续性。"
+      },
+      {
+        "title": "Advent与Stripe联合体放弃收购PayPal，支付巨头股价重挫",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "据报道，由私募巨头Advent和支付独角兽Stripe组成的财团已放弃对PayPal的收购追求，消息导致PayPal股价在盘后交易中大幅跳水。",
+        "why": "反映了在当前高利率与严监管环境下，超大型金融科技并购的融资难度与整合阻力，支付赛道的估值重塑被迫从“并购溢价”回归“内生增长”。",
+        "watch": "PayPal管理层是否会转向大规模股票回购以稳定股价，以及Stripe未来是否会寻求其他规模较小的标的以补齐基础设施拼图。"
+      },
+      {
+        "title": "策略师警告：当前AI资本开支繁荣与互联网泡沫崩溃有“惊人相似之处”",
+        "region": "美国",
+        "sources": [
+          "Barron's"
+        ],
+        "summary": "华尔街策略师指出，当前科技巨头在AI基础设施上的无节制资本开支、高度集中的供应链依赖以及尚未完全兑现的商业回报，与2000年互联网泡沫破裂前的特征高度吻合。",
+        "why": "在Nvidia等硬件股屡创新高之际，为市场提供了关键的宏观风险对冲视角，提醒投资者关注AI基建投资回报率（ROI）的潜在拐点。",
+        "watch": "云厂商资本开支指引的边际变化，以及企业级AI应用实际产生的收入能否覆盖当前庞大的折旧与利息成本。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
+      "https://www.marketwatch.com/story/judge-says-trump-administrations-blacklist-of-anthropic-was-illegal-5d3411e7?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/salesforce-stock-is-jumping-what-wall-street-is-saying-about-its-earnings-and-its-anthropic-relationship-853ada85?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/marvell-is-boosting-its-forecasts-but-thats-not-enough-to-lift-its-stock-c769556a?mod=mw_rss_topstories",
+      "https://www.investors.com/news/technology/paypal-stock-dives-advent-stripe-group-drop-pursuit-of-payments-giant/",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT3JiRGVucTl4cnM4eHNXYkkxMThxdkpOQ2FON0VUb18tOG4yWjMzU2o4VjEwdUU2YlM2NVFyRDZNMjhFOXVLWkpEZjhNTTdMeXllUnJVWXBHaWlWckI1UzVTaDFKMUJTNVNGc2lTRUh5dlRDVzQxVk9zZVd1ejRVTG5tR2tVbGxrUnVpZ3hWYXVPQTA4MEFuR3gxdXFlc3JkVkMxRXNRdFNOQQ?oc=5"
+    ]
+  },
+  {
     "date": "2026-08-27",
     "displayDate": "2026年8月27日",
     "scope": "全球新闻｜科技与财经优先",
