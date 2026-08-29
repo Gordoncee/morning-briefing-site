@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-29",
+    "displayDate": "2026年8月29日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-29.png",
+    "summary": "今日简报聚焦AI基础设施扩张面临的政策与宏观双重压力：美国EPA拟放宽数据中心污染监管，而特朗普关税政策可能推高硬件成本；地缘政治方面，美国警告华为在埃及的AI数据中心项目；资本市场中，Marvell因AI估值疑虑股价下挫；平台生态方面，Google进一步用AI模式挤压传统搜索结果。",
+    "focus": [
+      "AI基础设施政策博弈、算力地缘政治、芯片估值压力、搜索入口AI化",
+      "AI算力需求激增导致数据中心能耗和排放问题凸显，EPA的政策转向反映了美国在推动AI基建与应对地方环保压力之间的政策权衡。",
+      "AI数据中心不仅是商业算力节点，更涉及国家安全与数据主权。美国对华为海外AI项目的干预，标志着算力出口管制从芯片硬件延伸至系统级基础设施。"
+    ],
+    "items": [
+      {
+        "title": "美国EPA拟放宽数据中心空气污染监管，AI算力扩张迎环保政策博弈",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "随着AI数据中心面临周边社区日益强烈的反对，美国环保署（EPA）正计划修改规则，使公众更难对数据中心产生的空气污染发表意见，这为云基础设施的扩张扫清了部分环保监管障碍。",
+        "why": "AI算力需求激增导致数据中心能耗和排放问题凸显，EPA的政策转向反映了美国在推动AI基建与应对地方环保压力之间的政策权衡。",
+        "watch": "关注各州地方政府是否会出台更严格的替代性环保法规，以及数据中心液冷和清洁能源采购的加速趋势。"
+      },
+      {
+        "title": "美国警告华为向埃及提供AI数据中心，算力基建卷入地缘政治与军事监控",
+        "region": "全球/中东",
+        "sources": [
+          "Modern Diplomacy"
+        ],
+        "summary": "美国对华为向埃及提供用于军事和监控目的的AI数据中心项目发出警告，凸显了前沿AI基础设施出口和部署正成为大国地缘政治博弈的新焦点。",
+        "why": "AI数据中心不仅是商业算力节点，更涉及国家安全与数据主权。美国对华为海外AI项目的干预，标志着算力出口管制从芯片硬件延伸至系统级基础设施。",
+        "watch": "关注中东国家在美中科技博弈中的算力采购策略，以及美国是否会出台针对AI数据中心整体解决方案的出口限制。"
+      },
+      {
+        "title": "特朗普关税政策成美国数据中心新隐患，AI硬件成本面临宏观冲击",
+        "region": "美国",
+        "sources": [
+          "Politico"
+        ],
+        "summary": "分析指出，特朗普政府的关税政策可能成为美国数据中心建设的另一个潜在麻烦，进口硬件和组件的关税将直接推高AI云基础设施的资本支出。",
+        "why": "在AI资本开支本就高企的背景下，关税带来的供应链成本上升将压缩云厂商和AI初创公司的利润率，并可能延缓数据中心的交付周期。",
+        "watch": "关注科技巨头是否会加速供应链本土化，以及关税政策对服务器、冷却设备等数据中心核心组件价格的具体传导效应。"
+      },
+      {
+        "title": "Marvell股价下挫，AI定制芯片雄心遭遇资本市场估值质疑",
+        "region": "美国",
+        "sources": [
+          "simplywall.st"
+        ],
+        "summary": "Marvell Technology (MRVL) 股价下跌，市场对其在AI定制芯片（ASIC）领域的雄心与当前高估值之间的匹配度产生疑虑，反映出投资者对AI芯片二线厂商的盈利兑现要求提高。",
+        "why": "在英伟达等巨头主导通用GPU市场的同时，Marvell等定制芯片厂商虽获科技巨头青睐，但高昂的研发成本和激烈的竞争使资本市场开始重新审视其估值溢价。",
+        "watch": "关注Marvell upcoming earnings中AI相关收入的增速，以及亚马逊、谷歌等云厂商自研芯片对第三方ASIC供应商的订单挤压效应。"
+      },
+      {
+        "title": "Google搜索AI模式自动展开，传统网页链接入口被进一步边缘化",
+        "region": "全球",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "Google开始在部分搜索中自动展开顶部的AI摘要（AI Overviews），将传统的网页链接列表进一步向下推移，加速了搜索入口向AI原生问答模式的转变。",
+        "why": "这一产品形态的改变将深刻影响全球网站的自然搜索流量和数字广告生态，标志着平台级AI助手正在实质性重塑互联网信息分发格局。",
+        "watch": "关注内容创作者和SEO行业的流量流失数据，以及监管机构是否会针对AI搜索的流量垄断和版权抓取发起新的反垄断或版权诉讼。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdnk1WXZzRmwxRVVCbVdISFE3SU1pNFREWHNwdURBdWRPRnY2QWVqcjFPUnhnVVZfWGpiRHRfUEhRRUh5NTNSZ1dOeDBNNnJseUxiZHE3UG5kYUxRLXJlLUlWMXJSLTJVdXdkN1hRTmxUUnV4Q25OcEx3UWF1MTNtQ0pRWnBQdWZZN1JqSVZQRFd6N2lJS2lEclNfWHc3bnluUUxXYnNqcllnZ28tdXFPTEV0SFc0SlNDMlN3Mm1rbnRWUzQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdFRMNlNMVUdZcnBvbXI3cURKYmxzLXpUaGx2MFZHVGUzOHpIWXhVSkJ6RXE0VVJpeGJUakFUVUtyUDBKV0Zrd2VjUUZiN0pUd050Rk1QNVF0LWVSTVIzOEpGa2xPUWNtT29nUWU3eWlHeWY3Mzh0b19BdjdhcldDYzZHS25UMTBzOWJB?oc=5",
+      "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONFNtM3p6akVQc1dpZWdrLWdRM0pvbHBiSHNWVlE4QmxHa000dl9mMTRFMGx1aGlLOXdodklTUTFGQXN6WVFsMzRGMmtmeTcxYkZLa0ktNTBJa25uUnczbmc3YUg3MjYwMFB5bzR6anlvZ1QyS29hSHFiZXlYRENEVXlHaFhqTXVDM0RyME1HUlRZUkRWVVhZTE5wbjlkcnVQb0tLakNsTTU1SEhVemtFbm9hTUJQeFlHSXNDM1ZXMGUtOHhSa25lOVg5TnkzS2JpU3RDLUVvLVdEbmPSAeABQVVfeXFMTUgxNjJ4empWN19QYzZjazNwT1F6dmg3ajBQSmh3SjYyUGJjOUhlQVN1ZzFNZHV5WkhScjhjSURndVFJejVxUHFWRFVsNTMydENOWEJrR3F5bDRXdUR0QVpMNnV5aXoySW1xZzEzRkw4YVFQSzM1OW9GdzhsT0FEaEV6V1lKUjd0VEllZGVCUWJHWWREcnh0LTUxQV9vSXNQcjlteXFUTXRqWGc4M3NQd1FfS3duSjZTT09CdV9VbVF2QlB2SXpLY1ZObDg3RG5iNDRMVk5zSXlwTUpWZ09XNmY?oc=5",
+      "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand"
+    ]
+  },
+  {
     "date": "2026-08-28",
     "displayDate": "2026年8月28日",
     "scope": "全球新闻｜科技与财经优先",
