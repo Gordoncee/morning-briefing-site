@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-30",
+    "displayDate": "2026年8月30日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-30.png",
+    "summary": "本期简报聚焦AI版权诉讼升级、美国就业市场放缓、存储芯片巨头加码AI研发、地缘科技博弈及AI资本支出泡沫争议。",
+    "focus": [
+      "AI监管与版权、宏观就业、芯片资本开支、地缘科技基建",
+      "继文本和图像之后，AI版权争议正式大规模切入音乐产业，前沿模型公司的合规成本与法律风险进一步上升。",
+      "就业数据是美联储制定货币政策的核心变量之一，招聘放缓可能加剧经济衰退担忧，并为后续降息提供数据支撑。"
+    ],
+    "items": [
+      {
+        "title": "索尼音乐与华纳夏佩尔起诉Anthropic，AI版权诉讼战火蔓延至音乐产业",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "索尼音乐和华纳夏佩尔在美国加州北区联邦法院对Anthropic提起诉讼，指控其侵犯数万部受版权保护的音乐作品，寻求高额赔偿。",
+        "why": "继文本和图像之后，AI版权争议正式大规模切入音乐产业，前沿模型公司的合规成本与法律风险进一步上升。",
+        "watch": "法院对AI训练数据“合理使用”边界的初步裁定，以及音乐巨头是否会联合对其它大模型公司发起集体诉讼。"
+      },
+      {
+        "title": "美国新增就业持续放缓，劳动力市场降温或重塑美联储降息预期",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "美国夏季招聘速度再次放缓，新增职位和招聘广告数量减少，表明劳动力市场复苏乏力，短期内难以看到就业显著加速。",
+        "why": "就业数据是美联储制定货币政策的核心变量之一，招聘放缓可能加剧经济衰退担忧，并为后续降息提供数据支撑。",
+        "watch": "即将公布的非农就业报告细节，以及美联储官员对劳动力市场降温的公开表态。"
+      },
+      {
+        "title": "美光科技拟投入100亿美元用于AI研发与培训，重塑存储芯片投资逻辑",
+        "region": "美国",
+        "sources": [
+          "Simply Wall St"
+        ],
+        "summary": "美光科技计划斥资100亿美元推进AI相关的研发与员工培训，试图通过深度绑定AI算力需求来打破传统存储芯片的周期性波动。",
+        "why": "存储芯片巨头正从单纯的硬件供应商向AI生态深度参与者转型，巨额资本开支将直接影响其利润率与估值模型。",
+        "watch": "100亿美元投资在HBM（高带宽内存）和先进封装产能上的具体分配，以及下游云厂商的实际采购转化率。"
+      },
+      {
+        "title": "美国警告埃及慎用华为AI数据中心，地缘科技博弈延伸至中东与北非",
+        "region": "美国/埃及",
+        "sources": [
+          "Modern Diplomacy"
+        ],
+        "summary": "美国政府对埃及发出警告，反对其采用华为提供的AI数据中心方案，担忧该技术可能被用于军事和监控用途。",
+        "why": "AI基础设施出口管制正从芯片硬件延伸至数据中心整体解决方案，中美在第三方国家的科技地缘博弈进一步加剧。",
+        "watch": "埃及政府的最终采购决策，以及美国是否会出台针对AI数据中心系统集成的全新出口限制清单。"
+      },
+      {
+        "title": "Barron's深度分析：AI资本支出泡沫是否即将破裂？",
+        "region": "全球",
+        "sources": [
+          "Barron's"
+        ],
+        "summary": "Barron's结合250年的市场历史数据，深度剖析当前科技巨头在AI领域的巨额资本支出是否已形成泡沫，以及潜在的破裂风险。",
+        "why": "随着科技巨头资本开支持续攀升，市场对AI投资回报率的质疑声浪加大，资本支出泡沫成为压制科技股估值的核心宏观变量。",
+        "watch": "下半年科技巨头财报中对AI资本开支指引的调整，以及企业级AI应用实际营收的兑现速度。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+      "https://www.marketwatch.com/story/where-are-all-the-new-jobs-hiring-slows-again-and-it-probably-wont-speed-up-soon-66920f1d?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaHZHcFdKRDR4d0o2UG8wX0lJdXk0WFRHRGp4ZFBnLW5OSG1mME5rWWdOaExyMGlzMjFTSE5Wa3lsbmZfNXJ5aGJpdU1EWFo2LV85U0FYdnNaeEdGOU5LcUd0czRRUkNpVC10ODJxZnl3dnRZbHJPa2ZEUUo2a0h5ZWpNY2hwQTYwb0E4SGs3SXkzUWMxNkVLNmVhbjNBV0ZmbF9GbkxVbFZDc3FoTHd6aWVuVTNOUFFrMWtqZzZGYWFWelgyUTZPdTdub1pkVXZFckJfVFVXRdIB3AFBVV95cUxOSUY4SndOdzdndGVkWGZQTm0zRG1xWXNxWVpUcEtMT2FmN0U5RTBPbGJoVnFYMTVNNmtLQ1poVFhrcFNZcnhaTUJBcVQ3ejNPQmlJSkhrNnVCQkliQWhCSzVxNGFQNEpSN2NibGRONjRoU19qVE0yY1dGZ085bHNhOGhPelAwVWRZcVA0RFo1dkgzSWd5SUVqQWNmUEN0d3RtRWtlRS1XTDN6ZFktT1lZaU90WXNHXzBldHNwUGJVdk5fT3lURlFTMEdmVE1SV1dlTjFwOS1jZHRyT3RU",
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdnk1WXZzRmwxRVVCbVdISFE3SU1pNFREWHNwdURBdWRPRnY2QWVqcjFPUnhnVVZfWGpiRHRfUEhRRUh5NTNSZ1dOeDBNNnJseUxiZHE3UG5kYUxRLXJlLUlWMXJSLTJVdXdkN1hRTmxUUnV4Q25OcEx3UWF1MTNtQ0pRWnBQdWZZN1JqSVZQRFd6N2lJS2lEclNfWHc3bnluUUxXYnNqcllnZ28tdXFPTEV0SFc0SlNDMlN3Mm1rbnRWUzQ",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTzJWX1BKaXZXTXIycnJwT1pFQjRuam5BcURKRzJKR1J3a3M4OXNLM0txM1N2S2toX3BMQ2ZicUI5RV9aa1RnTVBRQmItUmYxN2wxNVBOeXF6c00zdkFyZS1sV3A3dzd6aV80WWVqRWljNEhXaGV0OFFPd0xveVdLQVlUOGVURmNuVGhsOA"
+    ]
+  },
+  {
     "date": "2026-08-29",
     "displayDate": "2026年8月29日",
     "scope": "全球新闻｜科技与财经优先",
