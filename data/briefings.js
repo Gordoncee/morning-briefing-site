@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-08-31",
+    "displayDate": "2026年8月31日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-08-31.png",
+    "summary": "本期简报聚焦Jackson Hole会议后美联储加息预期升温对美股期货的冲击，科技巨头AI投资账面收益达1600亿美元，AI数据中心电力需求重塑传统工业估值，德州冻结AI监控资金反映监管反弹，以及亚洲交易所加速争夺AI科技上市资源。",
+    "focus": [
+      "宏观利率、AI资本回报、AI基建外溢、AI监管、亚洲资本市场",
+      "重大宏观变量，直接影响本周科技股与成长股的定价逻辑与资金流向。",
+      "AI投资从纯烧钱阶段进入财务回报验证期，缓解市场对AI资本开支过高的担忧。"
+    ],
+    "items": [
+      {
+        "title": "Warsh杰克逊霍尔鹰派讲话推升加息预期，美股期货周末承压",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "美联储主席Warsh在杰克逊霍尔年会发表鹰派言论，导致市场对年内再次加息的预期升温，周日美股股指期货随之下滑，投资者重新评估高利率环境对科技股估值的压制。",
+        "why": "重大宏观变量，直接影响本周科技股与成长股的定价逻辑与资金流向。",
+        "watch": "本周即将公布的非农就业数据及科技股对利率敏感度的实际反应。"
+      },
+      {
+        "title": "科技巨头单季AI投资账面收益达1600亿美元，资本开支迎来财务验证",
+        "region": "全球",
+        "sources": [
+          "Startup Fortune"
+        ],
+        "summary": "数据显示，大型科技公司在上季度从AI相关投资中录得约1600亿美元的账面收益，表明前期庞大的AI基础设施资本开支开始在资产负债表上转化为实质性的资产增值。",
+        "why": "AI投资从纯烧钱阶段进入财务回报验证期，缓解市场对AI资本开支过高的担忧。",
+        "watch": "后续财报中AI相关资产减值风险及实际现金流转化能力。"
+      },
+      {
+        "title": "AI数据中心电力需求爆发，卡特彼勒等传统工业股被重塑为高估值科技概念",
+        "region": "美国",
+        "sources": [
+          "Yahoo Finance"
+        ],
+        "summary": "随着AI数据中心对电力和重型基础设施的需求激增，卡特彼勒等传统工业巨头凭借其在采矿自动化和重型设备领域的积累，正被华尔街重新定价为高倍数的科技基建概念股。",
+        "why": "AI热潮的溢出效应正在深刻改变传统行业的估值体系，电力与物理基建成为AI瓶颈。",
+        "watch": "传统工业企业能否将AI基建订单转化为持续的利润率扩张。"
+      },
+      {
+        "title": "德州州长冻结Flock AI监控摄像头资金，AI surveillance面临政治与隐私监管反弹",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "在隐私侵犯争议和媒体调查曝光后，德州州长Greg Abbott宣布冻结州政府对Flock AI监控摄像头的采购资金，标志着AI监控技术在公共领域的扩张正遭遇实质性的政治与监管阻击。",
+        "why": "AI应用落地不仅面临技术挑战，地方政府的监管和隐私保护正成为AI安防企业的核心风险。",
+        "watch": "其他州是否跟进限制AI监控采购，以及Flock等企业的政府订单缩减幅度。"
+      },
+      {
+        "title": "泰国与新加坡交易所积极出击，亚洲资本市场加速争夺AI与科技上市资源",
+        "region": "亚洲",
+        "sources": [
+          "KrASIA"
+        ],
+        "summary": "乘着全球AI热潮，泰国和新加坡证券交易所正通过优化上市规则和提供激励措施，积极吸引本土及区域内的AI和科技公司挂牌，试图在亚洲AI资产定价权中占据一席之地。",
+        "why": "AI资产证券化向亚洲区域交易所下沉，反映全球资本市场对AI优质标的的激烈争夺。",
+        "watch": "东南亚AI初创企业的上市路径选择及区域交易所的流动性承接能力。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTlNDWnBGdFNmQmZ1clRlNEt3UlhBRDI1UndMV3pKX2dxdnV1dnlIbHhvT1h4MWMxSkhvNnFVX3IzR093WkpSMHVoa2o3d2llMTdZeE9sLUpZRUNVYkMwbmJJYVZLSnRCVlBSdW1vdzZqSEQ5a3RKa2RXMEZCT0phWFAtZ0ttR0phNUNLYWR6OTVzNFRyTWhudWRQQjE?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUC1oQ3NORGdwWFJNTmNOOW9RSTVoUms2YmtId214Zl93MEVrR3ZpeTBxRU5UNEVVVEFVaU5LR0ctdUtBNUJwcmttM0ZpWGdjeGFCalloZmxkS2wtOWRoRm5iWVpYdS0ydVdwSUxpcWZVaWRtQTRoZHBuZ1dfMG1URUJXaVJjNU1fV3F0NzZDMXJhenA4OGhhdldwdm1COVpKekhlaTNJSQ?oc=5",
+      "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ2NRZHR0NU1KNTE4NUpzdzVEWm9jZEwzZTYzRzcyR0hNM29wcUdDN29kRWJpSnBCZFRjcmRsektqV3JLN2FYMGxFNjdudWhLZHNuOFVxLVhWd1hoc3FRMWt3SXA0ZVNCaWJtY21oMlNBSkkzNWtBTVMyZzAyWVJnaE0xS0Z6QQ?oc=5"
+    ]
+  },
+  {
     "date": "2026-08-30",
     "displayDate": "2026年8月30日",
     "scope": "全球新闻｜科技与财经优先",
