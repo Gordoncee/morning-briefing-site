@@ -1,5 +1,82 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-01",
+    "displayDate": "2026年9月1日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-01.png",
+    "summary": "本期简报聚焦平台监管与AI宏观风险：FTC起诉亚马逊隐瞒广告附加费，直指平台经济利润黑箱；英国央行及全球金融领袖在杰克逊霍尔警告AI模型对金融稳定的系统性威胁；美国陆军斥资22亿美元部署核微反应堆以应对算力与国防电力缺口；苹果核心高管Phil Schiller卸任App Store等业务，平台生态面临权力交接；美国初创企业与沙特达成数据中心合作，AI基建资本继续向中东溢出。",
+    "focus": [
+      "平台反垄断、AI金融系统性风险、核能基建、科技高管变动、中东AI算力投资",
+      "这是针对科技巨头广告变现模式的重大反垄断行动，直接冲击平台经济的核心利润引擎，可能引发更广泛的数字广告合规审查。",
+      "监管视角从AI安全与伦理正式延伸至宏观金融稳定，标志着AI对高频交易、信贷风控等金融基础设施的渗透已引起最高货币当局警惕。"
+    ],
+    "items": [
+      {
+        "title": "FTC起诉亚马逊隐瞒广告附加费",
+        "region": "美国",
+        "sources": [
+          "theverge.com",
+          "marketwatch.com"
+        ],
+        "summary": "美国联邦贸易委员会（FTC）联合22个州总检察长起诉亚马逊，指控其通过“秘密广告附加费”系统性抬高商家广告成本，人为提高购物高峰期的广告底价。亚马逊股价因此承压下跌。",
+        "why": "这是针对科技巨头广告变现模式的重大反垄断行动，直接冲击平台经济的核心利润引擎，可能引发更广泛的数字广告合规审查。",
+        "watch": "亚马逊的财务影响及后续数字广告行业的定价透明度监管趋势。"
+      },
+      {
+        "title": "英国央行及全球金融领袖警告AI引发系统性金融风险",
+        "region": "全球",
+        "sources": [
+          "cnbc.com",
+          "Reuters",
+          "SiliconANGLE"
+        ],
+        "summary": "英国央行行长及金融稳定委员会（FSB）主席在杰克逊霍尔全球央行年会上发出警告，指出新一代AI模型的大规模应用可能对全球金融系统构成系统性风险，呼吁加强宏观审慎监管。",
+        "why": "监管视角从AI安全与伦理正式延伸至宏观金融稳定，标志着AI对高频交易、信贷风控等金融基础设施的渗透已引起最高货币当局警惕。",
+        "watch": "各国央行与金融监管机构是否会出台针对AI金融应用的专项压力测试与资本约束要求。"
+      },
+      {
+        "title": "美国陆军斥资22亿美元在军事基地建设5个核微反应堆",
+        "region": "美国",
+        "sources": [
+          "investors.com"
+        ],
+        "summary": "美国陆军宣布投资22亿美元，在五个军事基地部署核微反应堆，以满足国防设施及潜在的高耗能计算需求，推动美国核能复兴。",
+        "why": "在AI数据中心电力需求激增的背景下，军方直接下场投资核微反应堆，验证了核能作为下一代算力与国防关键基础设施的战略地位。",
+        "watch": "核微反应堆供应链企业的订单落地情况，以及民用AI数据中心与军方共享核能基建的可能性。"
+      },
+      {
+        "title": "苹果核心高管Phil Schiller卸任App Store与活动业务",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "苹果长期高管Phil Schiller正式卸任App Store负责人及苹果发布会主导者职务，仅保留“苹果院士”头衔。这标志着苹果平台生态与对外沟通的权力交接。",
+        "why": "Schiller是苹果商业模式与平台规则的核心塑造者，其卸任正值苹果面临全球多地反垄断审查与AI战略转型的关键期，人事变动可能预示平台政策的调整。",
+        "watch": "继任者对App Store佣金政策、第三方应用分发及AI应用审核标准的潜在改革。"
+      },
+      {
+        "title": "美国初创企业与沙特阿拉伯达成数据中心合作伙伴关系",
+        "region": "中东/美国",
+        "sources": [
+          "The New York Times"
+        ],
+        "summary": "一家美国初创公司与沙特阿拉伯达成合作，将在沙特建设新的数据中心，进一步巩固中东作为全球AI算力与资本枢纽的地位。",
+        "why": "中东主权基金正加速从单纯的财务投资转向直接参与AI物理基础设施建设，这反映了全球AI算力版图的地缘政治重构与资本溢出效应。",
+        "watch": "沙特等中东国家在AI芯片进口限制下的算力建设进度，及其对全球云服务商的吸引力。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/tech/986982/amazon-advertising-prices-ftc-lawsuit",
+      "https://www.marketwatch.com/story/amazons-stock-slips-as-the-ftc-alleges-billions-of-dollars-in-hidden-ad-fees-4ae44ee4?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSTRMZGtDQUtqY2t3NzFpS18yMk9NQ05FdjUyenBKNi1famRNZ3YzOFh5ajczamhSQWNoVDE4TnQ1ZGNXcGJIVmUyM1ExcHVYVldPN2FEb2JHUDFJMWtXbVlOTzhLZW1WdHljclhfRnNpUVdyM3J0Rkg4WnN2eDY2TWdrNDl6amPSAYwBQVVfeXFMUFpNdktJV2lxOU94WXlEWTVXRk1Ib0FJOFZaRnZEWE9NdzNpNHcydTRTMFR6VGFoWklfUnlaVHRwODdNbi1kVTh4cXl2NEZCdS1CanpyLVUtU0tudTltV3pDdk42al9OYmZ2U1dRTWtOemlHQzdEbzk4eGZuQXZKSUluSTE1Z2xTcjVPM1k?oc=5",
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMFh5NUhXWG5NZW1lVzkySlBKWnZTRFVMLXh1R3N5VFJ4TkNmN2dXQnd0NmgwOXFyZENWS3dGbW84VnJ4YnFGQUtwcEJkNDRaT05aeUtFMmlfQllOY0luZnd6UzgwWVBRTlJLZ3hZMkJObzlHTnNENDZCNTJ3NVZ1MTBHQ3Z6QUE3VUp6WGw5WmRCWGtySV9GelhKNmhlV2RyaktqZ0VORzhURmxxME9LdllRSmVSdE0?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXJNZWI1dFFkcFJ1TjliamRQUkozWXpDTmpxeFBoMEwwNTcxUm4zc0ZWYlhMYXhvQUk0TE5laUwwaUtXMExpTHFHMTVnLXI2ZXRtWUZkTzVTVFRkc2UydU9hUWhiZWNzZXJpSzUxa2ZvS2RIMGVCb3lWdFY4MnpWU3ZZc3lBZF9aRDhweVJHVHoyMDN1V1h1eUtxaGh2MnZWYTJWZ2Ywaw?oc=5",
+      "https://www.investors.com/news/nuclear-energy-army-funds-5-nuclear-microreactors-us-bases/",
+      "https://www.theverge.com/tech/986869/apple-phil-schiller-stepping-down",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa3ZwelBXaXJyelNmMGZBLTctU1RYTnFRbHloeHpMS2xSM01RVjRpWGNydkEwam5ibG1uUy1qaWpiTURFZ3lOdHp6Yk51azhNU01LTXVucGxDOUIyVGM5V2VzNlJRRkpBN2dTc2VUOUdhYnRUVFo2MnhBdDFPbVc5dzktZWtUeVJzU0ZBWHF4UW9EdGt6RFMxLTZMbC1GVlJQMFFr?oc=5"
+    ]
+  },
+  {
     "date": "2026-08-31",
     "displayDate": "2026年8月31日",
     "scope": "全球新闻｜科技与财经优先",
