@@ -1,5 +1,77 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-02",
+    "displayDate": "2026年9月2日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-02.png",
+    "summary": "本期简报聚焦科技界重大人事变动与AI基建财报验证。Tim Cook正式卸任苹果CEO，标志着苹果进入新领导时代；Dell财报显示AI服务器积压订单达950亿美元，继续验证算力需求；OpenAI因安全事件推迟Astra模型开发，凸显前沿模型安全压力；英国央行警告AI威胁金融稳定，监管视线转向宏观系统风险；同时10年期美债收益率逼近危险临界点，全球流动性承压。",
+    "focus": [
+      "苹果CEO交接、AI基建财报、模型安全与宏观流动性",
+      "苹果CEO交接是全球科技界最具影响力的人事变动，标志着苹果战略和领导层进入新纪元。",
+      "950亿美元的积压订单为AI基础设施的持续资本开支提供了坚实的微观数据支撑，验证了企业级AI算力需求并未放缓。"
+    ],
+    "items": [
+      {
+        "title": "Tim Cook正式卸任苹果CEO，AI能耗或重塑其环保遗产",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "Tim Cook于今日正式卸任苹果公司CEO。他在任期间留下了积极的环保记录，但随着苹果全面转向AI战略，数据中心和端侧AI带来的巨大能耗可能对其气候遗产构成挑战，新任CEO将面临平衡AI扩张与碳中和目标的压力。",
+        "why": "苹果CEO交接是全球科技界最具影响力的人事变动，标志着苹果战略和领导层进入新纪元。",
+        "watch": "继任者名单及苹果后续在AI硬件与能源采购上的战略调整。"
+      },
+      {
+        "title": "Dell财报超预期，AI服务器积压订单达950亿美元并上调展望",
+        "region": "美国",
+        "sources": [
+          "MarketWatch",
+          "Investor's Business Daily"
+        ],
+        "summary": "Dell Technologies发布强劲财报，受AI服务器需求加速推动，业绩大幅超出华尔街预期。公司透露其AI服务器积压订单已达到950亿美元，并据此上调了全年业绩展望，盘后股价大幅上涨。",
+        "why": "950亿美元的积压订单为AI基础设施的持续资本开支提供了坚实的微观数据支撑，验证了企业级AI算力需求并未放缓。",
+        "watch": "后续季度AI服务器毛利率变化及供应链交付能力。"
+      },
+      {
+        "title": "OpenAI因Hugging Face安全事件推迟Astra模型开发",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "在Hugging Face遭遇黑客攻击并引发广泛关注后，OpenAI决定推迟其未发布模型套件Astra的开发进度。公司表示需要重新评估和加强安全防御工作，以防止类似安全漏洞在更强大的前沿模型中重演。",
+        "why": "凸显了前沿AI模型开发中网络安全与系统安全的脆弱性，安全合规正在实质性拖慢顶级实验室的研发节奏。",
+        "watch": "Astra模型的最终发布时间表及OpenAI可能推出的新安全架构。"
+      },
+      {
+        "title": "英国央行行长警告新AI模型威胁全球金融稳定",
+        "region": "英国",
+        "sources": [
+          "CNBC"
+        ],
+        "summary": "英国央行行长发出警告，称新一代AI模型的大规模应用可能对全球金融稳定构成系统性威胁。监管机构担忧AI在自动化交易、信贷审批和风险定价中的黑盒效应可能放大市场波动和顺周期风险。",
+        "why": "主要经济体央行首次将前沿AI模型直接定性为宏观金融稳定威胁，预示着针对金融AI的系统性监管框架即将出台。",
+        "watch": "英国及全球金融监管机构针对AI交易和风控模型的具体限制措施。"
+      },
+      {
+        "title": "10年期美债收益率逼近危险临界点，全球借贷成本升至2008年来高位",
+        "region": "全球",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "全球债券市场遭遇持续抛售，10年期美国国债收益率触及危险区域，推动家庭、企业和各国政府的借贷成本升至2008年以来的最高水平。高利率环境对高估值科技股和重资产AI基建项目的融资成本构成直接压制。",
+        "why": "10年期美债收益率是全球资产定价的锚，其突破关键阻力位将直接重塑科技股估值逻辑和AI资本开支的融资成本。",
+        "watch": "美联储后续表态及长端利率对科技巨头发债融资和股票估值的实际冲击。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/tech/987550/tim-cook-apple-environment-sustainability-legacy",
+      "https://www.marketwatch.com/story/dells-ai-servers-drive-a-stellar-earnings-performance-and-a-raised-outlook-86476ace?mod=mw_rss_topstories",
+      "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSTRMZGtDQUtqY2t3NzFpS18yMk9NQ05FdjUyenBKNi1famRNZ3YzOFh5ajczamhSQWNoVDE4TnQ1ZGNXcGJIVmUyM1ExcHVYVldPN2FEb2JHUDFJMWtXbVlOTzhLZW1WdHljclhfRnNpUVdyM3J0Rkg4WnN2eDY2TWdrNDl6amPSAYwBQVVfeXFMUFpNdktJV2lxOU94WXlEWTVXRk1Ib0FJOFZaRnZEWE9NdzNpNHcydTRTMFR6VGFoWklfUnlaVHRwODdNbi1kVTh4cXl2NEZCdS1CanpyLVUtU0tudTltV3pDdk42al9OYmZ2U1dRTWtOemlHQzdEbzk4eGZuQXZKSUluSTE1Z2xTcjVPM1k?oc=5",
+      "https://www.marketwatch.com/story/this-could-be-the-10-year-treasurys-tipping-point-into-the-danger-zone-891cd45d?mod=mw_rss_topstories"
+    ]
+  },
+  {
     "date": "2026-09-01",
     "displayDate": "2026年9月1日",
     "scope": "全球新闻｜科技与财经优先",
