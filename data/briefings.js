@@ -1,5 +1,78 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-03",
+    "displayDate": "2026年9月3日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-03.png",
+    "summary": "本期简报聚焦AI基础设施与商业化落地：Snowflake与Dell财报超预期印证AI数据与服务器需求强劲；Broadcom业绩亮眼但股价承压反映市场对芯片估值分歧；Nvidia受益于AI硬件客户群扩展；摩根大通揭示金融机构对AI项目融资的务实新标准。",
+    "focus": [
+      "AI基础设施、云数据、芯片估值、AI资本开支",
+      "印证了AI应用层对底层数据基础设施的强劲拉动，云数据仓库成为AI商业化的核心受益者。",
+      "反映出市场对AI硬件巨头的高估值容忍度正在降低，业绩超预期已不足以支撑进一步的估值扩张。"
+    ],
+    "items": [
+      {
+        "title": "Snowflake财报大幅超预期，AI驱动云数据平台需求爆发",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "Snowflake发布强劲财报，营收与指引均大幅超出华尔街预期。企业客户在自有数据上构建AI工具的需求激增，推动其云数据平台业务实现稳健增长，股价盘后大涨。",
+        "why": "印证了AI应用层对底层数据基础设施的强劲拉动，云数据仓库成为AI商业化的核心受益者。",
+        "watch": "关注企业级AI应用落地对传统SaaS和云数据库厂商的持续业绩提振效应。"
+      },
+      {
+        "title": "Broadcom财报超预期但股价下跌，AI芯片销售激增难掩市场估值分歧",
+        "region": "美国",
+        "sources": [
+          "MarketWatch",
+          "Investing.com"
+        ],
+        "summary": "Broadcom第三财季业绩及指引均超出分析师预期，AI相关网络与定制芯片销售大幅飙升。然而，股价在盘后交易中不涨反跌，延续了近期令投资者沮丧的走势。",
+        "why": "反映出市场对AI硬件巨头的高估值容忍度正在降低，业绩超预期已不足以支撑进一步的估值扩张。",
+        "watch": "观察半导体板块在AI资本开支高企背景下的估值消化过程及资金轮动方向。"
+      },
+      {
+        "title": "Dell股价飙升，AI服务器创纪录订单重塑增长前景",
+        "region": "美国",
+        "sources": [
+          "Yahoo Finance",
+          "Simply Wall St"
+        ],
+        "summary": "Dell凭借AI服务器的创纪录订单和积压需求，大幅上调增长预期，股价大幅上涨。AI硬件需求正从大型云服务商向更广泛的企业级市场渗透。",
+        "why": "确认了AI算力基建热潮正在向企业级私有化部署和边缘计算扩展，硬件代工厂迎来新一轮超级周期。",
+        "watch": "跟踪企业级AI服务器交付进度及供应链瓶颈对毛利率的潜在影响。"
+      },
+      {
+        "title": "Nvidia股价攀升，Dell财报印证AI硬件客户群持续扩展",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "受Dell等服务器厂商强劲财报提振，Nvidia股价继续走高。投资者对AI芯片需求不再局限于少数超大规模云巨头，而是向更广泛的企业客户群扩展充满信心。",
+        "why": "打破了市场对AI算力需求见顶的担忧，证明AI基础设施投资具有更广泛的长尾企业需求支撑。",
+        "watch": "关注非云巨头企业的AI资本开支增速，以及Nvidia下一代架构的产能分配策略。"
+      },
+      {
+        "title": "摩根大通高管揭示AI项目融资新标准，金融资本告别盲目投入",
+        "region": "美国",
+        "sources": [
+          "TheStreet"
+        ],
+        "summary": "摩根大通高管透露，金融机构在审批AI项目融资时，正要求项目方提供更明确的商业回报证明和风险控制指标，AI投资逻辑从“抢占赛道”转向“务实变现”。",
+        "why": "标志着传统金融资本对AI赛道的定价逻辑发生根本转变，缺乏清晰商业模式的AI初创公司将面临融资寒冬。",
+        "watch": "留意一级市场AI项目估值重估进度，以及具备自我造血能力的AI应用公司的溢价表现。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/snowflakes-stock-soars-as-the-company-blows-away-estimates-with-its-ai-fueled-forecast-5b5cf36c?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/broadcoms-stock-falls-despite-upbeat-earnings-extending-a-frustrating-stretch-for-investors-81de3f53?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN2hTV1hlX2J4R0o1MGxhM1VlWXdZMnhhNEQ5NHhUVkRmZHVZS3daUFBzdnFqbzJqOVJNTmZVdmEyNFBvaHlqRUZZcEFQTUNSWDdvQnhRZ19aa2t2LW1wNDNSWUR2RjViV1NRQzVYQXdJRmlGbkItSjJPQVdPRE1fVlhNbVVJdW1wTlJ1dTlMN3FJN1FUMzNVZmY0UFI5TmpzMlBCWXRQS01udw?oc=5",
+      "https://www.marketwatch.com/story/nvidias-stock-is-climbing-as-investors-get-more-confidence-in-an-expanding-base-of-ai-customers-a6e297f1?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTFlLb3RRV0dOWVBIUWhhVEJxWWJpUFdVVHlNUVFpYVlFbXA5RGswUlAwbGx3eGdIbWdBVThtU3h5a1ZJd3JOZzh1b2s1QmdQcllQTzhPRld0dTNldFp1WmN5M3J1N3RNbGkwX0w4VHBYWWh3MkNjVUh1VENwZ3pOalFpNFRaa1llTERPNUpLekx3dzROWkNocVc1aDQ0Rk03alBUSENKckhwRnY2dEtEMEFYSF9pSmNDRXVfeg?oc=5"
+    ]
+  },
+  {
     "date": "2026-09-02",
     "displayDate": "2026年9月2日",
     "scope": "全球新闻｜科技与财经优先",
