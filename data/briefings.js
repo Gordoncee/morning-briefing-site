@@ -1,5 +1,79 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-04",
+    "displayDate": "2026年9月4日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-04.png",
+    "summary": "今日焦点集中在AI生态的重大整合与前沿模型迭代：英伟达斥资129亿美元收购Hugging Face，进一步巩固其在AI开发生态的垄断地位；OpenAI正式发布GPT-6 Astra，宣称迈入AGI时代。在应用与商业化层面，特斯拉Cybercab自动驾驶出租车在奥斯汀低调上线，而Snowflake凭借AI代码助手的强劲销售带动美股软件板块反弹。此外，Adobe宣布新任CEO引发市场对管理层动荡的担忧，股价承压。",
+    "focus": [
+      "AI生态并购、前沿模型发布、自动驾驶商业化、SaaS财报与科技巨头换帅",
+      "这是AI领域迄今最大的生态级并购之一，将深刻改变AI模型的分发、微调与部署格局，对云厂商和独立AI初创公司形成直接竞争压力。",
+      "GPT-6 Astra的发布不仅是参数和算力的提升，更标志着AI从“对话助手”向“自主执行复杂任务的数字员工”演进，将直接冲击企业级SaaS和传统IT外包市场。"
+    ],
+    "items": [
+      {
+        "title": "英伟达斥资129亿美元收购Hugging Face，全面整合AI开发生态",
+        "region": "美国",
+        "sources": [
+          "The New York Times"
+        ],
+        "summary": "英伟达宣布以129亿美元收购AI模型托管与开源社区平台Hugging Face。此举标志着英伟达从底层算力硬件向AI软件与开发生态的全面扩张，旨在将其CUDA生态与Hugging Face的模型库深度绑定，进一步巩固其在AI基础设施领域的护城河。",
+        "why": "这是AI领域迄今最大的生态级并购之一，将深刻改变AI模型的分发、微调与部署格局，对云厂商和独立AI初创公司形成直接竞争压力。",
+        "watch": "关注反垄断监管机构的审查进度，以及微软、Meta等重度依赖Hugging Face生态的科技巨头将如何调整其开源AI战略。"
+      },
+      {
+        "title": "OpenAI正式发布GPT-6 Astra，宣称大模型能力迈入“AGI时代”",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "OpenAI推出新一代旗舰模型GPT-6 Astra，称其在网络安全、专业工作、软件工程、科学研究和计算机使用等领域实现了“代际跨越”。该模型在自主代理和复杂系统控制方面展现出接近通用人工智能（AGI）的特征。",
+        "why": "GPT-6 Astra的发布不仅是参数和算力的提升，更标志着AI从“对话助手”向“自主执行复杂任务的数字员工”演进，将直接冲击企业级SaaS和传统IT外包市场。",
+        "watch": "关注该模型在企业级API的定价策略、实际落地中的幻觉控制率，以及监管机构对具备高度自主性AI代理的安全审查。"
+      },
+      {
+        "title": "特斯拉Cybercab自动驾驶出租车在奥斯汀正式上路，商业化进程加速",
+        "region": "美国",
+        "sources": [
+          "The Verge",
+          "MarketWatch",
+          "Investor's Business Daily"
+        ],
+        "summary": "特斯拉在得克萨斯州奥斯汀通过闭门活动正式推出Cybercab自动驾驶出租车，并已在当地机器人出租车应用中上线。尽管发布活动相对低调，但此举标志着特斯拉FSD技术从辅助驾驶向L4级商业运营迈出关键一步。",
+        "why": "Cybercab的实际运营是特斯拉估值逻辑从“硬件制造商”向“AI与出行服务商”切换的核心验证点，将直接挑战Waymo和Cruise在Robotaxi市场的地位。",
+        "watch": "关注奥斯汀当地的监管反馈、初期运营的安全数据，以及特斯拉何时将该服务扩展至更多城市并实现单车盈利。"
+      },
+      {
+        "title": "Snowflake凭借AI代码助手实现销售强劲增长，带动美股软件板块大幅反弹",
+        "region": "美国",
+        "sources": [
+          "MarketWatch",
+          "Investor's Business Daily"
+        ],
+        "summary": "云数据平台Snowflake财报表现超预期，其内置的AI代码助手成为推动销售增长的核心引擎。受此提振，美股软件板块整体走强，缓解了市场对AI基建开支挤压传统SaaS预算的担忧。",
+        "why": "Snowflake的业绩证明了AI不仅能卖算力，还能在数据分析和代码生成等垂直场景中实现高毛利的商业化变现，为陷入估值低谷的企业级软件公司提供了AI转型的成功样本。",
+        "watch": "关注Databricks等竞争对手的应对策略，以及企业客户在AI数据工具上的预算分配是否具备可持续性。"
+      },
+      {
+        "title": "Adobe宣布新任CEO Anil Chakravarthy，管理层动荡担忧导致股价下跌",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "Adobe宣布由公司内部老将Anil Chakravarthy接任CEO，但同时另一位长期业务主管离职。尽管新CEO具备深厚的业务背景，但高管层的连续变动引发了市场对Adobe在AI时代战略连贯性和领导层稳定性的担忧，导致股价承压。",
+        "why": "在生成式AI对传统创意软件形成降维打击的背景下，Adobe正处于防守与转型的关键期，管理层的任何不确定性都会被资本市场放大。",
+        "watch": "关注新CEO上任后对Firefly AI模型的迭代计划、定价策略调整，以及是否会通过并购来补齐在视频生成AI领域的短板。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMiekFVX3lxTE0yMlJhVkx6YWNlSEdlelNIVXNzaG9oUQVVdWlJcFQ3NHVzVXJvOC1RWmJqN1NKQXlSbmVTU2l3WHdrdTBSbEhvaHh6NVVIa3h6b1BENWJYZnRpZnNMU0RRQl9fQ1NKSk9MLVdEcFZQcjZDRzZ2QWVBeTNB",
+      "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+      "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+      "https://www.marketwatch.com/story/shares-in-snowflake-are-surging-heres-what-wall-street-analysts-are-saying-0b6343c0?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/adobe-just-announced-its-next-ceo-heres-why-its-stock-is-dropping-bad9ed8a?mod=mw_rss_topstories"
+    ]
+  },
+  {
     "date": "2026-09-03",
     "displayDate": "2026年9月3日",
     "scope": "全球新闻｜科技与财经优先",
