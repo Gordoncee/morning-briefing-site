@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-05",
+    "displayDate": "2026年9月5日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-05.png",
+    "summary": "今日简报聚焦AI资本开支与基础设施瓶颈：字节跳动巨额融资300亿美元加码AI，美日两国AI数据中心建设面临电力与产能极限测试。宏观层面，美国强劲就业数据与贸易威胁引发市场震荡；监管方面，微软在《纽约时报》版权诉讼中提出关键辩护。",
+    "focus": [
+      "AI基础设施瓶颈、科技巨头资本开支、宏观就业与贸易政策、AI版权监管",
+      "反映了非上市科技巨头在AI军备竞赛中的融资力度，300亿美元规模凸显AI基建对资本的巨大渴求。",
+      "就业数据与贸易政策的双重冲击直接影响了美联储的利率路径预期，是短期内压制科技股估值的核心宏观变量。"
+    ],
+    "items": [
+      {
+        "title": "字节跳动借款300亿美元全力押注AI",
+        "region": "中国/全球",
+        "sources": [
+          "Decrypt"
+        ],
+        "summary": "TikTok母公司字节跳动近期通过借款筹集了300亿美元资金，旨在为其人工智能战略和基础设施扩张提供全面支持，显示出中国科技巨头在AI领域的持续重金投入。",
+        "why": "反映了非上市科技巨头在AI军备竞赛中的融资力度，300亿美元规模凸显AI基建对资本的巨大渴求。",
+        "watch": "关注这笔债务融资的利率成本及后续在算力采购和模型研发上的具体资本开支流向。"
+      },
+      {
+        "title": "美股因强劲就业报告下滑，特朗普发出贸易威胁",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "美国股市在强劲的就业报告发布后出现下跌，市场对美联储降息预期降温。同时，特朗普发出新的贸易威胁，叠加即将公布的CPI数据，加剧了市场的宏观不确定性。",
+        "why": "就业数据与贸易政策的双重冲击直接影响了美联储的利率路径预期，是短期内压制科技股估值的核心宏观变量。",
+        "watch": "紧盯即将公布的CPI通胀数据以及特朗普贸易威胁的具体落地措施对供应链的潜在影响。"
+      },
+      {
+        "title": "AI数据中心热潮将美国电力设备推向极限",
+        "region": "美国",
+        "sources": [
+          "Yahoo Finance"
+        ],
+        "summary": "随着AI数据中心建设的爆发式增长，美国本土的电力设备供应链正面临前所未有的压力，变压器等关键电力基础设施的交付周期大幅延长，已接近系统承载极限。",
+        "why": "AI算力的物理瓶颈正从芯片向电力基础设施转移，电力设备短缺可能直接延缓北美科技巨头的AI数据中心交付进度。",
+        "watch": "关注美国电网升级政策的推进速度，以及电力设备供应商的产能扩张计划和定价权变化。"
+      },
+      {
+        "title": "日本AI数据中心到2033年将翻两番，投资达600亿美元",
+        "region": "日本",
+        "sources": [
+          "Nikkei Asia"
+        ],
+        "summary": "据日经亚洲报道，为满足激增的AI算力需求，日本的AI数据中心数量预计到2033年将增长四倍，相关总投资规模将达到600亿美元，推动本土云基础设施大幅扩张。",
+        "why": "日本正成为亚太区AI算力布局的重要节点，600亿美元的投资计划将带动当地半导体、散热及电力产业链的长期增长。",
+        "watch": "关注日本政府在数据中心审批、能源配额及外资引入方面的配套政策支持力度。"
+      },
+      {
+        "title": "微软在《纽约时报》版权诉讼中辩称Copilot极少抓取新闻",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "在应对《纽约时报》等媒体的版权诉讼时，微软在最新法律文件中辩称，其Copilot聊天机器人极少完整复制新闻文章或书籍的实质性内容，试图以此削弱侵权指控。",
+        "why": "这是AI大模型版权争议中的关键法律攻防，微软的辩护策略将为生成式AI的“合理使用”边界提供重要的司法判例参考。",
+        "watch": "关注法院对AI模型训练数据抓取及生成内容“实质性相似”标准的最终裁定，这将重塑AI公司的数据合规成本。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JUFFMSmItTEQxUU1YTzN6Y1U2QkFqZGhzbzMwOXpteXhiYXZjdXFPT3ZCc29BUWlBSW1BUy1ZMVRDbXJHMXRkeFNSSERDcWNDbWNPckE3UktMZ1g5anJJ0gFnQVVfeXFMT2JsZkFhLVJlQlFpN1dmd3NKT2tjV201TkxVTTZSMHhyVkVhZ1RNUk5fMVh0bFl3ZHdwV1JGTkFHNkcwWXNWeEdDd0Q0YTNMZ3hVakdmRU1wSjB4LXFLSW9FSWFqZWU5dw?oc=5",
+      "https://www.investors.com/market-trend/the-big-picture/dow-jones-stock-market-jobs-report-trump-trade-threat-cpi/",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbmpaZ1FUY2RjUmFSZnRVdFhXb1VlTmt3Szk5bVJoOHVEYV9JV0pUN2p4bEJscnB0STQxZnNkelRMUjNNQ3RBSjFKU3NQVXpKNjlveFlQemhxUEh4Y2NUOXcteU83T1JranBZNG56ZTMzckhfZ2lLS2l3dHg5TGFxbVdyelJ5OWcxUmppYW1ic2dmWTZV?oc=5",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPajE4Vnl3VHNPQ2ZSLTZ3bS1Ub0psOWZJeEs5bC1XRlRuMkpqU2l6LUgtQXBFaHJWbTlZTmVQcHRqSmptamhHYXA3OHU4eC0yZ1BoaDFmODE3Q0l5SDBKRnh2VER3Z1U3WjJGand5Umg1VHFwVEgtSkstQ0hvWUNlem5UOXM2UkZwUkU3eHhrczU2VlUyOTN2c0RoVGhfQXROd1JJU1Z2ejFSM0ZXMDN5ZUQ3cl94elAzOHFxajMzQmdxZlNNNUpqcWFfYndSNzh5?oc=5",
+      "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit"
+    ]
+  },
+  {
     "date": "2026-09-04",
     "displayDate": "2026年9月4日",
     "scope": "全球新闻｜科技与财经优先",
