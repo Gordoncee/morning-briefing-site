@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-07",
+    "displayDate": "2026年9月7日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-07.png",
+    "summary": "今日简报聚焦全球宏观与科技基建的深层变量：多国央行从纽约撤出黄金引发美元避险地位担忧；被制裁中国巨头绕过限制获取美国顶级AI芯片的调查曝光；AI数据中心扩张开始实质性冲击农村土地市场并引发地方反弹；AI版权诉讼战火蔓延至更多传统媒体；同时，市场对AI基建债务可能引发系统性金融危机的推演正在升温。",
+    "focus": [
+      "宏观避险资产转移、AI芯片出口管制漏洞、AI基建土地冲突、AI版权监管、AI债务系统性风险",
+      "黄金储备的物理转移是宏观地缘信任度变化的极端指标，直接影响美元信用定价与全球央行资产负债表重构。",
+      "芯片出口管制是中美科技博弈的核心，执行层面的漏洞将迫使美国商务部进一步收紧长臂管辖与实体清单，影响全球半导体供应链合规成本。"
+    ],
+    "items": [
+      {
+        "title": "全球央行从纽约撤出黄金，美元避险地位面临考验",
+        "region": "全球/美国",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "继法国之后，荷兰央行也开始将黄金储备从纽约撤出。分析指出，全球央行正在重新评估美国作为终极避险资产托管地的安全性，地缘政治摩擦与美元武器化担忧正加速黄金储备的多极化配置。",
+        "why": "黄金储备的物理转移是宏观地缘信任度变化的极端指标，直接影响美元信用定价与全球央行资产负债表重构。",
+        "watch": "美联储后续货币政策会议中关于外国官方机构持有美债与黄金储备变动的数据，以及更多欧洲与亚洲央行的跟进动作。"
+      },
+      {
+        "title": "调查曝光：被制裁中国科技巨头如何继续获取美国顶级AI芯片",
+        "region": "中美",
+        "sources": [
+          "The New York Times"
+        ],
+        "summary": "纽约时报深度调查揭示，部分被列入黑名单的中国科技巨头通过复杂的供应链网络、第三方代理及海外空壳公司，依然能够持续获取美国最先进的AI芯片，凸显了现有出口管制措施的执行漏洞。",
+        "why": "芯片出口管制是中美科技博弈的核心，执行层面的漏洞将迫使美国商务部进一步收紧长臂管辖与实体清单，影响全球半导体供应链合规成本。",
+        "watch": "美国商务部工业和安全局（BIS）针对第三方转运和空壳公司的新一轮制裁名单，以及主要晶圆代工厂的合规审查升级。"
+      },
+      {
+        "title": "AI数据中心扩张重塑美国农村土地市场并引发地方反弹",
+        "region": "美国",
+        "sources": [
+          "CNBC"
+        ],
+        "summary": "科技巨头对AI算力的狂热需求正推动数据中心向电力和土地成本更低的美国农村地区扩张。这不仅大幅推高了当地地价，还因水资源消耗和电网压力引发了强烈的社区反弹与地方区划限制。",
+        "why": "AI基建的物理瓶颈已从芯片延伸至土地、水和电网。地方监管的介入将成为AI资本开支落地的新变量，可能拉长数据中心交付周期。",
+        "watch": "美国各州及县级政府对数据中心审批的环保与水资源限制法案，以及科技巨头在能源和土地获取上的溢价收购策略。"
+      },
+      {
+        "title": "AI版权战升级：西雅图时报与Newsday起诉OpenAI和微软侵权",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "西雅图时报和Newsday正式对OpenAI及微软提起版权侵权诉讼，指控其未经授权使用新闻报道训练AI模型。这是继纽约时报之后，又一批具有重要影响力的传统媒体加入对AI巨头的法律围剿。",
+        "why": "媒体版权诉讼正在形成行业联盟效应，若法院在合理使用原则上作出对AI公司不利的裁决，将彻底改变大模型训练的数据获取成本与合规模式。",
+        "watch": "联邦法院对AI训练数据合理使用抗辩的初步禁令听证，以及AI公司与大型出版商之间可能达成的集体授权协议。"
+      },
+      {
+        "title": "深度推演：AI基建债务泡沫可能引发下一次金融危机的连锁反应",
+        "region": "全球",
+        "sources": [
+          "UnHerd"
+        ],
+        "summary": "分析文章警告，当前AI热潮高度依赖杠杆融资，科技巨头与数据中心开发商积累了巨额债务。如果AI应用的商业化变现未能如期覆盖高昂的资本开支，债务违约可能通过私募信贷和资产支持证券引发系统性金融连锁反应。",
+        "why": "AI投资正从股权融资转向结构化债务融资，将科技风险与金融系统深度绑定。这是监管机构和宏观对冲基金开始密切关注的尾部风险。",
+        "watch": "高收益债券市场中AI相关债务的利差变化，以及私募信贷基金对数据中心资产估值的压力测试。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/is-the-u-s-losing-its-safe-haven-status-why-global-central-banks-are-pulling-gold-out-of-new-york-3e24d510?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWGJVMENwVzZKeENMYzdyR0hpejg2azdLMUVKSW5lRXl5N1BiN1otTU80Sk1YLW9sUXlpOEljb3pBR3FkU3QyUGRSa214em9vcVhwRnJKWWtCa2ZLZEFwd3dRRWxSZUJIZi0yakhRQ0N1VngySkplLWxZb19iMXVKeg",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc0VSWlFxcndIbkxjaWdlNFVNVktJUExoYV9KdXMwT0o0enczbHRraGNINE8yVlh6cHd5VW9nSmtMQnlvTFJXSzNFVmpYVVpIZmNlcHh3NUlJY1NWRkNwSVA0WXFRU05fZkxmVTRyYTlGN0hyRXg3bWNEWVVYLWh1VUp2YjRMUVZUR0ZIcGpzQXFabEt6dll3N2t2Yk5pMnFKOVhTU1lJbWrSAa4BQVVfeXFMUFNBdi0wVVM5X3ZfSU1ZTEV0MFdyY0tueVdJQ0xTZ20ycE9xdW5scHQ0Uzg5SXVkUTNpLW5UaklfcmdTeUxXbExFdzNfS3VxSXJrWHlvWTNnWnhrRzF5Wk5TQXFDR1pWVnJkRnlkdEloTHdyRUxEbl82Y2hJejVTUVRRNzNJdjVXQ2Jva04zZGVDRVNfU3BhTVFvb056NkZ3VXcxQW5QMGMyWFg1b3ZB",
+      "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwcDhad2hJQ18wVnBwcVIxOTJINmw2RU15VTJZUndrZ2RnUU9oSlI3MUVFc3pLbXVOdGJhcjFsWGV4YzRHaFFYODEzVDFWdk5tcjIzQWtGeFU5X3Z5YnFmVkltai1kSHBxR2JHaE0tQnFUeWlycmQ4UGtPTzVTcDg"
+    ]
+  },
+  {
     "date": "2026-09-06",
     "displayDate": "2026年9月6日",
     "scope": "全球新闻｜科技与财经优先",
