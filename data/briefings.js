@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-08",
+    "displayDate": "2026年9月8日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-08.png",
+    "summary": "本期简报聚焦AI版权诉讼的持续蔓延、华为折叠屏硬件微创新、美国财政部债市流动性管理、宏观就业与贸易政策对股市的冲击，以及AI能源概念在指数层面的资本化。",
+    "focus": [
+      "AI版权合规",
+      "折叠屏硬件创新",
+      "美债流动性管理"
+    ],
+    "items": [
+      {
+        "title": "华为发布第二代三折叠屏手机Mate XT 2，引入类似三星的隐私显示技术",
+        "region": "中国/全球",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "华为在中国市场推出第三代三折叠手机Mate XT 2，不仅采用了类似三星Galaxy Z Fold的内折形态，还引入了防窥隐私显示技术，进一步在高端折叠屏市场与三星展开直接技术竞争。",
+        "why": "折叠屏形态与隐私硬件技术的结合，反映了中国头部手机厂商在高端硬件微创新和供应链自主化上的持续突破。",
+        "watch": "观察三星在下一代折叠屏中的反击，以及柔性屏和防窥膜供应链的产能与良率表现。"
+      },
+      {
+        "title": "西雅图时报与Newsday起诉OpenAI和微软，AI版权诉讼战继续扩大",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "西雅图时报和Newsday成为最新一批起诉OpenAI和微软的媒体，指控其在未经许可的情况下使用新闻内容训练AI模型，版权围剿正从头部大报向地方媒体蔓延。",
+        "why": "传统媒体对AI训练数据的版权诉讼正在形成行业联盟效应，这可能对AI公司的数据合规成本和模型训练策略产生实质性影响。",
+        "watch": "关注法院对“合理使用”边界的进一步裁定，以及AI公司是否会加速转向合成数据或付费授权模式。"
+      },
+      {
+        "title": "美国财政部启动收益率管理策略，债市流动性与科技股估值迎关键测试",
+        "region": "美国",
+        "sources": [
+          "investors.com"
+        ],
+        "summary": "本周美股将迎来美国财政部新的收益率管理策略（Big Bond Scheme），同时Apple、Oracle和Adobe等科技巨头也将发布重要动态，债市供给与科技股盈利预期将共同决定市场方向。",
+        "why": "财政部对长端收益率的干预和流动性管理直接影响无风险利率定价，这是当前AI等高估值科技股能否维持扩张逻辑的宏观底座。",
+        "watch": "关注长端美债收益率曲线的形态变化，以及大型科技股在资本开支与现金流之间的平衡表态。"
+      },
+      {
+        "title": "强劲就业报告与特朗普贸易威胁引发美股下挫，市场等待CPI数据",
+        "region": "美国",
+        "sources": [
+          "investors.com"
+        ],
+        "summary": "美国非农就业数据表现强劲削弱了降息预期，叠加特朗普发出的新贸易关税威胁，导致道指等美股主要指数下跌，市场焦点转向即将公布的CPI通胀数据。",
+        "why": "“好经济数据”引发“坏市场反应”的逻辑再次上演，就业韧性与贸易保护主义政策的叠加，使得通胀粘性和利率高位维持成为当前资本市场定价的核心矛盾。",
+        "watch": "关注本周CPI数据的核心服务通胀表现，以及特朗普贸易言论是否会转化为具体的行政命令或关税清单。"
+      },
+      {
+        "title": "Bloom Energy等三家公司被纳入标普500，AI能源基础设施获指数资金加持",
+        "region": "美国",
+        "sources": [
+          "investors.com"
+        ],
+        "summary": "燃料电池与清洁能源公司Bloom Energy将于9月21日被纳入标普500指数，同批入选的还有Illumina和Everpure，消息公布后相关股价上涨。",
+        "why": "AI数据中心对电力的巨大需求正在重塑能源板块的估值逻辑，Bloom Energy的入选标志着“AI能源”概念正式获得主流指数资金的被动配置认可。",
+        "watch": "观察纳入指数后的资金流入效应，以及电网独立供电和分布式能源在科技巨头数据中心建设中的实际落地订单。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display",
+      "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-week-of-the-big-bond-scheme/",
+      "https://www.investors.com/market-trend/the-big-picture/dow-jones-stock-market-jobs-report-trump-trade-threat-cpi/",
+      "https://www.investors.com/news/bloom-energy-illumina-everpure-rise-sp-500-index-inclusion/"
+    ]
+  },
+  {
     "date": "2026-09-07",
     "displayDate": "2026年9月7日",
     "scope": "全球新闻｜科技与财经优先",
