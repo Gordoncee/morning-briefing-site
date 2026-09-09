@@ -1,5 +1,79 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-09",
+    "displayDate": "2026年9月9日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-09.png",
+    "summary": "本日简报聚焦AI基础设施与商业化博弈：高通与亚马逊达成40亿美元级AI芯片合作，云算力定制芯片竞争加剧；美国债务与AI资本开支共振推高借贷成本；Meta推出消费级AI代理Muse抢占入口；Anthropic遭重度用户集体诉讼暴露AI订阅商业化隐患；美加贸易战因Trump对Bombardier的建厂威胁再度升温。",
+    "focus": [
+      "AI芯片定制、宏观债务与利率、AI代理商业化、平台监管、地缘贸易摩擦",
+      "云巨头与芯片厂商的深度绑定正在重塑AI算力供应链，40亿美元的股权合作凸显了定制AI芯片在降低基础设施成本中的战略价值。",
+      "AI资本开支已从企业微观层面上升至宏观流动性变量，科技公司的杠杆扩张正在实质性影响无风险利率和整体市场的资金成本。"
+    ],
+    "items": [
+      {
+        "title": "高通与亚马逊达成多代AI数据中心芯片合作，并授予40亿美元股票购买权",
+        "region": "北美",
+        "sources": [
+          "MarketWatch",
+          "Reuters",
+          "Qualcomm"
+        ],
+        "summary": "高通宣布与亚马逊展开多代产品合作，为其构建下一代AI数据中心基础设施，同时向亚马逊授予约40亿美元的股票购买权。此举标志着高通在数据中心AI芯片领域的重大突破，直接挑战英伟达与AMD的市场主导地位。",
+        "why": "云巨头与芯片厂商的深度绑定正在重塑AI算力供应链，40亿美元的股权合作凸显了定制AI芯片在降低基础设施成本中的战略价值。",
+        "watch": "高通数据中心业务的营收转化速度，以及亚马逊自研芯片与高通合作的业务边界。"
+      },
+      {
+        "title": "美国债务与AI基建热潮引发历史性借款狂潮，推高市场利率风险",
+        "region": "北美",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "美国联邦债务扩张与科技巨头为AI基础设施融资的庞大资本开支产生共振，引发历史级别的借款狂潮。资金需求的激增正在推高长期利率，使债券市场与科技股估值面临双重压力。",
+        "why": "AI资本开支已从企业微观层面上升至宏观流动性变量，科技公司的杠杆扩张正在实质性影响无风险利率和整体市场的资金成本。",
+        "watch": "长端美债收益率的走势，以及高利率环境对二线AI基础设施公司融资成本的挤压效应。"
+      },
+      {
+        "title": "Meta推出消费级个人AI代理Muse，加速抢占下一代AI交互入口",
+        "region": "北美",
+        "sources": [
+          "The Verge",
+          "Investor's Business Daily"
+        ],
+        "summary": "Meta正式发布名为Muse的个人AI代理应用，主打极简交互，旨在将AI能力普及给普通消费者。这是Meta在投入数十亿美元后，试图在AI应用层和消费端入口追赶竞争对手的最新举措。",
+        "why": "大模型竞争正从底层算力向应用层代理转移，Meta依托庞大的社交生态推消费级AI，将直接考验AI产品的用户留存与商业化闭环。",
+        "watch": "Muse的日活用户增长曲线，以及Meta如何将AI代理与现有的广告和电商生态进行深度整合。"
+      },
+      {
+        "title": "Anthropic遭重度用户集体诉讼，指控其订阅计划存在误导与欺诈",
+        "region": "北美",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "部分Anthropic的重度用户发起集体诉讼，指控该公司在订阅计划和定价策略上存在误导行为。尽管Anthropic一直将重度用户视为核心资产，但此次诉讼暴露了前沿AI公司在商业化探索中的合规与用户信任危机。",
+        "why": "随着AI公司从免费测试转向深度商业化，订阅模式的透明度与算力分配的公平性将成为平台监管的新焦点，直接影响AI企业的估值逻辑。",
+        "watch": "法院对AI算力配额与订阅条款的裁定，以及其他AI巨头是否会跟进调整其高级别定价策略。"
+      },
+      {
+        "title": "Trump威胁禁止Bombardier加剧美加贸易战，宏观地缘风险升温",
+        "region": "北美",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "美国总统Trump威胁称，除非加拿大飞机制造商Bombardier承诺在美国本土新建工厂，否则将禁止其产品进入美国市场。受此消息影响，Bombardier股价大幅下挫，美加贸易摩擦再度成为市场焦点。",
+        "why": "在AI与科技主线之外，传统制造业的贸易保护主义政策依然是悬在资本市场头上的宏观变量，跨国供应链的政治化风险正在重新定价。",
+        "watch": "加拿大政府的反制措施，以及Trump的关税与建厂威胁是否会蔓延至其他北美跨境供应链。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/qualcomms-stock-climbs-as-amazon-chip-deal-offers-investors-some-much-needed-good-news-5b6a95ca?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRmIwYlFaOE1PczBEYjN1RUR3eWowam81d2VsWVgtSEwwVzFabmludk1saTFsNm5WZE1jNmt1ZFJTU2lZeXhGeURXQ1dhZzBySWVKNFYyblIxTzFKN1lBRWs4azRzWk1UaC11TGU2UEpSVGZVZXJmQUdCcVVKWlI2S195X3R1TS1nd2x4WHlhTQ?oc=5",
+      "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
+      "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans",
+      "https://www.marketwatch.com/story/bombardiers-stock-drops-as-the-u-s-canada-trade-war-intensifies-heres-what-trump-may-target-next-b389065e?mod=mw_rss_topstories"
+    ]
+  },
+  {
     "date": "2026-09-08",
     "displayDate": "2026年9月8日",
     "scope": "全球新闻｜科技与财经优先",
