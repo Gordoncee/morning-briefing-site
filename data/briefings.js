@@ -1,5 +1,81 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-10",
+    "displayDate": "2026年9月10日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-10.png",
+    "summary": "本期简报聚焦Apple发布首款折叠屏iPhone及涨价潮、OpenAI解决千禧年数学难题、油价破百推高通胀担忧、惠誉警告AI融资风险，以及美中AI基建竞赛延伸至非洲。",
+    "focus": [
+      "AI突破、消费电子、宏观通胀、AI基建",
+      "消费电子硬件创新与通胀成本传导的交汇点，直接影响供应链定价与消费者支出预期。",
+      "前沿AI能力从工程应用向基础科学突破的标志性事件，可能重塑科研范式与学术生态。"
+    ],
+    "items": [
+      {
+        "title": "Apple发布首款折叠屏iPhone Duo及iPhone 18 Pro，智能手机迎来涨价潮",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "Apple在9月发布会上推出首款折叠屏设备iPhone Duo以及iPhone 18 Pro系列，其中Pro机型起售价上涨100美元至1199美元，标志着智能手机行业在成本压力下全面进入涨价周期。",
+        "why": "消费电子硬件创新与通胀成本传导的交汇点，直接影响供应链定价与消费者支出预期。",
+        "watch": "折叠屏供应链良率及涨价对高端智能手机出货量的实际抑制效应。"
+      },
+      {
+        "title": "OpenAI宣布解决千禧年大奖难题Navier-Stokes，AI数学突破震动学术界",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "OpenAI宣布其AI模型成功解决了数学界著名的千禧年大奖难题之一Navier-Stokes方程，这一突破不仅展示了AI在基础科学领域的推理能力，也引发了学术界对AI取代传统数学研究的深刻担忧。",
+        "why": "前沿AI能力从工程应用向基础科学突破的标志性事件，可能重塑科研范式与学术生态。",
+        "watch": "学术界对该证明的同行评审结果及AI在理论物理和数学领域的后续应用。"
+      },
+      {
+        "title": "油价突破100美元推高通胀担忧，美债收益率攀升拖累美股连跌",
+        "region": "全球",
+        "sources": [
+          "investors.com",
+          "markets.businessinsider.com"
+        ],
+        "summary": "受地缘与供给因素影响，国际油价突破100美元大关，引发市场对通胀反弹的强烈担忧。美债收益率随之攀升，对股市估值形成压制，美股延续连跌走势，市场等待关键通胀数据指引。",
+        "why": "能源价格飙升与美债收益率上行形成双重宏观压力，直接威胁当前牛市估值基础与美联储政策路径。",
+        "watch": "即将公布的CPI数据及美联储官员对能源通胀传导效应的最新表态。"
+      },
+      {
+        "title": "惠誉警告AI繁荣或加剧股市抛售风险，AI融资陷阱隐忧浮现",
+        "region": "美国",
+        "sources": [
+          "investors.com",
+          "Yahoo Finance"
+        ],
+        "summary": "惠誉分析师警告称，若AI相关股票出现35%的收缩，将严重打击投资者信心并导致2027年美国GDP下降0.6%。同时，市场开始审视AI基础设施巨额融资背后的隐藏风险与资本回报陷阱。",
+        "why": "权威评级机构首次将AI泡沫破裂与宏观经济衰退直接挂钩，提示AI资本开支狂潮的系统性金融风险。",
+        "watch": "科技巨头后续资本开支指引及AI初创企业的融资估值折价情况。"
+      },
+      {
+        "title": "埃及签署10亿美元数据中心协议，美中AI基础设施竞赛延伸至非洲",
+        "region": "非洲/中东",
+        "sources": [
+          "Business Insider Africa"
+        ],
+        "summary": "埃及与全球顶级科技巨头签署价值10亿美元的数据中心建设协议，标志着美国在非洲的AI基础设施布局加速，以抗衡中国在该地区日益增长的数字与AI影响力。",
+        "why": "AI算力基建已成为大国地缘博弈的新前线，中东与非洲正成为全球AI算力扩张与能源转换的关键节点。",
+        "watch": "该数据中心的算力规模、芯片供应链来源及后续中东主权基金的跟投动向。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/tech/993005/smartphone-price-hikes-apple-iphone-18-pro",
+      "https://www.theverge.com/tech/992755/apple-iphone-duo-history-of-devices",
+      "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
+      "https://www.investors.com/market-trend/the-big-picture/stock-market-oil-prices-treasury-yields-inflation-data/",
+      "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRkpZSGY3LWw0R3Y5LWxCYVgxQVF4OW84aGl6alRaYmpkT2lINVo2MFgxakdkX3IyNTJjRHlpbWVnNUJXdE4xbTJmNi1WekRURU9tNG5Dc0FEM1hZWlJncmMyMFJNUnRPZHl5WnRVS0M1ektVTHFZRS1qc2tTMnBIS1hTNjhhNjNpNzVFZ3UwVUdpN2txMl8yQVJqR1lyOWQwQUtMRWRRTGFjckpraDBaalh5YWJCZkpRbU15dmZrTHg3WlZHUmRnekpONTZZWVo4S0NPQmlXOFlJN1NtX0FKNDFrX1JjZw?oc=5",
+      "https://www.investors.com/news/bear-market-ai-stocks-artificial-intelligence-fitch/",
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxNX0JSdUdvSFI5eWhIdGNvWGFLM09oSUY4b2pxZ0cyMVE3aHhSWEFDdzctOXhMRjE3VkVtdGRCOTJKRUtIWERlRTJzeWxkX1g2bEJ0d2JqQThYOTFoTUE5Q2M1MUhkVFFCOFRwRzF1WDkxOUUtYUN2emlNOGJtbDVtQm52X0pNdw?oc=5",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMnYtQWp4dW5vbnVzSnNfTkc0VkpSZDlUSkdQTVJBellQMHZ4dXUtQUVvamJKdnpaalNHTGRJcm1HVkpHcVJseXFSMGJ1dnlnQ1hsdXB1U0RJU1prUmdxXzlMR1NLVENFdTlUZVpVOTZ0RV9UVmxnclFldWdvOXZicHRmWnpfcTNEQ2FMRzJQS2tjUmU0SDNFbEtPVk12cE9jWmNnZFpWdnMtR2l6bE9DTUFsUGFJRnVKWVRJMTgtMjFwbjFEZ25nQ3pHbHhUc0NydURWeUo4MA?oc=5"
+    ]
+  },
+  {
     "date": "2026-09-09",
     "displayDate": "2026年9月9日",
     "scope": "全球新闻｜科技与财经优先",
