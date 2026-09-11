@@ -1,5 +1,77 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-11",
+    "displayDate": "2026年9月11日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-11.png",
+    "summary": "Oracle财报验证云基建回报，Amazon联手高通深化AI芯片定制；宏观层面油价与收益率飙升令CPI与美联储加息预期成为焦点，同时BIS与高盛对AI金融稳定风险发出预警，光互连技术获巨额融资突破算力瓶颈。",
+    "focus": [
+      "云基础设施财报验证",
+      "AI芯片定制与光网络",
+      "宏观通胀与利率预期"
+    ],
+    "items": [
+      {
+        "title": "Oracle财报超预期，云基础设施增长加速推动股价大涨",
+        "region": "美国",
+        "sources": [
+          "investors.com"
+        ],
+        "summary": "Oracle公布最新财季业绩，云基础设施增长加速且AI押注见效，剩余履约义务（RPO）大幅增长，推动股价在盘后交易中显著上涨。",
+        "why": "验证了企业级AI需求正在实质性转化为云基础设施厂商的营收，缓解了市场对AI资本开支回报周期的担忧。",
+        "watch": "关注后续AWS和Azure的财报，以及Oracle在AI数据中心建设中的实际资本支出节奏。"
+      },
+      {
+        "title": "Amazon携手Qualcomm布局AI芯片与光网络，触发600亿美元采购里程碑",
+        "region": "美国",
+        "sources": [
+          "CircleID"
+        ],
+        "summary": "Amazon选择高通为其提供定制AI芯片及光数据中心网络解决方案，双方合作涉及高达600亿美元的采购里程碑，进一步深化云厂商的底层硬件自研与定制战略。",
+        "why": "标志着超大规模云厂商在摆脱对单一GPU供应商依赖的道路上迈出实质性步伐，光互连与定制芯片成为AI基建新焦点。",
+        "watch": "观察高通在数据中心AI芯片市场的份额变化，以及光网络技术在降低AI集群能耗方面的实际表现。"
+      },
+      {
+        "title": "油价与美债收益率飙升，CPI通胀报告成美联储加息关键变量",
+        "region": "全球",
+        "sources": [
+          "investors.com"
+        ],
+        "summary": "在关键CPI通胀报告发布前夕，国际油价与美债收益率双双飙升，标普500指数跌破50日均线。市场担忧通胀反弹可能锁定美联储下周的加息预期。",
+        "why": "宏观流动性与通胀压力重新成为压制科技股估值的核心变量，AI硬件股的反弹面临利率不确定性的直接考验。",
+        "watch": "紧盯周五CPI核心数据，若超预期将直接改变美联储利率路径，并对高估值科技板块形成系统性压力。"
+      },
+      {
+        "title": "BIS与高盛齐发警告：AI投资繁荣难永续，金融稳定风险显现",
+        "region": "全球",
+        "sources": [
+          "Reuters",
+          "Yahoo Finance"
+        ],
+        "summary": "国际清算银行（BIS）主席警告AI繁荣正带来新的金融稳定风险；同时高盛首席经济学家也提醒AI投资热潮不会永远持续，美股市场对AI的绝对依赖开始出现松动。",
+        "why": "全球顶级金融监管与投行机构对AI泡沫的预警升级，表明资本市场对AI叙事的定价正在从盲目狂热转向审视约束与回报。",
+        "watch": "关注监管机构是否会针对AI相关的高杠杆融资和算力资产证券化出台限制性措施。"
+      },
+      {
+        "title": "Celero获2.75亿美元融资，押注光互连技术突破AI芯片算力瓶颈",
+        "region": "美国",
+        "sources": [
+          "The Next Web"
+        ],
+        "summary": "硅光子初创公司Celero完成2.75亿美元融资，致力于利用光互连技术将AI芯片连接起来，以解决传统铜线互连在超大规模AI集群中面临的能耗和带宽瓶颈。",
+        "why": "随着AI模型参数呈指数级增长，芯片间通信成为比单卡算力更严峻的瓶颈，光互连技术正成为AI基建的下一个资本风口。",
+        "watch": "跟踪该技术能否在下一代AI数据中心中实现规模化商用，以及英伟达等巨头在光互连领域的防御性布局。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.investors.com/news/technology/oracle-stock-orcl-q1-earnings-aug-2026-ai/",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR1hDakZxY0lkcnlrVFhSRGRBUUdkQjZCSVRuYnpHZU1LaHpKY0dfX1pyQTFDenZ5SHFNR1F1VC1TLWx6RnlPLVBZWkJoSTVOWHk5dnhKcG9aeXlCWXlDVG9iRXlWcnQ1VDBnanZDcG9icEJqVkZkN1RTekxyeFRFYTRVVkxqeGtTOTFla3ZiUmh3cW85Ti15WHJzUQ",
+      "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-oil-prices-treasury-yields-cpi-inflation-oracle-earnings/",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcDUzRnJ3dHpQaFN0aF9CVHRZbTExQ1h4UHg2OEFaQmxHeHZsdUwtN2piZzdPdk5oYUticEdmSEIyS0RYUlpKYUpRX3ptWFp6WGFNbGp2QXlVNjRIVFdvanlTWXdubklpcXZzUHNWQWxURlBrU3hpcTU0dVJ2M1NEUEpRU3FhUzhHa25XRklRbUo2LUVoVWlsV3dVcVY5SENFc29hd3JXRUZQZG1FbHEw",
+      "https://news.google.com/rss/articles/CBMihwFBVV95cUxQc2ozWkJxTmhmMnlnazAydE4wbXVkbV9ZVi1CaFV0clZZQ09nZGZVeTdQWklla3BhTlNLU1V4eDc1Q3dHQ2hFbmtyd3BXOTdJVGdKUTlDM3FMbDJIQUF1aXVmWTY2MmtJLWtBcUQtLXkyb2UzWTB5Z0NjT1VmR2hrTHp1TFBBRTQ"
+    ]
+  },
+  {
     "date": "2026-09-10",
     "displayDate": "2026年9月10日",
     "scope": "全球新闻｜科技与财经优先",
