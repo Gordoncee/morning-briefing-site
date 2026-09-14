@@ -1,5 +1,77 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-14",
+    "displayDate": "2026年9月14日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-14.png",
+    "summary": "本期简报聚焦AI行业罕见的“自我降速”呼吁及其引发的政治与市场共振。Anthropic与OpenAI主张放缓前沿AI研发，却遭特朗普阵营反驳；宏观层面，特朗普施压降息与市场押注美联储主席Warsh加息形成剧烈分歧，叠加油价反弹，美股期货承压。此外，Oracle数据中心满载印证算力短缺，而CXL技术演进正重塑AI服务器底层架构。",
+    "focus": [
+      "AI监管与政治博弈",
+      "美联储政策预期分歧",
+      "AI算力基建与底层技术"
+    ],
+    "items": [
+      {
+        "title": "Anthropic与OpenAI呼吁放缓AI发展，特朗普阵营指其“反应过度”",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "Anthropic CEO Dario Amodei发表公开信呼吁“控制前沿AI发展节奏”，OpenAI的Sam Altman与Elon Musk表示支持。但特朗普与众议院议长Mike Johnson认为AI行业反应过度，凸显AI安全监管与政治立场的激烈博弈。",
+        "why": "前沿AI公司主动要求降速是行业罕见的自我约束信号，而政治人物的反弹预示着未来AI监管政策将面临复杂的党派与产业利益拉扯。",
+        "watch": "关注美国国会后续是否针对“AI降速”提议举行听证，以及科技巨头在合规与研发节奏上的实际调整。"
+      },
+      {
+        "title": "特朗普施压美联储降息，市场却押注新任主席Warsh将加息",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "特朗普再次公开呼吁美联储降低利率，但市场交易员正在押注新任美联储主席Kevin Warsh上任后的首次会议将宣布加息，宏观政策预期出现罕见的严重分歧。",
+        "why": "政治施压与市场定价的背离加剧了宏观不确定性，Warsh的鹰派立场若兑现，将对高估值的科技股和AI基建融资成本造成直接冲击。",
+        "watch": "紧盯本周美联储FOMC会议决议及Warsh的新闻发布会，观察点阵图与通胀预期的变化。"
+      },
+      {
+        "title": "Oracle AI数据中心满负荷运转，印证英伟达芯片持续短缺",
+        "region": "全球",
+        "sources": [
+          "finance.biggo.com"
+        ],
+        "summary": "报道指出Oracle的AI数据中心目前处于满负荷运转状态，这一现象从侧面印证了英伟达（Nvidia）的AI加速芯片依然处于严重的供不应求状态。",
+        "why": "尽管市场对AI资本开支的回报率存在担忧，但底层算力基础设施的满载运行表明，企业级AI训练与推理的实际需求仍在加速消耗现有算力库存。",
+        "watch": "关注Oracle upcoming财报中的云业务资本开支指引，以及英伟达下一代芯片的产能爬坡进度。"
+      },
+      {
+        "title": "AI放缓警告与油价上涨双重施压，美股期货与科技股下挫",
+        "region": "美国",
+        "sources": [
+          "Bloomberg",
+          "Investor's Business Daily"
+        ],
+        "summary": "受Anthropic等AI巨头呼吁放缓AI发展的警告影响，叠加国际油价上涨带来的通胀担忧，美股股指期货下跌，科技板块首当其冲承受抛售压力。",
+        "why": "AI行业的“自我降温”言论触动了市场对AI商业化进程延后的敏感神经，而油价反弹则重新唤醒了通胀交易，两者共振导致科技股估值承压。",
+        "watch": "观察科技股在美联储会议前的资金流向，以及原油价格对霍尔木兹海峡地缘局势的进一步反应。"
+      },
+      {
+        "title": "长距离CXL技术有望重塑AI服务器通信与内存扩展架构",
+        "region": "全球",
+        "sources": [
+          "TechRadar"
+        ],
+        "summary": "业界正加速推进长距离CXL（Compute Express Link）技术，该技术有望打破传统服务器物理边界，从根本上改变AI服务器之间的通信方式与内存池化架构。",
+        "why": "随着大模型参数量激增，单机内存与算力瓶颈日益凸显。CXL技术的成熟将大幅提升AI数据中心的资源利用率，是云基础设施下一代升级的核心变量。",
+        "watch": "关注主要云服务商对CXL 3.0标准的采购部署计划，以及相关芯片和交换机供应商的技术验证进度。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+      "https://www.investors.com/news/trump-urges-federal-reserve-to-cut-rates-market-bets-warsh-hike/",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfZDBZdGtpZGU1ZENmeVBUWFZtbXl6Wkdic3B1Q2dPbWJmMDZRTGJLUEUwWmtUa2V4ckowcXNNM1UzQWlYNEtOeDNhNE1fdTlUQnBLNmZOaUNmdE50NjBEYXR4YXFrWE9qZmlCLUcxQ3ZZc1o4OVE?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN2lGQUtDelJmdFZJeERjWWxaVXVFeEcwUUxtQjJ1bG40VVJZZmZyR1dzMDRvVkg4aG4zWFZaOWRtTlVRTW9lY05sZ3JzNGFSbTZwc25DNG9ONlZTUEJGSlkwTDZLSlJ1MmVtMm01SGZhdmxTRTBHWnowWmlrMFhDUmF4WWtHRnRqX1FUTE9Sbk1PMFJEU29fWFZhQTRpS3ZGcGljYWJneXgzb3EtYVE?oc=5",
+      "https://news.google.com/rss/articles/CBMisgJBVV95cUxQLTMxREZtZ0xQbnM1bFZnOE9qNTl1ajBHSTViZTcwUGpsUDNIMkhVczBhLUhfSHIzVFQtYkJFdDZpbHJUSjhQeHQ1NHl6V040bkRpaW5DOEVnQnY2bU5sTndlclo3RTRqVGVUc3BkRE11NDJnOHBpYkxDQXFwWHJPSHc2Zk9zWnJyMERMSTRiTmlaUnhYS0NVb05LeDkyVFFOXzFxdjdEcWx4aGQwQUd2blVWbEVfSGJHN2hsaFlhdjIwY0VXSGZJakNxTThZb3dJd0FzTkRZMmtJZWd3OUVLT3E4YmdFREhwRTE0M1VPZXB4Mjd2QUIwTUY1a3RrV3BxMnVMUWxEaXQwVmJ5akxNdVlrMFdNWEdtaGxXZXdtdFZtUnFyN2o2azZkSXU4RnI1NGc?oc=5"
+    ]
+  },
+  {
     "date": "2026-09-13",
     "displayDate": "2026年9月13日",
     "scope": "全球新闻｜科技与财经优先",
