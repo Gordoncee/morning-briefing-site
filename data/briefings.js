@@ -1,5 +1,84 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-15",
+    "displayDate": "2026年9月15日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-15.png",
+    "summary": "本期简报聚焦AI行业自律引发的资本市场剧震、AI基础设施的能源与财政监管博弈，以及苹果AI商业化落地。AI巨头呼吁放缓开发导致芯片股重挫，叠加10年期美债收益率触及5%，市场避险情绪升温；同时，网络安全板块逆势走强，美国环保与税收政策正为AI扩张实质性让路。",
+    "focus": [
+      "AI开发放缓引发的科技股重挫与资金向网络安全板块转移；美国监管与财政政策对AI基础设施的隐性支持。",
+      "前沿AI公司主动踩刹车打破了行业‘唯快不破’的叙事，直接冲击了支撑高估值的AI硬件与算力资本开支逻辑，同时宏观利率环境恶化形成双重打击。",
+      "市场开始将AI的‘递归自我改进’和失控风险视为实质性的网络安全威胁，资金从高风险的AI算力基建向确定性更高的AI安全防护与软件端转移。"
+    ],
+    "items": [
+      {
+        "title": "AI巨头呼吁放缓开发引发科技股重挫，美债收益率触及5%加剧市场恐慌",
+        "region": "美国",
+        "sources": [
+          "The New York Times",
+          "Yahoo Finance",
+          "WSJ",
+          "MarketWatch"
+        ],
+        "summary": "OpenAI、Anthropic和DeepMind等AI巨头高管周末呼吁放缓AI开发步伐，引发市场对AI泡沫破裂及资本开支见顶的担忧。周一美股科技板块重挫，芯片股领跌，叠加伊朗冲突推高油价，10年期美债收益率触及5%关口，加剧了美联储加息预期下的市场恐慌。",
+        "why": "前沿AI公司主动踩刹车打破了行业‘唯快不破’的叙事，直接冲击了支撑高估值的AI硬件与算力资本开支逻辑，同时宏观利率环境恶化形成双重打击。",
+        "watch": "关注本周美联储会议对5%收益率的表态，以及AI巨头后续是否出台实质性的开发限制协议或安全标准。"
+      },
+      {
+        "title": "网络安全软件股历史性跑赢芯片板块，AI安全担忧引发资金避险",
+        "region": "美国",
+        "sources": [
+          "MarketWatch",
+          "Investor's Business Daily"
+        ],
+        "summary": "在AI硬件和芯片股因‘开发放缓’担忧大跌之际，CrowdStrike和Palo Alto Networks等网络安全软件股逆势大涨。软件板块在面临AI安全焦虑和模型失控风险时，展现出罕见的防御属性，创下历史性跑赢芯片板块的纪录。",
+        "why": "市场开始将AI的‘递归自我改进’和失控风险视为实质性的网络安全威胁，资金从高风险的AI算力基建向确定性更高的AI安全防护与软件端转移。",
+        "watch": "观察网络安全公司能否借机推出针对AI代理和自动化攻击的专属防御产品，从而将短期避险资金转化为长期估值溢价。"
+      },
+      {
+        "title": "美国EPA废除发电厂碳排放限制，为AI数据中心电力扩张扫除监管障碍",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "美国环保署（EPA）宣布计划废除剩余的发电厂温室气体污染排放标准。此举虽引发环保争议，但实质上大幅降低了电力企业的合规成本，为急需大规模稳定电力的AI数据中心扩建扫除了关键的监管与能源供给障碍。",
+        "why": "AI算力扩张正面临严峻的电力瓶颈，特朗普政府通过放松环保监管来隐性补贴AI基础设施，凸显了能源政策与科技战略的深度绑定。",
+        "watch": "关注大型科技公司与公用事业企业后续是否会加速签署长期购电协议（PPA），以及此举对全球AI算力地理分布的潜在影响。"
+      },
+      {
+        "title": "美国企业利用AI税收激励导致公司税收入骤降，AI政策开始实质性影响财政基本面",
+        "region": "美国",
+        "sources": [
+          "Politico"
+        ],
+        "summary": "据Politico报道，由于企业大量利用针对AI投资和研发的新税收激励政策，美国公司税支付额出现骤降。这表明AI产业扶持政策已从纸面法案转化为实质性的财政让利，开始对联邦税收基本面产生宏观影响。",
+        "why": "税收骤降反映了AI资本开支的庞大规模以及政策刺激的强效，但也可能加剧财政赤字压力，引发未来针对科技巨头‘税收套利’的监管反弹。",
+        "watch": "追踪美国财政部后续是否会出台针对AI税收抵免的补充限制条款，以及这对科技巨头实际有效税率（ETR）的长期影响。"
+      },
+      {
+        "title": "苹果将Apple Intelligence深度绑定高价iCloud+订阅，AI功能成为推动服务收入增长的新引擎",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "随着iOS 27发布，苹果为HomeKit安防摄像头引入基于Apple Intelligence的AI视频摘要等高级功能，但要求用户订阅最高达每月60美元的iCloud+高级套餐。苹果正通过硬件生态壁垒，将AI能力转化为高毛利的订阅服务收入。",
+        "why": "这标志着消费级AI商业化进入‘功能分级与订阅捆绑’的新阶段，苹果利用其封闭生态成功将AI算力成本转嫁给高净值用户，进一步拉高服务业务利润率。",
+        "watch": "关注消费者对高价AI订阅的接受度及转化率，以及此举是否会引发监管机构对‘软硬件捆绑与AI功能垄断’的新一轮反垄断审查。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMicEFVX3lxTE4teEhEV3lFNEY0RGNiYTR1LWZ2TFlya2dVeGZaS2JkSEhtWnBpQmRIU2FzT2YyY1V0TnNGMXZwYXlQZzlyWDRMY2Q0QVBnVUgybW5mRzEyazNjZl84WEFSai1nTnFtUGJDV2dhNWV2NS0?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLUFFaDBPNXQyQ3J4aUp3M3NsenNDMWU2SFRVQUhseDZTcHdMVTZSLVZ1dFBXZUNDcnROWHdxM2c0N0N5QW9xbVVWUWZ4ZnV0R1hVWmhVd0xyMWpWRUxpWHVYR093bVRERmlIb2pFYWJ5NzNxcU1kNzVReDFiOWZWcnVad01fS0xMSlZWRWhkVm1MUmR0Uk5VUHRQOGw?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQTgwc1ZDUmgtSE5MVld4WTdlWkFrWGhIbW5jRzFEY255a0U1VlhhRWF5MFhQdThhcUc1a3ZwUXc4RENjTVA2QzVYanFXdzlSNUQ2emRTc1h0ZEJWVmdxeWFuRi1VQS1ic3luaDZ4SkRHVTVXU0t1dGdUUXJ0S2FEOUZ4R1NZZGs5b1hhN2NPRU42NktFM3hMZEYzTWRsODBGMDd0RzhwUDl6TUppOWc?oc=5",
+      "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdjEzeFg3ME1GMExWR1JXLWpocjNJZ3NGX3R2dmRPVi1oTElMSmY2TEcyWmFKUmx2M0FKTXd3c0ZsMUtzNkt0OHYwUmRPbkNMNUJKTkE4NG9EVU8xa2g0NDVwMVFsOVpjUWZXa1N6UHBDSE5yVGdPUGJmN1ByVTdNcUxwVGk0ZnhBSngyMDVDTDdqTTZKYmlUZ21Uckd0VHV1LVZqcDJlV0kxYjV5dTJUd2VkYkxaT0otM3VCbjlqTjJzaGhldXdJTFhFUXRWaE1mWFplNDZSV2FCNEJf?oc=5",
+      "https://www.marketwatch.com/story/crowdstrike-and-palo-alto-networks-are-leading-software-stocks-toward-a-never-before-seen-feat-5b8989b2?mod=mw_rss_topstories",
+      "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-nvidia-nvda-stock-ai-warning/",
+      "https://www.theverge.com/news/995051/epa-power-plant-climate-pollution-rollback-ai-data-centers",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSUFRdEZjX3UtYk9tZC1qdVdxUUs4ZUdEczllV3VCRFIyTHhIeHU1ZVFvUVhNVzBvbkotSDdBTTdHZ2liNG1uWE9TWXlKOTRtR1pwNGJCVkZRb2lPazE0N1FfLVZlY2IxWjdUVlZlOV9KLW45OWZJb2dvSFZyWlM1cw?oc=5",
+      "https://www.theverge.com/tech/994949/apple-intelligence-apple-home-icloud-plus-cost-subscription"
+    ]
+  },
+  {
     "date": "2026-09-14",
     "displayDate": "2026年9月14日",
     "scope": "全球新闻｜科技与财经优先",
