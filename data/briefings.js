@@ -1,5 +1,78 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-16",
+    "displayDate": "2026年9月16日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-16.png",
+    "summary": "今日简报聚焦AI行业内部反思与资本市场震荡、科技巨头自研芯片降本、公共医疗AI应用争议、加密监管立法停滞及半导体长期增长预期。",
+    "focus": [
+      "AI安全与监管博弈、算力基础设施自研、数字资产合规化",
+      "科技巨头内部对AI发展速度的反思直接冲击资本市场估值，标志着AI行业从“盲目狂奔”进入“安全与监管博弈”的新阶段。",
+      "能源成本已成为AI数据中心扩张的核心瓶颈，Meta的自研芯片落地验证了定制硅片在降低TCO（总拥有成本）方面的商业可行性。"
+    ],
+    "items": [
+      {
+        "title": "AI行业领袖呼吁放缓发展引发科技股抛售，市场对AI安全与监管担忧加剧",
+        "region": "全球",
+        "sources": [
+          "Reuters",
+          "CBS News",
+          "nytimes.com"
+        ],
+        "summary": "多位AI行业高管公开呼吁放缓AI开发速度，引发全球科技股大幅下跌。投资者担忧此举可能招致更严格的监管，并暴露出行业内部对AI安全和发展节奏的严重分歧。",
+        "why": "科技巨头内部对AI发展速度的反思直接冲击资本市场估值，标志着AI行业从“盲目狂奔”进入“安全与监管博弈”的新阶段。",
+        "watch": "关注后续是否有具体监管法案跟进，以及科技巨头是否会调整资本开支节奏。"
+      },
+      {
+        "title": "Meta部署定制AI芯片大幅削减数据中心电费，科技巨头加速算力基础设施自研",
+        "region": "美国",
+        "sources": [
+          "Los Angeles Times"
+        ],
+        "summary": "Meta正在其数据中心大规模部署定制AI芯片，显著降低了AI训练和推理的能源成本。此举凸显了科技巨头在AI基建热潮中，通过自研芯片摆脱对通用GPU依赖并控制运营成本的战略。",
+        "why": "能源成本已成为AI数据中心扩张的核心瓶颈，Meta的自研芯片落地验证了定制硅片在降低TCO（总拥有成本）方面的商业可行性。",
+        "watch": "关注其他云厂商自研芯片的量产进度及Nvidia的应对策略。"
+      },
+      {
+        "title": "美国Medicare试点AI审批索赔导致拒绝率飙升，公共医疗AI应用面临监管审查",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "美国Medicare使用AI系统自动审批医疗索赔的试点项目暴露出“惊人的高拒绝率”和决策延迟问题。供应商警告系统尚未准备就绪，引发对AI在公共医疗领域应用伦理和准确性的强烈质疑。",
+        "why": "这是AI在政府公共服务和医疗支付领域大规模应用遭遇的典型挫折，可能触发针对医疗AI算法的专项监管和审计。",
+        "watch": "关注CMS是否会暂停该试点，以及医疗AI公司的合规成本变化。"
+      },
+      {
+        "title": "美国参议院Clarity Act投票失败，加密资产市场结构立法停滞引发比特币及相关股票暴跌",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "美国参议院未能推进《Clarity Act》（数字资产市场结构法案），导致加密监管框架继续处于模糊状态。消息公布后，比特币及加密概念股大幅下挫，市场对行业合规化进程感到失望。",
+        "why": "监管立法的停滞直接打击了加密资产作为机构级配置资产的逻辑，凸显了美国政治极化对金融科技和Web3行业发展的实质性阻碍。",
+        "watch": "关注SEC是否会借立法真空期继续采取执法行动，以及加密交易所的合规策略调整。"
+      },
+      {
+        "title": "美银预计半导体市场2030年将达3.2万亿美元，分析师称AI资本支出未见放缓迹象",
+        "region": "全球",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "美国银行分析师发布报告，预计全球半导体市场规模将在本十年末达到3.2万亿美元，并指出客户正在签署多年的芯片采购协议，认为AI基础设施投资并未出现市场担忧的放缓迹象。",
+        "why": "在市场对AI投资回报率产生疑虑的背景下，头部投行的乐观预期和长期订单数据为AI硬件和芯片板块提供了基本面支撑。",
+        "watch": "关注核心半导体设备与制造巨头的财报指引是否印证长期订单趋势。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSTRDc1JSdWVDTmE5WmI2MEFCWGgxWUdvcGRNNlNjNXNiMmlaRGhLYmpOUGhFbGNQQzI0cks4Wjk3a0JFaE4wdUVDdFJUangyS1ZOWFRZOUU3VmdjblNOb29feDFwRkRQNDR6WGw5Z0xxMUhTeEhqNGxYanNuSHBDcjRhRVRSYjhQTHBTTXBjZnF3MnA5NnR1TkNLWFZLNXJrd19VRUNaMTg1ZzlKbTB1RnV0VVM2cG84aTdEWGZ3bHRVY2M?oc=5",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVXdpZDdiY19ZRGlMaEw5V19ydTVZMFNSVW1wdTI1OWp2VkVFS0d6RlNTZ0VqOHV1TldXUnR4eV9ZX0h1LVBuRmx6eTBOSVlMRWM0WTdNR29lY0h0OHZaUTM2a1dzQUxDT3IwdnlUeDgxOGVYWXktal8wQkp5NFRBekYtYUw4ek92T3VqWGR6SkdaWEpQa3lfY3ZsSVpkaW9OMlF5UDk4LWpXMFluVHc?oc=5",
+      "https://www.marketwatch.com/story/medicare-is-using-ai-to-approve-claims-the-result-has-been-alarmingly-high-denial-rates-db87d902?mod=mw_rss_topstories",
+      "https://www.investors.com/news/clarity-act-senate-vote-digital-asset-market-structure-cryptocurrency-bitcoin-ethics-trump/",
+      "https://www.marketwatch.com/story/these-four-stocks-could-benefit-most-from-a-3-2-trillion-semiconductor-opportunity-e6bf58b4?mod=mw_rss_topstories"
+    ]
+  },
+  {
     "date": "2026-09-15",
     "displayDate": "2026年9月15日",
     "scope": "全球新闻｜科技与财经优先",
