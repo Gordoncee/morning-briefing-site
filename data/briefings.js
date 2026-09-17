@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-17",
+    "displayDate": "2026年9月17日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-17.png",
+    "summary": "今日简报聚焦AI基础设施的边界扩张与资本重估：Apple拟重返服务器市场联手Nvidia，Amazon深度绑定传统电力设备商保障数据中心能源，阿里巴巴上线万颗国产芯片算力集群，Arm上调AI芯片营收预期，而市场对AI资本支出放缓的担忧正在重塑科技股估值逻辑。",
+    "focus": [
+      "AI基建硬件延伸、数据中心能源保障、国产算力集群化、芯片架构商业化、AI资本开支预期",
+      "消费电子巨头向企业级AI算力硬件延伸，标志着AI基建热潮正在重塑传统硬件厂商的战略边界，软硬一体化能力将向B端溢出。",
+      "AI数据中心对电力稳定性的极高要求，正将科技巨头与传统能源/电力设备公司深度绑定，电力保障已成为AI基建的核心瓶颈与资本开支新方向。"
+    ],
+    "items": [
+      {
+        "title": "Apple计划重返企业服务器市场，拟与Nvidia合作抢占AI基建红利",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "据The Information报道，Apple正计划重返服务器硬件市场，并可能与Nvidia合作。Apple曾在2011年停产Xserve产品线，此次回归旨在抓住AI基础设施扩张带来的企业级算力需求。",
+        "why": "消费电子巨头向企业级AI算力硬件延伸，标志着AI基建热潮正在重塑传统硬件厂商的战略边界，软硬一体化能力将向B端溢出。",
+        "watch": "关注Apple自研芯片在服务器端的应用潜力，以及与Nvidia合作的具体形态、交付时间表和对现有企业级服务器格局的冲击。"
+      },
+      {
+        "title": "Amazon与Generac签署数据中心备用电源长期协议，Generac股价盘后大涨",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "Amazon与发电机制造商Generac达成一项长期协议，由Generac为其数据中心提供备用电源，同时Amazon将获得购买Generac股票的认股权证。消息公布后Generac股价在盘后交易中大幅飙升。",
+        "why": "AI数据中心对电力稳定性的极高要求，正将科技巨头与传统能源/电力设备公司深度绑定，电力保障已成为AI基建的核心瓶颈与资本开支新方向。",
+        "watch": "关注科技巨头在电力基础设施上的资本开支结构变化，以及认股权证条款对Generac等电力设备商长期估值和供应链优先级的影响。"
+      },
+      {
+        "title": "阿里巴巴上线由1万颗国产芯片驱动的AI数据中心",
+        "region": "中国",
+        "sources": [
+          "TechRepublic"
+        ],
+        "summary": "阿里巴巴正式推出一个完全由10000颗中国国产AI芯片驱动的新型数据中心，旨在提升本土算力基础设施的自主可控能力，并支持其庞大的AI模型训练与推理需求。",
+        "why": "中国科技巨头在AI算力受限背景下，加速推进国产芯片的大规模集群化部署，从单点测试走向万卡级真实商业环境验证。",
+        "watch": "关注该数据中心在实际大模型训练中的算力利用率、网络互联效率及故障率，以及后续国产芯片在阿里云公有云环境中的开放程度。"
+      },
+      {
+        "title": "Arm CEO对新AI芯片实现20亿美元营收目标更具信心",
+        "region": "英国/全球",
+        "sources": [
+          "CNBC"
+        ],
+        "summary": "Arm首席执行官表示，公司对旗下新款AI芯片实现20亿美元的更高营收目标更有信心。随着AI推理需求向边缘端和定制芯片转移，Arm的架构授权和自研芯片业务正迎来新增长点。",
+        "why": "芯片架构巨头在AI浪潮中从单纯的IP授权向更高附加值的硬件营收目标迈进，反映出云厂商自研芯片趋势下Arm商业模式的成功转型。",
+        "watch": "关注Arm自研芯片（如Neoverse系列）在云厂商定制芯片中的实际市场份额、营收转化速度，以及边缘AI推理市场的爆发节奏。"
+      },
+      {
+        "title": "行业警告引发市场担忧，投资者对AI支出放缓感到紧张",
+        "region": "全球",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "路透社报道，在多家科技和半导体公司发出行业警告后，投资者对AI资本支出可能放缓的担忧加剧。市场开始重新审视AI基础设施投资的回报率，导致相关股票承压。",
+        "why": "AI投资逻辑正从“无条件扩张”转向“关注ROI与商业化落地”，资本市场的理性回归将加速AI行业的优胜劣汰与估值分化。",
+        "watch": "关注 upcoming 财报季中各大云厂商对2027年AI资本开支的指引，以及AI应用端收入能否实质性弥补前期庞大的基建投入。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
+      "https://www.investors.com/market-trend/stock-market-today/amazon-deal-sends-generac-stock-skyrocketing/",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLVFjZmpYRTdRVnZFSXdVdkZuY2FnVHllbmtOcEZIQUx1OE1xOXhYQjlFb2FsV1VfZjBrOWFkSkxvNU5qSlJvMU1JQzdnYmZDR0EtQnZQeEFlWDJWVnB5aFk1QlA5QkYxTUlXY0NZeC1FRlVBbU1lVVg0U1dnUDJfSEphV1d0U0hjS0p1cXp3",
+      "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpS0FNXy04WllNc2ktM2RtNWRSNW1qVzktTlQ3WTVZVlcxdnQtV01CU1FZZElzMGhQamI1Q0VJSWdRcGphRUM1c3o0eTk0eGFral85bDFKZHVyM2x0STBXR2VOUnk0RlRRNjFVNFRKUHZNdnJKYnlRVElCc9IBgAFBVV95cUxPcnpsUXpZZ1JJRTdWTXN2d1pmMDFDN0F0WWdicnBFVE1wNUZDMmVvUkJqNVAyYnkybkgwRjhVZmlpbm9YdGNRTjhmSVBfNEMyb09IUmpxb0RtUG9CUVlIXzhrcFdSOEdoV3hUSHNOUUp6U3pnekExWVVRckN1cGM4MA",
+      "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSzVYeGFhZVhKUVVIZjBFWEF4ck1qZ2p2cUxaYmNMTzkycW9TUXJsbUFXOV80RF9Kb1BQamFzejg0enZFaHRlRGdUaGgzeUpUUGpsbW1BNnNJVWFOanVmZFJDMjBQYWYtT0hPSG5MUUlTYlZweWN5VDFyWndKWl9WNVBLWFFHUVl6dkJhem5EdGduY1ZpcjhuVjd6NDF1TXN5T1REdUZrYUhrajQ1aXdvd2EzcUNMTFBidmVJR0FtLTRWZw"
+    ]
+  },
+  {
     "date": "2026-09-16",
     "displayDate": "2026年9月16日",
     "scope": "全球新闻｜科技与财经优先",
