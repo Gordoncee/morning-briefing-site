@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-18",
+    "displayDate": "2026年9月18日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-18.png",
+    "summary": "本期简报聚焦宏观与科技监管的交叉博弈。CFTC在预测市场执法上退让，与近期CME诉讼形成监管反转；美联储加息后芯片股逆势领涨，印证AI硬件需求对冲了资金成本压力；美债百年最差表现催生左侧买盘，股债结构面临重塑。产业端，GF与Marvell扩大AI数据中心芯片合作，基建热潮向网络互连层蔓延；微软AI CEO公开批评Anthropic，巨头间的安全路线与监管定义权争夺进入白热化。",
+    "focus": [
+      "CFTC监管退让、AI数据中心网络芯片扩产、美联储加息后芯片股反弹、美债极端定价与配置、AI巨头安全路线博弈",
+      "近期CME起诉CFTC以阻止Kalshi推出永续合约，此消息表明CFTC在面临传统衍生品交易所压力与加密/预测市场创新之间选择了阶段性退让，预测市场的监管边界正在重塑。",
+      "在英伟达、Intel等巨头主导算力的背景下，数据中心网络与互连芯片成为AI基建的瓶颈之一，此举印证了AI资本开支正向供应链中下游及特色工艺蔓延。"
+    ],
+    "items": [
+      {
+        "title": "CFTC对预测市场与加密交易执法退让，与传统交易所博弈迎转折",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "CFTC宣布不会对部分在线预测市场和加密交易提供商采取执法行动，放宽了监管豁免范围。",
+        "why": "近期CME起诉CFTC以阻止Kalshi推出永续合约，此消息表明CFTC在面临传统衍生品交易所压力与加密/预测市场创新之间选择了阶段性退让，预测市场的监管边界正在重塑。",
+        "watch": "观察CME诉讼的后续司法进展及Kalshi等预测市场产品的扩张速度。"
+      },
+      {
+        "title": "GlobalFoundries与Marvell扩大芯片产能协议，押注AI数据中心连接需求",
+        "region": "全球",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "晶圆代工厂GlobalFoundries与芯片设计公司Marvell宣布扩大合作，增加用于AI数据中心连接和基础设施的芯片产能。",
+        "why": "在英伟达、Intel等巨头主导算力的背景下，数据中心网络与互连芯片成为AI基建的瓶颈之一，此举印证了AI资本开支正向供应链中下游及特色工艺蔓延。",
+        "watch": "关注Marvell在定制ASIC和数据中心网络芯片市场的份额变化及GF的产能利用率。"
+      },
+      {
+        "title": "美联储加息后纳斯达克反弹1.7%，Intel与AMD领涨芯片板块",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "在美联储宣布加息后，市场消化利率压力，纳斯达克指数反弹1.7%，其中Intel和AMD等芯片股成为领涨主力。",
+        "why": "验证了近期美联储结束降息叙事后的市场真实反应。芯片股在利率上行环境中依然强劲，表明AI硬件需求的确定性已部分对冲了宏观资金成本上升的压力。",
+        "watch": "盯紧后续通胀数据及芯片股能否在高位维持估值，特别是Intel代工业务的客户验证进展。"
+      },
+      {
+        "title": "10年期美债创百年来最差表现，但高收益率吸引投资者逆势买入",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "尽管10年期美国国债正经历100多年来最糟糕的连续抛售期，但不断攀升的收益率正吸引部分策略师和投资者重新配置债券资产。",
+        "why": "呼应了近期AI投资热潮改写股债结构的宏观主线。在美联储加息和通胀粘性下，债市的极端定价正在催生配置型资金的左侧交易，股债跷跷板效应可能再次显现。",
+        "watch": "关注长端美债收益率的顶部信号及机构资金从科技股向固收资产轮动的迹象。"
+      },
+      {
+        "title": "微软AI CEO Suleyman警告AI威胁，直指Anthropic加剧安全风险",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "微软AI CEO Mustafa Suleyman在访谈中表示AI安全威胁是真实的，并公开批评竞争对手Anthropic的某些做法正在使情况恶化。",
+        "why": "近期巨头高管频繁就AI安全与监管发声。Suleyman直接点名Anthropic，标志着AI巨头间的竞争已从技术和人才争夺，升级为对安全定义权和监管路线的公开博弈。",
+        "watch": "关注Anthropic的回应及美国影子AI政策是否会因巨头间的互相指责而加速落地。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.investors.com/news/prediction-markets-crypto-trading-online-cftc-expansion-exemption/",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxQb1NsT3J3UjhYTXNQVVBxa0RNdDcyTlFvMk1fYXNKVmtzS2FmSy02QjJxdTR0SXY5OHJycnVGT1R3aDRyVXUwV2pyYWRfSnM3dkRUQjVwRHc2RE9NY3FzVzc1OUFKbFI4TS1VNDVaaXB4RTI1VU5IbEVOeTV2TUMzbGpXYWRHbjZBaDdIZVpLaTI0RW9RbU85cnlMV0ZocmJ4SDNTb1g4alh0QmxlMHpudVd5SVpXWmhiWjV4Y2dhaw?oc=5",
+      "https://www.investors.com/market-trend/the-big-picture/stock-market-gains-post-fed-nasdaq-jumps-intel-amd-chip-rally/",
+      "https://www.marketwatch.com/story/the-bond-market-is-seeing-trouble-why-investors-are-buying-now-anyway-065a2f9f?mod=mw_rss_topstories",
+      "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude"
+    ]
+  },
+  {
     "date": "2026-09-17",
     "displayDate": "2026年9月17日",
     "scope": "全球新闻｜科技与财经优先",
