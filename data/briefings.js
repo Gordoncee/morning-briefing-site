@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-19",
+    "displayDate": "2026年9月19日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-19.png",
+    "summary": "本期简报聚焦AI监管与基础设施瓶颈：加州推动前沿模型“终止开关”，弗吉尼亚限制数据中心扩张；Arm推进20亿美元AI芯片战略；纽约时报诉讼案曝光AI训练“末日循环”内部警告；安全团队利用Claude黑入OpenAI凸显模型能力溢出风险。",
+    "focus": [
+      "AI监管政策",
+      "芯片与云基础设施",
+      "AI安全与版权"
+    ],
+    "items": [
+      {
+        "title": "加州州长纽森签署行政令推动前沿AI模型“终止开关”",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "加州州长Gavin Newsom发布新行政令，确立该州在AI监管领域的领先地位，其中包括要求前沿AI模型必须具备强制“终止开关”（kill switch）的潜在规定，以应对失控风险。",
+        "why": "这是美国州级层面针对前沿AI模型安全提出的最激进监管框架之一，将直接影响硅谷AI公司的合规成本与模型部署策略。",
+        "watch": "关注该行政令的具体立法转化进度，以及OpenAI、Anthropic等头部企业对“终止开关”技术可行性的回应。"
+      },
+      {
+        "title": "Arm股价大涨，CEO暗示供应链缓解并推进20亿美元AI芯片战略",
+        "region": "全球",
+        "sources": [
+          "finance.biggo.com"
+        ],
+        "summary": "Arm Holdings股价在CEO发出供应链压力缓解信号后大幅反弹，公司正推进一项规模达20亿美元的AI芯片定制与授权扩张计划，以抢占数据中心AI算力份额。",
+        "why": "Arm在AI芯片架构授权上的扩张直接挑战x86与现有GPU生态，供应链缓解有助于其客户加速流片，是半导体周期与AI硬件需求的重要交叉验证点。",
+        "watch": "跟踪Arm定制芯片业务（CSS）的营收占比变化，以及主要云厂商采用Arm架构训练与推理芯片的实际落地进度。"
+      },
+      {
+        "title": "纽约时报诉讼案解封文件曝光：OpenAI与微软早知训练数据会引发网络“末日循环”",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "纽约时报诉OpenAI和微软侵权案的最新解封法庭文件显示，两家公司的内部文档曾明确警告，使用网络抓取数据训练大模型将导致互联网内容生态陷入自我消耗的“末日循环”（doom loop）。",
+        "why": "该文件为AI版权诉讼提供了关键的主观明知证据，可能深刻影响未来大模型训练数据的合规边界及内容平台的授权定价权。",
+        "watch": "关注法庭对合理使用抗辩的后续裁决，以及各大内容出版商是否会借此掀起新一轮针对AI巨头的集体诉讼。"
+      },
+      {
+        "title": "安全研究人员利用Anthropic的Claude成功黑入OpenAI内部系统",
+        "region": "全球",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "独立安全团队Hacktron的三名研究人员表示，他们利用Anthropic的Claude Opus 4.8和5模型，在不到72小时内成功实施了针对OpenAI员工账户的钓鱼与社会工程学攻击。",
+        "why": "这一事件首次实证了前沿大模型在自动化网络攻击中的高效性，凸显了AI模型能力溢出带来的严重安全隐患，对AI安全对齐与防御提出了新挑战。",
+        "watch": "关注OpenAI内部安全审计的整改结果，以及监管机构是否会因此加速出台针对AI辅助网络攻击的专项限制法案。"
+      },
+      {
+        "title": "弗吉尼亚州长成立AI工作组并着手限制数据中心无序扩张",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "弗吉尼亚州州长Abigail Spanberger下令成立AI工作组，并采取措施赋予地方社区对数据中心开发的更大话语权，旨在放缓这个全球最大数据中心枢纽的审批与建设速度。",
+        "why": "弗吉尼亚州是全球AI云基础设施的核心节点，地方层面的环保与电网压力反弹标志着AI算力基建正面临实质性的物理与政策瓶颈。",
+        "watch": "观察该政策是否会导致科技巨头将新增算力投资转移至其他州或海外，以及当地电网扩容计划与数据中心审批的博弈结果。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kUmhudzlkM05oN2dTNDI5WXozXzVpdHdMNkhqV3hDWWlYUDQ1SHhhQVJpamlBY0UzandvTkNTNm0yVGlNTHZxNkJEbHd3TnRQQlYyVkVOQVZteUhuTjBKYTZNUFdVa0d0OC1Ecnp4QlUxT3kzUHc?oc=5",
+      "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+      "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
+      "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force"
+    ]
+  },
+  {
     "date": "2026-09-18",
     "displayDate": "2026年9月18日",
     "scope": "全球新闻｜科技与财经优先",
