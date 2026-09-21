@@ -1,5 +1,77 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-21",
+    "displayDate": "2026年9月21日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-21.png",
+    "summary": "本期简报聚焦AI头部企业的资本运作与现金流压力、中国AI芯片与商业航天的扩张布局，以及美联储加息落地后宏观利率与AI监管政策的最新博弈。",
+    "focus": [
+      "AI资本市场",
+      "芯片与机器人",
+      "宏观利率"
+    ],
+    "items": [
+      {
+        "title": "Anthropic推迟IPO至11月，OpenAI预计面临巨额现金消耗",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "据WSJ和FT报道，Anthropic将其IPO计划推迟至11月，而OpenAI则预计未来将出现大规模的负现金流。",
+        "why": "AI双雄的资本运作与财务预期直接反映了前沿模型研发的高昂成本与一级市场定价的博弈，是观察AI商业化落地与资本耐力的核心指标。",
+        "watch": "关注11月Anthropic IPO的实际定价区间，以及OpenAI后续融资轮次中估值与现金消耗率的平衡。"
+      },
+      {
+        "title": "中国AI芯片制造商海光信息计划将业务扩展至机器人市场",
+        "region": "中国",
+        "sources": [
+          "South China Morning Post"
+        ],
+        "summary": "中国AI芯片企业海光信息（Hygon）正计划将其芯片业务扩展至机器人市场，寻求在具身智能领域的增量空间。",
+        "why": "在算力受限背景下，中国芯片厂商向机器人等垂直应用场景延伸，标志着国产AI芯片从通用算力向边缘与具身智能生态的战略突围。",
+        "watch": "关注海光在机器人领域的具体芯片产品线落地，以及国内具身智能初创公司的供应链导入情况。"
+      },
+      {
+        "title": "美联储宣布加息25个基点至3.75%-4.0%，高利率与AI安全担忧考验市场",
+        "region": "美国",
+        "sources": [
+          "CNBC",
+          "MarketWatch"
+        ],
+        "summary": "美联储本周宣布加息25个基点，将联邦基金利率目标区间上调至3.75%-4.0%，高利率环境与AI安全担忧对股市形成双重压力测试。",
+        "why": "加息落地打破了前期的降息预期，宏观流动性收紧叠加AI板块的安全与估值担忧，将直接重塑科技股的定价逻辑与资金流向。",
+        "watch": "关注科技巨头在3.75%-4.0%利率环境下的资本开支融资成本，以及市场对AI安全监管政策落地的风险溢价重估。"
+      },
+      {
+        "title": "特朗普提议成立“AI部队”并任命“AI沙皇”以应对行业监管呼声",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "特朗普在Truth Social上表示，计划任命一名“AI沙皇”并领导一支新的“AI部队”，以回应政界与业界对加强AI监管的呼吁。",
+        "why": "此举标志着美国AI政策从“影子监管”走向实体化机构构建，可能深刻影响前沿模型的合规边界与科技巨头的政企合作模式。",
+        "watch": "关注“AI沙皇”的具体人选及其对开源模型、算力出口和AI安全测试标准的政策倾向。"
+      },
+      {
+        "title": "中国商业航天加速追赶SpaceX，瞄准全球太空经济市场份额",
+        "region": "中国/全球",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "中国太空技术企业正扩大其全球影响力，在商业发射与卫星互联网等领域加速追赶SpaceX，争夺全球太空经济份额。",
+        "why": "商业航天是继AI之后的另一大硬科技资本密集型赛道，中国玩家的入局与加速将改变全球低轨卫星与太空基础设施的竞争格局。",
+        "watch": "关注中国可重复使用火箭的研发测试进度，以及低轨卫星互联网项目的商业化组网节奏。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.investors.com/news/technology/anthropic-ipo-delayed-openai-expects-massive-cash-burn/",
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2NyN2VHNkRrck14YTZfdGJHYVdmbFhpYUd3cEVEVzhlR1VTTTlyMXdTSnd4dmhVakd5UWE2amlTeVJ4OEM1d0twd2JGSzF6TWxCck9uallwQ1pEV2FEZFRGa19rc3lmd3ZKS3hPUXpxRE9UQkVHLWVyRDVxUHppSzg5S2hYUFlxelRFdWpLQmhYREtiQk9NVko1Q2I1WkpWSVF4bHVlZXpma09FYXpFVkZzMGVtbjZqUnfSAboBQVVfeXFMTWFibk5BM2gyR1pDdUpuMk1tMVNFbk1VOFNpZXMwOWFZTzhUR3kwcVUybjFRQTZXNGdqWk9JanJwdFliczJtaXE2NlMzbDg3N1IwTnY0VFBVdEVMZ1R0TnpGVUlhUUx0bFdDenFpa0hUNldOMThzX2owNTlWRkRuOEhNeHRMQ2pXZzRYbmZ2LV9fSlk3TzdPTWhjTnVrcWlYMUR3X0FNOU5uaDhkQzNpWnBycnhic0F1WXlR?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZER3dGN0cmxoX1RqbnBKQnZRT2Y0TkV0N01ubkZGemVLM1FtY1c4SmVCTllxaWtMaTRVbW9rUXpHZmxPMjFsVHRBaFF4eGFKSGkwVk5hSDZaREgyRjZTTl93a2JaUjBtbWgzMHByYzRsY2tPcjZCR2JUVElkZGVndk56azh2MGV1NFMxSHdXUU9jX1FsU05NME95ME9iWjBXczZ0TGh4bGpzRzFSbDN2WmVYZWZRaXFQTXVDeHRB?oc=5",
+      "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+      "https://www.marketwatch.com/story/china-is-chasing-spacex-and-setting-its-sights-on-the-global-space-economy-3b9e37ff?mod=mw_rss_topstories"
+    ]
+  },
+  {
     "date": "2026-09-20",
     "displayDate": "2026年9月20日",
     "scope": "全球新闻｜科技与财经优先",
