@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-22",
+    "displayDate": "2026年9月22日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-22.png",
+    "summary": "本期简报聚焦AI基础设施监管与资本市场重估。AMD市值历史性突破万亿美元大关，凸显算力芯片的长期溢价；加州率先对AI数据中心的能耗与水资源使用施加严格限制，云基础设施的合规成本面临上升；英国央行警告AI算法可能引发市场崩盘，金融监管紧迫性加剧；派拉蒙1100亿美元并购华纳兄弟扫清反垄断障碍，传媒巨头加速整合；Meta则凭借AI助手Muse的爆发推动股价创下13年最佳单月表现，AI应用端开始实质性兑现估值。",
+    "focus": [
+      "AI基建监管、芯片估值、金融AI风险、传媒并购",
+      "标志着AI算力市场的估值天花板再次被打开，AMD在AI芯片领域的追赶效应正在被资本市场实质性定价。",
+      "AI算力扩张正遭遇物理资源瓶颈，加州作为全球科技中心，其监管政策将为全球云基础设施的合规成本和选址逻辑设定新基准。"
+    ],
+    "items": [
+      {
+        "title": "AMD市值首次突破1万亿美元，芯片双寡头格局进一步固化",
+        "region": "全球",
+        "sources": [
+          "eu.36kr.com"
+        ],
+        "summary": "AMD市值历史性地突破1万亿美元大关，成为继英伟达之后第二家迈入万亿俱乐部的纯芯片设计公司。这一里程碑反映了市场对其在AI数据中心GPU和定制芯片领域市场份额扩张的强烈预期。",
+        "why": "标志着AI算力市场的估值天花板再次被打开，AMD在AI芯片领域的追赶效应正在被资本市场实质性定价。",
+        "watch": "关注AMD下一代MI系列芯片的量产良率及头部云厂商的实际采购订单转化率。"
+      },
+      {
+        "title": "加州签署法案收紧AI数据中心能源与水资源使用限制",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "加州州长签署七项法案，旨在防止AI数据中心将公用事业成本转嫁给居民，并要求对数据中心的能源和水资源消耗进行更严格的审查与限制。",
+        "why": "AI算力扩张正遭遇物理资源瓶颈，加州作为全球科技中心，其监管政策将为全球云基础设施的合规成本和选址逻辑设定新基准。",
+        "watch": "追踪科技巨头在加州及其他水资源紧张地区的数据中心扩建计划是否因此推迟或转移。"
+      },
+      {
+        "title": "英国央行高管警告AI算法交易可能引发市场崩盘，呼吁紧急监管",
+        "region": "英国",
+        "sources": [
+          "Bloomberg.com"
+        ],
+        "summary": "英国央行审慎监管局副首席执行官Sarah Breeden警告称，监管机构阻止AI引发市场崩盘的时间正在耗尽，呼吁对金融市场中日益普及的AI代理和算法交易实施更严格的系统性风险管控。",
+        "why": "AI在金融领域的深度应用正从效率工具演变为系统性风险源，全球主要央行对Agentic AI的监管共识正在加速形成。",
+        "watch": "关注英美金融监管机构后续是否出台针对AI高频交易和自主代理的具体压力测试框架。"
+      },
+      {
+        "title": "派拉蒙就1100亿美元收购华纳兄弟探索案与多州达成和解，扫清反垄断障碍",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "派拉蒙与加州等12个州达成和解，解决了阻止其1100亿美元收购华纳兄弟探索的反垄断诉讼。该和解为这笔重塑好莱坞格局的超级并购案移除了最大的监管路障。",
+        "why": "在流媒体和AI生成内容的双重冲击下，传统传媒巨头正通过超大规模并购来整合IP库和分发渠道，以维持议价能力。",
+        "watch": "关注合并后新实体在流媒体定价权及AI内容生成版权方面的战略调整。"
+      },
+      {
+        "title": "Meta凭借新AI助手Muse推动股价创下13年来最佳单月表现",
+        "region": "美国",
+        "sources": [
+          "marketwatch.com"
+        ],
+        "summary": "Meta旗下新推出的AI助手Muse用户增长强劲，成功说服投资者其庞大的AI资本开支正在转化为实际的产品护城河，推动公司股价录得13年来的最佳单月涨幅。",
+        "why": "打破了市场对科技巨头AI投资只烧钱不赚钱的担忧，证明消费级AI应用已具备直接拉动平台估值重估的商业化能力。",
+        "watch": "观察Muse的日活用户留存率及其对Meta核心广告业务转化率的实际提升效果。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Qa0YtMkVUbGV1d2lVVkptd3FDMzFCakVRSE9Tcy1mZFdONHJCMzROUmhjZXV3QnFvVjZROFNybHlGd3JuMDhxYTAtQWNXdGJxQzN3?oc=5",
+      "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQngzN1Z3d3UweEVfV0ZFc3BIT2J6YS0yaHJmZ01udldJcjJLeEpXWXd5MnVkam92LUNLWjdfaXhOV0kwcnowcXktTTZPVE94eURtZXRpZDBWcVdDTG5FbDBobFd0WkZtbW1ZSWNSRXQ2Si1SQnlDbkw5TktMa2lmbUpCOUtMN0c0VlUzbXotQmJILXJmT0t2eW5RZ0M4UDB6LWF3amZmdkJjMkFqY0tNbzdTUDc?oc=5",
+      "https://www.theverge.com/entertainment/998302/paramount-warner-bros-discovery-merger-settlement",
+      "https://www.marketwatch.com/story/metas-stock-is-enjoying-its-best-month-in-more-than-two-years-thanks-to-the-companys-hot-new-ai-assistant-bf106291?mod=mw_rss_topstories"
+    ]
+  },
+  {
     "date": "2026-09-21",
     "displayDate": "2026年9月21日",
     "scope": "全球新闻｜科技与财经优先",
