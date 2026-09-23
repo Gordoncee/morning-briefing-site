@@ -1,5 +1,80 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-23",
+    "displayDate": "2026年9月23日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-23.png",
+    "summary": "今日简报聚焦纳斯达克在AI股领涨下创历史新高但引发集中度警告，阿里巴巴发布新一代芯片与AI模型计划加速算力基建，存储芯片受AI推理需求提振触发买入信号，AI基建债务激增促使企业债投资者转向挑剔，以及Meta的Muse应用下载量激增被视为其AI战略转折点。",
+    "focus": [
+      "AI资本市场分化、中国算力基建、存储芯片周期、AI债务信用评估、AI应用层爆发",
+      "宏观与资本市场主线，反映AI热潮对美股估值的极致拉动及潜在的系统性集中度风险。",
+      "中国科技与芯片主线，显示中国科技巨头在外部限制下加速底层算力自研与AI生态闭环的战略决心。"
+    ],
+    "items": [
+      {
+        "title": "纳斯达克创历史新高，AI股票领涨但引发市场集中度警告",
+        "region": "美国",
+        "sources": [
+          "Reuters",
+          "Barron's"
+        ],
+        "summary": "纳斯达克指数在AI相关股票的强劲带动下创下历史新高，但分析师警告，市场涨幅过度依赖少数AI巨头，这种高集中度可能掩盖了更广泛市场的脆弱性，提醒投资者警惕回调风险。",
+        "why": "宏观与资本市场主线，反映AI热潮对美股估值的极致拉动及潜在的系统性集中度风险。",
+        "watch": "关注科技巨头财报指引及美联储后续利率路径对高估值AI股的流动性压力测试。"
+      },
+      {
+        "title": "阿里巴巴发布新一代强大芯片及雄心勃勃的AI模型计划",
+        "region": "中国",
+        "sources": [
+          "ABC News"
+        ],
+        "summary": "阿里巴巴正式推出新一代高性能自研芯片，并公布了极具雄心的AI大模型发展计划，旨在提升其云计算基础设施的算力自主性，进一步巩固其在中国AI基建和云服务市场的竞争地位。",
+        "why": "中国科技与芯片主线，显示中国科技巨头在外部限制下加速底层算力自研与AI生态闭环的战略决心。",
+        "watch": "关注该芯片在阿里云数据中心的实际部署规模及对外部AI芯片供应商的替代效应。"
+      },
+      {
+        "title": "存储芯片股受AI推理需求提振，SanDisk与Micron触发买入信号",
+        "region": "全球",
+        "sources": [
+          "MarketWatch",
+          "Investor's Business Daily"
+        ],
+        "summary": "随着大型AI模型和推理需求的爆发，NAND闪存正从传统大宗商品转变为关键计算组件。分析师看好SanDisk的AI增长潜力，同时Micron等存储巨头也因基本面改善触发技术面买入信号。",
+        "why": "芯片与AI硬件主线，印证AI需求正从训练端向推理端蔓延，直接重塑存储芯片的周期与估值逻辑。",
+        "watch": "跟踪NAND闪存价格趋势及各大云厂商对高带宽和企业级SSD的资本开支落地情况。"
+      },
+      {
+        "title": "企业债投资者对激增的AI基建债务变得挑剔，融资面临信用分化",
+        "region": "全球",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "面对科技公司为AI基础设施筹集的庞大债务洪流，企业债券买家开始变得更加挑剔。市场正对AI项目的真实回报率和现金流进行严格审查，导致AI相关融资出现明显的信用分层。",
+        "why": "资本市场与AI基建主线，表明AI投资热潮正从盲目的股权融资转向理性的债权定价，信用风险开始显现。",
+        "watch": "关注高杠杆AI初创公司及二线云服务商的债券发行利差变化及违约风险溢价。"
+      },
+      {
+        "title": "Meta的Muse应用下载量激增，被视为其AI战略的“ChatGPT时刻”",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "Meta新推出的AI助手应用Muse在App Store排行榜上名列前茅，其早期下载增速甚至超越了ChatGPT。这一现象级表现重振了华尔街对Meta AI战略的信心，被视为其AI商业化落地的关键转折点。",
+        "why": "AI应用与平台主线，标志着AI竞争焦点正从底层模型能力向C端超级应用和生态入口转移。",
+        "watch": "关注Muse的用户留存率、日活数据及其对Meta核心广告业务变现效率的实际提升作用。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOUI2bTZ5ZFhnZUozYjg5LXM1WHhuT24xUS0zYmRRZkViWVBreE05ZTNMWFBDSGhHTXUyQ3ZyMWhsUFdxSUlxUXVUUXVHWGRVelg3Z2RuVXo3bndwaXJfRXhEUEFERFNSUVZoaDNERnFxdnhuNkxLdVhnNDRpRGhxYndETzVJdVNnZXJESmpMNmw5QVFQODFGY2w2NzVCcFl0bXBSNjRaTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZFR5Q2R4VDNDb3ZaclowWFFua2xpNTY0NlBvQ3p4M05vTGg5eWFYeG5MLW5HclRPTjVNVklzdkIzNHNBMmktTDdqRFk1UmZTQlF2MDhoUDJYaWlFQWJPR2lJWURFdVJzd2Z6Z3RHcVlFR0cwU1Y0REpaNGQwVUlaR3J2YmVvLU92UDlINkhaaw?oc=5",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcTdMZmxNRjBERWJIeWUzNFRhdmVvbjk5ZnBqVTlxRkNzMHo2cW9NbFZoY0c0Si0xOThFV0xIb1RWZVJLQTEtbGtrUnk0ZWxhLWpMcWlRMjRBWmR3ZzdrcHdCSUU2Uld5N1hxcXR0X3RDbWF2d0lNaThwejdSMFE5VjFBamQyZVNfMkxnd19oQ0pKT2ljUVZTSTFaanF6WDZGOUstMC1kZ00xX03SAbABQVVfeXFMT3RpUUZMQTItVTFHamktM3NPMzhlcTlVeXQxQzhvQmNkOHFLYVRYMTB2TlI0Z19ZZDZyUlllbVJweHBFWlRwRUZaX2JhR3ZITkI0M0FEXzJwMWJhc1RpN24tbTNvTjdSM1VVMFBKWG91Wll1Y2NmUzU4RFhXNG1RbDVEcUc1dVVNSkV3a2NNUkdTbkJyS2dlSGY3cGFHOVRYTlVDUFp2Q1hVNGtSMTl6cDc?oc=5",
+      "https://www.marketwatch.com/story/sandisks-stock-is-rising-why-one-analyst-says-ai-could-help-it-reach-new-heights-5541ded8?mod=mw_rss_topstories",
+      "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nasdaq-hits-high-sandisk-micron-buy-signals/",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYTBXQ0tEcFNaRTU4dV9GdmJTSmxPVUYzVVhNQmRyWkRHSEx5YTJNMjFLcjNIWFI2R05iSEhSdlF3b29abnEteEcyR3dtWHBCYmNDWmJXcTBqQkdwWUxmWi12Yk1sQWV6VWJPTjZWeG9FckdFT3FlMVhXRkk5SFZyWElxZXVMZ1J2SEpiMm1CZ19jQXVkSnFpUVB6Ujk4cmdyOXNESXhiZXprUQ?oc=5",
+      "https://www.marketwatch.com/story/could-metas-viral-muse-app-be-the-companys-chatgpt-moment-8e7075aa?mod=mw_rss_topstories"
+    ]
+  },
+  {
     "date": "2026-09-22",
     "displayDate": "2026年9月22日",
     "scope": "全球新闻｜科技与财经优先",
