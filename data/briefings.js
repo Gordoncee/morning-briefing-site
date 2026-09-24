@@ -1,5 +1,77 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-24",
+    "displayDate": "2026年9月24日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-24.png",
+    "summary": "今日简报聚焦Meta Connect 2026发布VR眼镜与Muse AI硬件，加速可穿戴AI入口争夺；纽交所探索全天候代币化交易，重塑金融基础设施；阿里巴巴推出新一代AI芯片，中国算力基建持续加码；美债收益率飙升引发纳斯达克回调，宏观利率压力重现；高通发布边缘AI芯片，推动大模型向端侧下沉。",
+    "focus": [
+      "AI硬件与可穿戴设备",
+      "金融基础设施代币化",
+      "自主算力芯片"
+    ],
+    "items": [
+      {
+        "title": "Meta Connect 2026发布VR眼镜与Muse AI独立硬件，加速AI可穿戴设备布局",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "Meta在年度Connect大会上推出轻量化VR眼镜及专属Muse AI代理硬件Muse Charm，同时宣布无摄像头智能眼镜与Muse代理的深度整合，全面加速AI可穿戴入口布局。",
+        "why": "Meta从软件代理向专用硬件延伸，标志着AI巨头在下一代计算入口的争夺从云端和手机正式转向可穿戴设备。",
+        "watch": "关注Muse AI硬件的量产成本与开发者生态接入进度，以及轻量化VR眼镜对现有头显市场的替代效应。"
+      },
+      {
+        "title": "纽交所联手区块链公司探索全天候股票交易，传统金融基础设施加速代币化",
+        "region": "美国",
+        "sources": [
+          "investors.com"
+        ],
+        "summary": "纽约证券交易所正与一家加密交易公司合作，开发基于区块链代币化技术的全天候股票交易系统，推动传统金融市场向24/7全球化交易演进。",
+        "why": "传统交易所引入加密与代币化技术以延长交易时间，反映出数字资产基础设施正在反向重塑传统资本市场的底层架构。",
+        "watch": "关注SEC对代币化股票全天候交易的监管态度，以及该举措对全球流动性分布和做市商策略的长期影响。"
+      },
+      {
+        "title": "阿里巴巴发布新一代高性能AI芯片，中国科技巨头继续加码自主算力基础设施",
+        "region": "中国",
+        "sources": [
+          "Northwest Arkansas Democrat-Gazette"
+        ],
+        "summary": "阿里巴巴正式推出新一代强大AI芯片，旨在提升其云计算与AI大模型的底层算力支撑，继续深化在自主半导体领域的战略布局。",
+        "why": "在外部芯片限制与内部大模型需求双重驱动下，中国头部云厂商加速自研芯片迭代，算力自主可控主线进入产品验证期。",
+        "watch": "关注该芯片在阿里云内部AI集群的部署规模、良率表现，以及对外部客户开放商业化的具体时间表。"
+      },
+      {
+        "title": "美国国债收益率飙升致纳斯达克自历史高点回落，宏观利率压力重现压制科技股估值",
+        "region": "美国",
+        "sources": [
+          "investors.com"
+        ],
+        "summary": "受强劲经济数据推动，美国国债收益率大幅飙升，导致纳斯达克指数从历史高点回调，宏观利率不确定性再次成为压制科技股估值的核心变量。",
+        "why": "AI热潮推高的科技股估值对长端利率极为敏感，国债收益率的反弹测试了当前高估值市场的脆弱性，宏观变量重新主导短期定价。",
+        "watch": "关注10年期美债收益率能否突破关键阻力位，以及美联储官员对高利率维持更久立场的后续表态。"
+      },
+      {
+        "title": "高通发布新一代移动端处理器，推动AI大模型向边缘设备与智能手机下沉",
+        "region": "美国",
+        "sources": [
+          "investors.com"
+        ],
+        "summary": "高通在Snapdragon Summit 2026上推出全新移动处理器，专为在边缘设备运行AI应用优化，加速端侧AI大模型的普及与商业化落地。",
+        "why": "端侧AI是缓解云端算力瓶颈和隐私担忧的关键路径，高通的新芯片将直接决定下一代AI手机与IoT设备的体验上限。",
+        "watch": "关注安卓阵营旗舰机型对新芯片的采纳速度，以及端侧运行百亿参数模型的实际功耗与发热控制表现。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/tech/999593/meta-connect-2026-everything-announced",
+      "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+      "https://www.investors.com/news/nyse-blockchain-tokenized-trading/",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbkFWM19uZVBRX3JWX2N1ZEJraHJpZjllUy04Y2VRUzFmRVVYS0xyZGxTOG9oTFdnb1VkT2Z2WVZQTzk1U0E0NUpfLXF0QWRROXNVYTZhcm1Damd2NnhwaDllMW5xQzFqVFhkN3N3aGI1Qm1GOFk2OTRyVkYyMzdRak1OQkpKdlNqbEpqUTlBaTEtZG02VUVTYzlOYXA5cm8?oc=5",
+      "https://www.investors.com/market-trend/the-big-picture/stock-market-treasury-yields-palantir-stock-pltr/",
+      "https://www.investors.com/news/technology/qualcomm-stock-qcom-edge-ai-snapdragon-summit-2026/"
+    ]
+  },
+  {
     "date": "2026-09-23",
     "displayDate": "2026年9月23日",
     "scope": "全球新闻｜科技与财经优先",
