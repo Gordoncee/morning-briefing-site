@@ -1,5 +1,77 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-25",
+    "displayDate": "2026年9月25日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-25.png",
+    "summary": "本期简报聚焦AI基础设施的资本与项目动态，包括Akamai与Anthropic的百亿级算力协议以及Oracle项目延迟对AI融资的冲击。同时关注欧洲对金融AI的直接监管、中美宏观互动对科技股的影响，以及微软在AI PC硬件战略上的品牌调整。",
+    "focus": [
+      "AI基建融资、平台监管、宏观博弈、AI硬件战略",
+      "百亿级订单验证了AI推理和训练算力需求的持续爆发，同时显示AI基础设施供应链正在多元化，边缘计算和分布式云节点成为前沿模型部署的新战场。",
+      "AI数据中心建设高度依赖复杂的结构化融资和私募信贷，项目延迟暴露出供应链、电力或审批环节的瓶颈，可能促使投资者重新评估AI基建项目的风险溢价。"
+    ],
+    "items": [
+      {
+        "title": "Akamai与Anthropic达成110亿美元AI算力协议，云基础设施竞争加剧",
+        "region": "全球",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "CDN与云安全巨头Akamai宣布与AI模型开发商Anthropic签署价值110亿美元的算力基础设施协议，消息公布后Akamai股价大幅上涨。此举标志着AI算力需求正从传统超大规模云厂商向边缘和分布式云基础设施外溢。",
+        "why": "百亿级订单验证了AI推理和训练算力需求的持续爆发，同时显示AI基础设施供应链正在多元化，边缘计算和分布式云节点成为前沿模型部署的新战场。",
+        "watch": "关注Akamai后续算力交付进度及Anthropic模型推理成本的变化，以及其他云厂商是否跟进类似的大规模分布式算力采购。"
+      },
+      {
+        "title": "Oracle与Blue Owl项目延迟冲击AI融资市场，基建热潮现隐忧",
+        "region": "美国",
+        "sources": [
+          "Investing.com",
+          "Reuters"
+        ],
+        "summary": "据路透社分析，Oracle与另类资产管理公司Blue Owl合作的AI数据中心项目出现延迟，这一消息在AI融资市场引发连锁反应，凸显了当前AI基础设施庞大资本开支背后的执行风险与资金链压力。",
+        "why": "AI数据中心建设高度依赖复杂的结构化融资和私募信贷，项目延迟暴露出供应链、电力或审批环节的瓶颈，可能促使投资者重新评估AI基建项目的风险溢价。",
+        "watch": "盯紧Oracle后续财报中关于资本开支和数据中心交付的指引，以及私募信贷市场对AI基建项目融资条件的收紧迹象。"
+      },
+      {
+        "title": "欧洲监管机构准备对零售金融领域的AI和代币化实施直接监管",
+        "region": "欧洲",
+        "sources": [
+          "CoinDesk"
+        ],
+        "summary": "欧洲金融监管机构正筹备对零售金融市场中的AI应用和资产代币化实施直接监督，旨在防范算法交易、AI投顾和加密资产融合带来的系统性风险和消费者保护问题。",
+        "why": "随着AI代理和Web3技术在金融领域的渗透，监管边界正在从传统科技平台向金融底层技术延伸，这将直接影响金融科技公司和加密平台的合规成本与业务模式。",
+        "watch": "关注欧洲相关监管草案的具体落地时间，以及对使用AI进行自动化交易和资产管理的金融科技公司的合规冲击。"
+      },
+      {
+        "title": "中美高层会面影响市场情绪，Oracle因AI走势跌破关键技术位",
+        "region": "全球",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "美股市场在特朗普与中方领导人会面后表现分化，宏观博弈情绪交织。同时，科技股内部出现调整，Oracle因AI相关业务的市场预期变化跌破关键技术支撑位，显示资金对AI软件与基建股的估值分歧加大。",
+        "why": "宏观地缘互动与微观科技股走势共振，Oracle的回调反映出市场对AI资本开支能否转化为实际软件收入的担忧，AI行情正从普涨进入基本面验证期。",
+        "watch": "关注中美后续经贸与科技领域的政策互动，以及Oracle等AI基建和软件股在关键支撑位附近的资金承接力度。"
+      },
+      {
+        "title": "微软放弃“Copilot Plus PC”品牌，AI PC硬件战略面临调整",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "微软决定逐步淘汰“Copilot Plus PC”这一专属品牌名称。此前微软试图通过该品牌定义具备足够本地AI算力的PC标准，但市场接受度和硬件生态的碎片化促使微软重新审视其AI硬件营销策略。",
+        "why": "AI PC概念在落地过程中遭遇消费者认知和实际应用场景的瓶颈，微软的品牌调整反映出AI硬件入口的争夺正从单纯的算力堆叠转向生态和体验的整合。",
+        "watch": "观察微软后续如何重新定义Windows AI生态的硬件标准，以及高通、Intel和AMD在AI PC芯片市场的份额变化。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.investors.com/news/technology/akamai-stock-akam-surges-anthropic-artificial-intelligence-computing/",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUzRvVXhuY0VUdWZ5OXNtMVYyWGlfT3hVRHMxdEo0b1ZFTmJISWRXei04cDJQa1NvN3Z0T0F2SFdFREczT0VpVHJrNF91QnZjWmU4QlVDWUFCcHdBODI0WWV5X3ZaWGUweHI5aUprbjh2cVU3TW5lbFdfRW9VMjAzQmx6WjJacVpfOHMyY3lLX0hyUHhoMUt2eFRIWl9BVXB4SEJkblI0Um1GQnZ6WVNGUmx4Q2JlMDk0UjlUb0F4bU9NT0p4d0I1Tmsya3RqMUF2WVV5R19iSQ?oc=5",
+      "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR0wzZU9ETU9YdDRYUU5pZFRBYVBrdWdNdVZWczRkZ2VFelphMkQ0a0E2WXRPMGdJVFB5azRibVo5UHN1OEppNmZJS09IckgxQ3A2TWl3dHg4ZVJBWkFnaG9MVHpvSE5qb2Y1WFpZNVFBT0Q5dWxvaElNclhiSTJNY1lCNWVhMjA1cUpHSGFwYzRYM0F3UnFhMmItbmZMS1Y2NFdRWEFCWS0tSDRjbGl2bF9SX3N6YkRrUGYxcldoM0dxQzV4?oc=5",
+      "https://www.investors.com/market-trend/the-big-picture/dow-jones-stock-market-trump-xi-meeting-oracle-orcl-mgm-resorts-international-mgm/",
+      "https://www.theverge.com/tech/1000495/microsoft-is-killing-off-the-copilot-plus-pc-brand"
+    ]
+  },
+  {
     "date": "2026-09-24",
     "displayDate": "2026年9月24日",
     "scope": "全球新闻｜科技与财经优先",
