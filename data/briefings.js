@@ -1,5 +1,77 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-26",
+    "displayDate": "2026年9月26日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-26.png",
+    "summary": "本期简报聚焦AI基建融资与量产落地：Oracle与Blue Owl数据中心项目延期冲击AI信贷市场，特斯拉Optimus机器人量产遇阻凸显硬件工程瓶颈；监管与合规方面，索尼与环球音乐再诉Suno升级AI版权争议，Meta Muse暴露文件系统引发Agent安全担忧；此外，苹果新iPhone面临组件成本上升挤压毛利率的财务压力。",
+    "focus": [
+      "AI基建融资",
+      "具身智能量产",
+      "AI版权监管"
+    ],
+    "items": [
+      {
+        "title": "Oracle与Blue Owl AI数据中心项目延期，冲击AI基建融资市场",
+        "region": "北美",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "据路透社报道，Oracle与另类资产管理公司Blue Owl Capital合作的一个大型AI数据中心项目出现延期，这一消息在信贷和私募融资市场引发连锁反应，凸显了当前AI基础设施庞大资本开支在项目落地和融资结构上的脆弱性。",
+        "why": "AI基建从“讲故事”进入“交钥匙”阶段，项目延期直接测试信贷市场对AI重资产投资的容忍度。",
+        "watch": "关注后续AI数据中心项目的融资成本变化及Blue Owl等私募信贷巨头的资产质量。"
+      },
+      {
+        "title": "Tesla Optimus机器人量产遭遇“成长的烦恼”，周产量远不及预期",
+        "region": "北美",
+        "sources": [
+          "The Verge",
+          "The Information"
+        ],
+        "summary": "The Information披露，特斯拉在将Model S产线改造用于生产Optimus人形机器人后，目前每周仅能生产“数百台”，距离其每周2万台的内部目标相去甚远，手部等复杂组件的制造和组装仍是主要瓶颈。",
+        "why": "具身智能从实验室走向规模化量产面临严峻的硬件工程挑战，验证了人形机器人供应链的成熟度仍需时间。",
+        "watch": "特斯拉后续对Optimus产线的资本开支调整，以及供应链中机器人灵巧手和传感器供应商的订单落地情况。"
+      },
+      {
+        "title": "索尼与环球音乐再次起诉AI音乐生成公司Suno，v6模型版权争议升级",
+        "region": "北美",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "索尼音乐和环球音乐集团（UMG）对AI音乐初创公司Suno发起新一轮诉讼，指控其最新的v6模型依然侵犯版权，因为其训练数据包含了用户通过前代侵权模型生成的输出内容，试图通过“洗稿”方式规避法律责任。",
+        "why": "生成式AI的版权合规边界正在被司法实践逐步厘清，“衍生数据”是否构成侵权将成为AI内容生成的核心监管焦点。",
+        "watch": "法院对AI模型“数据洗白”和衍生训练数据的裁定，这将直接影响所有多模态AI公司的合规成本。"
+      },
+      {
+        "title": "苹果新iPhone高售价或成“双刃剑”，组件成本上升挤压毛利率",
+        "region": "北美",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "伯恩斯坦（Bernstein）分析师指出，华尔街可能低估了智能手机组件成本上升对苹果毛利率的冲击。尽管iPhone 18 Pro等新产品售价高昂，但AI驱动的硬件升级和内存等零部件涨价正在侵蚀其利润空间。",
+        "why": "消费电子巨头在AI硬件升级周期中面临“成本转嫁”与“需求弹性”的博弈，利润率是检验其定价权的核心指标。",
+        "watch": "苹果下一财季的硬件毛利率指引，以及供应链中存储芯片和先进制程代工价格的后续走势。"
+      },
+      {
+        "title": "Meta AI助手Muse暴露底层文件系统，引发大模型安全与隐私担忧",
+        "region": "北美",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "研究人员发现Meta的AI聊天机器人Muse向用户暴露了其底层文件系统，允许好奇的用户窥探系统内部结构和潜在的配置细节。Meta随后做出了调整，但此事件再次暴露了AI代理在系统权限隔离上的安全漏洞。",
+        "why": "随着AI从对话助手向具备系统操作能力的Agent演进，文件系统级别的权限控制成为防范数据泄露和恶意利用的关键防线。",
+        "watch": "Meta及其他科技巨头在AI Agent架构中的沙盒隔离机制，以及未来针对AI系统底层访问权限的安全审计标准。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRGxJcWpfYlZSczJLRGhOQmMxNnU2NXFhUzVDSmwtTlhJRW1CNjd2MTZWOXkwcWdQZzVqNnJSdnBDU0RoWEVFYzIxbVRtNlpwWElaVENIUm9GYXJSOUFIZGJLbFNHb1lydlVWX2ZHb1ZjVXo4MURMT3BfelREVWY2TTljZ0cxRHd6TlZ5eEJhMHgycEN4MjdlbjZISDVzNktvVkQydmx3bVdoOHdmbkpBRUpLX01YMWxwWHgzcWE5ZURnbEZhSGYw?oc=5",
+      "https://www.theverge.com/tech/1000794/tesla-optimus-production-issues-hands",
+      "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music",
+      "https://www.marketwatch.com/story/apples-expensive-new-iphones-could-be-a-double-edged-sword-for-the-company-21c4fefb?mod=mw_rss_topstories",
+      "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem"
+    ]
+  },
+  {
     "date": "2026-09-25",
     "displayDate": "2026年9月25日",
     "scope": "全球新闻｜科技与财经优先",
