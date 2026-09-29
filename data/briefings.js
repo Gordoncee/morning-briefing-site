@@ -1,5 +1,83 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-29",
+    "displayDate": "2026年9月29日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-29.png",
+    "summary": "今日核心关注AI资本市场的剧烈重构：AMD以82亿美元收购李飞飞创办的World Labs，英伟达抛出1500亿美元创纪录回购，而Anthropic 2万亿美元IPO招股书揭示了高昂的训练成本。同时，AI基建的万亿美元融资正从股市转向全球债市，叠加美债收益率突破5%与地缘政治风险，科技成长股面临宏观与估值的双重压力测试。",
+    "focus": [
+      "AI并购与IPO、芯片巨头资本回报、科技债市融资、宏观利率与地缘风险",
+      "芯片巨头通过大型并购直接获取顶尖AI人才与前沿实验室，标志着AI算力竞争从底层硬件延伸至模型与空间智能应用生态。",
+      "作为前沿AI大模型公司的标杆，其IPO财务细节首次向公众揭示AI“烧钱”规模与商业化变现之间的真实张力。"
+    ],
+    "items": [
+      {
+        "title": "AMD 82亿美元收购李飞飞创办的AI初创公司World Labs",
+        "region": "US",
+        "sources": [
+          "The Verge",
+          "MarketWatch"
+        ],
+        "summary": "AMD宣布以约82亿美元全股票交易收购由AI先驱李飞飞联合创办的World Labs，并将其任命为首席科学家，押注空间智能与下一代AI生态。",
+        "why": "芯片巨头通过大型并购直接获取顶尖AI人才与前沿实验室，标志着AI算力竞争从底层硬件延伸至模型与空间智能应用生态。",
+        "watch": "交易对AMD估值及AI软件生态整合的长期影响，以及英伟达等竞争对手的潜在防御性动作。"
+      },
+      {
+        "title": "Anthropic 2万亿美元IPO招股书披露：愿景宏大但训练成本激增",
+        "region": "US",
+        "sources": [
+          "MarketWatch",
+          "Reuters"
+        ],
+        "summary": "路透社独家披露Anthropic的IPO招股书细节，显示其2025年收入增长超10倍，但模型训练与服务成本也在急剧攀升，2万亿美元估值面临盈利考验。",
+        "why": "作为前沿AI大模型公司的标杆，其IPO财务细节首次向公众揭示AI“烧钱”规模与商业化变现之间的真实张力。",
+        "watch": "投资者对高昂资本开支的容忍度，以及IPO定价对未上市AI独角兽估值的锚定效应。"
+      },
+      {
+        "title": "英伟达宣布1500亿美元历史性股票回购计划",
+        "region": "US",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "英伟达宣布高达1500亿美元的股票回购计划，回购将持续至2028年1月，彰显管理层对AI长期需求及公司现金流的绝对信心。",
+        "why": "创纪录的回购规模不仅为科技股提供强力托底，也反映出AI芯片龙头在经历爆发式增长后进入资本回报新阶段。",
+        "watch": "回购执行节奏对科技板块流动性的影响，以及市场对AI资本开支见顶担忧的缓解程度。"
+      },
+      {
+        "title": "AI万亿美元融资难题：科技巨头筹资重心从股市转向债市",
+        "region": "Global",
+        "sources": [
+          "Benzinga",
+          "BigGo Finance"
+        ],
+        "summary": "随着AI基础设施开支逼近万亿美元大关，股权融资面临稀释与估值压力，Meta等科技巨头开始转向欧洲等全球债券市场发债筹资。",
+        "why": "AI资本开支的融资结构正在发生根本性转变，债市成为支撑AI基建的新引擎，这将深刻影响全球固定收益市场的供需格局。",
+        "watch": "科技巨头信用利差的变化，以及大规模发债对长期国债收益率的推升效应。"
+      },
+      {
+        "title": "美债收益率突破5%叠加地缘风险，美股科技板块承压",
+        "region": "US",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "美国国债收益率进一步突破5%关口，叠加特朗普拒绝伊朗提议引发的地缘政治担忧，导致纳指下滑，SpaceX与特斯拉等科技成长股遭抛售。",
+        "why": "宏观利率高企与地缘不确定性形成双重压制，直接冲击高估值科技股的贴现模型，市场风险偏好显著降温。",
+        "watch": "美联储对长端利率飙升的干预预期，以及本周Micron等芯片股财报能否提振科技板块情绪。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+      "https://www.marketwatch.com/story/amd-makes-a-big-bet-on-the-next-era-of-ai-7f8a3b3c?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/anthropics-potential-2-trillion-ipo-comes-with-the-following-fine-print-99d3cb90?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbVlPeVROc0FBWTl6a0ZCZXdPVF93WjdPT1BFV2xkQmlyRE9oYS1wRF9yWk0zV1EwSlJ5Vmt0UkpucHdQWUpSbGdzUmdVeC1EWm5sMzBkTUNQMkg3ekVYMkMtemVySUxhWnRCTWRNLTA1Vl8tZVZkRU80ZVk4TjdZbE5LdjJ5VzJXbUlmM1FvMnJqTFE4TkZVeEJFVndEMmpIbGN5WDRxclhHX0JZdHp6LWlad3JTakZr?oc=5",
+      "https://www.marketwatch.com/story/nvidia-makes-a-statement-with-historic-150-billion-buyback-announcement-bfab5a22?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMipAFBVV95cUxOS0ZfVmgxMTdraVNSaVdPd0NKN1dTdmQ1bmI3VjBQMlU0Nk1JdUJudnR1cjBFSFlsLXJkOGJLdmM0a3ZNWlJfQUtRZVhZODVwNTVBZ1UwdExlWTMwRlphV2k3TllqVUYxYTJoOHpZcUFvNTR1bFFCNDVoZnAyOERxS2tnaXlBRjdtR0gtT0pHN3NzSzNaTl91STVvYTU3ZGpETFd4cw?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aNmI3bFBjbmI1MmlSUHJxcGVJVlV0SjU2WFBaTUUzQ1VNSWIzZG5BWDlTdDA3VWVBX05Md1Q0OGVIVXVRaEdIejl5cGNlMzdSTFhzb3Y4dngwZnBOc0dXNnhMMlBtU29va0gzcW44TWRaRXphU3c?oc=5",
+      "https://www.investors.com/market-trend/the-big-picture/dow-jones-sp500-nasdaq-nvidia-nvda-stock-16/",
+      "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-stock-market-losses-elon-musk-spacex-tesla/"
+    ]
+  },
+  {
     "date": "2026-09-28",
     "displayDate": "2026年9月28日",
     "scope": "全球新闻｜科技与财经优先",
