@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-09-30",
+    "displayDate": "2026年9月30日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-09-30.png",
+    "summary": "今日简报聚焦AI资本化与基建政策：OpenAI将模型安全作为IPO前置条件；特朗普政府明确支持AI数据中心建设。资本市场方面，派拉蒙收购华纳兄弟的巨额债务融资受高收益率环境阻击；花旗看好Starship进展，给出SpaceX 12万亿美元的远期估值。宏观层面，美债收益率在疲软就业数据下逆势上行，凸显利率环境的复杂性。",
+    "focus": [
+      "AI资本化、科技基建政策、大型并购融资、商业航天估值、宏观利率背离",
+      "AI独角兽的资本化路径首次将‘模型安全’作为硬性财务与合规前置条件，反映前沿AI公司在监管与公众预期下的战略调整。",
+      "宏观高利率环境对传媒巨头超级并购的实质性影响显现，债务融资成本成为检验资本市场风险偏好的关键试金石。"
+    ],
+    "items": [
+      {
+        "title": "OpenAI将模型安全设为IPO前置条件，Altman称无明确时间表",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "OpenAI CEO Sam Altman表示，在公司能够对模型安全性做出更好承诺之前，不会推进IPO计划，目前尚无明确的时间表。",
+        "why": "AI独角兽的资本化路径首次将‘模型安全’作为硬性财务与合规前置条件，反映前沿AI公司在监管与公众预期下的战略调整。",
+        "watch": "OpenAI的安全评估标准及后续监管机构的反馈，这将直接影响其估值模型与上市窗口。"
+      },
+      {
+        "title": "派拉蒙收购华纳兄弟遭遇高收益率阻击，好莱坞巨额债务融资承压",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "派拉蒙为收购华纳兄弟进行的巨额债务融资面临挑战，2026年借贷成本上升和高收益率环境成为大型并购交易的显著阻力。",
+        "why": "宏观高利率环境对传媒巨头超级并购的实质性影响显现，债务融资成本成为检验资本市场风险偏好的关键试金石。",
+        "watch": "该笔交易的最终融资条款及高收益债市场的流动性变化，这将预示未来大型杠杆收购的活跃度。"
+      },
+      {
+        "title": "花旗预测SpaceX远期估值可达12万亿美元，Starship进展成核心催化剂",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "花旗分析师指出，Starship的近期成功发射推进了SpaceX的多项核心优先事项，长期来看有望推动其股价达到900美元，对应12万亿美元的惊人估值。",
+        "why": "商业航天龙头的估值逻辑从‘发射频次’向‘深空基础设施与星链生态’跃升，12万亿美元目标重塑科技巨头的市值天花板。",
+        "watch": "Starship后续商业化发射的成功率及星链（Starlink）现金流的持续增长能力。"
+      },
+      {
+        "title": "特朗普与AI高管会谈后重申支持数据中心建设，AI基建获政策背书",
+        "region": "美国",
+        "sources": [
+          "Global Banking & Finance Review"
+        ],
+        "summary": "在与AI行业高管进行会谈后，特朗普政府再次明确表达了对AI数据中心建设的支持态度，为算力基础设施扩张提供政策绿灯。",
+        "why": "AI算力需求与能源、土地政策的博弈进入新阶段，行政力量的直接背书将加速科技巨头与能源公司的数据中心圈地运动。",
+        "watch": "后续针对数据中心电力供应、环保审批及电网接入的具体行政命令或立法动向。"
+      },
+      {
+        "title": "美债收益率无视疲软就业数据逆势上行，宏观利率环境凸显复杂性",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "尽管就业市场信号疲软，10年期美国国债收益率依然上升，反映出市场对通胀粘性或财政赤字扩张的深层担忧。",
+        "why": "传统宏观逻辑中‘弱就业=降息预期=收益率下行’的链条被打破，凸显当前美债定价中财政与通胀因子的权重已超过单一就业数据。",
+        "watch": "即将公布的通胀数据及美联储官员对收益率曲线陡峭化的表态，这将决定科技成长股的估值压力。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
+      "https://www.marketwatch.com/story/hollywoods-big-debt-deal-hits-a-wall-of-higher-yields-as-paramount-finances-warner-bros-buyout-6ee6e3b8?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/could-spacex-be-worth-12-trillion-one-day-citi-says-starship-gets-it-a-step-closer-6ce44961?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxPb1FndHpUOEZid0Z6ejFxSEJzcmxGLUdNQXBkUTNfbGVVVXRsalVnRW1tSFA0M0RWSXNORk9NWGlXeG5oWS12bVJ5MUhvcU9GdG5FOTJLQXJqWUxJZldWak5tTkc3dWJXd3lMUVdGRnM5WmJXemMtM1N6cGUzOUZ3VFVqU1RWcXhDdEJBTmxtSkdqZnRPNmE0VURuM0x5QQ",
+      "https://www.investors.com/news/treasury-yields-10-year-job-openings-consumer-confidence/"
+    ]
+  },
+  {
     "date": "2026-09-29",
     "displayDate": "2026年9月29日",
     "scope": "全球新闻｜科技与财经优先",
