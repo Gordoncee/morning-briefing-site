@@ -1,5 +1,80 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-10-01",
+    "displayDate": "2026年10月1日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-10-01.png",
+    "summary": "今日简报聚焦AI前沿模型的安全限制发布、AI基建在信贷市场的融资阻力、欧盟对金融AI与代币化的前瞻监管，以及宏观利率压力下“AI看跌期权”对美股的托底效应。此外，Paramount与华纳兄弟探索的千亿美元合并迎来新联席CEO，重塑媒体格局。",
+    "focus": [
+      "AI安全与信贷定价、媒体超级并购、金融AI监管",
+      "前沿模型发布策略从“全面开放”转向“安全限制”，反映AI能力跃升带来的安全管控新常态，标志着AI安全从理论走向产品级隔离。",
+      "AI资本开支热潮开始向信贷市场传导，债务市场的风险定价成为检验AI基建泡沫与真实需求的关键试金石，显示资金端开始分化。"
+    ],
+    "items": [
+      {
+        "title": "Google发布Gemini 4 Argon模型，因能力过强仅限“受信任的网络防御者”使用",
+        "region": "全球",
+        "sources": [
+          "The Verge",
+          "MarketWatch",
+          "Investor's Business Daily"
+        ],
+        "summary": "Google推出最新前沿AI模型Gemini 4 Argon，在复杂软件工程和企业知识工作流中展现前沿性能。出于安全考虑，该模型目前仅向“受信任的网络防御者”开放，凸显前沿AI能力与网络安全防御的深度绑定。",
+        "why": "前沿模型发布策略从“全面开放”转向“安全限制”，反映AI能力跃升带来的安全管控新常态，标志着AI安全从理论走向产品级隔离。",
+        "watch": "关注其他AI巨头是否跟进限制发布策略，以及该模型在网络安全防御领域的实际商业化落地与政府采购动向。"
+      },
+      {
+        "title": "AI借款人在美国高风险信贷市场面临融资困境",
+        "region": "美国",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "随着AI基础设施投资热潮持续，部分AI借款人在美国高风险信贷市场（如杠杆贷款和高收益债）遭遇融资阻力，投资者对AI项目的现金流兑现能力和高杠杆风险保持警惕。",
+        "why": "AI资本开支热潮开始向信贷市场传导，债务市场的风险定价成为检验AI基建泡沫与真实需求的关键试金石，显示资金端开始分化。",
+        "watch": "关注AI初创企业和数据中心开发商的债务融资成本变化，以及信贷收紧对AI基建扩张速度的实质性影响。"
+      },
+      {
+        "title": "Paramount与Warner Bros. Discovery完成1100亿美元合并，任命新联席CEO",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "在Paramount与Warner Bros. Discovery高达1100亿美元的合并交易即将完成之际，前美泰CEO Ynon Kreiz被任命为联席CEO，与David Ellison共同领导这家全新的媒体巨头。",
+        "why": "传统媒体与流媒体领域的超级并购重塑内容分发格局，高管变动预示合并后的战略整合、成本削减方向及对抗科技巨头侵蚀的决心。",
+        "watch": "关注合并后新公司的流媒体业务整合进度、广告技术栈融合以及对好莱坞内容供应链和定价权的长期影响。"
+      },
+      {
+        "title": "欧盟金融监管机构将AI和代币化列为2027年关键风险",
+        "region": "欧洲",
+        "sources": [
+          "Compliance Week"
+        ],
+        "summary": "欧盟金融监管机构发布前瞻性报告，将人工智能在金融系统中的应用以及资产代币化列为2027年的关键风险领域，暗示未来将出台更严格的合规与审计要求。",
+        "why": "监管视野从当前的生成式AI内容合规，延伸至AI在金融核心系统（如风控、高频交易）中的系统性风险及加密资产融合，定调未来监管框架。",
+        "watch": "关注欧盟后续针对金融AI算法审计、模型可解释性以及代币化资产资本充足率的具体监管草案。"
+      },
+      {
+        "title": "美债收益率攀升背景下，“AI看跌期权”成为美股唯一核心支撑",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "尽管全球债券收益率上升对股市估值构成威胁，但美银全球研究部策略师指出，当前美股真正的风险与支撑均在于“AI看跌期权”（AI put），即市场对AI巨头盈利增长和股票回购的强烈预期托底了整体大盘。",
+        "why": "宏观利率环境与科技股估值逻辑发生碰撞，AI主线的盈利确定性成为对冲宏观流动性收紧的唯一有效资产，市场结构高度集中于AI主线。",
+        "watch": "关注美债收益率突破关键阈值时，AI巨头的资本开支回报率能否继续支撑“AI put”逻辑不破裂，以及资金是否出现高低切换。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+      "https://www.marketwatch.com/story/google-shows-its-not-out-of-the-ai-race-just-yet-75e19860?mod=mw_rss_topstories",
+      "https://www.investors.com/news/technology/google-stock-rises-on-gemini-4-argon-release-after-new-ai-model-delays/",
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNDgzMm9MOFBWRnQzVE5TX2FjS0dlek94d3FaTnIwWFNSR2M5LW44X093SllVajZPUUYwenVTa0NlWS01WldkRnFxN25oUFNDYlI4QkdZNFlqQk81VjAtRlhCQjlSSFVkaEY0ZmVfeTZWXy1VQndrNTN4ODVSbDAzeFVTNDlERll6amRqNjQ3dTcxeE9kMWoyckRGZlp3WnBBMzY2UGRhM0ZCZkxyd0lsb0Y4NlQ5UQ?oc=5",
+      "https://www.theverge.com/news/1003037/paramount-david-ellison-co-ceo-ynon-kriez",
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTWhaOFZMUFVTRE1wajAxNHd3bnFBWVZESVBaeU55MjM2SXA5Y2ZhUmRlYnFueEtlWlAwcHJUdjFhXzJmMkdZdHFoZzM0REhLSTh6TjdaYlVPdE52WkJMUmxEWFhPQnV0X2dZTldIZjRfVkVNODREVUF2b2xMMjFBai00ZWdXOTZNYjA4N3cxQTFLTDhQVWRYU0ZvQW0tbmh3dFZlSnJILVhmNFJHZW9pc3MzalBKT2g1emRzTTd5Y0w0ODhUU0hjMQ?oc=5",
+      "https://www.marketwatch.com/story/this-is-the-big-risk-that-stock-investors-should-be-watching-as-rising-bond-yields-menace-markets-904cae0a?mod=mw_rss_topstories"
+    ]
+  },
+  {
     "date": "2026-09-30",
     "displayDate": "2026年9月30日",
     "scope": "全球新闻｜科技与财经优先",
