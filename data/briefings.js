@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-10-02",
+    "displayDate": "2026年10月2日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-10-02.png",
+    "summary": "今日简报聚焦AI监管与资本开支的深层博弈：Google AI搜索反垄断诉讼被驳回确立初步合法性；Accenture财报超预期反转验证企业AI落地创收；Google探索太空数据中心突破地球算力瓶颈；欧洲央行警告AI金融系统性风险；Meta利用税收漏洞为AI基建避税40亿美元引发政策套利争议。",
+    "focus": [
+      "AI监管边界、企业级AI创收验证、太空算力基建、金融AI系统性风险、科技巨头税收博弈",
+      "确立了AI搜索生成内容在现行法律下的初步合法性边界，缓解了科技巨头在AI分发入口上的监管压力，但内容创作者的流量焦虑仍在加剧。",
+      "此前市场曾担忧AI咨询热潮遭遇需求与估值双重压力，此次财报反转验证了企业级AI落地正从概念验证走向实质性创收阶段。"
+    ],
+    "items": [
+      {
+        "title": "法官驳回针对Google AI Overviews的反垄断诉讼",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "联邦法官驳回了Chegg和Penske Media针对Google AI Overviews的反垄断诉讼，认定AI搜索摘要功能未违反现行反垄断法。",
+        "why": "确立了AI搜索生成内容在现行法律下的初步合法性边界，缓解了科技巨头在AI分发入口上的监管压力，但内容创作者的流量焦虑仍在加剧。",
+        "watch": "后续原告是否上诉，以及欧盟等其他司法管辖区对AI搜索摘要的反垄断审查态度。"
+      },
+      {
+        "title": "Accenture Q4财报超预期股价大涨，扭转AI咨询需求放缓担忧",
+        "region": "全球",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "埃森哲公布2026财年第四季度财报，营收与利润均超预期，且2027财年指引强劲，推动股价大幅反弹。",
+        "why": "此前市场曾担忧AI咨询热潮遭遇需求与估值双重压力，此次财报反转验证了企业级AI落地正从概念验证走向实质性创收阶段。",
+        "watch": "大型IT服务商的AI订单转化率，以及企业客户在AI基础设施上的后续资本开支意愿。"
+      },
+      {
+        "title": "Google启动“捕日者”项目，探索太空AI数据中心",
+        "region": "美国",
+        "sources": [
+          "NPR"
+        ],
+        "summary": "Google推出Project Suncatcher项目，旨在研究将AI数据中心部署到太空的可行性，以解决地球能源和散热瓶颈。",
+        "why": "标志着科技巨头为支撑指数级增长的算力需求，开始将基础设施边界向太空延伸，商业航天与AI基建的交叉领域迎来新叙事。",
+        "watch": "太空数据中心的能源传输、散热技术突破，以及SpaceX等商业航天公司在太空基建中的潜在合作。"
+      },
+      {
+        "title": "欧洲央行行长警告AI快速应用对金融系统构成系统性风险",
+        "region": "欧洲",
+        "sources": [
+          "Anadolu Ajansı"
+        ],
+        "summary": "欧洲央行行长发出警告，称AI在金融部门的快速采用可能引发系统性风险，呼吁加强监管框架。",
+        "why": "预示全球金融监管机构可能针对AI算法交易、自动化风控和合成数据出台更严格的审查标准，AI金融应用将面临合规成本上升。",
+        "watch": "欧洲央行及全球金融稳定委员会后续出台的具体AI金融监管指引和压力测试要求。"
+      },
+      {
+        "title": "Meta利用“实验性”设施税收优惠为AI数据中心避税近40亿美元",
+        "region": "美国",
+        "sources": [
+          "SFist"
+        ],
+        "summary": "报道称Meta去年通过将AI数据中心归类为“实验性”设施，成功节省了近40亿美元的税款。",
+        "why": "凸显了AI资本开支狂潮下，科技巨头利用现有税收政策漏洞进行大规模政策套利的空间，可能引发地方政府对AI基建税收优惠的重新评估。",
+        "watch": "美国各州及联邦政府对数据中心税收优惠政策的审查与修订，以及科技巨头与地方政府的税收博弈。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+      "https://www.investors.com/news/technology/accenture-stock-acn-accenture-earnings-news-q42026/",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcHpoSkZMSUJMOGtZbVVtY3RWVmdBVExLSkNSSjlqRmdvRnByRHhuSVhYbVhPS3RYcF9oUTY2aHVZY3FUb1o5YnVScFlmX3Z1a3ZuZHk2NmZJcmNNWmlxS09JZjh6RE0wVGI4YWFpeTZuVjM5QVdmZmpXeWl4VElrWkJxbjFBcVNSa0lXdUJ2cmpvdm8tdlE?oc=5",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVnk4OTdPS1B1bFJoYklkdUszYjdsQlRmNmMtTlJrMzcyWUNRZDhXZUVEYnhLMzZpR0l5djZiNjItbmJSMjZKTl9YVkNyYy1IejdPOTM2cGxXYlh4SXlkdGJzVnlQZThCYVdPNWdfeTJjbnRrb2lvWjRhTEJ3UGJKTW1tZ2szTXRXVzB3TTZuQktFb195aV9SdU0wRHpza3JBN2k2OHB4ZVdEbTV2Rmtv?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZy14bGJTUFVaa2UwU0EyN250alNfYUFGbjh0U2RicTM0Z2x4QVo5UldQOVNVdTFxNHJvUExkTk4yNEZqSjVUUTRLQ0t0MVYxcWtuT20xWHN6SWRiRi1OclZIcExvUmZwRmFqTXRUVUQ2LTBLaGtEbV9qVkZRZ0t6OXNYWXpiQ3hlVU9MNWpBWmloeWdnblh5NWJDMEZmRDNBOGZNUEZ4MU5mWkd1QmIyeS1iMVMxWTFfM0ZzRQ?oc=5"
+    ]
+  },
+  {
     "date": "2026-10-01",
     "displayDate": "2026年10月1日",
     "scope": "全球新闻｜科技与财经优先",
