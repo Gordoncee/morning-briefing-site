@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-10-03",
+    "displayDate": "2026年10月3日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-10-03.png",
+    "summary": "本期简报聚焦AI对资本市场与基础设施的深远影响：苹果因AI代理风险收紧Mac磁盘访问权限；东芝增产预期重挫西部数据与希捷等AI存储概念股；英伟达推动银行将AI芯片视作飞机等重资产进行融资遭华尔街冷遇；谷歌启动“捕日者”项目探索太空AI数据中心；WSJ指出AI热潮正在对传统股票市场产生结构性挤出效应。",
+    "focus": [
+      "AI平台监管、AI存储芯片博弈、AI基础设施创新、AI资产金融化、资本市场结构分化",
+      "AI代理从概念走向落地，操作系统级别的权限管控成为平台监管与AI安全的第一道防线。",
+      "AI算力需求外溢至存储层，但传统存储巨头的护城河正面临产能扩张与价格战的潜在威胁。"
+    ],
+    "items": [
+      {
+        "title": "Apple收紧Mac磁盘访问权限以应对AI代理安全风险",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "苹果宣布将对Mac系统的“完全磁盘访问”权限实施新限制，以应对AI代理（AI agents）在自动化执行任务时可能带来的实质性数据安全风险，确保用户隐私与系统边界不被越权突破。",
+        "why": "AI代理从概念走向落地，操作系统级别的权限管控成为平台监管与AI安全的第一道防线。",
+        "watch": "关注其他操作系统（如Windows）是否跟进收紧AI代理的底层API调用权限，以及企业级AI部署的合规成本变化。"
+      },
+      {
+        "title": "东芝增产预期重挫西部数据与希捷，AI存储芯片定价权生变",
+        "region": "全球",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "投资者担忧东芝将大幅提升关键AI存储产品的产能，可能削弱西部数据和希捷目前享有的强劲定价权，导致这两家存储巨头股价大幅下挫。",
+        "why": "AI算力需求外溢至存储层，但传统存储巨头的护城河正面临产能扩张与价格战的潜在威胁。",
+        "watch": "跟踪东芝实际产能释放节奏，以及HBM与高容量企业级SSD市场的供需拐点与毛利率变化。"
+      },
+      {
+        "title": "英伟达推动银行将AI芯片视作飞机等重资产融资，华尔街反应冷淡",
+        "region": "美国",
+        "sources": [
+          "Times Square Chronicles"
+        ],
+        "summary": "英伟达正试图说服银行和金融机构将AI芯片视为类似飞机等具有长期残值和租赁价值的重资产，以拓宽AI基建的融资渠道，但华尔街对其折旧风险和流动性仍存疑虑。",
+        "why": "AI算力资本开支巨大，芯片资产化与金融化是缓解科技巨头现金流压力的关键创新，但传统金融风控模型尚未适应。",
+        "watch": "关注大型租赁公司与投行是否推出针对GPU集群的结构化融资产品，以及AI芯片二手市场的定价机制。"
+      },
+      {
+        "title": "谷歌启动“捕日者”项目，探索太空AI数据中心基础设施",
+        "region": "美国",
+        "sources": [
+          "NPR"
+        ],
+        "summary": "谷歌推出“Project Suncatcher”项目，迈出在太空建设AI数据中心的第一步，旨在利用太空太阳能和真空散热环境解决地面AI算力扩张面临的能源与冷却瓶颈。",
+        "why": "地面电力与土地约束正成为AI基建的最大物理瓶颈，科技巨头开始将目光投向近地轨道与太空能源。",
+        "watch": "关注航天发射成本下降对太空数据中心经济性的影响，以及SpaceX等商业航天公司与云厂商的潜在合作。"
+      },
+      {
+        "title": "WSJ：AI热潮正在对传统股票市场产生结构性挤出效应",
+        "region": "美国",
+        "sources": [
+          "WSJ"
+        ],
+        "summary": "《华尔街日报》分析指出，AI相关的巨额资本开支与高估值正在吸收市场绝大部分流动性，导致非AI板块和传统行业股票面临严重的资金挤出效应与市场结构分化。",
+        "why": "AI不仅是技术主线，更成为主导全球资本市场定价与资金分配的核心宏观变量，加剧了股市内部的失衡。",
+        "watch": "关注美联储利率路径对高估值AI股的压制，以及资金是否会在AI变现不及预期时向价值股和传统板块轮动。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "https://www.marketwatch.com/story/why-western-digital-and-seagate-are-seeing-big-stock-drops-today-6b16d95e?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQlo3UXY2a3JxQW9Cb016T1V0VWxUaUZZODlUNXl4OGNaQldmVWhyM09pMUhvYjE1aTRNME1fWjVUNy1hdG5qcjhIbjVnN3EwWTd1SkFNem1pdjhkR3otcF9WZXNacFRsVXdmR1VHaHRBWU5HUno2XzlnQ0NheFZuaWVmbHpfaFpxMmtza3puZm83MXJRaFVtZzNyV29CS1daTzFr?oc=5",
+      "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcHpoSkZMSUJMOGtZbVVtY3RWVmdBVExLSkNSSjlqRmdvRnByRHhuSVhYbVhPS3RYcF9oUTY2aHVZY3FUb1o5YnVScFlmX3Z1a3ZuZHk2NmZJcmNNWmlxS09JZjh6RE0wVGI4YWFpeTZuVjM5QVdmZmpXeWl4VElrWkJxbjFBcVNSa0lXdUJ2cmpvdm8tdlE?oc=5",
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRnpIZVhVTnV4Ung1cnczNTlVREtiRGFaUEpzUUw3cGg2T2Vaa1I3MHNJTi1kR0tjaGpVQ2dVamtab25vN3dtSWZmYnpTS242TjQwbHJiM1lmSmMxRER2ZXpBbkw1Njg1YnYzeGs3RDNnWUk3OTJ3bjhSNjhzeG9SUTE0c2kycTl4V0lSVGNQblc1NDllVmpUWDNPSQ?oc=5"
+    ]
+  },
+  {
     "date": "2026-10-02",
     "displayDate": "2026年10月2日",
     "scope": "全球新闻｜科技与财经优先",
