@@ -1,5 +1,78 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-10-04",
+    "displayDate": "2026年10月4日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-10-04.png",
+    "summary": "本期简报聚焦AI对资本市场与基础设施的深远影响：WSJ指出AI投资正结构性挤压股市其他板块；咨询公司警告AI成本下降将反噬电力需求；Meta开源Muse AI硬件代码加速端侧生态；LSEG联手Snowflake推进金融数据云原生AI化；同时OpenAI安全核心员工离职引发对前沿模型治理的再度审视。",
+    "focus": [
+      "AI资本市场结构、算力与电力瓶颈、端侧AI开源、金融数据AI化、AI安全治理",
+      "揭示AI热潮对资本市场微观结构的深层改变，提示非AI资产面临的流动性枯竭与估值折价风险。",
+      "将AI经济学（成本下降）与宏观物理约束（电力短缺）直接挂钩，重塑对AI基础设施和能源板块的定价逻辑。"
+    ],
+    "items": [
+      {
+        "title": "WSJ：AI投资正结构性挤压美股其他板块",
+        "region": "美国",
+        "sources": [
+          "WSJ"
+        ],
+        "summary": "《华尔街日报》分析指出，人工智能热潮正在吸走市场绝大部分流动性与关注度，导致非AI板块估值受压，美股正演变为由少数AI巨头主导的‘选股者市场’，市场广度收窄引发对结构性风险的担忧。",
+        "why": "揭示AI热潮对资本市场微观结构的深层改变，提示非AI资产面临的流动性枯竭与估值折价风险。",
+        "watch": "关注后续美联储货币政策对高估值AI板块的容忍度，以及市场广度指标是否出现均值回归。"
+      },
+      {
+        "title": "咨询公司警告：AI推理成本下降或将反噬全球电力需求",
+        "region": "全球",
+        "sources": [
+          "Business Insider"
+        ],
+        "summary": "多家咨询机构最新报告指出，随着AI模型推理成本快速下降，企业部署AI代理的门槛大幅降低，这将引发应用层爆发，进而导致数据中心电力需求呈现非线性攀升，能源瓶颈可能比预期更早到来。",
+        "why": "将AI经济学（成本下降）与宏观物理约束（电力短缺）直接挂钩，重塑对AI基础设施和能源板块的定价逻辑。",
+        "watch": "盯紧科技巨头下一轮资本开支中独立电力项目（IPP）和核能、地热等基载能源的并购与长协签约进度。"
+      },
+      {
+        "title": "Meta开源Muse AI硬件代码，加速端侧AI代理生态扩张",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "Meta正式开源其Muse AI小工具的底层代码，允许开发者将Meta的新型AI代理集成到电子墨水屏、智能家居等第三方硬件中，试图在苹果和安卓生态之外建立基于开源的端侧AI入口。",
+        "why": "标志着Meta的AI战略从云端大模型向端侧硬件生态延伸，开源硬件代码可能催生新一波AIoT创新与供应链机会。",
+        "watch": "观察第三方硬件厂商的接入速度，以及Meta能否通过开源协议在端侧数据收集与隐私合规间找到平衡。"
+      },
+      {
+        "title": "LSEG联手Snowflake，推进金融数据与云原生AI工作流深度融合",
+        "region": "英国/美国",
+        "sources": [
+          "Snowflake",
+          "LSEG"
+        ],
+        "summary": "伦敦证券交易所集团（LSEG）与云数据平台Snowflake宣布扩大合作，将LSEG的受信任金融数据直接接入Snowflake的云原生AI工作流，旨在为金融机构提供无缝的AI模型训练与推理数据底座。",
+        "why": "金融数据巨头与云基础设施厂商的深度绑定，确立了‘高质量数据+云原生算力’在金融AI应用中的标准交付模式。",
+        "watch": "关注华尔街量化基金与投行对该数据接口的采购转化率，以及此举对传统金融数据终端的替代效应。"
+      },
+      {
+        "title": "OpenAI安全核心员工离职并发出警告，前沿模型治理再受审视",
+        "region": "美国",
+        "sources": [
+          "The Verge",
+          "The Atlantic"
+        ],
+        "summary": "曾负责撰写OpenAI重大模型发布安全报告的核心员工David Robinson本周辞职，并在《大西洋月刊》撰文对公司在安全评估上的妥协发出警告，凸显前沿AI实验室在商业化压力与安全红线间的内部撕裂。",
+        "why": "内部安全人才的流失与公开吹哨，直接触及AI监管的核心痛点，可能为即将到来的政府AI安全审计提供实质性弹药。",
+        "watch": "追踪美国国会及AI安全研究所是否借此启动对OpenAI等头部实验室的强制性安全合规调查。"
+      }
+    ],
+    "sourceLinks": [
+      "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRnpIZVhVTnV4Ung1cnczNTlVREtiRGFaUEpzUUw3cGg2T2Vaa1I3MHNJTi1kR0tjaGpVQ2dVamtab25vN3dtSWZmYnpTS242TjQwbHJiM1lmSmMxRER2ZXpBbkw1Njg1YnYzeGs3RDNnWUk3OTJ3bjhSNjhzeG9SUTE0c2kycTl4V0lSVGNQblc1NDllVmpUWDNPSQ?oc=5",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQnNtdzZhSTlFVFNzQkxGTVA4TkxMMno0SWtLQjVUZXJDaXdpaUtVX3pZZ0U2bEVQWE5tSjhiSDdxdWVzaTRjcjBvM3NuOEdDUVpuZm0tSnNlZGFTZEVUS2FvcUszY0ZPVi1iS0hyQ0ZKc2k2Q0JyOWtsT0JVM0Rjbzl0OFM2NDEyZHdKZlRQZ3J0ZHlMZ2VPSFZoYzVDTkxvSmc?oc=5",
+      "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZldVdDJEcmhRSDNNOHFFWmNicFZtNmQ1OFVHdW9hbDRMaXgzSFY2NmIxZXJXOGJCVFBQZGZiUldZOFFmUEtEd0VieW82MVEwNVROb2F2S0JYTXAxMHJWM3RmSXVBSG9Pbm5XTW9iQm5rNUZxNl8wdThvLTZkSVcyTFNjRGNQcWczelNiTGdn?oc=5",
+      "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+    ]
+  },
+  {
     "date": "2026-10-03",
     "displayDate": "2026年10月3日",
     "scope": "全球新闻｜科技与财经优先",
