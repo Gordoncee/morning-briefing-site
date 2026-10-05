@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-10-05",
+    "displayDate": "2026年10月5日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-10-05.png",
+    "summary": "本周宏观与科技资本市场交汇：美联储会议纪要将揭示利率路径，AI投资集中度风险引发资金对冲；亚马逊10亿美元AI基建投资避开GPU采购，暗示自研芯片加速；“大空头”警告AI泡沫，而太空数据中心计划则标志着算力基建突破地球物理限制。",
+    "focus": [
+      "美联储货币政策",
+      "AI资本开支结构",
+      "AI估值与泡沫争议"
+    ],
+    "items": [
+      {
+        "title": "美联储9月会议纪要本周公布，市场寻找未来加息线索",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "随着实际联邦基金利率降至令人惊讶的低水平，本周公布的9月会议纪要可能为市场提供关于未来利率路径和潜在加息的重要背景。",
+        "why": "宏观变量直接影响科技股估值和资本成本，会议纪要将揭示美联储内部对通胀和就业数据的真实分歧。",
+        "watch": "关注纪要中对“中性利率”的讨论以及官员们对近期软就业数据的反应。"
+      },
+      {
+        "title": "投资者寻求对冲AI集中度风险，资本市场开始重新定价科技巨头",
+        "region": "全球",
+        "sources": [
+          "Financial Times"
+        ],
+        "summary": "随着AI投资高度集中在少数科技巨头和芯片公司，投资者正积极寻找策略以保护投资组合免受AI集中度风险带来的潜在冲击。",
+        "why": "AI主线交易进入深水区，资金从盲目追逐龙头转向风险对冲，标志着资本市场对AI估值泡沫的防御性觉醒。",
+        "watch": "观察等权重ETF、反向ETF以及非AI核心资产的资金流入情况。"
+      },
+      {
+        "title": "亚马逊再投10亿美元建设AI数据中心，但此次未采购任何GPU",
+        "region": "美国",
+        "sources": [
+          "24/7 Wall St."
+        ],
+        "summary": "亚马逊宣布追加10亿美元用于AI数据中心建设，但资金并未用于购买英伟达等第三方GPU，暗示其正加速自研芯片部署或转向网络与冷却等底层基建。",
+        "why": "科技巨头资本开支结构发生质变，从“买卡”转向“自研+基建”，将对AI芯片供应链和云基础设施格局产生深远影响。",
+        "watch": "关注亚马逊自研Trainium和Inferentia芯片的实际部署规模及第三方GPU采购增速的拐点。"
+      },
+      {
+        "title": "“大空头”Michael Burry将1960年代市场泡沫引入英伟达AI辩论",
+        "region": "美国",
+        "sources": [
+          "Yahoo Finance"
+        ],
+        "summary": "知名投资人Michael Burry通过对比1960年代的市场泡沫，对当前以英伟达为首的AI热潮提出警告，认为“我们以前都经历过这些”。",
+        "why": "顶级价值投资人对AI硬件超级周期的公开质疑，反映了传统金融资本对当前AI资本开支回报率（ROI）的深刻担忧。",
+        "watch": "关注英伟达及AI硬件板块在面临宏观利率不确定性和泡沫论双重压力下的估值支撑。"
+      },
+      {
+        "title": "科技巨头竞相将AI数据中心送入太空，云基础设施突破地球物理限制",
+        "region": "全球",
+        "sources": [
+          "Fast Company"
+        ],
+        "summary": "面对地球上的电力、冷却和土地瓶颈，多家科技公司正加速推进太空AI数据中心计划，试图在近地轨道部署算力节点。",
+        "why": "AI算力需求正倒逼基础设施向极端环境扩展，太空数据中心从科幻走向工程验证，标志着云基础设施和航天产业的跨界融合。",
+        "watch": "关注SpaceX星舰发射成本下降对太空算力部署经济性的实质性推动，以及辐射硬化芯片的技术进展。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/fed-minutes-coming-this-week-could-give-markets-important-clues-about-future-rate-hikes-31bfba5b?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oTlFnQXBLNFFsTDlzX0NnZHZxZ3FvWEpFeFE0OVdYT21uLXppM3paTHZXXzQybEJNczZvV25Cd1BFRWpCRXI0cEFTY3hRUzNOT3JSVy0wZGw5LWl2WXVpVVF5U3ZLQkJlVzR6V0FXODg?oc=5",
+      "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeW5sTVI2UzF4cDd5MnJJMmFQTHBHM2dPZlBFaVlSbmdSMHljOTdGRi02T1NyQXZsOHlsbmw0Zzc3aUZGLVZSSnlVc196WmRFMzVDanE2RUo5Qko4Ty1zR3psUS1MUy1IQkxlZ05PV3J3TW5PejQxMy1fbmdTa2lfVl8xekNiUUdUcEZCYVhudkN6MDdKdWZpRWh0cGpFLUdoYy1JMGMzejVhU0FiZVlwbklTU1JFUjhaMWFEbXJaU0FBWGFicmFsdS01OVF2OTF5ZFBjMFhJb3c?oc=5",
+      "https://news.google.com/rss/articles/CBMinAFBVX3lxTE5OLTUybWJhbW5ual9Bdm82bGJMOTdDcmN6NXZISjBJYlNLUzNYYXZzWENONmx2OTZPZDdhdktZUnlUQUJNN096b3NqNXFwVTFRRmhTYlg1QWFKeGlMQjhGVjNZMllLeEYzSENSb2NrYXBVWEQwZHZrNkdzUmlwNUdrQWZHb1NSMnNJS20wVGZRYVRkYUVzOVVOOHNXRXA?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdlZvbGdoSU9CR01jWEZxVDV6MnlXQzZNVW1zRjgwTnRfX3F6RzR2WllJcy00TktJamVUWGRRNElxU0t0NFpHcnFldXRRaTFaNW04UGdHTXkzeHQ5SlVDblVZems4R2FWX0RWcmN2UWhsemlRdUhHRlpIYmFLMEo5YjZWbjcza2I2Z0RWNHhCdEZxeEhCd3RkZ3dqYzlWVEk?oc=5"
+    ]
+  },
+  {
     "date": "2026-10-04",
     "displayDate": "2026年10月4日",
     "scope": "全球新闻｜科技与财经优先",
