@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-10-06",
+    "displayDate": "2026年10月6日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-10-06.png",
+    "summary": "今日简报聚焦AI资本开支向产业链上游与基础设施的深度延伸：台积电传出参与马斯克Terafab芯片工厂计划，先进制程代工格局面临重塑；Anthropic IPO预期成为年末资本市场定价锚点；黑石等PE巨头在AI领域的“造王者”角色凸显科技融资结构化趋势；同时，电力短缺正式取代芯片成为数据中心扩张最大瓶颈，而科技巨头大举借贷引发的债市担忧正成为新的宏观变量。",
+    "focus": [
+      "AI基础设施瓶颈转移、先进制程代工博弈、科技资本市场定价与杠杆风险",
+      "马斯克在AI和航天领域的硬件野心正向上游先进制程代工延伸，台积电若深度绑定将重塑AI芯片制造格局，并可能改变现有算力供应链的权力结构。",
+      "作为头部大模型独角兽，Anthropic的公开市场定价将为AI初创公司的估值体系提供核心锚点，直接影响一级市场退出与二级市场科技股情绪。"
+    ],
+    "items": [
+      {
+        "title": "台积电传出参与马斯克Terafab芯片工厂计划，股价突破买点",
+        "region": "全球/美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "台积电正与埃隆·马斯克就其计划中的Terafab芯片工厂进行合作谈判，消息推动台积电股价大幅上涨并突破技术买点。",
+        "why": "马斯克在AI和航天领域的硬件野心正向上游先进制程代工延伸，台积电若深度绑定将重塑AI芯片制造格局，并可能改变现有算力供应链的权力结构。",
+        "watch": "关注Terafab的具体产能规划、代工节点选择及对现有英伟达/AMD产能分配的潜在挤出效应。"
+      },
+      {
+        "title": "IPO市场低迷之际，Anthropic上市预期成为年末资本市场最大变量",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "尽管整体IPO市场表现疲软，但Anthropic的重磅IPO计划被视为可能在2026年末扭转市场情绪的关键催化剂。",
+        "why": "作为头部大模型独角兽，Anthropic的公开市场定价将为AI初创公司的估值体系提供核心锚点，直接影响一级市场退出与二级市场科技股情绪。",
+        "watch": "关注其IPO定价区间、基石投资者阵容以及上市后对现有AI概念股估值的虹吸或带动效应。"
+      },
+      {
+        "title": "黑石“AI造王者”版图浮现：深度绑定Google与Anthropic等核心玩家",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "私募巨头黑石正通过其庞大的资本网络，在Google、Anthropic等AI巨头的基建与融资中扮演关键的“造王者”角色。",
+        "why": "传统PE巨头正从单纯的财务投资转向AI基础设施和前沿模型的战略卡位，科技资本开支正走向高度结构化与机构化。",
+        "watch": "关注黑石在AI数据中心地产、能源配套及模型公司股权中的具体配置比例与杠杆策略。"
+      },
+      {
+        "title": "电力供应成为数据中心扩张最大瓶颈，能源股成AI基建新主线",
+        "region": "全球",
+        "sources": [
+          "TradingKey"
+        ],
+        "summary": "随着AI算力需求激增，电力短缺已取代芯片和土地，成为限制全球数据中心扩张的首要瓶颈，相关电力与电网设备股受到资金追捧。",
+        "why": "AI基建的瓶颈正从“算力”向“电力”转移，电网升级、核能及储能资产将成为科技巨头资本开支的必争之地。",
+        "watch": "关注科技巨头与公用事业公司的长期购电协议（PPA）签署进度，以及独立发电商（IPP）的估值重估。"
+      },
+      {
+        "title": "AI借贷狂潮引发美国市场担忧，科技杠杆率攀升考验债市承受力",
+        "region": "美国",
+        "sources": [
+          "France 24"
+        ],
+        "summary": "科技巨头和AI初创公司为支撑庞大的基础设施开支而大举借贷，这一“借贷狂潮”正引发美国债券市场对信用风险和利率波动的担忧。",
+        "why": "AI资本开支的融资结构正从股权向债权倾斜，高杠杆率若遭遇宏观利率居高不下，可能引发科技板块的估值回调与信用利差走阔。",
+        "watch": "关注高收益债市场中AI相关债券的利差变化，以及评级机构对科技巨头资本开支回报周期的重新评估。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.investors.com/research/ibd-stock-of-the-day/tsm-stock-breaks-out-on-tsmc-terafab-talks/",
+      "https://www.investors.com/news/ipo-market-anthropic-sk-hynix-skhy-stock/",
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTW9Zd0oxVlRWNDNPYzYyR29wd2F2bUZVOFhsVWQ1Rkx0Q3FfTUE3bEhnWUlibGVjSURGY1NBZVNFOEluUGQzV0k4VVpEQ1JPLWJSdmNNblBJZnk2UXdHYzVWWkR0bGdEemNXakhqRVZlSGRxOHc0eDJZQm9fUzIxelJpSVB3VlNvMnd3WklxTkRNZFk5Z1Yxb19GSWxpTGJZdlZFYl9B?oc=5",
+      "https://news.google.com/rss/articles/CBMivgFBVV95cUxQS0RrY25XZk1TM3ZxUTJpdllVZlB3blRBU2RqVzdDMlRSV2JnVGRGRDV0YVNCbmtQSURtT0YtRDAtM1BWeUFQdnFxVjZkdm1sbTBQLWdZTUJnN2h6aTNVbk4wTzJEajJLMm4yUlFUbVd5Nld4dFQ5b3FqY3JLMG1qYXF1cGJQTWp0N3NWTzRyNGpMM3pVcmlnZ1lXUnJSLWhPZzhQbXdUNlR2dXJtYjhneUF2eThxSmdWOFQzSDd3?oc=5",
+      "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeGpCRUxVNGcxN2Q0TlBiZWFIYW85VHVvaTFJRFpId1FhOE01TEs0TmlxOEl3RzZGemNFZnpJcW5hWGJDZFZZSEFyWnROU3lNdkpKYmRwMHN1bm9nMU5MM2dWSzJ5U3JWTkY2UVNwVUFWMXRKRjJuTDRuV05jU3hXd3NXRkNFbmxiQnNwcg?oc=5"
+    ]
+  },
+  {
     "date": "2026-10-05",
     "displayDate": "2026年10月5日",
     "scope": "全球新闻｜科技与财经优先",
