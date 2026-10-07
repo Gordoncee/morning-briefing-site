@@ -1,5 +1,80 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-10-07",
+    "displayDate": "2026年10月7日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-10-07.png",
+    "summary": "今日简报聚焦AI基础设施的深层演进与资本市场新变量。Google签署20年核能协议凸显AI算力能源缺口正重塑科技巨头能源战略；Marvell上调2028年营收预期，验证AI定制芯片与网络需求的长期爆发；德克萨斯证券交易所（TXSE）正式开市，挑战传统华尔街双头垄断；堪萨斯城联储罕见发文警告AI基建热潮的长期金融与杠杆风险；此外，东芝加码AI存储引发传统硬盘巨头股价震荡，存储赛道竞争加剧。",
+    "focus": [
+      "AI能源基建、半导体供应链指引、资本市场基础设施变革、宏观金融监管预警",
+      "AI基础设施的能源瓶颈正在重塑科技公司的能源采购战略，核电成为长期基载电力的关键选项。",
+      "继英伟达后，AI基础设施供应链（定制芯片、光模块、网络）的业绩指引继续验证AI资本开支的长期性与确定性。"
+    ],
+    "items": [
+      {
+        "title": "Google与Constellation签署20年核能协议，AI算力能源缺口加速科技巨头拥抱核电",
+        "region": "美国",
+        "sources": [
+          "The Verge",
+          "MarketWatch"
+        ],
+        "summary": "Google宣布与Constellation Energy签署长达20年的购电协议，涉及更新美国六个核电站站点，以满足其AI数据中心日益增长的电力需求。",
+        "why": "AI基础设施的能源瓶颈正在重塑科技公司的能源采购战略，核电成为长期基载电力的关键选项。",
+        "watch": "关注其他科技巨头（如微软、亚马逊）在核能及小型模块化反应堆（SMR）领域的后续采购与投资决策。"
+      },
+      {
+        "title": "Marvell上调2028年营收预期并获华尔街追捧，定制AI芯片与数据中心网络需求持续爆发",
+        "region": "美国",
+        "sources": [
+          "Reuters",
+          "MarketWatch"
+        ],
+        "summary": "Marvell不仅交付了强劲的财务预测，还因AI数据中心需求旺盛而上调了2028年的营收预期，展示了其客户和产品的多元化优势，股价大幅上涨。",
+        "why": "继英伟达后，AI基础设施供应链（定制芯片、光模块、网络）的业绩指引继续验证AI资本开支的长期性与确定性。",
+        "watch": "盯紧云服务商自研芯片（ASIC）的流片进度与订单转化率，以及光互连技术在下一代AI集群中的渗透率。"
+      },
+      {
+        "title": "德克萨斯证券交易所（TXSE）正式开市，旨在降低上市成本并挑战纽交所与纳斯达克双头垄断",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "德克萨斯证券交易所（TXSE）本周一正式启动交易，首批上市公司包括Schwab等。该交易所旨在通过更低的合规成本和监管负担，挑战传统的华尔街交易所。",
+        "why": "美国资本市场基础设施迎来新变量，TXSE试图改变科技与初创公司的上市路径，可能引发交易所之间的费率与监管竞争。",
+        "watch": "观察未来12个月内是否有重量级科技或AI独角兽选择TXSE作为首发或双重上市地，以及SEC对其监管框架的持续态度。"
+      },
+      {
+        "title": "堪萨斯城联储发文警告AI基建热潮背后的长期金融风险，呼吁关注资本错配与估值泡沫",
+        "region": "美国",
+        "sources": [
+          "Kansas City Fed"
+        ],
+        "summary": "堪萨斯城联储发布研究报告，指出当前AI基础设施建设热潮可能带来长期金融风险，提醒市场警惕资本错配、债务杠杆过高及投资回报周期拉长的问题。",
+        "why": "监管与央行层面开始对AI巨额资本开支的宏观金融稳定性提出预警，提示市场关注AI投资回报周期与债务杠杆风险。",
+        "watch": "关注美联储及其他主要央行在后续货币政策会议中，是否将AI资本开支引发的局部过热或信贷扩张纳入宏观审慎评估。"
+      },
+      {
+        "title": "东芝宣布加码AI存储市场引发行业震荡，希捷与西部数据股价承压",
+        "region": "日本/全球",
+        "sources": [
+          "Yahoo Finance"
+        ],
+        "summary": "东芝在AI存储领域的激进扩张计划引发市场担忧，导致传统硬盘巨头希捷（Seagate）和西部数据（Western Digital）的股价出现明显下滑。",
+        "why": "AI存储赛道竞争加剧，传统硬盘巨头面临来自闪存及新进入者在AI数据中心高带宽存储需求上的直接冲击，行业格局面临重塑。",
+        "watch": "跟踪AI数据中心对高带宽、大容量存储的具体技术路线选择（如HBM、企业级SSD与大容量HDD的配比），以及传统存储厂商的转型进度。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/science/1006082/google-nuclear-energy-power-purchase-agreement-constellation",
+      "https://www.marketwatch.com/story/google-makes-a-fresh-bet-on-nuclear-power-as-the-ai-energy-crunch-intensifies-a757c296?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/marvell-just-impressed-wall-street-with-good-numbers-plus-a-better-story-57fbbf23?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcDJISmlqQ09tSDQ4NnNJNElrbWtnQlpVZGlrd3NCQjlvVktSMm00UE1JZDBHZGFqOUVUWjUxbU1KcTM4NXBCMDdGSUY4UW9kd202NzFXT0NBTzdFQU5xbmdqMWFYelRYVmNRTnhDNmlpdlJRODVCMHVpZ21XWnRldHVDd3p6RjJlQjRTMWZiMnE3LTVJM1FMZW1yaktxNHNDQnBTc2ZnZ3JZYjVsZnhj?oc=5",
+      "https://www.investors.com/news/texas-stock-exchange-txse-schwab-dillards-sunoco/",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNelRiajNyNjI1VnM1YUY0MnBzakVLWHlfMWJ0QnJxZEN3M1NCR1dSZ3hOR25oVk5WM3BXR2gyYmNMdkJBN044Skh6TzhjV0RsUVp5ZTNjTUtkcEFwQnNmaFUtTnprNUhVcTQ0YlZlNDB2UkdvWEZWbXNFVGUtaEhvSTRsZXV1MlVuU2EzSU8zQ2QwazVNRndrRTRoYXJSVEJfRWk5SDU3cmljd2dmanFGNEswVGplLWhmYkY1OThBUHY?oc=5",
+      "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWHIycWk2N0w4NE5xcmtIZTV6RkxmVkIyWjlTajNnRzJ4OGJqc3V4MFRRZE9qeGQwLVQxVnZhZVFwS1p2MTBnVTlzRGU4aF9KQjJEOGJuM1BMWklHVmV0YVZjZ3ZxbGVhUXpQbTQ1TWRGclFjR2NaX2l6amxydXdPLVdlN0NUSWhoQVZfQzd4TzhlVndlY2pGck1aam1XR2FyTm0yanZkSzhIVlo1X1VNLTFMd2FPbXR4bnIzTzBpb1BZS3NkZDlJYW5fOVdEMXFI?oc=5"
+    ]
+  },
+  {
     "date": "2026-10-06",
     "displayDate": "2026年10月6日",
     "scope": "全球新闻｜科技与财经优先",
