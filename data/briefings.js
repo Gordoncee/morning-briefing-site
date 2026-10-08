@@ -1,5 +1,79 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-10-08",
+    "displayDate": "2026年10月8日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-10-08.png",
+    "summary": "今日简报聚焦AI产品形态演进与硬件落地，OpenAI发布GPT-6及交互式UI，微软与英伟达推出高价AI PC；宏观层面，美联储关注数据中心建设对通胀的推升作用，堪萨斯城联储警告AI基建债务风险，而高企的美债收益率正促使资金极度抱团科技股。",
+    "focus": [
+      "AI多模态交互",
+      "端侧AI芯片",
+      "AI基建通胀效应"
+    ],
+    "items": [
+      {
+        "title": "OpenAI发布GPT-6并为ChatGPT引入“Intelligent UI”交互式视觉界面",
+        "region": "全球",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "OpenAI随GPT-6推出Intelligent UI功能，允许ChatGPT在回答中直接生成图表、图片和交互式按钮，将大模型输出从纯文本推向多模态原生交互。",
+        "why": "标志着AI助手从“对话工具”向“可视化应用生成器”演进，直接改变SaaS和前端开发逻辑。",
+        "watch": "观察开发者生态对UI生成API的调用量，以及对传统BI和图表软件估值的冲击。"
+      },
+      {
+        "title": "微软与英伟达联手推出搭载RTX Spark芯片的Surface Laptop Ultra",
+        "region": "美国",
+        "sources": [
+          "MarketWatch",
+          "The Verge",
+          "Yahoo Finance"
+        ],
+        "summary": "微软发布最高售价达7000美元的Surface Laptop Ultra，首发搭载英伟达专为端侧AI设计的RTX Spark芯片，旨在本地运行大型AI模型与工作流。",
+        "why": "科技巨头正式在高端PC市场打响“AI PC”算力军备竞赛，端侧推理硬件进入高溢价定价测试期。",
+        "watch": "关注RTX Spark在本地大模型推理的能效比，以及企业客户对高价AI终端的实际采购转化率。"
+      },
+      {
+        "title": "美联储官员警告数据中心建设繁荣正在推高物价与通胀压力",
+        "region": "美国",
+        "sources": [
+          "The Washington Post"
+        ],
+        "summary": "美联储官员在内部讨论中指出，AI驱动的数据中心建设热潮正在大幅推高电力、土地和相关设备价格，成为核心通胀难以降温的新结构性变量。",
+        "why": "AI基建的宏观外溢效应首次被美联储明确列为通胀阻力，可能影响未来的利率路径和科技资本开支估值。",
+        "watch": "盯紧后续CPI/PCE数据中数据中心相关供应链价格的权重变化，以及公用事业股的溢价空间。"
+      },
+      {
+        "title": "堪萨斯城联储报告警示AI基建狂潮带来的长期金融与债务风险",
+        "region": "美国",
+        "sources": [
+          "Kansas City Fed",
+          "AFP"
+        ],
+        "summary": "堪萨斯城联储发布研究报告，指出科技巨头为AI基础设施进行的万亿美元级借贷和资本开支，正在积累长期金融风险，若AI变现不及预期将引发债务反噬。",
+        "why": "监管与央行层面开始对AI资本开支的“杠杆率”进行压力测试，市场情绪可能从“盲目追捧”转向“审视ROI”。",
+        "watch": "关注大型科技股后续发债的信用利差变化，以及评级机构对AI重资产公司的债务预警。"
+      },
+      {
+        "title": "美债收益率攀升重塑美股格局，科技板块成唯一逆势上涨避风港",
+        "region": "美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "随着美债收益率升至数十年高位，美股多数板块承压下挫，但科技板块凭借AI盈利预期成为标普500中自9月以来唯一上涨的板块。",
+        "why": "宏观高利率环境下，资金极度抱团AI科技巨头，凸显市场对AI确定性增长的依赖，但也加剧了市场广度恶化的风险。",
+        "watch": "观察长端美债收益率是否突破关键心理关口，以及科技股财报季能否用实际利润支撑当前的高估值抱团。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+      "https://www.marketwatch.com/story/microsoft-and-nvidia-are-teaming-up-on-a-supercharged-ai-laptop-f58b28d8",
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY1FrWkF5TURpdC1qQ3NITm9zVDhQVXJaaXM5aVVYZ0doMEhWaTNid1Q3b1Bfdzg5c01lVGVSOVhjZHhBQTZEUlhHR3diMG96NnBZR25RQWp5U1JuWGJYOHNIT0FJNEd6TVlubGNwQzRGRXA0bUZsTno3YjFmUVpJNVl0NFozV1F4T0Z2QUhkRVdNQW8xR1Nab1NIRWl0VlZaMVRic0F3ak50TzlYSW8wRA",
+      "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNelRiajNyNjI1VnM1YUY0MnBzakVLWHlfMWJ0QnJxZEN3M1NCR1dSZ3hOR25oVk5WM3BXR2gyYmNMdkJBN044Skh6TzhjV0RsUVp5ZTNjTUtkcEFwQnNmaFUtTnprNUhVcTQ0YlZlNDB2UkdvWEZWbXNFVGUtaEhvSTRsZXV1MlVuU2EzSU8zQ2QwazVNRndrRTRoYXJSVEJfRWk5SDU3cmljd2dmanFGNEswVGplLWhmYkY1OThBUHY",
+      "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322"
+    ]
+  },
+  {
     "date": "2026-10-07",
     "displayDate": "2026年10月7日",
     "scope": "全球新闻｜科技与财经优先",
