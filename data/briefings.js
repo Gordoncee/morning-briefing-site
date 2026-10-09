@@ -1,5 +1,84 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-10-09",
+    "displayDate": "2026年10月9日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-10-09.png",
+    "summary": "今日科技财经主线聚焦于AI资本开支的回报验证与硬件生态的边界突破。SpaceX大举收购低频段频谱进军移动运营商，直接冲击传统电信巨头估值；OpenAI营收数据引发市场对AI变现能力的担忧，导致AI芯片与科技股集体回调。同时，Anthropic强化开源AI安全，Nvidia支持的初创公司推动异构算力互联，而苹果据报将打破交互隔离推出首款触屏MacBook，标志着PC形态的重大演进。",
+    "focus": [
+      "AI资本开支回报率验证、SpaceX电信市场扩张、异构算力基础设施、苹果硬件形态变革",
+      "标志着SpaceX从卫星互联网向地面移动通信市场的实质性扩张，直接挑战传统电信运营商的护城河，引发通信板块估值重塑。",
+      "作为AI风向标，OpenAI的营收表现直接牵动整个AI硬件与算力产业链的估值神经，凸显当前市场对AI资本开支回报率的极度敏感。"
+    ],
+    "items": [
+      {
+        "title": "SpaceX收购低频段频谱布局Starlink Mobile，传统电信巨头股价承压",
+        "region": "美国",
+        "sources": [
+          "theverge.com",
+          "marketwatch.com",
+          "investors.com"
+        ],
+        "summary": "SpaceX宣布收购Grain Management的800 MHz低频段频谱组合，旨在将Starlink Mobile打造为美国主要移动运营商。此消息导致AT&T、Verizon和T-Mobile等传统电信巨头股价在盘后交易中大幅下挫，而信号塔相关股票则有所上涨。",
+        "why": "标志着SpaceX从卫星互联网向地面移动通信市场的实质性扩张，直接挑战传统电信运营商的护城河，引发通信板块估值重塑。",
+        "watch": "FCC对频谱转让的审批进度，以及传统运营商在卫星直连手机领域的防御性资本开支。"
+      },
+      {
+        "title": "OpenAI营收数据引发市场担忧，AI芯片与科技股集体回调",
+        "region": "美国",
+        "sources": [
+          "marketwatch.com",
+          "investors.com",
+          "WSJ"
+        ],
+        "summary": "因报道称OpenAI年化营收未达预期，引发市场对AI需求及盈利能力的担忧，导致Micron、Nvidia等AI芯片股及Oracle、Broadcom等科技股下跌。分析师指出这更多是统计口径差异而非需求疲软，但市场情绪仍受宏观及地缘因素压制。",
+        "why": "作为AI风向标，OpenAI的营收表现直接牵动整个AI硬件与算力产业链的估值神经，凸显当前市场对AI资本开支回报率的极度敏感。",
+        "watch": "科技巨头后续财报中对AI资本开支的指引，以及市场对AI应用端变现能力的重新定价。"
+      },
+      {
+        "title": "Anthropic推出开源项目免费AI安全扫描服务",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "Anthropic发布名为OSS Scanner的新服务，为选择加入的开源项目提供定期、深度的AI安全漏洞扫描。此举旨在利用AI技术提升开源软件供应链的安全性。",
+        "why": "在AI代码生成普及的背景下，开源软件的安全风险被放大。Anthropic此举不仅强化了其AI安全领导者的定位，也可能重塑开源生态的安全标准。",
+        "watch": "该服务在主流开源社区的采纳率，以及是否会引起其他AI巨头在安全工具上的军备竞赛。"
+      },
+      {
+        "title": "Nvidia支持的Upscale AI发布异构芯片互联平台",
+        "region": "美国",
+        "sources": [
+          "Reuters"
+        ],
+        "summary": "获得Nvidia投资的初创公司Upscale AI推出全新平台，旨在连接来自不同竞争对手供应商的AI芯片，构建统一的异构算力池。",
+        "why": "随着AI算力需求激增，单一芯片供应商的产能和生态锁定成为瓶颈。该平台试图打破硬件壁垒，提高数据中心算力利用率，对云基础设施架构具有深远影响。",
+        "watch": "该平台对非Nvidia芯片的实际兼容性能，以及大型云服务商的测试与部署意愿。"
+      },
+      {
+        "title": "苹果据报将于三周内发布首款触屏MacBook",
+        "region": "美国",
+        "sources": [
+          "theverge.com"
+        ],
+        "summary": "彭博社报道称，苹果计划在10月27日左右推出首款配备触摸屏的MacBook Pro以及更新版iPad Mini。这将是Mac产品线历史上首次引入触控交互。",
+        "why": "打破了苹果长期以来坚持的“Mac与iPad交互隔离”原则，标志着PC形态向混合计算演进的重大转折，可能引发Windows阵营的跟进及供应链的重新调整。",
+        "watch": "触屏MacBook的定价策略、macOS对触控交互的系统级适配程度，以及对现有iPad Pro高端市场的潜在蚕食。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.theverge.com/science/1008467/spacex-announces-plan-to-become-a-major-mobile-carrier",
+      "https://www.marketwatch.com/story/spacexs-starlink-mobile-plans-are-pressuring-at-t-and-verizon-shares-7cb56764?mod=mw_rss_topstories",
+      "https://www.investors.com/news/spacex-buys-wireless-spectrum-starlink-elon-musk-verizon-att-t-mobile-tumble/",
+      "https://www.marketwatch.com/story/micron-nvidia-and-ai-chip-stocks-fall-as-report-on-openais-revenue-causes-undue-concern-2a2bcf53?mod=mw_rss_topstories",
+      "https://www.investors.com/market-trend/the-big-picture/stock-market-skids-openai-tech-nasdaq-trump-iran-oracle-broadcom/",
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcmRmSzBtSkZNNUdzbkJoOThxUHFJNlhXVDQ3aUhtQklNTTlCN2lyckhrSGxJY2d2OGV3QnFlYzdXYTltUmdvb01Kd3Uwa0ZGYnJ3VnE2OFkxUzRpSWpLUURoX2hkcVVhc056UXAxTEdrR0k3S3A1U3RUOUhjMlVjNk5WM1JXazV6VFpBY2lZeUpPa0E4YVBmZEFQVzhuWUZCNWc?oc=5",
+      "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeGdkZHlKUjgwWHQ4eXRUaTJZeFZBQkFLaENBNFYxTUh5SVFkaWNfVGh3MUtrcGdKYjZhWk03QlV1WV8zYmxkbl9fLVRIa0xwWlczbVRwVlRFUGZwMXFwM2lRck5BVmVhQ3JmVzNZS3U0OUpuLVdLU04wVVlkNE9jN2IyRW9YY0pla283VmJBa3FpVm5zX2xaQkw0X3JCcUx1djhraTRVTEQzeGJtNzZKQ3hLTHRRSUEt?oc=5",
+      "https://www.theverge.com/tech/1008422/apple-macbook-pro-touchscreen-ipad-mini-rumor"
+    ]
+  },
+  {
     "date": "2026-10-08",
     "displayDate": "2026年10月8日",
     "scope": "全球新闻｜科技与财经优先",
