@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-10-10",
+    "displayDate": "2026年10月10日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-10-10.png",
+    "summary": "本期简报聚焦AI资本市场的宏观风险与硬件供应链的现实考验。联合国报告罕见警告AI估值修正可能引发系统性抛售，而美债利率冲击正暗流涌动；硬件端，苹果iPhone 18订单削减折射AI手机换机潮遇冷，英伟达则通过投资异构芯片互操作巩固算力生态；此外，Anthropic模型向警方提供虚假线索再次敲响AI幻觉在公共安全领域的监管警钟。",
+    "focus": [
+      "AI估值与宏观利率风险",
+      "消费电子供应链调整",
+      "异构算力生态"
+    ],
+    "items": [
+      {
+        "title": "苹果iPhone 18组件订单据报削减15%，AI手机换机预期遭遇现实考验",
+        "region": "全球/美国",
+        "sources": [
+          "MarketWatch"
+        ],
+        "summary": "据Nikkei Asia报道，苹果iPhone 18 Pro及Pro Max在10月的组件订单下调约15%，显示市场对新一代AI手机的初期需求可能低于预期，消费电子供应链面临库存调整压力。",
+        "why": "苹果供应链数据是衡量全球消费电子需求和AI终端落地效果的领先指标，订单削减直接影响上游半导体和零组件厂商的营收预期。",
+        "watch": "关注后续台积电、富士康等核心代工厂的产能利用率变化，以及苹果是否会在四季度通过促销或调整AI功能推送策略来刺激需求。"
+      },
+      {
+        "title": "联合国报告警告：AI估值修正或引发广泛市场抛售与追加保证金危机",
+        "region": "全球",
+        "sources": [
+          "TradingView"
+        ],
+        "summary": "联合国发布报告指出，当前由AI驱动的科技股繁荣存在估值过高风险，一旦AI商业化变现不及预期引发估值修正，可能触发跨资产的追加保证金通知和更广泛的市场抛售。",
+        "why": "国际权威机构首次对AI资本市场的系统性风险发出明确警告，凸显了AI基建巨额开支与短期盈利之间的错配可能成为宏观金融稳定的潜在威胁。",
+        "watch": "密切关注即将开始的科技巨头财报季中关于AI资本开支回报率的指引，以及高杠杆AI概念股和私募信贷市场的流动性变化。"
+      },
+      {
+        "title": "英伟达支持的Upscale AI致力于实现异构AI芯片协同，打破单一算力垄断",
+        "region": "美国",
+        "sources": [
+          "HPCwire"
+        ],
+        "summary": "获得英伟达投资的初创公司Upscale AI正推动一项新标准，旨在让来自不同厂商的AI芯片在同一个数据中心集群中协同工作，以降低对单一硬件架构的依赖。",
+        "why": "随着AI算力需求激增，异构计算和芯片互操作性成为降低基建成本的关键。英伟达支持此举意在通过软件生态巩固其在混合算力环境中的调度主导权。",
+        "watch": "观察AMD、Intel及各类AI ASIC芯片厂商对该互操作标准的响应程度，以及大型云服务商在下一代数据中心采购中是否会增加异构芯片比例。"
+      },
+      {
+        "title": "彭博：华尔街利率冲击在AI驱动的股市反弹下暗流涌动",
+        "region": "美国",
+        "sources": [
+          "Bloomberg"
+        ],
+        "summary": "尽管AI热潮推动美股科技板块持续反弹，但债券市场正经历剧烈的利率冲击。长端收益率的攀升正在悄然改变市场的风险定价，对高估值科技股的远期现金流构成压力。",
+        "why": "揭示了当前市场“股债背离”的深层矛盾。AI叙事虽然支撑了股票估值，但宏观利率环境的实质性收紧可能成为刺破科技股估值泡沫的终极变量。",
+        "watch": "跟踪美国10年期和30年期国债收益率的走势，以及美联储官员对长期中性利率重新定价的表态，评估利率对科技股估值的压制效应。"
+      },
+      {
+        "title": "Anthropic AI模型向警方提供虚假凶杀案线索，AI幻觉引发公共安全担忧",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "费城警方证实，Anthropic的一款AI模型通过其提示热线提供了一条关于未决凶杀案的虚假线索。警方随后排除了该信息，但此事件凸显了生成式AI“幻觉”在关键公共服务领域的潜在危害。",
+        "why": "这是AI大模型幻觉问题直接干扰执法和司法系统的罕见公开案例，可能加速监管机构针对AI在高风险领域部署的合规性审查。",
+        "watch": "关注美国司法部及地方执法机构是否出台限制AI生成证据或线索使用的指导原则，以及模型厂商在系统提示词和安全护栏上的后续补丁。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/is-iphone-18-demand-cooling-off-heres-how-deep-apple-reportedly-is-cutting-component-orders-a44244ee?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVEJIUTlWaUd1SWxVZUI5Y1ZJRWhLbjRaYjhoMDVWOWduX0x3T0RkNEN3TFBwNGdoZUV6UHJ1aVRtZW5TYjA2RkZaZElMbU1SUVp3eDBsV2JidThzZU1JTmxKWVJqTjdYTTRPUFFWX1hRQVpId29wS21Gc1F2THNsTURxUmhwN3hEcFVNN29WTC1MQmhLemdMMUlZOHctSzc1RnU3U3Ywb3gxaHZpbktTMzQyaVU4bWdHRU14RWpOWXU1NTRkQnJ1NEYwTllnWXo4OHQxckhlY0hnYjBCNVRvODUxYw?oc=5",
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTkxvdWtiYWhIMEstUFRfMWNhSXBnVFUwbWF5Sm92RlZKMHQ5LXJYS1NXcVBTNk1EUThqbXhnTGRWX3RTMV9nYVNYY0hyeDVRY1BiWWc4UkpGRmFCcXhNLXR2UVpwdnlKOERWV3pZMGpyUl9UUUpDZ1VRUTg3X3MxTFEzSjFTLXo0WXduNkVfMGxNMi1oWUlIZzZfTFA3c3Ezc3lKMXBlanlUTFJJMTNtUFVB?oc=5",
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxORnFaNG93ZHlzb0F2b3F5MXNoQzEtLXhZOVVjV2xRSUJ6NmF6ZE81UGFqd2dmRnJNZUhncS04RTdsY042TVpabE1Va0lLMjc3aU9GVXV3cXZKdlpiZ1J3SHBqc0dfNmpCOFRCSWYxR05lWHBYcm01T21aRldaZl9tY1B0NFVxVU01VEN0aXF5dEFQMDFBRnp1X2hkSjRjZ3RQVE5QN0w4VmdmZzMtY1BwMjJJbVk?oc=5",
+      "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
+    ]
+  },
+  {
     "date": "2026-10-09",
     "displayDate": "2026年10月9日",
     "scope": "全球新闻｜科技与财经优先",
