@@ -1,5 +1,76 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-10-12",
+    "displayDate": "2026年10月12日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-10-12.png",
+    "summary": "本期简报聚焦AI资本开支对宏观金融的溢出效应、半导体核心财报前瞻以及算力基建的前沿探索。AI巨额支出正推高全球借贷成本并引发金融机构对融资风险的重新定价；同时，美股对AI巨头的高度依赖导致剔除AI后的相对弱势。此外，ASML与台积电财报即将检验AI芯片需求，而Google则开始探索太空数据中心以突破地球基建瓶颈。",
+    "focus": [
+      "AI资本开支宏观溢出、半导体财报前瞻、算力基建前沿",
+      "半导体设备与代工龙头的财报是验证AI硬件景气度最核心的指标，叠加地缘政治变量，对科技股估值和供应链预期具有决定性影响。",
+      "AI基建从产业内部热潮演变为影响全球宏观金融环境的系统性变量，标志着科技资本开支对实体经济的溢出效应进入新阶段。"
+    ],
+    "items": [
+      {
+        "title": "ASML与台积电财报前瞻：AI芯片需求与地缘变量交织",
+        "region": "全球",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "道指期货上涨，市场关注特朗普宣称的俄乌‘能源停火’对宏观情绪的影响。同时，ASML与英伟达核心代工厂台积电即将发布财报，这两家半导体巨头的业绩指引将成为检验全球AI芯片资本开支与需求韧性的关键风向标。",
+        "why": "半导体设备与代工龙头的财报是验证AI硬件景气度最核心的指标，叠加地缘政治变量，对科技股估值和供应链预期具有决定性影响。",
+        "watch": "关注台积电先进制程产能利用率及ASML对EUV光刻机出货量的最新指引，以及地缘局势对能源和芯片供应链的潜在扰动。"
+      },
+      {
+        "title": "AI资本开支溢出效应：巨额支出正推高全球借贷成本",
+        "region": "全球",
+        "sources": [
+          "Startup Fortune"
+        ],
+        "summary": "科技巨头在AI基础设施上的数千亿美元资本支出，正在通过大规模发债和信贷需求推高全球借贷成本。AI热潮的融资需求已开始对传统行业的资金成本和宏观利率环境产生实质性的挤出效应。",
+        "why": "AI基建从产业内部热潮演变为影响全球宏观金融环境的系统性变量，标志着科技资本开支对实体经济的溢出效应进入新阶段。",
+        "watch": "跟踪全球企业债利差变化、科技巨头后续发债规模，以及高借贷成本对非AI类企业资本开支的压制作用。"
+      },
+      {
+        "title": "星展银行CEO警告：市场正重新定价AI融资风险",
+        "region": "亚太/全球",
+        "sources": [
+          "Bloomberg"
+        ],
+        "summary": "星展银行CEO指出，金融市场正在重新评估和定价与AI基础设施相关的融资风险。随着AI项目资本开支规模空前且回报周期拉长，金融机构对科技巨头及供应链企业的债务偿还能力和现金流压力开始保持警惕。",
+        "why": "大型银行高管的表态反映了传统金融体系对AI资本狂飙的审慎态度，暗示AI融资的估值逻辑和信贷条件可能面临收紧。",
+        "watch": "关注主要投行和商业银行对科技行业信贷敞口的调整，以及AI初创企业和二线云厂商的融资成本变化。"
+      },
+      {
+        "title": "突破地球瓶颈：Google探索太空数据中心竞赛",
+        "region": "美国/全球",
+        "sources": [
+          "Fortune"
+        ],
+        "summary": "在科技巨头向地球AI基础设施投入数十亿美元却面临电力、土地和冷却资源瓶颈的背景下，Google正将数据中心竞赛推向太空。这一前沿探索旨在利用太空环境的自然冷却和太阳能优势，解决下一代AI算力的物理限制。",
+        "why": "算力扩张的物理极限正迫使科技巨头寻找极端解决方案，太空数据中心概念从科幻走向工程验证，代表了云基础设施演进的终极方向。",
+        "watch": "关注Google太空数据中心项目的技术验证进度、发射成本曲线，以及该概念对商业航天和卫星互联网产业链的估值催化。"
+      },
+      {
+        "title": "美股结构性脆弱：剔除AI股票后表现落后欧洲",
+        "region": "美国/欧洲",
+        "sources": [
+          "Yahoo Finance"
+        ],
+        "summary": "数据显示，如果剔除少数几家主导AI热潮的科技巨头股票，美国股市的整体表现实际上落后于欧洲市场。这凸显了当前美股牛市极度依赖AI主线的结构性特征，以及市场广度不足的潜在风险。",
+        "why": "揭示了美股繁荣背后的集中度风险，表明AI主线对全球资本定价拥有绝对主导权，一旦AI估值回调，美股将面临较大的系统性压力。",
+        "watch": "关注美股市场广度指标（如等权重指数表现）、资金向非AI价值股轮动的迹象，以及欧洲市场在宏观逆风下的相对韧性。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-nasdaq-asml-nvidia-chipmaker-taiwan-semi-earnings/",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd2UxVkFJX0pqOG1NdUZTZUlvQ1A2VndWbDNVa3Jya2lpcWRIVXNTS3hzTzA3ZTFXVmNPWmR6ZTdoVzhuU19YN0RKRS1kUW52cVNNLUN1MmFPbDNDWUF3Ym5KS0t2ekctZWEzM1l3S05lMDRkRUY0a002M21FcUFXUVdkN0xaeXRiNW5TQU5SSm84LTgz",
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQnBrcW1BX3ZTSUNhQjc3WllHQ3l2WlBka1MwV3VXZ3oyV3VHbmdpc2hkbjBNUkg3QjRrWFNkRmttU0JxdXhCR0FCWmlRbmJZMTZ0Ykl0WjBpQ3FrVlp5Uk5xYm9GeFhPLV9ybFN6RzI3Y3dCaGZyWjlMOVVmVGJMY0ktR0ZCUFVEbFgwb2dEbjRUckdEZjN1NjZTa1dLMWRHcUhsN2RGT2lHUTd4cnc",
+      "https://news.google.com/rss/articles/CBMigAJBVV95cUxOTzhfYkpTNjVCNnJvemwzOTlKRkRzNEkwWHZUS053NklQc29YYUlxZld5OHdVelJtVWVkeXI2WmZyZUpSbWlFOFhtRDA1X1lBallDNFF0aG0xb1gyRzFSQmNNbkp2d1pzQnByVVlmRS1wdER4aVJldWRVeXBwLXh5M2MxZTFsanMzNXE3dzZvY21LNVVkZ1loU2tOQ2JXNEhkOG5HdlB6SGQxZTJaNE13R2FvVkRBUG5xYkMxX2RaNGdid1lDQVdiZks4X1E0Tkt6M0dnTEJPakNxWWh1cWV2UE9XZGJnc24wZWdLSUhQQi1KWnBfekJlZWFmTXZKeXdU",
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS2VHXzZRd1hDWjNfamROOFpQZ3ItOG54T29HUVNVTEpEeGN5NVRaQzFkYllqdVlGak45R0t3VFAtMEVHR0MxYkJZeEhRSEs3TlltNHcwSGJxRi1IOFZOMF9ZZ1JYOVZpVUdkS1B1WDMwbkg2MXVBVnBSMnRVZzRzYkthSS0zb0hDUEN2U1VsbkhXdlp2YkJsOW9KRDFFY2hWT2piTXZTUDN1Zw"
+    ]
+  },
+  {
     "date": "2026-10-11",
     "displayDate": "2026年10月11日",
     "scope": "全球新闻｜科技与财经优先",
