@@ -1,5 +1,78 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-10-14",
+    "displayDate": "2026年10月14日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-10-14.png",
+    "summary": "今日简报聚焦AI资本开支的宏观与微观共振：芯片股遭遇16个月最差表现，Broadcom高管“赌场”言论加剧AI疲劳；IMF警告AI基建高杠杆威胁金融系统。应用端，Shopify全面拥抱AI代理商业；安全与基建方面，OpenAI员工窃听案暴露前沿实验室物理安全漏洞，中美数据中心建设路径分化凸显算力基建的制度摩擦与战略竞速。",
+    "focus": [
+      "AI资本开支重估、代理商业落地、算力基建分化",
+      "资本市场对AI硬件和基础设施的估值逻辑正在发生转变，从盲目追捧转向审视投资回报率，芯片板块的回调是宏观资金重新定价的重要信号。",
+      "AI基建的资本密集型特征正将科技公司的融资行为与宏观债券市场深度绑定，若AI商业化变现不及预期，高杠杆可能引发系统性金融风险。"
+    ],
+    "items": [
+      {
+        "title": "芯片股遭遇16个月最差表现，Broadcom高管将AI投资比作“赌场”加剧市场AI疲劳",
+        "region": "全球",
+        "sources": [
+          "MarketWatch",
+          "The Guardian"
+        ],
+        "summary": "随着华尔街对高昂AI资本开支的耐心减退，芯片股正经历16个月来最差表现。Broadcom高管公开将当前的AI投资热潮比作“赌场”，进一步加剧了市场的“AI疲劳”情绪，投资者正密切关注即将到来的Anthropic投资者日以寻找新的行业催化剂。",
+        "why": "资本市场对AI硬件和基础设施的估值逻辑正在发生转变，从盲目追捧转向审视投资回报率，芯片板块的回调是宏观资金重新定价的重要信号。",
+        "watch": "关注Anthropic投资者日及后续科技巨头财报中对AI资本开支回报率的指引，以及芯片股能否在估值重塑中企稳。"
+      },
+      {
+        "title": "IMF警告：债券收益率飙升与AI基建借款正成为金融系统新威胁",
+        "region": "全球",
+        "sources": [
+          "Business Insider"
+        ],
+        "summary": "国际货币基金组织（IMF）发出警告，指出不断飙升的债券收益率以及科技巨头为AI基础设施融资而大规模举债，正在对全球金融系统构成日益增长的威胁，AI热潮带来的杠杆风险开始引起宏观监管层面的警惕。",
+        "why": "AI基建的资本密集型特征正将科技公司的融资行为与宏观债券市场深度绑定，若AI商业化变现不及预期，高杠杆可能引发系统性金融风险。",
+        "watch": "关注全球主要央行对科技企业高收益债和杠杆贷款的监管态度，以及长端利率走势对AI数据中心融资成本的实质性挤压。"
+      },
+      {
+        "title": "Shopify向更多AI代理开放商品目录，Agentic Commerce（代理商业）加速落地",
+        "region": "北美",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "Shopify宣布将允许购物者配置其AI代理来浏览和购买商品，进一步向第三方AI代理开放其庞大的商品目录。此举标志着Shopify在“代理商业”领域的战略扩张，AI正从辅助工具转变为直接参与交易决策的独立实体。",
+        "why": "电商基础设施巨头主动拥抱AI Agent，意味着AI代理的商业化闭环正在形成，这将重塑未来的流量分发逻辑和消费者交互模式。",
+        "watch": "关注其他主流电商平台和支付网关对AI Agent接口的开放进度，以及代理商业对传统搜索电商转化率的实际冲击。"
+      },
+      {
+        "title": "OpenAI工程师因涉嫌在会议室安装窃听设备被捕，凸显前沿AI公司内部安全与地缘风险",
+        "region": "北美",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "OpenAI一名35岁的沙特籍工程师Abdulrahman Alfozan因涉嫌在公司办公室会议室隐藏复杂的录音设备被捕。这一事件暴露出前沿AI公司在快速扩张中面临的内部安全漏洞，以及核心技术资产保护所面临的复杂地缘与合规挑战。",
+        "why": "随着AI模型能力逼近AGI，核心算法和未发布产品的商业与国家安全价值急剧上升，内部威胁和工业间谍活动已成为AI巨头必须面对的重大非技术风险。",
+        "watch": "关注OpenAI及同类前沿实验室后续在物理安全、员工背景审查及核心代码权限管理上的政策收紧，以及该事件是否引发更广泛的监管审查。"
+      },
+      {
+        "title": "中美数据中心建设分化：美国深陷审批与电力争议，中国正加速扩建AI算力基础设施",
+        "region": "全球",
+        "sources": [
+          "CNN"
+        ],
+        "summary": "在AI算力需求激增的背景下，中美两国在数据中心建设上呈现显著分化。美国的数据中心项目正面临地方审批、环保抗议和电力供应短缺的重重阻碍，而中国则正在通过国家级规划快速推进AI数据中心和算力网络的建设。",
+        "why": "算力基础设施的建设速度将直接决定两国在AI时代的底层竞争力。美国在物理基建上的制度性摩擦可能拖慢其AI产业的扩张节奏，而中国的集中式推进正在重塑全球算力供给格局。",
+        "watch": "关注美国联邦与州政府在数据中心电力调配和审批流程上的政策干预，以及中国国产AI芯片在新增算力集群中的实际部署比例。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZTNMNERvMGJITmdiUUw5VGRoSkJjT2w1dHlxd2NPemdFMTlhUFRORXpiWUhJZU5DM0RvRG43cHNGUXpPOC1SNWlfUDI5NVBTdDNKS2M2ZGZQMjR4aVJOMmhNZ0lpejBIeFBOcG96NF9oN3pRYXJnZVNVaUpBTnlOZ2F2MFlWRFFudXhleVdyelVYY1ktOUY0?oc=5",
+      "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbHczR1JJaVJTZUF4M3VaRjZEelc2RnFHejdGbkd4c3dBN1M3WkxFS1JuUlg0Y0Z3UXpwS2diNERZOXc5VjlKQmdjNzVBUjVrU24yZmhZZVR5S3V6elRiRGdRUnhLSmVZLTBjNjJXN2hNMFdOWjgwRGNmVUpmVFpidjE2WGIxc3FIRFYxMjc5RFdRQUNBaFVoeTdVSkpIQW9uTkNSWnJKRTE?oc=5",
+      "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+      "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNGktaGJUa1ZadHhiRDVHUVlPbXBRTGxiU2JnSDRVVjRKQzVxUGJiSmdQYmxSa2dydklBaUtyT0c5ZG1fbmFpb3prWnVGai1vMlVNWjVNaEVUTlRGdDVSN1NwZTE1U1l6TzBHWEdfUHRRRWJLcDVJRkxwUGxZWGVsZ2ZB?oc=5"
+    ]
+  },
+  {
     "date": "2026-10-13",
     "displayDate": "2026年10月13日",
     "scope": "全球新闻｜科技与财经优先",
