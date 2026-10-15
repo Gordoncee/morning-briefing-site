@@ -1,5 +1,79 @@
 window.MORNING_BRIEFINGS = [
   {
+    "date": "2026-10-15",
+    "displayDate": "2026年10月15日",
+    "scope": "全球新闻｜科技与财经优先",
+    "image": "assets/morning-briefing-2026-10-15.png",
+    "summary": "今日简报聚焦AI资本市场与基础设施的宏观共振。Anthropic营收增速放缓叠加通胀担忧，引发AI科技股广泛抛售；Gartner预警AI云行业洗牌，CoreWeave等新云厂商重挫。监管与地缘层面，美国八州起诉OpenAI升级未成年人保护监管，乌克兰无人机袭击俄罗斯顶级数据中心凸显算力设施的地缘脆弱性，而中美在AI数据中心扩建上的路径分化正重塑全球算力格局。",
+    "focus": [
+      "AI资本市场",
+      "云基础设施",
+      "平台监管"
+    ],
+    "items": [
+      {
+        "title": "Anthropic营收增速放缓引发AI交易担忧，科技股遭遇通胀与估值双重抛售",
+        "region": "美国",
+        "sources": [
+          "MarketWatch",
+          "Investor's Business Daily"
+        ],
+        "summary": "Anthropic在准备IPO之际营收增长出现放缓迹象，叠加市场对高通胀和借贷成本上升的担忧，导致投资者对AI资本开支的持续性产生怀疑。Dell、AMD及CoreWeave等AI概念股跟随大盘科技股大幅下挫，AI交易出现分裂。",
+        "why": "头部AI初创公司的增长曲线是验证AI商业化变现的核心指标，其增速放缓与宏观通胀压力共振，直接冲击当前高估值的AI硬件与算力产业链。",
+        "watch": "关注台积电即将发布的财报指引，以及美联储后续对通胀数据的表态，这将决定AI资本开支预期是否面临系统性下修。"
+      },
+      {
+        "title": "Gartner预警AI云基础设施行业洗牌，CoreWeave等“新云”概念股大幅回调",
+        "region": "美国",
+        "sources": [
+          "Investor's Business Daily"
+        ],
+        "summary": "研究机构Gartner发布财务预测，警告AI云基础设施行业将面临激烈洗牌。受此影响，CoreWeave及其他专注于AI算力的“新云”（Neoclouds）公司股价遭遇重挫，市场对二线云厂商的生存空间产生质疑。",
+        "why": "随着科技巨头加速自建芯片和云设施，依赖单一GPU租赁模式的“新云”厂商护城河受到挑战，AI算力市场的竞争格局正从粗放扩张转向存量博弈。",
+        "watch": "观察CoreWeave等厂商的长期客户锁定率及资本支出回报率，以及传统三大云厂商在AI推理市场的定价策略。"
+      },
+      {
+        "title": "美国八州联合起诉OpenAI指控ChatGPT危害儿童，AI平台未成年人保护监管升级",
+        "region": "美国",
+        "sources": [
+          "The Verge"
+        ],
+        "summary": "美国八个州的总检察长对OpenAI提起联合诉讼，指控其ChatGPT产品对儿童造成伤害，并在安全性上误导消费者。这是继多起AI安全事件后，州级监管层面对前沿AI模型发起的又一次重大法律挑战。",
+        "why": "州级联合诉讼往往 precede 联邦层面的立法行动。此案将迫使AI公司在模型对齐、年龄验证和内容过滤上投入更多合规成本，可能改变ToC端AI产品的分发逻辑。",
+        "watch": "关注OpenAI的法庭抗辩策略及是否会影响其即将推出的企业级和消费级新功能的发布节奏。"
+      },
+      {
+        "title": "乌克兰无人机袭击俄罗斯顶级数据中心，地缘冲突直接波及国家级AI算力基础设施",
+        "region": "欧洲/俄罗斯",
+        "sources": [
+          "KSL News"
+        ],
+        "summary": "乌克兰无人机成功袭击了俄罗斯境内的一处顶级数据中心。该设施被视为俄罗斯推进国家级AI雄心的核心算力节点，此次袭击凸显了物理算力基础设施在现代地缘冲突中的脆弱性。",
+        "why": "数据中心已从单纯的商业IT设施上升为国家战略资产。此次事件表明，在混合战争背景下，集中式AI算力集群面临直接的物理打击风险，将推动各国重新评估算力设施的分布式部署与物理防御。",
+        "watch": "关注俄罗斯后续对关键数字基础设施的防空部署调整，以及全球主权AI项目在选址时对地缘安全权重的提升。"
+      },
+      {
+        "title": "中美AI数据中心建设出现分化：美国陷入地方审批博弈，中国加速扩建算力网络",
+        "region": "全球/中美",
+        "sources": [
+          "CNN"
+        ],
+        "summary": "报道指出，美国在扩建AI数据中心时正面临地方社区反对、电网容量限制和繁琐的审批流程；相比之下，中国正通过国家级规划快速推进大型智算中心和数据中心集群的建设，两国在AI物理基础设施上的推进速度出现明显分化。",
+        "why": "算力基础设施的建设速度直接决定了国家在AI大模型训练和推理阶段的底层竞争力。美国的“邻避效应”与电网瓶颈可能拖慢其AI资本开支的落地效率，而中国的集中式建设将加速其国产算力生态的闭环。",
+        "watch": "关注美国能源部对数据中心电力接入的干预政策，以及中国“东数西算”工程中液冷和国产GPU集群的实际交付进度。"
+      }
+    ],
+    "sourceLinks": [
+      "https://www.marketwatch.com/story/anthropics-slowing-growth-could-be-the-ai-trades-latest-red-flag-292d0169?mod=mw_rss_topstories",
+      "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories",
+      "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-dell-amd-coreweave-ai-fears-anthropic-taiwan-semiconductor-due/",
+      "https://www.investors.com/news/technology/coreweave-stock-neoclouds-tumble-gartner-financial-forecast/",
+      "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+      "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOVlfRExJY3RhWG9kY05idWUtMU4weHhnazlhSVNoRk9VenFsTXZnN2hHamQtNXlJTGJxWGFmSzJXSkc2Q0FnXzM4RVJkMjJ2bDhUMlBBczE4bVNRZnZOTkYtRnJSMlJwRHMzWHUwT1VWc094SVdaMWE1eTdrMFZiVk5fdzVEcGcxTkR2Q1NUT3FpUU1oaldPdnVDNFhMUjZtY0dCMHlwS2pYNGs?oc=5",
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNGktaGJUa1ZadHhiRDVHUVlPbXBRTGxiU2JnSDRVVjRKQzVxUGJiSmdQYmxSa2dydklBaUtyT0c5ZG1fbmFpb3prWnVGai1vMlVNWjVNaEVUTlRGdDVSN1NwZTE1U1l6TzBHWEdfUHRRRWJLcDVJRkxwUGxZWGVsZ2ZB?oc=5"
+    ]
+  },
+  {
     "date": "2026-10-14",
     "displayDate": "2026年10月14日",
     "scope": "全球新闻｜科技与财经优先",
