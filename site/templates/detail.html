@@ -1,0 +1,18 @@
+<article class="shell news-detail" data-news-detail>
+  <div class="hero-panel detail-flow news-detail-hero" data-flow-theme="news">${backdrop}
+    <a class="back-link" href="${news_home}">← 全部每日资讯</a>
+    <header class="news-detail-header"><span class="eyebrow">DAILY BRIEFING / 每日资讯</span><h1>${display_date}</h1><p>${scope}</p><div class="news-detail-meta"><time datetime="${date}">${date}</time><span>${item_count} 条要闻</span><span>科技 · 财经 · AI 产业</span></div></header>
+  </div>
+  <div class="news-detail-grid">
+    <div class="news-detail-main"><section class="news-overview" aria-labelledby="news-overview-title"><span class="mini-label" id="news-overview-title">本期摘要</span><p>${summary}</p></section>
+      <div class="news-items">${items}</div>
+      <nav class="news-issue-nav" aria-label="浏览相邻日期的资讯">${issue_nav}</nav>
+    </div>
+    <aside class="news-detail-sidebar" aria-label="本期关注和新闻来源">
+      ${focus_card}
+      <section class="news-side-card news-reading-index"><h2>本期目录</h2><ol>${reading_index}</ol></section>
+      ${sources_card}
+      <section class="news-side-card news-share"><h2>分享本期</h2><button type="button" class="news-copy-link" data-news-copy>复制本期链接 <span aria-hidden="true">↗</span></button>${image_link}<p class="news-share-status" data-news-copy-status role="status" aria-live="polite"></p></section>
+    </aside>
+  </div>
+</article>

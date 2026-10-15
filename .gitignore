@@ -3,3 +3,9 @@ morning-briefing-site.zip
 .DS_Store
 __pycache__/
 *.pyc
+
+# Cloud build output and credentials are never committed.
+dist/
+.env
+.env.*
+*.tmp

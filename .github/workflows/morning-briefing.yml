@@ -2,52 +2,59 @@ name: Morning briefing
 
 on:
   schedule:
-    # 07:30, 07:45, 08:05, 08:20, and 08:35 Asia/Shanghai.
-    # GitHub scheduled workflows can be delayed or occasionally dropped,
-    # so backups are intentionally idempotent and skip when today's
-    # briefing already exists.
+    # Beijing 07:30, 07:45, 08:05, 08:20, 08:35. Backups are idempotent.
     - cron: "30 23 * * *"
     - cron: "45 23 * * *"
     - cron: "5 0 * * *"
     - cron: "20 0 * * *"
     - cron: "35 0 * * *"
+  push:
+    branches: [main]
+    paths: ["scripts/**", "tests/**", "site/**", "archive/**", ".github/workflows/morning-briefing.yml"]
   workflow_dispatch:
     inputs:
       date:
-        description: "YYYY-MM-DD, empty means today in Asia/Shanghai"
+        description: "YYYY-MM-DD; empty uses today in Beijing"
         required: false
         type: string
       provider:
-        description: "kimi, openai, qwen, or custom"
+        description: "Model provider"
         required: false
         default: "qwen"
         type: choice
-        options:
-          - kimi
-          - openai
-          - qwen
-          - custom
+        options: [qwen, kimi, openai, custom]
       model:
-        description: "Optional model override, e.g. qwen3.7-max"
+        description: "Model override"
         required: false
-        default: "qwen3.7-max"
+        default: "qwen3.8-max"
         type: string
+      force:
+        description: "Explicitly regenerate an already archived date (calls the model)"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: morning-briefing
   cancel-in-progress: false
 
 jobs:
-  generate:
+  archive-and-publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     env:
       TZ: Asia/Shanghai
-      MODEL_PROVIDER: ${{ github.event.inputs.provider || vars.MODEL_PROVIDER || 'kimi' }}
-      MODEL_NAME: ${{ github.event.inputs.model || vars.MODEL_NAME || '' }}
-      BRIEFING_DATE: ${{ github.event.inputs.date || '' }}
+      MODEL_PROVIDER: ${{ inputs.provider || vars.MODEL_PROVIDER || 'qwen' }}
+      MODEL_NAME: ${{ inputs.model || vars.MODEL_NAME || '' }}
+      BRIEFING_DATE: ${{ inputs.date || '' }}
       MOONSHOT_API_KEY: ${{ secrets.MOONSHOT_API_KEY }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
@@ -55,83 +62,79 @@ jobs:
       LLM_BASE_URL: ${{ vars.LLM_BASE_URL || '' }}
       KIMI_MODEL: ${{ vars.KIMI_MODEL || 'kimi-k2.6' }}
       OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.1' }}
-      QWEN_MODEL: ${{ vars.QWEN_MODEL || 'qwen3.7-max' }}
+      QWEN_MODEL: ${{ vars.QWEN_MODEL || 'qwen3.8-max' }}
       MAX_NEWS_CANDIDATES: ${{ vars.MAX_NEWS_CANDIDATES || '30' }}
-
+      FORCE_REGENERATE: ${{ inputs.force || false }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y fonts-noto-cjk
-          python -m pip install --upgrade pip pillow
-
-      - name: Resolve briefing date
-        id: briefing-date
-        run: |
-          DATE="${BRIEFING_DATE:-$(TZ=Asia/Shanghai date +%F)}"
-          echo "date=${DATE}" >> "$GITHUB_OUTPUT"
-
-      - name: Check existing scheduled briefing
-        id: existing-briefing
-        run: |
-          DATE="${{ steps.briefing-date.outputs.date }}"
-          if [ "${{ github.event_name }}" = "schedule" ] && grep -Eq "(date:|\"date\":)[[:space:]]*\"${DATE}\"" data/briefings.js; then
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "Scheduled briefing ${DATE} already exists; skipping backup run."
-          else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Generate briefing
-        if: steps.existing-briefing.outputs.skip != 'true'
+      - name: Test cloud archive and static rendering
+        run: python -m unittest discover -s tests -v
+      - name: Collect original RSS and generate missing briefing
+        id: generate
+        continue-on-error: true
         timeout-minutes: 12
-        run: python scripts/generate_morning_briefing.py
-
-      - name: Validate generated files
-        if: steps.existing-briefing.outputs.skip != 'true'
         run: |
-          node --check app.js
-          node --check data/briefings.js
-          python - <<'PY'
-          import json
-          import subprocess
-          import sys
-          script = """
-          global.window = {};
-          require('./data/briefings.js');
-          const first = window.MORNING_BRIEFINGS[0];
-          console.log(JSON.stringify({date:first.date, image:first.image, items:first.items.length}));
-          """
-          result = subprocess.run(["node", "-e", script], check=True, capture_output=True, text=True)
-          info = json.loads(result.stdout)
-          if info["items"] < 3:
-              raise SystemExit("latest briefing has too few items")
-          from pathlib import Path
-          if not Path(info["image"]).exists():
-              raise SystemExit(f"missing image: {info['image']}")
-          print(info)
-          PY
-
-      - name: Commit and push
-        if: steps.existing-briefing.outputs.skip != 'true'
-        run: |
-          DATE="${{ steps.briefing-date.outputs.date }}"
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html data/briefings.js assets
-          if git diff --cached --quiet; then
-            echo "No briefing changes to commit."
-            exit 0
+          if [ "$FORCE_REGENERATE" = "true" ]; then
+            python scripts/generate_morning_briefing.py --force
+          else
+            python scripts/generate_morning_briefing.py
           fi
-          git commit -m "Update morning briefing ${DATE}"
-          git push origin main
+      - name: Record failure without API response or credentials
+        if: steps.generate.outcome == 'failure'
+        run: |
+          python - <<'PY'
+          import datetime as dt, json, os
+          from pathlib import Path
+          stamp = os.environ.get('BRIEFING_DATE') or dt.datetime.now(dt.timezone(dt.timedelta(hours=8))).date().isoformat()
+          stamp = dt.date.fromisoformat(stamp).isoformat()
+          path = Path('archive/runs') / stamp[:4] / stamp[5:7] / (stamp + '.md')
+          path.parent.mkdir(parents=True, exist_ok=True)
+          status = {'date': stamp, 'outcome': 'generation-or-validation-failed',
+                    'rss_archive_retained': True, 'last_good_briefing_retained': True}
+          path.write_text('# 采集生成状态 · ' + stamp + '\n\n```json\n' + json.dumps(status, ensure_ascii=False, separators=(',', ':')) + '\n```\n', encoding='utf-8')
+          PY
+      - name: Persist Markdown even if the model fails
+        id: persist
+        if: always() && !cancelled() && steps.generate.outcome != 'skipped'
+        run: |
+          git add archive data/briefings.js
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Archive daily news and original RSS"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Retain a recovery artifact
+        if: always() && !cancelled() && steps.generate.outcome != 'skipped'
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-news-markdown-${{ github.run_id }}
+          path: archive/
+          retention-days: 7
+      - name: Build only the public static site
+        id: build
+        if: always() && !cancelled() && steps.persist.outcome == 'success'
+        run: python scripts/build_news_site.py
+      - name: Configure Pages
+        id: pages
+        if: always() && !cancelled() && steps.build.outcome == 'success'
+        uses: actions/configure-pages@v5
+      - name: Upload static Pages artifact
+        id: upload
+        if: always() && !cancelled() && steps.pages.outcome == 'success'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist/
+      - name: Deploy GitHub Pages explicitly
+        id: deployment
+        if: always() && !cancelled() && steps.upload.outcome == 'success'
+        uses: actions/deploy-pages@v4
+      - name: Report generation failure after preserving archives and last good site
+        if: steps.generate.outcome == 'failure'
+        run: exit 1

@@ -74,7 +74,7 @@ def provider_config() -> dict[str, str]:
             "provider": provider,
             "base_url": (os.environ.get("LLM_BASE_URL") or "https://dashscope.aliyuncs.com/compatible-mode/v1").rstrip("/"),
             "api_key": os.environ.get("DASHSCOPE_API_KEY", ""),
-            "model": model_name or os.environ.get("QWEN_MODEL", "qwen-plus"),
+            "model": model_name or os.environ.get("QWEN_MODEL", "qwen3.8-max"),
         }
     if provider == "custom":
         return {

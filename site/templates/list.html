@@ -1,0 +1,20 @@
+<div class="hero-panel page-flow news-page-hero" data-flow-theme="news">${backdrop}
+  <section class="shell page-intro news-intro">
+    <div><span class="eyebrow">DAILY BRIEFING / 每日资讯</span><h1>每日资讯</h1><p>关注科技、财经与 AI 产业动向。<br>以每日简报，补充案例之外的行业观察。</p></div>
+    <div class="news-library-meta"><span><strong>${briefing_count}</strong> 期简报</span>${latest_date}<a href="#news-archive">按日期查阅 <span aria-hidden="true">↓</span></a></div>
+  </section>
+</div>
+<div class="shell news-library">
+  ${latest_section}
+  <section class="news-archive" id="news-archive" aria-labelledby="news-archive-heading">
+    <div class="news-archive-heading"><div><span class="eyebrow">ARCHIVE / 日期归档</span><h2 id="news-archive-heading">全部资讯</h2></div><label class="news-search" for="news-search"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.4"/><path d="m12.5 12.5 4.5 4.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg><input id="news-search" type="search" placeholder="搜索日期或资讯关键词" aria-label="搜索日期、摘要和新闻标题" autocomplete="off"></label></div>
+    <div class="news-archive-browser">
+      <aside class="news-month-panel" aria-label="按月份浏览"><h3>月份索引</h3><div class="news-month-list"><button type="button" class="news-month-button active" data-news-month="" aria-pressed="true"><span>全部月份</span><span>${briefing_count}</span></button>${month_buttons}</div>${archive_since}</aside>
+      <div class="news-archive-results"><div class="news-results-heading"><p><span id="news-month-label">全部月份</span><span class="news-results-count">共 <strong id="news-result-count" aria-live="polite">${briefing_count}</strong> 期</span></p><button type="button" class="text-button" id="news-filter-reset" hidden>清除筛选</button></div>
+        <div class="news-archive-grid" id="news-archive-grid">${archive_cards}</div>
+        <div class="news-empty" id="news-empty" ${empty_hidden}><span aria-hidden="true">／</span><h3>暂无匹配资讯</h3><p>尝试其他日期、关键词或月份。</p></div>
+        <div class="news-load-more" id="news-load-more-wrap" hidden><button class="news-more-button" id="news-load-more" type="button">查看更多资讯 <span aria-hidden="true">↓</span></button><span id="news-visible-count" aria-live="polite"></span></div>
+      </div>
+    </div>
+  </section>
+</div>

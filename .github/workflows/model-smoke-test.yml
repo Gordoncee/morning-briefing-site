@@ -6,7 +6,7 @@ on:
       provider:
         description: "kimi, openai, qwen, or custom"
         required: false
-        default: "kimi"
+        default: "qwen"
         type: choice
         options:
           - kimi
@@ -22,7 +22,7 @@ jobs:
   smoke-test:
     runs-on: ubuntu-latest
     env:
-      MODEL_PROVIDER: ${{ github.event.inputs.provider || vars.MODEL_PROVIDER || 'kimi' }}
+      MODEL_PROVIDER: ${{ github.event.inputs.provider || vars.MODEL_PROVIDER || 'qwen' }}
       MODEL_NAME: ${{ github.event.inputs.model || vars.MODEL_NAME || '' }}
       MOONSHOT_API_KEY: ${{ secrets.MOONSHOT_API_KEY }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -31,7 +31,7 @@ jobs:
       LLM_BASE_URL: ${{ vars.LLM_BASE_URL || '' }}
       KIMI_MODEL: ${{ vars.KIMI_MODEL || 'kimi-k2.6' }}
       OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.1' }}
-      QWEN_MODEL: ${{ vars.QWEN_MODEL || 'qwen-plus' }}
+      QWEN_MODEL: ${{ vars.QWEN_MODEL || 'qwen3.8-max' }}
 
     steps:
       - name: Checkout

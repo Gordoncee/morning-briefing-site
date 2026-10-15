@@ -20,7 +20,7 @@ on:
       model:
         description: "Optional model override"
         required: false
-        default: "qwen3.7-max"
+        default: "qwen3.8-max"
         type: string
 
 jobs:
@@ -38,7 +38,7 @@ jobs:
       LLM_BASE_URL: ${{ vars.LLM_BASE_URL || '' }}
       KIMI_MODEL: ${{ vars.KIMI_MODEL || 'kimi-k2.6' }}
       OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.1' }}
-      QWEN_MODEL: ${{ vars.QWEN_MODEL || 'qwen3.7-max' }}
+      QWEN_MODEL: ${{ vars.QWEN_MODEL || 'qwen3.8-max' }}
       MAX_NEWS_CANDIDATES: ${{ vars.MAX_NEWS_CANDIDATES || '30' }}
 
     steps:
@@ -50,15 +50,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y fonts-noto-cjk
-          python -m pip install --upgrade pip pillow
-
       - name: Generate preview
         timeout-minutes: 12
-        run: python scripts/generate_morning_briefing.py
+        run: |
+          python scripts/generate_morning_briefing.py
+          python scripts/build_news_site.py
 
       - name: Resolve preview date
         id: preview-date
@@ -71,6 +67,6 @@ jobs:
         with:
           name: morning-briefing-preview-${{ steps.preview-date.outputs.date }}
           path: |
-            data/briefings.js
-            assets/morning-briefing-${{ steps.preview-date.outputs.date }}.png
+            archive/
+            dist/
           if-no-files-found: error

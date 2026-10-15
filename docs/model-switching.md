@@ -22,7 +22,7 @@ Use repository variables to set defaults:
 - `MODEL_NAME`: Optional global model override.
 - `KIMI_MODEL`: Default Kimi model. Default: `kimi-k2.6`.
 - `OPENAI_MODEL`: Default OpenAI model. Default: `gpt-5.1`.
-- `QWEN_MODEL`: Default Qwen model. Current default: `qwen3.7-max`.
+- `QWEN_MODEL`: Default Qwen model. Current default: `qwen3.8-max`.
 - `LLM_BASE_URL`: Required for custom Qwen-compatible gateways, optional override for known providers.
 
 ## Suggested Setups
@@ -39,7 +39,7 @@ Qwen / DashScope compatible mode:
 
 ```text
 MODEL_PROVIDER=qwen
-QWEN_MODEL=qwen3.7-max
+QWEN_MODEL=qwen3.8-max
 LLM_BASE_URL=https://token-plan.cn-beijing.maas.aliyuncs.com/compatible-mode/v1
 DASHSCOPE_API_KEY=<secret>
 ```

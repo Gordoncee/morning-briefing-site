@@ -24,7 +24,14 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
 
-from PIL import Image, ImageDraw, ImageFont
+from concurrent.futures import ThreadPoolExecutor
+
+if __package__:
+    from .news_archive import (archive_briefing, archive_path, archive_source_capture,
+                              load_archived_briefings, parse_briefings_js, read_source_config)
+else:
+    from news_archive import (archive_briefing, archive_path, archive_source_capture,
+                             load_archived_briefings, parse_briefings_js, read_source_config)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -32,24 +39,9 @@ DATA_FILE = ROOT / "data" / "briefings.js"
 ASSETS_DIR = ROOT / "assets"
 INDEX_FILE = ROOT / "index.html"
 
-DEFAULT_FEEDS = [
-    "https://apnews.com/hub/business?output=rss",
-    "https://apnews.com/hub/technology?output=rss",
-    "https://www.axios.com/feed",
-    "https://www.theverge.com/rss/index.xml",
-    "https://feeds.marketwatch.com/marketwatch/topstories",
-    "https://www.investors.com/feed/",
-    "https://www.wsj.com/xml/rss/3_7014.xml",
-    "https://www.barrons.com/xml/rss/3_7031.xml",
-]
-
-GOOGLE_NEWS_QUERIES = [
-    "AI technology finance markets",
-    "artificial intelligence data center chips business",
-    "technology stocks finance economy",
-    "semiconductor AI earnings market",
-    "global business technology AI",
-]
+SOURCE_CONFIG = read_source_config(ROOT / "archive" / "sources" / "config.md")
+DEFAULT_FEEDS = SOURCE_CONFIG["default_feeds"]
+GOOGLE_NEWS_QUERIES = SOURCE_CONFIG["google_news_queries"]
 
 
 class BriefingError(RuntimeError):
@@ -59,22 +51,56 @@ class BriefingError(RuntimeError):
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", default=os.environ.get("BRIEFING_DATE", ""))
-    parser.add_argument("--max-candidates", type=int, default=int(os.environ.get("MAX_NEWS_CANDIDATES", "30")))
+    parser.add_argument("--max-candidates", type=int,
+                        default=int(os.environ.get("MAX_NEWS_CANDIDATES", str(SOURCE_CONFIG["max_candidates"]))))
+    parser.add_argument("--collect-only", action="store_true", help="Archive RSS without a model call")
+    parser.add_argument("--force", action="store_true", help="Explicitly regenerate an existing date")
     args = parser.parse_args()
+    if not 12 <= args.max_candidates <= 200:
+        raise BriefingError("Candidate limit must be between 12 and 200.")
 
     today = parse_date(args.date)
-    previous = load_existing_briefings(DATA_FILE)
-    candidates = collect_candidates(args.max_candidates)
-    if len(candidates) < 12:
-        raise BriefingError(f"Only collected {len(candidates)} news candidates; refusing to publish weak briefing.")
+    existing = load_archived_briefings(ROOT)
+    has_briefing = any(row["date"] == today.isoformat() for row in existing)
+    capture_file = archive_path(ROOT, "sources", today.isoformat())
+    if has_briefing and capture_file.exists() and not args.force:
+        rebuild_legacy_dataset()
+        print(json.dumps({"date": today.isoformat(), "status": "already-archived", "model_called": False}))
+        return 0
 
+    audit = {"statuses": [], "all_items": []}
+    candidates = collect_candidates(args.max_candidates, audit)
+    archive_source_capture(ROOT, today.isoformat(), candidates, audit["statuses"],
+                           all_items=audit["all_items"], candidate_limit=args.max_candidates)
+    if args.collect_only or (has_briefing and not args.force):
+        rebuild_legacy_dataset()
+        print(json.dumps({"date": today.isoformat(), "status": "sources-archived", "model_called": False,
+                          "rss_items": len(audit["all_items"]), "candidates": len(candidates)}))
+        return 0
+    if len(candidates) < 12:
+        raise BriefingError(f"Only collected {len(candidates)} news candidates; source archive is retained.")
+
+    # Raw RSS is already on disk before any API operation. The workflow commits
+    # it even when the model or validation fails; last good briefings stay intact.
+    previous = load_existing_briefings(DATA_FILE)
     briefing = synthesize_briefing(today, candidates, previous)
     validate_briefing(briefing, today)
-    upsert_briefing(DATA_FILE, briefing)
-    update_cache_bust(INDEX_FILE, today)
-    render_share_image(briefing, ASSETS_DIR / f"morning-briefing-{today.isoformat()}.png")
-    print(json.dumps({"date": briefing["date"], "items": len(briefing["items"]), "image": briefing["image"]}, ensure_ascii=False))
+    allowed_urls = {normalized_url(item["url"]) for item in candidates}
+    if any(normalized_url(link) not in allowed_urls for link in briefing["sourceLinks"]):
+        raise BriefingError("Model returned a source outside the collected candidate URLs.")
+    archive_briefing(ROOT, briefing)
+    rebuild_legacy_dataset()
+    print(json.dumps({"date": briefing["date"], "items": len(briefing["items"]),
+                      "model": provider_config()["model"], "model_called": True}, ensure_ascii=False))
     return 0
+
+
+def rebuild_legacy_dataset() -> None:
+    """Compatibility export; Markdown, rather than JavaScript, is canonical."""
+    rows = load_archived_briefings(ROOT)
+    DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
+    DATA_FILE.write_text("window.MORNING_BRIEFINGS = " +
+                         json.dumps(rows, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
 
 
 def parse_date(value: str) -> dt.date:
@@ -84,7 +110,7 @@ def parse_date(value: str) -> dt.date:
 
 
 def provider_config() -> dict[str, str]:
-    provider = os.environ.get("MODEL_PROVIDER", "kimi").strip().lower()
+    provider = os.environ.get("MODEL_PROVIDER", "qwen").strip().lower()
     model_name = os.environ.get("MODEL_NAME", "").strip()
     if provider == "kimi":
         return {
@@ -105,7 +131,7 @@ def provider_config() -> dict[str, str]:
             "provider": provider,
             "base_url": (os.environ.get("LLM_BASE_URL") or "https://dashscope.aliyuncs.com/compatible-mode/v1").rstrip("/"),
             "api_key": os.environ.get("DASHSCOPE_API_KEY", ""),
-            "model": model_name or os.environ.get("QWEN_MODEL", "qwen-plus"),
+            "model": model_name or os.environ.get("QWEN_MODEL", "qwen3.8-max"),
         }
     if provider == "custom":
         return {
@@ -117,41 +143,59 @@ def provider_config() -> dict[str, str]:
     raise BriefingError(f"Unsupported MODEL_PROVIDER: {provider}")
 
 
-def collect_candidates(limit: int) -> list[dict[str, str]]:
+def collect_candidates(limit: int, audit: dict | None = None) -> list[dict[str, str]]:
     feeds = list(DEFAULT_FEEDS)
     for query in GOOGLE_NEWS_QUERIES:
         encoded = urllib.parse.quote(query)
         feeds.append(f"https://news.google.com/rss/search?q={encoded}%20when:2d&hl=en-US&gl=US&ceid=US:en")
 
+    def fetch_one(feed):
+        status = {"url": feed, "selected_count": 0}
+        return feed, fetch_feed(feed, status), status
+
+    # Fetch every configured source for the archive. Model selection keeps its
+    # existing order/per-feed quota and 30-item cap, independent of completion order.
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        fetched = list(pool.map(fetch_one, feeds))
     seen: set[str] = set()
     candidates: list[dict[str, str]] = []
     per_feed_limit = max(5, min(10, limit // 4))
-    for feed in feeds:
+    for feed, items, status in fetched:
+        for raw_item in items:
+            raw_item["feed_url"] = feed
         added_from_feed = 0
-        for item in fetch_feed(feed):
+        for item in items:
+            if len(candidates) >= limit or added_from_feed >= per_feed_limit:
+                break
             key = normalized_url(item["url"]) or item["title"].casefold()
             if not key or key in seen:
                 continue
             seen.add(key)
-            candidates.append(item)
+            candidates.append({key: item[key] for key in ("title", "url", "source", "summary", "published")})
             added_from_feed += 1
-            if len(candidates) >= limit:
-                return candidates
-            if added_from_feed >= per_feed_limit:
-                break
+        status["selected_count"] = added_from_feed
+        if audit is not None:
+            audit["statuses"].append(status)
+            audit["all_items"].extend(items)
     return candidates
 
 
-def fetch_feed(url: str) -> list[dict[str, str]]:
+def fetch_feed(url: str, status: dict | None = None) -> list[dict[str, str]]:
+    status = status if status is not None else {}
+    status.update(url=url, status="failed", items_count=0)
     try:
         raw = http_get(url, timeout=20)
-    except Exception as exc:  # noqa: BLE001
-        print(f"warning: failed to fetch feed {url}: {exc}", file=sys.stderr)
+        status["http_status"] = 200
+    except Exception as exc:
+        status["error_type"] = type(exc).__name__
+        if isinstance(exc, urllib.error.HTTPError):
+            status["http_status"] = exc.code
+        print(f"warning: feed unavailable {url}: {type(exc).__name__}", file=sys.stderr)
         return []
     try:
         root = ET.fromstring(clean_xml(raw))
     except ET.ParseError as exc:
-        print(f"warning: failed to parse feed {url}: {exc}", file=sys.stderr)
+        status["error_type"] = type(exc).__name__
         return []
 
     items: list[dict[str, str]] = []
@@ -160,30 +204,34 @@ def fetch_feed(url: str) -> list[dict[str, str]]:
         for node in channel_items:
             title = text_of(node, "title")
             link = text_of(node, "link")
-            summary = clean_html(text_of(node, "description"))
+            description = text_of(node, "description")
             source = text_of(node, "source") or hostname(link)
             published = text_of(node, "pubDate")
-            items.append(make_candidate(title, link, summary, source, published))
-        return [item for item in items if item["title"] and item["url"]]
-
-    ns = {"atom": "http://www.w3.org/2005/Atom"}
-    for node in root.findall(".//atom:entry", ns):
-        title = node.findtext("atom:title", default="", namespaces=ns)
-        link_node = node.find("atom:link", ns)
-        link = link_node.attrib.get("href", "") if link_node is not None else ""
-        summary = clean_html(node.findtext("atom:summary", default="", namespaces=ns))
-        published = node.findtext("atom:updated", default="", namespaces=ns)
-        items.append(make_candidate(title, link, summary, hostname(link), published))
-    return [item for item in items if item["title"] and item["url"]]
+            item = make_candidate(title, link, clean_html(description), source, published)
+            item.update(rss_description=description, published_raw=published)
+            items.append(item)
+    else:
+        ns = {"atom": "http://www.w3.org/2005/Atom"}
+        for node in root.findall(".//atom:entry", ns):
+            title = node.findtext("atom:title", default="", namespaces=ns)
+            link_node = node.find("atom:link", ns)
+            link = link_node.attrib.get("href", "") if link_node is not None else ""
+            description = node.findtext("atom:summary", default="", namespaces=ns)
+            published = node.findtext("atom:updated", default="", namespaces=ns)
+            item = make_candidate(title, link, clean_html(description), hostname(link), published)
+            item.update(rss_description=description, published_raw=published)
+            items.append(item)
+    items = [item for item in items if item["title"] and item["url"]]
+    status.update(status="ok" if items else "empty", items_count=len(items))
+    return items
 
 
 def make_candidate(title: str, url: str, summary: str, source: str, published: str) -> dict[str, str]:
     return {
-        "title": clean_space(title),
-        "url": clean_space(url),
+        "title": clean_space(title), "url": clean_space(url),
         "source": clean_space(source or hostname(url)),
         "summary": truncate(clean_space(summary), 220),
-        "published": normalize_date(published),
+        "rss_summary": summary, "published": normalize_date(published),
     }
 
 
@@ -246,11 +294,14 @@ def normalize_date(value: str) -> str:
 
 
 def load_existing_briefings(path: Path) -> list[dict[str, Any]]:
-    content = path.read_text(encoding="utf-8")
-    dates = re.findall(r'date:\s*"(\d{4}-\d{2}-\d{2})"', content)
-    titles = re.findall(r'title:\s*"([^"]+)"', content)
-    links = re.findall(r'"https?://[^"]+"', content)
-    return [{"dates": dates[:14], "titles": titles[:60], "links": [link.strip('"') for link in links[-120:]]}]
+    rows = load_archived_briefings(ROOT)
+    if not rows and path.exists():
+        rows = sorted(parse_briefings_js(path.read_text(encoding="utf-8")),
+                      key=lambda row: row["date"], reverse=True)
+    recent = rows[:14]
+    return [{"dates": [row["date"] for row in recent],
+             "titles": [item["title"] for row in recent for item in row["items"]][:60],
+             "links": [link for row in recent for link in row["sourceLinks"]][:120]}]
 
 
 def synthesize_briefing(today: dt.date, candidates: list[dict[str, str]], previous: list[dict[str, Any]]) -> dict[str, Any]:
@@ -439,6 +490,7 @@ def update_cache_bust(path: Path, today: dt.date) -> None:
 
 
 def render_share_image(briefing: dict[str, Any], out: Path) -> None:
+    from PIL import Image, ImageDraw, ImageFont  # Legacy opt-in utility; not used by cloud daily updates.
     width = 1242
     margin = 72
     card_width = width - margin * 2
