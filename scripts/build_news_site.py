@@ -25,7 +25,9 @@ else:
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SITE_URL = "https://gordoncee.github.io/morning-briefing-site/"
-DEFAULT_CASE_SITE = "http://fazhi.cc"
+# Use the reachable case entry while the domain is awaiting ICP clearance.
+# Both addresses serve the same release directory on the ECS.
+DEFAULT_CASE_SITE = "http://47.117.77.217"
 BRAND = "AI法智前沿"
 COMPATIBILITY_FILES = (
     "admin.html", "admin.css", "admin.js", "styles.css",
