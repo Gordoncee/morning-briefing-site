@@ -29,7 +29,7 @@ DEFAULT_SITE_URL = "https://gordoncee.github.io/morning-briefing-site/"
 # Both addresses serve the same release directory on the ECS.
 DEFAULT_CASE_SITE = "http://47.117.77.217"
 BRAND = "AI法智前沿"
-NAVIGATION_VERSION = "20261023"
+NAVIGATION_VERSION = "20261023-headers"
 COMPATIBILITY_FILES = (
     "admin.html", "admin.css", "admin.js", "styles.css",
     "analytics-config.js", "analytics.js",
