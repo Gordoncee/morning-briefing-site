@@ -29,6 +29,7 @@ DEFAULT_SITE_URL = "https://gordoncee.github.io/morning-briefing-site/"
 # Both addresses serve the same release directory on the ECS.
 DEFAULT_CASE_SITE = "http://47.117.77.217"
 BRAND = "AI法智前沿"
+NAVIGATION_VERSION = "20261023"
 COMPATIBILITY_FILES = (
     "admin.html", "admin.css", "admin.js", "styles.css",
     "analytics-config.js", "analytics.js",
@@ -114,6 +115,10 @@ def focus_tags(values: list[str], limit: int | None = None, truncate: int = 0) -
                    for value in (values if limit is None else values[:limit]))
 
 
+def news_home_url(home: str) -> str:
+    return f"{home}?v={NAVIGATION_VERSION}"
+
+
 def detail_url(home: str, row: dict) -> str:
     return f"{home}{row['date']}/"
 
@@ -191,7 +196,7 @@ def render_detail(row: dict, older: dict | None, newer: dict | None, template_di
     )
     nav += (
         f'<a href="{h(detail_url(home, newer))}"><span>较新一期 →</span><strong>{h(newer["displayDate"])}</strong></a>'
-        if newer else f'<a href="{h(home)}#news-archive"><span>日期归档 →</span><strong>查看全部资讯</strong></a>'
+        if newer else f'<a href="{h(news_home_url(home))}#news-archive"><span>日期归档 →</span><strong>查看全部资讯</strong></a>'
     )
     source_items = "".join(
         f'<li><a href="{h(url)}" target="_blank" rel="noopener noreferrer" data-news-source>'
@@ -199,7 +204,7 @@ def render_detail(row: dict, older: dict | None, newer: dict | None, template_di
         for value in row["sourceLinks"] if (url := http_url(value))
     )
     return template(
-        template_dir, "detail.html", backdrop=backdrop, news_home=h(home),
+        template_dir, "detail.html", backdrop=backdrop, news_home=h(news_home_url(home)),
         display_date=h(row["displayDate"]), scope=h(row["scope"]), date=row["date"],
         item_count=len(row["items"]), summary=h(row["summary"]), items="".join(items),
         reading_index="".join(reading_index), issue_nav=nav,
@@ -287,7 +292,7 @@ def build_site(archive_dir: Path, output: Path, design_dir: Path, site_url: str,
         return template(
             templates, "base.html", brand=BRAND, team_name="AI法智前沿研究团队",
             title=h(title), description=h(description), content=content,
-            case_site=h(case_site), news_home=h(home), asset_base=h(asset_base),
+            case_site=h(case_site), news_home=h(news_home_url(home)), asset_base=h(asset_base),
             brand_markup=brand_markup, asset_version=asset_version,
             community_feedback=template(templates, "community_feedback.html", asset_base=h(asset_base)),
             canonical=h(urljoin(site_url, f"{stamp}/" if stamp else "")),

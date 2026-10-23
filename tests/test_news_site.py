@@ -74,6 +74,7 @@ class NewsSiteTests(unittest.TestCase):
             self.assertIn('href="http://fazhi.cc/global-cases/">全球典型案例</a>', text)
             self.assertNotIn('http://fazhi.cc/#explore', text)
             self.assertEqual(text.count('id="community-feedback"'), 1)
+            self.assertIn('href="/morning-briefing-site/?v=20261023"', text)
             self.assertIn('href="http://fazhi.cc/laws/"', text)
             self.assertIn('href="http://fazhi.cc/insights/"', text)
             self.assertIn('href="http://fazhi.cc/team/"', text)
