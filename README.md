@@ -3,7 +3,7 @@
 每日资讯由本仓库独立采集、归档、生成和发布。案例库保留在 `Gordoncee/AI-Case`，两个仓库不合并。公开资讯页面使用与案例库一致的品牌、导航、背景和阅读样式。
 
 - 网站：https://gordoncee.github.io/morning-briefing-site/
-- 案例库：http://fazhi.cc/
+- 案例库：http://47.117.77.217/ （域名备案放行后可切换至 fazhi.cc）
 - 运行位置：GitHub Actions 临时运行器；网站托管在 GitHub Pages。
 - 不需要个人电脑开机，不向 ECS 安装采集程序、数据库、模型或定时任务。
 
@@ -52,3 +52,7 @@ python3 scripts/build_news_site.py --output /tmp/daily-news-site
 ```
 
 仅归档、无需模型时：`python3 scripts/generate_morning_briefing.py --collect-only`。正常生成默认不覆盖已有日期；只有明确传 `--force` 才会再次调用模型重做该日。
+
+## 页面同步（2026-10-23）
+
+资讯站导航已与案例站统一为首页、国内典型案例、全球典型案例、法律法规、团队评析、关于团队。国内与全球栏目分别链接 `/cases/` 和 `/global-cases/` 独立页面；不再使用旧的 `/#explore` 入口。共享样式、导航脚本及页底建议与补充提示同步自案例站；资讯归档、采集来源、模型、密钥和定时计划保持原配置。后续调整案例站公共导航时，应同步 `site/templates/base.html` 与 `site/assets/` 并运行本仓库测试和构建，避免两个独立站点的页面版本脱节。

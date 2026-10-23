@@ -2,6 +2,11 @@
 @media(max-width:760px){html{scroll-padding-top:120px}}
 .hero-panel{--flow-filter:saturate(.68);--flow-paper:#b5c0ce;--flow-light:#e0e6ed;background:var(--flow-paper)}
 .hero-panel[data-flow-theme=cases]{--flow-filter:saturate(.55) hue-rotate(-12deg);--flow-paper:#b7c3cd;--flow-light:#e1e7ed}
+.hero-panel[data-flow-theme=global]{--flow-filter:sepia(.68) saturate(.75) hue-rotate(348deg) brightness(1.04);--flow-paper:#d0baa2;--flow-light:#f1e5d5}
+.hero-panel[data-flow-theme=global] .eyebrow{color:#765737}
+.hero-panel[data-flow-theme=global] h1,.hero-panel[data-flow-theme=global] h2{color:#4e3b2c}
+.hero-panel[data-flow-theme=global] .section-caption,.hero-panel[data-flow-theme=global] .page-intro>p{color:#665745}
+.hero-panel[data-flow-theme=global] .text-button,.hero-panel[data-flow-theme=global] .back-link{color:#745337}
 .hero-panel[data-flow-theme=laws]{--flow-filter:saturate(.5) hue-rotate(-73deg) brightness(1.04);--flow-paper:#bdc9c3;--flow-light:#e4ebe6}
 .hero-panel[data-flow-theme=insights]{--flow-filter:saturate(.52) hue-rotate(38deg) brightness(1.04);--flow-paper:#c2c0d0;--flow-light:#e8e5ef}
 .hero-panel[data-flow-theme=team]{--flow-filter:saturate(.42) hue-rotate(168deg) brightness(1.07);--flow-paper:#cbc5bd;--flow-light:#ede8e1}

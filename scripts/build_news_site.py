@@ -289,6 +289,7 @@ def build_site(archive_dir: Path, output: Path, design_dir: Path, site_url: str,
             title=h(title), description=h(description), content=content,
             case_site=h(case_site), news_home=h(home), asset_base=h(asset_base),
             brand_markup=brand_markup, asset_version=asset_version,
+            community_feedback=template(templates, "community_feedback.html", asset_base=h(asset_base)),
             canonical=h(urljoin(site_url, f"{stamp}/" if stamp else "")),
             og_type="article" if stamp else "website",
         )
