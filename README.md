@@ -2,10 +2,12 @@
 
 每日资讯由本仓库独立采集、归档、生成和发布。案例库保留在 `Gordoncee/AI-Case`，两个仓库不合并。公开资讯页面使用与案例库一致的品牌、导航、背景和阅读样式。
 
-- 网站：https://gordoncee.github.io/morning-briefing-site/
-- 案例库：http://47.117.77.217/ （域名备案放行后可切换至 fazhi.cc）
+- 正式网站：https://fazhi.cc/news/
+- 案例库：https://fazhi.cc/
 - 运行位置：GitHub Actions 临时运行器；网站托管在 GitHub Pages。
 - 不需要个人电脑开机，不向 ECS 安装采集程序、数据库、模型或定时任务。
+
+2026-10-26：所有公开导航、资讯归档／详情、资源和 canonical URL 均使用 `https://fazhi.cc`。GitHub Pages 仍是构建产物源站，由现有 ECS 在 `/news/` 安全代理；源站访问不携带用户 Cookie 或认证头。旧 GitHub Pages 收藏会跳转对应的正式资讯页，查询参数和段内锚点保留；外部媒体原文链接保留原始出处。来源、模型、密钥与每天的定时采集保持原配置，所有资讯仍独立从 Markdown 构建，不需要 ECS 运行采集或模型。
 
 ## Markdown 是资料的唯一维护来源
 

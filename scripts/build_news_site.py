@@ -24,12 +24,10 @@ else:
     from news_archive import load_briefings
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_SITE_URL = "https://gordoncee.github.io/morning-briefing-site/"
-# Use the reachable case entry while the domain is awaiting ICP clearance.
-# Both addresses serve the same release directory on the ECS.
-DEFAULT_CASE_SITE = "http://47.117.77.217"
+DEFAULT_SITE_URL = "https://fazhi.cc/news/"
+DEFAULT_CASE_SITE = "https://fazhi.cc"
 BRAND = "AI法智前沿"
-NAVIGATION_VERSION = "20261023-headers"
+NAVIGATION_VERSION = "20261026-domain"
 COMPATIBILITY_FILES = (
     "admin.html", "admin.css", "admin.js", "styles.css",
     "analytics-config.js", "analytics.js",
@@ -229,7 +227,9 @@ def make_site_url(value: str) -> tuple[str, str]:
     if parsed.query or parsed.fragment:
         raise ValueError("--site-url must not contain a query or fragment")
     site_url = url.rstrip("/") + "/"
-    home = urlsplit(site_url).path or "/"
+    # Absolute canonical links also work when an old GitHub Pages bookmark is
+    # opened directly; navigation and assets still use the public fazhi.cc host.
+    home = site_url
     return site_url, home
 
 

@@ -74,7 +74,7 @@ class NewsSiteTests(unittest.TestCase):
             self.assertIn('href="http://fazhi.cc/global-cases/">全球典型案例</a>', text)
             self.assertNotIn('http://fazhi.cc/#explore', text)
             self.assertEqual(text.count('id="community-feedback"'), 1)
-            self.assertIn('href="/morning-briefing-site/?v=20261023-headers"', text)
+            self.assertIn('href="https://example.github.io/morning-briefing-site/?v=20261026-domain"', text)
             self.assertIn('href="http://fazhi.cc/laws/"', text)
             self.assertIn('href="http://fazhi.cc/insights/"', text)
             self.assertIn('href="http://fazhi.cc/team/"', text)
@@ -82,7 +82,7 @@ class NewsSiteTests(unittest.TestCase):
             parser.feed(text)
             for value in parser.urls:
                 url = urlsplit(value)
-                if url.scheme or not url.path:
+                if not url.path or (url.netloc and url.netloc != 'example.github.io'):
                     continue
                 self.assertTrue(url.path.startswith("/morning-briefing-site/"), value)
                 relative = url.path.removeprefix("/morning-briefing-site/")
@@ -102,6 +102,23 @@ class NewsSiteTests(unittest.TestCase):
         earliest = (self.output / "2026-09-30" / "index.html").read_text(encoding="utf-8")
         self.assertIn("较新一期", earliest)
         self.assertNotIn("较早一期", earliest)
+
+    def test_production_navigation_and_assets_use_only_canonical_domain(self):
+        self.add_briefing(briefing())
+        builder.build_site(self.archive, self.output, ROOT / 'site',
+                           builder.DEFAULT_SITE_URL, builder.DEFAULT_CASE_SITE,
+                           compatibility_root=self.root)
+        for page in self.output.rglob('*.html'):
+            text = page.read_text()
+            self.assertNotIn('47.117.77.217', text)
+            self.assertIn('沪ICP备2026041317号-2', text)
+            parser = Links(); parser.feed(text)
+            for value in parser.urls:
+                url = urlsplit(value)
+                if not url.netloc or url.netloc in {'example.com', 'beian.miit.gov.cn'}:
+                    continue
+                self.assertEqual((url.scheme, url.netloc), ('https', 'fazhi.cc'), value)
+            self.assertIn('href="https://fazhi.cc/news/2026-10-15/', text)
 
     def test_feed_and_model_text_are_escaped_and_unsafe_links_removed(self):
         hostile = '<script>alert("feed")</script>'
