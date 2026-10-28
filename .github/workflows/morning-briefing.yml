@@ -8,6 +8,9 @@ on:
     - cron: "5 0 * * *"
     - cron: "20 0 * * *"
     - cron: "35 0 * * *"
+    # Afternoon catch-up, Beijing 13:15 and 16:15; reuse an existing daily MD.
+    - cron: "15 5 * * *"
+    - cron: "15 8 * * *"
   push:
     branches: [main]
     paths: ["scripts/**", "tests/**", "site/**", "archive/**", ".github/workflows/morning-briefing.yml"]
@@ -46,7 +49,7 @@ concurrency:
 jobs:
   archive-and-publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 60
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -133,8 +136,37 @@ jobs:
           path: dist/
       - name: Deploy GitHub Pages explicitly
         id: deployment
+        continue-on-error: true
         if: always() && !cancelled() && steps.upload.outcome == 'success'
         uses: actions/deploy-pages@v4
+      - name: Verify repository content on GitHub Pages and fazhi.cc
+        id: verify
+        continue-on-error: true
+        timeout-minutes: 10
+        if: always() && !cancelled() && steps.upload.outcome == 'success'
+        run: python scripts/verify_news_sync.py --report sync-report.json
+      - name: Republish existing artifact when web synchronization fails
+        id: redeployment
+        continue-on-error: true
+        if: always() && !cancelled() && steps.verify.outcome == 'failure' && steps.generate.outcome == 'success'
+        uses: actions/deploy-pages@v4
+      - name: Verify the repaired publication
+        id: verify_retry
+        continue-on-error: true
+        timeout-minutes: 10
+        if: always() && !cancelled() && (steps.redeployment.outcome == 'success' || steps.redeployment.outcome == 'failure')
+        run: python scripts/verify_news_sync.py --report sync-report-retry.json
+      - name: Retain public synchronization evidence
+        if: always() && !cancelled() && (steps.verify.outcome == 'success' || steps.verify.outcome == 'failure')
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-sync-check-${{ github.run_id }}
+          path: sync-report*.json
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Report a still-unsynchronized website
+        if: always() && !cancelled() && steps.verify.outcome == 'failure' && steps.verify_retry.outcome != 'success'
+        run: exit 1
       - name: Report generation failure after preserving archives and last good site
         if: steps.generate.outcome == 'failure'
         run: exit 1

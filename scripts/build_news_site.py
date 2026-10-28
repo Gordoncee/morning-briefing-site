@@ -257,6 +257,12 @@ def build_site(archive_dir: Path, output: Path, design_dir: Path, site_url: str,
             version.update(path.relative_to(assets).as_posix().encode("utf-8"))
             version.update(path.read_bytes())
     asset_version = version.hexdigest()[:12]
+    archive_version = hashlib.sha256(json.dumps(
+        rows, ensure_ascii=False, sort_keys=True, separators=(",", ":"), allow_nan=False,
+    ).encode("utf-8")).hexdigest()
+    sync_status = {"schema_version": 1, "latest": rows[0]["date"],
+                   "briefings": len(rows), "archive_sha256": archive_version,
+                   "navigation_version": NAVIGATION_VERSION}
     shutil.copytree(assets, output / "static" / "atlas", dirs_exist_ok=True)
     # Preserve already-public legacy paths without putting their entry points in
     # the new navigation or changing the analytics/admin authentication logic.
@@ -276,6 +282,9 @@ def build_site(archive_dir: Path, output: Path, design_dir: Path, site_url: str,
             rows, ensure_ascii=False, separators=(",", ":"), allow_nan=False,
         ) + ";\n", encoding="utf-8",
     )
+    (output / "data" / "news-status.json").write_text(
+        json.dumps(sync_status, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8",
+    )
     asset_base = f"{home}static/atlas/"
     backdrop = (
         '<div class="hero-underlay" aria-hidden="true"></div>'
@@ -294,6 +303,7 @@ def build_site(archive_dir: Path, output: Path, design_dir: Path, site_url: str,
             title=h(title), description=h(description), content=content,
             case_site=h(case_site), news_home=h(news_home_url(home)), asset_base=h(asset_base),
             brand_markup=brand_markup, asset_version=asset_version,
+            archive_version=archive_version, latest_date=rows[0]["date"], page_date=stamp,
             community_feedback=template(templates, "community_feedback.html", asset_base=h(asset_base)),
             canonical=h(urljoin(site_url, f"{stamp}/" if stamp else "")),
             og_type="article" if stamp else "website",
