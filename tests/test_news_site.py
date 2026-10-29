@@ -82,6 +82,9 @@ class NewsSiteTests(unittest.TestCase):
             parser.feed(text)
             for value in parser.urls:
                 url = urlsplit(value)
+                if url.scheme == "mailto":
+                    self.assertEqual(value, "mailto:zzcgd@outlook.com")
+                    continue
                 if not url.path or (url.netloc and url.netloc != 'example.github.io'):
                     continue
                 self.assertTrue(url.path.startswith("/morning-briefing-site/"), value)
