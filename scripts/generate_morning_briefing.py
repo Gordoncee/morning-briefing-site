@@ -27,9 +27,11 @@ from typing import Any
 from concurrent.futures import ThreadPoolExecutor
 
 if __package__:
+    from .briefing_schema import normalize_briefing
     from .news_archive import (archive_briefing, archive_path, archive_source_capture,
                               load_archived_briefings, parse_briefings_js, read_source_config)
 else:
+    from briefing_schema import normalize_briefing
     from news_archive import (archive_briefing, archive_path, archive_source_capture,
                              load_archived_briefings, parse_briefings_js, read_source_config)
 
@@ -61,11 +63,24 @@ def main() -> int:
 
     today = parse_date(args.date)
     existing = load_archived_briefings(ROOT)
-    has_briefing = any(row["date"] == today.isoformat() for row in existing)
+    archived = next((row for row in existing if row["date"] == today.isoformat()), None)
+    has_briefing = archived is not None
+    repaired = False
+    if has_briefing and not args.force:
+        try:
+            canonical = normalize_briefing(archived)
+        except ValueError:
+            # An unusable archive must not make every later retry skip forever.
+            has_briefing = False
+            print(json.dumps({"date": today.isoformat(), "status": "invalid-archive-regenerating"}))
+        else:
+            if canonical != archived:
+                archive_briefing(ROOT, canonical)
+                repaired = True
     capture_file = archive_path(ROOT, "sources", today.isoformat())
     if has_briefing and capture_file.exists() and not args.force:
         rebuild_legacy_dataset()
-        print(json.dumps({"date": today.isoformat(), "status": "already-archived", "model_called": False}))
+        print(json.dumps({"date": today.isoformat(), "status": "archive-format-repaired" if repaired else "already-archived", "model_called": False}))
         return 0
 
     audit = {"statuses": [], "all_items": []}
@@ -82,9 +97,8 @@ def main() -> int:
 
     # Raw RSS is already on disk before any API operation. The workflow commits
     # it even when the model or validation fails; last good briefings stay intact.
-    previous = load_existing_briefings(DATA_FILE)
-    briefing = synthesize_briefing(today, candidates, previous)
-    validate_briefing(briefing, today)
+    previous = load_existing_briefings(DATA_FILE, exclude_date=today.isoformat())
+    briefing = generate_valid_briefing(today, candidates, previous)
     allowed_urls = {normalized_url(item["url"]) for item in candidates}
     if any(normalized_url(link) not in allowed_urls for link in briefing["sourceLinks"]):
         raise BriefingError("Model returned a source outside the collected candidate URLs.")
@@ -293,12 +307,12 @@ def normalize_date(value: str) -> str:
         return clean_space(value)
 
 
-def load_existing_briefings(path: Path) -> list[dict[str, Any]]:
+def load_existing_briefings(path: Path, exclude_date: str = "") -> list[dict[str, Any]]:
     rows = load_archived_briefings(ROOT)
     if not rows and path.exists():
         rows = sorted(parse_briefings_js(path.read_text(encoding="utf-8")),
                       key=lambda row: row["date"], reverse=True)
-    recent = rows[:14]
+    recent = [row for row in rows if row["date"] != exclude_date][:14]
     return [{"dates": [row["date"] for row in recent],
              "titles": [item["title"] for row in recent for item in row["items"]][:60],
              "links": [link for row in recent for link in row["sourceLinks"]][:120]}]
@@ -326,6 +340,7 @@ def synthesize_briefing(today: dt.date, candidates: list[dict[str, str]], previo
             "快速决策，不要输出推理过程，只输出最终JSON。",
             "输出必须是纯JSON，不要Markdown。字段必须为 date, displayDate, scope, image, summary, focus, items, sourceLinks。",
             "items每条字段必须为 title, region, sources, summary, why, watch。",
+            "date、displayDate、scope、image、summary及每条title、region、summary、why、watch均为字符串；focus、sourceLinks、sources为字符串数组。",
         ],
         "recent": previous[0] if previous else {},
         "candidates": candidates,
@@ -392,10 +407,18 @@ def parse_json_object(content: str) -> dict[str, Any]:
 
 
 def validate_briefing(briefing: dict[str, Any], today: dt.date) -> None:
+    if not isinstance(briefing, dict):
+        raise BriefingError("Briefing must be an object.")
     required = ["date", "displayDate", "scope", "image", "summary", "focus", "items", "sourceLinks"]
     for key in required:
         if key not in briefing:
             raise BriefingError(f"Missing briefing field: {key}")
+    try:
+        canonical = normalize_briefing(briefing)
+    except ValueError as error:
+        raise BriefingError(str(error)) from error
+    briefing.clear()
+    briefing.update(canonical)
     if briefing["date"] != today.isoformat():
         raise BriefingError(f"Unexpected date: {briefing['date']}")
     if not isinstance(briefing["items"], list) or len(briefing["items"]) < 3:
@@ -405,7 +428,7 @@ def validate_briefing(briefing: dict[str, Any], today: dt.date) -> None:
     for item in briefing["items"]:
         for key in ["title", "region", "sources", "summary", "why", "watch"]:
             if key not in item or not item[key]:
-                raise BriefingError(f"Invalid item missing {key}: {item}")
+                raise BriefingError(f"Invalid item missing {key}")
         if isinstance(item["sources"], str):
             item["sources"] = [item["sources"]]
     if isinstance(briefing["focus"], str):
@@ -422,6 +445,21 @@ def validate_briefing(briefing: dict[str, Any], today: dt.date) -> None:
     briefing["focus"] = briefing["focus"][:3]
     if not isinstance(briefing["sourceLinks"], list) or len(briefing["sourceLinks"]) < 3:
         raise BriefingError("Briefing must contain sourceLinks.")
+
+
+def generate_valid_briefing(today, candidates, previous):
+    """Retry one invalid model output, using the same already archived inputs."""
+    for attempt in range(2):
+        briefing = synthesize_briefing(today, candidates, previous)
+        try:
+            validate_briefing(briefing, today)
+        except BriefingError:
+            if attempt:
+                raise
+            print(json.dumps({"date": today.isoformat(), "status": "retry-invalid-model-format"}))
+        else:
+            return briefing
+    raise BriefingError("Model output validation failed.")
 
 
 def upsert_briefing(path: Path, briefing: dict[str, Any]) -> None:

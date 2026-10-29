@@ -48,7 +48,8 @@ class CloudGenerationTests(unittest.TestCase):
     def test_successful_date_is_idempotent_and_does_not_call_model(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
-            archive_briefing(root, {'date':'2026-10-15','items':[],'sourceLinks':[]})
+            archive_briefing(root, {'date':'2026-10-15', 'items':[
+                {'title':'Archived news','summary':'Archived summary','sources':[]}], 'sourceLinks':[]})
             archive_source_capture(root, '2026-10-15', [], [])
             with patch.object(generator, 'ROOT', root), patch.object(generator, 'DATA_FILE', root/'data/briefings.js'), \
                  patch.object(generator, 'collect_candidates') as collect, \

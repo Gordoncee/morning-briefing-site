@@ -9,7 +9,6 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter
-from datetime import date
 import hashlib
 from html import escape
 import json
@@ -20,8 +19,10 @@ from urllib.parse import urljoin, urlsplit
 
 if __package__:
     from .news_archive import load_briefings
+    from .briefing_schema import normalize_briefing
 else:
     from news_archive import load_briefings
+    from briefing_schema import normalize_briefing
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SITE_URL = "https://fazhi.cc/news/"
@@ -48,48 +49,8 @@ def http_url(value: object) -> str:
     return text if parsed.scheme in {"https", "http"} and parsed.netloc else ""
 
 
-def strings(value: object, label: str) -> list[str]:
-    if value is None:
-        return []
-    if not isinstance(value, list) or any(not isinstance(item, str) for item in value):
-        raise ValueError(f"{label} must be an array of strings")
-    return value
-
-
 def validate_briefing(payload: dict) -> dict:
-    row = dict(payload)
-    label = f"Briefing {row.get('date', 'unknown')}"
-    if not isinstance(row, dict):
-        raise ValueError(f"{label}: briefing metadata must be an object")
-    stamp = str(row.get("date", ""))
-    try:
-        parsed = date.fromisoformat(stamp)
-    except ValueError as error:
-        raise ValueError(f"{label}: invalid briefing date {stamp!r}") from error
-    if parsed.isoformat() != stamp:
-        raise ValueError(f"{label}: date must use YYYY-MM-DD")
-    for field in ("summary", "scope", "displayDate"):
-        if field in row and not isinstance(row[field], str):
-            raise ValueError(f"{label}: {field} must be a string")
-    row.setdefault("displayDate", f"{parsed.year}年{parsed.month}月{parsed.day}日")
-    row.setdefault("scope", "全球新闻｜科技与财经优先")
-    row.setdefault("summary", "")
-    row["focus"] = strings(row.get("focus"), f"{label}: focus")
-    row["sourceLinks"] = strings(row.get("sourceLinks"), f"{label}: sourceLinks")
-    items = row.get("items")
-    if not isinstance(items, list) or not items:
-        raise ValueError(f"{label}: items must be a non-empty array")
-    for item in items:
-        if not isinstance(item, dict):
-            raise ValueError(f"{label}: each item must be an object")
-        for field in ("title", "summary"):
-            if not isinstance(item.get(field), str) or not item[field].strip():
-                raise ValueError(f"{label}: each item needs non-empty {field}")
-        for field in ("region", "why", "watch"):
-            if not isinstance(item.get(field, ""), str):
-                raise ValueError(f"{label}: item {field} must be a string")
-        item["sources"] = strings(item.get("sources"), f"{label}: item sources")
-    return row
+    return normalize_briefing(payload)
 
 
 def read_archive(archive_dir: Path) -> list[dict]:
