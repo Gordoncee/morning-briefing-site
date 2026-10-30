@@ -1,0 +1,23 @@
+[Unit]
+Description=Check today's Fazhi news and trigger GitHub when missing
+After=network-online.target
+Wants=network-online.target
+ConditionPathExists=/etc/fazhi-news-trigger/app.json
+
+[Service]
+Type=oneshot
+User=fazhi-news-trigger
+Group=fazhi-news-trigger
+ExecStart=/usr/bin/python3 /opt/fazhi-news-trigger/check_daily_news.py --app-config /etc/fazhi-news-trigger/app.json
+TimeoutStartSec=75
+Nice=19
+CPUQuota=10%
+MemoryMax=48M
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/fazhi-news-trigger
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+

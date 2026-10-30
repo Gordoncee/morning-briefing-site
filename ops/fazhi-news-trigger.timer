@@ -1,0 +1,18 @@
+[Unit]
+Description=Independent clock for daily Fazhi news (Asia/Shanghai)
+
+[Timer]
+OnCalendar=*-*-* 07:20:00 Asia/Shanghai
+OnCalendar=*-*-* 07:45:00 Asia/Shanghai
+OnCalendar=*-*-* 08:15:00 Asia/Shanghai
+OnCalendar=*-*-* 08:45:00 Asia/Shanghai
+OnCalendar=*-*-* 09:15:00 Asia/Shanghai
+OnCalendar=*-*-* 13:15:00 Asia/Shanghai
+OnCalendar=*-*-* 16:15:00 Asia/Shanghai
+Persistent=true
+AccuracySec=30s
+RandomizedDelaySec=15s
+Unit=fazhi-news-trigger.service
+
+[Install]
+WantedBy=timers.target
