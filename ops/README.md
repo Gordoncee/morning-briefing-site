@@ -1,5 +1,7 @@
 # 每日资讯的独立触发
 
+2026-10-30 已部署到 `47.117.77.217`，专用应用 `Fazhi News Clock 20261030` 仅安装到资讯仓库。timer 已 enabled/active，重启 timer 后仍有效，`Persistent=yes`，检查服务正常退出。已通过一次受控“源站缺少当天内容”的模拟输入，由服务器真实请求 GitHub；[实测运行 40987377051](https://github.com/Gordoncee/morning-briefing-site/actions/runs/40987377051) 成功，触发者为专用 App，当天归档复用、未再次调用模型，正式网站核验通过。
+
 GitHub 的 schedule 可能延迟甚至丢弃，不能作为准点晨报的唯一时钟。这里的程序由现有 ECS 的 systemd timer 短暂调用，只检查公开网站并请求 GitHub 工作流；RSS、模型、API 密钥、MD 和构建仍在 GitHub，不向 ECS 复制新闻归档。
 
 `fazhi-news-trigger.timer` 计划在北京时间 07:20、07:45、08:15、08:45、09:15、13:15、16:15 检查。当天页面及内容版本已一致则退出；有运行中的工作流则等待；成功发起补跑后有 20 分钟冷却。原 GitHub 定时作为另一路备份保留。两路仍依赖 GitHub 执行器和模型 API，不保证任何外部平台故障期间准点成功。
