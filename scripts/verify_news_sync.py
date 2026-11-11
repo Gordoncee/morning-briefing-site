@@ -3,7 +3,7 @@
 
 Only public pages are read. No model, SSH access, credentials, server-side task,
 or cache-busting URL is needed. Repeated normal reads allow the existing proxy's
-five-minute cache and background refresh to catch up.
+cache to catch up before a real reader opens the page.
 """
 from __future__ import annotations
 
@@ -20,6 +20,7 @@ from urllib.parse import urlencode, urlsplit
 from urllib.request import Request, urlopen
 
 PUBLIC_BASES = ("https://gordoncee.github.io/morning-briefing-site/", "https://fazhi.cc/news/")
+MANIFEST_FIELDS = ("schema_version", "latest", "archive_sha256", "briefings", "navigation_version")
 
 
 class PageMetadata(HTMLParser):
@@ -36,7 +37,7 @@ class PageMetadata(HTMLParser):
             self.dates.add(attrs["data-news-date"])
 
 
-def fetch_html(url: str, timeout: float) -> str:
+def fetch_text(url: str, timeout: float) -> str:
     request = Request(url, headers={"User-Agent": "fazhi-news-sync-check/1.0",
                                     "Cache-Control": "no-cache"})
     with urlopen(request, timeout=timeout) as response:
@@ -70,15 +71,29 @@ def check_once(expected: dict, bases: list[str], timeout: float = 12) -> list[di
             raise ValueError("public-base-must-be-a-clean-https-url")
         base = base.rstrip("/") + "/"
         targets.extend([(base, "home"), (base + expected["latest"] + "/", "detail")])
+        targets.append((base + "data/news-status.json", "manifest"))
         if expected.get("navigation_version"):
-            targets.append((base + "?" + urlencode({"v": expected["navigation_version"]}), "home"))
+            params = {"v": expected["navigation_version"]}
+            targets.append((base + "?" + urlencode(params), "home"))
+            if base == PUBLIC_BASES[1]:
+                targets.append((base + "?" + urlencode(dict(params, atlas_click="1")), "home"))
 
     def check(target):
         url, kind = target
         result = {"url": url, "ok": False}
         try:
+            content = fetch_text(url, timeout)
+            if kind == "manifest":
+                observed = json.loads(content)
+                if not isinstance(observed, dict):
+                    raise ValueError("invalid-public-manifest")
+                result["observed_latest"] = observed.get("latest")
+                result["ok"] = all(observed.get(field) == expected.get(field) for field in MANIFEST_FIELDS)
+                if not result["ok"]:
+                    result["reason"] = "manifest-mismatch"
+                return result
             page = PageMetadata()
-            page.feed(fetch_html(url, timeout))
+            page.feed(content)
             result["observed_latest"] = page.metadata.get("news-latest-date")
             if page.metadata.get("news-archive-version") != expected["archive_sha256"]:
                 result["reason"] = "archive-version-mismatch"

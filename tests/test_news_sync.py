@@ -29,6 +29,8 @@ class NewsSynchronizationTests(unittest.TestCase):
                 + (f'<a data-news-date="{latest}">News</a>' if include_card else ""))
 
     def matching_page(self, url, timeout):
+        if url.endswith("/data/news-status.json"):
+            return json.dumps(self.expected)
         return self.html(page_date=self.expected["latest"] if self.expected["latest"] in url else "")
 
     def test_build_version_tracks_real_content_changes_on_the_same_date(self):
@@ -57,26 +59,44 @@ class NewsSynchronizationTests(unittest.TestCase):
                 self.assertEqual(page.metadata["news-archive-version"], corrected["archive_sha256"])
 
     def test_checks_real_home_navigation_query_and_detail_on_both_origins(self):
-        with patch.object(sync, "fetch_html", side_effect=self.matching_page) as fetch:
+        with patch.object(sync, "fetch_text", side_effect=self.matching_page) as fetch:
             checks = sync.check_once(self.expected, list(sync.PUBLIC_BASES))
-        self.assertEqual(len(checks), 6)
+        self.assertEqual(len(checks), 9)
         self.assertTrue(all(row["ok"] for row in checks))
-        self.assertEqual(fetch.call_count, 6)
-        self.assertTrue(any("fazhi.cc/news/?v=" in row["url"] for row in checks))
+        self.assertEqual(fetch.call_count, 9)
+        self.assertTrue(any("fazhi.cc/news/?v=" in row["url"] and "&atlas_click=1" in row["url"]
+                            for row in checks))
+        self.assertEqual(sum(row["url"].endswith("/data/news-status.json") for row in checks), 2)
+
+    def test_unwarmed_click_and_stale_manifest_cannot_pass_even_when_home_is_current(self):
+        def fetch(url, timeout):
+            if "fazhi.cc" in url:
+                if url.endswith("/data/news-status.json"):
+                    return json.dumps(dict(self.expected, latest="2026-10-27"))
+                if "atlas_click=1" in url:
+                    return self.html(latest="2026-10-27", version="b" * 64)
+            return self.matching_page(url, timeout)
+        with patch.object(sync, "fetch_text", side_effect=fetch):
+            checks = sync.check_once(self.expected, list(sync.PUBLIC_BASES))
+        failures = {row["url"]: row["reason"] for row in checks if not row["ok"]}
+        self.assertEqual(failures, {
+            "https://fazhi.cc/news/?v=20261026-domain&atlas_click=1": "archive-version-mismatch",
+            "https://fazhi.cc/news/data/news-status.json": "manifest-mismatch",
+        })
 
     def test_same_date_stale_canonical_page_fails_even_when_pages_is_current(self):
         def fetch(url, timeout):
-            if "fazhi.cc" in url:
+            if "fazhi.cc" in url and not url.endswith("/data/news-status.json"):
                 return self.html(version="b" * 64, page_date="2026-10-28")
             return self.matching_page(url, timeout)
-        with patch.object(sync, "fetch_html", side_effect=fetch):
+        with patch.object(sync, "fetch_text", side_effect=fetch):
             checks = sync.check_once(self.expected, list(sync.PUBLIC_BASES))
         self.assertTrue(all(row["ok"] for row in checks if "github.io" in row["url"]))
         self.assertTrue(all(row.get("reason") == "archive-version-mismatch"
-                            for row in checks if "fazhi.cc" in row["url"]))
+                            for row in checks if "fazhi.cc" in row["url"] and not row["url"].endswith(".json")))
 
     def test_matching_metadata_cannot_hide_a_missing_homepage_entry_or_wrong_detail(self):
-        with patch.object(sync, "fetch_html", return_value=self.html(include_card=False)):
+        with patch.object(sync, "fetch_text", return_value=self.html(include_card=False)):
             checks = sync.check_once(self.expected, [sync.PUBLIC_BASES[1]])
         self.assertFalse(any(row["ok"] for row in checks))
         self.assertEqual(checks[0]["reason"], "latest-briefing-missing-from-homepage")
@@ -101,13 +121,13 @@ class NewsSynchronizationTests(unittest.TestCase):
         sleep.assert_called_once_with(45)
 
     def test_exhausted_cache_or_network_failure_stays_failed_for_workflow_repair(self):
-        with patch.object(sync, "fetch_html", side_effect=TimeoutError()), patch.object(sync.time, "sleep"):
+        with patch.object(sync, "fetch_text", side_effect=TimeoutError()), patch.object(sync.time, "sleep"):
             report = sync.verify_sync(self.expected, list(sync.PUBLIC_BASES), attempts=2)
         self.assertFalse(report["ok"])
         self.assertEqual(len(report["attempts"]), 2)
 
     def test_public_404_is_recorded_without_response_body_or_credentials(self):
-        with patch.object(sync, "fetch_html", side_effect=HTTPError("https://fazhi.cc/news/", 404, "missing", {}, None)):
+        with patch.object(sync, "fetch_text", side_effect=HTTPError("https://fazhi.cc/news/", 404, "missing", {}, None)):
             checks = sync.check_once(self.expected, [sync.PUBLIC_BASES[1]])
         self.assertTrue(all(row["http_status"] == 404 and not row["ok"] for row in checks))
 
@@ -121,13 +141,13 @@ class NewsSynchronizationTests(unittest.TestCase):
                          "--attempts", "1", "--report", str(report)]
             for fetch, expected_code in [(self.matching_page, 0), (TimeoutError(), 1)]:
                 with self.subTest(exit_code=expected_code), patch.object(sys, "argv", arguments), \
-                     patch.object(sync, "fetch_html", side_effect=fetch):
+                     patch.object(sync, "fetch_text", side_effect=fetch):
                     self.assertEqual(sync.main(), expected_code)
                     self.assertEqual(json.loads(report.read_text())["ok"], expected_code == 0)
 
     def test_insecure_or_empty_public_targets_cannot_pass(self):
         for bases in [[], ["http://fazhi.cc/news/"], ["https://user:password@fazhi.cc/news/"]]:
-            with self.assertRaises(ValueError), patch.object(sync, "fetch_html") as fetch:
+            with self.assertRaises(ValueError), patch.object(sync, "fetch_text") as fetch:
                 sync.check_once(self.expected, bases)
             fetch.assert_not_called()
 

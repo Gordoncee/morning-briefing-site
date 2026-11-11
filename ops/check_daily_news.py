@@ -15,6 +15,7 @@ import re
 import stat
 import subprocess
 from urllib.error import HTTPError
+from urllib.parse import urlencode
 from urllib.request import Request, build_opener, HTTPRedirectHandler
 
 REPOSITORY = "Gordoncee/morning-briefing-site"
@@ -23,6 +24,8 @@ API = "https://api.github.com/repos/" + REPOSITORY
 GITHUB = "https://api.github.com"
 ORIGIN = "https://gordoncee.github.io/morning-briefing-site/data/news-status.json"
 PUBLIC = "https://fazhi.cc/news/"
+PUBLIC_STATUS = PUBLIC + "data/news-status.json"
+MANIFEST_FIELDS = ("schema_version", "latest", "archive_sha256", "briefings", "navigation_version")
 BEIJING = dt.timezone(dt.timedelta(hours=8))
 
 
@@ -66,19 +69,26 @@ class Metadata(HTMLParser):
             self.dates.add(attrs["data-news-date"])
 
 
-def freshness(expected, html, today):
-    if expected.get("schema_version") != 1:
+def origin_freshness(expected, today):
+    if not isinstance(expected, dict) or expected.get("schema_version") != 1:
         return "origin-status-invalid"
     if expected.get("latest") != today:
         return "today-missing-at-origin"
     version = expected.get("archive_sha256", "")
-    if not re.fullmatch(r"[a-f0-9]{64}", version):
+    if not isinstance(version, str) or not re.fullmatch(r"[a-f0-9]{64}", version):
         return "origin-version-invalid"
+    return "current"
+
+
+def freshness(expected, html, today):
+    reason = origin_freshness(expected, today)
+    if reason != "current":
+        return reason
     page = Metadata()
     page.feed(html)
     if page.values.get("news-latest-date") != today or today not in page.dates:
         return "today-missing-on-website"
-    if page.values.get("news-archive-version") != version:
+    if page.values.get("news-archive-version") != expected["archive_sha256"]:
         return "website-version-mismatch"
     return "current"
 
@@ -147,7 +157,14 @@ def check(state_dir, token_file, dry_run=False, fetch=request, now=None, app_con
     today = now.astimezone(BEIJING).date().isoformat()
     try:
         expected = json.loads(fetch(ORIGIN))
-        reason = freshness(expected, fetch(PUBLIC), today)
+        reason = origin_freshness(expected, today)
+        if reason == "current":
+            params = urlencode({"v": expected.get("navigation_version", ""), "atlas_click": "1"})
+            reason = freshness(expected, fetch(PUBLIC + "?" + params), today)
+            status = json.loads(fetch(PUBLIC_STATUS))
+            if reason == "current" and (not isinstance(status, dict) or any(
+                    status.get(field) != expected.get(field) for field in MANIFEST_FIELDS)):
+                reason = "website-status-mismatch"
     except (OSError, ValueError, KeyError):
         reason = "public-check-unavailable"
     result = {"date": today, "reason": reason, "dispatched": False}

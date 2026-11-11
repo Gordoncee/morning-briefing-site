@@ -14,7 +14,8 @@ spec.loader.exec_module(clock)
 TODAY = "2026-10-30"
 NOW = dt.datetime(2026, 10, 30, 0, 5, tzinfo=dt.timezone.utc)
 VERSION = "f" * 64
-EXPECTED = {"schema_version": 1, "latest": TODAY, "archive_sha256": VERSION}
+EXPECTED = {"schema_version": 1, "latest": TODAY, "archive_sha256": VERSION,
+            "briefings": 142, "navigation_version": "20261026-domain"}
 HTML = ('<meta name="news-latest-date" content="' + TODAY + '">'
         '<meta name="news-archive-version" content="' + VERSION + '">'
         '<a data-news-date="' + TODAY + '">today</a>')
@@ -23,11 +24,26 @@ HTML = ('<meta name="news-latest-date" content="' + TODAY + '">'
 class TriggerTests(unittest.TestCase):
     def test_current_site_exits_without_credential_or_github_dispatch(self):
         def fetch(url, **kwargs):
-            return json.dumps(EXPECTED) if url == clock.ORIGIN else HTML
+            return json.dumps(EXPECTED) if url in (clock.ORIGIN, clock.PUBLIC_STATUS) else HTML
         with tempfile.TemporaryDirectory() as temporary:
             result = clock.check(Path(temporary), Path("/missing/token"), fetch=fetch, now=NOW)
         self.assertEqual(result["reason"], "current")
         self.assertFalse(result["dispatched"])
+
+    def test_stale_status_after_current_click_is_detected(self):
+        calls = []
+        def fetch(url, **kwargs):
+            calls.append(url)
+            if url == clock.ORIGIN:
+                return json.dumps(EXPECTED)
+            if url == clock.PUBLIC_STATUS:
+                return json.dumps(dict(EXPECTED, latest="2026-10-29"))
+            return HTML
+        with tempfile.TemporaryDirectory() as temporary:
+            result = clock.check(Path(temporary), Path("/missing/token"), True, fetch, NOW)
+        self.assertEqual(result["reason"], "website-status-mismatch")
+        self.assertEqual(calls, [clock.ORIGIN, clock.PUBLIC + "?v=20261026-domain&atlas_click=1",
+                                 clock.PUBLIC_STATUS])
 
     def test_source_missing_today_and_stale_public_site_are_distinct(self):
         self.assertEqual(clock.freshness(dict(EXPECTED, latest="2026-10-29"), HTML, TODAY), "today-missing-at-origin")
@@ -37,7 +53,7 @@ class TriggerTests(unittest.TestCase):
     def test_dry_run_never_reads_secret_or_mutates(self):
         def fetch(url, **kwargs):
             self.assertFalse(kwargs)
-            return json.dumps(dict(EXPECTED, latest="2026-10-29")) if url == clock.ORIGIN else HTML
+            return json.dumps(dict(EXPECTED, latest="2026-10-29")) if url in (clock.ORIGIN, clock.PUBLIC_STATUS) else HTML
         with tempfile.TemporaryDirectory() as temporary:
             result = clock.check(Path(temporary), Path("/missing/token"), True, fetch, NOW)
             self.assertEqual(list(Path(temporary).iterdir()), [])
@@ -73,7 +89,7 @@ class TriggerTests(unittest.TestCase):
     def test_beijing_date_at_utc_day_boundary(self):
         self.assertEqual(clock.freshness(EXPECTED, HTML, TODAY), "current")
         now=dt.datetime(2026,10,29,23,59,tzinfo=dt.timezone.utc)
-        def fetch(url, **kwargs):return json.dumps(EXPECTED) if url==clock.ORIGIN else HTML
+        def fetch(url, **kwargs):return json.dumps(EXPECTED) if url in (clock.ORIGIN, clock.PUBLIC_STATUS) else HTML
         result=clock.check(Path("unused"), Path("unused"), fetch=fetch, now=now)
         self.assertEqual(result["date"], TODAY)
 
